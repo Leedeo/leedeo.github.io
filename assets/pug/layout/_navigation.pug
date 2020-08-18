@@ -1,0 +1,33 @@
+#site-info
+	.container
+		.row
+			.col-lg-9.d-none.d-lg-block
+				| Recuerda que si te gusta el contenido y se ha sido de utilidad puedes hacer una donación en #[a(href="http://" target="_blank" rel="noopener noreferrer") #[strong #[i Paypal]]]
+
+			.col-lg-3.col-md-12.text-lg-right.text-md-left
+				| Síguenos en: #[a(href="//www.facebook.com/leedeostudio" target="_blank" class="fab fa-facebook fa-lg")] #[a(href="//twitter.com/xavierocampos" target="_blank" class="fab fa-twitter fa-lg")] #[a(href="//www.instagram.com/xavier.ocampos/" target="_blank" class="fab fa-instagram fa-lg")] #[a(href="//www.youtube.com/channel/UCBZqfPIXgIUMfj7A93JSoJw" target="_blank" class="fab fa-youtube fa-lg")]
+
+header#site-header
+	.container
+		nav.navbar.navbar-expand-md.navbar-light.bg-faded
+			a.navbar-brand(href=site_url) #[img(src="assets/img/logo.png" alt="Leedeo Studio")]
+
+			button(class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+				aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation") #[span.navbar-toggler-icon]
+
+			.collapse.navbar-collapse#navbarSupportedContent
+				ul.navbar-nav
+					li.nav-item
+						a.nav-link(href=site_url) #[i.fas.fa-home] Inicio
+
+					li.nav-item
+						a.nav-link(href=site_url+"acerca-de.html") #[i.fas.fa-users] Acerca de
+
+					li.nav-item
+						a.nav-link(href="#") #[i.fas.fa-pencil-alt] Desarrollo Web
+
+					li.nav-item
+						a.nav-link(href="#") #[i.fas.fa-gamepad] Gamedev
+
+					li.nav-item
+						a.nav-link(href="https://medium.com/@javierocampos" target="_blank") #[i.fas.fa-blog] Blog
