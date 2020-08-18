@@ -1,2 +1,2 @@
-# leedeo.github.io
+# Leedeo Studio
 Sitio oficial de Leedeo Studio.
