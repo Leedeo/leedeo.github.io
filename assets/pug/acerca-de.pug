@@ -1,4 +1,4 @@
-- var site_title = "Leedeo Studio, Acerca de"
+- var title_site = "Leedeo Studio, Acerca de"
 
 doctype html
 html
@@ -7,12 +7,7 @@ html
 
 	body
 		include layout/_navigation.pug
-
-		.jumbotron.acerca-de
-			h1.display-4
-				.container
-					| Acerca de
-					p.lead Conoce más acerca de Leedeo Studio
+		include layout/_jumbotron.pug
 
 		#content.container
 			.row
