@@ -3,12 +3,12 @@
 
 doctype html
 html
-	include _variables.pug
-	include layout/_head.pug
+	include _variables
+	include layout/_head
 
 	body
-		include layout/_navigation.pug
-		include layout/_jumbotron.pug
+		include layout/_navigation
+		include layout/_jumbotron
 
 		#content.container
 			.row
@@ -38,5 +38,6 @@ html
 							cite Jane McGonigal
 
 				.col-sm-12.col-md-3
+					include layout/_sidebar
 
 		include layout/_footer.pug
