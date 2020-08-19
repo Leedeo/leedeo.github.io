@@ -11,6 +11,11 @@ html
 		include layout/_jumbotron
 
 		#content.container
+			nav(aria-label="breadcrumb")
+				ol.breadcrumb
+					li(class="breadcrumb-item"): | #[a(href=site_url) #[i.fas.fa-home] Inicio]
+					li(class="breadcrumb-item active" aria-current="page"): | Acerca de
+
 			.row
 				.col-sm-12.col-md-9
 					p Soy Javier Ocampos, fundador de #[strong Leedeo Studio], marca que originalmente fue creada como un proyecto enfocado al desarrollo de sistemas web y que más tarde decidí extender para convertirlo en mi marca personal.
