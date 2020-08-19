@@ -1,5 +1,17 @@
 footer#site-footer
-	| Esta obra está bajo una #[a(href="http://creativecommons.org/licenses/by-nc/4.0/", target="_blank", rel="license") Licencia Creative Commons Atribución-NoComercial 4.0 Internacional].
+	| Esta obra está bajo una #[a(href="http://creativecommons.org/licenses/by-nc/4.0/" target="_blank" rel="license") Licencia Creative Commons Atribución-NoComercial 4.0 Internacional].
+
+// Contacto
+div(class="modal fade" id="contactModal" tabindex="-1" aria-labelledby="contactModalLabel" aria-hidden="true")
+	.modal-dialog
+		.modal-content
+			.modal-header
+				h5.modal-title Contacto
+				button(type="button" class="close" data-dismiss="modal" aria-label="Close"): span(class="far fa-times-circle" aria-hidden="true")
+			.modal-body
+				p Puedes enviarme un correo electronico a la siguiente dirección: #[a(href="mailto:xavier.ocampos@gmail.com") xavier.ocampos@gmail.com] #[strong indicando en el asunto cual es el motivo de tu consulta]. 
+
+script(src="components/bootstrap/modal.js")
 
 // Optional JavaScript
 // jQuery first, then Popper.js, then Bootstrap JS
