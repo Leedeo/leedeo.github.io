@@ -1,0 +1,84 @@
+#site-info {
+	padding: $gutter 0;
+	background-color: $color_secondary;
+	@include font-size(0.875);
+	font-weight: 300;
+	color: rgba(255, 255, 255, 0.7);
+
+	a {
+		font-weight: 500;
+		color: #fff;
+	}
+
+	.fab {
+		margin-left: $gutter / 2;
+	}
+}
+
+#site-header {
+	background-color: #fff;
+
+	.navbar {
+		img {
+			max-width: 120px;
+		}
+
+		.navbar-collapse {
+			justify-content: flex-end;
+		}
+	}
+}
+
+.jumbotron {
+	background-position: center center;
+	background-size: cover;
+	background-attachment: fixed;
+	text-align: center;
+
+	.container {
+		position: relative;
+		z-index: 1;
+
+		h1 {
+			color: #fff;
+			p {
+				color: rgba(255, 255, 255, 0.5);
+			}
+		}
+	}
+
+	&:after {
+		content: "";
+		position: absolute;
+		top: 0;
+		right: 0;
+		bottom: 0;
+		left: 0;
+		z-index: 0;
+		background-color: rgba(33, 33, 33, 0.7);
+	}
+
+	&.acerca-de {
+		background-image: url(content/acerca-de/jumbotron/bg-sm.jpg);
+
+		@media only screen and (min-width: 720px) {
+			background-image: url(content/acerca-de/jumbotron/bg-md.jpg);
+		}
+
+		@media only screen and (min-width: 960px) {
+			background-image: url(content/acerca-de/jumbotron/bg-lg.jpg);
+		}
+	}
+
+	&.desarrollo-web {
+		background-image: url(content/desarrollo-web/jumbotron/bg-sm.jpg);
+
+		@media only screen and (min-width: 720px) {
+			background-image: url(content/desarrollo-web/jumbotron/bg-md.jpg);
+		}
+
+		@media only screen and (min-width: 960px) {
+			background-image: url(content/desarrollo-web/jumbotron/bg-lg.jpg);
+		}
+	}
+}

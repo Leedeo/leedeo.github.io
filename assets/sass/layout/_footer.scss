@@ -1,0 +1,11 @@
+#site-footer {
+	background-color: $color_primary;
+	padding: $gutter * 2;
+	@include font-size(0.9375);
+	color: rgba(255, 255, 255, 0.5);
+	text-align: center;
+
+	a {
+		color: #fff;
+	}
+}
