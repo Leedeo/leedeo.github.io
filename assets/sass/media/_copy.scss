@@ -31,3 +31,9 @@ blockquote {
 		color: $color_text;
 	}
 }
+
+a {
+	&:hover {
+		text-decoration: none;
+	}
+}
