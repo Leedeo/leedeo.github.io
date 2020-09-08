@@ -12,5 +12,37 @@
 				background-color: $color_secondary;
 			}
 		}
+
+		#inspiring-phrases {
+			background-image: url("assets/img/bg-ribbon.jpg");
+			background-position: center center;
+			background-size: cover;
+			background-attachment: fixed;
+			position: relative;
+
+			blockquote, figcaption {
+				position: relative;
+				z-index: 1;
+			}
+
+			blockquote {
+				color: #fff;
+			}
+
+			figcaption {
+				color: rgba(255, 255, 255, 0.6);
+			}
+
+			&:after {
+				content: "";
+				background-color: rgba(33, 33, 33, 0.6);
+				position: absolute;
+				top: 0;
+				right: 0;
+				bottom: 0;
+				left: 0;
+				z-index: 0;
+			}
+		}
 	}
 }
