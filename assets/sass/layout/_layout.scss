@@ -1,11 +1,3 @@
 @import "header";
-@import "sidebar";
 @import "home";
-@import "medium";
-
-#content {
-	background-color: #fff;
-	padding: $gutter * 2;
-}
-
 @import "footer";

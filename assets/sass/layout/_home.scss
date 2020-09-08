@@ -1,0 +1,16 @@
+.home {
+	#content {
+		.header-section {
+			h2 {
+				margin-bottom: $gutter * 1.5;
+			}
+
+			hr {
+				max-width: 140px;
+				height: 3px;
+				margin: 0 auto;
+				background-color: $color_secondary;
+			}
+		}
+	}
+}
