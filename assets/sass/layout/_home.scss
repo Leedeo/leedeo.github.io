@@ -44,5 +44,13 @@
 				z-index: 0;
 			}
 		}
+
+		aside {
+			a {
+				&:hover {
+					color: #fff;
+				}
+			}
+		}
 	}
 }
