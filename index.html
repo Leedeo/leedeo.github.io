@@ -134,11 +134,13 @@
 									</tr>
 									<tr>
 										<th scope="row">Motor</th>
-										<td><a href="https://godotengine.org/" target="_blank"><i class="fas fa-cog"></i> Godot Engine</a></td>
+										<td><a href="https://godotengine.org/" target="_blank"><i class="fas fa-cog"></i> Godot Engine</a>
+										</td>
 									</tr>
 									<tr>
 										<th scope="row">Descarga</th>
-										<td><button type="button" class="btn btn-secondary btn-sm" disabled><i class="fab fa-google-play"></i>
+										<td><button type="button" class="btn btn-secondary btn-sm" disabled><i
+													class="fab fa-google-play"></i>
 												Próximamente</button></td>
 									</tr>
 								</tbody>
@@ -157,14 +159,13 @@
 							<p>El juego se encuentra en una fase bastante avanzada y próximamente espero poder terminarlo y
 								<strong>publicarlo en Google Play de forma completamente gratuita</strong>.</p>
 
-
 							<h3>Capturas de pantalla</h3>
 
-							<div class="row mt-2 g-3">
+							<div class="gallery-project row mt-2 g-3">
 								<div class="col-6 col-lg-3">
 									<div class="card shadow-sm">
-										<img src="assets/img/Projects/ImmortalHero/immortal-hero-1.jpg" class="card-img-top"
-											alt="Immortal Hero">
+										<a type="button" data-toggle="modal" data-target="#imgCementery"><img
+												src="assets/img/Projects/ImmortalHero/immortal-hero-1.jpg" class="card-img-top"></a>
 										<div class="card-body">
 											<h5 class="card-title">Cementerio</h5>
 											<p class="card-text">Primer mundo, fase estándar.</p>
@@ -174,8 +175,8 @@
 
 								<div class="col-6 col-lg-3">
 									<div class="card shadow-sm">
-										<img src="assets/img/Projects/ImmortalHero/immortal-hero-2.jpg" class="card-img-top"
-											alt="Immortal Hero">
+										<a type="button" data-toggle="modal" data-target="#imgDesert"><img
+												src="assets/img/Projects/ImmortalHero/immortal-hero-2.jpg" class="card-img-top"></a>
 										<div class="card-body">
 											<h5 class="card-title">Desierto</h5>
 											<p class="card-text">Segundo mundo, fase estándar.</p>
@@ -185,8 +186,8 @@
 
 								<div class="col-6 col-lg-3">
 									<div class="card shadow-sm">
-										<img src="assets/img/Projects/ImmortalHero/immortal-hero-3.jpg" class="card-img-top"
-											alt="Immortal Hero">
+										<a type="button" data-toggle="modal" data-target="#imgSwamp"><img
+												src="assets/img/Projects/ImmortalHero/immortal-hero-3.jpg" class="card-img-top"></a>
 										<div class="card-body">
 											<h5 class="card-title">Pantano</h5>
 											<p class="card-text">Tercer mundo, fase estándar.</p>
@@ -196,11 +197,95 @@
 
 								<div class="col-6 col-lg-3">
 									<div class="card shadow-sm">
-										<img src="assets/img/Projects/ImmortalHero/immortal-hero-4.jpg" class="card-img-top"
-											alt="Immortal Hero">
+										<a type="button" data-toggle="modal" data-target="#imgLaboratory"><img
+												src="assets/img/Projects/ImmortalHero/immortal-hero-4.jpg" class="card-img-top"></a>
 										<div class="card-body">
 											<h5 class="card-title">Laboratorio</h5>
 											<p class="card-text">Cuarto mundo, fase estándar.</p>
+										</div>
+									</div>
+								</div>
+							</div>
+
+							<!-- Modal Cementery -->
+							<div class="modal fade" id="imgCementery" tabindex="-1" aria-hidden="true">
+								<div class="modal-dialog modal-dialog-centered">
+									<div class="modal-content">
+										<div class="modal-header">
+											<h5 class="modal-title" id="exampleModalLabel">Cementerio</h5>
+											<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+												<span aria-hidden="true">&times;</span>
+											</button>
+										</div>
+										<div class="modal-body mx-auto">
+											<img src="assets/img/Projects/ImmortalHero/immortal-hero-1.jpg">
+										</div>
+
+										<div class="modal-footer">
+											<button type="button" class="btn btn-secondary" data-dismiss="modal">Cerrar</button>
+										</div>
+									</div>
+								</div>
+							</div>
+
+							<!-- Modal Desert -->
+							<div class="modal fade" id="imgDesert" tabindex="-1" aria-hidden="true">
+								<div class="modal-dialog modal-dialog-centered">
+									<div class="modal-content">
+										<div class="modal-header">
+											<h5 class="modal-title" id="exampleModalLabel">Desierto</h5>
+											<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+												<span aria-hidden="true">&times;</span>
+											</button>
+										</div>
+										<div class="modal-body mx-auto">
+											<img src="assets/img/Projects/ImmortalHero/immortal-hero-2.jpg">
+										</div>
+
+										<div class="modal-footer">
+											<button type="button" class="btn btn-secondary" data-dismiss="modal">Cerrar</button>
+										</div>
+									</div>
+								</div>
+							</div>
+
+							<!-- Modal Swamp -->
+							<div class="modal fade" id="imgSwamp" tabindex="-1" aria-hidden="true">
+								<div class="modal-dialog modal-dialog-centered">
+									<div class="modal-content">
+										<div class="modal-header">
+											<h5 class="modal-title" id="exampleModalLabel">Pantano</h5>
+											<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+												<span aria-hidden="true">&times;</span>
+											</button>
+										</div>
+										<div class="modal-body mx-auto">
+											<img src="assets/img/Projects/ImmortalHero/immortal-hero-3.jpg">
+										</div>
+
+										<div class="modal-footer">
+											<button type="button" class="btn btn-secondary" data-dismiss="modal">Cerrar</button>
+										</div>
+									</div>
+								</div>
+							</div>
+
+							<!-- Modal Laboratory -->
+							<div class="modal fade" id="imgLaboratory" tabindex="-1" aria-hidden="true">
+								<div class="modal-dialog modal-dialog-centered">
+									<div class="modal-content">
+										<div class="modal-header">
+											<h5 class="modal-title" id="exampleModalLabel">Laboratorio</h5>
+											<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+												<span aria-hidden="true">&times;</span>
+											</button>
+										</div>
+										<div class="modal-body mx-auto">
+											<img src="assets/img/Projects/ImmortalHero/immortal-hero-4.jpg">
+										</div>
+
+										<div class="modal-footer">
+											<button type="button" class="btn btn-secondary" data-dismiss="modal">Cerrar</button>
 										</div>
 									</div>
 								</div>
