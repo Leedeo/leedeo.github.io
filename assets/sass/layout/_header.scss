@@ -1,5 +1,5 @@
 #site-info {
-  background-color: darken($color_secondary, 15%);
+  background-color: $color_primary;
   color: rgba(255, 255, 255, 0.6);
   padding: $gutter 0;
 }
@@ -9,6 +9,7 @@
   background-position: center center;
   background-size: cover;
   background-attachment: fixed;
+  padding: ($gutter * 10) 0;
   position: relative;
 
   .logo {
