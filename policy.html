@@ -13,17 +13,41 @@
 </head>
 
 <body class="home">
-	<nav id="site-info" class="sticky-top">
-		<div class="container-fluid text-end">
-			<div class="btn-group">
-				<a href="https://www.youtube.com/channel/UCBZqfPIXgIUMfj7A93JSoJw" target="_blank"
-					class="btn btn-primary btn-sm fab fa-youtube"></a>
-				<a href="https://www.facebook.com/leedeostudio" target="_blank"
-					class="btn btn-primary btn-sm fab fa-facebook"></a>
-				<a href="https://www.instagram.com/leedeostudio" target="_blank"
-					class="btn btn-primary btn-sm fab fa-instagram"></a>
-				<a href="https://twitter.com/leedeostudio" target="_blank" class="btn btn-primary btn-sm fab fa-twitter"></a>
+	<nav class="sticky-top navbar navbar-dark bg-dark navbar-expand-lg">
+		<div class="container-fluid">
+			<button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarText"
+				aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
+				<span class="navbar-toggler-icon"></span>
+			</button>
+
+			<div class="collapse navbar-collapse" id="navbarText">
+				<ul class="navbar-nav me-auto mb-2 mb-lg-0">
+					<li class="nav-item">
+						<a class="nav-link active" aria-current="page" href="https://leedeo.github.io/"><i
+								class="fa-solid fa-house"></i> Home</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="https://leedeo.github.io/#about-us"><i class="fa-solid fa-users"></i> Acerca de
+							nosotros</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="https://leedeo.github.io/#projects"><i class="fa-solid fa-gamepad"></i>
+							Proyectos</a>
+					</li>
+				</ul>
+
+				<span class="navbar-text">
+					<div class="btn-group">
+						<a href="https://www.youtube.com/leedeo" target="_blank" class="btn btn-primary fab fa-youtube"></a>
+						<a href="https://www.twitch.tv/leedeo" target="_blank" class="btn btn-primary fab fa-twitch"></a>
+						<a href="https://www.facebook.com/leedeostudio" target="_blank" class="btn btn-primary fab fa-facebook"></a>
+						<a href="https://www.instagram.com/leedeostudio" target="_blank"
+							class="btn btn-primary fab fa-instagram"></a>
+						<a href="https://twitter.com/leedeostudio" target="_blank" class="btn btn-primary fab fa-twitter"></a>
+					</div>
+				</span>
 			</div>
+
 		</div>
 	</nav>
 
@@ -38,10 +62,11 @@
 
 					<p>
 					<div class="btn-group">
+						<a href="https://www.youtube.com/channel/UCBZqfPIXgIUMfj7A93JSoJw/join" target="_blank"
+							rel="noopener noreferrer" class="btn btn-outline-light"><i class="fab fa-youtube"></i> Hazte miembro en
+							YouTube</a>
 						<a href="https://www.patreon.com/javierocampos" target="_blank" rel="noopener noreferrer"
 							class="btn btn-outline-light"><i class="fab fa-patreon"></i> Apóyanos en Patreon</a>
-						<a href="https://www.paypal.com/paypalme/javierocampos" target="_blank" rel="noopener noreferrer"
-							class="btn btn-outline-light"><i class="fab fa-paypal"></i> Apóyanos en Paypal</a>
 					</div>
 					</p>
 				</div>
@@ -54,7 +79,7 @@
 	</header>
 
 	<main id="content">
-		<section id="projects" class="container">
+		<section id="policy" class="container">
 			<div class="row">
 				<section id="detail-projects" class="col-12 col-md-9">
 					<p><strong>POLÍTICA DE PRIVACIDAD</strong></p>
@@ -128,7 +153,7 @@
 	<footer id="site-footer" class="mt-5 py-3 px-3 text-center">
 		Esta obra está bajo una <a href="https://creativecommons.org/licenses/by-nc/4.0/" target="_blank"
 			rel="license">Licencia Creative Commons Atribución-NoComercial 4.0 Internacional</a>.<br>
-		<a href="https://leedeo.github.io/policy.html">Política de privacidad</a>
+		<a href="https://leedeo.github.io/policy.html"><i class="fa-solid fa-lock"></i> Política de privacidad</a>
 	</footer>
 
 	<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
