@@ -44,20 +44,5 @@
 				z-index: 0;
 			}
 		}
-
-		.gallery-project {
-			.card-img-top {
-				object-fit: cover;
-				object-position: center center;
-			}
-		}
-
-		aside {
-			a {
-				&:hover {
-					color: #fff;
-				}
-			}
-		}
 	}
 }
