@@ -136,7 +136,7 @@
 
 										<div class="d-flex justify-content-between align-items-center">
 											<div class="btn-group">
-												<a href="https://youtu.be/2iVzSyNVyzg" target="_blank" class="btn btn-sm btn-success" role="button"><i class="bi bi-youtube"></i> Ver proceso</a>
+												<button class="btn btn-sm btn-success" data-bs-toggle="modal" data-bs-target="#modalLeedeoFNaF"><i class="bi bi-youtube"></i> Ver proceso</button>
 												<a href="https://leedeo.itch.io/leedeo-fnaf" target="_blank" class="btn btn-sm btn-success" role="button"><i class="bi bi-download"></i> Descargar</a>
 											</div>
 											<small><i class="bi bi-pc-display-horizontal"></i> Plataforma: PC</small>
@@ -201,6 +201,23 @@
 			</div>
 		</section>
 	</main>
+
+	<!-- Modal -->
+<div class="modal fade" id="modalLeedeoFNaF" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+  <div class="modal-dialog modal-dialog-centered modal-lg">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="staticBackdropLabel">Hice FNaF en 24 horas con Godot Engine ¡EN RTX!</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+				<div class="ratio ratio-16x9">
+					<iframe width="560" height="315" src="https://www.youtube.com/embed/2iVzSyNVyzg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+				</div>
+      </div>
+    </div>
+  </div>
+</div>
 
 	<footer id="site-footer" class="mt-0 py-3 px-3 text-center">
 		Esta obra está bajo una <a href="https://creativecommons.org/licenses/by-nc/4.0/" target="_blank"
