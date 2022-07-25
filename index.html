@@ -136,13 +136,34 @@
 		<section id="projects" class="bg-light p-5 m-0">
 			<div class="container">
 				<div class="row">
-					<section class="col-12 col-lg-8">
+					<section class="col-12 col-lg-9">
 						<header class="header-section mb-4 text-center">
 							<h2 class="text-uppercase">Proyectos</h2>
 							<hr>
 						</header>
 
-						<div class="row row-cols-1 row-cols-sm-2">
+						<div class="row row-cols-1 row-cols-sm-3">
+							<div class="col">
+								<div class="card shadow-sm border-0">
+									<img src="sections/projects/leedeo_smb/Thumbnail.jpg" alt="Leedeo FNaF" loading="lazy">
+
+									<div class="card-body">
+										<h3 class="card-title h4 mb-2"><i class="bi bi-link-45deg"></i> Leedeo Super Mario</h3>
+										<p class="mb-2"><small><i class="bi bi-pc-display-horizontal"></i> Plataforma: PC</small></p>
+										<p class="card-text">Remake del clásico <strong>Super Mario Bros</strong>, de la mítica <strong>Nintendo NES</strong> de 8 bits, pero en 3D con RTX, desarrollado con <strong>Godot Engine</strong>.</p>
+
+										<p class="card-text">Nuevamente, se trata de un reto de <strong>recrear un videojuego en 24 horas</strong>, y tomando en cuenta quienes son sus desarrolladores originales, solo he he reproducido el primer nivel.</p>
+
+										<div class="d-flex justify-content-between align-items-center">
+											<div class="btn-group">
+												<button class="btn btn-sm btn-primary" data-bs-toggle="modal" data-bs-target="#modalLeedeoSMB"><i class="bi bi-youtube"></i> Proceso</button>
+												<a href="https://leedeo.itch.io/leedeo-super-mario" target="_blank" class="btn btn-sm btn-primary" role="button"><i class="bi bi-download"></i> Descargar</a>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+
 							<div class="col">
 								<div class="card shadow-sm border-0">
 									<img src="sections/projects/leedeo_fnaf/Thumbnail.jpg" alt="Leedeo FNaF" loading="lazy">
@@ -152,7 +173,7 @@
 										<p class="mb-2"><small><i class="bi bi-pc-display-horizontal"></i> Plataforma: PC</small></p>
 										<p class="card-text">Fangame <strong>desarrollado en Godot Engine</strong> del popular juego <strong>Five Nights at Freddy's</strong>.</p>
 
-										<p class="card-text">Se trata de un reto de <strong>crear un videojuego en 24 horas</strong> que realice para el canal de <strong>Leedeo Studio</strong> por petición popular, en el que prácticamente hice todo desde cero, sin usar prácticamente recursos de terceros.</strong></p>
+										<p class="card-text">Se trata de un reto de <strong>recrear un videojuego en 24 horas</strong> que realice para el canal de <strong>Leedeo Studio</strong> por petición popular, en el que prácticamente hice todo desde cero, sin usar prácticamente recursos de terceros.</strong></p>
 
 										<div class="d-flex justify-content-between align-items-center">
 											<div class="btn-group">
@@ -187,34 +208,26 @@
 						</div>
 					</section>
 
-					<aside class="col-12 col-lg-4 mt-4 mt-md-0">
+					<aside class="col-12 col-lg-3">
 						<header class="header-section mb-4 text-center">
 							<h2 class="text-uppercase">En proceso</h2>
 							<hr>
 						</header>
 
-						<div class="row g-0 bg-white border-0 rounded overflow-hidden flex-md-row mb-4 shadow-sm h-md-250 position-relative">
-							<div class="col p-4 d-flex flex-column position-static">
-								<h4 class="h5"><i class="bi bi-link-45deg"></i> Immortal Hero: Monster Chaser</h4>
+						<div class="list-group">
+							<a href="https://leedeo.github.io/monster_chaser.html" class="list-group-item list-group-item-action" aria-current="true">
+								<div class="d-flex w-100 justify-content-between">
+									<h5 class="mb-1 h5"><i class="bi bi-link-45deg"></i> Immortal Hero: Monster Chaser <span class="badge bg-primary rounded-pill">3</span></h5>
+								</div>
 								<p><small><i class="bi bi-controller"></i> Beat'em up / Puzzles</small></p>
-								<p><a href="https://leedeo.github.io/monster_chaser.html" class="btn btn-sm btn-primary" role="button"><i class="bi bi-link-45deg"></i> Leer más</a></p>
-							</div>
+							</a>
 
-							<div class="col-auto d-none d-lg-block">
-								<img src="sections/projects/immortal_hero_monster_chaser/Thumbnail.jpg" alt="Immortal Hero: Monster Chaser">
-							</div>
-						</div>
-
-						<div class="row g-0 bg-white border-0 rounded overflow-hidden flex-md-row mb-4 shadow-sm h-md-250 position-relative">
-							<div class="col p-4 d-flex flex-column position-static">
-								<h4 class="h5"><i class="bi bi-link-45deg"></i> Immortal Hero: The Sorcerer</h4>
+							<a href="https://leedeo.github.io/the_sorcerer.html" class="list-group-item list-group-item-action">
+								<div class="d-flex w-100 justify-content-between">
+									<h5 class="mb-1 h5"><i class="bi bi-link-45deg"></i> Immortal Hero: The Sorcerer <span class="badge bg-primary rounded-pill">5</span></h5>
+								</div>
 								<p><small><i class="bi bi-controller"></i> Breakout / Shoot'Em Up</small></p>
-								<p><a href="https://leedeo.github.io/the_sorcerer.html" class="btn btn-sm btn-primary" role="button"><i class="bi bi-link-45deg"></i> Leer más</a></p>
-							</div>
-
-							<div class="col-auto d-none d-lg-block">
-								<img src="sections/projects/immortal_hero_the_sorcerer/Thumbnail.jpg" alt="Immortal Hero: The Sorcerer">
-							</div>
+							</a>
 						</div>
 					</aside>
 				</div>
@@ -227,12 +240,28 @@
 		<div class="modal-dialog modal-dialog-centered modal-lg">
 			<div class="modal-content">
 				<div class="modal-header">
-					<h5 class="modal-title" id="staticBackdropLabel">Hice FNaF en 24 horas con Godot Engine ¡EN RTX!</h5>
+					<h5 class="modal-title" id="staticBackdropLabel">Hice FNaF en 24 horas con EN RTX ¡En Godot Engine!</h5>
 					<button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
 				</div>
 				<div class="modal-body">
 					<div class="ratio ratio-16x9">
 						<iframe width="560" height="315" src="https://www.youtube.com/embed/2iVzSyNVyzg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<div class="modal fade" id="modalLeedeoSMB" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+		<div class="modal-dialog modal-dialog-centered modal-lg">
+			<div class="modal-content">
+				<div class="modal-header">
+					<h5 class="modal-title" id="staticBackdropLabel">Hice Super Mario Bros en 24 horas con EN RTX ¡En Godot Engine!</h5>
+					<button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+				</div>
+				<div class="modal-body">
+					<div class="ratio ratio-16x9">
+						<iframe width="560" height="315" src="https://www.youtube.com/embed/IBhR9XQxLpQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 					</div>
 				</div>
 			</div>
