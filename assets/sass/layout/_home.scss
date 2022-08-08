@@ -44,5 +44,11 @@
 				z-index: 0;
 			}
 		}
+
+		#projects {
+			.col {
+				margin-bottom: $gutter * 2;
+			}
+		}
 	}
 }
