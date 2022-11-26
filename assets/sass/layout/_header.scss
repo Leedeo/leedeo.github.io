@@ -8,12 +8,11 @@
   background-image: url("sections/home/hero-image.jpg");
   background-position: center center;
   background-size: cover;
-  background-attachment: fixed;
   padding: ($gutter * 10) 0;
   position: relative;
 
   .logo {
-    max-width: 260px;
+    max-width: 340px;
   }
 
   .lead {
@@ -31,9 +30,12 @@
 
     h1 {
       color: #fff;
-      p {
-        color: rgba(255, 255, 255, 0.5);
-      }
+      font-size: 2.4rem;
+    }
+
+    p {
+      color: rgba(255, 255, 255, 0.5);
+      font-size: 1.1rem;
     }
   }
 }
