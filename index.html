@@ -23,33 +23,39 @@
 </head>
 
 <body class="home">
-	<header id="hero-image" class="mb-5">
-		<nav class="navbar navbar-dark navbar-expand-lg">
-			<div class="container">
-				<button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarText"
-					aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
-					<span class="navbar-toggler-icon"></span>
-				</button>
-	
-				<div class="collapse navbar-collapse" id="navbarText">
-					<ul class="navbar-nav me-auto mb-2 mb-lg-0">
+	<nav class="navbar navbar-expand-lg navbar-dark bg-dark sticky-top">
+		<div class="container-fluid">
+
+
+			<button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar">
+				<span class="navbar-toggler-icon"></span>
+			</button>
+
+			<div class="offcanvas offcanvas-end text-bg-dark" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
+				<div class="offcanvas-header">
+					<h5 class="offcanvas-title" id="offcanvasNavbarLabel">Leedeo Studio</h5>
+					<button type="button" class="btn-close btn-close-white" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+				</div>
+
+				<div class="offcanvas-body">
+					<ul class="navbar-nav me-auto mb-3 mb-lg-0">
 						<li class="nav-item">
-							<a class="nav-link active" aria-current="page" href="https://leedeo.github.io/"><i class="bi bi-house"></i>
-								Inicio</a>
+							<a class="nav-link active" aria-current="page" href="https://leedeo.github.io/"><i class="bi bi-house"></i> Inicio</a>
 						</li>
 						<li class="nav-item">
-							<a class="nav-link" href="https://leedeo.github.io/#about-us"><i class="bi bi-people-fill"></i> Acerca de
-								nosotros</a>
+							<a class="nav-link" href="https://leedeo.github.io/#about-us"><i class="bi bi-people-fill"></i> Acerca de nosotros</a>
 						</li>
 						<li class="nav-item">
 							<a class="nav-link" href="https://leedeo.github.io/#projects"><i class="bi bi-controller"></i> Proyectos</a>
 						</li>
 						<li class="nav-item">
-							<a class="nav-link" href="https://store.streamelements.com/leedeo-8211" target="_blank"><i
-									class="bi bi-bag"></i> Tienda oficial</a>
+							<a class="nav-link" href="https://leedeo.tumblr.com/" target="_blank"><i class="bi bi-file-earmark-text"></i> Blog</a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link" href="https://store.streamelements.com/leedeo-8211" target="_blank"><i class="bi bi-bag"></i> Tienda oficial</a>
 						</li>
 					</ul>
-	
+
 					<span class="navbar-text">
 						<span class="me-2">Síguenos en:</span>
 						<div class="btn-group btn-group-sm">
@@ -61,10 +67,11 @@
 						</div>
 					</span>
 				</div>
-	
 			</div>
-		</nav>
-		
+		</div>
+	</nav>
+
+	<header id="hero-image" class="mb-5">	
 		<div class="container text-center">
 			<p class="mb-4"><a href="https://leedeo.github.io/"><img class="logo" src="logo.png" alt="Leedeo Studio"></a>
 			</p>
