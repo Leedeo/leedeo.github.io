@@ -18,7 +18,6 @@
 			background-position: center center;
 			background-size: cover;
 			background-attachment: fixed;
-			backdrop-filter: blur(4px);
 			position: relative;
 
 			blockquote,
@@ -38,6 +37,7 @@
 			&:after {
 				content: "";
 				background-color: rgba(33, 33, 33, 0.7);
+				backdrop-filter: blur(3px);
 				position: absolute;
 				top: 0;
 				right: 0;
