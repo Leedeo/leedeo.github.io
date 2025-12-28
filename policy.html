@@ -2,166 +2,200 @@
 <html lang="es">
 
 <head>
-	<meta charset="UTF-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<meta http-equiv="X-Frame-Options" content="deny">
-	<title>Política de privacidad | Leedeo Studio</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-	<link rel="shortcut icon" href="favicon.png" type="image/png">
-	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.3/font/bootstrap-icons.css">
-	<link rel="stylesheet" href="bootstrap-custom.css">
-	<link rel="stylesheet" href="style.css">
+  <!-- SEO & Metadatos -->
+  <title>Políticas de Privacidad | Leedeo Studio</title>
+  <meta name="description"
+    content="Información detallada sobre el tratamiento de datos, privacidad y seguridad en Leedeo Studio y sus aplicaciones.">
+  <meta name="author" content="Javo - Leedeo Studio">
+  <link rel="canonical" href="https://leedeo.github.io/policy.html" />
 
-	<!-- Global site tag (gtag.js) - Google Analytics -->
-	<script async src="https://www.googletagmanager.com/gtag/js?id=G-2SB71QMPV3"></script>
-	<script>
-		window.dataLayer = window.dataLayer || [];
-		function gtag() { dataLayer.push(arguments); }
-		gtag('js', new Date());
+  <!-- Open Graph -->
+  <meta property="og:title" content="Políticas de Privacidad | Leedeo Studio">
+  <meta property="og:description" content="Transparencia y seguridad en el uso de nuestros recursos y software.">
+  <meta property="og:url" content="https://leedeo.github.io/policy.html">
+  <meta property="og:type" content="website">
 
-		gtag('config', 'G-2SB71QMPV3');
-	</script>
+  <script src="https://cdn.tailwindcss.com"></script>
+
+  <link rel="shortcut icon" href="favicon.png" type="image/png">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@300;400;600;800&display=swap');
+
+    body {
+      font-family: 'Plus Jakarta Sans', sans-serif;
+      background-color: #05010d;
+      color: #f1f5f9;
+    }
+
+    .hero-gradient {
+      background: radial-gradient(circle at 50% 0%, rgba(139, 92, 246, 0.15) 0%, rgba(5, 1, 13, 1) 70%);
+    }
+
+    .glass-card {
+      background: rgba(18, 10, 31, 0.6);
+      backdrop-filter: blur(12px);
+      border: 1px solid rgba(255, 255, 255, 0.05);
+    }
+
+    .gradient-text {
+      background: linear-gradient(135deg, #a78bfa 0%, #f472b6 100%);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+    }
+
+    .policy-content h2 {
+      font-size: 1.5rem;
+      font-weight: 700;
+      color: #a78bfa;
+      margin-top: 2.5rem;
+      margin-bottom: 1rem;
+      display: flex;
+      align-items: center;
+      gap: 0.75rem;
+    }
+
+    .policy-content p,
+    .policy-content li {
+      color: #94a3b8;
+      line-height: 1.8;
+      margin-bottom: 1.25rem;
+    }
+
+    .policy-content ul {
+      list-style-type: none;
+      padding-left: 0.5rem;
+    }
+
+    .policy-content li::before {
+      content: "•";
+      color: #7c3aed;
+      font-weight: bold;
+      display: inline-block;
+      width: 1em;
+      margin-left: -1em;
+    }
+  </style>
 </head>
 
-<body class="home">
-	<nav class="navbar navbar-expand-lg navbar-dark bg-dark sticky-top">
-		<div class="container-fluid">
+<body class="selection:bg-violet-500/30">
 
+  <!-- Header / Nav -->
+  <nav class="fixed top-0 w-full z-50 bg-[#05010d]/90 backdrop-blur-lg border-b border-white/5">
+    <div class="max-w-4xl mx-auto px-6 h-20 flex items-center justify-between">
+      <a href="https://leedeo.github.io/" class="text-xl font-extrabold tracking-tighter flex items-center gap-2">
+        <span class="text-violet-500 underline decoration-2 underline-offset-4">LEEDEO</span> STUDIO
+      </a>
+      <a href="https://leedeo.github.io/"
+        class="text-xs font-bold uppercase tracking-widest text-slate-400 hover:text-white transition-colors flex items-center gap-2">
+        <i class="fas fa-arrow-left"></i> Volver al inicio
+      </a>
+    </div>
+  </nav>
 
-			<button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar"
-				aria-controls="offcanvasNavbar">
-				<span class="navbar-toggler-icon"></span>
-			</button>
+  <main class="relative min-h-screen pt-32 pb-24 px-6 hero-gradient">
+    <div class="max-w-3xl mx-auto">
 
-			<div class="offcanvas offcanvas-end text-bg-dark" tabindex="-1" id="offcanvasNavbar"
-				aria-labelledby="offcanvasNavbarLabel">
-				<div class="offcanvas-header">
-					<h5 class="offcanvas-title" id="offcanvasNavbarLabel">Leedeo Studio</h5>
-					<button type="button" class="btn-close btn-close-white" data-bs-dismiss="offcanvas"
-						aria-label="Close"></button>
-				</div>
+      <header class="mb-16 text-center">
+        <h1 class="text-4xl md:text-5xl font-black mb-6 tracking-tight">Políticas de <span
+            class="gradient-text">Privacidad</span></h1>
+        <p class="text-slate-500 font-medium tracking-wide">Última actualización: 28 de Diciembre, 2025</p>
+        <div class="h-1 w-20 bg-violet-500 mx-auto rounded-full mt-6"></div>
+      </header>
 
-				<div class="offcanvas-body">
-					<ul class="navbar-nav me-auto mb-3 mb-lg-0">
-						<li class="nav-item">
-							<a class="nav-link active" aria-current="page" href="https://leedeo.github.io/"><i
-									class="bi bi-house"></i> Inicio</a>
-						</li>
-						<li class="nav-item">
-							<a class="nav-link" href="https://leedeo.github.io/#about-us"><i class="bi bi-people-fill"></i> Acerca de
-								nosotros</a>
-						</li>
-						<li class="nav-item">
-							<a class="nav-link" href="https://leedeo.github.io/#projects"><i class="bi bi-controller"></i>
-								Proyectos</a>
-						</li>
-					</ul>
+      <div class="glass-card rounded-[2.5rem] p-8 md:p-12 policy-content shadow-2xl">
 
-					<span class="navbar-text">
-						<span class="me-2">Síguenos en:</span>
-						<div class="btn-group btn-group-sm">
-							<a href="https://www.youtube.com/leedeo" target="_blank" class="btn btn-primary bi bi-youtube"></a>
-							<a href="https://www.tiktok.com/@leedeostudio" target="_blank" class="btn btn-primary bi bi-tiktok"></a>
-							<a href="https://twitter.com/leedeostudio" target="_blank" class="btn btn-primary bi bi-twitter"></a>
-							<a href="https://www.facebook.com/leedeostudio" target="_blank" class="btn btn-primary bi bi-facebook"></a>
-						</div>
-					</span>
-				</div>
-			</div>
-		</div>
-	</nav>
+        <section>
+          <h2><i class="fas fa-info-circle"></i> Introducción</h2>
+          <p>
+            En <strong>Leedeo Studio</strong> (liderado por Javo), nos tomamos muy en serio la transparencia y la
+            privacidad de nuestros usuarios. Esta política describe cómo manejamos la información en nuestro sitio web
+            oficial y en todas las aplicaciones, juegos o herramientas (como scripts de optimización) que publicamos.
+          </p>
+          <p>
+            Al utilizar nuestros servicios, aceptas las prácticas descritas en este documento. Garantizamos que no
+            vendemos tus datos a terceros ni los utilizamos para fines ajenos a la mejora técnica y de experiencia de
+            usuario.
+          </p>
+        </section>
 
-	<header id="hero-image" class="mb-5">
-		<div class="container text-center">
-			<p class="mb-4"><a href="https://leedeo.github.io/"><img class="logo" src="logo.png" alt="Logo de Leedeo Studio: Desarrollo de Videojuegos Indie con Godot Engine"></a></p>
-			<h1 class="text-uppercase display-5 mb-0">Política de privacidad</h1>
-			<p class="lead text-uppercase">Leedeo Studio</p>
-		</div>
-	</header>
+        <section>
+          <h2><i class="fas fa-database"></i> Datos que Recopilamos</h2>
+          <p>Dependiendo de tu nivel de interacción, podemos gestionar los siguientes tipos de datos:</p>
+          <ul>
+            <li><strong>Datos Técnicos:</strong> Información anónima sobre el dispositivo y el navegador para asegurar
+              la compatibilidad del sitio.</li>
+            <li><strong>Software y Scripts:</strong> Proyectos como "Leedeo Cleaner" son de código abierto y están
+              diseñados para <strong>no recopilar</strong> información personal ni telemetría privada. Su función es
+              estrictamente local en el sistema del usuario.</li>
+            <li><strong>Servicios de Terceros:</strong> Al descargar software desde Google Play o Itch.io, dichas
+              plataformas pueden recolectar estadísticas básicas (descargas, errores técnicos, región) de forma agregada
+              para ayudarnos a mejorar el producto.</li>
+          </ul>
+        </section>
 
-	<main id="content" class="container">
-		<nav aria-label="breadcrumb" class="alert alert-primary">
-			<ol class="breadcrumb mb-0">
-				<li class="breadcrumb-item"><a href="https://leedeo.github.io/"><i class="bi bi-house"></i> Inicio</a></li>
-				<li class="breadcrumb-item active" aria-current="page">Política de privacidad</li>
-			</ol>
-		</nav>
+        <section>
+          <h2><i class="fas fa-shield-alt"></i> Seguridad en Aplicaciones Móviles</h2>
+          <p>
+            Nuestras aplicaciones en <strong>Google Play Store</strong> cumplen con todas las normativas de seguridad
+            vigentes. No solicitamos permisos sensibles (acceso a archivos, cámara o ubicación) a menos que sean
+            estrictamente necesarios para la mecánica del juego o la utilidad de la herramienta.
+          </p>
+        </section>
 
-		<p>El presente Política de Privacidad establece los términos en que Leedeo Studio usa y protege la información que
-			es proporcionada por sus usuarios al momento de utilizar su sitio web. Esta compañía está comprometida con la
-			seguridad de los datos de sus usuarios. Cuando le pedimos llenar los campos de información personal con la cual
-			usted pueda ser identificado, lo hacemos asegurando que sólo se empleará de acuerdo con los términos de este
-			documento. Sin embargo esta Política de Privacidad puede cambiar con el tiempo o ser actualizada por lo que le
-			recomendamos y enfatizamos revisar continuamente esta página para asegurarse que está de acuerdo con dichos
-			cambios.</p>
+        <section>
+          <h2><i class="fas fa-cookie-bite"></i> Cookies y Análisis</h2>
+          <p>
+            Utilizamos cookies técnicas para el funcionamiento del sitio y herramientas de análisis (como Google
+            Analytics) para identificar qué contenido o tutoriales son más útiles para la comunidad. Puedes optar por
+            desactivar las cookies en la configuración de tu navegador sin que esto afecte el acceso a la información
+            general.
+          </p>
+        </section>
 
-		<h2>Información que es recogida</h2>
+        <section>
+          <h2><i class="fas fa-external-link-alt"></i> Enlaces Externos</h2>
+          <p>
+            Este sitio contiene enlaces a plataformas externas (YouTube, Ko-fi, GitHub, WhatsApp). No tenemos control
+            sobre las políticas de privacidad de estos sitios ajenos, por lo que recomendamos leer sus propios términos
+            al visitarlos.
+          </p>
+        </section>
 
-		<p>Nuestro sitio web podrá recoger información personal por ejemplo: Nombre,&nbsp; información de contacto
-			como&nbsp; su dirección de correo electrónica e información demográfica. Así mismo cuando sea necesario podrá ser
-			requerida información específica para procesar algún pedido o realizar una entrega o facturación.</p>
+        <section>
+          <h2><i class="fas fa-envelope"></i> Contacto y Soporte</h2>
+          <p>
+            Para cualquier duda relacionada con la privacidad de tus datos o el comportamiento técnico de nuestro
+            software, puedes contactar directamente a través de los canales oficiales listados en nuestra página de
+            inicio.
+          </p>
+        </section>
 
-		<h2>Uso de la información recogida</h2>
+        <div class="mt-16 pt-8 border-t border-white/5 text-center">
+          <a href="https://leedeo.github.io/"
+            class="inline-flex items-center gap-3 bg-violet-600 hover:bg-violet-500 text-white px-8 py-4 rounded-2xl font-bold transition-all hover:scale-105 shadow-xl shadow-violet-900/20">
+            Entendido, volver al inicio
+          </a>
+        </div>
+      </div>
 
-		<p>Nuestro sitio web emplea la información con el fin de proporcionar el mejor servicio posible, particularmente
-			para mantener un registro de usuarios, de pedidos en caso que aplique, y mejorar nuestros productos y servicios.
-			&nbsp;Es posible que sean enviados correos electrónicos periódicamente a través de nuestro sitio con ofertas
-			especiales, nuevos productos y otra información publicitaria que consideremos relevante para usted o que pueda
-			brindarle algún beneficio, estos correos electrónicos serán enviados a la dirección que usted proporcione y podrán
-			ser cancelados en cualquier momento.</p>
+      <footer class="mt-16 text-center">
+        <div
+          class="text-slate-500 text-[10px] md:text-xs font-bold tracking-[0.4em] uppercase opacity-80 leading-loose">
+          © <span id="year-display"></span> LEEDEO STUDIO • JAVO • CREACIÓN DE VIDEOJUEGOS Y SOFTWARE
+        </div>
+      </footer>
+    </div>
+  </main>
 
-		<p>Leedeo Studio está altamente comprometido para cumplir con el compromiso de mantener su información segura.
-			Usamos los sistemas más avanzados y los actualizamos constantemente para asegurarnos que no exista ningún acceso
-			no autorizado.</p>
-
-		<h2>Cookies</h2>
-
-		<p>Una cookie se refiere a un fichero que es enviado con la finalidad de solicitar permiso para almacenarse en su
-			ordenador, al aceptar dicho fichero se crea y la cookie sirve entonces para tener información respecto al tráfico
-			web, y también facilita las futuras visitas a una web recurrente. Otra función que tienen las cookies es que con
-			ellas las web pueden reconocerte individualmente y por tanto brindarte el mejor servicio personalizado de su web.
-		</p>
-
-		<p>Nuestro sitio web emplea las cookies para poder identificar las páginas que son visitadas y su frecuencia. Esta
-			información es empleada únicamente para análisis estadístico y después la información se elimina de forma
-			permanente. Usted puede eliminar las cookies en cualquier momento desde su ordenador. Sin embargo las cookies
-			ayudan a proporcionar un mejor servicio de los sitios web, estás no dan acceso a información de su ordenador ni de
-			usted, a menos de que usted así lo quiera y la proporcione directamente. Usted puede aceptar o negar el uso de
-			cookies, sin embargo la mayoría de navegadores aceptan cookies automáticamente pues sirve para tener un mejor
-			servicio web. También usted puede cambiar la configuración de su ordenador para declinar las cookies. Si se
-			declinan es posible que no pueda utilizar algunos de nuestros servicios.</p>
-
-		<h2>Enlaces a Terceros</h2>
-
-		<p>Este sitio web pudiera contener en laces a otros sitios que pudieran ser de su interés. Una vez que usted de clic
-			en estos enlaces y abandone nuestra página, ya no tenemos control sobre al sitio al que es redirigido y por lo
-			tanto no somos responsables de los términos o privacidad ni de la protección de sus datos en esos otros sitios
-			terceros. Dichos sitios están sujetos a sus propias políticas de privacidad por lo cual es recomendable que los
-			consulte para confirmar que usted está de acuerdo con estas.</p>
-
-		<h2>Control de su información personal</h2>
-
-		<p>En cualquier momento usted puede restringir la recopilación o el uso de la información personal que es
-			proporcionada a nuestro sitio web.&nbsp; Cada vez que se le solicite rellenar un formulario, como el de alta de
-			usuario, puede marcar o desmarcar la opción de recibir información por correo electrónico. &nbsp;En caso de que
-			haya marcado la opción de recibir nuestro boletín o publicidad usted puede cancelarla en cualquier momento.</p>
-
-		<p>Esta compañía no venderá, cederá ni distribuirá la información personal que es recopilada sin su consentimiento,
-			salvo que sea requerido por un juez con un orden judicial.</p>
-
-		<p>Leedeo Studio Se reserva el derecho de cambiar los términos de la presente Política de Privacidad en cualquier
-			momento.</p>
-	</main>
-
-	<footer id="site-footer" class="mt-5 py-3 px-3 text-center">
-		© 2015-
-		<script>var f = new Date(); document.write(f.getFullYear());</script> Leedeo Studio. Sitio web alojado en GitHub
-		Pages.<br>
-		<a href="https://leedeo.github.io/policy.html"><i class="bi bi-shield-lock"></i> Política de privacidad</a>
-	</footer>
-
-	<!-- Bootstrap JS -->
-	<script src="assets/bootstrap/js/bootstrap.min.js"></script>
+  <script>
+    // Actualización automática del año de copyright
+    document.getElementById('year-display').textContent = new Date().getFullYear();
+  </script>
 </body>
 
 </html>

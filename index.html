@@ -1,402 +1,366 @@
 <!DOCTYPE html>
-<html lang="es">
+<html lang="es" class="scroll-smooth">
 
 <head>
-	<title>Leedeo Studio: Desarrollo de Videojuegos Indie con Godot Engine</title>
-	<meta charset="UTF-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<meta http-equiv="X-Frame-Options" content="deny">
-	<meta name="description"
-		content="Leedeo Studio: Cursos, contenido y desarrollo de videojuegos. Recursos para Game Devs, reseñas y más. ¡Únete a nuestra comunidad!">
-	<meta name="keywords"
-		content="Godot Engine, Desarrollo de Videojuegos, Game Dev, Indie Game Dev, desarrollo de videojuegos indie, cursos desarrollo videojuegos, reseñas videojuegos, creadores de contenido, tabletas gráficas, micrófonos para creadores de contenido">
-	<link rel="canonical" href="https://leedeo.github.io/">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-	<link rel="shortcut icon" href="favicon.png" type="image/png">
-	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.3/font/bootstrap-icons.css">
-	<link rel="stylesheet" href="bootstrap-custom.css">
-	<link rel="stylesheet" href="style.css">
+  <!-- SEO Equilibrado -->
+  <title>Leedeo Studio | Javo - Desarrollo de Videojuegos y Diseño Digital</title>
+  <meta name="description"
+    content="Recursos y formación para creadores de videojuegos. Tutoriales prácticos de Godot Engine, diseño con Affinity y consejos de visibilidad para tus proyectos.">
+  <meta name="keywords"
+    content="Leedeo Studio, Javo, desarrollo de videojuegos, tutoriales Godot Engine, diseño digital, optimización windows, creación de juegos">
+  <meta name="author" content="Javo - Leedeo Studio">
 
-	<!-- Global site tag (gtag.js) - Google Analytics -->
-	<script async src="https://www.googletagmanager.com/gtag/js?id=G-2SB71QMPV3"></script>
-	<script>
-		window.dataLayer = window.dataLayer || [];
-		function gtag() { dataLayer.push(arguments); }
-		gtag('js', new Date());
+  <!-- Open Graph -->
+  <meta property="og:title" content="Leedeo Studio | Creación de Videojuegos y Software">
+  <meta property="og:description"
+    content="Aprende el proceso real de crear videojuegos y optimizar tus herramientas de trabajo.">
+  <meta property="og:type" content="website">
 
-		gtag('config', 'G-2SB71QMPV3');
-	</script>
+  <script src="https://cdn.tailwindcss.com"></script>
+
+  <link rel="shortcut icon" href="favicon.png" type="image/png">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@300;400;600;800&display=swap');
+
+    body {
+      font-family: 'Plus Jakarta Sans', sans-serif;
+      background-color: #05010d;
+      color: #f1f5f9;
+    }
+
+    .hero-gradient {
+      background: radial-gradient(circle at 50% 50%, rgba(139, 92, 246, 0.12) 0%, rgba(5, 1, 13, 1) 80%);
+    }
+
+    .glass-card {
+      background: rgba(18, 10, 31, 0.6);
+      backdrop-filter: blur(12px);
+      border: 1px solid rgba(255, 255, 255, 0.05);
+      transition: all 0.4s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+    }
+
+    .glass-card:hover {
+      transform: translateY(-8px);
+      border-color: #a78bfa;
+      box-shadow: 0 25px 50px -12px rgba(139, 92, 246, 0.2);
+    }
+
+    .gradient-text {
+      background: linear-gradient(135deg, #a78bfa 0%, #f472b6 100%);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+      /* Padding extra para asegurar que las letras con descendentes (g, j, p, q, y) no se corten */
+      padding-bottom: 0.2em;
+      margin-bottom: -0.2em;
+      display: inline-block;
+    }
+
+    .btn-primary {
+      background: linear-gradient(135deg, #7c3aed 0%, #a855f7 100%);
+      box-shadow: 0 10px 20px -5px rgba(124, 58, 237, 0.4);
+    }
+
+    .reveal {
+      opacity: 0;
+      transform: translateY(20px);
+      transition: all 0.7s ease-out;
+    }
+
+    .reveal.active {
+      opacity: 1;
+      transform: translateY(0);
+    }
+
+    .wa-badge {
+      background: rgba(34, 197, 94, 0.1);
+      border: 1px solid rgba(34, 197, 94, 0.2);
+      color: #4ade80;
+    }
+
+    /* Ajuste de interlineado para evitar solapamientos visuales */
+    h1 {
+      line-height: 1.3 !important;
+    }
+  </style>
 </head>
 
-<body class="home">
-	<!-- Menú Principal -->
-	<nav class="navbar navbar-expand-lg navbar-dark bg-dark sticky-top">
-		<div class="container-fluid">
+<body class="selection:bg-violet-500/30">
 
+  <!-- Navegación -->
+  <nav class="fixed top-0 w-full z-50 bg-[#05010d]/90 backdrop-blur-lg border-b border-white/5">
+    <div class="max-w-7xl mx-auto px-6 h-20 flex items-center justify-between">
+      <a href="#" class="text-2xl font-extrabold tracking-tighter flex items-center gap-2">
+        <span class="text-violet-500 underline decoration-2 underline-offset-4">LEEDEO</span> STUDIO
+      </a>
+      <div class="hidden lg:flex space-x-10 text-xs font-bold uppercase tracking-widest text-slate-400">
+        <a href="#inicio" class="hover:text-violet-400 transition-colors">Inicio</a>
+        <a href="#formacion" class="hover:text-violet-400 transition-colors">Formación</a>
+        <a href="#proyectos" class="hover:text-violet-400 transition-colors">Proyectos</a>
+        <a href="#comunidad" class="hover:text-violet-400 transition-colors">Comunidad</a>
+      </div>
+      <div class="flex items-center gap-4">
+        <a href="https://ko-fi.com/leedeo" target="_blank" rel="noopener"
+          class="bg-rose-600 hover:bg-rose-500 text-white px-5 py-2.5 rounded-xl text-sm font-bold transition-all flex items-center gap-2">
+          <i class="fas fa-heart"></i> <span class="hidden sm:inline">Apoyar en Ko-fi</span>
+        </a>
+      </div>
+    </div>
+  </nav>
 
-			<button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar"
-				aria-controls="offcanvasNavbar">
-				<span class="navbar-toggler-icon"></span>
-			</button>
+  <!-- Hero Section -->
+  <header id="inicio"
+    class="relative min-h-screen flex items-center justify-center pt-20 overflow-hidden hero-gradient">
+    <div class="absolute inset-0 z-0 opacity-10 pointer-events-none">
+      <div class="absolute inset-0"
+        style="background-image: linear-gradient(#4c1d95 1px, transparent 1px), linear-gradient(90deg, #4c1d95 1px, transparent 1px); background-size: 50px 50px;">
+      </div>
+    </div>
 
-			<div class="offcanvas offcanvas-end text-bg-dark" tabindex="-1" id="offcanvasNavbar"
-				aria-labelledby="offcanvasNavbarLabel">
-				<div class="offcanvas-header">
-					<h5 class="offcanvas-title" id="offcanvasNavbarLabel">Leedeo Studio</h5>
-					<button type="button" class="btn-close btn-close-white" data-bs-dismiss="offcanvas"
-						aria-label="Close"></button>
-				</div>
+    <div class="relative z-10 max-w-5xl mx-auto px-6 text-center">
+      <div
+        class="inline-flex items-center gap-2 px-4 py-2 mb-8 text-xs font-bold tracking-widest text-violet-400 uppercase bg-violet-400/10 rounded-full border border-violet-400/20">
+        Javo • Desarrollo de Videojuegos y Software
+      </div>
+      <h1 class="text-4xl md:text-7xl font-extrabold mb-8 tracking-tighter">
+        Aprende el proceso de <br><span class="gradient-text italic underline decoration-violet-500/30">Crear
+          Videojuegos.</span>
+      </h1>
+      <p class="text-xl md:text-2xl text-slate-400 mb-12 leading-relaxed max-w-3xl mx-auto font-light">
+        Tutoriales prácticos, herramientas de optimización y consejos reales para llevar tus ideas del papel a la
+        pantalla.
+      </p>
+      <div class="flex flex-wrap justify-center gap-6">
+        <a href="#formacion"
+          class="btn-primary px-10 py-4 text-white font-bold rounded-2xl transition-all hover:scale-105 flex items-center gap-3">
+          Empezar a aprender
+        </a>
+        <a href="https://whatsapp.com/channel/0029VbCnHY0HrDZl9C2p2N0A" target="_blank" rel="noopener"
+          class="px-10 py-4 bg-slate-900 hover:bg-slate-800 text-white font-bold rounded-2xl border border-white/10 transition-all flex items-center gap-3">
+          <i class="fab fa-whatsapp text-xl text-green-500"></i> Canal de novedades
+        </a>
+      </div>
+    </div>
+  </header>
 
-				<div class="offcanvas-body">
-					<ul class="navbar-nav me-auto mb-3 mb-lg-0">
-						<li class="nav-item">
-							<a class="nav-link active" aria-current="page" href="https://leedeo.github.io/"><i
-									class="bi bi-house"></i> Inicio</a>
-						</li>
-						<li class="nav-item">
-							<a class="nav-link" href="https://leedeo.github.io/#about-us"><i class="bi bi-people-fill"></i> Acerca de
-								nosotros</a>
-						</li>
-						<li class="nav-item">
-							<a class="nav-link" href="https://leedeo.github.io/#projects"><i class="bi bi-controller"></i>
-								Proyectos</a>
-						</li>
-					</ul>
+  <!-- Sección Formación -->
+  <section id="formacion" class="py-24 px-6 relative">
+    <div class="max-w-7xl mx-auto grid lg:grid-cols-2 gap-16 items-center">
+      <div class="reveal">
+        <h2 class="text-3xl md:text-4xl font-bold mb-6 tracking-tight">Recursos para <span
+            class="text-violet-500">Creadores</span></h2>
+        <div class="space-y-6 text-slate-400 leading-relaxed text-lg">
+          <p>
+            Mi objetivo es compartir lo que voy aprendiendo en mi camino como desarrollador. No hay atajos mágicos, pero
+            sí mejores formas de trabajar.
+          </p>
+          <ul class="space-y-4">
+            <li class="flex items-start gap-3">
+              <i class="fas fa-code text-violet-500 mt-1.5"></i>
+              <span><strong>Motores de Juego:</strong> Tutoriales enfocados en Godot Engine y lógica de
+                programación.</span>
+            </li>
+            <li class="flex items-start gap-3">
+              <i class="fas fa-pen-nib text-violet-500 mt-1.5"></i>
+              <span><strong>Diseño y Gráficos:</strong> Uso de herramientas como Affinity Studio y software libre para
+                arte digital.</span>
+            </li>
+            <li class="flex items-start gap-3">
+              <i class="fas fa-rocket text-violet-500 mt-1.5"></i>
+              <span><strong>Visibilidad:</strong> Consejos prácticos sobre cómo mostrar tu trabajo y llegar a más
+                personas.</span>
+            </li>
+          </ul>
+        </div>
+        <div class="mt-10 flex flex-wrap gap-3">
+          <span class="px-4 py-2 bg-slate-900 border border-white/5 rounded-lg text-xs text-slate-300 font-bold">Godot
+            Engine</span>
+          <span
+            class="px-4 py-2 bg-slate-900 border border-white/5 rounded-lg text-xs text-slate-300 font-bold">Affinity</span>
+          <span
+            class="px-4 py-2 bg-slate-900 border border-white/5 rounded-lg text-xs text-slate-300 font-bold">Optimización</span>
+        </div>
+      </div>
+      <div class="relative reveal" style="transition-delay: 200ms;">
+        <div
+          class="aspect-video bg-slate-900 rounded-[2.5rem] border border-white/10 flex items-center justify-center overflow-hidden shadow-2xl relative group">
+          <div class="absolute inset-0 bg-gradient-to-tr from-violet-600/30 to-transparent"></div>
+          <i class="fab fa-youtube text-8xl text-red-600"></i>
+          <div
+            class="absolute inset-0 bg-black/40 opacity-0 group-hover:opacity-100 transition-opacity flex items-center justify-center">
+            <a href="https://www.youtube.com/leedeo" target="_blank" rel="noopener"
+              class="bg-white text-black px-8 py-3 rounded-full font-black uppercase text-sm tracking-widest">Ver
+              tutoriales</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
 
-					<span class="navbar-text">
-						<span class="me-2">Síguenos en:</span>
-						<div class="btn-group btn-group-sm">
-							<a href="https://www.youtube.com/leedeo" target="_blank" class="btn btn-primary bi bi-youtube"></a>
-							<a href="https://www.tiktok.com/@leedeostudio" target="_blank" class="btn btn-primary bi bi-tiktok"></a>
-							<a href="https://twitter.com/leedeostudio" target="_blank" class="btn btn-primary bi bi-twitter"></a>
-							<a href="https://www.facebook.com/leedeostudio" target="_blank"
-								class="btn btn-primary bi bi-facebook"></a>
-						</div>
-					</span>
-				</div>
-			</div>
-		</div>
-	</nav>
+  <!-- Proyectos -->
+  <section id="proyectos" class="py-32 px-6 bg-[#05010d]/50">
+    <div class="max-w-7xl mx-auto">
+      <div class="text-center mb-20 reveal">
+        <h2 class="text-4xl md:text-5xl font-extrabold mb-4 uppercase tracking-tighter">Proyectos y <span
+            class="text-violet-500">Software</span></h2>
+        <p class="text-slate-500 font-medium">Herramientas creadas para facilitar tu flujo de trabajo.</p>
+        <div class="h-1.5 w-24 bg-violet-500 mx-auto rounded-full mt-6"></div>
+      </div>
 
-	<!-- Jumbotron -->
-	<header id="hero-image" class="mb-5">
-		<div class="container text-center">
-			<p class="mb-4"><a href="https://leedeo.github.io/"><img class="logo" src="logo.png" alt="Logo de Leedeo Studio: Desarrollo de Videojuegos Indie con Godot Engine"></a>
-			</p>
-			<h1 class="text-uppercase mb-0">Bienvenidos a Leedeo Studio</h1>
-			<p class="lead mb-4">En Leedeo Studio, nuestro sueño es transportarte a mundos de fantasía a través del desarrollo
-				de videojuegos. Nos apasiona crear experiencias únicas y divertidas, y queremos compartir esa pasión contigo.
-				Explora nuestros cursos, contenido y reseñas sobre herramientas para desarrolladores y creadores de contenido.
-			</p>
-			<p>
-			<div class="btn-group">
-				<a href="https://www.youtube.com/leedeo/join" target="_blank"
-					rel="noopener noreferrer" class="btn btn-outline-light"><i class="bi bi-youtube"></i> Hazte Miembro en
-					YouTube</a>
-				<a href="https://ko-fi.com/leedeo" target="_blank" rel="noopener noreferrer" class="btn btn-outline-light"><i
-						class="bi bi-heart"></i> Apóyame en Ko-Fi</a>
-			</div>
-			</p>
-		</div>
-	</header>
+      <div class="grid lg:grid-cols-3 gap-8">
+        <!-- Leedeo Cleaner -->
+        <article class="glass-card rounded-3xl p-8 flex flex-col reveal">
+          <div class="w-14 h-14 bg-violet-500/10 rounded-2xl flex items-center justify-center text-violet-400 mb-8">
+            <i class="fas fa-broom text-3xl"></i>
+          </div>
+          <h3 class="text-2xl font-bold mb-4">Leedeo Cleaner</h3>
+          <p class="text-slate-400 mb-8 leading-relaxed flex-grow italic">Script de optimización para Windows centrado
+            en la privacidad y el rendimiento sin telemetría.</p>
+          <a href="https://github.com/Leedeo/Leedeo-Cleaner" target="_blank" rel="noopener"
+            class="text-violet-400 font-bold flex items-center gap-2 hover:gap-4 transition-all uppercase text-xs tracking-widest">
+            Ver en GitHub <i class="fas fa-arrow-right"></i>
+          </a>
+        </article>
 
-	<main id="content">
-		<!-- Acerca de Nosotros -->
-		<section id="about-us" class="container mb-4">
-			<header class="header-section mb-4 text-center">
-				<h2 class="text-uppercase">Acerca de nosotros</h2>
-				<hr>
-			</header>
+        <!-- Itch.io -->
+        <article class="glass-card rounded-3xl p-8 flex flex-col reveal" style="transition-delay: 100ms;">
+          <div class="w-14 h-14 bg-fuchsia-500/10 rounded-2xl flex items-center justify-center text-fuchsia-500 mb-8">
+            <i class="fas fa-gamepad text-3xl"></i>
+          </div>
+          <h3 class="text-2xl font-bold mb-4">Mis Juegos</h3>
+          <p class="text-slate-400 mb-8 leading-relaxed flex-grow italic">Explora mis experimentos y pequeños proyectos
+            desarrollados de forma independiente.</p>
+          <a href="https://leedeo.itch.io/" target="_blank" rel="noopener"
+            class="text-fuchsia-500 font-bold flex items-center gap-2 hover:gap-4 transition-all uppercase text-xs tracking-widest">
+            Explorar Itch.io <i class="fas fa-arrow-right"></i>
+          </a>
+        </article>
 
-			<div class="row mb-3">
-				<div class="col-12 col-md-6 text-center text-md-end">
-					<p>Somos tu puerta de entrada al mundo del <strong>desarrollo de videojuegos indie</strong>. Aprende con
-						nuestros tutoriales
-						prácticos de <strong>Godot Engine</strong>, descubre las mejores herramientas para creadores de contenido y
-						únete a nuestra
-						comunidad de apasionados por el <strong>Game Development</strong>.</p>
-				</div>
+        <!-- Localization -->
+        <article class="glass-card rounded-3xl p-8 flex flex-col reveal" style="transition-delay: 200ms;">
+          <div class="w-14 h-14 bg-indigo-500/10 rounded-2xl flex items-center justify-center text-indigo-400 mb-8">
+            <i class="fas fa-language text-3xl"></i>
+          </div>
+          <h3 class="text-2xl font-bold mb-4">Localización Godot</h3>
+          <p class="text-slate-400 mb-8 leading-relaxed flex-grow italic">Colaboración activa en la traducción al
+            español de Godot Engine para la comunidad hispana.</p>
+          <a href="https://hosted.weblate.org/user/Javo/" target="_blank" rel="noopener"
+            class="text-indigo-400 font-bold flex items-center gap-2 hover:gap-4 transition-all uppercase text-xs tracking-widest">
+            Colaborar <i class="fas fa-arrow-right"></i>
+          </a>
+        </article>
+      </div>
+    </div>
+  </section>
 
-				<div class="col-12 col-md-6 text-center text-md-start">
-					<div class="alert alert-primary"><i class="bi bi-info-circle-fill"></i> Como estudio independiente, tu apoyo
-						en Ko-Fi nos permite seguir creando contenido educativo y desarrollando juegos innovadores. <strong>¡Cada
-							donación nos ayuda a seguir adelante!</strong></div>
-				</div>
-			</div>
-		</section>
+  <!-- WhatsApp Canal -->
+  <section id="comunidad" class="py-24 px-6">
+    <div
+      class="max-w-7xl mx-auto bg-gradient-to-br from-slate-900 to-[#05010d] rounded-[3rem] p-8 md:p-16 border border-white/5 relative overflow-hidden">
+      <div class="absolute top-0 right-0 p-10 opacity-10 hidden lg:block">
+        <i class="fab fa-whatsapp text-[15rem] text-green-500 rotate-12"></i>
+      </div>
+      <div class="relative z-10 lg:w-2/3">
+        <div
+          class="wa-badge inline-flex items-center gap-2 px-4 py-1.5 rounded-full text-xs font-bold uppercase tracking-widest mb-6">
+          <i class="fab fa-whatsapp"></i> Canal directo
+        </div>
+        <h2 class="text-3xl md:text-5xl font-black mb-6 tracking-tight">Mantente al tanto.</h2>
+        <p class="text-lg text-slate-400 mb-10 leading-relaxed font-light">
+          Únete a mi canal de WhatsApp para recibir noticias sobre nuevos vídeos, actualizaciones de Leedeo Cleaner y
+          otras novedades que quiera comunicarte directamente.
+        </p>
+        <a href="https://whatsapp.com/channel/0029VbCnHY0HrDZl9C2p2N0A" target="_blank" rel="noopener"
+          class="inline-flex items-center gap-4 bg-green-600 hover:bg-green-500 text-white px-10 py-5 rounded-2xl text-xl font-bold transition-all hover:scale-105 shadow-xl shadow-green-900/20">
+          <i class="fab fa-whatsapp"></i> Unirse al canal
+        </a>
+      </div>
+    </div>
+  </section>
 
-		<section id="contact" class="mb-5">
-			<div class="text-center">
-				<p class="fst-italic mb-2">Síguenos en:</p>
-				<div class="btn-group btn-group-lg">
-					<a href="https://www.youtube.com/leedeo" target="_blank" class="btn btn-danger bi bi-youtube"></a>
-					<a href="https://www.tiktok.com/@leedeostudio" target="_blank" class="btn btn-danger bi bi-tiktok"></a>
-					<a href="https://twitter.com/leedeostudio" target="_blank" class="btn btn-danger bi bi-twitter"></a>
-					<a href="https://www.facebook.com/leedeostudio" target="_blank" class="btn btn-danger bi bi-facebook"></a>
-				</div>
-			</div>
-		</section>
+  <!-- Ko-fi -->
+  <section id="apoyo" class="py-24 px-6">
+    <div class="max-w-4xl mx-auto glass-card rounded-[3rem] p-12 text-center border-rose-500/20 reveal">
+      <div class="inline-block p-4 bg-rose-500/10 rounded-full text-rose-500 mb-8">
+        <i class="fas fa-heart text-4xl animate-pulse"></i>
+      </div>
+      <h2 class="text-3xl md:text-5xl font-black mb-6 uppercase tracking-tighter">Apoya el contenido</h2>
+      <p class="text-xl text-slate-300 mb-10 leading-relaxed font-light italic">"Tu apoyo me ayuda a seguir dedicando
+        tiempo a la creación de contenido y herramientas gratuitas para todos."</p>
+      <div class="flex flex-col items-center gap-6">
+        <a href="https://ko-fi.com/leedeo" target="_blank" rel="noopener"
+          class="inline-flex items-center gap-4 bg-rose-600 hover:bg-rose-500 text-white px-12 py-6 rounded-2xl text-2xl font-black transition-all hover:scale-105 shadow-2xl shadow-rose-900/40">
+          <i class="fas fa-coffee"></i> Invítame a un Ko-fi
+        </a>
+        <p class="text-xs text-slate-500 uppercase tracking-widest font-bold">¡Gracias por hacer esto posible!</p>
+      </div>
+    </div>
+  </section>
 
-		<!-- Cita Inspiradora -->
-		<figure id="inspiring-phrases" class="m-0 p-0">
-			<div id="randomQuote" class="container mt-0 mb-0 py-5 px-2 text-center">
-			</div>
-		</figure>
+  <!-- Footer -->
+  <footer class="py-24 px-6 border-t border-white/5 bg-[#05010d]">
+    <div class="max-w-7xl mx-auto text-center">
 
-		<!-- Proyectos -->
-		<section id="projects" class="bg-light p-5 m-0">
-			<div class="container">
+      <div class="mb-12">
+        <p class="text-slate-400 max-w-2xl mx-auto text-sm leading-relaxed italic">
+          Dedicado a la creación de recursos para la comunidad de desarrollo de videojuegos, optimización de sistemas y
+          diseño digital. Un espacio para aprender, compartir y crecer juntos.
+        </p>
+      </div>
 
-				<header class="header-section mb-4 text-center">
-					<h2 class="text-uppercase">Proyectos</h2>
-					<hr>
-				</header>
+      <div class="flex flex-wrap justify-center gap-10 mb-16 items-center">
+        <a href="https://www.youtube.com/leedeo" target="_blank" rel="noopener"
+          class="text-slate-500 hover:text-red-600 transition-all text-3xl hover:scale-125" title="YouTube">
+          <i class="fa-brands fa-youtube"></i>
+        </a>
+        <a href="https://ko-fi.com/leedeo" target="_blank" rel="noopener"
+          class="text-slate-500 hover:text-rose-500 transition-all text-3xl hover:scale-125" title="Ko-fi">
+          <i class="fa-solid fa-coffee"></i>
+        </a>
+        <a href="https://github.com/Leedeo" target="_blank" rel="noopener"
+          class="text-slate-500 hover:text-white transition-all text-3xl hover:scale-125" title="GitHub">
+          <i class="fa-brands fa-github"></i>
+        </a>
+        <a href="https://whatsapp.com/channel/0029VbCnHY0HrDZl9C2p2N0A" target="_blank" rel="noopener"
+          class="text-slate-500 hover:text-green-500 transition-all text-3xl hover:scale-125" title="WhatsApp">
+          <i class="fa-brands fa-whatsapp"></i>
+        </a>
+        <a href="https://twitter.com/Leedeo" target="_blank" rel="noopener"
+          class="text-slate-500 hover:text-sky-400 transition-all text-3xl hover:scale-125" title="X (Twitter)">
+          <i class="fa-brands fa-x-twitter"></i>
+        </a>
+      </div>
 
-				<div class="row row-cols-1 row-cols-md-4 row-cols-sm-2">
-					<div class="col">
-						<div class="card shadow-sm border-0">
-							<img src="https://img.itch.zone/aW1nLzE0NzIxOTM0LmpwZw==/original/BSB4Uy.jpg" alt="Captura de pantalla del juego de terror Halls Of Delirum: Backrooms Of Madness desarrollado con Godot Engine"
-								loading="lazy">
+      <div
+        class="text-slate-500 text-[10px] md:text-xs font-bold tracking-[0.5em] uppercase border-t border-white/5 pt-12 opacity-80 mb-4">
+        © <span id="auto-year"></span> LEEDEO STUDIO • JAVO • CREACIÓN DE VIDEOJUEGOS Y SOFTWARE
+      </div>
 
-							<div class="card-body">
-								<h3 class="card-title h4 mb-2">Halls Of Delirum: Backrooms Of Madness
-								</h3>
-								<p class="mb-2"><small><i class="bi bi-pc-display-horizontal"></i> Plataforma: PC</small></p>
-								<p class="card-text">Sumérgete en la inquietante atmósfera de "Halls Of Delirium", un juego de terror
-									para PC basado en el famoso creepypasta de los Backrooms. Desarrollado en 24 horas con Godot Engine,
-									este desafío te adentrará en la locura.</p>
+      <div class="flex justify-center gap-6">
+        <a href="https://leedeo.github.io/policy.html"
+          class="text-[10px] uppercase tracking-widest text-slate-600 hover:text-violet-400 transition-colors font-bold">
+          Políticas de Privacidad
+        </a>
+      </div>
+    </div>
+  </footer>
 
-								<div class="d-flex justify-content-between align-items-center">
-									<div class="btn-group">
-										<button class="btn btn-sm btn-primary" data-bs-toggle="modal"
-											data-bs-target="#modalLeedeoBackrooms"><i class="bi bi-youtube"></i> Trailer</button>
-										<a href="https://leedeo.itch.io/halls-of-delirium" target="_blank" class="btn btn-sm btn-primary"
-											role="button"><i class="bi bi-download"></i> Descargar</a>
-									</div>
-								</div>
-							</div>
-						</div>
-					</div>
+  <script>
+    document.getElementById('auto-year').textContent = new Date().getFullYear();
 
-					<div class="col">
-						<div class="card shadow-sm border-0">
-							<img src="https://img.itch.zone/aW1nLzk3MTQyMzcuanBn/original/jP4b2J.jpg" alt="Captura de pantalla del remake 3D del juego Flappy Bird llamado Flappy Opa Opa! desarrollado con Godot Engine"
-								loading="lazy">
+    const observerOptions = { threshold: 0.15 };
+    const observer = new IntersectionObserver((entries) => {
+      entries.forEach(entry => {
+        if (entry.isIntersecting) entry.target.classList.add('active');
+      });
+    }, observerOptions);
 
-							<div class="card-body">
-								<h3 class="card-title h4 mb-2">Flappy Opa Opa!</h3>
-								<p class="mb-2"><small><i class="bi bi-pc-display-horizontal"></i> Plataforma: PC</small></p>
-								<p class="card-text">¡Revive la adicción! "Flappy Opa Opa!" es mi remake 3D para PC del icónico Flappy
-									Bird, creado en un sprint de 24 horas con Godot Engine. ¡Espero que disfrutes de este aleteo
-									nostálgico!</p>
-
-								<div class="d-flex justify-content-between align-items-center">
-									<div class="btn-group">
-										<button class="btn btn-sm btn-primary" data-bs-toggle="modal" data-bs-target="#modalLeedeoFOO"><i
-												class="bi bi-youtube"></i> Devlog</button>
-										<a href="https://leedeo.itch.io/leedeo-flappy-opa-opa" target="_blank"
-											class="btn btn-sm btn-primary" role="button"><i class="bi bi-download"></i> Descargar</a>
-									</div>
-								</div>
-							</div>
-						</div>
-					</div>
-
-					<div class="col">
-						<div class="card shadow-sm border-0">
-							<img src="https://img.itch.zone/aW1nLzk2MDQ1NzEucG5n/original/d%2F50sZ.png" alt="Captura de pantalla del remake del clásico Super Mario Bros desarrollado con Godot Engine"
-								loading="lazy">
-
-							<div class="card-body">
-								<h3 class="card-title h4 mb-2">Leedeo Super Mario</h3>
-								<p class="mb-2"><small><i class="bi bi-pc-display-horizontal"></i> Plataforma: PC</small></p>
-								<p class="card-text">Un homenaje al clásico de Nintendo NES, "Leedeo Super Mario" es un remake para PC
-									del legendario Super Mario Bros. Este reto de 24 horas en Godot Engine recrea el primer nivel para que
-									revivas la magia.</p>
-
-								<div class="d-flex justify-content-between align-items-center">
-									<div class="btn-group">
-										<button class="btn btn-sm btn-primary" data-bs-toggle="modal" data-bs-target="#modalLeedeoSMB"><i
-												class="bi bi-youtube"></i> Devlog</button>
-										<a href="https://leedeo.itch.io/leedeo-super-mario" target="_blank" class="btn btn-sm btn-primary"
-											role="button"><i class="bi bi-download"></i> Descargar</a>
-									</div>
-								</div>
-							</div>
-						</div>
-					</div>
-
-					<div class="col">
-						<div class="card shadow-sm border-0">
-							<img src="https://img.itch.zone/aW1nLzg1NTgwNTkuanBn/original/gbcxzW.jpg" alt="Captura de pantalla del fangame de Five Nights at Freddy's llamado Leedeo FNaF desarrollado con Godot Engine"
-								loading="lazy">
-
-							<div class="card-body">
-								<h3 class="card-title h4 mb-2">Leedeo FNaF</h3>
-								<p class="mb-2"><small><i class="bi bi-pc-display-horizontal"></i> Plataforma: PC</small></p>
-								<p class="card-text">¿Te atreves a sobrevivir? "Leedeo FNaF" es un fangame para PC del popular Five
-									Nights at Freddy's, desarrollado en Godot Engine en tan solo 24 horas por petición de la comunidad de
-									Leedeo Studio.</p>
-
-								<div class="d-flex justify-content-between align-items-center">
-									<div class="btn-group">
-										<button class="btn btn-sm btn-primary" data-bs-toggle="modal" data-bs-target="#modalLeedeoFNaF"><i
-												class="bi bi-youtube"></i> Devlog</button>
-										<a href="https://leedeo.itch.io/leedeo-fnaf" target="_blank" class="btn btn-sm btn-primary"
-											role="button"><i class="bi bi-download"></i> Descargar</a>
-									</div>
-								</div>
-							</div>
-						</div>
-					</div>
-				</div>
-
-				<div class="text-center mt-4">
-					<a href="https://leedeo.itch.io" class="btn btn-lg btn-danger" target="_blank"><i
-							class="bi bi-link-45deg"></i> Perfil de Itch.io</a>
-				</div>
-			</div>
-		</section>
-	</main>
-
-	<!-- Modal -->
-	<div class="modal fade" id="modalLeedeoBackrooms" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1"
-		aria-labelledby="staticBackdropLabel" aria-hidden="true">
-		<div class="modal-dialog modal-dialog-centered modal-lg">
-			<div class="modal-content">
-				<div class="modal-header">
-					<h5 class="modal-title" id="staticBackdropLabel">Halls Of Delirum: Backrooms Of Madness</h5>
-					<button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-				</div>
-				<div class="modal-body">
-					<div class="ratio ratio-16x9">
-						<iframe width="560" height="315" src="https://www.youtube.com/embed/LTF9AT0K9mk"
-							title="Hice un juego de los Backrooms en 24 horas con RTX ¡En Godot Engine!" frameborder="0"
-							allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-							allowfullscreen></iframe>
-					</div>
-				</div>
-			</div>
-		</div>
-	</div>
-
-	<div class="modal fade" id="modalLeedeoFOO" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1"
-		aria-labelledby="staticBackdropLabel" aria-hidden="true">
-		<div class="modal-dialog modal-dialog-centered modal-lg">
-			<div class="modal-content">
-				<div class="modal-header">
-					<h5 class="modal-title" id="staticBackdropLabel">Flappy Opa Opa!</h5>
-					<button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-				</div>
-				<div class="modal-body">
-					<div class="ratio ratio-16x9">
-						<iframe width="560" height="315" src="https://www.youtube.com/embed/IoJzv2P5LGo"
-							title="Hice Flappy Bird 3D en 24 horas SIN RTX ¡Con Godot Engine!" frameborder="0"
-							allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-							allowfullscreen></iframe>
-					</div>
-				</div>
-			</div>
-		</div>
-	</div>
-
-	<div class="modal fade" id="modalLeedeoSMB" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1"
-		aria-labelledby="staticBackdropLabel" aria-hidden="true">
-		<div class="modal-dialog modal-dialog-centered modal-lg">
-			<div class="modal-content">
-				<div class="modal-header">
-					<h5 class="modal-title" id="staticBackdropLabel">Leedeo Super Mario</h5>
-					<button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-				</div>
-				<div class="modal-body">
-					<div class="ratio ratio-16x9">
-						<iframe width="560" height="315" src="https://www.youtube.com/embed/-F3vjIlHrtI"
-							title="Hice Super Mario Bros en 24 horas con EN RTX ¡En Godot Engine!" frameborder="0"
-							allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-							allowfullscreen></iframe>
-					</div>
-				</div>
-			</div>
-		</div>
-	</div>
-
-	<div class="modal fade" id="modalLeedeoFNaF" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1"
-		aria-labelledby="staticBackdropLabel" aria-hidden="true">
-		<div class="modal-dialog modal-dialog-centered modal-lg">
-			<div class="modal-content">
-				<div class="modal-header">
-					<h5 class="modal-title" id="staticBackdropLabel">Leedeo FNaF</h5>
-					<button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-				</div>
-				<div class="modal-body">
-					<div class="ratio ratio-16x9">
-						<iframe width="560" height="315" src="https://www.youtube.com/embed/2iVzSyNVyzg"
-							title="Hice FNaF en 24 horas con EN RTX ¡En Godot Engine!" frameborder="0"
-							allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-							allowfullscreen></iframe>
-					</div>
-				</div>
-			</div>
-		</div>
-	</div>
-
-	<footer id="site-footer" class="mt-0 py-3 px-3 text-center">
-		© 2015-
-		<script>var f = new Date(); document.write(f.getFullYear());</script> Leedeo Studio. Sitio web alojado en GitHub
-		Pages.<br>
-		<a href="https://leedeo.github.io/policy.html"><i class="bi bi-shield-lock"></i> Política de privacidad</a>
-	</footer>
-
-	<!-- Bootstrap JS -->
-	<script src="assets/bootstrap/js/bootstrap.min.js"></script>
-
-	<script>
-		// Citas Inspiradoras
-		const quotes = [
-			{
-				text: "Estamos en esta industria con la esperanza de afectar a la gente, cambiarlos de alguna manera. Es por eso que trabajamos tan duro.",
-				author: "Neil Druckmann"
-			},
-			{
-				text: "Los videojuegos son la única forma de arte que permite la interacción activa mientras se cuenta una historia.",
-				author: "Hideo Kojima"
-			},
-			{
-				text: "No hago juegos para ganar dinero. Los hago porque quiero hacer algo hermoso.",
-				author: "Hideo Kojima"
-			},
-			{
-				text: "La mejor manera de predecir el futuro es creándolo tú mismo.",
-				author: "Markus Persson"
-			},
-			{
-				text: "Los juegos son la forma de arte más cercana a nosotros. Nos permiten crear mundos y compartirlos con otros.",
-				author: "Markus Persson"
-			},
-			{
-				text: "Los videojuegos pueden ser una forma increíblemente poderosa de conectar a las personas y crear comunidades.",
-				author: "Bonnie Ross"
-			},
-			{
-				text: "Un buen juego es una serie de decisiones interesantes.",
-				author: "Sid Meier"
-			},
-			{
-				text: "Los videojuegos son una forma de arte, una forma de contar historias que es increíblemente poderosa.",
-				author: "Jenova Chen"
-			}
-		];
-
-		function showRandomQuote() {
-			const quote = quotes[Math.floor(Math.random() * quotes.length)];
-			document.getElementById('randomQuote').innerHTML = `<blockquote class="blockquote"><p class="fs-3">"${quote.text}"</p></blockquote><figcaption class="blockquote-footer fs-5">${quote.author}</figcaption>`;
-		}
-
-		// Inicializar
-		document.addEventListener('DOMContentLoaded', function () {
-			showRandomQuote();
-		});
-	</script>
+    document.querySelectorAll('.reveal').forEach(el => observer.observe(el));
+  </script>
 </body>
 
 </html>
