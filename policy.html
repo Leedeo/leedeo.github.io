@@ -24,12 +24,18 @@
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
 
   <style>
-    @import url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@300;400;600;800&display=swap');
+    /* Importación de fuentes idéntica a la principal */
+    @import url('https://fonts.googleapis.com/css2?family=Pacifico&family=Plus+Jakarta+Sans:wght@200;300;400;600;800&display=swap');
 
     body {
       font-family: 'Plus Jakarta Sans', sans-serif;
       background-color: #05010d;
       color: #f1f5f9;
+    }
+
+    .font-pacifico {
+      font-family: 'Pacifico', cursive;
+      font-weight: 400;
     }
 
     .hero-gradient {
@@ -46,6 +52,10 @@
       background: linear-gradient(135deg, #a78bfa 0%, #f472b6 100%);
       -webkit-background-clip: text;
       -webkit-text-fill-color: transparent;
+      display: inline-block;
+      /* Ajuste crítico para evitar cortes en fuentes itálicas/especiales */
+      padding-right: 0.15em;
+      margin-right: -0.1em;
     }
 
     .policy-content h2 {
@@ -79,35 +89,46 @@
       width: 1em;
       margin-left: -1em;
     }
+
+    .btn-back {
+      background: rgba(255, 255, 255, 0.03);
+      border: 1px solid rgba(255, 255, 255, 0.1);
+    }
   </style>
 </head>
 
 <body class="selection:bg-violet-500/30">
 
-  <!-- Header / Nav -->
+  <!-- Header / Nav unificado (Ancho completo) -->
   <nav class="fixed top-0 w-full z-50 bg-[#05010d]/90 backdrop-blur-lg border-b border-white/5">
-    <div class="max-w-4xl mx-auto px-6 h-20 flex items-center justify-between">
-      <a href="https://leedeo.github.io/" class="text-xl font-extrabold tracking-tighter flex items-center gap-2">
-        <span class="text-violet-500 underline decoration-2 underline-offset-4">LEEDEO</span> STUDIO
+    <div class="max-w-7xl mx-auto px-6 h-20 flex items-center justify-between">
+      <a href="https://leedeo.github.io/" class="flex items-center gap-2">
+        <span class="font-pacifico text-violet-500 text-[40px] lowercase tracking-normal -rotate-2 mr-1">Leedeo</span>
+        <span class="text-2xl font-thin tracking-[0.15em] text-slate-200 uppercase">Studio</span>
       </a>
       <a href="https://leedeo.github.io/"
-        class="text-xs font-bold uppercase tracking-widest text-slate-400 hover:text-white transition-colors flex items-center gap-2">
-        <i class="fas fa-arrow-left"></i> Volver al inicio
+        class="btn-back px-5 py-2 rounded-xl text-xs font-bold uppercase tracking-widest text-slate-400 hover:text-white transition-all flex items-center gap-2 border border-white/5">
+        <i class="fas fa-arrow-left text-[10px]"></i> Volver
       </a>
     </div>
   </nav>
 
   <main class="relative min-h-screen pt-32 pb-24 px-6 hero-gradient">
-    <div class="max-w-3xl mx-auto">
-
-      <header class="mb-16 text-center">
-        <h1 class="text-4xl md:text-5xl font-black mb-6 tracking-tight">Políticas de <span
-            class="gradient-text">Privacidad</span></h1>
-        <p class="text-slate-500 font-medium tracking-wide">Última actualización: 28 de Diciembre, 2025</p>
-        <div class="h-1 w-20 bg-violet-500 mx-auto rounded-full mt-6"></div>
+    <!-- Contenedor del Título (Ajustado para evitar cortes) -->
+    <div class="max-w-4xl mx-auto px-4 overflow-visible">
+      <header class="mb-16 text-center overflow-visible">
+        <h1 class="text-4xl md:text-6xl font-black mb-6 tracking-tight uppercase leading-[1.2] px-2">
+          Políticas de <span class="gradient-text italic">Privacidad</span>
+        </h1>
+        <p class="text-slate-500 font-bold tracking-widest uppercase text-xs">Última actualización: 28 de Diciembre,
+          2025</p>
+        <div class="h-1.5 w-24 bg-violet-500 mx-auto rounded-full mt-8"></div>
       </header>
+    </div>
 
-      <div class="glass-card rounded-[2.5rem] p-8 md:p-12 policy-content shadow-2xl">
+    <!-- Contenedor del Contenido (Se mantiene estrecho por diseño) -->
+    <div class="max-w-3xl mx-auto">
+      <div class="glass-card rounded-[3rem] p-8 md:p-12 policy-content shadow-2xl border border-white/5">
 
         <section>
           <h2><i class="fas fa-info-circle"></i> Introducción</h2>
@@ -182,19 +203,27 @@
           </a>
         </div>
       </div>
+    </div>
 
-      <footer class="mt-16 text-center">
+    <!-- Footer fuera del contenedor 3xl para usar el ancho del index (7xl) -->
+    <div class="max-w-7xl mx-auto mt-24">
+      <footer class="text-center border-t border-white/5 pt-12">
+        <div class="mb-8 px-6">
+          <p class="text-slate-500 max-w-xl mx-auto text-[11px] leading-relaxed italic opacity-70">
+            Dedicado a la creación de recursos para la comunidad de desarrollo de videojuegos, optimización de sistemas
+            y diseño digital.
+          </p>
+        </div>
         <div
-          class="text-slate-500 text-[10px] md:text-xs font-bold tracking-[0.4em] uppercase opacity-80 leading-loose">
-          © <span id="year-display"></span> LEEDEO STUDIO • JAVO • CREACIÓN DE VIDEOJUEGOS Y SOFTWARE
+          class="text-slate-500 text-[10px] md:text-xs font-bold tracking-[0.5em] uppercase opacity-80 mb-4 px-6 leading-loose">
+          © <span id="auto-year"></span> LEEDEO STUDIO • JAVO • CREACIÓN DE VIDEOJUEGOS Y SOFTWARE
         </div>
       </footer>
     </div>
   </main>
 
   <script>
-    // Actualización automática del año de copyright
-    document.getElementById('year-display').textContent = new Date().getFullYear();
+    document.getElementById('auto-year').textContent = new Date().getFullYear();
   </script>
 </body>
 

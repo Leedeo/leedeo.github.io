@@ -25,7 +25,8 @@
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
 
   <style>
-    @import url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@300;400;600;800&display=swap');
+    /* Importación de fuentes: Plus Jakarta para el cuerpo y Pacifico para el logo */
+    @import url('https://fonts.googleapis.com/css2?family=Pacifico&family=Plus+Jakarta+Sans:wght@200;300;400;600;800&display=swap');
 
     body {
       font-family: 'Plus Jakarta Sans', sans-serif;
@@ -33,14 +34,19 @@
       color: #f1f5f9;
     }
 
-    /* --- NUEVO SISTEMA DE ANIMACIÓN DE FONDO --- */
+    .font-pacifico {
+      font-family: 'Pacifico', cursive;
+      font-weight: 400;
+      /* Normal, sin negrita */
+    }
+
+    /* --- SISTEMA DE ANIMACIÓN DE FONDO --- */
     .hero-gradient {
       position: relative;
       background: #05010d;
       overflow: hidden;
     }
 
-    /* Contenedor de las luces */
     .hero-bg-anim {
       position: absolute;
       inset: 0;
@@ -48,7 +54,6 @@
       pointer-events: none;
     }
 
-    /* Focos de luz con colores más intensos y movimiento real */
     .blob {
       position: absolute;
       width: 50vw;
@@ -56,7 +61,6 @@
       border-radius: 50%;
       filter: blur(80px);
       opacity: 0.25;
-      /* Opacidad aumentada para que se vea */
       animation: move 15s infinite alternate ease-in-out;
     }
 
@@ -101,8 +105,6 @@
         transform: translate(5%, -10%) scale(1.1);
       }
     }
-
-    /* ------------------------------------------- */
 
     .glass-card {
       background: rgba(18, 10, 31, 0.6);
@@ -159,8 +161,10 @@
   <!-- Navegación -->
   <nav class="fixed top-0 w-full z-50 bg-[#05010d]/90 backdrop-blur-lg border-b border-white/5">
     <div class="max-w-7xl mx-auto px-6 h-20 flex items-center justify-between">
-      <a href="https://leedeo.github.io/" class="text-2xl font-extrabold tracking-tighter flex items-center gap-2">
-        <span class="text-violet-500 underline decoration-2 underline-offset-4">LEEDEO</span> STUDIO
+      <a href="https://leedeo.github.io/" class="flex items-center gap-2">
+        <!-- Ajustado a un paso intermedio exacto (40px) para equilibrio visual -->
+        <span class="font-pacifico text-violet-500 text-[40px] lowercase tracking-normal -rotate-2 mr-1">Leedeo</span>
+        <span class="text-2xl font-thin tracking-[0.15em] text-slate-200 uppercase">Studio</span>
       </a>
       <div class="hidden lg:flex space-x-10 text-xs font-bold uppercase tracking-widest text-slate-400">
         <a href="#inicio" class="hover:text-violet-400 transition-colors">Inicio</a>
@@ -185,11 +189,9 @@
       <div class="blob blob-1"></div>
       <div class="blob blob-2"></div>
       <div class="blob blob-3"></div>
-      <!-- Tu cuadrícula original -->
       <div class="absolute inset-0 opacity-10 pointer-events-none"
         style="background-image: linear-gradient(#4c1d95 1px, transparent 1px), linear-gradient(90deg, #4c1d95 1px, transparent 1px); background-size: 50px 50px;">
       </div>
-      <!-- Difuminado para integrar con el resto de la web -->
       <div class="absolute inset-0 bg-gradient-to-b from-transparent via-transparent to-[#05010d]"></div>
     </div>
 
