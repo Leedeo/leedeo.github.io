@@ -33,9 +33,76 @@
       color: #f1f5f9;
     }
 
+    /* --- NUEVO SISTEMA DE ANIMACIÓN DE FONDO --- */
     .hero-gradient {
-      background: radial-gradient(circle at 50% 50%, rgba(139, 92, 246, 0.12) 0%, rgba(5, 1, 13, 1) 80%);
+      position: relative;
+      background: #05010d;
+      overflow: hidden;
     }
+
+    /* Contenedor de las luces */
+    .hero-bg-anim {
+      position: absolute;
+      inset: 0;
+      z-index: 0;
+      pointer-events: none;
+    }
+
+    /* Focos de luz con colores más intensos y movimiento real */
+    .blob {
+      position: absolute;
+      width: 50vw;
+      height: 50vw;
+      border-radius: 50%;
+      filter: blur(80px);
+      opacity: 0.25;
+      /* Opacidad aumentada para que se vea */
+      animation: move 15s infinite alternate ease-in-out;
+    }
+
+    .blob-1 {
+      background: #7c3aed;
+      top: -10%;
+      left: -10%;
+    }
+
+    .blob-2 {
+      background: #f472b6;
+      bottom: -10%;
+      right: -5%;
+      animation-duration: 20s;
+      animation-delay: -5s;
+    }
+
+    .blob-3 {
+      background: #4c1d95;
+      top: 20%;
+      right: 20%;
+      width: 30vw;
+      height: 30vw;
+      animation-duration: 12s;
+      animation-delay: -2s;
+    }
+
+    @keyframes move {
+      0% {
+        transform: translate(0, 0) scale(1);
+      }
+
+      33% {
+        transform: translate(10%, 15%) scale(1.2);
+      }
+
+      66% {
+        transform: translate(-15%, 5%) scale(0.9);
+      }
+
+      100% {
+        transform: translate(5%, -10%) scale(1.1);
+      }
+    }
+
+    /* ------------------------------------------- */
 
     .glass-card {
       background: rgba(18, 10, 31, 0.6);
@@ -54,7 +121,6 @@
       background: linear-gradient(135deg, #a78bfa 0%, #f472b6 100%);
       -webkit-background-clip: text;
       -webkit-text-fill-color: transparent;
-      /* Padding extra para asegurar que las letras con descendentes (g, j, p, q, y) no se corten */
       padding-bottom: 0.2em;
       margin-bottom: -0.2em;
       display: inline-block;
@@ -82,7 +148,6 @@
       color: #4ade80;
     }
 
-    /* Ajuste de interlineado para evitar solapamientos visuales */
     h1 {
       line-height: 1.3 !important;
     }
@@ -113,12 +178,19 @@
   </nav>
 
   <!-- Hero Section -->
-  <header id="inicio"
-    class="relative min-h-screen flex items-center justify-center pt-20 overflow-hidden hero-gradient">
-    <div class="absolute inset-0 z-0 opacity-10 pointer-events-none">
-      <div class="absolute inset-0"
+  <header id="inicio" class="relative min-h-screen flex items-center justify-center pt-20 hero-gradient">
+
+    <!-- FONDO ANIMADO -->
+    <div class="hero-bg-anim">
+      <div class="blob blob-1"></div>
+      <div class="blob blob-2"></div>
+      <div class="blob blob-3"></div>
+      <!-- Tu cuadrícula original -->
+      <div class="absolute inset-0 opacity-10 pointer-events-none"
         style="background-image: linear-gradient(#4c1d95 1px, transparent 1px), linear-gradient(90deg, #4c1d95 1px, transparent 1px); background-size: 50px 50px;">
       </div>
+      <!-- Difuminado para integrar con el resto de la web -->
+      <div class="absolute inset-0 bg-gradient-to-b from-transparent via-transparent to-[#05010d]"></div>
     </div>
 
     <div class="relative z-10 max-w-5xl mx-auto px-6 text-center">
