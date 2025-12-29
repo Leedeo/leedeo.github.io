@@ -5,7 +5,7 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-  <!-- SEO Equilibrado -->
+  <!-- SEO -->
   <title>Leedeo Studio | Javo - Desarrollo de Videojuegos y Diseño Digital</title>
   <meta name="description"
     content="Recursos y formación para creadores de videojuegos. Tutoriales prácticos de Godot Engine, diseño con Affinity y consejos de visibilidad para tus proyectos.">
@@ -25,7 +25,6 @@
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
 
   <style>
-    /* Importación de fuentes: Plus Jakarta para el cuerpo y Pacifico para el logo */
     @import url('https://fonts.googleapis.com/css2?family=Pacifico&family=Plus+Jakarta+Sans:wght@200;300;400;600;800&display=swap');
 
     body {
@@ -37,10 +36,9 @@
     .font-pacifico {
       font-family: 'Pacifico', cursive;
       font-weight: 400;
-      /* Normal, sin negrita */
     }
 
-    /* --- SISTEMA DE ANIMACIÓN DE FONDO --- */
+    /* Animación de fondo */
     .hero-gradient {
       position: relative;
       background: #05010d;
@@ -162,7 +160,6 @@
   <nav class="fixed top-0 w-full z-50 bg-[#05010d]/90 backdrop-blur-lg border-b border-white/5">
     <div class="max-w-7xl mx-auto px-6 h-20 flex items-center justify-between">
       <a href="https://leedeo.github.io/" class="flex items-center gap-2">
-        <!-- Ajustado a un paso intermedio exacto (40px) para equilibrio visual -->
         <span class="font-pacifico text-violet-500 text-[40px] lowercase tracking-normal -rotate-2 mr-1">Leedeo</span>
         <span class="text-2xl font-thin tracking-[0.15em] text-slate-200 uppercase">Studio</span>
       </a>
@@ -183,8 +180,6 @@
 
   <!-- Hero Section -->
   <header id="inicio" class="relative min-h-screen flex items-center justify-center pt-20 hero-gradient">
-
-    <!-- FONDO ANIMADO -->
     <div class="hero-bg-anim">
       <div class="blob blob-1"></div>
       <div class="blob blob-2"></div>
@@ -259,16 +254,31 @@
             class="px-4 py-2 bg-slate-900 border border-white/5 rounded-lg text-xs text-slate-300 font-bold">Optimización</span>
         </div>
       </div>
+
+      <!-- Video Tutorial Showcase -->
       <div class="relative reveal" style="transition-delay: 200ms;">
         <div
-          class="aspect-video bg-slate-900 rounded-[2.5rem] border border-white/10 flex items-center justify-center overflow-hidden shadow-2xl relative group">
-          <div class="absolute inset-0 bg-gradient-to-tr from-violet-600/30 to-transparent"></div>
-          <i class="fab fa-youtube text-8xl text-red-600"></i>
+          class="aspect-video bg-slate-900 rounded-[2.5rem] border border-white/10 overflow-hidden shadow-2xl relative group">
+
+          <!-- Miniatura del canal -->
+          <img src="thumb-youtube.webp" alt="Tutoriales Leedeo Studio"
+            class="absolute inset-0 w-full h-full object-cover opacity-100 group-hover:scale-110 group-hover:opacity-40 transition-all duration-700">
+
+          <div class="absolute inset-0 bg-gradient-to-tr from-violet-600/20 to-transparent"></div>
+
+          <!-- Play Icon -->
+          <div
+            class="absolute inset-0 flex items-center justify-center pointer-events-none group-hover:scale-90 transition-transform duration-500">
+            <i class="fab fa-youtube text-8xl text-white/80 group-hover:text-red-600/0 transition-colors"></i>
+          </div>
+
+          <!-- Overlay Interactivo -->
           <div
             class="absolute inset-0 bg-black/40 opacity-0 group-hover:opacity-100 transition-opacity flex items-center justify-center">
             <a href="https://www.youtube.com/leedeo" target="_blank" rel="noopener"
-              class="bg-white text-black px-8 py-3 rounded-full font-black uppercase text-sm tracking-widest">Ver
-              tutoriales</a>
+              class="bg-white text-black px-8 py-3 rounded-full font-black uppercase text-sm tracking-widest hover:scale-105 transition-transform">
+              Ver tutoriales
+            </a>
           </div>
         </div>
       </div>
@@ -286,7 +296,6 @@
       </div>
 
       <div class="grid lg:grid-cols-3 gap-8">
-        <!-- Leedeo Cleaner -->
         <article class="glass-card rounded-3xl p-8 flex flex-col reveal">
           <div class="w-14 h-14 bg-violet-500/10 rounded-2xl flex items-center justify-center text-violet-400 mb-8">
             <i class="fas fa-broom text-3xl"></i>
@@ -300,7 +309,6 @@
           </a>
         </article>
 
-        <!-- Itch.io -->
         <article class="glass-card rounded-3xl p-8 flex flex-col reveal" style="transition-delay: 100ms;">
           <div class="w-14 h-14 bg-fuchsia-500/10 rounded-2xl flex items-center justify-center text-fuchsia-500 mb-8">
             <i class="fas fa-gamepad text-3xl"></i>
@@ -314,7 +322,6 @@
           </a>
         </article>
 
-        <!-- Localization -->
         <article class="glass-card rounded-3xl p-8 flex flex-col reveal" style="transition-delay: 200ms;">
           <div class="w-14 h-14 bg-indigo-500/10 rounded-2xl flex items-center justify-center text-indigo-400 mb-8">
             <i class="fas fa-language text-3xl"></i>
@@ -331,7 +338,7 @@
     </div>
   </section>
 
-  <!-- WhatsApp Canal -->
+  <!-- Comunidad -->
   <section id="comunidad" class="py-24 px-6">
     <div
       class="max-w-7xl mx-auto bg-gradient-to-br from-slate-900 to-[#05010d] rounded-[3rem] p-8 md:p-16 border border-white/5 relative overflow-hidden">
@@ -346,7 +353,7 @@
         <h2 class="text-3xl md:text-5xl font-black mb-6 tracking-tight">Mantente al tanto.</h2>
         <p class="text-lg text-slate-400 mb-10 leading-relaxed font-light">
           Únete a mi canal de WhatsApp para recibir noticias sobre nuevos vídeos, actualizaciones de Leedeo Cleaner y
-          otras novedades que quiera comunicarte directamente.
+          otras novedades.
         </p>
         <a href="https://whatsapp.com/channel/0029VbCnHY0HrDZl9C2p2N0A" target="_blank" rel="noopener"
           class="inline-flex items-center gap-4 bg-green-600 hover:bg-green-500 text-white px-10 py-5 rounded-2xl text-xl font-bold transition-all hover:scale-105 shadow-xl shadow-green-900/20">
@@ -356,7 +363,7 @@
     </div>
   </section>
 
-  <!-- Ko-fi -->
+  <!-- Apoyo -->
   <section id="apoyo" class="py-24 px-6">
     <div class="max-w-4xl mx-auto glass-card rounded-[3rem] p-12 text-center border-rose-500/20 reveal">
       <div class="inline-block p-4 bg-rose-500/10 rounded-full text-rose-500 mb-8">
@@ -378,35 +385,27 @@
   <!-- Footer -->
   <footer class="py-24 px-6 border-t border-white/5 bg-[#05010d]">
     <div class="max-w-7xl mx-auto text-center">
-
-      <div class="mb-12">
-        <p class="text-slate-400 max-w-2xl mx-auto text-sm leading-relaxed italic">
-          Dedicado a la creación de recursos para la comunidad de desarrollo de videojuegos, optimización de sistemas y
-          diseño digital. Un espacio para aprender, compartir y crecer juntos.
-        </p>
+      <div class="mb-12 text-slate-400 max-w-2xl mx-auto text-sm leading-relaxed italic">
+        Dedicado a la creación de recursos para la comunidad de desarrollo de videojuegos, optimización de sistemas y
+        diseño digital. Un espacio para aprender, compartir y crecer juntos.
       </div>
 
       <div class="flex flex-wrap justify-center gap-10 mb-16 items-center">
         <a href="https://www.youtube.com/leedeo" target="_blank" rel="noopener"
-          class="text-slate-500 hover:text-red-600 transition-all text-3xl hover:scale-125" title="YouTube">
-          <i class="fa-brands fa-youtube"></i>
-        </a>
+          class="text-slate-500 hover:text-red-600 transition-all text-3xl hover:scale-125" title="YouTube"><i
+            class="fa-brands fa-youtube"></i></a>
         <a href="https://ko-fi.com/leedeo" target="_blank" rel="noopener"
-          class="text-slate-500 hover:text-rose-500 transition-all text-3xl hover:scale-125" title="Ko-fi">
-          <i class="fa-solid fa-coffee"></i>
-        </a>
+          class="text-slate-500 hover:text-rose-500 transition-all text-3xl hover:scale-125" title="Ko-fi"><i
+            class="fa-solid fa-coffee"></i></a>
         <a href="https://github.com/Leedeo" target="_blank" rel="noopener"
-          class="text-slate-500 hover:text-white transition-all text-3xl hover:scale-125" title="GitHub">
-          <i class="fa-brands fa-github"></i>
-        </a>
+          class="text-slate-500 hover:text-white transition-all text-3xl hover:scale-125" title="GitHub"><i
+            class="fa-brands fa-github"></i></a>
         <a href="https://whatsapp.com/channel/0029VbCnHY0HrDZl9C2p2N0A" target="_blank" rel="noopener"
-          class="text-slate-500 hover:text-green-500 transition-all text-3xl hover:scale-125" title="WhatsApp">
-          <i class="fa-brands fa-whatsapp"></i>
-        </a>
+          class="text-slate-500 hover:text-green-500 transition-all text-3xl hover:scale-125" title="WhatsApp"><i
+            class="fa-brands fa-whatsapp"></i></a>
         <a href="https://x.com/leedeostudio" target="_blank" rel="noopener"
-          class="text-slate-500 hover:text-sky-400 transition-all text-3xl hover:scale-125" title="X (Twitter)">
-          <i class="fa-brands fa-x-twitter"></i>
-        </a>
+          class="text-slate-500 hover:text-sky-400 transition-all text-3xl hover:scale-125" title="X (Twitter)"><i
+            class="fa-brands fa-x-twitter"></i></a>
       </div>
 
       <div
@@ -416,23 +415,17 @@
 
       <div class="flex justify-center gap-6">
         <a href="https://leedeo.github.io/policy.html"
-          class="text-[10px] uppercase tracking-widest text-slate-600 hover:text-violet-400 transition-colors font-bold">
-          Políticas de Privacidad
-        </a>
+          class="text-[10px] uppercase tracking-widest text-slate-600 hover:text-violet-400 transition-colors font-bold">Políticas
+          de Privacidad</a>
       </div>
     </div>
   </footer>
 
   <script>
     document.getElementById('auto-year').textContent = new Date().getFullYear();
-
-    const observerOptions = { threshold: 0.15 };
     const observer = new IntersectionObserver((entries) => {
-      entries.forEach(entry => {
-        if (entry.isIntersecting) entry.target.classList.add('active');
-      });
-    }, observerOptions);
-
+      entries.forEach(entry => { if (entry.isIntersecting) entry.target.classList.add('active'); });
+    }, { threshold: 0.15 });
     document.querySelectorAll('.reveal').forEach(el => observer.observe(el));
   </script>
 </body>
