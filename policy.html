@@ -31,7 +31,7 @@
   </script>
 
   <link rel="shortcut icon" href="favicon.png" type="image/png">
-  
+
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
   <link rel="stylesheet" href="style.css">
 </head>
@@ -143,23 +143,40 @@
         </div>
       </div>
     </div>
-
-    <!-- Footer fuera del contenedor 3xl para usar el ancho del index (7xl) -->
-    <div class="max-w-7xl mx-auto mt-24">
-      <footer class="text-center border-t border-white/5 pt-12">
-        <div class="mb-8 px-6">
-          <p class="text-slate-500 max-w-xl mx-auto text-[11px] leading-relaxed italic opacity-70">
-            Dedicado a la creación de recursos para la comunidad de desarrollo de videojuegos, optimización de sistemas
-            y diseño digital.
-          </p>
-        </div>
-        <div
-          class="text-slate-500 text-[10px] md:text-xs font-bold tracking-[0.5em] uppercase opacity-80 mb-4 px-6 leading-loose">
-          © <span id="auto-year"></span> LEEDEO STUDIO • JAVO • CREACIÓN DE VIDEOJUEGOS Y SOFTWARE
-        </div>
-      </footer>
-    </div>
   </main>
+
+  <!-- Footer -->
+  <footer class="py-24 px-6 border-t border-white/5 bg-[#05010d]">
+    <div class="max-w-7xl mx-auto text-center">
+      <div class="mb-12 text-slate-400 max-w-2xl mx-auto text-sm leading-relaxed italic">
+        Dedicado a la creación de recursos para la comunidad de desarrollo de videojuegos, optimización de sistemas y
+        diseño digital. Un espacio para aprender, compartir y crecer juntos.
+      </div>
+
+      <div class="flex flex-wrap justify-center gap-10 mb-16 items-center">
+        <a href="https://www.youtube.com/leedeo" target="_blank" rel="noopener"
+          class="text-slate-500 hover:text-red-600 transition-all text-3xl hover:scale-125" title="YouTube"><i
+            class="fa-brands fa-youtube"></i></a>
+        <a href="https://ko-fi.com/leedeo" target="_blank" rel="noopener"
+          class="text-slate-500 hover:text-rose-500 transition-all text-3xl hover:scale-125" title="Ko-fi"><i
+            class="fa-solid fa-coffee"></i></a>
+        <a href="https://github.com/Leedeo" target="_blank" rel="noopener"
+          class="text-slate-500 hover:text-white transition-all text-3xl hover:scale-125" title="GitHub"><i
+            class="fa-brands fa-github"></i></a>
+        <a href="https://whatsapp.com/channel/0029VbCnHY0HrDZl9C2p2N0A" target="_blank" rel="noopener"
+          class="text-slate-500 hover:text-green-500 transition-all text-3xl hover:scale-125" title="WhatsApp"><i
+            class="fa-brands fa-whatsapp"></i></a>
+        <a href="https://x.com/leedeostudio" target="_blank" rel="noopener"
+          class="text-slate-500 hover:text-sky-400 transition-all text-3xl hover:scale-125" title="X (Twitter)"><i
+            class="fa-brands fa-x-twitter"></i></a>
+      </div>
+
+      <div
+        class="text-slate-500 text-[10px] md:text-xs font-bold tracking-[0.5em] uppercase border-t border-white/5 pt-12 opacity-80 mb-4">
+        © <span id="auto-year"></span> LEEDEO STUDIO • JAVO • CREACIÓN DE VIDEOJUEGOS Y SOFTWARE
+      </div>
+    </div>
+  </footer>
 
   <script>
     document.getElementById('auto-year').textContent = new Date().getFullYear();
