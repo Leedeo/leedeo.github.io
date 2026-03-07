@@ -20,38 +20,45 @@ Si esa copia maestra también está corrupta, el comando no tiene una fuente lim
 ---
 
 ### El flujo correcto: DISM antes que SFC
-Para solucionar errores de integridad de forma definitiva, debemos seguir una jerarquía técnica. Primero debemos sanear la base de datos del sistema antes de intentar reparar los archivos individuales.
+Para solucionar errores de integridad de forma definitiva, debemos seguir una jerarquía técnica. Primero debemos sanear la base de datos del sistema antes de intentar reparar los archivos individuales. Ejecuta estos comandos en una consola de **CMD con privilegios de Administrador**:
 
-1.  **Saneamiento de Imagen (DISM):**
-    Este proceso se conecta a los servidores de Microsoft para descargar archivos sanos y reemplazar los corruptos en tu imagen local.
-    *   **Acción:** Ejecutar `DISM /Online /Cleanup-Image /RestoreHealth` en CMD como administrador.
+1. **Saneamiento de Imagen (DISM):**
+Este proceso se conecta a los servidores de Microsoft para descargar archivos sanos y reemplazar los corruptos en tu imagen local.
+```batch
+DISM /Online /Cleanup-Image /RestoreHealth
+```
 
-2.  **Verificación de Integridad (SFC):**
-    Una vez que DISM confirma que la imagen está sana, SFC tendrá una fuente fiable para reparar tu instalación.
-    *   **Acción:** Ejecutar `sfc /scannow` inmediatamente después.
+2. **Verificación de Integridad (SFC):**
+Una vez que DISM confirma que la imagen está sana, SFC tendrá una fuente fiable para reparar tu instalación.
+
+```batch
+sfc /scannow
+```
 
 ---
 
 ### Errores comunes en Windows Update
+
 Muchos de los fallos de actualización (como el error **0x800f081f**) se deben a una base de datos de actualizaciones bloqueada. Si los comandos anteriores no son suficientes, suele ser necesario **reiniciar los servicios de Windows Update** manualmente.
 
-*   **Proceso:** Detener el servicio BITS, borrar la carpeta *SoftwareDistribution* y volver a registrar los archivos `.dll` del sistema para forzar una descarga limpia.
+* **Proceso:** Detener el servicio BITS, borrar la carpeta *SoftwareDistribution* y volver a registrar los archivos `.dll` del sistema para forzar una descarga limpia.
 
 ---
 
-### La solución optimizada: Leedeo Cleaner
-Entendemos que no todo el mundo tiene el tiempo para navegar por la consola de comandos gestionando procesos técnicos. Por eso desarrollamos **Leedeo Cleaner**.
-
-Nuestra herramienta no es un simple limpiador; es un **optimizador de bajo nivel** que automatiza todo este flujo técnico en un solo lugar:
-
-*   **Automatización de Ciclos:** Ejecuta de forma secuencial y correcta las rutinas de DISM y SFC, asegurando que la reparación sea efectiva.
-*   **Limpieza Profunda de Cachés:** Vacía registros de eventos, limpia la carpeta Prefetch y purga directorios temporales que ralentizan el inicio.
-*   **Desbloqueo de Windows Update:** Detiene y reinicia automáticamente los servicios conflictivos (como BITS) vaciando la caché de distribución de software.
-*   **Transparencia Total:** Al ser código abierto y portable, puedes ver exactamente qué comandos se ejecutan. Sin instalaciones ni publicidad.
-
-[Descargar Leedeo Cleaner en GitHub (Open Source)](https://github.com/Leedeo/Leedeo-Cleaner)
+> ### 🚀 Optimiza tu PC con un solo clic
+> 
+> 
+> Entendemos que navegar por la consola de comandos no es para todos. Por eso desarrollamos **Leedeo Cleaner**, un optimizador de bajo nivel que automatiza este flujo técnico:
+> * ✅ **Ciclos Automáticos:** Ejecuta DISM y SFC en el orden correcto.
+> * ✅ **Limpieza Profunda:** Purga cachés, logs y archivos temporales.
+> * ✅ **Reparación de Windows Update:** Reinicia servicios bloqueados automáticamente.
+> * ✅ **Transparente y Portable:** Código abierto, sin instalaciones.
+> 
+> 
+> **[Descargar Leedeo Cleaner en GitHub (Open Source)](https://github.com/Leedeo/Leedeo-Cleaner)**
 
 ---
 
-### Conclusión y Prevención
+### Mantener tu sistema sano
+
 Mantener la integridad de los archivos de sistema es vital para la seguridad y el rendimiento. No esperes a que un error menor se convierta en un problema grave; una limpieza y reparación periódica con herramientas como **Leedeo Cleaner** es la mejor prevención.
