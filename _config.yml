@@ -7,6 +7,18 @@ url: "https://leedeo.github.io"
 twitter_username: leedeostudio
 github_username:  Leedeo
 
+author:
+  name: "Javo"
+  twitter: leedeostudio
+
+social:
+  name: "Leedeo Studio"
+  links:
+    - https://www.youtube.com/leedeo
+    - https://x.com/leedeostudio
+    - https://github.com/Leedeo
+    - https://ko-fi.com/leedeo
+
 markdown: kramdown
 plugins:
   - jekyll-feed
