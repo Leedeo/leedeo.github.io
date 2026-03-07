@@ -175,7 +175,7 @@ title: Inicio | Leedeo Studio
     </div>
 
     <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
-      {% for post in site.posts %}
+      {% for post in site.posts limit:3 %}
       <article class="glass-card rounded-[2rem] overflow-hidden flex flex-col reveal"
         style="transition-delay: {{ forloop.index0 | times: 100 }}ms;">
         <a href="{{ post.url | relative_url }}" class="aspect-video overflow-hidden relative group block">
