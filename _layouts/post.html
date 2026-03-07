@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="es" class="scroll-smooth">
+
+<head>
+    {% include head.html %}
+</head>
+
+<body class="selection:bg-violet-500/30">
+
+    {% include header.html %}
+
+    <main class="relative min-h-screen pt-32 pb-24 px-6 hero-gradient">
+        <div class="max-w-7xl mx-auto">
+            <header class="mb-12 text-center">
+                <div class="text-violet-400 text-sm font-bold uppercase tracking-widest mb-4">{{ page.date | date: "%d
+                    de %B, %Y" }}</div>
+                <h1 class="text-4xl md:text-6xl font-black mb-8 tracking-tight uppercase leading-tight">
+                    {{ page.title }}
+                </h1>
+                <div class="h-1.5 w-24 bg-violet-500 mx-auto rounded-full"></div>
+            </header>
+
+            {% if page.thumbnail %}
+            <div class="aspect-video rounded-[3rem] overflow-hidden mb-16 border border-white/10 shadow-2xl">
+                <img src="{{ page.thumbnail | relative_url }}" alt="{{ page.title }}"
+                    class="w-full h-full object-cover">
+            </div>
+            {% endif %}
+
+            <div
+                class="glass-card rounded-[3rem] p-8 md:p-16 policy-content shadow-2xl border border-white/5 text-slate-300 leading-relaxed text-lg">
+                {{ content }}
+            </div>
+
+            <div class="mt-16 text-center">
+                <a href="{{ '/blog/' | relative_url }}"
+                    class="inline-flex items-center gap-3 bg-slate-900 hover:bg-slate-800 text-white px-8 py-4 rounded-2xl font-bold transition-all border border-white/10">
+                    <i class="fas fa-arrow-left text-xs"></i> Volver al Blog
+                </a>
+            </div>
+        </div>
+    </main>
+
+    {% include footer.html %}
+
+</body>
+
+</html>

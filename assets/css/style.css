@@ -48,6 +48,7 @@ body {
 .gradient-text {
   background: linear-gradient(135deg, var(--violet-light) 0%, var(--pink-accent) 100%);
   -webkit-background-clip: text;
+  background-clip: text;
   -webkit-text-fill-color: transparent;
   padding-right: 0.15em;
   margin-right: -0.1em;
@@ -209,37 +210,94 @@ main.hero-gradient {
   }
 }
 
-/* --- Estilos de Políticas de Privacidad --- */
-.policy-content h2 {
-  font-size: 1.5rem;
-  font-weight: 700;
-  color: var(--violet-light);
-  margin: 2.5rem 0 1rem;
-  display: flex;
-  align-items: center;
-  gap: 0.75rem;
-}
-
-.policy-content p,
-.policy-content li {
+/* --- Estilos de Contenido de Posts & Políticas --- */
+.policy-content {
   color: var(--text-dim);
   line-height: 1.8;
-  margin-bottom: 1.25rem;
+  font-size: 1.15rem;
+}
+
+.policy-content h2,
+.policy-content h3 {
+  color: #fff;
+  font-weight: 800;
+  letter-spacing: -0.02em;
+  margin-top: 3.5rem;
+  margin-bottom: 2rem;
+}
+
+.policy-content h2 {
+  font-size: 2.25rem;
+  color: var(--violet-light);
+}
+
+.policy-content h3 {
+  font-size: 1.75rem;
+  position: relative;
+  padding-left: 1.5rem;
+  border-left: 4px solid var(--violet-primary);
+}
+
+.policy-content p {
+  margin-bottom: 2.5rem;
 }
 
 .policy-content ul {
   list-style: none;
-  padding-left: 0.5rem;
+  padding-left: 1rem;
+  margin-bottom: 3rem;
+}
+
+.policy-content li {
+  position: relative;
+  padding-left: 1.5rem;
+  margin-bottom: 1.5rem;
 }
 
 .policy-content li::before {
-  content: "•";
+  content: "→";
+  position: absolute;
+  left: 0;
   color: var(--violet-primary);
   font-weight: 800;
-  display: inline-block;
-  width: 1em;
-  margin-left: -1em;
 }
+
+.policy-content hr {
+  border: 0;
+  height: 1px;
+  background: linear-gradient(90deg, transparent, rgba(255, 255, 255, 0.1), transparent);
+  margin: 3rem 0;
+}
+
+
+.policy-content strong {
+  color: #fff;
+  font-weight: 600;
+}
+
+/* Estilo para links de descarga tipo botón sutil */
+.policy-content a[href*="http"] {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.5rem;
+  background: rgba(124, 58, 237, 0.1);
+  color: var(--violet-light);
+  padding: 0.5rem 1.25rem;
+  border-radius: 1rem;
+  border: 1px solid rgba(124, 58, 237, 0.2);
+  text-decoration: none;
+  font-weight: 700;
+  font-size: 0.9rem;
+  transition: var(--transition-smooth);
+  margin-top: 1rem;
+}
+
+.policy-content a[href*="http"]:hover {
+  background: var(--violet-primary);
+  color: #fff;
+  transform: translateY(-2px);
+}
+
 
 .btn-back {
   background: rgba(255, 255, 255, 0.03);
