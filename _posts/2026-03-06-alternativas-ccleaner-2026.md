@@ -45,7 +45,7 @@ Esta herramienta va un paso más allá de la simple eliminación de archivos bas
 ### 4. Leedeo Cleaner: La opción portátil y sin instalaciones
 Desarrollamos **Leedeo Cleaner** precisamente para solucionar los problemas de los optimizadores comerciales tradicionales. Es una herramienta que **no requiere instalación**, no deja rastro en el sistema y utiliza los propios recursos de Windows (como SFC y DISM) para reparar archivos.
 
-Al ser **código abierto en GitHub**, tienes la seguridad de que no hay procesos ocultos, telemetría ni recopilación de datos. Es la opción ideal para llevar en un USB y limpiar cualquier ordenador en segundos.
+Al ser **código abierto en GitHub**, tienes la seguridad de que no hay recopilación de datos de uso. Es la opción ideal para llevar en un USB y limpiar cualquier ordenador en segundos.
 
 *   **Lo mejor:** Máxima transparencia y efectividad sin "ensuciar" el sistema operativo.
 *   **Factor clave:** Ligereza absoluta y potencia basada en comandos nativos de Microsoft.

@@ -45,7 +45,8 @@ Entendemos que no todo el mundo tiene el tiempo para navegar por la consola de c
 Nuestra herramienta no es un simple limpiador; es un **optimizador de bajo nivel** que automatiza todo este flujo técnico en un solo lugar:
 
 *   **Automatización de Ciclos:** Ejecuta de forma secuencial y correcta las rutinas de DISM y SFC, asegurando que la reparación sea efectiva.
-*   **Limpieza de Telemetría:** Elimina procesos de rastreo que consumen CPU y RAM, mejorando la respuesta inmediata del equipo.
+*   **Limpieza Profunda de Cachés:** Vacía registros de eventos, limpia la carpeta Prefetch y purga directorios temporales que ralentizan el inicio.
+*   **Desbloqueo de Windows Update:** Detiene y reinicia automáticamente los servicios conflictivos (como BITS) vaciando la caché de distribución de software.
 *   **Transparencia Total:** Al ser código abierto y portable, puedes ver exactamente qué comandos se ejecutan. Sin instalaciones ni publicidad.
 
 [Descargar Leedeo Cleaner en GitHub (Open Source)](https://github.com/Leedeo/Leedeo-Cleaner)
