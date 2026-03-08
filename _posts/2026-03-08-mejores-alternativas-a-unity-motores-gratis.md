@@ -30,7 +30,7 @@ Es, sin duda, el motor que más ha crecido en los últimos años. Su arquitectur
 *   **Lo mejor:** Arquitectura muy amigable, cero regalías y una comunidad inmensa.
 *   **Enfoque:** Desarrolladores que valoran la libertad tanto para juegos 2D como 3D.
 
-[Sitio oficial de Godot Engine](https://godotengine.org/es/){: .btn-action }
+[Sitio oficial de Godot Engine <i class="fas fa-external-link-alt"></i>](https://godotengine.org/es/){: .btn-action }
 
 ---
 
@@ -40,16 +40,16 @@ Para proyectos **3D de alto presupuesto** y fotorrealistas, Unreal sigue siendo 
 *   **Lo mejor:** Calidad gráfica de nueva generación (Next-Gen) y sistema de nodos muy avanzado.
 *   **Enfoque:** Equipos ambiciosos, estudios orientados al hiperrealismo.
 
-[Sitio oficial de Unreal Engine](https://www.unrealengine.com){: .btn-action }
+[Sitio oficial de Unreal Engine <i class="fas fa-external-link-alt"></i>](https://www.unrealengine.com){: .btn-action }
 
 ---
 
 ### 3. Motores con "alma" de Unity
 Muchos desarrolladores buscan una transición indolora al migrar. Estos motores ofrecen interfaces y flujos de trabajo basados en programación en **C#** que resultarán sospechosamente familiares para quienes vienen de Unity.
 
-*   **Stride Engine:** El "hermano gemelo" libre de Unity, impulsado por C#. [Visitar Stride Engine](https://www.stride3d.net){: .btn-action }
-*   **Flax Engine:** Un motor muy liviano, moderno y optimizado. [Probar Flax Engine](https://flaxengine.com){: .btn-action }
-*   **Cocos Creator:** La alternativa ideal para enfocarse en plataformas móvil y web (HTML5). [Ir a Cocos Creator](https://www.cocos.com/){: .btn-action }
+*   **Stride Engine:** El "hermano gemelo" libre de Unity, impulsado por C#. [Visitar Stride Engine <i class="fas fa-external-link-alt"></i>](https://www.stride3d.net)
+*   **Flax Engine:** Un motor muy liviano, moderno y optimizado. [Probar Flax Engine <i class="fas fa-external-link-alt"></i>](https://flaxengine.com)
+*   **Cocos Creator:** La alternativa ideal para enfocarse en plataformas móvil y web (HTML5). [Ir a Cocos Creator <i class="fas fa-external-link-alt"></i>](https://www.cocos.com/)
 
 ---
 
@@ -57,16 +57,15 @@ Muchos desarrolladores buscan una transición indolora al migrar. Estos motores 
 
 No siempre necesitas un motor que lo haga absolutamente todo. A veces, la especialización es tu mejor aliada para lograr terminar tu primer proyecto indie.
 
-*   **Game Maker Studio:** Un veterano imbatible en la **creación de juegos 2D**. Si tu objetivo es el increíble *Pixel Art*, sigue siendo una opción esencial. [Visitar Game Maker](https://gamemaker.io){: .btn-action }
-*   **GDevelop:** La puerta de entrada para **quienes no quieren tocar código** pero necesitan algo robusto. Su sistema visual de eventos es sorprendentemente capaz. [Probar GDevelop](https://gdevelop.io){: .btn-action }
-*   **Open 3D Engine (O3DE):** El heredero natural de Amazon Lumberyard. Es un motor de "grandes ligas" gestionado por la Apache Foundation. [Explorar O3DE](https://www.o3de.org){: .btn-action }
-
+*   **Game Maker Studio:** Un veterano imbatible en la **creación de juegos 2D**. Si tu objetivo es el increíble *Pixel Art*, sigue siendo una opción esencial. [Visitar Game Maker <i class="fas fa-external-link-alt"></i>](https://gamemaker.io)
+*   **GDevelop:** La puerta de entrada para **quienes no quieren tocar código** pero necesitan algo robusto. Su sistema visual de eventos es sorprendentemente capaz. [Probar GDevelop <i class="fas fa-external-link-alt"></i>](https://gdevelop.io)
+*   **Open 3D Engine (O3DE):** El heredero natural de Amazon Lumberyard. Es un motor de "grandes ligas" gestionado por la Apache Foundation. [Explorar O3DE <i class="fas fa-external-link-alt"></i>](https://www.o3de.org)
 ---
 
 ### 5. El factor nostalgia pura: GB Studio
 Hay proyectos que trascienden la utilidad técnica buscando una estética muy concreta. **GB Studio** te permite crear juegos reales de aventura o plataformas para la clásica consola **Game Boy original**. No es solo estética retro: es desarrollo para hardware clásico utilizando un programa moderno, visual y sencillo.
 
-[Descargar GB Studio](https://www.gbstudio.dev){: .btn-action }
+[Descargar GB Studio <i class="fas fa-external-link-alt"></i>](https://www.gbstudio.dev){: .btn-action }
 
 ---
 
@@ -76,5 +75,5 @@ La respuesta es simple: **la herramienta con la que te sientas más cómodo y en
 
 Si te decides por el camino abierto de **Godot Engine**, la curva de aprendizaje se acelerará si tienes el acompañamiento adecuado. Te invito a empezar con mi formación orientada a novatos para comprender por qué la comunidad está creciendo tanto.
 
-> [**Acceder al Curso de Godot 4 Gratis**](https://www.youtube.com/playlist?list=PL5PTqiCIVoiVyA2qed1NE4uKejXEWM60e){: .btn .btn--primary }
+> [**Acceder al Curso de Godot 4 Gratis <i class="fas fa-external-link-alt"></i>**](https://www.youtube.com/playlist?list=PL5PTqiCIVoiVyA2qed1NE4uKejXEWM60e){: .btn .btn--primary }
 

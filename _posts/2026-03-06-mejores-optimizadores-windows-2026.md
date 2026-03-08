@@ -18,7 +18,7 @@ Sigue siendo la referencia cuando se trata de **limpiar temporales** y liberar e
 *   **Ideal para:** Usuarios que buscan algo sencillo, automático y de confianza.
 *   **Punto fuerte:** Su enorme base de datos de limpieza acumulada por años.
 
-[Descargar CCleaner gratis](https://www.ccleaner.com/){: .btn-action }
+[Descargar CCleaner gratis <i class="fas fa-external-link-alt"></i>](https://www.ccleaner.com/){: .btn-action }
 
 ---
 
@@ -28,7 +28,7 @@ Si prefieres el **software libre** y sin distracciones, BleachBit es imbatible. 
 *   **Ideal para:** Usuarios que valoran la privacidad radical y el código abierto.
 *   **Punto fuerte:** Limpieza profunda sin procesos en segundo plano ni telemetría.
 
-[Descargar BleachBit (Open Source)](https://www.bleachbit.org/){: .btn-action }
+[Descargar BleachBit (Open Source) <i class="fas fa-external-link-alt"></i>](https://www.bleachbit.org/){: .btn-action }
 
 ---
 
@@ -38,7 +38,7 @@ A diferencia de los limpiadores simples, Wise Care incluye utilidades para **des
 *   **Ideal para:** Quien busca mejorar la velocidad de arranque y el rendimiento general.
 *   **Punto fuerte:** Optimización del registro y gestión inteligente de servicios.
 
-[Descargar Wise Care 365](https://www.wisecleaner.com/wise-care-365.html){: .btn-action }
+[Descargar Wise Care 365 <i class="fas fa-external-link-alt"></i>](https://www.wisecleaner.com/wise-care-365.html){: .btn-action }
 
 ---
 
@@ -48,7 +48,7 @@ Esta suite destaca por su **"Mantenimiento en 1 clic"**, que escanea errores en 
 *   **Ideal para:** Reparaciones rápidas y mantenimiento integral sin complicaciones.
 *   **Punto fuerte:** Versatilidad y gran abanico de herramientas adicionales integradas.
 
-[Descargar Glary Utilities](https://www.glarysoft.com/){: .btn-action }
+[Descargar Glary Utilities <i class="fas fa-external-link-alt"></i>](https://www.glarysoft.com/){: .btn-action }
 
 ---
 
@@ -60,7 +60,7 @@ A diferencia de los demás, **Leedeo Cleaner es totalmente transparente**: puede
 *   **Ideal para:** Usuarios que buscan el máximo rendimiento sin "bloatware".
 *   **Punto fuerte:** Ejecución limpia, portátil y basada en potentes comandos nativos.
 
-[Ver Leedeo Cleaner en GitHub](https://github.com/Leedeo/Leedeo-Cleaner){: .btn-action }
+[Ver Leedeo Cleaner en GitHub <i class="fas fa-external-link-alt"></i>](https://github.com/Leedeo/Leedeo-Cleaner){: .btn-action }
 
 ---
 

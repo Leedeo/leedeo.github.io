@@ -43,7 +43,7 @@ Si quieres ver cómo se traduce toda esta teoría en un flujo de trabajo real, t
 
 Si quieres dominar el motor desde las bases hasta sistemas avanzados, haz clic en el enlace de abajo para ir a la lista de reproducción oficial. Es totalmente gratuito y está diseñado para que no te pierdas en el camino.
 
-[**Ver Curso de Godot 4 desde Cero (Lista de Reproducción)**](https://www.youtube.com/playlist?list=PL5PTqiCIVoiVyA2qed1NE4uKejXEWM60e)
+[**Ver Curso de Godot 4 desde Cero (Lista de Reproducción) <i class="fas fa-external-link-alt"></i>**](https://www.youtube.com/playlist?list=PL5PTqiCIVoiVyA2qed1NE4uKejXEWM60e)
 {: .btn-action }
 
 ---

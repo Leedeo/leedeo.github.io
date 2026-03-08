@@ -49,6 +49,6 @@ Si después de ver el vídeo sientes que esto es lo tuyo, el siguiente paso es e
 > ### 💻 Domina la lógica de Godot con una base sólida
 > La programación es solo una herramienta para dar vida a tus ideas. Si quieres ir un paso más allá y entender cómo estructurar un juego de principio a fin, echa un vistazo a mi curso completo.
 >
-> [**Ver Curso de Godot 4 desde Cero (Lista de Reproducción)**](https://www.youtube.com/playlist?list=PL5PTqiCIVoiVyA2qed1NE4uKejXEWM60e){: .btn-action }
+> [**Ver Curso de Godot 4 desde Cero (Lista de Reproducción) <i class="fas fa-external-link-alt"></i>**](https://www.youtube.com/playlist?list=PL5PTqiCIVoiVyA2qed1NE4uKejXEWM60e){: .btn-action }
 
 No dejes que el miedo al código te detenga. En las versiones actuales de Godot (4.6 y 4.7), el editor te ayuda constantemente con sugerencias automáticas y errores explicados de forma humana. La libertad de poder crear cualquier cosa que imagines empieza por escribir tu primera línea de código hoy mismo.

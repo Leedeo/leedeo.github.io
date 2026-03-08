@@ -45,7 +45,7 @@ Si decides dar el paso con **Godot Engine**, he preparado una formación que te 
 
 No pierdas el tiempo saltando de tutorial en tutorial. Aprende la metodología correcta para canalizar tu creatividad y conviértete en un desarrollador capaz de terminar sus proyectos.
 
-[**Ver Curso de Godot 4 Completo (Lista de Reproducción)**](https://www.youtube.com/playlist?list=PL5PTqiCIVoiVyA2qed1NE4uKejXEWM60e)
+[**Ver Curso de Godot 4 Completo (Lista de Reproducción) <i class="fas fa-external-link-alt"></i>**](https://www.youtube.com/playlist?list=PL5PTqiCIVoiVyA2qed1NE4uKejXEWM60e)
 {: .btn-action }
 
 ---

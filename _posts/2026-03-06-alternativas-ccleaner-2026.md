@@ -50,7 +50,7 @@ Al ser **código abierto en GitHub**, tienes la seguridad de que no hay recopila
 *   **Lo mejor:** Máxima transparencia y efectividad sin "ensuciar" el sistema operativo.
 *   **Factor clave:** Ligereza absoluta y potencia basada en comandos nativos de Microsoft.
 
-[Ver Leedeo Cleaner en GitHub](https://github.com/Leedeo/Leedeo-Cleaner){: .btn-action }
+[Ver Leedeo Cleaner en GitHub <i class="fas fa-external-link-alt"></i>](https://github.com/Leedeo/Leedeo-Cleaner){: .btn-action }
 
 ---
 

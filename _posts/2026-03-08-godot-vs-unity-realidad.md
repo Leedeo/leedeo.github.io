@@ -45,7 +45,7 @@ Si buscas un flujo de trabajo donde tú tengas el control total, sin cuotas sorp
 > ### 🛠️ Empieza tu camino en Godot
 > No necesitas permiso de nadie para empezar a crear. Accede a mi formación gratuita y empieza a construir tus propios proyectos hoy mismo.
 >
-> [**Acceder a la lista de reproducción del Curso**](https://www.youtube.com/playlist?list=PL5PTqiCIVoiVyA2qed1NE4uKejXEWM60e){: .btn-action }
+> [**Acceder a la lista de reproducción del Curso <i class="fas fa-external-link-alt"></i>**](https://www.youtube.com/playlist?list=PL5PTqiCIVoiVyA2qed1NE4uKejXEWM60e){: .btn-action }
 
 ---
 
