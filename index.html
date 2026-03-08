@@ -295,7 +295,7 @@ title: Inicio | Leedeo Studio
   function createCard(t, isDuplicate) {
     const isSuper = t.type === 'super';
     return `
-      <div class="testimonial-card glass-card rounded-3xl p-8 flex flex-col justify-between ${isSuper ? 'border-amber-500/30 ring-1 ring-amber-500/10' : ''}" ${isDuplicate ? 'aria-hidden="true"' : ''}>
+      <div class="testimonial-card glass-card rounded-3xl p-8 flex flex-col justify-between ${isSuper ? 'border-amber-500/30 ring-1 ring-amber-500/10' : ''}" ${isDuplicate ? 'inert' : ''}>
         <div>
           <div class="flex items-center justify-between mb-6">
             <div class="flex items-center gap-3">
@@ -308,7 +308,7 @@ title: Inicio | Leedeo Studio
         </div>
         <div class="mt-8 pt-6 border-t border-white/5 flex justify-between items-center">
           <span class="text-[9px] text-slate-600 font-bold uppercase tracking-[0.2em]">${t.type === 'member' ? 'Comunidad' : 'YouTube'}</span>
-          <a href="${t.link}" target="_blank" class="w-8 h-8 rounded-full bg-white/5 flex items-center justify-center text-violet-400 hover:bg-violet-600 hover:text-white transition-all" aria-label="Ver testimonio original de ${t.user} en YouTube">
+          <a href="${t.link}" target="_blank" class="w-8 h-8 rounded-full bg-white/5 flex items-center justify-center text-violet-400 hover:bg-violet-600 hover:text-white transition-all" aria-label="Ver testimonio original de ${t.user} en YouTube" rel="noopener">
             <i class="fas fa-external-link-alt text-[10px]"></i>
           </a>
         </div>
