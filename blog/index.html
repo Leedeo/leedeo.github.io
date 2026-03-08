@@ -22,7 +22,7 @@ title: Blog | Leedeo Studio
             <article class="glass-card rounded-[2rem] overflow-hidden flex flex-col reveal"
                 style="transition-delay: {{ forloop.index0 | times: 100 }}ms;">
                 <a href="{{ post.url | relative_url }}" class="aspect-video overflow-hidden relative group block">
-                    <img src="{{ post.thumbnail | relative_url }}" alt="{{ post.title }}"
+                    <img src="{{ post.thumbnail | relative_url }}" alt="{{ post.title }}" loading="lazy"
                         class="w-full h-full object-cover transition-transform duration-500 group-hover:scale-110">
                     <div class="absolute inset-0 bg-gradient-to-t from-[#05010d] to-transparent opacity-60"></div>
                 </a>

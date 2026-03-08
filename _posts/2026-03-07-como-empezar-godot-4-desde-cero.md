@@ -36,7 +36,7 @@ Si prefieres dejar de leer teoría y pasar a la acción viendo cómo se hace cad
 
 <div style="text-align: center; margin: 30px 0;">
 <div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden; max-width: 100%; border-radius: 24px; box-shadow: 0 20px 50px rgba(0,0,0,0.5); border: 1px solid rgba(255,255,255,0.1);">
-<iframe src="https://www.youtube.com/embed/L3pFEk1HPCQ?si=JXYDwULdf9JcBYmy" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe>
+<iframe src="https://www.youtube.com/embed/L3pFEk1HPCQ?si=JXYDwULdf9JcBYmy" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen loading="lazy" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe>
 </div>
 </div>
 
