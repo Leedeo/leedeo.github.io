@@ -4,13 +4,13 @@
 <!-- SEO -->
 {% seo %}
 
-<!-- Preconectar orígenes clave -->
+<!-- Preconectar orígenes clave (reduce latencia de conexión) -->
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link rel="preconnect" href="https://cdnjs.cloudflare.com">
 <link rel="preconnect" href="https://cdn.tailwindcss.com">
 
-<!-- CSS crítico inline: evita FOUC visible mientras cargan los estilos externos -->
+<!-- CSS crítico inline: fondo negro inmediato para evitar flash blanco -->
 <style>
   :root {
     --bg-dark: #0f0a1d;
@@ -39,7 +39,7 @@
     overflow-x: hidden;
   }
 
-  /* Oculta iconos FontAwesome hasta que cargue para evitar "quadrados" */
+  /* Oculta iconos FA hasta que cargue para evitar cuadros □ */
   .fa,
   .fas,
   .far,
@@ -50,23 +50,25 @@
   }
 </style>
 
-<!-- Fuentes de Google: asíncronas (no bloquean renderizado) -->
-<link rel="stylesheet"
-  href="https://fonts.googleapis.com/css2?family=Pacifico&family=Plus+Jakarta+Sans:wght@200;300;400;600;800&display=swap"
-  media="print" onload="this.media='all'">
+<!-- Fuentes de Google: SÍNCRONAS con font-display=optional (cero CLS)
+     "optional" = si la fuente está lista en los primeros ~100ms, úsala; si no, usa la fuente del sistema SIN 
+     hacer swap posterior → nunca hay salto de layout. Con preconnect suele estar lista a tiempo. -->
+<link rel="preload"
+  href="https://fonts.googleapis.com/css2?family=Pacifico&family=Plus+Jakarta+Sans:wght@200;300;400;600;800&display=optional"
+  as="style" onload="this.onload=null;this.rel='stylesheet'">
 <noscript>
   <link
-    href="https://fonts.googleapis.com/css2?family=Pacifico&family=Plus+Jakarta+Sans:wght@200;300;400;600;800&display=swap"
+    href="https://fonts.googleapis.com/css2?family=Pacifico&family=Plus+Jakarta+Sans:wght@200;300;400;600;800&display=optional"
     rel="stylesheet">
 </noscript>
 
-<!-- Tailwind CSS: diferido para no bloquear el LCP -->
+<!-- Tailwind CSS: diferido (async) para no bloquear el LCP.
+     Tailwind solo afecta utilidades visuales, no el layout de texto → no causa CLS. -->
 <script>
-  // Carga Tailwind de forma no bloqueante tras el parseo del HTML
   (function () {
     var s = document.createElement('script');
     s.src = 'https://cdn.tailwindcss.com';
-    s.async = true; // No bloquea el parser
+    s.async = true;
     document.head.appendChild(s);
   })();
 </script>
@@ -88,13 +90,11 @@
 
 <link rel="shortcut icon" href="{{ '/assets/img/favicon.png' | relative_url }}" type="image/png">
 
-<!-- style.css: asíncrono (no bloquea renderizado, solo 3KB) -->
-<link rel="stylesheet" href="{{ '/assets/css/style.css' | relative_url }}" media="print" onload="this.media='all'">
-<noscript>
-  <link rel="stylesheet" href="{{ '/assets/css/style.css' | relative_url }}">
-</noscript>
+<!-- style.css: SÍNCRONO (solo 3KB, ya cacheado en visitas repetidas).
+     Hacerlo async causaba CLS por los cambios de glassmorphism/layout. Vale la pena el coste. -->
+<link rel="stylesheet" href="{{ '/assets/css/style.css' | relative_url }}">
 
-<!-- FontAwesome: asíncrono para evitar bloqueo de renderizado -->
+<!-- FontAwesome: asíncrono. Los iconos no afectan layout de texto → no causa CLS. -->
 <link rel="preload" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" as="style"
   onload="this.onload=null;this.rel='stylesheet';document.querySelectorAll('.fa,.fas,.far,.fab,.fa-brands,.fa-solid').forEach(function(el){el.style.visibility='';});">
 <noscript>
