@@ -283,8 +283,9 @@ main.hero-gradient {
   font-weight: 600;
 }
 
-/* Estilo para links en línea (dentro de párrafos) */
-.policy-content p a {
+/* Estilo para links en línea (dentro de párrafos y listas) */
+.policy-content p a,
+.policy-content li a {
   background: none;
   border: none;
   border-radius: 0;
@@ -297,7 +298,8 @@ main.hero-gradient {
   transition: color 0.3s;
 }
 
-.policy-content p a:hover {
+.policy-content p a:hover,
+.policy-content li a:hover {
   color: #fff;
   background: none;
   transform: none;

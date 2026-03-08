@@ -60,6 +60,7 @@ No siempre necesitas un motor que lo haga absolutamente todo. A veces, la especi
 *   **Game Maker Studio:** Un veterano imbatible en la **creación de juegos 2D**. Si tu objetivo es el increíble *Pixel Art*, sigue siendo una opción esencial. [Visitar Game Maker <i class="fas fa-external-link-alt"></i>](https://gamemaker.io)
 *   **GDevelop:** La puerta de entrada para **quienes no quieren tocar código** pero necesitan algo robusto. Su sistema visual de eventos es sorprendentemente capaz. [Probar GDevelop <i class="fas fa-external-link-alt"></i>](https://gdevelop.io)
 *   **Open 3D Engine (O3DE):** El heredero natural de Amazon Lumberyard. Es un motor de "grandes ligas" gestionado por la Apache Foundation. [Explorar O3DE <i class="fas fa-external-link-alt"></i>](https://www.o3de.org)
+
 ---
 
 ### 5. El factor nostalgia pura: GB Studio
