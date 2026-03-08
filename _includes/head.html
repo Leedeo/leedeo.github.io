@@ -4,55 +4,23 @@
 <!-- SEO -->
 {% seo %}
 
-<!-- Preconectar orígenes clave (reduce latencia de conexión) -->
+<!-- Preconectar orígenes clave (reduce latencia de primera conexión) -->
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link rel="preconnect" href="https://cdnjs.cloudflare.com">
 <link rel="preconnect" href="https://cdn.tailwindcss.com">
 
-<!-- CSS crítico inline: fondo negro inmediato para evitar flash blanco -->
+<!-- CSS crítico inline: fondo oscuro instantáneo para evitar flash blanco -->
 <style>
-  :root {
-    --bg-dark: #0f0a1d;
-    --violet-primary: #8b5cf6;
-    --violet-light: #c084fc;
-    --pink-accent: #f472b6;
-    --text-slate: #f1f5f9;
-  }
-
-  *,
-  ::before,
-  ::after {
-    box-sizing: border-box;
-    margin: 0;
-    padding: 0;
-  }
-
-  html {
-    scroll-behavior: smooth;
-  }
-
   body {
-    background-color: var(--bg-dark);
-    color: var(--text-slate);
-    font-family: system-ui, sans-serif;
-    overflow-x: hidden;
-  }
-
-  /* Oculta iconos FA hasta que cargue para evitar cuadros □ */
-  .fa,
-  .fas,
-  .far,
-  .fab,
-  .fa-brands,
-  .fa-solid {
-    visibility: hidden;
+    background-color: #0f0a1d;
   }
 </style>
 
-<!-- Fuentes de Google: SÍNCRONAS con font-display=optional (cero CLS)
-     "optional" = si la fuente está lista en los primeros ~100ms, úsala; si no, usa la fuente del sistema SIN 
-     hacer swap posterior → nunca hay salto de layout. Con preconnect suele estar lista a tiempo. -->
+<!-- Tailwind CSS: SÍNCRONO — toda la maquetación depende de él, no se puede diferir -->
+<script src="https://cdn.tailwindcss.com"></script>
+
+<!-- Fuentes de Google: asíncronas con display=optional (sin CLS: no hace swap si llegan tarde) -->
 <link rel="preload"
   href="https://fonts.googleapis.com/css2?family=Pacifico&family=Plus+Jakarta+Sans:wght@200;300;400;600;800&display=optional"
   as="style" onload="this.onload=null;this.rel='stylesheet'">
@@ -62,18 +30,7 @@
     rel="stylesheet">
 </noscript>
 
-<!-- Tailwind CSS: diferido (async) para no bloquear el LCP.
-     Tailwind solo afecta utilidades visuales, no el layout de texto → no causa CLS. -->
-<script>
-  (function () {
-    var s = document.createElement('script');
-    s.src = 'https://cdn.tailwindcss.com';
-    s.async = true;
-    document.head.appendChild(s);
-  })();
-</script>
-
-<!-- Google Analytics: diferido hasta después del evento load -->
+<!-- Google Analytics: diferido al evento load para no retrasar el LCP -->
 <link rel="preconnect" href="https://www.googletagmanager.com">
 <script>
   window.dataLayer = window.dataLayer || [];
@@ -90,13 +47,12 @@
 
 <link rel="shortcut icon" href="{{ '/assets/img/favicon.png' | relative_url }}" type="image/png">
 
-<!-- style.css: SÍNCRONO (solo 3KB, ya cacheado en visitas repetidas).
-     Hacerlo async causaba CLS por los cambios de glassmorphism/layout. Vale la pena el coste. -->
+<!-- style.css: SÍNCRONO (3KB — hacerlo async causaba CLS de 0.3 en el layout) -->
 <link rel="stylesheet" href="{{ '/assets/css/style.css' | relative_url }}">
 
-<!-- FontAwesome: asíncrono. Los iconos no afectan layout de texto → no causa CLS. -->
+<!-- FontAwesome: asíncrono (iconos visuales, no afectan layout ni causan CLS) -->
 <link rel="preload" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" as="style"
-  onload="this.onload=null;this.rel='stylesheet';document.querySelectorAll('.fa,.fas,.far,.fab,.fa-brands,.fa-solid').forEach(function(el){el.style.visibility='';});">
+  onload="this.onload=null;this.rel='stylesheet'">
 <noscript>
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
 </noscript>
