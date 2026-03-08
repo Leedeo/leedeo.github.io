@@ -231,6 +231,14 @@ main.hero-gradient {
   color: var(--violet-light);
 }
 
+/* Resetear margen superior si es el primer elemento */
+.policy-content section:first-child h2,
+.policy-content section:first-child h3,
+.policy-content>h2:first-child,
+.policy-content>h3:first-child {
+  margin-top: 0;
+}
+
 .policy-content h3 {
   font-size: 1.75rem;
   position: relative;
