@@ -8,19 +8,19 @@ excerpt: "Si buscas una alternativa a los modelos de suscripción abusivos, desc
 
 El desarrollo de videojuegos no debería ser una relación de codependencia tóxica con una empresa. Muchos desarrolladores indie se sienten atrapados en motores privativos por miedo al cambio o por la falsa creencia de que fuera de los "gigantes" de la industria no existen herramientas profesionales. 
 
-Sin embargo, el panorama actual para la **creación de videojuegos** es más rico que nunca. Existen motores que no solo igualan en potencia a las opciones comerciales, sino que te devuelven algo que el software privativo te quita: **la propiedad absoluta de tu tecnología y tus proyectos**.
+Sin embargo, el panorama actual para la **creación de videojuegos** es más rico que nunca. Existen motores que no solo igualan en potencia a las opciones comerciales, sino que ofrecen modelos de licencia mucho más amigables. Algunos te devuelven la **propiedad absoluta de tu tecnología** gracias al código abierto, mientras que otros ofrecen potencia AAA de forma gratuita hasta que alcances el éxito comercial.
 
-En el siguiente vídeo analizo a fondo las **mejores alternativas a Unity**, presentando opciones gratuitas y de código abierto para que elijas el motor ideal según las necesidades de tu videojuego:
+En el siguiente vídeo analizo a fondo las **mejores alternativas a Unity**, presentando opciones tanto gratuitas con regalías amigables como motores 100% de código abierto para que elijas el ideal según las necesidades de tu videojuego:
 
 <div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden; max-width: 100%; margin: 30px 0;">
   <iframe src="https://www.youtube.com/embed/WzSrFVa36Lg" title="Las mejores alternativas a Unity: motores de videojuegos gratis" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen loading="lazy" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border-radius: 12px; box-shadow: 0 10px 30px rgba(0,0,0,0.5);"></iframe>
 </div>
 
-### El auge del Software Libre y el Código Abierto
+### El auge de las alternativas amigables y el Código Abierto
 
-Cuando eliges un **motor de videojuegos libre (open source)**, no solo estás ahorrando dinero en licencias o regalías futuras; estás asegurándote de que tu proyecto no morirá si la empresa corporativa que hay detrás decide cambiar las reglas del juego o, simplemente, desaparecer del mercado.
+Al buscar alternativas a Unity, podemos dividir el mercado en dos grandes filosofías: los motores de **Software Libre (Open Source)**, donde no hay ataduras ni regalías futuras bajo ninguna circunstancia, y los **motores comerciales con licencias amigables**, que te permiten usar herramientas de élite gratis asumiendo un pago si tu juego se vuelve millonario.
 
-A continuación, te presento las mejores herramientas gratuitas para que empieces a crear hoy mismo:
+A continuación, te presento las mejores herramientas del mercado para que empieces a crear hoy mismo, aclarando qué modelo ofrece cada una:
 
 ---
 
@@ -34,10 +34,11 @@ Es, sin duda, el motor que más ha crecido en los últimos años. Su arquitectur
 
 ---
 
-### 2. Unreal Engine: La potencia del millón de dólares
-Para proyectos **3D de alto presupuesto** y fotorrealistas, Unreal sigue siendo el rey. Su modelo de negocio es uno de los más transparentes: no pagas ni un céntimo hasta que tu juego genera su primer millón de dólares. Es exigente con el PC (hardware), pero sus herramientas visuales como los **Blueprints** son inigualables en el sector.
+### 2. Unreal Engine: La potencia del millón de dólares (Comercial / Privativo)
+Para proyectos **3D de alto presupuesto** y fotorrealistas, Unreal sigue siendo el rey. Aunque **no es código abierto**, permite acceder a su código fuente para modificaciones bajo una licencia comercial. Su modelo de negocio es uno de los más transparentes y atractivos: no pagas ni un céntimo de regalía hasta que tu juego genera su primer millón de dólares en ventas. Es exigente con el PC (hardware), pero sus herramientas visuales como los **Blueprints** son inigualables en el sector.
 
 *   **Lo mejor:** Calidad gráfica de nueva generación (Next-Gen) y sistema de nodos muy avanzado.
+*   **Licencia:** Propietaria. Gratuito para crear; 5% de regalías solo tras superar 1.000.000$ de ingresos brutos.
 *   **Enfoque:** Equipos ambiciosos, estudios orientados al hiperrealismo.
 
 [Sitio oficial de Unreal Engine <i class="fas fa-external-link-alt"></i>](https://www.unrealengine.com){: .btn-action }
@@ -47,9 +48,9 @@ Para proyectos **3D de alto presupuesto** y fotorrealistas, Unreal sigue siendo 
 ### 3. Motores con "alma" de Unity
 Muchos desarrolladores buscan una transición indolora al migrar. Estos motores ofrecen interfaces y flujos de trabajo basados en programación en **C#** que resultarán sospechosamente familiares para quienes vienen de Unity.
 
-*   **Stride Engine:** El "hermano gemelo" libre de Unity, impulsado por C#. [Visitar Stride Engine <i class="fas fa-external-link-alt"></i>](https://www.stride3d.net)
-*   **Flax Engine:** Un motor muy liviano, moderno y optimizado. [Probar Flax Engine <i class="fas fa-external-link-alt"></i>](https://flaxengine.com)
-*   **Cocos Creator:** La alternativa ideal para enfocarse en plataformas móvil y web (HTML5). [Ir a Cocos Creator <i class="fas fa-external-link-alt"></i>](https://www.cocos.com/)
+*   **Stride Engine:** El "hermano gemelo" libre de Unity, impulsado por C# y bajo licencia MIT. [Visitar Stride Engine <i class="fas fa-external-link-alt"></i>](https://www.stride3d.net)
+*   **Flax Engine:** Un motor muy liviano, moderno y optimizado. Ofrece acceso al código fuente, libre de regalías si no superas los 25.000$ al trimestre civil. [Probar Flax Engine <i class="fas fa-external-link-alt"></i>](https://flaxengine.com)
+*   **Cocos Creator:** La alternativa ideal para enfocarse en plataformas móvil y web (HTML5). Es gratuito y de código abierto bajo licencia MIT. [Ir a Cocos Creator <i class="fas fa-external-link-alt"></i>](https://www.cocos.com/)
 
 ---
 
@@ -57,8 +58,8 @@ Muchos desarrolladores buscan una transición indolora al migrar. Estos motores 
 
 No siempre necesitas un motor que lo haga absolutamente todo. A veces, la especialización es tu mejor aliada para lograr terminar tu primer proyecto indie.
 
-*   **Game Maker Studio:** Un veterano imbatible en la **creación de juegos 2D**. Si tu objetivo es el increíble *Pixel Art*, sigue siendo una opción esencial. [Visitar Game Maker <i class="fas fa-external-link-alt"></i>](https://gamemaker.io)
-*   **GDevelop:** La puerta de entrada para **quienes no quieren tocar código** pero necesitan algo robusto. Su sistema visual de eventos es sorprendentemente capaz. [Probar GDevelop <i class="fas fa-external-link-alt"></i>](https://gdevelop.io)
+*   **Game Maker Studio (Freemium):** Un veterano imbatible en la **creación de juegos 2D**. Si tu objetivo es el increíble *Pixel Art*, es una opción esencial. Es gratuito para uso no comercial (estudiante/hobby), pero requiere licencia de pago para exportar consolas o monetizar. [Visitar Game Maker <i class="fas fa-external-link-alt"></i>](https://gamemaker.io)
+*   **GDevelop (Open Source MIT):** La puerta de entrada para **quienes no quieren tocar código** pero necesitan algo robusto. Su sistema visual de eventos es sorprendentemente capaz, y el motor es de código abierto. [Probar GDevelop <i class="fas fa-external-link-alt"></i>](https://gdevelop.io)
 *   **Open 3D Engine (O3DE):** El heredero natural de Amazon Lumberyard. Es un motor de "grandes ligas" gestionado por la Apache Foundation. [Explorar O3DE <i class="fas fa-external-link-alt"></i>](https://www.o3de.org)
 
 ---
