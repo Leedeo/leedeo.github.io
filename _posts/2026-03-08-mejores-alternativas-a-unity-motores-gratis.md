@@ -13,7 +13,7 @@ Sin embargo, el panorama actual para la **creación de videojuegos** es más ric
 En el siguiente vídeo analizo a fondo las **mejores alternativas a Unity**, presentando opciones gratuitas y de código abierto para que elijas el motor ideal según las necesidades de tu videojuego:
 
 <div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden; max-width: 100%; margin: 30px 0;">
-  <iframe src="https://www.youtube.com/embed/WzSrFVa36Lg" title="Las mejores alternativas a Unity: motores de videojuegos gratis" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border-radius: 12px; box-shadow: 0 10px 30px rgba(0,0,0,0.5);"></iframe>
+  <iframe src="https://www.youtube.com/embed/WzSrFVa36Lg" title="Las mejores alternativas a Unity: motores de videojuegos gratis" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen loading="lazy" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border-radius: 12px; box-shadow: 0 10px 30px rgba(0,0,0,0.5);"></iframe>
 </div>
 
 ### El auge del Software Libre y el Código Abierto
@@ -74,7 +74,17 @@ Hay proyectos que trascienden la utilidad técnica buscando una estética muy co
 
 La respuesta es simple: **la herramienta con la que te sientas más cómodo y en flujo constante**. Como desarrollador independiente, no le rindes cuentas a nadie. Instala, prueba distintos programas y quédate con el motor de videojuegos que te permita centrarte en lo importante: diseñar experiencias divertidas. 
 
-Si te decides por el camino abierto de **Godot Engine**, la curva de aprendizaje se acelerará si tienes el acompañamiento adecuado. Te invito a empezar con mi formación orientada a novatos para comprender por qué la comunidad está creciendo tanto.
+Si te decides por el camino abierto de **Godot Engine**, la curva de aprendizaje se acelerará si tienes el acompañamiento adecuado. Te invito a empezar con mi formación orientada a novatos para comprender por qué la comunidad está creciendo tanto. Descubre tu mismo por qué Godot me apasiona en el primer vídeo de mi curso:
 
-> [**Acceder al Curso de Godot 4 Gratis <i class="fas fa-external-link-alt"></i>**](https://www.youtube.com/playlist?list=PL5PTqiCIVoiVyA2qed1NE4uKejXEWM60e){: .btn .btn--primary }
+<div class="my-12">
+  <div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden; max-width: 100%; border-radius: 1rem; box-shadow: 0 20px 25px -5px rgb(0 0 0 / 0.5);">
+    <iframe src="https://www.youtube.com/embed/L3pFEk1HPCQ" title="Curso de Godot 4 desde cero" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;" loading="lazy"></iframe>
+  </div>
+</div>
+
+<div class="text-center mt-8 mb-4">
+  <a href="https://www.youtube.com/playlist?list=PL5PTqiCIVoiVyA2qed1NE4uKejXEWM60e" target="_blank" rel="noopener" class="btn-action inline-flex items-center gap-3 bg-violet-600 hover:bg-violet-500 text-white px-8 py-4 rounded-2xl font-bold transition-all text-lg shadow-lg shadow-violet-500/25 hover:shadow-violet-500/40 hover:-translate-y-1">
+    Acceder al Curso de Godot 4 Gratis <i class="fas fa-external-link-alt text-sm opacity-80"></i>
+  </a>
+</div>
 
