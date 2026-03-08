@@ -8,8 +8,49 @@
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link rel="preconnect" href="https://cdnjs.cloudflare.com">
+<link rel="preconnect" href="https://cdn.tailwindcss.com">
 
-<!-- Fuentes de Google optimizadas (Asíncronas para PageSpeed) -->
+<!-- CSS crítico inline: evita FOUC visible mientras cargan los estilos externos -->
+<style>
+  :root {
+    --bg-dark: #0f0a1d;
+    --violet-primary: #8b5cf6;
+    --violet-light: #c084fc;
+    --pink-accent: #f472b6;
+    --text-slate: #f1f5f9;
+  }
+
+  *,
+  ::before,
+  ::after {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+
+  html {
+    scroll-behavior: smooth;
+  }
+
+  body {
+    background-color: var(--bg-dark);
+    color: var(--text-slate);
+    font-family: system-ui, sans-serif;
+    overflow-x: hidden;
+  }
+
+  /* Oculta iconos FontAwesome hasta que cargue para evitar "quadrados" */
+  .fa,
+  .fas,
+  .far,
+  .fab,
+  .fa-brands,
+  .fa-solid {
+    visibility: hidden;
+  }
+</style>
+
+<!-- Fuentes de Google: asíncronas (no bloquean renderizado) -->
 <link rel="stylesheet"
   href="https://fonts.googleapis.com/css2?family=Pacifico&family=Plus+Jakarta+Sans:wght@200;300;400;600;800&display=swap"
   media="print" onload="this.media='all'">
@@ -19,14 +60,22 @@
     rel="stylesheet">
 </noscript>
 
-<script src="https://cdn.tailwindcss.com"></script>
+<!-- Tailwind CSS: diferido para no bloquear el LCP -->
+<script>
+  // Carga Tailwind de forma no bloqueante tras el parseo del HTML
+  (function () {
+    var s = document.createElement('script');
+    s.src = 'https://cdn.tailwindcss.com';
+    s.async = true; // No bloquea el parser
+    document.head.appendChild(s);
+  })();
+</script>
 
-<!-- Global site tag (gtag.js) - Google Analytics -->
+<!-- Google Analytics: diferido hasta después del evento load -->
 <link rel="preconnect" href="https://www.googletagmanager.com">
 <script>
   window.dataLayer = window.dataLayer || [];
   function gtag() { dataLayer.push(arguments); }
-  // Diferir la configuración de Analytics hasta después del evento load
   window.addEventListener('load', function () {
     var s = document.createElement('script');
     s.async = true;
@@ -39,11 +88,15 @@
 
 <link rel="shortcut icon" href="{{ '/assets/img/favicon.png' | relative_url }}" type="image/png">
 
-<link rel="stylesheet" href="{{ '/assets/css/style.css' | relative_url }}">
+<!-- style.css: asíncrono (no bloquea renderizado, solo 3KB) -->
+<link rel="stylesheet" href="{{ '/assets/css/style.css' | relative_url }}" media="print" onload="this.media='all'">
+<noscript>
+  <link rel="stylesheet" href="{{ '/assets/css/style.css' | relative_url }}">
+</noscript>
 
-<!-- FontAwesome asíncrono para evitar bloqueo de renderizado (Recomendación PageSpeed) -->
+<!-- FontAwesome: asíncrono para evitar bloqueo de renderizado -->
 <link rel="preload" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" as="style"
-  onload="this.onload=null;this.rel='stylesheet'">
+  onload="this.onload=null;this.rel='stylesheet';document.querySelectorAll('.fa,.fas,.far,.fab,.fa-brands,.fa-solid').forEach(function(el){el.style.visibility='';});">
 <noscript>
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
 </noscript>
