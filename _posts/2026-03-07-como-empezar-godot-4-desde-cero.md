@@ -54,6 +54,6 @@ Si quieres dominar el motor desde las bases hasta sistemas avanzados, haz clic e
 
 No intentes hacer el próximo *Elden Ring* mañana. Empieza por algo pequeño: un clon de Flappy Bird, un plataformas simple o un juego de naves. Lo importante es terminar cosas. Cada pequeño proyecto que finalizas te enseña más que diez tutoriales que dejas a la mitad.
 
-Recuerda que para que tu experiencia de desarrollo sea fluida, es vital que tu PC responda bien. Si notas lentitud al compilar o navegar por el motor, echa un vistazo a nuestra guía sobre [mejores optimizadores para Windows en 2026]({% post_url 2026-03-07-mejores-optimizadores-windows-2026 %}) o descarga [Leedeo Cleaner](https://github.com/Leedeo/Leedeo-Cleaner) para purgar archivos basura que puedan estar frenando tu creatividad.
+Recuerda que para que tu experiencia de desarrollo sea fluida, es vital que tu PC responda bien. Si notas lentitud al compilar o navegar por el motor, echa un vistazo a nuestra guía sobre [mejores optimizadores para Windows en 2026]({% post_url 2026-03-06-mejores-optimizadores-windows-2026 %}) o descarga [Leedeo Cleaner](https://github.com/Leedeo/Leedeo-Cleaner) para purgar archivos basura que puedan estar frenando tu creatividad.
 
 **Godot 4 tiene todo lo que necesitas, ¡el resto depende de ti!**
