@@ -9,10 +9,15 @@
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link rel="preconnect" href="https://cdnjs.cloudflare.com">
 
-<!-- Fuentes de Google optimizadas -->
-<link
+<!-- Fuentes de Google optimizadas (Asíncronas para PageSpeed) -->
+<link rel="stylesheet"
   href="https://fonts.googleapis.com/css2?family=Pacifico&family=Plus+Jakarta+Sans:wght@200;300;400;600;800&display=swap"
-  rel="stylesheet">
+  media="print" onload="this.media='all'">
+<noscript>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Pacifico&family=Plus+Jakarta+Sans:wght@200;300;400;600;800&display=swap"
+    rel="stylesheet">
+</noscript>
 
 <script src="https://cdn.tailwindcss.com"></script>
 

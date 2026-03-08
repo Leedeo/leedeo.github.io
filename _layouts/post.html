@@ -22,8 +22,8 @@
 
             {% if page.thumbnail %}
             <div class="aspect-video rounded-[3rem] overflow-hidden mb-16 border border-white/10 shadow-2xl">
-                <img src="{{ page.thumbnail | relative_url }}" alt="{{ page.title }}"
-                    class="w-full h-full object-cover">
+                <img src="{{ page.thumbnail | relative_url }}" alt="{{ page.title }}" class="w-full h-full object-cover"
+                    width="1280" height="720" fetchpriority="high">
             </div>
             {% endif %}
 
