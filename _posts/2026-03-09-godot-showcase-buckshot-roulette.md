@@ -78,4 +78,4 @@ Considerando lo habitual de lidiar en plazos y frustraciones la moraleja remite 
 
 ---
 
-*(Entrevista original alojada y elaborada en inglés por el blog oficial de la Fundación Godot. Adaptado expresamente para la comunidad de Leedeo Studio).*
+*(Entrevista original alojada y elaborada en inglés por el [blog oficial de la Fundación Godot](https://godotengine.org/article/godot-showcase-buckshot-roulette/). Adaptado expresamente para la comunidad de Leedeo Studio).*
