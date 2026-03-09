@@ -1,17 +1,44 @@
 {% if site.disqus_shortname %}
-<div id="disqus_thread" class="mt-20 glass-card rounded-[3rem] p-8 md:p-12 border border-white/5 shadow-2xl"></div>
+<div id="disqus_trigger_container" class="mt-20">
+    <button id="load_disqus_btn"
+        class="w-full bg-black/80 hover:bg-black border border-white/10 hover:border-violet-500/50 text-white font-bold py-6 px-8 rounded-[2rem] transition-all duration-300 shadow-xl text-lg flex items-center justify-center gap-3"
+        onclick="loadDisqus()">
+        <span class="text-2xl">💬</span> Clic para comentar
+    </button>
+</div>
+
+<div id="disqus_container" style="display: none;"
+    class="mt-8 glass-card rounded-[3rem] p-8 md:p-12 border border-white/5 shadow-2xl">
+    <div id="disqus_thread"></div>
+</div>
+
 <script>
     var disqus_config = function () {
         this.page.url = "{{ page.url | absolute_url }}";
         this.page.identifier = "{{ page.id }}";
     };
-    (function () {
+
+    function loadDisqus() {
+        var btn = document.getElementById('load_disqus_btn');
+        var triggerContainer = document.getElementById('disqus_trigger_container');
+        var disqusContainer = document.getElementById('disqus_container');
+
+        btn.innerHTML = '<i class="fas fa-spinner fa-spin text-xl"></i> Cargando comentarios...';
+        btn.style.opacity = '0.7';
+        btn.style.cursor = 'wait';
+
         var d = document, s = d.createElement('script');
         s.src = 'https://{{ site.disqus_shortname }}.disqus.com/embed.js';
         s.setAttribute('data-timestamp', +new Date());
+
+        s.onload = function () {
+            triggerContainer.style.display = 'none';
+            disqusContainer.style.display = 'block';
+        };
+
         (d.head || d.body).appendChild(s);
-    })();
+    }
 </script>
-<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by
+<noscript>Por favor, activa JavaScript para ver los <a href="https://disqus.com/?ref_noscript">comentarios alojados por
         Disqus.</a></noscript>
 {% endif %}
