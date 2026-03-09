@@ -20,13 +20,13 @@
 <!-- Tailwind CSS: SÍNCRONO — toda la maquetación depende de él, no se puede diferir -->
 <script src="https://cdn.tailwindcss.com"></script>
 
-<!-- Fuentes de Google: asíncronas con display=optional (sin CLS: no hace swap si llegan tarde) -->
+<!-- Fuentes de Google: asíncronas con display=swap (garantiza la carga de los pesos correctos) -->
 <link rel="preload"
-  href="https://fonts.googleapis.com/css2?family=Pacifico&family=Plus+Jakarta+Sans:wght@200;300;400;600;800&display=optional"
+  href="https://fonts.googleapis.com/css2?family=Pacifico&family=Plus+Jakarta+Sans:wght@200;300;400;600;800&display=swap"
   as="style" onload="this.onload=null;this.rel='stylesheet'">
 <noscript>
   <link
-    href="https://fonts.googleapis.com/css2?family=Pacifico&family=Plus+Jakarta+Sans:wght@200;300;400;600;800&display=optional"
+    href="https://fonts.googleapis.com/css2?family=Pacifico&family=Plus+Jakarta+Sans:wght@200;300;400;600;800&display=swap"
     rel="stylesheet">
 </noscript>
 
