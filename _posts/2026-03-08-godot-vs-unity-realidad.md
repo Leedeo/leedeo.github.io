@@ -6,49 +6,84 @@ thumbnail: "/assets/img/godot-vs-unity-realidad.webp"
 excerpt: "¿Realmente importa qué motor elijas para trabajar? Desmontamos los mitos sobre Unity, el software privativo y la realidad del mercado laboral de videojuegos."
 ---
 
-Después de haber usado Unity durante cuatro años, puedo decir sin miedo que es un motor increíble. Fue mi puerta de entrada al desarrollo "moderno" tras años de parón desde mi adolescencia con RPG Maker. Pero las herramientas no son solo líneas de código; también son las empresas que las gestionan y las decisiones que toman.
+Después de haber usado Unity durante cuatro años, puedo decir sin miedo que es un motor increíble. Fue mi puerta de entrada al desarrollo "moderno" tras años de pausa desde mi adolescencia con RPG Maker. Pero las herramientas no son solo líneas de código; también son las empresas que las gestionan y las decisiones que toman.
 
-Muchos recomiendan Unity (o Unreal) usando el "comodín" del empleo: *"Aprende esto porque hay más trabajo"*. Pero vamos a ser realistas.
+Y las decisiones de Unity Technologies en los últimos años han sido, objetivamente, muy malas para quienes confían en él.
 
-### La mentira del trabajo asegurado
+---
 
-El sector del videojuego no está para tirar cohetes. Estamos en una época de despidos masivos y estudios cerrando. Creer que una empresa te va a contratar solo por saber usar X motor es no conocer cómo funciona esta industria por dentro. A un estudio profesional le importa tu experiencia en proyectos reales y demostables, no el logo que aparece al arrancar tu editor.
+### El colapso de reputación de Unity en 2023
 
-En este vídeo explico a fondo por qué el argumento del "trabajo" es, muchas veces, solo un pretexto de fanáticos:
+En septiembre de 2023, Unity anunció cambios retroactivos en su modelo de precios. La nueva estructura imponía un "Runtime Fee": una tarifa a pagar **por cada instalación del juego** una vez superado un umbral de ingresos y descargas. El problema crítico era que esta tarifa se aplicaría también a **juegos ya publicados**, cuyas condiciones de licencia habían sido firmadas bajo reglas completamente diferentes.
 
-<div style="text-align: center; margin: 30px 0;">
-<div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden; max-width: 100%; border-radius: 24px; box-shadow: 0 20px 50px rgba(0,0,0,0.5); border: 1px solid rgba(255,255,255,0.1);">
-<iframe src="https://www.youtube.com/embed/NWosjlLorEU" title="La realidad del trabajo en videojuegos" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen loading="lazy" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe>
-</div>
-</div>
+Las consecuencias fueron inmediatas:
+
+*   Docenas de estudios indie anunciaron públicamente que abandonarían Unity.
+*   El CEO de Unity, John Riccitiello, renunció semanas después.
+*   Unity tuvo que dar marcha atrás en gran parte de los cambios, pero el daño de confianza fue irreparable para una empresa cuyo producto principal *es* la confianza de los desarrolladores.
+
+Este episodio no es anecdótico. Ilustra un riesgo estructural real: cuando tu motor está gestionado por una empresa cotizada en bolsa con inversores que exigen crecimiento de ingresos, tus intereses como desarrollador están sistemáticamente por debajo de los intereses de los accionistas.
+
+---
+
+### La mentira del "trabajo asegurado"
+
+Muchos recomiendan Unity (o Unreal) usando el "comodín" del empleo: *"Aprende esto porque hay más trabajo"*. Vamos a ser realistas sobre esto.
+
+**El sector del videojuego no está para tirar cohetes.** Estamos en una época de despidos masivos y estudios cerrando: Microsoft Gaming, EA, Sony Interactive Entertainment, Riot Games, Epic Games... todos han recortado plantillas significativamente entre 2023 y 2025. Hablar de "trabajo asegurado" en esta industria es, en el mejor de los casos, optimismo exagerado.
+
+**Lo que importa para conseguir trabajo en un estudio:**
+
+1.  **Portfolio de proyectos terminados.** Un estudio te va a pedir que les muestres qué has construido, no qué motor conoces. Si tienes un juego publicado en Steam o itch.io, eso vale infinitamente más que saber usar cualquier motor sin proyectos que demostrarlo.
+2.  **Capacidad de aprender herramientas nuevas.** Un programador sólido que conoce bien los conceptos (física, comportamiento de entidades, gestión de estados) aprende cualquier motor en semanas. Los estudios lo saben.
+3.  **Habilidades técnicas transferibles.** Patrones de diseño, estructuras de datos, debugging, control de versiones con Git. Estas habilidades son mucho más valoradas que "saber Unity específicamente".
+
+---
 
 ### ¿Es Godot el mejor motor del mundo? No.
 
-No estoy aquí para convencerte de que te unas a un "club". Godot no es perfecto, pero es **capaz**. Es ligero, corre en casi cualquier patata de PC y te permite hacer el 99% de los juegos que una persona o un grupo pequeño puede soñar con crear en su casa.
+No estoy aquí para convencerte de que te unas a un "club". Godot no es perfecto. Si necesitas construir algo con capacidades gráficas de película de cinemática fotorrealista, Unreal sigue siendo la mejor herramienta disponible. Si ya tienes un proyecto grande en Unity con decenas de miles de líneas de código y activos específicos, migrar tiene costes reales.
 
-Y hay algo que Unity nunca podrá darte: **libertad total**.
+Pero Godot tiene algo que Unity nunca podrá ofrecerte: **libertad total sin asteriscos**.
 
-Cuando Sega encargó *Sonic Colors Ultimate*, Blind Squirrel usó una versión modificada de Godot. Hay quien usa esto como crítica, pero en realidad es la mayor virtud del motor. ¿Por qué pudieron modificarlo? **Porque es software libre.** En Unity o Unreal, si necesitas tocar las tripas del motor para optimizar algo específico, tienes que pasar por caja o pedir permisos especiales. En Godot, si necesitas destrozar el motor y rehacerlo a tu medida, simplemente lo haces. Nadie te va a cobrar por ello ni te va a pedir explicaciones.
+*   Godot es libre bajo licencia MIT. Esto significa que puedes usarlo para cualquier proyecto, incluidos los proyectos comerciales, sin ninguna restricción, sin ningún umbral de ingresos. Para siempre. La licencia no puede cambiar retroactivamente.
+*   Puedes modificar el motor para adaptarlo a tus necesidades específicas. Cuando Blind Squirrel usó una versión modificada de Godot para *Sonic Colors Ultimate*, nadie les envió una factura ni les pidió un permiso especial. Eso es lo que significa el Software Libre.
+*   El código del motor es auditable. Si encuentras un bug crítico, puedes ir directamente al repositorio en GitHub, leer el código, entender la causa y incluso enviar un fix. No esperas a que "el equipo de Unity decida si eso es un bug o una feature".
+
+---
+
+### Qué motor elegir según tu objetivo real
+
+| Objetivo | Motor recomendado | Razón |
+|---|---|---|
+| Aprender a desarrollar (primer juego) | Godot | Mínima fricción, máxima libertad |
+| Juego 2D indie comercial | Godot / Game Maker | Herramientas optimizadas para 2D |
+| Juego 3D mid-budget | Godot / Unity | Ecosistema adecuado, buen soporte |
+| Shooter AAA fotorrealista | Unreal Engine | Sin competencia en este nicho |
+| Migrar desde Unity (ya con experiencia) | Godot | GDScript similar a C#; arquitectura distinta pero lógica |
 
 ---
 
 ### Aprende a usar la herramienta, no a ser su rehén
 
-Si buscas un flujo de trabajo donde tú tengas el control total, sin cuotas sorpresa ni decisiones empresariales que te dejen tirado, te invito a probar Godot. He preparado un [guía completa para aprender Godot 4 desde cero]({% post_url 2026-03-07-como-empezar-godot-4-desde-cero %}) que va al grano, explicando la lógica real detrás del desarrollo.
+Si buscas un flujo de trabajo donde tú tengas el control total, sin cuotas sorpresa ni decisiones empresariales que te dejen tirado, te invito a probar Godot. He preparado una [guía completa para aprender Godot 4 desde cero]({% post_url 2026-03-07-como-empezar-godot-4-desde-cero %}) que va al grano, explicando la lógica real detrás del desarrollo sin rodeos.
 
-<div style="text-align: center; margin: 30px 0;">
-<div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden; max-width: 100%; border-radius: 24px; box-shadow: 0 20px 50px rgba(0,0,0,0.5); border: 1px solid rgba(255,255,255,0.1);">
-<iframe src="https://www.youtube.com/embed/L3pFEk1HPCQ?si=JXYDwULdf9JcBYmy" title="Curso Godot 4 desde Cero" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen loading="lazy" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe>
+<div class="my-12">
+  <div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden; max-width: 100%; border-radius: 1rem; box-shadow: 0 20px 25px -5px rgb(0 0 0 / 0.5);">
+    <iframe src="https://www.youtube.com/embed/L3pFEk1HPCQ" title="Curso Godot 4 desde Cero" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen loading="lazy" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe>
+  </div>
 </div>
-</div>
-
-> ### 🛠️ Empieza tu camino en Godot
-> No necesitas permiso de nadie para empezar a crear. Accede a mi formación gratuita y empieza a construir tus propios proyectos hoy mismo.
->
-> [**Acceder a la lista de reproducción del Curso <i class="fas fa-external-link-alt"></i>**](https://www.youtube.com/playlist?list=PL5PTqiCIVoiVyA2qed1NE4uKejXEWM60e){: .btn-action }
 
 ---
 
 ### El motor es tuyo, el camino también
 
-No elijas un motor por las promesas de empleo de un desconocido en Twitter. Elige una herramienta que te dé la libertad de crear sin condiciones. Godot 4 está aquí para quedarse, y es más potente de lo que muchos están dispuestos a admitir. El mercado de videojuegos es difícil, pero ser dueño de tu propia tecnología es la mejor ventaja competitiva gratuita que puedes tener.
+No elijas un motor por las promesas de empleo de un desconocido en Twitter. Elige una herramienta que te dé la libertad de crear sin condiciones y que te enseñe cómo funciona lo que estás haciendo.
+
+Godot 4 está aquí para quedarse. La pregunta no es si Godot va a crecer: los números de GitHub, la actividad de la comunidad y el interés de empresas como The Godot Foundation y sus patrocinadores lo confirman. La pregunta es si tú vas a estar ahí cuando eso ocurra.
+
+<div class="text-center mt-12 mb-8">
+  <a href="https://www.youtube.com/playlist?list=PL5PTqiCIVoiVyA2qed1NE4uKejXEWM60e" target="_blank" rel="noopener" class="btn-action inline-flex items-center gap-3 bg-violet-600 hover:bg-violet-500 text-white px-8 py-4 rounded-2xl font-bold transition-all text-lg shadow-lg shadow-violet-500/25 hover:shadow-violet-500/40 hover:-translate-y-1">
+    Empezar el Curso de Godot 4 Gratis <i class="fas fa-external-link-alt text-sm opacity-80"></i>
+  </a>
+</div>
