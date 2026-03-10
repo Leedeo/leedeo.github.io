@@ -85,7 +85,8 @@ El problema de fondo es que la industria lleva años creciendo en coste más rá
 Para aquellos que queremos crear experiencias sin heredar esta insoportable presión financiera, la lección está clara: **hay una alternativa.** El modelo independiente, el uso de herramientas accesibles y los proyectos de alcances medidos son el refugio natural de la creatividad. Mientras la burbuja AAA lidia con sus contradicciones, el desarrollo puro de videojuegos sigue vivo a escala humana.
 
 <div class="text-center mt-12 mb-8">
-  <a href="https://youtu.be/NWosjlLorEU" target="_blank" rel="noopener" class="btn-action inline-flex items-center gap-3 bg-violet-600 hover:bg-violet-500 text-white px-8 py-4 rounded-2xl font-bold transition-all text-lg shadow-lg shadow-violet-500/25 hover:shadow-violet-500/40 hover:scale-105">
+  <a href="https://youtu.be/NWosjlLorEU" target="_blank" rel="noopener" class="btn-primary inline-flex items-center gap-3 bg-violet-600 hover:bg-violet-500 text-white px-8 py-4 rounded-2xl font-bold transition-all text-lg shadow-lg shadow-violet-500/25 hover:shadow-violet-500/40 hover:scale-105">
     Reflexiona sobre la realidad de la industria <i class="fas fa-external-link-alt text-sm opacity-80"></i>
   </a>
 </div>
+

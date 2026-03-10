@@ -96,7 +96,7 @@ Algunos errores de actualización (como **0x80070057** o **0x800f0922**) persist
 
 Si este flujo te parece largo o buscas una forma de ejecutarlo en múltiples máquinas sin ir paso a paso, [Leedeo Cleaner](https://github.com/Leedeo/Leedeo-Cleaner) automatiza todo este proceso en el orden correcto: primero DISM, luego SFC, con manejo de errores y logs de lo que ocurrió. Es código abierto, portable (no requiere instalación) y lo puedes auditar línea a línea.
 
-[Ver Leedeo Cleaner en GitHub <i class="fas fa-external-link-alt"></i>](https://github.com/Leedeo/Leedeo-Cleaner){: .btn-action }
+[Ver Leedeo Cleaner en GitHub <i class="fas fa-external-link-alt"></i>](https://github.com/Leedeo/Leedeo-Cleaner){: .btn-primary }
 
 ---
 
@@ -109,3 +109,4 @@ La reparación mediante DISM y SFC resuelve la gran mayoría de corrupciones de 
 *   Actualizaciones de Windows que han fallado a medias y dejado el sistema en un estado inconsistente irrecuperable con las herramientas anteriores.
 
 Si llegas a ese punto, recuerda hacer una **imagen completa del disco con Macrium Reflect** (gratuito) antes de formatear. Te permitirá recuperar datos específicos incluso destrozar después.
+

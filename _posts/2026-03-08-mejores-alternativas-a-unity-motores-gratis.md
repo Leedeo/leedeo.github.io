@@ -30,7 +30,7 @@ Es, sin duda, el motor que más ha crecido en los últimos años. Su arquitectur
 *   **Lo mejor:** Arquitectura muy amigable, cero regalías y una comunidad inmensa.
 *   **Enfoque:** Desarrolladores que valoran la libertad tanto para juegos 2D como 3D.
 
-[Sitio oficial de Godot Engine <i class="fas fa-external-link-alt"></i>](https://godotengine.org/es/){: .btn-action }
+[Sitio oficial de Godot Engine <i class="fas fa-external-link-alt"></i>](https://godotengine.org/es/){: .btn-primary }
 
 ---
 
@@ -41,7 +41,7 @@ Para proyectos **3D de alto presupuesto** y fotorrealistas, Unreal sigue siendo 
 *   **Licencia:** Propietaria. Gratuito para crear; 5% de regalías solo tras superar 1.000.000$ de ingresos brutos.
 *   **Enfoque:** Equipos ambiciosos, estudios orientados al hiperrealismo.
 
-[Sitio oficial de Unreal Engine <i class="fas fa-external-link-alt"></i>](https://www.unrealengine.com){: .btn-action }
+[Sitio oficial de Unreal Engine <i class="fas fa-external-link-alt"></i>](https://www.unrealengine.com){: .btn-primary }
 
 ---
 
@@ -67,7 +67,7 @@ No siempre necesitas un motor que lo haga absolutamente todo. A veces, la especi
 ### 5. El factor nostalgia pura: GB Studio
 Hay proyectos que trascienden la utilidad técnica buscando una estética muy concreta. **GB Studio** te permite crear juegos reales de aventura o plataformas para la clásica consola **Game Boy original**. No es solo estética retro: es desarrollo para hardware clásico utilizando un programa moderno, visual y sencillo.
 
-[Descargar GB Studio <i class="fas fa-external-link-alt"></i>](https://www.gbstudio.dev){: .btn-action }
+[Descargar GB Studio <i class="fas fa-external-link-alt"></i>](https://www.gbstudio.dev){: .btn-primary }
 
 ---
 
@@ -84,8 +84,9 @@ Si te decides por el camino abierto de **Godot Engine**, la curva de aprendizaje
 </div>
 
 <div class="text-center mt-8 mb-4">
-  <a href="https://www.youtube.com/playlist?list=PL5PTqiCIVoiVyA2qed1NE4uKejXEWM60e" target="_blank" rel="noopener" class="btn-action inline-flex items-center gap-3 bg-violet-600 hover:bg-violet-500 text-white px-8 py-4 rounded-2xl font-bold transition-all text-lg shadow-lg shadow-violet-500/25 hover:shadow-violet-500/40 hover:scale-105">
+  <a href="https://www.youtube.com/playlist?list=PL5PTqiCIVoiVyA2qed1NE4uKejXEWM60e" target="_blank" rel="noopener" class="btn-primary inline-flex items-center gap-3 bg-violet-600 hover:bg-violet-500 text-white px-8 py-4 rounded-2xl font-bold transition-all text-lg shadow-lg shadow-violet-500/25 hover:shadow-violet-500/40 hover:scale-105">
     Acceder al Curso de Godot 4 Gratis <i class="fas fa-external-link-alt text-sm opacity-80"></i>
   </a>
 </div>
+
 

@@ -28,7 +28,7 @@ Unity terminó dando marcha atrás en la política, y la situación también aca
 </div>
 
 <div class="text-center mt-8 mb-16">
-  <a href="https://www.youtube.com/playlist?list=PL5PTqiCIVoiVyA2qed1NE4uKejXEWM60e" target="_blank" rel="noopener" class="btn-action inline-flex items-center gap-3 bg-violet-600 hover:bg-violet-500 text-white px-8 py-4 rounded-2xl font-bold transition-all text-lg shadow-lg shadow-violet-500/25 hover:shadow-violet-500/40 hover:scale-105">
+  <a href="https://www.youtube.com/playlist?list=PL5PTqiCIVoiVyA2qed1NE4uKejXEWM60e" target="_blank" rel="noopener" class="btn-primary inline-flex items-center gap-3 bg-violet-600 hover:bg-violet-500 text-white px-8 py-4 rounded-2xl font-bold transition-all text-lg shadow-lg shadow-violet-500/25 hover:shadow-violet-500/40 hover:scale-105">
     Lista completa: Curso de Godot 4 en Español <i class="fas fa-external-link-alt text-sm opacity-80"></i>
   </a>
 </div>
@@ -42,3 +42,4 @@ No es un caso aislado. Road to Vostok, un shooter de supervivencia en primera pe
 Lo que hace relevante el caso de Slay the Spire 2 en particular no es solo que funcione en Godot, sino el coste de oportunidad que implicó elegirlo. Migrar dos años de desarrollo a un motor diferente retrasa un proyecto de manera significativa, y eso tiene un precio real. Que Mega Crit tomara esa decisión de todas formas, y que el resultado sea un lanzamiento con estas cifras, dice algo sobre cómo algunos estudios independientes están valorando la autonomía y la predictibilidad frente a la comodidad de quedarse en el ecosistema conocido.
 
 Si hay una conclusión práctica de todo esto, es que la polémica de Unity en 2023 tuvo consecuencias más duraderas de lo que parecía en el momento. No solo en términos de reputación, sino en la redistribución real de proyectos hacia alternativas. Slay the Spire 2 es probablemente el caso más visible hasta ahora de que esa redistribución está produciendo resultados.
+

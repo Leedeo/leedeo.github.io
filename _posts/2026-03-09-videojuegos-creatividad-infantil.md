@@ -69,7 +69,7 @@ No debemos preguntar cuánto tiempo pasan frente a la pantalla, sino **qué est�
 Si quieres que tus hijos o alumnos dejen de ser simples espectadores y empiecen a construir sus propios mundos, el aprendizaje de las bases del desarrollo profesional es el camino más sólido hacia la soberanía digital.
 
 <div class="text-center mt-12 mb-8">
-  <a href="https://www.youtube.com/playlist?list=PL5PTqiCIVoiVyA2qed1NE4uKejXEWM60e" target="_blank" rel="noopener" class="btn-action inline-flex items-center gap-3 bg-violet-600 hover:bg-violet-500 text-white px-8 py-4 rounded-2xl font-bold transition-all text-lg shadow-lg shadow-violet-500/25 hover:shadow-violet-500/40 hover:scale-105">
+  <a href="https://www.youtube.com/playlist?list=PL5PTqiCIVoiVyA2qed1NE4uKejXEWM60e" target="_blank" rel="noopener" class="btn-primary inline-flex items-center gap-3 bg-violet-600 hover:bg-violet-500 text-white px-8 py-4 rounded-2xl font-bold transition-all text-lg shadow-lg shadow-violet-500/25 hover:shadow-violet-500/40 hover:scale-105">
     Ver Curso de Godot 4 Completo <i class="fas fa-external-link-alt text-sm opacity-80"></i>
   </a>
 </div>
@@ -77,3 +77,4 @@ Si quieres que tus hijos o alumnos dejen de ser simples espectadores y empiecen 
 ---
 
 *Referencia científica: "The impact of online games on creativity and the role of imagination", Frontiers in Behavioral Neuroscience (2025).*
+

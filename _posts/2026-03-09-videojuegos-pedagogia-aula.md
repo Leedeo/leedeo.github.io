@@ -67,7 +67,7 @@ El videojuego en el aula no es una moda, es una **necesidad estructural**. Fomen
 Si quieres dar el salto y entender cómo se diseñan estas herramientas desde cero, te invito a revisar nuestra guía técnica para principiantes. Es el contenido más sólido que tenemos para quienes buscan una base real en el desarrollo.
 
 <div class="text-center mt-12 mb-8">
-  <a href="https://youtu.be/3ifj5q95qdk" target="_blank" rel="noopener" class="btn-action inline-flex items-center gap-3 bg-violet-600 hover:bg-violet-500 text-white px-8 py-4 rounded-2xl font-bold transition-all text-lg shadow-lg shadow-violet-500/25 hover:shadow-violet-500/40 hover:scale-105">
+  <a href="https://youtu.be/3ifj5q95qdk" target="_blank" rel="noopener" class="btn-primary inline-flex items-center gap-3 bg-violet-600 hover:bg-violet-500 text-white px-8 py-4 rounded-2xl font-bold transition-all text-lg shadow-lg shadow-violet-500/25 hover:shadow-violet-500/40 hover:scale-105">
     Ver Guía Completa de Creación <i class="fas fa-external-link-alt text-sm opacity-80"></i>
   </a>
 </div>
@@ -75,3 +75,4 @@ Si quieres dar el salto y entender cómo se diseñan estas herramientas desde ce
 ---
 
 *Referencias conceptuales basadas en: Ley Orgánica 3/2020 (LOMLOE), Informe European Schoolnet (2024).*
+

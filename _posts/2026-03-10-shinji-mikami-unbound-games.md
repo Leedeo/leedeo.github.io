@@ -18,7 +18,7 @@ Lo primero que hay que entender sobre Unbound es que no es un proyecto pequeño 
 </div>
 
 <div class="text-center mt-8 mb-16 w-full block">
-<a href="https://youtu.be/3ifj5q95qdk?si=GvAoEnVWsfthGuoG" target="_blank" rel="noopener" class="btn-action inline-flex items-center gap-3 bg-violet-600 hover:bg-violet-500 text-white px-8 py-4 rounded-2xl font-bold transition-all text-lg shadow-lg shadow-violet-500/25 hover:shadow-violet-500/40 hover:scale-105">Ver en YouTube: Empezar a crear videojuegos <i class="fas fa-external-link-alt text-sm opacity-80"></i></a>
+<a href="https://youtu.be/3ifj5q95qdk?si=GvAoEnVWsfthGuoG" target="_blank" rel="noopener" class="btn-primary inline-flex items-center gap-3 bg-violet-600 hover:bg-violet-500 text-white px-8 py-4 rounded-2xl font-bold transition-all text-lg shadow-lg shadow-violet-500/25 hover:shadow-violet-500/40 hover:scale-105">Ver en YouTube: Empezar a crear videojuegos <i class="fas fa-external-link-alt text-sm opacity-80"></i></a>
 </div>
 
 ## Quién está detrás y qué están haciendo
@@ -56,3 +56,4 @@ Hay algo llamativo en que un veterano de la industria con el historial de Mikami
 El equipo de Unbound tiene créditos impresionantes sobre el papel, el motor es el más potente disponible, y la filosofía de desarrollo descrita suena más a estudio creativo real que a máquina de producción industrial. Pero construir un juego AAA desde cero, como estudio independiente, sin la red de seguridad de un publisher grande, con 50 personas que tienen que crecer a 150, es un reto enorme. Que el estudio lleve dos años trabajando en silencio sin anunciar nada indica que saben que no tienen prisa, o que entienden que anunciar demasiado pronto es una forma eficaz de meterse en problemas.
 
 Por ahora, no hay título, no hay género confirmado, no hay fecha. Solo un equipo, un motor, y la trayectoria de las personas que lo forman. Con Mikami, eso ha sido suficiente antes.
+

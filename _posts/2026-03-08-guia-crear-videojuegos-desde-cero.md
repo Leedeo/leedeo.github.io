@@ -105,7 +105,8 @@ Esta es la parte que más se infravalora: **para hacer buenos juegos, necesitas 
 Caminante, no hay camino, se hace camino al andar. Toma tus herramientas, elige tu motor y empieza por ese primer nivel sandbox. El resto vendrá rodado si la base es sólida.
 
 <div class="text-center mt-12 mb-8">
-  <a href="https://www.youtube.com/playlist?list=PL5PTqiCIVoiVyA2qed1NE4uKejXEWM60e" target="_blank" rel="noopener" class="btn-action inline-flex items-center gap-3 bg-violet-600 hover:bg-violet-500 text-white px-8 py-4 rounded-2xl font-bold transition-all text-lg shadow-lg shadow-violet-500/25 hover:shadow-violet-500/40 hover:scale-105">
+  <a href="https://www.youtube.com/playlist?list=PL5PTqiCIVoiVyA2qed1NE4uKejXEWM60e" target="_blank" rel="noopener" class="btn-primary inline-flex items-center gap-3 bg-violet-600 hover:bg-violet-500 text-white px-8 py-4 rounded-2xl font-bold transition-all text-lg shadow-lg shadow-violet-500/25 hover:shadow-violet-500/40 hover:scale-105">
     Ver el Curso de Godot 4 desde Cero <i class="fas fa-external-link-alt text-sm opacity-80"></i>
   </a>
 </div>
+

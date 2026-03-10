@@ -81,7 +81,8 @@ El mayor enemigo de un desarrollador indie no es la falta de conocimientos técn
 La solución es la misma que en cualquier disciplina técnica: **scope pequeño, proyecto terminado**. Un clon de Pong terminado y publicado vale más en tu portfolio y en tu aprendizaje que diez RPGs sin terminar. Cada proyecto completado te enseña algo que no hay tutorial que cubra: cómo terminar un juego, cómo pulirlo y cómo publicarlo.
 
 <div class="text-center mt-12 mb-8">
-  <a href="https://www.youtube.com/playlist?list=PL5PTqiCIVoiVyA2qed1NE4uKejXEWM60e" target="_blank" rel="noopener" class="btn-action inline-flex items-center gap-3 bg-violet-600 hover:bg-violet-500 text-white px-8 py-4 rounded-2xl font-bold transition-all text-lg shadow-lg shadow-violet-500/25 hover:shadow-violet-500/40 hover:scale-105">
+  <a href="https://www.youtube.com/playlist?list=PL5PTqiCIVoiVyA2qed1NE4uKejXEWM60e" target="_blank" rel="noopener" class="btn-primary inline-flex items-center gap-3 bg-violet-600 hover:bg-violet-500 text-white px-8 py-4 rounded-2xl font-bold transition-all text-lg shadow-lg shadow-violet-500/25 hover:shadow-violet-500/40 hover:scale-105">
     Empezar el Curso de Godot 4 desde Cero <i class="fas fa-external-link-alt text-sm opacity-80"></i>
   </a>
 </div>
+

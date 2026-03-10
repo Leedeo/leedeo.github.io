@@ -42,7 +42,7 @@ Sin embargo, desde su adquisición por Avast en 2017, ha habido episodios que ha
 *   **Ideal para:** Usuarios que ya lo conocen y han optado por la versión portable (CCleaner Portable), que no deja rastro en el sistema.
 *   **Recomendación:** Si lo usas, desactiva las opciones de monitorización activa y los informes de uso.
 
-[Descargar CCleaner Portable <i class="fas fa-external-link-alt"></i>](https://www.ccleaner.com/ccleaner/builds){: .btn-action }
+[Descargar CCleaner Portable <i class="fas fa-external-link-alt"></i>](https://www.ccleaner.com/ccleaner/builds){: .btn-primary }
 
 ---
 
@@ -55,7 +55,7 @@ Técnicamente, va más lejos que CCleaner en algunas categorías: limpia los thu
 *   **Modo "Shred":** Permite sobrescribir el espacio libre del disco con datos aleatorios, lo que dificulta la recuperación forense de archivos borrados. Útil en sistemas compartidos o de segunda mano.
 *   **Ideal para:** Desarrolladores, usuarios preocupados por la privacidad, sysadmins.
 
-[Descargar BleachBit (Open Source) <i class="fas fa-external-link-alt"></i>](https://www.bleachbit.org/){: .btn-action }
+[Descargar BleachBit (Open Source) <i class="fas fa-external-link-alt"></i>](https://www.bleachbit.org/){: .btn-primary }
 
 ---
 
@@ -67,7 +67,7 @@ Si tu problema específico es que Windows tarda demasiado en estar lista para tr
 *   **Analítica del sistema:** Muestra en tiempo real el uso de RAM y CPU por proceso, similar al Administrador de Tareas pero con opciones de limpieza directas.
 *   **Ideal para:** PCs con varios años de uso y mucho software acumulado, especialmente con HDD.
 
-[Descargar Wise Care 365 <i class="fas fa-external-link-alt"></i>](https://www.wisecleaner.com/wise-care-365.html){: .btn-action }
+[Descargar Wise Care 365 <i class="fas fa-external-link-alt"></i>](https://www.wisecleaner.com/wise-care-365.html){: .btn-primary }
 
 ---
 
@@ -80,7 +80,7 @@ Incluye, además de los limpiadores estándar, un rastreador de duplicados (muy 
 *   **Una advertencia:** La versión gratuita muestra advertencias sobre errores encontrados con algo de dramatismo. No entres en pánico; los archivos de registro corruptos son normales y el impacto en el rendimiento es mínimo.
 *   **Ideal para:** Usuarios que migran desde CCleaner y buscan más profundidad.
 
-[Descargar Glary Utilities <i class="fas fa-external-link-alt"></i>](https://www.glarysoft.com/){: .btn-action }
+[Descargar Glary Utilities <i class="fas fa-external-link-alt"></i>](https://www.glarysoft.com/){: .btn-primary }
 
 ---
 
@@ -93,7 +93,7 @@ La filosofía es opuesta a la de las grandes suites: nada de interfaces vistosas
 *   **Cuándo usarlo:** Pantallazos azules recurrentes, Windows Update bloqueado, archivos del sistema corruptos.
 *   **Ventaja única:** Portable en USB. Puedes llevarlo a cualquier PC y ejecutarlo sin instalar nada.
 
-[Ver Leedeo Cleaner en GitHub <i class="fas fa-external-link-alt"></i>](https://github.com/Leedeo/Leedeo-Cleaner){: .btn-action }
+[Ver Leedeo Cleaner en GitHub <i class="fas fa-external-link-alt"></i>](https://github.com/Leedeo/Leedeo-Cleaner){: .btn-primary }
 
 ---
 
@@ -106,3 +106,4 @@ La filosofía es opuesta a la de las grandes suites: nada de interfaces vistosas
 | **Wise Care 365** | ❌ | Freemium | Arranque lento, HDD |
 | **Glary Utilities** | ❌ | Freemium | Suite completa "todo en uno" |
 | **Leedeo Cleaner** | ✅ | Gratis | Reparar sistema corrupto |
+

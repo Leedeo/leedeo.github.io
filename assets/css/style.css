@@ -239,10 +239,7 @@ main.hero-gradient {
   color: var(--text-dim);
   line-height: 1.8;
   font-size: 1.15rem;
-  column-count: 1 !important;
-  display: flex;
-  flex-direction: column;
-}
+  column-count: 1 !important;`r`n}
 
 .policy-content h2,
 .policy-content h3 {
@@ -336,8 +333,8 @@ main.hero-gradient {
 }
 
 /* Estilo para botones de acción genéricos desde Markdown (ignorando los que ya tienen CSS propio en HTML temporal/definitivo como .btn-action) */
-.policy-content p:only-child a:not(.btn-action),
-.policy-content blockquote a:not(.btn-action) {
+.policy-content p:only-child a:not(.btn-primary),
+.policy-content blockquote a:not(.btn-primary) {
   display: inline-flex;
   align-items: center;
   gap: 0.5rem;
@@ -355,8 +352,8 @@ main.hero-gradient {
   margin: 1rem 0;
 }
 
-.policy-content p:only-child a:not(.btn-action):hover,
-.policy-content blockquote a:not(.btn-action):hover {
+.policy-content p:only-child a:not(.btn-primary):hover,
+.policy-content blockquote a:not(.btn-primary):hover {
   background: var(--violet-primary);
   color: #ffffff;
   transform: scale(1.04);
@@ -389,3 +386,4 @@ main.hero-gradient {
     height: 80vw;
   }
 }
+

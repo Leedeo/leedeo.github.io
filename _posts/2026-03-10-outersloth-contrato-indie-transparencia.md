@@ -22,7 +22,7 @@ El esquema de Outersloth es un modelo de recoup y revenue share: mientras el pro
 </div>
 
 <div class="text-center mt-8 mb-16 w-full block">
-<a href="https://www.youtube.com/playlist?list=PL5PTqiCIVoiVyA2qed1NE4uKejXEWM60e" target="_blank" rel="noopener" class="btn-action inline-flex items-center gap-3 bg-violet-600 hover:bg-violet-500 text-white px-8 py-4 rounded-2xl font-bold transition-all text-lg shadow-lg shadow-violet-500/25 hover:shadow-violet-500/40 hover:scale-105">Fórmate profesionalmente con nuestro Curso de Godot 4 <i class="fas fa-external-link-alt text-sm opacity-80"></i></a>
+<a href="https://www.youtube.com/playlist?list=PL5PTqiCIVoiVyA2qed1NE4uKejXEWM60e" target="_blank" rel="noopener" class="btn-primary inline-flex items-center gap-3 bg-violet-600 hover:bg-violet-500 text-white px-8 py-4 rounded-2xl font-bold transition-all text-lg shadow-lg shadow-violet-500/25 hover:shadow-violet-500/40 hover:scale-105">Fórmate profesionalmente con nuestro Curso de Godot 4 <i class="fas fa-external-link-alt text-sm opacity-80"></i></a>
 </div>
 
 El 50% antes del recoup puede sonar alto a primera vista, y en términos absolutos lo es. Pero para entender si unas condiciones son buenas o malas hay que compararlas con lo que existe, y ahí es donde el modelo de Outersloth empieza a verse de otra manera.
@@ -50,3 +50,4 @@ En octubre de 2024, Outersloth amplió su base de financiación con nuevos socio
 No están solos en este enfoque. Pocketpair, los creadores de Palworld, también abrieron su propio brazo de financiación poco después de su éxito viral. Kinetic Games, detrás de Phasmophobia, hizo lo mismo. Hay un patrón aquí: estudios que tuvieron un éxito inesperado y decidieron usarlo para intentar mejorar las condiciones del sector en lugar de simplemente beneficiarse de ellas.
 
 Si el objetivo de publicar el contrato era generar conversación, ya está funcionando. Si el objetivo era que otras compañías adoptaran condiciones similares, eso tardará más en verse. Pero el hecho de que exista un documento público al que un desarrollador puede señalar y decirle a un publisher "esto es lo que Outersloth ofrece, ¿qué me ofreces tú?" ya cambia ligeramente la dinámica de negociación. A veces la transparencia funciona así, no como un cambio inmediato sino como un punto de referencia que desplaza gradualmente lo que se considera aceptable.
+
