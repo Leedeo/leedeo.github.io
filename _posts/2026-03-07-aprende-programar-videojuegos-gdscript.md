@@ -106,7 +106,7 @@ Una vez que tengas soltura con GDScript, tienes dos caminos naturales de crecimi
 *   **GDExtension (C++ y Rust):** Para módulos de alto rendimiento específicos, Godot permite extender el motor directamente con código nativo. Es para casos avanzados, pero poder llegar hasta ese nivel desde GDScript demuestra que el techo del ecosistema es muy alto.
 
 <div class="text-center mt-12 mb-8">
-  <a href="https://www.youtube.com/playlist?list=PL5PTqiCIVoiVyA2qed1NE4uKejXEWM60e" target="_blank" rel="noopener" class="btn-action inline-flex items-center gap-3 bg-violet-600 hover:bg-violet-500 text-white px-8 py-4 rounded-2xl font-bold transition-all text-lg shadow-lg shadow-violet-500/25 hover:shadow-violet-500/40 hover:-translate-y-1">
+  <a href="https://www.youtube.com/playlist?list=PL5PTqiCIVoiVyA2qed1NE4uKejXEWM60e" target="_blank" rel="noopener" class="btn-action inline-flex items-center gap-3 bg-violet-600 hover:bg-violet-500 text-white px-8 py-4 rounded-2xl font-bold transition-all text-lg shadow-lg shadow-violet-500/25 hover:shadow-violet-500/40 hover:scale-105">
     Ver el Curso Completo de Godot 4 <i class="fas fa-external-link-alt text-sm opacity-80"></i>
   </a>
 </div>

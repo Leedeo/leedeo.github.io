@@ -355,9 +355,8 @@ main.hero-gradient {
 .policy-content p:only-child a:not(.btn-action):hover,
 .policy-content blockquote a:not(.btn-action):hover {
   background: var(--violet-primary);
-  /* violet-500 suave al hacer hover */
   color: #ffffff;
-  transform: translateY(-2px);
+  transform: scale(1.04);
   box-shadow: 0 15px 25px -4px rgba(139, 92, 246, 0.4);
 }
 
