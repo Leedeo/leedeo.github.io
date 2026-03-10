@@ -49,11 +49,24 @@ body {
 
 /* --- Componentes Reutilizables --- */
 .glass-card {
+  background: var(--bg-card);
+  backdrop-filter: blur(16px);
+  border: 1px solid rgba(255, 255, 255, 0.08);
+  transition: var(--transition-smooth);
+}
+
+.glass-card:hover {
+  transform: translateY(-8px);
+  border-color: var(--violet-light);
+  box-shadow: 0 25px 50px -12px rgba(139, 92, 246, 0.3);
+  background: rgba(45, 30, 75, 0.8);
+}
+
+.static-glass-card {
   background: rgba(45, 30, 75, 0.8);
   backdrop-filter: blur(16px);
   border: 1px solid rgba(139, 92, 246, 0.4);
   box-shadow: 0 15px 35px -10px rgba(139, 92, 246, 0.2);
-  transition: var(--transition-smooth);
 }
 
 .gradient-text {
