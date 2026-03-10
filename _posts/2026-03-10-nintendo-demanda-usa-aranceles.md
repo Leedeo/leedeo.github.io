@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Nintendo demanda al gobierno de Estados Unidos por los aranceles de Trump"
-date: 2026-03-09
+date: 2026-03-10
 thumbnail: "/assets/img/nintendo-demanda-aranceles-usa.webp"
 excerpt: "Nintendo of America inicia acciones legales contra el aparato gubernamental de EE.UU. para reclamar la devolución de aranceles millonarios pagados durante la administración Trump."
 ---
