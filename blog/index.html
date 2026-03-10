@@ -6,7 +6,7 @@ title: Blog | Leedeo Studio
 <main class="relative min-h-screen pt-32 pb-24 px-6 hero-gradient">
     <div class="max-w-7xl mx-auto">
         <!-- Encabezado del Blog -->
-        <header class="mb-16 text-center reveal">
+        <header class="mb-10 text-center reveal">
             <h1 class="text-4xl md:text-6xl font-extrabold mb-6 tracking-tight uppercase leading-[1.2]">
                 Nuestro <span class="gradient-text italic">Blog</span>
             </h1>
@@ -16,62 +16,203 @@ title: Blog | Leedeo Studio
             <div class="h-1.5 w-24 bg-violet-500 mx-auto rounded-full mt-8"></div>
         </header>
 
-        <!-- Listado de Posts -->
-        <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-8 mb-16">
-            {% for post in paginator.posts %}
-            <article class="glass-card rounded-[2rem] overflow-hidden flex flex-col reveal"
-                style="transition-delay: {{ forloop.index0 | times: 100 }}ms;">
-                <a href="{{ post.url | relative_url }}" class="aspect-video overflow-hidden relative group block">
-                    <img src="{{ post.thumbnail | relative_url }}" alt="{{ post.title }}" loading="lazy" width="600"
-                        height="340"
-                        class="w-full h-full object-cover transition-transform duration-500 group-hover:scale-110">
-                    <div class="absolute inset-0 bg-gradient-to-t from-[#05010d] to-transparent opacity-60"></div>
-                </a>
-                <div class="p-8 flex flex-col flex-grow">
-                    <div class="text-violet-400 text-xs font-bold uppercase tracking-widest mb-3">
-                        {{ post.date | date: "%d/%m/%Y" }}
-                    </div>
-                    <h3 class="text-xl font-bold mb-4 text-white hover:text-violet-400 transition-colors">
-                        <a href="{{ post.url | relative_url }}">{{ post.title }}</a>
-                    </h3>
-                    <p class="text-slate-400 text-sm leading-relaxed mb-6 flex-grow line-clamp-3">
-                        {{ post.excerpt | strip_html | truncate: 120 }}
-                    </p>
-                    <a href="{{ post.url | relative_url }}"
-                        class="text-xs font-black uppercase tracking-[0.2em] text-white flex items-center gap-2 group/link">
-                        Leer más <i
-                            class="fas fa-arrow-right text-violet-500 transition-transform group-hover/link:translate-x-1"></i>
-                    </a>
-                </div>
-            </article>
-            {% else %}
-            <div class="col-span-full text-center py-20">
-                <p class="text-slate-500 italic">No hay publicaciones disponibles por el momento.</p>
+        <!-- Buscador -->
+        <div class="max-w-2xl mx-auto mb-14 reveal" style="transition-delay: 100ms;">
+            <div class="relative group">
+                <span class="absolute left-5 top-1/2 -translate-y-1/2 text-violet-400 pointer-events-none transition-colors group-focus-within:text-violet-300">
+                    <i class="fas fa-search text-sm"></i>
+                </span>
+                <input
+                    type="text"
+                    id="blog-search"
+                    placeholder="Buscar artículos por título o tema..."
+                    autocomplete="off"
+                    class="w-full bg-[#1a1130]/80 border border-violet-500/30 focus:border-violet-400/80 text-slate-200 placeholder-slate-500 rounded-2xl pl-12 pr-12 py-4 outline-none transition-all duration-300 focus:bg-[#1d1338]/90 focus:shadow-lg focus:shadow-violet-900/20 text-sm font-medium"
+                >
+                <button
+                    id="search-clear"
+                    aria-label="Limpiar búsqueda"
+                    class="absolute right-4 top-1/2 -translate-y-1/2 text-slate-600 hover:text-violet-400 transition-colors hidden"
+                    onclick="clearSearch()"
+                >
+                    <i class="fas fa-times text-sm"></i>
+                </button>
             </div>
-            {% endfor %}
+            <!-- Mensaje sin resultados -->
+            <p id="no-results" class="hidden text-center text-slate-500 italic mt-8 text-sm">
+                No se encontraron artículos para "<span id="search-term-display" class="text-violet-400 not-italic font-semibold"></span>".
+            </p>
         </div>
 
-        <!-- Paginación -->
-        {% if paginator.total_pages > 1 %}
-        <nav class="flex justify-center items-center gap-4 reveal">
-            {% if paginator.previous_page %}
-            <a href="{{ paginator.previous_page_path | relative_url }}"
-                class="w-12 h-12 flex items-center justify-center rounded-xl bg-violet-600/20 border border-violet-500/30 text-violet-300 hover:bg-violet-600/40 hover:text-white hover:border-violet-400/60 transition-all">
-                <i class="fas fa-chevron-left"></i>
-            </a>
-            {% endif %}
+        <!-- Index de posts para búsqueda (incrustado por Jekyll) -->
+        <script id="post-data" type="application/json">
+        [{% for post in site.posts %}{"title":{{ post.title | jsonify }},"url":{{ post.url | relative_url | jsonify }},"date":{{ post.date | date: "%d/%m/%Y" | jsonify }},"excerpt":{{ post.excerpt | strip_html | truncate: 200 | jsonify }},"thumbnail":{{ post.thumbnail | relative_url | jsonify }}}{% unless forloop.last %},{% endunless %}{% endfor %}]
+        </script>
 
-            <span class="text-slate-400 font-bold tracking-widest text-xs uppercase">
-                Página {{ paginator.page }} de {{ paginator.total_pages }}
-            </span>
+        <!-- Contenedor de post paginados (oculto durante búsqueda activa) -->
+        <div id="paginated-posts">
+            <!-- Listado de Posts -->
+            <div id="paginated-grid" class="grid md:grid-cols-2 lg:grid-cols-3 gap-8 mb-16">
+                {% for post in paginator.posts %}
+                <article class="glass-card rounded-[2rem] overflow-hidden flex flex-col reveal"
+                    style="transition-delay: {{ forloop.index0 | times: 100 }}ms;">
+                    <a href="{{ post.url | relative_url }}" class="aspect-video overflow-hidden relative group block">
+                        <img src="{{ post.thumbnail | relative_url }}" alt="{{ post.title }}" loading="lazy" width="600"
+                            height="340"
+                            class="w-full h-full object-cover transition-transform duration-500 group-hover:scale-110">
+                        <div class="absolute inset-0 bg-gradient-to-t from-[#05010d] to-transparent opacity-60"></div>
+                    </a>
+                    <div class="p-8 flex flex-col flex-grow">
+                        <div class="text-violet-400 text-xs font-bold uppercase tracking-widest mb-3">
+                            {{ post.date | date: "%d/%m/%Y" }}
+                        </div>
+                        <h3 class="text-xl font-bold mb-4 text-white hover:text-violet-400 transition-colors">
+                            <a href="{{ post.url | relative_url }}">{{ post.title }}</a>
+                        </h3>
+                        <p class="text-slate-400 text-sm leading-relaxed mb-6 flex-grow line-clamp-3">
+                            {{ post.excerpt | strip_html | truncate: 120 }}
+                        </p>
+                        <a href="{{ post.url | relative_url }}"
+                            class="text-xs font-black uppercase tracking-[0.2em] text-white flex items-center gap-2 group/link">
+                            Leer más <i
+                                class="fas fa-arrow-right text-violet-500 transition-transform group-hover/link:translate-x-1"></i>
+                        </a>
+                    </div>
+                </article>
+                {% else %}
+                <div class="col-span-full text-center py-20">
+                    <p class="text-slate-500 italic">No hay publicaciones disponibles por el momento.</p>
+                </div>
+                {% endfor %}
+            </div>
 
-            {% if paginator.next_page %}
-            <a href="{{ paginator.next_page_path | relative_url }}"
-                class="w-12 h-12 flex items-center justify-center rounded-xl bg-violet-600/20 border border-violet-500/30 text-violet-300 hover:bg-violet-600/40 hover:text-white hover:border-violet-400/60 transition-all">
-                <i class="fas fa-chevron-right"></i>
-            </a>
+            <!-- Paginación -->
+            {% if paginator.total_pages > 1 %}
+            <nav id="pagination-nav" class="flex justify-center items-center gap-4 reveal">
+                {% if paginator.previous_page %}
+                <a href="{{ paginator.previous_page_path | relative_url }}"
+                    class="w-12 h-12 flex items-center justify-center rounded-xl bg-violet-600/20 border border-violet-500/30 text-violet-300 hover:bg-violet-600/40 hover:text-white hover:border-violet-400/60 transition-all">
+                    <i class="fas fa-chevron-left"></i>
+                </a>
+                {% endif %}
+
+                <span class="text-slate-400 font-bold tracking-widest text-xs uppercase">
+                    Página {{ paginator.page }} de {{ paginator.total_pages }}
+                </span>
+
+                {% if paginator.next_page %}
+                <a href="{{ paginator.next_page_path | relative_url }}"
+                    class="w-12 h-12 flex items-center justify-center rounded-xl bg-violet-600/20 border border-violet-500/30 text-violet-300 hover:bg-violet-600/40 hover:text-white hover:border-violet-400/60 transition-all">
+                    <i class="fas fa-chevron-right"></i>
+                </a>
+                {% endif %}
+            </nav>
             {% endif %}
-        </nav>
-        {% endif %}
+        </div>
+
+        <!-- Grid de resultados de búsqueda (oculto por defecto) -->
+        <div id="search-results-container" class="hidden">
+            <div id="search-results-grid" class="grid md:grid-cols-2 lg:grid-cols-3 gap-8 mb-16">
+                <!-- Resultados inyectados por JS -->
+            </div>
+        </div>
     </div>
 </main>
+
+<script>
+(function () {
+    const searchInput = document.getElementById('blog-search');
+    const clearBtn = document.getElementById('search-clear');
+    const noResults = document.getElementById('no-results');
+    const termDisplay = document.getElementById('search-term-display');
+    const paginatedPosts = document.getElementById('paginated-posts');
+    const searchContainer = document.getElementById('search-results-container');
+    const searchGrid = document.getElementById('search-results-grid');
+
+    // Cargar datos de posts incrustados por Jekyll
+    let posts = [];
+    try {
+        posts = JSON.parse(document.getElementById('post-data').textContent);
+    } catch (e) {
+        console.warn('No se pudieron cargar los datos de posts para la búsqueda.');
+    }
+
+    function buildCard(post) {
+        const thumb = post.thumbnail || '/assets/img/placeholder.webp';
+        return `<article class="glass-card rounded-[2rem] overflow-hidden flex flex-col">
+            <a href="${post.url}" class="aspect-video overflow-hidden relative group block">
+                <img src="${thumb}" alt="${escapeHtml(post.title)}" loading="lazy" width="600" height="340"
+                    class="w-full h-full object-cover transition-transform duration-500 group-hover:scale-110">
+                <div class="absolute inset-0 bg-gradient-to-t from-[#05010d] to-transparent opacity-60"></div>
+            </a>
+            <div class="p-8 flex flex-col flex-grow">
+                <div class="text-violet-400 text-xs font-bold uppercase tracking-widest mb-3">${post.date}</div>
+                <h3 class="text-xl font-bold mb-4 text-white hover:text-violet-400 transition-colors">
+                    <a href="${post.url}">${escapeHtml(post.title)}</a>
+                </h3>
+                <p class="text-slate-400 text-sm leading-relaxed mb-6 flex-grow">${escapeHtml(post.excerpt)}</p>
+                <a href="${post.url}" class="text-xs font-black uppercase tracking-[0.2em] text-white flex items-center gap-2 group/link">
+                    Leer más <i class="fas fa-arrow-right text-violet-500 transition-transform group-hover/link:translate-x-1"></i>
+                </a>
+            </div>
+        </article>`;
+    }
+
+    function escapeHtml(str) {
+        if (!str) return '';
+        return str.replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;').replace(/"/g, '&quot;');
+    }
+
+    function performSearch(query) {
+        const q = query.trim().toLowerCase();
+
+        if (!q) {
+            // Sin búsqueda: mostrar posts paginados, ocultar resultados
+            paginatedPosts.classList.remove('hidden');
+            searchContainer.classList.add('hidden');
+            noResults.classList.add('hidden');
+            clearBtn.classList.add('hidden');
+            return;
+        }
+
+        clearBtn.classList.remove('hidden');
+
+        const filtered = posts.filter(post => {
+            return post.title.toLowerCase().includes(q) ||
+                   (post.excerpt && post.excerpt.toLowerCase().includes(q));
+        });
+
+        // Ocultar paginación, mostrar resultados de búsqueda
+        paginatedPosts.classList.add('hidden');
+        searchContainer.classList.remove('hidden');
+
+        if (filtered.length === 0) {
+            searchGrid.innerHTML = '';
+            noResults.classList.remove('hidden');
+            termDisplay.textContent = query.trim();
+        } else {
+            noResults.classList.add('hidden');
+            searchGrid.innerHTML = filtered.map(buildCard).join('');
+        }
+    }
+
+    // Debounce para no disparar en cada tecla
+    let debounceTimer;
+    searchInput.addEventListener('input', function () {
+        clearTimeout(debounceTimer);
+        debounceTimer = setTimeout(() => performSearch(this.value), 220);
+    });
+
+    // Limpiar búsqueda
+    window.clearSearch = function () {
+        searchInput.value = '';
+        performSearch('');
+        searchInput.focus();
+    };
+
+    // Limpiar con Escape
+    searchInput.addEventListener('keydown', function (e) {
+        if (e.key === 'Escape') clearSearch();
+    });
+})();
+</script>
