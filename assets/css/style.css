@@ -239,6 +239,9 @@ main.hero-gradient {
   color: var(--text-dim);
   line-height: 1.8;
   font-size: 1.15rem;
+  column-count: 1 !important;
+  display: flex;
+  flex-direction: column;
 }
 
 .policy-content h2,
