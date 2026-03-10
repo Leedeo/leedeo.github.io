@@ -10,6 +10,17 @@ El creador de Resident Evil lleva más tiempo del que muchos pensaban trabajando
 
 Lo primero que hay que entender sobre Unbound es que no es un proyecto pequeño ni una apuesta conservadora. El estudio se define como una compañía completamente independiente centrada en desarrollar IP originales para PS5, Xbox Series X|S y PC, utilizando Unreal Engine 5. Actualmente tiene alrededor de 50 personas en plantilla, con planes de crecer hasta las 150. Para un estudio independiente que acaba de salir del anonimato, eso es una declaración de intenciones bastante clara.
 
+<div class="my-12 w-full block">
+<p class="text-slate-400 italic mb-6 text-center max-w-2xl mx-auto">"Incluso gigantes como Mikami apuestan por la independencia para mantener el control creativo. Si tú también quieres empezar tu propio camino independiente creando videojuegos, este es el primer paso ideal para empezar:"</p>
+<div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden; max-width: 100%; border-radius: 1rem; box-shadow: 0 20px 25px -5px rgb(0 0 0 / 0.5);">
+<iframe src="https://www.youtube.com/embed/3ifj5q95qdk?si=GvAoEnVWsfthGuoG" title="Cómo Empezar a Crear Videojuegos" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen loading="lazy" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe>
+</div>
+</div>
+
+<div class="text-center mt-8 mb-16 w-full block">
+<a href="https://youtu.be/3ifj5q95qdk?si=GvAoEnVWsfthGuoG" target="_blank" rel="noopener" class="btn-primary inline-flex items-center gap-3 bg-violet-600 hover:bg-violet-500 text-white px-8 py-4 rounded-2xl font-bold transition-all text-lg shadow-lg shadow-violet-500/25 hover:shadow-violet-500/40 hover:scale-105">Ver en YouTube: Empezar a crear videojuegos <i class="fas fa-external-link-alt text-sm opacity-80"></i></a>
+</div>
+
 ## Quién está detrás y qué están haciendo
 
 Mikami ejerce como director representativo del estudio, pero uno de los nombres más relevantes del equipo es Masato Kimura, productor con un historial muy concreto: Resident Evil, Devil May Cry, Ghostwire: Tokyo, Hi-Fi Rush. Es un colaborador de larga trayectoria con Mikami, y es él quien ha hablado públicamente sobre la dirección del proyecto.
