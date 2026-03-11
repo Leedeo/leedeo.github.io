@@ -35,6 +35,21 @@ Esto tiene una consecuencia directa en cómo se relacionan con los juegos. No es
 
 No es una cuestión de pereza ni de falta de dedicación. Es una cuestión de aritmética.
 
+Precisamente por esto, muchos adultos con poco tiempo libre están descubriendo que, en lugar de frustrarse intentando terminar un juego inabarcable de 80 horas a cuentagotas, resulta mucho más reconfortante y estimulante invertir esas pequeñas ventanas de tiempo en **aprender a construir sus propios micromundos**. Si alguna vez te has planteado dar ese salto de consumidor pasivo a creador activo, aquí te explico exactamente por dónde empezar:
+
+<div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden; max-width: 100%; border-radius: 1rem; box-shadow: 0 20px 25px -5px rgb(0 0 0 / 0.5); border: 1px solid rgba(255,255,255,0.1); margin-top: 2rem; margin-bottom: 2rem;">
+  <iframe 
+    src="https://www.youtube.com/embed/3ifj5q95qdk?si=Iqs7kKIaMJlBZ3mN" 
+    title="Cómo empezar a crear videojuegos" 
+    frameborder="0" 
+    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
+    referrerpolicy="strict-origin-when-cross-origin" 
+    allowfullscreen 
+    loading="lazy" 
+    style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;">
+  </iframe>
+</div>
+
 ## El mercado se ha vuelto absurdo
 
 Si el tiempo del jugador es limitado, lo que ha hecho el mercado en los últimos años es exactamente lo contrario de lo que debería ayudar: inundarlo de opciones.
@@ -96,21 +111,6 @@ Eso no es ni bueno ni malo en términos morales, pero sí es una ineficiencia de
 La tendencia visible en los últimos años apunta en una dirección bastante clara. Los juegos más exitosos en términos de finalización son los que combinan duración contenida con alta densidad de contenido significativo. Los roguelikes y los juegos con partidas cortas tienen estructuralmente tasas de finalización muy altas porque cada sesión es en sí misma un intento completo. Los juegos narrativos lineales de 8 a 12 horas también funcionan bien. Los mundos abiertos de 80 horas con decenas de iconos en el mapa, cada vez menos.
 
 El mercado está corrigiendo solo, lentamente. Los estudios que siguen produciendo juegos de 100 horas de contenido relleno están viendo cómo sus métricas de retención caen. Los que apuestan por experiencias más concentradas están encontrando audiencias muy fieles dispuestas a recomendar el juego, que en el mercado actual vale más que cualquier campaña de marketing.
-
-Precisamente, si este exceso de lanzamientos enormes, mecánicas de retención tóxicas y el agobio constante del "backlog" te ha dejado pensando en cómo podrías hacer las cosas diferentes desde el lado de la creación... tal vez sea el momento de intentarlo. Si hay algo que la industria necesita ahora mismo son más creadores Indie dispuestos a construir experiencias de 10 horas redondas en lugar de clonar mundos abiertos interminables. Para eso, dar el primer paso y entender las bases es fundamental:
-
-<div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden; max-width: 100%; border-radius: 1rem; box-shadow: 0 20px 25px -5px rgb(0 0 0 / 0.5); border: 1px solid rgba(255,255,255,0.1); margin-top: 2rem; margin-bottom: 2rem;">
-  <iframe 
-    src="https://www.youtube.com/embed/3ifj5q95qdk?si=Iqs7kKIaMJlBZ3mN" 
-    title="Cómo empezar a crear videojuegos" 
-    frameborder="0" 
-    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
-    referrerpolicy="strict-origin-when-cross-origin" 
-    allowfullscreen 
-    loading="lazy" 
-    style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;">
-  </iframe>
-</div>
 
 El jugador de hoy no tiene menos capacidad de atención que el de hace veinte años. Tiene menos tiempo disponible, más opciones compitiendo por ese tiempo, y más experiencia para saber cuándo un juego está desperdiciando el suyo. Eso no es un problema a resolver. Es la realidad a la que tiene que adaptarse el diseño.
 
