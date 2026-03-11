@@ -1,7 +1,7 @@
 ---
 layout: post
-categories: [Desarrollo, Godot]
-tags: [godot, gdscript, motores, indie, tutorial]
+categories: [Godot]
+tags: [godot, gamedev, indie]
 title: "Godot Showcase: Buckshot Roulette y la realidad del desarrollo indie"
 date: 2026-03-09
 thumbnail: "/assets/img/buckshot-roulette-godot-showcase-thumbnail.webp"
@@ -79,4 +79,5 @@ Pero, por lo general, todo es cuestión de tiempo; lo mejor es seguir dándole d
 ---
 
 *(Entrevista original publicada en inglés por el [blog oficial de la Fundación Godot](https://godotengine.org/article/godot-showcase-buckshot-roulette/). Adaptación técnica para la comunidad de Leedeo Studio).*
+
 

@@ -1,7 +1,7 @@
 ---
 layout: post
-categories: [Industria, Desarrollo]
-tags: [game dev, godot, motores, indie, aaa, profesiones]
+categories: [Industria]
+tags: [gamedev, godot, motores, indie, aaa]
 title: "¿Qué es un Game Dev? Todo lo que necesitas saber para empezar a crear videojuegos"
 date: 2026-03-10
 thumbnail: "/assets/img/que-es-un-game-dev.webp"
@@ -110,3 +110,4 @@ Las game jams son uno de los fenómenos más interesantes del mundo indie: event
 Empezar a hacer videojuegos nunca ha sido tan accesible como ahora. Las herramientas son gratuitas, la documentación es extensa, la comunidad es enorme y los recursos educativos, incluyendo el curso que tienes disponible aquí, son mejores que nunca.
 
 Si llevas tiempo dándole vueltas a la idea, este es probablemente el mejor momento para dar el primer paso.
+

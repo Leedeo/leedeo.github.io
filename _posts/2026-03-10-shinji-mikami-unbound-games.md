@@ -1,7 +1,7 @@
 ---
 layout: post
-categories: [Noticias, Industria]
-tags: [actualidad, indie, estudios, lanzamientos, mercado]
+categories: [Noticias]
+tags: [noticias, indie]
 title: "Shinji Mikami lleva dos años construyendo en silencio su nuevo estudio AAA, y acaba de salir a la luz"
 date: 2026-03-10
 thumbnail: "/assets/img/shinji-mikami-unbound-games.webp"
@@ -60,4 +60,5 @@ Hay algo llamativo en que un veterano de la industria con el historial de Mikami
 El equipo de Unbound tiene créditos impresionantes sobre el papel, el motor es el más potente disponible, y la filosofía de desarrollo descrita suena más a estudio creativo real que a máquina de producción industrial. Pero construir un juego AAA desde cero, como estudio independiente, sin la red de seguridad de un publisher grande, con 50 personas que tienen que crecer a 150, es un reto enorme. Que el estudio lleve dos años trabajando en silencio sin anunciar nada indica que saben que no tienen prisa, o que entienden que anunciar demasiado pronto es una forma eficaz de meterse en problemas.
 
 Por ahora, no hay título, no hay género confirmado, no hay fecha. Solo un equipo, un motor, y la trayectoria de las personas que lo forman. Con Mikami, eso ha sido suficiente antes.
+
 

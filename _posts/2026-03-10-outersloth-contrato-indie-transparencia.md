@@ -1,7 +1,7 @@
 ---
 layout: post
-categories: [Noticias, Industria]
-tags: [actualidad, indie, estudios, lanzamientos, mercado]
+categories: [Noticias]
+tags: [noticias, indie]
 title: "Outersloth hace público su contrato con desarrolladores indie, y el gesto importa más de lo que parece"
 date: 2026-03-10
 thumbnail: "/assets/img/outersloth-transparencia-indie.webp"
@@ -54,4 +54,5 @@ En octubre de 2024, Outersloth amplió su base de financiación con nuevos socio
 No están solos en este enfoque. Pocketpair, los creadores de Palworld, también abrieron su propio brazo de financiación poco después de su éxito viral. Kinetic Games, detrás de Phasmophobia, hizo lo mismo. Hay un patrón aquí: estudios que tuvieron un éxito inesperado y decidieron usarlo para intentar mejorar las condiciones del sector en lugar de simplemente beneficiarse de ellas.
 
 Si el objetivo de publicar el contrato era generar conversación, ya está funcionando. Si el objetivo era que otras compañías adoptaran condiciones similares, eso tardará más en verse. Pero el hecho de que exista un documento público al que un desarrollador puede señalar y decirle a un publisher "esto es lo que Outersloth ofrece, ¿qué me ofreces tú?" ya cambia ligeramente la dinámica de negociación. A veces la transparencia funciona así, no como un cambio inmediato sino como un punto de referencia que desplaza gradualmente lo que se considera aceptable.
+
 

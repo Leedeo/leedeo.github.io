@@ -1,7 +1,7 @@
 ---
 layout: post
-categories: [Educación, Videojuegos]
-tags: [educacion, pedagogia, ninos, creatividad, formacion]
+categories: [Educacion]
+tags: [educacion, gamedev]
 title: "¿Fomentan los videojuegos la creatividad? La ciencia detrás del pensamiento interactivo"
 date: 2026-03-09
 thumbnail: "/assets/img/videojuegos-creatividad-infantil.webp"
@@ -79,4 +79,5 @@ Si quieres que tus hijos o alumnos dejen de ser simples espectadores y empiecen 
 ---
 
 *Referencia científica: "The impact of online games on creativity and the role of imagination", Frontiers in Behavioral Neuroscience (2025).*
+
 

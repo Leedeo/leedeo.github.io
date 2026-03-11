@@ -1,7 +1,7 @@
 ---
 layout: post
-categories: [Desarrollo, Godot]
-tags: [godot, gdscript, motores, indie, tutorial]
+categories: [Godot]
+tags: [godot, gamedev, indie]
 title: "¿Por qué Godot es el mejor motor para indies en 2026? Realismo y eficiencia"
 date: 2026-03-08
 thumbnail: "/assets/img/godot-mejor-motor-indie.webp"
@@ -91,4 +91,5 @@ Para el **desarrollador indie promedio**, ninguna de estas limitaciones es un pr
     Ver el Curso de Godot 4 Completo <i class="fas fa-external-link-alt text-sm opacity-80"></i>
   </a>
 </div>
+
 

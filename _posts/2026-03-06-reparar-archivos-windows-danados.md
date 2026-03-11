@@ -1,7 +1,7 @@
 ---
 layout: post
-categories: [Software, Optimización]
-tags: [windows, mantenimiento, rendimiento, software, utilidades]
+categories: [Windows]
+tags: [windows, optimizacion]
 title: "¿SFC /scannow no funciona? Guía completa para reparar archivos de Windows"
 date: 2026-03-06
 thumbnail: "/assets/img/reparar-errores-windows.webp"
@@ -111,4 +111,5 @@ La reparación mediante DISM y SFC resuelve la gran mayoría de corrupciones de 
 *   Actualizaciones de Windows que han fallado a medias y dejado el sistema en un estado inconsistente irrecuperable con las herramientas anteriores.
 
 Si llegas a ese punto, recuerda hacer una **imagen completa del disco con Macrium Reflect** (gratuito) antes de formatear. Te permitirá recuperar datos específicos incluso destrozar después.
+
 

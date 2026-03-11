@@ -1,7 +1,7 @@
 ---
 layout: post
-categories: [Desarrollo, Godot]
-tags: [godot, gdscript, motores, indie, tutorial]
+categories: [Godot]
+tags: [godot, gamedev, indie]
 title: "Slay the Spire 2 arrasa en Steam con casi 575.000 jugadores simultáneos, y lo ha hecho con Godot"
 date: 2026-03-10
 thumbnail: "/assets/img/slay-the-spire-2-key-art.webp"
@@ -44,4 +44,5 @@ No es un caso aislado. Road to Vostok, un shooter de supervivencia en primera pe
 Lo que hace relevante el caso de Slay the Spire 2 en particular no es solo que funcione en Godot, sino el coste de oportunidad que implicó elegirlo. Migrar dos años de desarrollo a un motor diferente retrasa un proyecto de manera significativa, y eso tiene un precio real. Que Mega Crit tomara esa decisión de todas formas, y que el resultado sea un lanzamiento con estas cifras, dice algo sobre cómo algunos estudios independientes están valorando la autonomía y la predictibilidad frente a la comodidad de quedarse en el ecosistema conocido.
 
 Si hay una conclusión práctica de todo esto, es que la polémica de Unity en 2023 tuvo consecuencias más duraderas de lo que parecía en el momento. No solo en términos de reputación, sino en la redistribución real de proyectos hacia alternativas. Slay the Spire 2 es probablemente el caso más visible hasta ahora de que esa redistribución está produciendo resultados.
+
 

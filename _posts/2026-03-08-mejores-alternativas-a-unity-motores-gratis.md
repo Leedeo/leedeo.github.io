@@ -1,8 +1,8 @@
 ---
 layout: post
 title: "¿Cuáles son las mejores alternativas a Unity? Motores gratis y open-source para 2026"
-categories: [Industria, Motores]
-tags: [unity, alternativas, godot, unreal, indie]
+categories: [Industria]
+tags: [motores, gamedev, indie]
 date: 2026-03-08
 thumbnail: "/assets/img/mejores-motores-videojuegos-gratis.webp"
 excerpt: "Unity ha cambiado, y el mercado también. Si estás buscando un un nuevo motor de videojuegos, descubre estas alternativas gratuitas y de código abierto que te ofrecen potencia, control y soberanía sobre tus juegos."
@@ -90,5 +90,6 @@ Si te decides por el camino abierto de **Godot Engine**, la curva de aprendizaje
     Acceder al Curso de Godot 4 Gratis <i class="fas fa-external-link-alt text-sm opacity-80"></i>
   </a>
 </div>
+
 
 

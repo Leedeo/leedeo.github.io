@@ -1,7 +1,7 @@
 ---
 layout: post
-categories: [Desarrollo, Godot]
-tags: [godot, gdscript, motores, indie, tutorial]
+categories: [Godot]
+tags: [godot, gamedev, indie]
 title: "Godot vs Unity en 2026: Por qué el motor no te va a dar el trabajo de tus sueños"
 date: 2026-03-08
 thumbnail: "/assets/img/godot-vs-unity-realidad.webp"
@@ -89,4 +89,5 @@ Godot 4 está aquí para quedarse. La pregunta no es si Godot va a crecer: los n
     Empezar el Curso de Godot 4 Gratis <i class="fas fa-external-link-alt text-sm opacity-80"></i>
   </a>
 </div>
+
 

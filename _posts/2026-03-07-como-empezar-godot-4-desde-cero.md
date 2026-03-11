@@ -1,7 +1,7 @@
 ---
 layout: post
-categories: [Desarrollo, Godot]
-tags: [godot, gdscript, motores, indie, tutorial]
+categories: [Godot]
+tags: [godot, gamedev, indie]
 title: "¿Cómo aprender Godot 4 desde cero en 2026? Guía paso a paso para principiantes"
 date: 2026-03-07
 thumbnail: "/assets/img/aprender-godot-4.webp"
@@ -87,4 +87,5 @@ La solución es la misma que en cualquier disciplina técnica: **scope pequeño,
     Empezar el Curso de Godot 4 desde Cero <i class="fas fa-external-link-alt text-sm opacity-80"></i>
   </a>
 </div>
+
 

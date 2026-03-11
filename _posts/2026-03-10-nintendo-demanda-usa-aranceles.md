@@ -1,7 +1,7 @@
 ---
 layout: post
-categories: [Noticias, Industria]
-tags: [actualidad, indie, estudios, lanzamientos, mercado]
+categories: [Noticias]
+tags: [noticias, indie]
 title: "Nintendo demanda al gobierno de Estados Unidos por los aranceles de Trump"
 date: 2026-03-10
 thumbnail: "/assets/img/nintendo-demanda-aranceles-usa.webp"
@@ -42,4 +42,5 @@ Más allá de los tecnicismos legales, lo que Nintendo está haciendo es intenta
 El resultado de esta demanda, y de las otras mil que la acompañan, dependerá en buena medida de cómo interpreten los tribunales los límites de los poderes ejecutivos en materia comercial. Es un debate que va mucho más allá de los videojuegos, pero que tiene consecuencias muy concretas para una industria que depende de cadenas de suministro globales y márgenes que, como ya hemos visto, no son tan amplios como cabría esperar.
 
 Por ahora, Nintendo ha confirmado la existencia de la demanda pero ha declinado hacer más comentarios. Lo que sí está claro es que la compañía no tiene intención de asumir ese coste sin pelear por recuperarlo.
+
 

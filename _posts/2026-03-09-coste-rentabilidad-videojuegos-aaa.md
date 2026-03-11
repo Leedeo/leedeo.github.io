@@ -1,7 +1,7 @@
 ---
 layout: post
-categories: [Industria, Análisis]
-tags: [aaa, presupuestos, industria, videojuegos, desarrollo]
+categories: [Industria]
+tags: [gamedev, aaa]
 title: "Hacer videojuegos cada vez cuesta más, y rentabilizarlos es otro problema"
 date: 2026-03-09
 thumbnail: "/assets/img/coste-videojuegos-aaa.webp"
@@ -91,4 +91,5 @@ Para aquellos que queremos crear experiencias sin heredar esta insoportable pres
     Reflexiona sobre la realidad de la industria <i class="fas fa-external-link-alt text-sm opacity-80"></i>
   </a>
 </div>
+
 
