@@ -85,7 +85,7 @@ body {
 }
 
 /* Botones Estándar Leedeo */
-.btn-primary, .btn-secondary, .btn-success, .btn-danger {
+.btn-primary, .btn-secondary, .btn-success, .btn-danger, .btn-outline {
   display: inline-flex;
   align-items: center;
   justify-content: center;
@@ -137,6 +137,8 @@ body {
   background: transparent;
   border: 1px solid rgba(139, 92, 246, 0.4);
   color: #a78bfa;
+  font-size: 0.75rem; /* text-xs — es btn de navegación secundaria */
+  padding: 0.625rem 1.25rem;
 }
 
 .btn-outline:hover {
