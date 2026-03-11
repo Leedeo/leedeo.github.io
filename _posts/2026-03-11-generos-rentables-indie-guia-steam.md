@@ -2,7 +2,7 @@
 layout: post
 title: "¿Qué géneros de videojuegos generan más dinero? Guía para el desarrollador indie"
 description: "Análisis de datos reales de Steam 2024. Descubre qué géneros de videojuegos tienen mayor rentabilidad, cuáles están saturados y dónde invertir tu tiempo como desarrollador indie."
-date: 2026-03-12
+date: 2026-03-11
 categories: [Industria, Análisis]
 tags: [steam, gamedev, ingresos, indie, mercado]
 thumbnail: /assets/img/generos-videojuegos-rentables-indie.webp
@@ -99,3 +99,7 @@ Los grandes éxitos recientes rara vez son puros. *Stardew Valley* es Sim + RPG 
 Otro dato lapidario para cerrar: **si tu juego no vende en el primer mes, casi seguro no venderá jamás**. Las resurrecciones milagrosas a largo plazo son anomalías estadísticas extremas. Steam premia el *engagement* explosivo (de ahí la enorme importancia de las Wishlists y la comunidad previa).
 
 No hay fórmulas mágicas, pero elegir un género base con una matemática favorable (o hibridarlo inteligentemente) es darle a tu juego, a tu esfuerzo y a tu equipo una ventaja injusta desde el día uno.
+
+---
+
+*Fuentes utilizadas en este artículo: [VG Insights / Game World Observer — Indie vs. AAA revenue 2024](https://gameworldobserver.com/2024/10/16/indie-games-revenue-steam-vs-aaa-titles-vg-insights), [Game World Observer — Most successful indie genres H1 2024](https://gameworldobserver.com/2024/08/19/most-successful-game-genres-on-steam-h1-2024-survival-city-builder-horror), [GameDiscoverCo — Deckbuilder genre fatigue 2024](https://newsletter.gamediscover.co), [SteamDB — Steam releases 2024](https://steamdb.info/stats/releases/), [How To Market A Game — Chris Zukowski](https://howtomarketagame.com).*
