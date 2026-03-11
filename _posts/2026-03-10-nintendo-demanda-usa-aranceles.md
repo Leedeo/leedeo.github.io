@@ -1,5 +1,7 @@
 ---
 layout: post
+categories: [Noticias, Industria]
+tags: [actualidad, indie, estudios, lanzamientos, mercado]
 title: "Nintendo demanda al gobierno de Estados Unidos por los aranceles de Trump"
 date: 2026-03-10
 thumbnail: "/assets/img/nintendo-demanda-aranceles-usa.webp"

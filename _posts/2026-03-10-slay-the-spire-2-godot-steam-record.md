@@ -1,5 +1,7 @@
 ---
 layout: post
+categories: [Desarrollo, Godot]
+tags: [godot, gdscript, motores, indie, tutorial]
 title: "Slay the Spire 2 arrasa en Steam con casi 575.000 jugadores simultáneos, y lo ha hecho con Godot"
 date: 2026-03-10
 thumbnail: "/assets/img/slay-the-spire-2-key-art.webp"

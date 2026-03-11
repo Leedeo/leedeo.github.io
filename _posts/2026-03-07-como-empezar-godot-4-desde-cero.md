@@ -1,5 +1,7 @@
 ---
 layout: post
+categories: [Desarrollo, Godot]
+tags: [godot, gdscript, motores, indie, tutorial]
 title: "¿Cómo aprender Godot 4 desde cero en 2026? Guía paso a paso para principiantes"
 date: 2026-03-07
 thumbnail: "/assets/img/aprender-godot-4.webp"

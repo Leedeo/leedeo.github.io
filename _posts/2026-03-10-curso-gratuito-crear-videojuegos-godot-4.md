@@ -1,5 +1,7 @@
 ---
 layout: post
+categories: [Desarrollo, Godot]
+tags: [godot, gdscript, motores, indie, tutorial]
 title: "Curso gratuito para crear videojuegos con Godot Engine 4"
 date: 2026-03-10
 thumbnail: "/assets/img/curso-godot-4-gratis.webp"

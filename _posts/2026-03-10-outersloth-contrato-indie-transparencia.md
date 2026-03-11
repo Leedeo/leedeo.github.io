@@ -1,5 +1,7 @@
 ---
 layout: post
+categories: [Noticias, Industria]
+tags: [actualidad, indie, estudios, lanzamientos, mercado]
 title: "Outersloth hace público su contrato con desarrolladores indie, y el gesto importa más de lo que parece"
 date: 2026-03-10
 thumbnail: "/assets/img/outersloth-transparencia-indie.webp"

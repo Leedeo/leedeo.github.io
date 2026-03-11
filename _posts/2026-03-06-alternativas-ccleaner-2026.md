@@ -1,5 +1,7 @@
 ---
 layout: post
+categories: [Software, Optimización]
+tags: [windows, mantenimiento, rendimiento, software, utilidades]
 title: "Las mejores alternativas a CCleaner en 2026: guía técnica para elegir bien"
 date: 2026-03-06
 thumbnail: "/assets/img/alternativas-ccleaner-26.webp"

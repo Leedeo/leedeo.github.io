@@ -1,5 +1,7 @@
 ---
 layout: post
+categories: [Educación, Videojuegos]
+tags: [educacion, pedagogia, ninos, creatividad, formacion]
 title: "Videojuegos como aliados pedagógicos: Más allá del aula y hacia la soberanía técnica"
 date: 2026-03-09
 thumbnail: "/assets/img/videojuegos-pedagogia-aula.webp"

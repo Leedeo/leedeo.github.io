@@ -1,5 +1,7 @@
 ---
 layout: post
+categories: [Desarrollo, Godot]
+tags: [godot, gdscript, motores, indie, tutorial]
 title: "Godot vs Unity en 2026: Por qué el motor no te va a dar el trabajo de tus sueños"
 date: 2026-03-08
 thumbnail: "/assets/img/godot-vs-unity-realidad.webp"
