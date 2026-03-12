@@ -8,7 +8,6 @@
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link rel="preconnect" href="https://cdnjs.cloudflare.com">
-<link rel="preconnect" href="https://cdn.tailwindcss.com">
 
 <!-- CSS crítico inline: fondo oscuro instantáneo para evitar flash blanco -->
 <style>
@@ -17,8 +16,8 @@
   }
 </style>
 
-<!-- Tailwind CSS: SÍNCRONO — toda la maquetación depende de él, no se puede diferir -->
-<script src="https://cdn.tailwindcss.com"></script>
+<!-- Tailwind CSS: compilado y minificado (solo clases usadas) -->
+<link rel="stylesheet" href="{{ '/assets/css/tailwind.min.css' | relative_url }}">
 
 <!-- Fuentes de Google: asíncronas con display=swap (garantiza la carga de los pesos correctos) -->
 <link rel="preload"

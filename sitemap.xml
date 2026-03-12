@@ -28,8 +28,14 @@ layout: null
     <priority>0.9</priority>
   </url>
   <url>
-    <loc>{{ site.url }}{{ site.baseurl }}/policy.html</loc>
-    <lastmod>2025-12-28T00:00:00+00:00</lastmod>
+    <loc>{{ site.url }}{{ site.baseurl }}/policy/</loc>
+    <lastmod>{{ site.time | date_to_xmlschema }}</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.4</priority>
+  </url>
+  <url>
+    <loc>{{ site.url }}{{ site.baseurl }}/rules/</loc>
+    <lastmod>{{ site.time | date_to_xmlschema }}</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.4</priority>
   </url>
