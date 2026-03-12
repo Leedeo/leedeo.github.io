@@ -4,6 +4,7 @@ description: >-
   Leedeo Studio: Tutoriales prácticos de Godot Engine, cursos de desarrollo de videojuegos y herramientas exclusivas de optimización como Leedeo Cleaner.
 baseurl: ""
 url: "https://leedeo.github.io"
+permalink: /blog/:year/:month/:day/:title/
 twitter_username: leedeostudio
 github_username:  Leedeo
 
