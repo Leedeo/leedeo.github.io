@@ -46,8 +46,11 @@
         </div>
     </div>
 </footer>
-
-
+<script>
+    // Año dinámico
+    if (document.getElementById('auto-year')) {
+        document.getElementById('auto-year').textContent = new Date().getFullYear();
+    }
 
     // Observer para animaciones globales
     const revealObserver = new IntersectionObserver((entries) => {
