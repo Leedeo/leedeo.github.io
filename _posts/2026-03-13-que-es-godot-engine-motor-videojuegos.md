@@ -1,7 +1,7 @@
 ---
 layout: post
 categories: [Godot]
-tags: [godot engine, motores de videojuegos, desarrollo indie, unity]
+tags: [godot, motores, gamedev, indie]
 title: "¿Qué es Godot Engine? El motor de videojuegos gratuito que desafía a Unity"
 date: 2026-03-13
 thumbnail: "/assets/img/que-es-godot-engine-2026.webp"

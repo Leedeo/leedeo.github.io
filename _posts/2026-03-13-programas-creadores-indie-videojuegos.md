@@ -1,7 +1,7 @@
 ---
 layout: post
-categories: [Marketing, Industria]
-tags: [indie, marketing, creadores, influencers]
+categories: [Industria]
+tags: [indie, marketing, mercado]
 title: "Programas de creadores en videojuegos: qué son, por qué funcionan y cómo puede usarlos un indie"
 date: 2026-03-13
 thumbnail: "/assets/img/programas-creadores-marketing-indie.webp"

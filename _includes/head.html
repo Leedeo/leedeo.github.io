@@ -5,8 +5,6 @@
 {% seo %}
 
 <!-- Preconectar orígenes clave (reduce latencia de primera conexión) -->
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link rel="preconnect" href="https://cdnjs.cloudflare.com">
 
 <!-- CSS crítico inline: fondo oscuro instantáneo para evitar flash blanco -->
@@ -16,17 +14,22 @@
   }
 </style>
 
+<!-- Fuentes locales (self-hosted, sin dependencia de Google Fonts CDN) -->
+<link rel="stylesheet" href="{{ '/assets/css/fonts.css' | relative_url }}">
+
 <!-- Tailwind CSS: compilado y minificado (solo clases usadas) -->
 <link rel="stylesheet" href="{{ '/assets/css/tailwind.min.css' | relative_url }}">
 
-<!-- Fuentes de Google: asíncronas con display=swap (garantiza la carga de los pesos correctos) -->
-<link rel="preload"
-  href="https://fonts.googleapis.com/css2?family=Pacifico&family=Plus+Jakarta+Sans:wght@200;300;400;600;800&display=swap"
-  as="style" onload="this.onload=null;this.rel='stylesheet'">
+<link rel="shortcut icon" href="{{ '/assets/img/favicon.png' | relative_url }}" type="image/png">
+
+<!-- style.css: SÍNCRONO (10KB — hacerlo async causaba CLS de 0.3 en el layout) -->
+<link rel="stylesheet" href="{{ '/assets/css/style.css' | relative_url }}">
+
+<!-- FontAwesome: asíncrono (iconos visuales, no afectan layout ni causan CLS) -->
+<link rel="preload" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" as="style"
+  onload="this.onload=null;this.rel='stylesheet'">
 <noscript>
-  <link
-    href="https://fonts.googleapis.com/css2?family=Pacifico&family=Plus+Jakarta+Sans:wght@200;300;400;600;800&display=swap"
-    rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
 </noscript>
 
 <!-- Google Analytics: diferido al evento load para no retrasar el LCP -->
@@ -43,15 +46,3 @@
     gtag('config', 'G-2SB71QMPV3');
   });
 </script>
-
-<link rel="shortcut icon" href="{{ '/assets/img/favicon.png' | relative_url }}" type="image/png">
-
-<!-- style.css: SÍNCRONO (3KB — hacerlo async causaba CLS de 0.3 en el layout) -->
-<link rel="stylesheet" href="{{ '/assets/css/style.css' | relative_url }}">
-
-<!-- FontAwesome: asíncrono (iconos visuales, no afectan layout ni causan CLS) -->
-<link rel="preload" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" as="style"
-  onload="this.onload=null;this.rel='stylesheet'">
-<noscript>
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
-</noscript>
