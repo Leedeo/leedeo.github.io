@@ -25,6 +25,3 @@ config_*.txt
 
 # Configuracion local del editor
 .vscode/
-
-# Memoria de Auditoría e IA
-.agents/
