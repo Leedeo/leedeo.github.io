@@ -1,27 +1,25 @@
-# Tailwind CSS (compilación local)
-tailwindcss.exe
-
-# Admin y Servidor
-Gemfile
-Gemfile.lock
-start_server.bat
-
-# Dependencias
-node_modules/
-.bundle/
-vendor/
-
-# Jekyll build
+# Jekyll & Build System
 _site/
-.sass-cache/
 .jekyll-cache/
 .jekyll-metadata
+.bundle/
+vendor/
+Gemfile
+Gemfile.lock
 
-# Archivos temporales de diagnostico local
+# Tools & Compilers
+tailwindcss.exe
+node_modules/
+
+# Editor & IDEs
+.vscode/
+.ruby-lsp/
+
+# Local Scripts & Diagnostics
+compilar_tailwind.bat
+start_server.bat
+ver_tags.bat
 *.json
 !package.json
 !package-lock.json
 config_*.txt
-
-# Configuracion local del editor
-.vscode/
