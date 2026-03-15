@@ -1,15 +1,24 @@
 # Tailwind CSS (compilación local)
 tailwindcss.exe
 
-# Admin
+# Admin y Servidor
 Gemfile
 Gemfile.lock
+start_server.bat
 
 # Dependencias
 node_modules/
+.bundle/
+vendor/
 
 # Jekyll build
 _site/
 .sass-cache/
 .jekyll-cache/
 .jekyll-metadata
+
+# Archivos temporales de diagnostico local
+*.json
+!package.json
+!package-lock.json
+config_*.txt
