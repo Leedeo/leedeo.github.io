@@ -84,13 +84,13 @@ title: Inicio | Leedeo Studio
     <!-- Video Tutorial Showcase -->
     <div class="relative reveal" style="transition-delay: 200ms;">
       <div
-        class="aspect-video bg-slate-900 rounded-[2.5rem] border border-white/10 overflow-hidden shadow-2xl relative group">
+        class="aspect-video bg-slate-900 rounded-custom-40 border border-white/10 overflow-hidden shadow-2xl relative group">
 
         <!-- Miniatura del canal -->
         <img src="{{ '/assets/img/thumb-youtube.webp' | relative_url }}"
           alt="Canal de YouTube Leedeo Studio - Cursos y Tutoriales de Godot Engine en Español" loading="lazy"
           width="1280" height="720"
-          class="absolute inset-0 w-full h-full object-cover opacity-100 group-hover:scale-110 group-hover:opacity-40 transition-all duration-700">
+          class="absolute inset-0 w-full h-full object-cover opacity-100 group-hover:scale-110 group-hover:opacity-40 transition-all duration-700" />
 
         <div class="absolute inset-0 bg-gradient-to-tr from-violet-600/20 to-transparent"></div>
 
@@ -184,11 +184,11 @@ title: Inicio | Leedeo Studio
 
     <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
       {% for post in site.posts limit:3 %}
-      <article class="glass-card rounded-[2rem] overflow-hidden flex flex-col reveal"
+      <article class="glass-card rounded-custom-32 overflow-hidden flex flex-col reveal"
         style="transition-delay: {{ forloop.index0 | times: 100 }}ms;">
         <a href="{{ post.url | relative_url }}" class="aspect-video overflow-hidden relative group block">
           <img src="{{ post.thumbnail | relative_url }}" alt="{{ post.title }}" loading="lazy" width="600" height="340"
-            class="w-full h-full object-cover transition-transform duration-500 group-hover:scale-110">
+            class="w-full h-full object-cover transition-transform duration-500 group-hover:scale-110" />
           <div class="absolute inset-0 bg-gradient-to-t from-[#0f0a1d] to-transparent opacity-60"></div>
         </a>
         <div class="p-8 flex flex-col flex-grow">
@@ -215,7 +215,7 @@ title: Inicio | Leedeo Studio
 <!-- 4. Mantente al tanto (Comunidad) -->
 <section id="comunidad" class="pt-0 pb-24 px-6">
   <div
-    class="max-w-7xl mx-auto bg-gradient-to-br from-slate-900 to-[#05010d] rounded-[3rem] p-8 md:p-16 border border-white/5 relative overflow-hidden">
+    class="max-w-7xl mx-auto bg-gradient-to-br from-slate-900 to-[#05010d] rounded-custom-48 p-8 md:p-16 border border-white/5 relative overflow-hidden">
     <div class="absolute top-0 right-0 p-10 opacity-10 hidden lg:block">
       <i class="fab fa-whatsapp text-[15rem] text-green-500 rotate-12"></i>
     </div>
@@ -246,7 +246,7 @@ title: Inicio | Leedeo Studio
           class="text-violet-500">Comunidad</span></h2>
       <p class="text-slate-500">Lo que opinan los creadores que ya forman parte de Leedeo.</p>
     </div>
-    <a href="https://www.youtube.com/leedeo" target="_blank" class="btn-outline shrink-0">
+    <a href="https://www.youtube.com/leedeo" target="_blank" rel="noopener" class="btn-outline shrink-0">
       Ver todos los comentarios <i class="fas fa-external-link-alt"></i>
     </a>
   </div>
@@ -260,7 +260,7 @@ title: Inicio | Leedeo Studio
 
 <!-- 6. Apoya el contenido -->
 <section id="apoyo" class="py-24 px-6">
-  <div class="max-w-4xl mx-auto glass-card rounded-[3rem] p-12 text-center border-rose-500/20 reveal">
+  <div class="max-w-4xl mx-auto glass-card rounded-custom-48 p-12 text-center border-rose-500/20 reveal">
     <div class="inline-block p-4 bg-rose-500/10 rounded-full text-rose-500 mb-8">
       <i class="fas fa-heart text-4xl animate-pulse"></i>
     </div>
@@ -295,11 +295,11 @@ title: Inicio | Leedeo Studio
   function createCard(t, isDuplicate) {
     const isSuper = t.type === 'super';
     return `
-      <div class="testimonial-card glass-card rounded-3xl p-8 flex flex-col justify-between ${isSuper ? 'border-amber-500/30 ring-1 ring-amber-500/10' : ''}" ${isDuplicate ? 'inert' : ''}>
+      <div class="testimonial-card glass-card rounded-3xl p-8 flex flex-col justify-between ${isSuper ? 'border-amber-500/30 ring-1 ring-amber-500/10' : ''}" ${isDuplicate ? 'inert="true"' : ''}>
         <div>
           <div class="flex items-center justify-between mb-6">
             <div class="flex items-center gap-3">
-              <div class="w-10 h-10 bg-gradient-to-br ${t.color} rounded-xl flex items-center justify-center text-white font-bold text-sm shadow-lg">${t.user[1]}</div>
+              <div class="w-10 h-10 bg-gradient-to-br ${t.color} rounded-xl flex items-center justify-center text-white font-bold text-sm shadow-lg">${t.user.charAt(1)}</div>
               <span class="font-bold text-slate-200 text-sm tracking-tight">${t.user}</span>
             </div>
             ${t.tag ? `<span class="px-2.5 py-1 ${isSuper ? 'bg-amber-500/10 text-amber-500' : 'bg-green-500/10 text-green-500'} border border-current/20 rounded-full text-[9px] font-black uppercase tracking-widest">${t.tag}</span>` : ''}
