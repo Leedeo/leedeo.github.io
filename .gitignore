@@ -2,6 +2,7 @@
 tailwindcss.exe
 
 # Admin y Servidor
+.ruby-version
 Gemfile
 Gemfile.lock
 start_server.bat
