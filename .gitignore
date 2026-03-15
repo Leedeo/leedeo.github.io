@@ -22,3 +22,6 @@ _site/
 !package.json
 !package-lock.json
 config_*.txt
+
+# Configuracion local del editor
+.vscode/
