@@ -1,6 +1,10 @@
 # Tailwind CSS (compilación local)
 tailwindcss.exe
 
+# Admin
+Gemfile
+Gemfile.lock
+
 # Dependencias
 node_modules/
 
