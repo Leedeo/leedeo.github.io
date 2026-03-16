@@ -1,7 +1,7 @@
 ---
 layout: post
-categories: [Godot]
-tags: [godot, gamedev, indie]
+categories: [Godot, Desarrollo]
+tags: [godot, gamedev, gdscript, programacion, tutorial, indie]
 title: "¿Cómo aprender a programar videojuegos? Por qué GDScript es el mejor lenguaje para empezar"
 date: 2026-03-07
 thumbnail: "/assets/img/aprender-programar-gdscript.webp"

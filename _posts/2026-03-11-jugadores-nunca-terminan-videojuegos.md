@@ -1,7 +1,7 @@
 ---
 layout: post
-categories: [Industria]
-tags: [gamedev, aaa, indie]
+categories: [Industria, Análisis]
+tags: [gamedev, diseño, jugadores, psicología, mercado, industria]
 title: "¿Por qué la mayoría de jugadores nunca termina los videojuegos? La respuesta es más compleja de lo que parece"
 date: 2026-03-11
 thumbnail: "/assets/img/jugadores-no-terminan-juegos.webp"
@@ -19,7 +19,7 @@ Vamos por partes.
 
 Hablar de tasas de finalización en videojuegos es difícil porque los datos no son perfectos, pero los que existen pintan un panorama bastante consistente.
 
-La forma más fiable de medir si los jugadores terminan los juegos son los sistemas de logros y trofeos. Cuando un juego tiene un trofeo asociado a ver los créditos finales, el porcentaje de jugadores que lo ha desbloqueado nos dice aproximadamente cuántos llegaron al final. Es una métrica con sus limitaciones, porque hay gente que juega sin conectarse online, o que lo hace en múltiples cuentas, pero es lo más cercano a datos reales que tenemos.
+La forma más fiable de medir si los jugadores terminan los juegos son los sistemas de logros y trofeos. Cuando un juego tiene un trofeo asociado a ver los créditos finales, el porcentaje de jugadores que lo ha desbloqueado nos dice aproximadamente cuántos llegaron al final. Es una métrica con sus limitaciones, porque hay gente que juega sin conectarse online, o que lo hace en múltiples cuentas, pero es lo más cercano a datos reales de que dispongo.
 
 Mirando esos datos en Steam y en PlayStation, el panorama general es este: en juegos AAA de campaña, la tasa de finalización media ronda entre el 15% y el 35% dependiendo del género y la duración. Algunos ejemplos concretos: *Resident Evil 2 Remake* tiene una tasa de finalización de alrededor del 30%, *BioShock Infinite* del 38%, *Tomb Raider (2013)* del 42%. Los juegos más cortos y lineales suben: *Spider-Man: Miles Morales* llega al 65% en PlayStation, posiblemente porque su campaña principal se puede terminar en seis u ocho horas. Los juegos más largos y abiertos caen en picado: la tasa de finalización de *Baldur's Gate 3*, el juego del año en 2023 según prácticamente todos los premios relevantes, es considerablemente baja a pesar de su calidad unánimemente reconocida. El motivo es simple: tiene más de cien horas de contenido y tres actos que van complejizándose exponencialmente.
 

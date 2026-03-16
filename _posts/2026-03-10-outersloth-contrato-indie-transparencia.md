@@ -1,7 +1,7 @@
 ---
 layout: post
-categories: [Noticias]
-tags: [noticias, indie]
+categories: [Noticias, Industria]
+tags: [noticias, indie, industria, financiación, transparencia, innersloth]
 title: "Outersloth hace público su contrato con desarrolladores indie, y el gesto importa más de lo que parece"
 date: 2026-03-10
 thumbnail: "/assets/img/outersloth-transparencia-indie.webp"
@@ -25,7 +25,7 @@ El esquema de Outersloth es un modelo de recoup y revenue share: mientras el pro
 
 <div class="text-center mt-8 mb-16">
   <a href="https://www.youtube.com/playlist?list=PL5PTqiCIVoiVyA2qed1NE4uKejXEWM60e" target="_blank" rel="noopener" class="btn-primary inline-flex items-center gap-3 bg-violet-600 hover:bg-violet-500 text-white px-8 py-4 rounded-2xl font-bold transition-all text-lg shadow-lg shadow-violet-500/25 hover:shadow-violet-500/40 hover:scale-105">
-    Fórmate profesionalmente con nuestro Curso de Godot 4 <i class="fas fa-external-link-alt text-sm opacity-80"></i>
+    Fórmate profesionalmente con mi Curso de Godot 4 <i class="fas fa-external-link-alt text-sm opacity-80"></i>
   </a>
 </div>
 

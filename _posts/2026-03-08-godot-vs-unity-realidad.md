@@ -1,7 +1,7 @@
 ---
 layout: post
-categories: [Godot]
-tags: [godot, gamedev, indie]
+categories: [Industria, Godot]
+tags: [godot, unity, gamedev, comparativa, mercado]
 title: "Godot vs Unity en 2026: Por qué el motor no te va a dar el trabajo de tus sueños"
 date: 2026-03-08
 thumbnail: "/assets/img/godot-vs-unity-realidad.webp"
@@ -32,7 +32,7 @@ Este episodio no es anecdótico. Ilustra un riesgo estructural real: cuando tu m
 
 Muchos recomiendan Unity (o Unreal) usando el "comodín" del empleo: *"Aprende esto porque hay más trabajo"*. Vamos a ser realistas sobre esto.
 
-**El sector del videojuego no está para tirar cohetes.** Estamos en una época de despidos masivos y estudios cerrando: Microsoft Gaming, EA, Sony Interactive Entertainment, Riot Games, Epic Games... todos han recortado plantillas significativamente entre 2023 y 2025. Hablar de "trabajo asegurado" en esta industria es, en el mejor de los casos, optimismo exagerado.
+**El sector del videojuego no está para tirar cohetes.** La industria atraviesa una época de despidos masivos y estudios cerrando: Microsoft Gaming, EA, Sony Interactive Entertainment, Riot Games, Epic Games... todos han recortado plantillas significativamente entre 2023 y 2025. Hablar de "trabajo asegurado" en esta industria es, en el mejor de los casos, optimismo exagerado.
 
 **Lo que importa para conseguir trabajo en un estudio:**
 

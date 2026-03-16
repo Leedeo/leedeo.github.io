@@ -1,7 +1,7 @@
 ---
 layout: post
 categories: [Industria, Análisis]
-tags: [gamedev, indie, aaa, mercado, reflexiones]
+tags: [gamedev, indie, aaa, mercado, opinión, reflexión, industria]
 title: "¿Qué es un juego indie? La pregunta que la industria del videojuego no sabe responder"
 date: 2026-03-16
 thumbnail: "/assets/img/que-es-un-juego-indie.webp"
@@ -198,7 +198,7 @@ Las categorías existen para ayudar a las personas a encontrar, comparar y evalu
 
 ## ¿La libertad creativa define lo indie?
 
-Este es uno de los argumentos más usados para justificar la etiqueta: "Somos indie porque tenemos total libertad creativa sobre nuestro proyecto."
+Este es uno de los argumentos más usados para justificar la etiqueta: "Soy indie porque tengo total libertad creativa sobre mi proyecto."
 
 Es un argumento que suena bien, pero que no resiste un análisis riguroso.
 

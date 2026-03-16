@@ -1,7 +1,7 @@
 ---
 layout: post
-categories: [Windows]
-tags: [windows, optimizacion]
+categories: [Software, Windows]
+tags: [windows, tutorial, reparacion, sistema, guias]
 title: "¿SFC /scannow no funciona? Guía completa para reparar archivos de Windows"
 date: 2026-03-06
 thumbnail: "/assets/img/reparar-errores-windows.webp"

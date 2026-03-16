@@ -1,7 +1,7 @@
 ---
 layout: post
-categories: [Windows]
-tags: [windows, optimizacion]
+categories: [Software, Windows]
+tags: [windows, optimizacion, utilidades, software, rendimiento]
 title: "Los mejores optimizadores para Windows en 2026: Guía definitiva"
 date: 2026-03-06
 thumbnail: "/assets/img/optimizadores-windows-26.webp"

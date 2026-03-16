@@ -3,8 +3,8 @@ layout: post
 title: "El error que comete casi todo desarrollador indie al poner precio a su juego"
 description: "Descubre por qué poner un precio bajo a tu primer videojuego indie hunde tus ventas en Steam. Datos reales sobre psicología de precios, visibilidad y conversiones."
 date: 2026-03-12
-categories: [Industria, Análisis]
-tags: [steam, indie, gamedev, marketing, mercado]
+categories: [Industria, Marketing]
+tags: [steam, indie, gamedev, marketing, precios, mercado, psicología]
 thumbnail: /assets/img/error-precio-videojuego-indie.webp
 ---
 
@@ -35,7 +35,7 @@ La intuición más común entre desarrolladores que empiezan es que un precio ba
 
 El precio de un juego no es solo el número que aparece en la tienda. Es también una señal de calidad. Un estudio publicado por [IndieBI](https://sellmoregames.medium.com/how-to-price-your-game-in-2025-and-beyond-9a44d32f3682){:target="_blank"}, que analiza el rendimiento de más de 140.000 productos en plataformas PC y consola, lo documenta con bastante claridad: los juegos con precios muy bajos tienden a generar menos confianza en el comprador, no más. El jugador que ve un juego a 1,99 euros no piensa "qué ganga". Piensa "¿por qué vale tan poco?".
 
-La psicología detrás de esto es conocida y bien estudiada. Las personas usamos el precio como atajo mental para evaluar calidad cuando no tenemos información suficiente para juzgar por nosotros mismos. En una página de Steam con un tráiler de 90 segundos y unas capturas de pantalla, el precio es uno de los pocos datos objetivos disponibles antes de la compra. Bajarlo demasiado puede hundir la percepción del juego antes de que el jugador haya visto nada más.
+La psicología detrás de esto es conocida y bien estudiada. Las personas usamos el precio como atajo mental para evaluar calidad cuando no se tiene información suficiente para juzgar por sí mismo. En una página de Steam con un tráiler de 90 segundos y unas capturas de pantalla, el precio es uno de los pocos datos objetivos disponibles antes de la compra. Bajarlo demasiado puede hundir la percepción del juego antes de que el jugador haya visto nada más.
 
 Hay otro efecto que los desarrolladores que empiezan raramente anticipan: el impacto del precio inicial en la visibilidad dentro de Steam. El algoritmo de la plataforma da visibilidad a los juegos en función de sus ingresos en los primeros días y semanas. Un juego que genera más dinero en su lanzamiento aparece en más listas, recibe más recomendaciones automáticas, llega a más jugadores. Bajar el precio un 20% para "ser más accesible" puede traducirse en un 20% menos de ingresos de lanzamiento, lo que a su vez reduce la visibilidad, lo que reduce las ventas posteriores. El efecto se compone.
 

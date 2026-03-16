@@ -1,7 +1,7 @@
 ---
 layout: post
-categories: [Industria]
-tags: [gamedev, godot, motores, indie, aaa]
+categories: [Formación, Industria]
+tags: [gamedev, roles, aprendizaje, industria, guía, principiantes]
 title: "¿Qué es un Game Dev? Todo lo que necesitas saber para empezar a crear videojuegos"
 date: 2026-03-10
 thumbnail: "/assets/img/que-es-un-game-dev.webp"

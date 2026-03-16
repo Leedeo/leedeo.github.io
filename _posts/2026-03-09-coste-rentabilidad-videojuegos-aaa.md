@@ -1,7 +1,7 @@
 ---
 layout: post
-categories: [Industria]
-tags: [gamedev, aaa]
+categories: [Industria, Economía]
+tags: [gamedev, aaa, industria, mercado, rentabilidad, crisis]
 title: "Hacer videojuegos cada vez cuesta más, y rentabilizarlos es otro problema"
 date: 2026-03-09
 thumbnail: "/assets/img/coste-videojuegos-aaa.webp"
@@ -24,7 +24,7 @@ Antes de desglosar los presupuestos y la crisis del modelo AAA, es fundamental e
 
 ### El precio de hacer un juego "grande"
 
-Producir un título AAA en 2025 puede superar con facilidad los cientos de millones de dólares, y no estamos hablando solo del desarrollo, sino del conjunto: programación, arte, diseño, música, doblaje, servidores, soporte post-lanzamiento y, por supuesto, marketing.
+Producir un título AAA en 2025 puede superar con facilidad los cientos de millones de dólares, y no se trata solo del desarrollo, sino del conjunto: programación, arte, diseño, música, doblaje, servidores, soporte post-lanzamiento y, por supuesto, marketing.
 
 Gracias a los documentos que salieron a la luz durante el juicio por la adquisición de Activision Blizzard por parte de Microsoft, sabemos que *Call of Duty: Black Ops Cold War* costó más de 700 millones de dólares. Vendió 30 millones de copias. Un éxito comercial indudable, pero con esos números de inversión, el margen no es tan holgado como parece. En el mismo proceso judicial, un error de Sony filtró que *The Last of Us Part II* costó 220 millones y *Spider-Man 2* rozó los 300 millones.
 

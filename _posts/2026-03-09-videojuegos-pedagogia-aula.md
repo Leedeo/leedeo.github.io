@@ -1,14 +1,14 @@
 ---
 layout: post
-categories: [Educacion]
-tags: [educacion, gamedev]
+categories: [Educación, Pedagogía]
+tags: [educación, gamedev, pedagogía, aula, formación, tecnología]
 title: "Videojuegos como aliados pedagógicos: Más allá del aula y hacia la soberanía técnica"
 date: 2026-03-09
 thumbnail: "/assets/img/videojuegos-pedagogia-aula.webp"
 excerpt: "Un análisis del papel de los serious games y el marco legal de la LOMLOE en la educación moderna. ¿Cómo transformar el ocio en una herramienta de arquitectura mental?"
 ---
 
-El debate sobre la digitalización en las aulas ha dado un giro definitivo. Ya no discutimos si la tecnología debe estar presente, sino cómo utilizarla para que no sea un simple sustituto del papel, sino un **catalizador de habilidades cognitivas**. Mientras los medios generalistas observan el fenómeno desde la superficie, en el sector del desarrollo entendemos que estamos ante la mayor herramienta de contextualización de la historia.
+El debate sobre la digitalización en las aulas ha dado un giro definitivo. Ya no discutimos si la tecnología debe estar presente, sino cómo utilizarla para que no sea un simple sustituto del papel, sino un **catalizador de habilidades cognitivas**. Mientras los medios generalistas observan el fenómeno desde la superficie, en el sector del desarrollo entiendo que me encuentro ante la mayor herramienta de contextualización de la historia.
 
 En pleno 2026, la integración de los videojuegos en Secundaria no es una "innovación opcional"; es una respuesta técnica a la necesidad de fomentar el **pensamiento sistémico** en un entorno realista y desafiante. Entender cómo se construyen estas herramientas es el primer paso para dominar este nuevo lenguaje. En el siguiente vídeo te explico por dónde empezar a crearlos desde cero:
 

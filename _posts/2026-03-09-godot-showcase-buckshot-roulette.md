@@ -1,7 +1,7 @@
 ---
 layout: post
-categories: [Godot]
-tags: [godot, gamedev, indie]
+categories: [Godot, Showcase]
+tags: [godot, gamedev, buckshot roulette, indie, entrevista]
 title: "Godot Showcase: Buckshot Roulette y la realidad del desarrollo indie"
 date: 2026-03-09
 thumbnail: "/assets/img/buckshot-roulette-godot-showcase-thumbnail.webp"
@@ -20,7 +20,7 @@ Mike es el más reciente patrocinador Corporate Platinum del Godot Development F
 
 <div class="text-center mt-8 mb-16">
   <a href="https://www.youtube.com/playlist?list=PL5PTqiCIVoiVyA2qed1NE4uKejXEWM60e" target="_blank" rel="noopener" class="btn-primary inline-flex items-center gap-3 bg-violet-600 hover:bg-violet-500 text-white px-8 py-4 rounded-2xl font-bold transition-all text-lg shadow-lg shadow-violet-500/25 hover:shadow-violet-500/40 hover:scale-105">
-    Fórmate profesionalmente con nuestro Curso de Godot 4 <i class="fas fa-external-link-alt text-sm opacity-80"></i>
+    Fórmate profesionalmente con mi Curso de Godot 4 <i class="fas fa-external-link-alt text-sm opacity-80"></i>
   </a>
 </div>
 

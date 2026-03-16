@@ -1,7 +1,7 @@
 ---
 layout: post
-categories: [Godot]
-tags: [godot, gamedev, indie]
+categories: [Godot, Análisis]
+tags: [godot, gamedev, opinion, tecnología, indie]
 title: "¿Por qué Godot es el mejor motor para indies en 2026? Realismo y eficiencia"
 date: 2026-03-08
 thumbnail: "/assets/img/godot-mejor-motor-indie.webp"
