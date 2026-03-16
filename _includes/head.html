@@ -5,7 +5,7 @@
 {% seo %}
 
 <!-- Content Security Policy (CSP): Mitigación de XSS y Seguridad de Orígenes -->
-<meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self' 'unsafe-inline' https://www.googletagmanager.com https://www.google-analytics.com https://leedeo.disqus.com https://a.disquscdn.com; style-src 'self' 'unsafe-inline'; font-src 'self' data:; img-src 'self' data: https://www.google-analytics.com https://referrer.disqus.com https://a.disquscdn.com; connect-src 'self' https://www.google-analytics.com https://links.services.disqus.com; frame-src https://www.youtube.com https://www.youtube-nocookie.com https://disqus.com; base-uri 'self'; form-action 'self'; upgrade-insecure-requests;">
+<meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self' 'unsafe-inline' https://www.googletagmanager.com https://www.google-analytics.com https://leedeo.disqus.com https://a.disquscdn.com; script-src-attr 'unsafe-inline'; style-src 'self' 'unsafe-inline'; font-src 'self' data:; img-src 'self' data: https://www.google-analytics.com https://referrer.disqus.com https://a.disquscdn.com; connect-src 'self' https://www.google-analytics.com https://links.services.disqus.com; frame-src https://www.youtube.com https://www.youtube-nocookie.com https://disqus.com; base-uri 'self'; form-action 'self'; upgrade-insecure-requests;">
 
 <!-- Preconectar orígenes clave -->
 <link rel="preconnect" href="https://cdnjs.cloudflare.com">
