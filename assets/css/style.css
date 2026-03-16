@@ -485,6 +485,124 @@ main.hero-gradient {
   box-shadow: 0 0 0 2px rgba(139, 92, 246, 0.2), 0 10px 25px -5px rgba(0, 0, 0, 0.4);
 }
 
+/* =============================================
+   LEEDEO CLEANER PAGE — Componentes de Diseño
+   ============================================= */
+
+/* --- Mockup Frame para capturas de interfaz --- */
+.lc-mockup-frame {
+  position: relative;
+  border-radius: 1.25rem;
+  background: #1e1432;
+  border: 1px solid rgba(255, 255, 255, 0.08);
+  box-shadow: 0 25px 50px -12px rgba(0, 0, 0, 0.5);
+  overflow: hidden;
+}
+.lc-mockup-titlebar {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  padding: 0.75rem 1.5rem;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.04);
+  background: rgba(15, 10, 29, 0.5);
+}
+.lc-mockup-dot {
+  width: 0.625rem;
+  height: 0.625rem;
+  border-radius: 50%;
+}
+.lc-mockup-dot--red { background: rgba(239, 68, 68, 0.5); }
+.lc-mockup-dot--yellow { background: rgba(245, 158, 11, 0.5); }
+.lc-mockup-dot--green { background: rgba(34, 197, 94, 0.5); }
+.lc-mockup-label {
+  margin-left: 0.75rem;
+  font-size: 0.7rem;
+  font-family: monospace;
+  color: #64748b;
+  text-transform: lowercase;
+}
+.lc-mockup-image {
+  display: block;
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+}
+.lc-mockup-fade {
+  position: absolute;
+  bottom: 0; left: 0; right: 0;
+  height: 30%;
+  background: linear-gradient(to top, #0f0a1d, transparent);
+  pointer-events: none;
+  opacity: 0.8;
+}
+
+/* --- Feature Card Icon Container --- */
+.lc-icon-box {
+  width: 3.5rem;
+  height: 3.5rem;
+  border-radius: 1rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 1.25rem;
+  flex-shrink: 0;
+}
+
+/* --- Code Inline Fix (para DISM/SFC) --- */
+.lc-code {
+  background: rgba(0, 0, 0, 0.3);
+  padding: 0.15rem 0.4rem;
+  border-radius: 0.25rem;
+  color: #c4b5fd;
+  font-size: inherit;
+  font-family: monospace;
+  vertical-align: baseline;
+  line-height: inherit;
+}
+
+/* --- CTA Box --- */
+.lc-cta-box {
+  position: relative;
+  border-radius: 2rem;
+  padding: 3rem 2.5rem;
+  border: 1px solid rgba(139, 92, 246, 0.2);
+  box-shadow: 0 25px 50px -12px rgba(139, 92, 246, 0.15);
+  overflow: hidden;
+}
+@media (min-width: 768px) {
+  .lc-cta-box { padding: 4rem; }
+}
+.lc-cta-bg-icon {
+  position: absolute;
+  right: -2rem;
+  bottom: -2rem;
+  font-size: 12rem;
+  color: rgba(139, 92, 246, 0.05);
+  transform: rotate(-12deg);
+  pointer-events: none;
+}
+.lc-download-btn {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.75rem;
+  background: #7c3aed;
+  color: #ffffff;
+  padding: 1.25rem 2.5rem;
+  border-radius: 1rem;
+  font-size: 1.125rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.15em;
+  transition: all 0.3s ease;
+  box-shadow: 0 20px 25px -5px rgba(139, 92, 246, 0.25);
+  text-decoration: none;
+}
+.lc-download-btn:hover {
+  background: #6d28d9;
+  transform: scale(1.05);
+}
+
+
 /* Ajustes de responsividad */
 @media (max-width: 768px) {
   .testimonial-card {

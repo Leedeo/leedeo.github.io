@@ -132,9 +132,9 @@ title: Inicio | Leedeo Studio
         <h3 class="text-2xl font-bold mb-4">Leedeo Cleaner</h3>
         <p class="text-slate-400 mb-8 leading-relaxed flex-grow italic">Optimizador gratuito y rápido para Windows.
           Acelera tu PC, limpia archivos basura y mejora el rendimiento sin telemetría.</p>
-        <a href="https://github.com/Leedeo/Leedeo-Cleaner" target="_blank" rel="noopener"
+        <a href="{{ '/projects/leedeo-cleaner/' | relative_url }}"
           class="text-violet-400 font-bold flex items-center gap-2 hover:gap-4 transition-all uppercase text-xs tracking-widest">
-          Ver en GitHub <i class="fas fa-arrow-right"></i>
+          Saber más <i class="fas fa-arrow-right"></i>
         </a>
       </article>
 
@@ -184,8 +184,8 @@ title: Inicio | Leedeo Studio
 
     <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
       {% for post in site.posts limit:3 %}
-      <article class="glass-card rounded-custom-32 overflow-hidden flex flex-col reveal"
-        style="transition-delay: {{ forloop.index0 | times: 100 }}ms;">
+      <article class="glass-card rounded-custom-32 overflow-hidden flex-col reveal flex"
+        style="--delay: {{ forloop.index0 | times: 100 }}ms; transition-delay: var(--delay);">
         <a href="{{ post.url | relative_url }}" class="aspect-video overflow-hidden relative group block">
           <img src="{{ post.thumbnail | relative_url }}" alt="{{ post.title }}" loading="lazy" width="600" height="340"
             class="w-full h-full object-cover transition-transform duration-500 group-hover:scale-110" />

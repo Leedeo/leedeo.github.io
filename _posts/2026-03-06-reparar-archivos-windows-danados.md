@@ -96,9 +96,9 @@ Algunos errores de actualización (como **0x80070057** o **0x800f0922**) persist
 
 ### Automatiza este proceso con Leedeo Cleaner
 
-Si este flujo te parece largo o buscas una forma de ejecutarlo en múltiples máquinas sin ir paso a paso, [Leedeo Cleaner](https://github.com/Leedeo/Leedeo-Cleaner) automatiza todo este proceso en el orden correcto: primero DISM, luego SFC, con manejo de errores y logs de lo que ocurrió. Es código abierto, portable (no requiere instalación) y lo puedes auditar línea a línea.
+Si este flujo te parece largo o buscas una forma de ejecutarlo en múltiples máquinas sin ir paso a paso, [Leedeo Cleaner]({{ '/projects/leedeo-cleaner/' | relative_url }}) automatiza todo este proceso en el orden correcto: primero DISM, luego SFC, con manejo de errores y logs de lo que ocurrió. Es código abierto, portable (no requiere instalación) y lo puedes auditar línea a línea.
 
-[Ver Leedeo Cleaner en GitHub <i class="fas fa-external-link-alt"></i>](https://github.com/Leedeo/Leedeo-Cleaner){: .btn-primary }
+[Saber más sobre Leedeo Cleaner <i class="fas fa-arrow-right"></i>]({{ '/projects/leedeo-cleaner/' | relative_url }}){: .btn-primary }
 
 ---
 

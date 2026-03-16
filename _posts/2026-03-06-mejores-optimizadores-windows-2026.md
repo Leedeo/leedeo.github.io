@@ -95,7 +95,7 @@ La filosofía es opuesta a la de las grandes suites: nada de interfaces vistosas
 *   **Cuándo usarlo:** Pantallazos azules recurrentes, Windows Update bloqueado, archivos del sistema corruptos.
 *   **Ventaja única:** Portable en USB. Puedes llevarlo a cualquier PC y ejecutarlo sin instalar nada.
 
-[Ver Leedeo Cleaner en GitHub <i class="fas fa-external-link-alt"></i>](https://github.com/Leedeo/Leedeo-Cleaner){: .btn-primary }
+[Saber más sobre Leedeo Cleaner <i class="fas fa-arrow-right"></i>]({{ '/projects/leedeo-cleaner/' | relative_url }}){: .btn-primary }
 
 ---
 

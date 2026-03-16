@@ -1,9 +1,0 @@
-@import "tailwindcss";
-
-/* Scan all HTML files in the project */
-@source "../../*.html";
-@source "../../_includes/*.html";
-@source "../../_layouts/*.html";
-@source "../../blog/*.html";
-@source "../../courses/*.html";
-@source "../../_posts/*.md";

@@ -77,7 +77,7 @@ A diferencia de los anteriores, Leedeo Cleaner no se limita a cachés y temporal
 *   **Sin instalación:** Corre directamente como ejecutable portable, sin crear entradas en el registro ni en la carpeta de usuario.
 *   **Ideal para:** Técnicos, desarrolladores y usuarios avanzados que quieren una herramienta de confianza sin compromisos de privacidad.
 
-[Ver Leedeo Cleaner en GitHub <i class="fas fa-external-link-alt"></i>](https://github.com/Leedeo/Leedeo-Cleaner){: .btn-primary }
+[Saber más sobre Leedeo Cleaner <i class="fas fa-arrow-right"></i>]({{ '/projects/leedeo-cleaner/' | relative_url }}){: .btn-primary }
 
 ---
 
