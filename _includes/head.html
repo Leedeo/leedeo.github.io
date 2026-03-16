@@ -4,28 +4,73 @@
 <!-- SEO -->
 {% seo %}
 
-<!-- Preconectar orígenes clave (reduce latencia de primera conexión) -->
+<!-- Preconectar orígenes clave -->
 <link rel="preconnect" href="https://cdnjs.cloudflare.com">
 
-<!-- CSS crítico inline: fondo oscuro instantáneo para evitar flash blanco -->
+<!-- Preload de fuentes críticas (Ruta crítica) -->
+<link rel="preload" href="{{ '/assets/fonts/plus-jakarta-sans-latin.woff2' | relative_url }}" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="{{ '/assets/fonts/pacifico-latin.woff2' | relative_url }}" as="font" type="font/woff2" crossorigin>
+
+<!-- Estilos Críticos e Inline de Fuentes -->
 <style>
+  :root {
+    --bg-dark: #0f0a1d;
+    --bg-card: rgba(30, 20, 50, 0.7);
+    --violet-primary: #8b5cf6;
+    --violet-light: #c084fc;
+    --pink-accent: #f472b6;
+    --text-slate: #f1f5f9;
+  }
+
+  /* Override font-display para FontAwesome (Forzamos swap antes de cargar el CSS externo) */
+  @font-face {
+    font-family: 'Font Awesome 6 Free';
+    font-style: normal;
+    font-weight: 900;
+    font-display: swap;
+    src: url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/webfonts/fa-solid-900.woff2') format('woff2');
+  }
+
+  @font-face {
+    font-family: 'Font Awesome 6 Brands';
+    font-style: normal;
+    font-weight: 400;
+    font-display: swap;
+    src: url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/webfonts/fa-brands-400.woff2') format('woff2');
+  }
+
+  @font-face {
+    font-family: 'Plus Jakarta Sans';
+    font-style: normal;
+    font-weight: 200 800;
+    font-display: swap;
+    src: url('{{ "/assets/fonts/plus-jakarta-sans-latin.woff2" | relative_url }}') format('woff2');
+  }
+
+  @font-face {
+    font-family: 'Pacifico';
+    font-style: normal;
+    font-weight: 400;
+    font-display: swap;
+    src: url('{{ "/assets/fonts/pacifico-latin.woff2" | relative_url }}') format('woff2');
+  }
+
   body {
-    background-color: #0f0a1d;
+    background-color: var(--bg-dark);
+    color: var(--text-slate);
+    font-family: 'Plus Jakarta Sans', sans-serif;
+    margin: 0;
+    overflow-x: hidden;
   }
 </style>
 
-<!-- Fuentes locales (self-hosted, sin dependencia de Google Fonts CDN) -->
-<link rel="stylesheet" href="{{ '/assets/css/fonts.css' | relative_url }}">
-
-<!-- Tailwind CSS: compilado y minificado (solo clases usadas) -->
-<link rel="stylesheet" href="{{ '/assets/css/tailwind.min.css' | relative_url }}">
+<!-- CSS No Crítico: Carga Asíncrona (media="print" pattern) -->
+<link rel="stylesheet" href="{{ '/assets/css/tailwind.min.css' | relative_url }}" media="print" onload="this.media='all'">
+<link rel="stylesheet" href="{{ '/assets/css/style.css' | relative_url }}" media="print" onload="this.media='all'">
 
 <link rel="shortcut icon" href="{{ '/assets/img/favicon.png' | relative_url }}" type="image/png">
 
-<!-- style.css: SÍNCRONO (10KB — hacerlo async causaba CLS de 0.3 en el layout) -->
-<link rel="stylesheet" href="{{ '/assets/css/style.css' | relative_url }}">
-
-<!-- FontAwesome: asíncrono (iconos visuales, no afectan layout ni causan CLS) -->
+<!-- FontAwesome: asíncrono optimizado -->
 <link rel="preload" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" as="style"
   onload="this.onload=null;this.rel='stylesheet'">
 <noscript>
