@@ -3,10 +3,8 @@ Unified & GPU-Accelerated for Main Page & Policy Page
 */
 
 
-/* --- Configuración de Variables --- */
+/* --- Configuración de Variables (Variables críticas inyectadas en head.html) --- */
 :root {
-  --bg-dark: #0f0a1d;
-  --bg-card: rgba(30, 20, 50, 0.7);
   --violet-primary: #8b5cf6;
   --violet-light: #c084fc;
   --pink-accent: #f472b6;
@@ -21,22 +19,7 @@ Unified & GPU-Accelerated for Main Page & Policy Page
 .rounded-custom-48 { border-radius: 3rem; }
 
 /* Tarjetas y Contenedores */
-/* --- Override font-display para FontAwesome (CDN no lo expone, forzamos swap) --- */
-@font-face {
-  font-family: 'Font Awesome 6 Free';
-  font-style: normal;
-  font-weight: 900;
-  font-display: swap;
-  src: url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/webfonts/fa-solid-900.woff2') format('woff2');
-}
-
-@font-face {
-  font-family: 'Font Awesome 6 Brands';
-  font-style: normal;
-  font-weight: 400;
-  font-display: swap;
-  src: url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/webfonts/fa-brands-400.woff2') format('woff2');
-}
+/* Las declaraciones @font-face de FontAwesome han sido movidas a head.html para evitar FOUT/FOIT */
 
 /* --- Reseteo y Base --- */
 body {
