@@ -22,23 +22,6 @@
     --text-slate: #f1f5f9;
   }
 
-  /* Override font-display para FontAwesome (Forzamos swap antes de cargar el CSS externo) */
-  @font-face {
-    font-family: 'Font Awesome 6 Free';
-    font-style: normal;
-    font-weight: 900;
-    font-display: swap;
-    src: url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/webfonts/fa-solid-900.woff2') format('woff2');
-  }
-
-  @font-face {
-    font-family: 'Font Awesome 6 Brands';
-    font-style: normal;
-    font-weight: 400;
-    font-display: swap;
-    src: url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/webfonts/fa-brands-400.woff2') format('woff2');
-  }
-
   @font-face {
     font-family: 'Plus Jakarta Sans';
     font-style: normal;
@@ -70,11 +53,11 @@
 
 <link rel="shortcut icon" href="{{ '/assets/img/favicon.png' | relative_url }}" type="image/png">
 
-<!-- FontAwesome: asíncrono optimizado -->
-<link rel="preload" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" as="style"
+<!-- FontAwesome: Localizado y Asíncrono para máximo rendimiento -->
+<link rel="preload" href="{{ '/assets/css/fontawesome.min.css' | relative_url }}" as="style"
   onload="this.onload=null;this.rel='stylesheet'">
 <noscript>
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+  <link rel="stylesheet" href="{{ '/assets/css/fontawesome.min.css' | relative_url }}">
 </noscript>
 
 <!-- Google Analytics: diferido al evento load para no retrasar el LCP -->
