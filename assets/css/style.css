@@ -363,7 +363,63 @@ main.hero-gradient {
   font-weight: 600;
 }
 
-/* Estilo para links en línea (dentro de párrafos y listas) - Optimizados visualmente */
+/* --- Estilos para Tablas en el Blog --- */
+.policy-content .table-wrapper {
+  overflow-x: auto;
+  margin-bottom: 3.5rem;
+  border-radius: 1.5rem;
+  box-shadow: 0 10px 30px -10px rgba(0, 0, 0, 0.4);
+}
+
+.policy-content table {
+  width: 100%;
+  border-collapse: separate;
+  border-spacing: 0;
+  background: rgba(26, 17, 48, 0.4);
+  border: 1px solid rgba(139, 92, 246, 0.2);
+  border-radius: 1.5rem;
+  overflow: hidden;
+  font-size: 0.95rem;
+  margin-bottom: 0; /* Controlado por el wrapper */
+}
+
+.policy-content th {
+  background: rgba(139, 92, 246, 0.25);
+  color: #ffffff;
+  font-weight: 800;
+  text-align: left;
+  padding: 1.25rem 1.5rem;
+  border-bottom: 1px solid rgba(139, 92, 246, 0.3);
+  text-transform: uppercase;
+  letter-spacing: 0.12em;
+  font-size: 0.7rem;
+}
+
+.policy-content td {
+  padding: 1.25rem 1.5rem;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.03);
+  color: #cbd5e1; /* Más claro para mejor lectura */
+  vertical-align: middle;
+  line-height: 1.5;
+  transition: all 0.3s ease;
+}
+
+.policy-content tr:last-child td {
+  border-bottom: none;
+}
+
+.policy-content tr:hover td {
+  background: rgba(139, 92, 246, 0.12);
+  color: #ffffff;
+}
+
+/* Corregir el color de los enlaces dentro de tablas */
+.policy-content td a {
+  color: var(--violet-light) !important;
+  text-decoration: underline !important;
+}
+
+/* --- Estilo para links en línea --- */
 .policy-content p a,
 .policy-content li a {
   background: none;
