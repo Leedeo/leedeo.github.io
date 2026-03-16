@@ -61,7 +61,7 @@ El freelance puede funcionar como complemento de ingresos mientras se desarrolla
 
 El tercero es el que más brilla en el imaginario de cualquiera que quiera hacer videojuegos: hacer tus propios proyectos, publicarlos y vivir de las ventas. Es el camino de Stardew Valley, de Hollow Knight, de Balatro, de todos los casos de éxito que circulan por internet.
 
-Ya hemos hablado de los números de este modelo en detalle en nuestros artículos sobre cuánto gana un desarrollador y qué géneros generan más dinero. Pero en el contexto de esta pregunta más amplia, merece resumirlos de forma directa.
+Ya he analizado los números de este modelo en detalle en mis artículos sobre cuánto gana un desarrollador y qué géneros generan más dinero. Pero en el contexto de esta pregunta más amplia, merece resumirlos de forma directa.
 
 Según datos de VG Insights, [solo el 15% de los desarrolladores independientes en solitario gana más de 100.000 dólares al año](https://www.makeuseof.com/what-is-typical-indie-game-developer-salary/){:target="_blank"}. El juego indie promedio genera alrededor de 13.000 dólares brutos en toda su vida útil, antes de descontar la comisión de la plataforma, impuestos o cualquier coste de desarrollo. El 60% de los juegos publicados en Steam en 2024 no llegó a los 1.000 dólares totales.
 

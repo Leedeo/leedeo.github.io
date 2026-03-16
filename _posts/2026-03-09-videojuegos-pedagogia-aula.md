@@ -5,7 +5,7 @@ tags: [educacion, gamedev]
 title: "Videojuegos como aliados pedagógicos: Más allá del aula y hacia la soberanía técnica"
 date: 2026-03-09
 thumbnail: "/assets/img/videojuegos-pedagogia-aula.webp"
-excerpt: "Analizamos el papel de los serious games y el marco legal de la LOMLOE en la educación moderna. ¿Cómo transformar el ocio en una herramienta de arquitectura mental?"
+excerpt: "Un análisis del papel de los serious games y el marco legal de la LOMLOE en la educación moderna. ¿Cómo transformar el ocio en una herramienta de arquitectura mental?"
 ---
 
 El debate sobre la digitalización en las aulas ha dado un giro definitivo. Ya no discutimos si la tecnología debe estar presente, sino cómo utilizarla para que no sea un simple sustituto del papel, sino un **catalizador de habilidades cognitivas**. Mientras los medios generalistas observan el fenómeno desde la superficie, en el sector del desarrollo entendemos que estamos ante la mayor herramienta de contextualización de la historia.
@@ -56,7 +56,7 @@ Sin embargo, hay un vacío importante: las familias. A diferencia de los juegos 
 
 ### De la pedagogía a la creación real: El siguiente paso
 
-Si bien usar Minecraft para entender la arquitectura gótica es valioso, en **Leedeo Studio** creemos que el verdadero hito pedagógico ocurre cuando el alumno comprende **la lógica que sostiene ese mundo**. La verdadera soberanía digital no consiste en usar herramientas de terceros, sino en saber cómo se construyen.
+Si bien usar Minecraft para entender la arquitectura gótica es valioso, en **Leedeo Studio** defiendo que el verdadero hito pedagógico ocurre cuando el alumno comprende **la lógica que sostiene ese mundo**. La verdadera soberanía digital no consiste en usar herramientas de terceros, sino en saber cómo se construyen.
 
 Para aquellos que quieren ir más allá de ser usuarios de "juegos serios" y buscan entender la ingeniería y la metodología detrás del desarrollo, dominar las bases es esencial. No es solo saber programar; es saber **por dónde empezar** para que tu creatividad tenga una estructura profesional.
 
@@ -64,9 +64,9 @@ Para aquellos que quieren ir más allá de ser usuarios de "juegos serios" y bus
 
 ### Conclusión: El videojuego como derecho al conocimiento
 
-El videojuego en el aula no es una moda, es una **necesidad estructural**. Fomentar el uso de simuladores y entornos creativos permite que los alumnos desarrollen una resiliencia ante el error que el sistema tradicional suele castigar. Como comunidad técnica, nuestra responsabilidad es elevar el nivel del debate: menos hablar de "pantallas" y más hablar de **sistemas de aprendizaje interactivo**.
+El videojuego en el aula no es una moda, es una **necesidad estructural**. Fomentar el uso de simuladores y entornos creativos permite que los alumnos desarrollen una resiliencia ante el error que el sistema tradicional suele castigar. Como comunidad técnica, mi responsabilidad es elevar el nivel del debate: menos hablar de "pantallas" y más hablar de **sistemas de aprendizaje interactivo**.
 
-Si quieres dar el salto y entender cómo se diseñan estas herramientas desde cero, te invito a revisar nuestra guía técnica para principiantes. Es el contenido más sólido que tenemos para quienes buscan una base real en el desarrollo.
+Si quieres dar el salto y entender cómo se diseñan estas herramientas desde cero, te invito a revisar mi guía técnica para principiantes. Es el contenido más sólido que tengo para quienes buscan una base real en el desarrollo.
 
 <div class="text-center mt-12 mb-8">
   <a href="https://youtu.be/3ifj5q95qdk" target="_blank" rel="noopener" class="btn-primary inline-flex items-center gap-3 bg-violet-600 hover:bg-violet-500 text-white px-8 py-4 rounded-2xl font-bold transition-all text-lg shadow-lg shadow-violet-500/25 hover:shadow-violet-500/40 hover:scale-105">
@@ -77,5 +77,3 @@ Si quieres dar el salto y entender cómo se diseñan estas herramientas desde ce
 ---
 
 *Referencias conceptuales basadas en: Ley Orgánica 3/2020 (LOMLOE), Informe European Schoolnet (2024).*
-
-

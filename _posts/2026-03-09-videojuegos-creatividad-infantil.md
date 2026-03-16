@@ -5,7 +5,7 @@ tags: [educacion, gamedev]
 title: "¿Fomentan los videojuegos la creatividad? La ciencia detrás del pensamiento interactivo"
 date: 2026-03-09
 thumbnail: "/assets/img/videojuegos-creatividad-infantil.webp"
-excerpt: "Analizamos el impacto de los entornos interactivos en el desarrollo cognitivo. Del juego simbólico a la creación técnica: por qué el videojuego es el nuevo laboratorio creativo."
+excerpt: "Un análisis del impacto de los entornos interactivos en el desarrollo cognitivo. Del juego simbólico a la creación técnica: por qué el videojuego es el nuevo laboratorio creativo."
 ---
 
 Hace apenas unas décadas, la imagen de la creatividad infantil estaba ligada indisolublemente a los bloques de construcción y los muñecos articulados. Los niños pasaban horas inventando mundos que se materializaban en el suelo de su habitación. Hoy, esa misma pulsión creativa ha encontrado un nuevo ecosistema: los **entornos digitales interactivos**. 
@@ -47,7 +47,7 @@ El beneficio del videojuego no es intrínseco al software; depende críticamente
 
 ### El salto definitivo: De jugador a creador (Soberanía Tecnológica)
 
-En Leedeo Studio creemos firmemente que la creatividad alcanza su máximo potencial cuando el joven da el salto de **consumir mundos a construirlos**. Si jugar estimula la imaginación, programar un videojuego desarrolla el **pensamiento sistémico**.
+En Leedeo Studio defiendo firmemente que la creatividad alcanza su máximo potencial cuando el joven da el salto de **consumir mundos a construirlos**. Si jugar estimula la imaginación, programar un videojuego desarrolla el **pensamiento sistémico**.
 
 Entender que detrás de un salto o de una colisión hay una estructura lógica es la verdadera alfabetización del siglo XXI. Cuando un niño diseña un nivel, está aplicando:
 *   **Matemáticas y geometría** de forma aplicada.

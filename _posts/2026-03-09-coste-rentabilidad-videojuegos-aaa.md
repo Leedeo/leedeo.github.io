@@ -5,7 +5,7 @@ tags: [gamedev, aaa]
 title: "Hacer videojuegos cada vez cuesta más, y rentabilizarlos es otro problema"
 date: 2026-03-09
 thumbnail: "/assets/img/coste-videojuegos-aaa.webp"
-excerpt: "Analizamos la crisis del modelo de desarrollo AAA. Presupuestos de cientos de millones, márgenes irreales y la alternativa indie que está cambiando las reglas del juego."
+excerpt: "Un análisis de la crisis del modelo de desarrollo AAA. Presupuestos de cientos de millones, márgenes irreales y la alternativa indie que está cambiando las reglas del juego."
 ---
 
 La industria del videojuego genera más dinero que el cine y la música juntos. En 2023 superó los 196.000 millones de dólares a nivel global, y las previsiones apuntan a que rozará los 257.000 millones en 2028. Con esos números encima de la mesa, uno asumiría que las grandes compañías nadan en beneficios. La realidad, sin embargo, es bastante más complicada que eso.
@@ -84,7 +84,7 @@ Lo que probablemente veremos en los próximos años no es el fin de los juegos A
 
 El problema de fondo es que la industria lleva años creciendo en coste más rápido de lo que crece en audiencia, y en algún momento esa ecuación tiene que reequilibrarse. La pregunta es si ese reequilibrio va a ser ordenado o va a seguir pasando a golpe de cancelaciones y despidos masivos.
 
-Para aquellos que queremos crear experiencias sin heredar esta insoportable presión financiera, la lección está clara: **hay una alternativa.** El modelo independiente, el uso de herramientas accesibles y los proyectos de alcances medidos son el refugio natural de la creatividad. Mientras la burbuja AAA lidia con sus contradicciones, el desarrollo puro de videojuegos sigue vivo a escala humana.
+Para quien busca crear experiencias sin heredar esta insoportable presión financiera, la lección está clara: **hay una alternativa.** El modelo independiente, el uso de herramientas accesibles y los proyectos de alcances medidos son el refugio natural de la creatividad. Mientras la burbuja AAA lidia con sus contradicciones, el desarrollo puro de videojuegos sigue vivo a escala humana.
 
 <div class="text-center mt-12 mb-8">
   <a href="https://youtu.be/NWosjlLorEU" target="_blank" rel="noopener" class="btn-primary inline-flex items-center gap-3 bg-violet-600 hover:bg-violet-500 text-white px-8 py-4 rounded-2xl font-bold transition-all text-lg shadow-lg shadow-violet-500/25 hover:shadow-violet-500/40 hover:scale-105">
