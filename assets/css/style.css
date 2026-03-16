@@ -388,30 +388,28 @@ main.hero-gradient {
   transform: none;
 }
 
-/* Estilo para botones de acción genéricos desde Markdown (ignorando los que ya tienen CSS propio en HTML temporal/definitivo como .btn-action) */
-.policy-content p:only-child a:not(.btn-primary),
-.policy-content blockquote a:not(.btn-primary) {
+/* Estilo para botones de acción manuales desde Markdown */
+.btn-markdown {
   display: inline-flex;
   align-items: center;
   gap: 0.5rem;
   background: #7c3aed;
   /* violet-600 - más integrado con el fondo dark */
-  color: #ffffff;
+  color: #ffffff !important;
   padding: 0.8rem 1.75rem;
   border-radius: 1rem;
   border: 1px solid rgba(255, 255, 255, 0.05);
   box-shadow: 0 10px 15px -3px rgba(139, 92, 246, 0.25);
-  text-decoration: none;
+  text-decoration: none !important;
   font-weight: 700;
   font-size: 1rem;
   transition: all 0.3s ease;
   margin: 1rem 0;
 }
 
-.policy-content p:only-child a:not(.btn-primary):hover,
-.policy-content blockquote a:not(.btn-primary):hover {
+.btn-markdown:hover {
   background: var(--violet-primary);
-  color: #ffffff;
+  color: #ffffff !important;
   transform: scale(1.04);
   box-shadow: 0 15px 25px -4px rgba(139, 92, 246, 0.4);
 }
