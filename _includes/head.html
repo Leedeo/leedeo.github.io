@@ -5,7 +5,7 @@
 {% seo %}
 
 <!-- Content Security Policy (CSP): Mitigación de XSS y Seguridad de Orígenes -->
-<meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self' 'unsafe-inline' https://www.googletagmanager.com https://www.google-analytics.com https://leedeo.disqus.com https://a.disquscdn.com; style-src 'self' 'unsafe-inline'; font-src 'self' data: https://cdnjs.cloudflare.com; img-src 'self' data: https://www.google-analytics.com https://referrer.disqus.com https://a.disquscdn.com; connect-src 'self' https://www.google-analytics.com https://links.services.disqus.com; frame-src https://www.youtube.com https://www.youtube-nocookie.com https://disqus.com; base-uri 'self'; form-action 'self'; upgrade-insecure-requests;">
+<meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self' 'unsafe-inline' https://www.googletagmanager.com https://www.google-analytics.com https://leedeo.disqus.com https://a.disquscdn.com; style-src 'self' 'unsafe-inline'; font-src 'self' data:; img-src 'self' data: https://www.google-analytics.com https://referrer.disqus.com https://a.disquscdn.com; connect-src 'self' https://www.google-analytics.com https://links.services.disqus.com; frame-src https://www.youtube.com https://www.youtube-nocookie.com https://disqus.com; base-uri 'self'; form-action 'self'; upgrade-insecure-requests;">
 
 <!-- Preconectar orígenes clave -->
 <link rel="preconnect" href="https://cdnjs.cloudflare.com">
@@ -13,6 +13,7 @@
 <!-- Preload de fuentes críticas (Ruta crítica) -->
 <link rel="preload" href="{{ '/assets/fonts/plus-jakarta-sans-latin.woff2' | relative_url }}" as="font" type="font/woff2" crossorigin>
 <link rel="preload" href="{{ '/assets/fonts/pacifico-latin.woff2' | relative_url }}" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="{{ '/assets/fonts/fa-solid-900.woff2' | relative_url }}" as="font" type="font/woff2" crossorigin>
 
 <!-- Estilos Críticos e Inline de Fuentes -->
 <style>
