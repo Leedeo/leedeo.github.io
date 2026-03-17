@@ -6,6 +6,12 @@ date: 2026-03-12
 categories: [Industria, Marketing]
 tags: [steam, indie, gamedev, marketing, precios, mercado, psicología]
 thumbnail: /assets/img/error-precio-videojuego-indie.webp
+video:
+  id: "3ifj5q95qdk"
+  title: "¿Por dónde Empezar a Crear Videojuegos?"
+  description: "Guía práctica para empezar en el desarrollo de videojuegos: qué motor elegir, cómo estructurar tu aprendizaje y los primeros pasos reales."
+  upload_date: "2024-06-18"
+  duration: "PT9M54S" # Formato ISO 8601
 ---
 
 Hay una conversación que Chris Charla, director del programa ID@Xbox de Microsoft y alguien que lleva más de una década trabajando con cientos de desarrolladores independientes, repite casi cada vez que habla con estudios indie: la mayoría infravalora su propio trabajo. No un poco. Bastante.

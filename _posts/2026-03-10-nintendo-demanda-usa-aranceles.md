@@ -6,6 +6,12 @@ title: "Nintendo demanda al gobierno de Estados Unidos por los aranceles de Trum
 date: 2026-03-10
 thumbnail: "/assets/img/nintendo-demanda-aranceles-usa.webp"
 excerpt: "Nintendo of America inicia acciones legales contra el aparato gubernamental de EE.UU. para reclamar la devolución de aranceles millonarios pagados durante la administración Trump."
+video:
+  id: "NWosjlLorEU"
+  title: "Por qué aprender Unity o Unreal NO te dará trabajo"
+  description: "Análisis honesto sobre la realidad del trabajo en la industria del videojuego: costes, rentabilidad y las expectativas que nadie te cuenta."
+  upload_date: "2024-11-12"
+  duration: "PT9M41S" # Formato ISO 8601
 ---
 
 Nintendo of America ha presentado una demanda ante el Tribunal de Comercio Internacional de Estados Unidos para reclamar la devolución de los aranceles que pagó el año pasado, con intereses incluidos. La demanda acusa a varios organismos del gobierno federal de haber recaudado más de **200.000 millones de dólares** en aranceles sobre importaciones procedentes de prácticamente todos los países del mundo, calificando esas medidas como ilegales.

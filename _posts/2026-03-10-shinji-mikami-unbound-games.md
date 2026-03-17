@@ -6,6 +6,12 @@ title: "Shinji Mikami lleva dos años construyendo en silencio su nuevo estudio 
 date: 2026-03-10
 thumbnail: "/assets/img/shinji-mikami-unbound-games.webp"
 excerpt: "El creador de Resident Evil fundó Unbound Games en 2023, un estudio independiente de 50 personas enfocado en crear nuevas IP con Unreal Engine 5."
+video:
+  id: "3ifj5q95qdk"
+  title: "¿Por dónde Empezar a Crear Videojuegos?"
+  description: "Guía práctica para empezar en el desarrollo de videojuegos: qué motor elegir, cómo estructurar tu aprendizaje y los primeros pasos reales."
+  upload_date: "2024-06-18"
+  duration: "PT9M54S" # Formato ISO 8601
 ---
 
 El creador de Resident Evil lleva más tiempo del que muchos pensaban trabajando en su próximo proyecto. Shinji Mikami fundó Unbound Games en mayo de 2023, el estudio lleva operativo casi dos años, y su página web existe desde hace al menos uno, pero ha pasado prácticamente desapercibida hasta hace unos días, cuando empezó a circular ampliamente entre la comunidad.
@@ -17,12 +23,6 @@ Lo primero que hay que entender sobre Unbound es que no es un proyecto pequeño 
   <div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden; max-width: 100%; border-radius: 1rem; box-shadow: 0 20px 25px -5px rgb(0 0 0 / 0.5);">
     <iframe src="https://www.youtube.com/embed/3ifj5q95qdk?si=GvAoEnVWsfthGuoG&rel=0" title="Cómo Empezar a Crear Videojuegos" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen loading="lazy" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe>
   </div>
-</div>
-
-<div class="text-center mt-8 mb-16">
-  <a href="https://youtu.be/3ifj5q95qdk?si=GvAoEnVWsfthGuoG" target="_blank" rel="noopener" class="btn-primary inline-flex items-center gap-3 bg-violet-600 hover:bg-violet-500 text-white px-8 py-4 rounded-2xl font-bold transition-all text-lg shadow-lg shadow-violet-500/25 hover:shadow-violet-500/40 hover:scale-105">
-    Ver en YouTube: Empezar a crear videojuegos <i class="fas fa-external-link-alt text-sm opacity-80"></i>
-  </a>
 </div>
 
 ## Quién está detrás y qué están haciendo

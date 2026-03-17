@@ -6,6 +6,12 @@ title: "¿Cómo empezar a crear videojuegos desde cero? Guía técnica y mental"
 date: 2026-03-08
 thumbnail: "/assets/img/guia-crear-videojuegos.webp"
 excerpt: "Olvida los consejos vacíos. Aprender a crear videojuegos requiere una estrategia técnica y mental. Te explico por dónde empezar realmente y qué pasos seguir."
+video:
+  id: "3ifj5q95qdk"
+  title: "¿Por dónde Empezar a Crear Videojuegos?"
+  description: "Guía práctica para empezar en el desarrollo de videojuegos: qué motor elegir, cómo estructurar tu aprendizaje y los primeros pasos reales."
+  upload_date: "2024-06-18"
+  duration: "PT9M54S" # Formato ISO 8601
 ---
 
 Cada día miles de personas se preguntan cómo entrar en el mundo del desarrollo de videojuegos. La respuesta rápida que suele dar internet es "bájate un motor y aprende a programar". Pero si buscas crear algo con alma, algo que realmente funcione y no se quede en un proyecto olvidado en una carpeta, esa respuesta se queda corta. Muy corta.

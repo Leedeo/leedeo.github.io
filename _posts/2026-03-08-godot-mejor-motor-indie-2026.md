@@ -6,6 +6,12 @@ title: "¿Por qué Godot es el mejor motor para indies en 2026? Realismo y efici
 date: 2026-03-08
 thumbnail: "/assets/img/godot-mejor-motor-indie.webp"
 excerpt: "Analizo las razones de peso por las que Godot Engine se ha convertido en la herramienta estándar para el desarrollo independiente en 2026."
+video:
+  id: "L3pFEk1HPCQ"
+  title: "Curso Godot 4 desde Cero [01] - Instalar, Configurar y Renderizadores"
+  description: "Primer capítulo del curso de introducción a Godot 4. Aprende a descargar, instalar y configurar el motor desde cero."
+  upload_date: "2023-03-06"
+  duration: "PT6M27S" # Formato ISO 8601
 ---
 
 El panorama del desarrollo indie ha cambiado radicalmente en los últimos dos años. Ya no basta con que un motor sea "potente"; ahora se busca estabilidad, soberanía sobre el trabajo personal y, sobre todo, una herramienta que no se convierta en un socio inesperado que quiera llevarse una parte de las ventas.

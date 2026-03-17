@@ -6,6 +6,12 @@ title: "¿Qué es un Game Dev? Todo lo que necesitas saber para empezar a crear 
 date: 2026-03-10
 thumbnail: "/assets/img/que-es-un-game-dev.webp"
 excerpt: "Si alguna vez has jugado a un videojuego y te has preguntado quién diseña los niveles o escribe el código, la respuesta corta es: un game dev. Pero la realidad es mucho más profunda. Una guía sobre roles, la diferencia entre estudios AAA e indies, y cómo dar tus primeros pasos con motores como Godot."
+video:
+  id: "3ifj5q95qdk"
+  title: "¿Por dónde Empezar a Crear Videojuegos?"
+  description: "Guía práctica para empezar en el desarrollo de videojuegos: qué motor elegir, cómo estructurar tu aprendizaje y los primeros pasos reales."
+  upload_date: "2024-06-18"
+  duration: "PT9M54S" # Formato ISO 8601
 ---
 
 Si alguna vez has jugado a un videojuego y te has preguntado quién hay detrás de todo eso, quién diseña los niveles, quién escribe el código que hace que el personaje salte, quién compone la música que te pone los pelos de punta en el momento justo, la respuesta corta es: un game dev.

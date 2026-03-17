@@ -6,6 +6,12 @@ title: "¿Qué es Defold? El motor de videojuegos gratuito del que casi nadie ha
 date: 2026-03-14
 thumbnail: "/assets/img/que-es-defold-engine-2026.webp"
 excerpt: "Descubre qué es Defold, el motor de videojuegos gratuito y sin regalías impulsado por la fundación detrás de Candy Crush. Especialista en 2D, web y móvil."
+video:
+  id: "3ifj5q95qdk"
+  title: "¿Por dónde Empezar a Crear Videojuegos?"
+  description: "Guía práctica para empezar en el desarrollo de videojuegos: qué motor elegir, cómo estructurar tu aprendizaje y los primeros pasos reales."
+  upload_date: "2024-06-18"
+  duration: "PT9M54S" # Formato ISO 8601
 ---
 
 Cuando se habla de motores de videojuegos, los nombres que aparecen siempre son los mismos: Unity, Unreal Engine y, más recientemente, Godot. Pero existe otro motor que lleva años funcionando en silencio, que es completamente gratuito, que no cobra regalías y que está detrás de juegos con millones de jugadores en todo el mundo. Se llama **[Defold](https://defold.com/)** y, por alguna razón, casi nadie habla de él. Al menos no en español.

@@ -6,6 +6,12 @@ date: 2026-03-11
 categories: [Industria, Marketing]
 tags: [steam, gamedev, géneros, rentabilidad, mercado, análisis]
 thumbnail: /assets/img/generos-videojuegos-rentables-indie.webp
+video:
+  id: "3ifj5q95qdk"
+  title: "¿Por dónde Empezar a Crear Videojuegos?"
+  description: "Guía práctica para empezar en el desarrollo de videojuegos: qué motor elegir, cómo estructurar tu aprendizaje y los primeros pasos reales."
+  upload_date: "2024-06-18"
+  duration: "PT9M54S" # Formato ISO 8601
 ---
 
 Si estás pensando en hacer tu primer juego, o en el próximo después de uno que no funcionó como esperabas, en algún momento te has hecho esta pregunta: ¿qué tipo de juego tiene más posibilidades de funcionar?

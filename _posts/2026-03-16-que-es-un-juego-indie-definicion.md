@@ -6,6 +6,12 @@ title: "¿Qué es un juego indie? La pregunta que la industria del videojuego no
 date: 2026-03-16
 thumbnail: "/assets/img/que-es-un-juego-indie.webp"
 excerpt: "Parece una pregunta sencilla, pero hoy es un terreno pantanoso. Analizamos por qué la etiqueta independiente está perdiendo su significado original."
+video:
+  id: "0h_F-gHSeM0"
+  title: "Juegos Indie vs AAA: La Verdadera Diferencia"
+  description: "Qué diferencia realmente a un juego indie de uno AAA: presupuesto, distribución, libertad creativa y el modelo de negocio detrás de cada uno."
+  upload_date: "2025-10-19"
+  duration: "PT5M2S" # Formato ISO 8601
 ---
 
 Parece una pregunta sencilla. Cinco palabras: ¿qué es un juego indie? Debería tener una respuesta clara. Y durante un tiempo la tuvo. Pero la industria del videojuego ha crecido tanto, se ha vuelto tan compleja y ha generado tantos modelos de negocio distintos que hoy esa pregunta se ha convertido en un terreno pantanoso donde nadie se pone de acuerdo.

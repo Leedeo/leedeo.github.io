@@ -6,6 +6,12 @@ title: "¿Fomentan los videojuegos la creatividad? La ciencia detrás del pensam
 date: 2026-03-09
 thumbnail: "/assets/img/videojuegos-creatividad-infantil.webp"
 excerpt: "Un análisis del impacto de los entornos interactivos en el desarrollo cognitivo. Del juego simbólico a la creación técnica: por qué el videojuego es el nuevo laboratorio creativo."
+video:
+  id: "L3pFEk1HPCQ"
+  title: "Curso Godot 4 desde Cero [01] - Instalar, Configurar y Renderizadores"
+  description: "Primer capítulo del curso de introducción a Godot 4. Aprende a descargar, instalar y configurar el motor desde cero."
+  upload_date: "2023-03-06"
+  duration: "PT6M27S" # Formato ISO 8601
 ---
 
 Hace apenas unas décadas, la imagen de la creatividad infantil estaba ligada indisolublemente a los bloques de construcción y los muñecos articulados. Los niños pasaban horas inventando mundos que se materializaban en el suelo de su habitación. Hoy, esa misma pulsión creativa ha encontrado un nuevo ecosistema: los **entornos digitales interactivos**. 

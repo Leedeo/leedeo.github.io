@@ -6,6 +6,12 @@ date: 2026-03-12
 categories: [Industria, Economía]
 tags: [gamedev, indie, profesional, trabajo, mercado, economía]
 thumbnail: /assets/img/vivir-de-hacer-videojuegos.webp
+video:
+  id: "NWosjlLorEU"
+  title: "Por qué aprender Unity o Unreal NO te dará trabajo"
+  description: "Análisis honesto sobre la realidad del trabajo en la industria del videojuego: costes, rentabilidad y las expectativas que nadie te cuenta."
+  upload_date: "2024-11-12"
+  duration: "PT9M41S" # Formato ISO 8601
 ---
 
 Voy a empezar con la respuesta corta: sí, es posible. Y ahora voy a dedicar el resto del artículo a explicar por qué esa respuesta, sin contexto, es casi completamente inútil.

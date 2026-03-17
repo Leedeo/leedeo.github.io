@@ -6,6 +6,12 @@ title: "Curso gratuito para crear videojuegos con Godot Engine 4"
 date: 2026-03-10
 thumbnail: "/assets/img/curso-godot-4-gratis.webp"
 excerpt: "Aprender a hacer videojuegos nunca ha sido tan accesible como ahora. Descubre este curso gratuito y en español para dominar Godot 4 desde cero."
+video:
+  id: "L3pFEk1HPCQ"
+  title: "Curso Godot 4 desde Cero [01] - Instalar, Configurar y Renderizadores"
+  description: "Primer capítulo del curso de introducción a Godot 4. Aprende a descargar, instalar y configurar el motor desde cero."
+  upload_date: "2023-03-06"
+  duration: "PT6M27S" # Formato ISO 8601
 ---
 
 Aprender a hacer videojuegos nunca ha sido tan accesible como ahora, y Godot Engine tiene mucho que ver con eso. Si llevas tiempo queriendo dar el salto al desarrollo de juegos pero no sabes por dónde empezar, o si vienes de otro motor y estás buscando una alternativa más libre y sostenible, este curso es para ti.

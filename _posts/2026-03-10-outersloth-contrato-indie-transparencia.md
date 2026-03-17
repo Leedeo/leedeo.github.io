@@ -6,6 +6,12 @@ title: "Outersloth hace público su contrato con desarrolladores indie, y el ges
 date: 2026-03-10
 thumbnail: "/assets/img/outersloth-transparencia-indie.webp"
 excerpt: "Innersloth, creadores de Among Us, rompen el secretismo de la industria publicando su contrato estándar de financiación para juegos independientes."
+video:
+  id: "L3pFEk1HPCQ"
+  title: "Curso Godot 4 desde Cero [01] - Instalar, Configurar y Renderizadores"
+  description: "Primer capítulo del curso de introducción a Godot 4. Aprende a descargar, instalar y configurar el motor desde cero."
+  upload_date: "2023-03-06"
+  duration: "PT6M27S" # Formato ISO 8601
 ---
 
 Outersloth, el fondo de inversión que Innersloth —los creadores de Among Us— montó para financiar juegos indie, acaba de publicar su contrato estándar con desarrolladores. Lo hicieron poco después de dar una charla sobre el tema en la Game Developers Conference, y la intención declarada es que otras compañías se vean empujadas a ofrecer condiciones similares o, al menos, a tener esa conversación.

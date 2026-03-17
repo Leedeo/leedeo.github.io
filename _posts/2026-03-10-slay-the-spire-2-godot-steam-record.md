@@ -6,6 +6,12 @@ title: "Slay the Spire 2 arrasa en Steam con casi 575.000 jugadores simultáneos
 date: 2026-03-10
 thumbnail: "/assets/img/slay-the-spire-2-key-art.webp"
 excerpt: "Slay the Spire 2 entra en Early Access batiendo récords y demostrando que la migración de Unity a Godot Engine ha sido un éxito técnico y comercial masivo."
+video:
+  id: "L3pFEk1HPCQ"
+  title: "Curso Godot 4 desde Cero [01] - Instalar, Configurar y Renderizadores"
+  description: "Primer capítulo del curso de introducción a Godot 4. Aprende a descargar, instalar y configurar el motor desde cero."
+  upload_date: "2023-03-06"
+  duration: "PT6M27S" # Formato ISO 8601
 ---
 
 Slay the Spire 2 entró en Early Access el 5 de marzo en Steam y en menos de una semana ya acumula cifras que normalmente solo se ven en lanzamientos de franquicias con presupuestos de decenas de millones. Según SteamDB, el juego alcanzó un pico de 574.638 jugadores simultáneos el domingo, quedándose a poco más de 12.000 del récord de 587.150 que estableció Hollow Knight: Silksong en 2025. Según estimaciones de Video Game Insights, ya ha vendido alrededor de 2,8 millones de unidades y ha generado unos 55 millones de dólares en ingresos, y todavía tiene 2,4 millones de wishlists pendientes en Steam.

@@ -6,6 +6,12 @@ title: "Hacer videojuegos cada vez cuesta más, y rentabilizarlos es otro proble
 date: 2026-03-09
 thumbnail: "/assets/img/coste-videojuegos-aaa.webp"
 excerpt: "Un análisis de la crisis del modelo de desarrollo AAA. Presupuestos de cientos de millones, márgenes irreales y la alternativa indie que está cambiando las reglas del juego."
+video:
+  id: "NWosjlLorEU"
+  title: "Por qué aprender Unity o Unreal NO te dará trabajo"
+  description: "Análisis honesto sobre la realidad del trabajo en la industria del videojuego: costes, rentabilidad y las expectativas que nadie te cuenta."
+  upload_date: "2024-11-12"
+  duration: "PT9M41S" # Formato ISO 8601
 ---
 
 La industria del videojuego genera más dinero que el cine y la música juntos. En 2023 superó los 196.000 millones de dólares a nivel global, y las previsiones apuntan a que rozará los 257.000 millones en 2028. Con esos números encima de la mesa, uno asumiría que las grandes compañías nadan en beneficios. La realidad, sin embargo, es bastante más complicada que eso.

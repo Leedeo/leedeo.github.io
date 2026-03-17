@@ -6,6 +6,12 @@ title: "¿Qué es Godot Engine? El motor de videojuegos gratuito que desafía a 
 date: 2026-03-13
 thumbnail: "/assets/img/que-es-godot-engine-2026.webp"
 excerpt: "Descubre qué es Godot Engine, el motor open source y gratuito que revoluciona el desarrollo indie. Conoce sus ventajas, su historia y los grandes videojuegos creados con él."
+video:
+  id: "L3pFEk1HPCQ"
+  title: "Curso Godot 4 desde Cero [01] - Instalar, Configurar y Renderizadores"
+  description: "Primer capítulo del curso de introducción a Godot 4. Aprende a descargar, instalar y configurar el motor desde cero."
+  upload_date: "2023-03-06"
+  duration: "PT6M27S" # Formato ISO 8601
 ---
 
 Para entender qué es Godot Engine, primero hay que entender qué es un motor de videojuegos, y la buena noticia es que no hace falta ser ingeniero para comprenderlo.

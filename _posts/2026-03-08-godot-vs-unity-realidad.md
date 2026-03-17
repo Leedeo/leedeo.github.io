@@ -6,6 +6,12 @@ title: "Godot vs Unity en 2026: Por qué el motor no te va a dar el trabajo de t
 date: 2026-03-08
 thumbnail: "/assets/img/godot-vs-unity-realidad.webp"
 excerpt: "¿Realmente importa qué motor elijas para trabajar? Desmontamos los mitos sobre Unity, el software privativo y la realidad del mercado laboral de videojuegos."
+video:
+  id: "L3pFEk1HPCQ"
+  title: "Curso Godot 4 desde Cero [01] - Instalar, Configurar y Renderizadores"
+  description: "Primer capítulo del curso de introducción a Godot 4. Aprende a descargar, instalar y configurar el motor desde cero."
+  upload_date: "2023-03-06"
+  duration: "PT6M27S" # Formato ISO 8601
 ---
 
 Después de haber usado Unity durante cuatro años, puedo decir sin miedo que es un motor increíble. Fue mi puerta de entrada al desarrollo "moderno" tras años de pausa desde mi adolescencia con RPG Maker. Pero las herramientas no son solo líneas de código; también son las empresas que las gestionan y las decisiones que toman.

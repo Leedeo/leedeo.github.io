@@ -6,6 +6,12 @@ title: "¿Cómo aprender Godot 4 desde cero en 2026? Guía paso a paso para prin
 date: 2026-03-07
 thumbnail: "/assets/img/aprender-godot-4.webp"
 excerpt: "¿Quieres crear videojuegos pero no sabes por dónde empezar? Descubre por qué Godot 4 es la mejor opción en 2026 y cómo dar tus primeros pasos sin morir en el intento."
+video:
+  id: "L3pFEk1HPCQ"
+  title: "Curso Godot 4 desde Cero [01] - Instalar, Configurar y Renderizadores"
+  description: "Primer capítulo del curso de introducción a Godot 4. Aprende a descargar, instalar y configurar el motor desde cero."
+  upload_date: "2023-03-06"
+  duration: "PT6M27S" # Formato ISO 8601
 ---
 
 Hay un momento específico en el que muchas personas deciden aprender a crear videojuegos: pueden ser las horas que le han dedicado a sus juegos favoritos, la frustración de ver una mecánica en un juego y pensar "yo podría hacerlo mejor", o simplemente las ganas de construir algo propio desde cero. El problema es que entre ese impulso y el primer proyecto funcional hay una curva de aprendizaje que, si no se gestiona bien, acaba con muchos proyectos antes de arrancar.

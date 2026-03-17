@@ -6,6 +6,12 @@ title: "¿Cómo aprender a programar videojuegos? Por qué GDScript es el mejor 
 date: 2026-03-07
 thumbnail: "/assets/img/aprender-programar-gdscript.webp"
 excerpt: "¿Quieres aprender a programar pero el código te parece imposible? Descubre por qué GDScript en Godot 4 es la forma más rápida, sencilla y lógica de crear tus propios juegos."
+video:
+  id: "x9N1gw2qWEQ"
+  title: "Curso Godot 4 desde Cero [04] - Aprende a Programar (GDScript)"
+  description: "Introducción práctica a GDScript, el lenguaje de programación de Godot Engine, pensado para quienes quieren empezar a crear videojuegos."
+  upload_date: "2023-03-24"
+  duration: "PT16M31S" # Formato ISO 8601
 ---
 
 La mayoría de personas que quieren programar videojuegos se enfrentan al mismo dilema inicial: ¿por dónde empiezo? ¿C++? ¿Python? ¿JavaScript? ¿Unity con C#? Y ese mar de opciones termina siendo el primer obstáculo, incluso antes de haber escrito una sola línea.

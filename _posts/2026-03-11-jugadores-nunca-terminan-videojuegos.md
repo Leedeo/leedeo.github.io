@@ -7,6 +7,12 @@ date: 2026-03-11
 thumbnail: "/assets/img/jugadores-no-terminan-juegos.webp"
 excerpt: >-
   El abandono de los videojuegos por parte de los jugadores no es pereza ni falta de atención, es un fenómeno complejo impulsado por la edad de la audiencia, la saturación del mercado, el tamaño del "backlog" y el diseño de los propios títulos AAA y Live Service.
+video:
+  id: "3ifj5q95qdk"
+  title: "¿Por dónde Empezar a Crear Videojuegos?"
+  description: "Guía práctica para empezar en el desarrollo de videojuegos: qué motor elegir, cómo estructurar tu aprendizaje y los primeros pasos reales."
+  upload_date: "2024-06-18"
+  duration: "PT9M54S" # Formato ISO 8601
 ---
 
 Piensa en los últimos cinco juegos que compraste. ¿Cuántos terminaste?

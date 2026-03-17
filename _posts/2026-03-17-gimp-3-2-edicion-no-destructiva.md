@@ -6,6 +6,12 @@ categories: [Software, Diseño]
 tags: [GIMP, Edición No Destructiva, Software Libre, Diseño Gráfico]
 thumbnail: "/assets/img/gimp-3-2-edicion-no-destructiva.webp"
 excerpt: "GIMP 3.2 marca un hito histórico tras tres décadas de espera: la llegada de la edición no destructiva (NDE). Analizamos por qué este cambio es vital para flujos de trabajo profesionales."
+video:
+  id: "bslPe_Y43es"
+  title: "Tutorial de Fundamentos de GIMP - Edición de Imagen Libre"
+  description: "Aprende los fundamentos de GIMP, el editor de imagen gratuito y open source. Herramientas básicas, capas y flujo de trabajo esencial."
+  upload_date: "2022-07-11"
+  duration: "PT22M8S" # Formato ISO 8601
 ---
 
 **[GIMP](https://www.gimp.org/)** acaba de publicar su versión **3.2**, y aunque cada actualización trae su lista de mejoras y correcciones, esta vez hay un cambio que lleva décadas esperándose: la **edición no destructiva**.
