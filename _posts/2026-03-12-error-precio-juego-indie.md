@@ -16,7 +16,7 @@ Pero antes de que te obsesiones con el precio final, hay un paso previo fundamen
 
 <div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden; max-width: 100%; border-radius: 1rem; box-shadow: 0 20px 25px -5px rgb(0 0 0 / 0.5); border: 1px solid rgba(255,255,255,0.1); margin-top: 2.5rem; margin-bottom: 3.5rem;">
   <iframe 
-    src="https://www.youtube.com/embed/3ifj5q95qdk?si=6oQpnRjtXhgdT2dC" 
+    src="https://www.youtube.com/embed/3ifj5q95qdk?si=6oQpnRjtXhgdT2dC&rel=0" 
     title="Cómo empezar a crear videojuegos" 
     frameborder="0" 
     allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 

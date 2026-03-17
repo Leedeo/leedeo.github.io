@@ -15,7 +15,7 @@ Lo primero que hay que entender sobre Unbound es que no es un proyecto pequeño 
 <div class="my-12">
   <p class="text-slate-400 italic mb-6 text-center max-w-2xl mx-auto">"Incluso gigantes como Mikami apuestan por la independencia para mantener el control creativo. Si tú también quieres empezar tu propio camino independiente creando videojuegos, este es el primer paso ideal para empezar:"</p>
   <div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden; max-width: 100%; border-radius: 1rem; box-shadow: 0 20px 25px -5px rgb(0 0 0 / 0.5);">
-    <iframe src="https://www.youtube.com/embed/3ifj5q95qdk?si=GvAoEnVWsfthGuoG" title="Cómo Empezar a Crear Videojuegos" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen loading="lazy" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe>
+    <iframe src="https://www.youtube.com/embed/3ifj5q95qdk?si=GvAoEnVWsfthGuoG&rel=0" title="Cómo Empezar a Crear Videojuegos" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen loading="lazy" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe>
   </div>
 </div>
 

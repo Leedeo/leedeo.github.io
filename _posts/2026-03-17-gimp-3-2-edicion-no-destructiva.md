@@ -32,7 +32,7 @@ Antes de entrar en el detalle técnico de la versión 3.2, si te han entrado gan
 
 <section aria-label="Tutorial de GIMP" class="my-12">
     <div class="aspect-video w-full rounded-3xl overflow-hidden shadow-2xl border border-violet-500/20 bg-black">
-        <iframe class="w-full h-full" src="https://www.youtube.com/embed/bslPe_Y43es?si=rKXq-D9ReAPrLuqJ" title="Tutorial de Fundamentos de GIMP" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+        <iframe class="w-full h-full" src="https://www.youtube.com/embed/bslPe_Y43es?si=rKXq-D9ReAPrLuqJ&rel=0" title="Tutorial de Fundamentos de GIMP" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen loading="lazy"></iframe>
     </div>
 </section>
 

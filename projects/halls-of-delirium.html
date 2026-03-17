@@ -31,7 +31,7 @@ permalink: /projects/halls-of-delirium/
     <!-- TRÁILER Y CTA -->
     <section aria-label="Tráiler y descarga" class="max-w-4xl mx-auto mb-20 text-center reveal">
         <div class="aspect-video w-full rounded-3xl overflow-hidden shadow-2xl border border-violet-500/30 mb-10 bg-black">
-            <iframe class="w-full h-full" src="https://www.youtube.com/embed/LTF9AT0K9mk?si=yoiTxTD8VRaaXSA_" title="Halls of Delirium Trailer" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+            <iframe class="w-full h-full" src="https://www.youtube.com/embed/LTF9AT0K9mk?si=yoiTxTD8VRaaXSA_&rel=0" title="Halls of Delirium Trailer" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen loading="lazy"></iframe>
         </div>
         <div class="flex flex-col sm:flex-row gap-4 justify-center items-center">
             <a href="https://leedeo.itch.io/halls-of-delirium" target="_blank" rel="noopener" class="btn-primary text-lg px-8 py-4">
@@ -87,7 +87,7 @@ permalink: /projects/halls-of-delirium/
                     </p>
                 </div>
                 <div class="aspect-video rounded-2xl overflow-hidden shadow-2xl border border-white/10 bg-black">
-                    <iframe class="w-full h-full" src="https://www.youtube.com/embed/v8zZWKz7Ujk?si=t3YJ0wjhceUjSEgN" title="Desarrollo del nivel Pac-Man - Devlog" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                    <iframe class="w-full h-full" src="https://www.youtube.com/embed/v8zZWKz7Ujk?si=t3YJ0wjhceUjSEgN&rel=0" title="Desarrollo del nivel Pac-Man - Devlog" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen loading="lazy"></iframe>
                 </div>
             </div>
         </div>
@@ -102,25 +102,25 @@ permalink: /projects/halls-of-delirium/
             <div class="w-24 h-1.5 bg-violet-500 mx-auto rounded-full mt-8"></div>
         </div>
         <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6 mt-12">
-            <button onclick="openGallery('{{ '/assets/img/halls-of-delirium-1.webp' | relative_url }}')" class="group relative rounded-2xl overflow-hidden border border-white/10 aspect-video shadow-lg bg-black focus:outline-none focus:ring-2 focus:ring-violet-500">
+            <button data-image="{{ '/assets/img/halls-of-delirium-1.webp' | relative_url }}" onclick="openGallery(this.dataset.image)" class="group relative rounded-2xl overflow-hidden border border-white/10 aspect-video shadow-lg bg-black focus:outline-none focus:ring-2 focus:ring-violet-500">
                 <img src="{{ '/assets/img/halls-of-delirium-1.webp' | relative_url }}" alt="Captura 1" class="w-full h-full object-cover transition-all duration-500 group-hover:scale-110 group-hover:opacity-70" loading="lazy">
                 <div class="absolute inset-0 flex items-center justify-center opacity-0 group-hover:opacity-100 transition-opacity duration-300">
                     <i class="fas fa-search-plus text-3xl text-white drop-shadow-lg"></i>
                 </div>
             </button>
-            <button onclick="openGallery('{{ '/assets/img/halls-of-delirium-2.webp' | relative_url }}')" class="group relative rounded-2xl overflow-hidden border border-white/10 aspect-video shadow-lg bg-black focus:outline-none focus:ring-2 focus:ring-violet-500">
+            <button data-image="{{ '/assets/img/halls-of-delirium-2.webp' | relative_url }}" onclick="openGallery(this.dataset.image)" class="group relative rounded-2xl overflow-hidden border border-white/10 aspect-video shadow-lg bg-black focus:outline-none focus:ring-2 focus:ring-violet-500">
                 <img src="{{ '/assets/img/halls-of-delirium-2.webp' | relative_url }}" alt="Captura 2" class="w-full h-full object-cover transition-all duration-500 group-hover:scale-110 group-hover:opacity-70" loading="lazy">
                 <div class="absolute inset-0 flex items-center justify-center opacity-0 group-hover:opacity-100 transition-opacity duration-300">
                     <i class="fas fa-search-plus text-3xl text-white drop-shadow-lg"></i>
                 </div>
             </button>
-            <button onclick="openGallery('{{ '/assets/img/halls-of-delirium-3.webp' | relative_url }}')" class="group relative rounded-2xl overflow-hidden border border-white/10 aspect-video shadow-lg bg-black focus:outline-none focus:ring-2 focus:ring-violet-500">
+            <button data-image="{{ '/assets/img/halls-of-delirium-3.webp' | relative_url }}" onclick="openGallery(this.dataset.image)" class="group relative rounded-2xl overflow-hidden border border-white/10 aspect-video shadow-lg bg-black focus:outline-none focus:ring-2 focus:ring-violet-500">
                 <img src="{{ '/assets/img/halls-of-delirium-3.webp' | relative_url }}" alt="Captura 3" class="w-full h-full object-cover transition-all duration-500 group-hover:scale-110 group-hover:opacity-70" loading="lazy">
                 <div class="absolute inset-0 flex items-center justify-center opacity-0 group-hover:opacity-100 transition-opacity duration-300">
                     <i class="fas fa-search-plus text-3xl text-white drop-shadow-lg"></i>
                 </div>
             </button>
-            <button onclick="openGallery('{{ '/assets/img/halls-of-delirium-4.webp' | relative_url }}')" class="group relative rounded-2xl overflow-hidden border border-white/10 aspect-video shadow-lg bg-black focus:outline-none focus:ring-2 focus:ring-violet-500">
+            <button data-image="{{ '/assets/img/halls-of-delirium-4.webp' | relative_url }}" onclick="openGallery(this.dataset.image)" class="group relative rounded-2xl overflow-hidden border border-white/10 aspect-video shadow-lg bg-black focus:outline-none focus:ring-2 focus:ring-violet-500">
                 <img src="{{ '/assets/img/halls-of-delirium-4.webp' | relative_url }}" alt="Captura 4" class="w-full h-full object-cover transition-all duration-500 group-hover:scale-110 group-hover:opacity-70" loading="lazy">
                 <div class="absolute inset-0 flex items-center justify-center opacity-0 group-hover:opacity-100 transition-opacity duration-300">
                     <i class="fas fa-search-plus text-3xl text-white drop-shadow-lg"></i>

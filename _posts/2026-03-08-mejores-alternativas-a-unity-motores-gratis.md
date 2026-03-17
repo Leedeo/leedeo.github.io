@@ -15,7 +15,7 @@ Sin embargo, el panorama actual para la **creación de videojuegos** es más ric
 En el siguiente vídeo analizo a fondo las **mejores alternativas a Unity**, presentando opciones tanto gratuitas con regalías amigables como motores 100% de código abierto para que elijas el ideal según las necesidades de tu videojuego:
 
 <div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden; max-width: 100%; margin: 30px 0;">
-  <iframe src="https://www.youtube.com/embed/WzSrFVa36Lg" title="Las mejores alternativas a Unity: motores de videojuegos gratis" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen loading="lazy" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border-radius: 12px; box-shadow: 0 10px 30px rgba(0,0,0,0.5);"></iframe>
+  <iframe src="https://www.youtube.com/embed/WzSrFVa36Lg?rel=0" title="Las mejores alternativas a Unity: motores de videojuegos gratis" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen loading="lazy" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border-radius: 12px; box-shadow: 0 10px 30px rgba(0,0,0,0.5);"></iframe>
 </div>
 
 ### El auge de las alternativas amigables y el Código Abierto
@@ -81,7 +81,7 @@ Si te decides por el camino abierto de **Godot Engine**, la curva de aprendizaje
 
 <div class="my-12">
   <div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden; max-width: 100%; border-radius: 1rem; box-shadow: 0 20px 25px -5px rgb(0 0 0 / 0.5);">
-    <iframe src="https://www.youtube.com/embed/L3pFEk1HPCQ" title="Curso de Godot 4 desde cero" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;" loading="lazy"></iframe>
+    <iframe src="https://www.youtube.com/embed/L3pFEk1HPCQ?rel=0" title="Curso de Godot 4 desde cero" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;" loading="lazy"></iframe>
   </div>
 </div>
 
