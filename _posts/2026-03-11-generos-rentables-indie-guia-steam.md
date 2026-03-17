@@ -6,6 +6,7 @@ date: 2026-03-11
 categories: [Industria, Marketing]
 tags: [steam, gamedev, géneros, rentabilidad, mercado, análisis]
 thumbnail: /assets/img/generos-videojuegos-rentables-indie.webp
+excerpt: "Si estás pensando en hacer tu primer juego, o en el próximo después de uno que no funcionó como esperabas, en algún momento te has hecho esta pregunta: ¿qué tipo de juego tiene más posibilidades de funcionar?"
 video:
   id: "3ifj5q95qdk"
   title: "¿Por dónde Empezar a Crear Videojuegos?"

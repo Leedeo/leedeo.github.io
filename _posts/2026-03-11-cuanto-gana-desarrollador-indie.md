@@ -6,6 +6,7 @@ date: 2026-03-11
 categories: [Industria, Economía]
 tags: [ingresos, indie, gamedev, steam, mercado, rentabilidad, datos]
 thumbnail: /assets/img/cuanto-gana-un-desarrollador-de-videojuegos-indie.webp
+excerpt: "Si estás pensando en hacer un videojuego y publicarlo, en algún momento te has preguntado lo mismo que se pregunta prácticamente todo el mundo antes de dar el salto: ¿cuánto dinero puedo ganar con esto?"
 video:
   id: "3ifj5q95qdk"
   title: "¿Por dónde Empezar a Crear Videojuegos?"
