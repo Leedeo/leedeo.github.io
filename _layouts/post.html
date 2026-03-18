@@ -45,7 +45,13 @@
                 {% endif %}
 
                 <div class="text-slate-400 text-sm font-bold uppercase tracking-widest mb-4">
-                    <i class="fas fa-calendar-alt mr-1"></i> {{ page.date | date: "%d de %B, %Y" }}
+                    {% assign months = "enero,febrero,marzo,abril,mayo,junio,julio,agosto,septiembre,octubre,noviembre,diciembre" | split: "," %}
+                    {% assign month_index = page.date | date: "%m" | plus: 0 | minus: 1 %}
+                    {% assign month_es = months[month_index] %}
+                    <i class="fas fa-calendar-alt mr-1"></i>
+                    {{ page.date | date: "%-d" }} de {{ month_es }} de {{ page.date | date: "%Y" }}
+                    <i class="fas fa-clock ml-3 mr-1"></i>
+                    {{ page.date | date: "%H:%M" }} h
                 </div>
                 
                 <h1 class="text-4xl md:text-6xl font-black mb-8 tracking-tight uppercase leading-tight">
