@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "GIMP 3.2: la edición no destructiva llega (por fin) al editor de imagen libre más conocido del mundo"
-date: 2026-03-17 14:58:00 +0100
+date: 2026-03-17
 categories: [Software, Diseño]
 tags: [GIMP, Edición No Destructiva, Software Libre, Diseño Gráfico]
 thumbnail: "/assets/img/gimp-3-2-edicion-no-destructiva.webp"
