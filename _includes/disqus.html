@@ -1,9 +1,7 @@
 {% if site.disqus_shortname %}
-<div id="disqus_trigger_container" class="mt-20">
-    <button id="load_disqus_btn"
-        class="w-full bg-white hover:bg-gray-100 text-[#0f0a1d] font-bold py-6 px-8 rounded-[1rem] transition-transform duration-300 hover:-translate-y-1 shadow-xl hover:shadow-2xl hover:shadow-white/10 text-lg flex items-center justify-center gap-3"
-        onclick="loadDisqus()">
-        <i class="fa-solid fa-comment"></i> Clic para comentar
+<div id="disqus_trigger_container" class="mt-20 text-center">
+    <button id="load_disqus_btn" onclick="loadDisqus()" class="btn-primary text-lg px-10 py-4">
+        <i class="fas fa-comment"></i> Leer y dejar comentarios
     </button>
 </div>
 
@@ -23,9 +21,9 @@
         var triggerContainer = document.getElementById('disqus_trigger_container');
         var disqusContainer = document.getElementById('disqus_container');
 
-        btn.innerHTML = '<i class="fas fa-spinner fa-spin text-xl"></i> Cargando comentarios...';
+        btn.innerHTML = '<i class="fas fa-spinner fa-spin"></i> Cargando comentarios...';
+        btn.disabled = true;
         btn.style.opacity = '0.7';
-        btn.style.cursor = 'wait';
 
         var d = document, s = d.createElement('script');
         s.src = 'https://{{ site.disqus_shortname }}.disqus.com/embed.js';
@@ -39,6 +37,5 @@
         (d.head || d.body).appendChild(s);
     }
 </script>
-<noscript>Por favor, activa JavaScript para ver los <a href="https://disqus.com/?ref_noscript" target="_blank" rel="noopener">comentarios alojados por
-        Disqus.</a></noscript>
+<noscript>Por favor, activa JavaScript para ver los <a href="https://disqus.com/?ref_noscript" target="_blank" rel="noopener">comentarios alojados por Disqus.</a></noscript>
 {% endif %}
