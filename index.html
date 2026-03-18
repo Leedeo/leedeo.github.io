@@ -193,7 +193,7 @@ title: Inicio
         </a>
         <div class="p-8 flex flex-col flex-grow">
           <div class="text-violet-400 text-xs font-bold uppercase tracking-widest mb-3">
-            {% assign months = "enero,febrero,marzo,abril,mayo,junio,julio,agosto,septiembre,octubre,noviembre,diciembre" | split: "," %}
+            {% assign months = "ene,feb,mar,abr,may,jun,jul,ago,sep,oct,nov,dic" | split: "," %}
             {% assign m_idx = post.date | date: "%m" | plus: 0 | minus: 1 %}
             <i class="fas fa-calendar-alt mr-1"></i> {{ post.date | date: "%-d" }} de {{ months[m_idx] }} de {{ post.date | date: "%Y" }}
             <i class="fas fa-clock ml-3 mr-1"></i> {{ post.date | date: "%H:%M" }} h
