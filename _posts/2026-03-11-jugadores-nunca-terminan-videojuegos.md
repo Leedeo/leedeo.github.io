@@ -1,7 +1,7 @@
 ---
 layout: post
 categories: [Industria]
-tags: [gamedev, diseño, jugadores, psicología, mercado, industria]
+tags: [gamedev, mercado, industria, aprendizaje]
 title: "¿Por qué la mayoría de jugadores nunca termina los videojuegos? La respuesta es más compleja de lo que parece"
 date: 2026-03-11 07:57:34 +0100
 thumbnail: "/assets/img/jugadores-no-terminan-juegos.webp"

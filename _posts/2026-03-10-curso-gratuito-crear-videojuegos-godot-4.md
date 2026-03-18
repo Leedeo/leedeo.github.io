@@ -1,7 +1,7 @@
 ---
 layout: post
 categories: [Godot, Formación]
-tags: [godot, gamedev, curso gratis, aprendizaje, tutorial, indie]
+tags: [godot, gamedev, aprendizaje, tutorial, principiantes, indie]
 title: "Curso gratuito para crear videojuegos con Godot Engine 4"
 date: 2026-03-10 08:12:28 +0100
 thumbnail: "/assets/img/curso-godot-4-gratis.webp"

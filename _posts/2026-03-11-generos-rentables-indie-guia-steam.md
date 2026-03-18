@@ -4,7 +4,7 @@ title: "¿Qué géneros de videojuegos generan más dinero? Guía para el desarr
 description: "Análisis de datos reales de Steam 2024. Descubre qué géneros de videojuegos tienen mayor rentabilidad, cuáles están saturados y dónde invertir tu tiempo como desarrollador indie."
 date: 2026-03-11 07:27:14 +0100
 categories: [Industria]
-tags: [steam, gamedev, géneros, rentabilidad, mercado, análisis]
+tags: [steam, gamedev, rentabilidad, mercado, industria]
 thumbnail: /assets/img/generos-videojuegos-rentables-indie.webp
 excerpt: "Si estás pensando en hacer tu primer juego, o en el próximo después de uno que no funcionó como esperabas, en algún momento te has hecho esta pregunta: ¿qué tipo de juego tiene más posibilidades de funcionar?"
 video:

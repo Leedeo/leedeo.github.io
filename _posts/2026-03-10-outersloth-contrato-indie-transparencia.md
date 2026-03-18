@@ -1,7 +1,7 @@
 ---
 layout: post
 categories: [Noticias, Industria]
-tags: [noticias, indie, industria, financiación]
+tags: [noticias, indie, industria, mercado]
 title: "Outersloth hace público su contrato con desarrolladores indie, y el gesto importa más de lo que parece"
 date: 2026-03-10 08:35:38 +0100
 thumbnail: "/assets/img/outersloth-transparencia-indie.webp"

@@ -1,7 +1,7 @@
 ---
 layout: post
 categories: [Industria]
-tags: [indie, marketing, gamedev, comunidad, mercado]
+tags: [indie, marketing, gamedev, mercado, industria]
 title: "Programas de creadores en videojuegos: qué son, por qué funcionan y cómo puede usarlos un indie"
 date: 2026-03-13 08:20:20 +0100
 thumbnail: "/assets/img/programas-creadores-marketing-indie.webp"

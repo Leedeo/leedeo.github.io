@@ -1,7 +1,7 @@
 ---
 layout: post
-categories: [Industria, Análisis]
-tags: [gamedev, indie, aaa, mercado, opinión, reflexión, industria]
+categories: [Industria]
+tags: [gamedev, indie, aaa, mercado, industria]
 title: "¿Qué es un juego indie? La pregunta que la industria del videojuego no sabe responder"
 date: 2026-03-16 07:51:03 +0100
 thumbnail: "/assets/img/que-es-un-juego-indie.webp"

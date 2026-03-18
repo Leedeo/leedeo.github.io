@@ -1,7 +1,7 @@
 ---
 layout: post
 categories: [Industria]
-tags: [gamedev, cine, narrativa, tecnología, industria]
+tags: [gamedev, tecnología, industria, mercado]
 title: "Cine y videojuegos: la historia de una influencia mutua que transformó ambas industrias"
 date: 2026-03-16 08:47:37 +0100
 thumbnail: "/assets/img/cine-videojuegos-influencia.webp"
