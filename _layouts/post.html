@@ -52,7 +52,7 @@
                     {% unless post_author %}{% assign post_author = site.data.authors['javo'] %}{% endunless %}
                     <img src="{{ post_author.avatar }}" alt="{{ post_author.name }}" class="inline-block w-5 h-5 rounded-full border border-violet-300/70 object-cover align-middle mr-1" width="20" height="20">
                     <span class="text-white">{{ post_author.name }}</span>
-                    <i class="fas fa-calendar-alt mr-1"></i>
+                    <i class="fas fa-calendar-alt ml-3 mr-1"></i>
                     {{ page.date | date: "%-d" }} de {{ month_es }} de {{ page.date | date: "%Y" }}
                     <i class="fas fa-clock ml-3 mr-1"></i>
                     {{ page.date | date: "%H:%M" }} h
