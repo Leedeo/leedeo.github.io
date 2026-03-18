@@ -48,6 +48,11 @@
                     {% assign months = "enero,febrero,marzo,abril,mayo,junio,julio,agosto,septiembre,octubre,noviembre,diciembre" | split: "," %}
                     {% assign month_index = page.date | date: "%m" | plus: 0 | minus: 1 %}
                     {% assign month_es = months[month_index] %}
+                    {% assign post_author = site.data.authors[page.author] %}
+                    {% unless post_author %}{% assign post_author = site.data.authors['javo'] %}{% endunless %}
+                    <img src="{{ post_author.avatar }}" alt="{{ post_author.name }}" class="inline-block w-5 h-5 rounded-full border border-violet-300/70 object-cover align-middle mr-1" width="20" height="20">
+                    <span class="text-white">{{ post_author.name }}</span>
+                    <span class="mx-2 text-slate-700">·</span>
                     <i class="fas fa-calendar-alt mr-1"></i>
                     {{ page.date | date: "%-d" }} de {{ month_es }} de {{ page.date | date: "%Y" }}
                     <i class="fas fa-clock ml-3 mr-1"></i>
