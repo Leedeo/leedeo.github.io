@@ -2,7 +2,7 @@
 layout: post
 title: "¿Cuánto gana un desarrollador de videojuegos indie? La verdad que nadie te cuenta"
 description: "Datos reales y análisis sobre cuánto dinero genera un desarrollador de videojuegos independiente en Steam y móviles durante 2024. Cifras que debes conocer."
-date: 2026-03-11
+date: 2026-03-11 08:06:48 +0100
 categories: [Industria, Economía]
 tags: [ingresos, indie, gamedev, steam, mercado, rentabilidad, datos]
 thumbnail: /assets/img/cuanto-gana-un-desarrollador-de-videojuegos-indie.webp

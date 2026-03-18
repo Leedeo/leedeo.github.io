@@ -3,7 +3,7 @@ layout: post
 categories: [Formación, Desarrollo]
 tags: [gamedev, indie, aprendizaje, guía, principiantes, mindset]
 title: "¿Cómo empezar a crear videojuegos desde cero? Guía técnica y mental"
-date: 2026-03-08
+date: 2026-03-08 07:18:11 +0100
 thumbnail: "/assets/img/guia-crear-videojuegos.webp"
 excerpt: "Olvida los consejos vacíos. Aprender a crear videojuegos requiere una estrategia técnica y mental. Te explico por dónde empezar realmente y qué pasos seguir."
 video:

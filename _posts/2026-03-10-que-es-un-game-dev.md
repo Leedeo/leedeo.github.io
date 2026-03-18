@@ -3,7 +3,7 @@ layout: post
 categories: [Formación, Industria]
 tags: [gamedev, roles, aprendizaje, industria, guía, principiantes]
 title: "¿Qué es un Game Dev? Todo lo que necesitas saber para empezar a crear videojuegos"
-date: 2026-03-10
+date: 2026-03-10 08:13:32 +0100
 thumbnail: "/assets/img/que-es-un-game-dev.webp"
 excerpt: "Si alguna vez has jugado a un videojuego y te has preguntado quién diseña los niveles o escribe el código, la respuesta corta es: un game dev. Pero la realidad es mucho más profunda. Una guía sobre roles, la diferencia entre estudios AAA e indies, y cómo dar tus primeros pasos con motores como Godot."
 video:

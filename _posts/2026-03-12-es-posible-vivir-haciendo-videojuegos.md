@@ -2,7 +2,7 @@
 layout: post
 title: "¿Es posible vivir de los videojuegos en 2026? La respuesta que nadie quiere escuchar"
 description: "Datos reales sobre el mercado laboral y las posibilidades económicas del desarrollo indie y freelance en 2026. Una mirada honesta y sin falsas esperanzas."
-date: 2026-03-12
+date: 2026-03-12 08:23:43 +0100
 categories: [Industria, Economía]
 tags: [gamedev, indie, profesional, trabajo, mercado, economía]
 thumbnail: /assets/img/vivir-de-hacer-videojuegos.webp

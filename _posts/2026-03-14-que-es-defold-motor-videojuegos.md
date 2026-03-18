@@ -3,7 +3,7 @@ layout: post
 categories: [Industria, Software]
 tags: [motores, defold, gamedev, indie, tecnología, 2d]
 title: "¿Qué es Defold? El motor de videojuegos gratuito del que casi nadie habla"
-date: 2026-03-14
+date: 2026-03-14 08:48:13 +0100
 thumbnail: "/assets/img/que-es-defold-engine-2026.webp"
 excerpt: "Descubre qué es Defold, el motor de videojuegos gratuito y sin regalías impulsado por la fundación detrás de Candy Crush. Especialista en 2D, web y móvil."
 video:

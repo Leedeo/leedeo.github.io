@@ -3,7 +3,7 @@ layout: post
 title: "¿Cuáles son las mejores alternativas a Unity? Motores gratis y open-source para 2026"
 categories: [Industria, Software]
 tags: [motores, unity, alternativas, gamedev, open source, gratis]
-date: 2026-03-08
+date: 2026-03-08 08:43:44 +0100
 thumbnail: "/assets/img/mejores-motores-videojuegos-gratis.webp"
 excerpt: "Unity ha cambiado, y el mercado también. Si estás buscando un un nuevo motor de videojuegos, descubre estas alternativas gratuitas y de código abierto que te ofrecen potencia, control y soberanía sobre tus juegos."
 video:

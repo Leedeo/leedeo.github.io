@@ -3,7 +3,7 @@ layout: post
 categories: [Educación, Psicología]
 tags: [educacion, gamedev, creatividad, psicología, infancia, aprendizaje]
 title: "¿Fomentan los videojuegos la creatividad? La ciencia detrás del pensamiento interactivo"
-date: 2026-03-09
+date: 2026-03-09 08:39:32 +0100
 thumbnail: "/assets/img/videojuegos-creatividad-infantil.webp"
 excerpt: "Un análisis del impacto de los entornos interactivos en el desarrollo cognitivo. Del juego simbólico a la creación técnica: por qué el videojuego es el nuevo laboratorio creativo."
 video:

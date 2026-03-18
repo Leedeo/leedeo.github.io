@@ -3,7 +3,7 @@ layout: post
 categories: [Godot, Showcase]
 tags: [godot, gamedev, buckshot roulette, indie, entrevista]
 title: "Godot Showcase: Buckshot Roulette y la realidad del desarrollo indie"
-date: 2026-03-09
+date: 2026-03-09 07:34:17 +0100
 thumbnail: "/assets/img/buckshot-roulette-godot-showcase-thumbnail.webp"
 excerpt: "Mike Klubnika nos cuenta su experiencia desarrollando el éxito indie de 2024 Buckshot Roulette en Godot Engine, y su nuevo proyecto s.p.l.i.t."
 video:

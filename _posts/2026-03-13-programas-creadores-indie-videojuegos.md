@@ -3,7 +3,7 @@ layout: post
 categories: [Industria, Marketing]
 tags: [indie, marketing, creadores, influencers, comunidad, mercado]
 title: "Programas de creadores en videojuegos: qué son, por qué funcionan y cómo puede usarlos un indie"
-date: 2026-03-13
+date: 2026-03-13 08:20:20 +0100
 thumbnail: "/assets/img/programas-creadores-marketing-indie.webp"
 excerpt: "Descubre por qué los programas de creadores son más efectivos que las campañas puntuales con influencers y cómo un estudio indie puede aprovecharlos para su estrategia de marketing."
 video:

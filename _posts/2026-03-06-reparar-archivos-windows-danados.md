@@ -3,7 +3,7 @@ layout: post
 categories: [Software, Windows]
 tags: [windows, tutorial, reparacion, sistema, guias]
 title: "¿SFC /scannow no funciona? Guía completa para reparar archivos de Windows"
-date: 2026-03-06
+date: 2026-03-06 07:27:19 +0100
 thumbnail: "/assets/img/reparar-errores-windows.webp"
 excerpt: "¿Windows encontró archivos corruptos pero no pudo repararlos? Descubre el flujo correcto DISM + SFC para solucionar errores del sistema sin formatear."
 ---

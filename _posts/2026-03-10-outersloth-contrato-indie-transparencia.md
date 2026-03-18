@@ -3,7 +3,7 @@ layout: post
 categories: [Noticias, Industria]
 tags: [noticias, indie, industria, financiación, transparencia, innersloth]
 title: "Outersloth hace público su contrato con desarrolladores indie, y el gesto importa más de lo que parece"
-date: 2026-03-10
+date: 2026-03-10 08:35:38 +0100
 thumbnail: "/assets/img/outersloth-transparencia-indie.webp"
 excerpt: "Innersloth, creadores de Among Us, rompen el secretismo de la industria publicando su contrato estándar de financiación para juegos independientes."
 video:
