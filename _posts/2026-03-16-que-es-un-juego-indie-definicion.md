@@ -94,7 +94,7 @@ Esto planteó una pregunta incómoda que iba más allá de un juego concreto: **
 
 ### El criterio de The Game Awards
 
-![Geoff Keighley en The Game Awards](/assets/img/geoff-keighley-game-awards-seo.webp)
+![Geoff Keighley en The Game Awards presentando Intergalactic, un videojuego AAA de Naughty Dog](/assets/img/geoff-keighley-game-awards-seo.webp)
 
 The Game Awards, organizados por **Geoff Keighley**, utiliza un criterio relativamente amplio para su categoría de Mejor Juego Independiente. La definición gira en torno a que el juego haya sido desarrollado y publicado sin el respaldo financiero de lo que ellos consideran un **gran publisher tradicional** (es decir, empresas como Sony, Microsoft, Nintendo, EA, Ubisoft, Take-Two o similares).
 
