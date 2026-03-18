@@ -43,7 +43,7 @@ description: >-
 
         <!-- Index de posts para búsqueda (incrustado por Jekyll) -->
         <script id="post-data" type="application/json">
-        [{% for post in site.posts %}{"title":{{ post.title | jsonify }},"url":{{ post.url | relative_url | jsonify }},"date":{{ post.date | date: "%d/%m/%Y" | jsonify }},"excerpt":{{ post.excerpt | strip_html | truncate: 200 | jsonify }},"thumbnail":{{ post.thumbnail | relative_url | jsonify }}}{% unless forloop.last %},{% endunless %}{% endfor %}]
+        [{% for post in site.posts %}{"title":{{ post.title | jsonify }},"url":{{ post.url | relative_url | jsonify }},"date":{% assign months = "Ene,Feb,Mar,Abr,May,Jun,Jul,Ago,Sep,Oct,Nov,Dic" | split: "," %}{% assign m_idx = post.date | date: "%m" | plus: 0 | minus: 1 %}"{{ post.date | date: "%-d" }} {{ months[m_idx] }} {{ post.date | date: '%Y' }} • {{ post.date | date: '%H:%M' }}" | jsonify,"excerpt":{{ post.excerpt | strip_html | truncate: 200 | jsonify }},"thumbnail":{{ post.thumbnail | relative_url | jsonify }}}{% unless forloop.last %},{% endunless %}{% endfor %}]
         </script>
 
         <!-- Contenedor de post paginados (oculto durante búsqueda activa) -->
@@ -61,7 +61,10 @@ description: >-
                     </a>
                     <div class="p-8 flex flex-col flex-grow">
                         <div class="text-violet-400 text-xs font-bold uppercase tracking-widest mb-3">
-                            {{ post.date | date: "%d/%m/%Y" }}
+                            {% assign months = "Ene,Feb,Mar,Abr,May,Jun,Jul,Ago,Sep,Oct,Nov,Dic" | split: "," %}
+                            {% assign m_idx = post.date | date: "%m" | plus: 0 | minus: 1 %}
+                            <i class="fas fa-calendar-alt mr-1"></i> {{ post.date | date: "%-d" }} {{ months[m_idx] }} {{ post.date | date: "%Y" }}
+                            <i class="fas fa-clock ml-2 mr-1"></i> {{ post.date | date: "%H:%M" }}
                         </div>
                         <h2 class="text-xl font-bold mb-4 text-white hover:text-violet-400 transition-colors">
                             <a href="{{ post.url | relative_url }}">{{ post.title }}</a>
@@ -143,7 +146,9 @@ description: >-
                 <div class="absolute inset-0 bg-gradient-to-t from-[#05010d] to-transparent opacity-60"></div>
             </a>
             <div class="p-8 flex flex-col flex-grow">
-                <div class="text-violet-400 text-xs font-bold uppercase tracking-widest mb-3">${post.date}</div>
+                <div class="text-violet-400 text-xs font-bold uppercase tracking-widest mb-3">
+                    <i class="fas fa-calendar-alt mr-1"></i> ${post.date}
+                </div>
                 <h2 class="text-xl font-bold mb-4 text-white hover:text-violet-400 transition-colors">
                     <a href="${post.url}">${escapeHtml(post.title)}</a>
                 </h2>
