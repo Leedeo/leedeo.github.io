@@ -5,7 +5,7 @@ description: "Descubre por qué poner un precio bajo a tu primer videojuego indi
 date: 2026-03-12 08:38:36 +0100
 categories: [Industria]
 tags: [steam, indie, gamedev, marketing, mercado]
-thumbnail: /assets/img/error-precio-videojuego-indie.webp
+thumbnail: /assets/img/posts/error-precio-videojuego-indie.webp
 excerpt: "Hay una conversación que Chris Charla, director del programa ID@Xbox de Microsoft y alguien que lleva más de una década trabajando con cientos de desarrolladores independientes, repite casi cada vez que habla con estudios indie."
 video:
   id: "3ifj5q95qdk"

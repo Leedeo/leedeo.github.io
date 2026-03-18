@@ -4,7 +4,7 @@ categories: [Industria]
 tags: [gamedev, tecnología, industria, mercado, indie, aprendizaje]
 title: "La IA en el desarrollo de videojuegos: ¿amenaza para la creatividad o el siguiente paso tecnológico?"
 date: 2026-03-18 07:43:22 +0100
-thumbnail: "/assets/img/ia-desarrollo-videojuegos.webp"
+thumbnail: "/assets/img/posts/ia-desarrollo-videojuegos.webp"
 excerpt: "La inteligencia artificial generativa está transformando el desarrollo de videojuegos. Ni el fin de la creatividad ni la solución a todo: un análisis con contexto histórico y sin eslóganes."
 video:
   id: "3ifj5q95qdk"

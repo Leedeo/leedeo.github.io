@@ -84,8 +84,15 @@
                 {{ content }}
 
                 {% if page.comments != false %}
-                <div class="border-t border-white/5 mt-16 pt-16 not-prose">
+                <div class="border-t border-white/5 mt-16 pt-12 not-prose">
+                    {% include author-card.html %}
+                </div>
+                <div class="border-t border-white/5 mt-12 pt-12 not-prose">
                     {% include disqus.html %}
+                </div>
+                {% else %}
+                <div class="border-t border-white/5 mt-16 pt-12 not-prose">
+                    {% include author-card.html %}
                 </div>
                 {% endif %}
             </div>

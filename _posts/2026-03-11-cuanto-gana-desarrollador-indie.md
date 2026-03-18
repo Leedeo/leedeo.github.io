@@ -5,7 +5,7 @@ description: "Datos reales y análisis sobre cuánto dinero genera un desarrolla
 date: 2026-03-11 08:06:48 +0100
 categories: [Industria]
 tags: [indie, gamedev, steam, mercado, rentabilidad]
-thumbnail: /assets/img/cuanto-gana-un-desarrollador-de-videojuegos-indie.webp
+thumbnail: /assets/img/posts/cuanto-gana-un-desarrollador-de-videojuegos-indie.webp
 excerpt: "Si estás pensando en hacer un videojuego y publicarlo, en algún momento te has preguntado lo mismo que se pregunta prácticamente todo el mundo antes de dar el salto: ¿cuánto dinero puedo ganar con esto?"
 video:
   id: "3ifj5q95qdk"

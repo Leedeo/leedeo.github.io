@@ -4,7 +4,7 @@ categories: [Godot]
 tags: [godot, gamedev, indie, steam]
 title: "Godot Showcase: Buckshot Roulette y la realidad del desarrollo indie"
 date: 2026-03-09 07:34:17 +0100
-thumbnail: "/assets/img/buckshot-roulette-godot-showcase-thumbnail.webp"
+thumbnail: "/assets/img/posts/buckshot-roulette-godot-showcase-thumbnail.webp"
 excerpt: "Mike Klubnika nos cuenta su experiencia desarrollando el éxito indie de 2024 Buckshot Roulette en Godot Engine, y su nuevo proyecto s.p.l.i.t."
 video:
   id: "L3pFEk1HPCQ"
@@ -36,7 +36,7 @@ Mike es el más reciente patrocinador Corporate Platinum del Godot Development F
 
 Empecé aprendiendo a hacer arte 3D allá por 2018, es decir, unos 3 años antes de meterme en el desarrollo de juegos en solitario. Eventualmente, me empezó a interesar cada vez más el desarrollo en sí, y decidí trabajar en un juego pequeño durante 2 meses. Una vez que lo publiqué, el efecto fue como una bola de nieve y ya no pude dejar de pensar en hacer juegos.
 
-![Buckshot Roulette Gameplay](/assets/img/buckshot-roulette-gameplay-ruleta-escopeta.webp)
+![Buckshot Roulette Gameplay](/assets/img/posts/buckshot-roulette-gameplay-ruleta-escopeta.webp)
 
 Para finales de 2023 ya había lanzado 16 juegos cortos, y tenía una comunidad decente tanto de jugadores como de creadores de contenido. Todos estos proyectos los desarrollé mientras estudiaba o trabajaba a tiempo completo. Mis mayores inspiraciones eran juegos oscuros con mecánicas, narrativas y apartados visuales extraños; tenía mucha libertad trabajando en mis cosas al no depender de ellas para generar ingresos. 
 
@@ -46,7 +46,7 @@ Ya estaba súper agradecido por mi pequeña comunidad, así que, tras vender *Bu
 
 *s.p.l.i.t.* es un juego que todavía no sé muy bien cómo describir. Básicamente, es un simulador de hacking con elementos estilo *Typing of The Dead* y una buena dosis de terror existencial. Después de *Buckshot Roulette*, tenía muchas ganas de hacer algo con un mayor peso narrativo, y *s.p.l.i.t.* terminó siendo el proyecto perfecto para eso.
 
-![s.p.l.i.t. Simulator Hacking Godot](/assets/img/split-simulator-hacking-godot-engine.webp)
+![s.p.l.i.t. Simulator Hacking Godot](/assets/img/posts/split-simulator-hacking-godot-engine.webp)
 
 Por el lado del gameplay, intenté conseguir un estilo de hacking algo "realista", así que la terminal es muy básica, sin efectos visuales llamativos, y el juego utiliza comandos de consola con los que espero que los jugadores ya estén familiarizados.
 
@@ -54,7 +54,7 @@ Por el lado del gameplay, intenté conseguir un estilo de hacking algo "realista
 
 Decidí desde el principio que el juego se controlaría únicamente con el teclado, lo cual trajo algunos problemas a la hora de idear un esquema de control para navegar por distintas pantallas e interactuar con el entorno. Esa mecánica estilo *Typing of The Dead* acabó funcionando muy bien para esto: el jugador ve sus "pensamientos de acción" en ciertas partes del escenario y tiene que teclearlos para ejecutar la interacción. Además, se veía genial; fue muy divertido enmarcar distintos pensamientos de forma cinematográfica a través de las escenas.
 
-![s.p.l.i.t Terminal Horror Existencial](/assets/img/split-terminal-horror-existencial.webp)
+![s.p.l.i.t Terminal Horror Existencial](/assets/img/posts/split-terminal-horror-existencial.webp)
 
 El mayor desafío fue lograr que el juego fuera mínimamente accesible para personas que nunca antes habían tocado una línea de comandos. Originalmente, los puzles de la terminal estaban diseñados de forma que el objetivo final estaba claro, pero el camino para llegar a él no. Los jugadores acababan perdidos, así que hacer más claros los pasos hacia el objetivo ayudó muchísimo. Al final, los puzles quedaron en un punto en el que el jugador tiene una idea bastante clara de su objetivo, y debe traducir los pasos necesarios para cumplirlo en comandos de terminal.
 
@@ -62,7 +62,7 @@ El mayor desafío fue lograr que el juego fuera mínimamente accesible para pers
 
 Descubrí Godot originalmente hacia 2022, pero lo abrí por primera vez a finales de 2023. Antes de eso, había usado Unity durante unos 3 años, pero cuando anunciaron su tarifa por instalación (Runtime Fee), decidí probar a cambiar de motor. Me gustó mucho el hecho de que Godot fuera de código abierto y descubrí que era bastante fácil acostumbrarse a él, ya que comparte muchas similitudes con el flujo de trabajo que yo tenía en Unity.
 
-![Buckshot Roulette Casino Oscuro](/assets/img/buckshot-roulette-mesa-casino-oscuro.webp)
+![Buckshot Roulette Casino Oscuro](/assets/img/posts/buckshot-roulette-mesa-casino-oscuro.webp)
 
 ### ¿Qué es lo que más te gusta de Godot?
 
@@ -72,7 +72,7 @@ Es muy rápido, incluso en proyectos grandes. Mi característica favorita tiene 
 
 Estaría genial poder ver una visualización en tiempo real del árbol de escenas remoto directamente en el editor. Algo parecido a Unity, donde si ejecutas el juego, puedes verlo funcionando dentro del propio editor, navegar por él y ajustar variables de los objetos en tiempo real.
 
-![Buckshot Roulette Escena Final](/assets/img/buckshot-roulette-escena-final.webp)
+![Buckshot Roulette Escena Final](/assets/img/posts/buckshot-roulette-escena-final.webp)
 
 ### ¿Qué consejo le darías a los aspirantes a desarrolladores de videojuegos que acaban de empezar en la industria?
 

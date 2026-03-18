@@ -27,7 +27,7 @@ description: >-
                 </span>
                 <input type="text" id="blog-search" placeholder="Buscar artículos por título o tema..."
                     autocomplete="off"
-                    class="w-full bg-[#1a1130]/80 border border-violet-500/30 focus:border-violet-400/80 text-slate-200 placeholder-slate-500 rounded-2xl pl-12 pr-12 py-4 outline-none transition-all duration-300 focus:bg-[#1d1338]/90 focus:shadow-lg focus:shadow-violet-900/20 text-sm font-medium">
+                    class="w-full bg-[#1a1130]/80 border border-violet-300/70 focus:border-violet-400/80 text-slate-200 placeholder-slate-500 rounded-2xl pl-12 pr-12 py-4 outline-none transition-all duration-300 focus:bg-[#1d1338]/90 focus:shadow-lg focus:shadow-violet-900/20 text-sm font-medium">
                 <button id="search-clear" aria-label="Limpiar búsqueda"
                     class="absolute right-4 top-1/2 -translate-y-1/2 text-slate-600 hover:text-violet-400 transition-colors hidden"
                     onclick="clearSearch()">
@@ -60,11 +60,16 @@ description: >-
                         <div class="absolute inset-0 bg-gradient-to-t from-[#05010d] to-transparent opacity-60"></div>
                     </a>
                     <div class="p-8 flex flex-col flex-grow">
-                        <div class="text-violet-400 text-xs font-bold uppercase tracking-widest mb-3">
-                            {% assign months = "enero,febrero,marzo,abril,mayo,junio,julio,agosto,septiembre,octubre,noviembre,diciembre" | split: "," %}
-                            {% assign m_idx = post.date | date: "%m" | plus: 0 | minus: 1 %}
-                            <i class="fas fa-calendar-alt mr-1"></i> {{ post.date | date: "%-d" }} de {{ months[m_idx] }} de {{ post.date | date: "%Y" }}
-
+                        <div class="flex items-center gap-2 mb-3">
+                            <img src="{{ site.author.avatar }}" alt="{{ site.author.name }}" class="w-6 h-6 rounded-full object-cover border border-violet-300/70 flex-shrink-0" width="24" height="24" loading="lazy">
+                            <div>
+                                <div class="text-slate-500 text-[10px] font-bold uppercase tracking-widest leading-none">{{ site.author.name }}</div>
+                                <div class="text-violet-400 text-[10px] font-bold uppercase tracking-widest leading-none mt-0.5">
+                                    {% assign months = "enero,febrero,marzo,abril,mayo,junio,julio,agosto,septiembre,octubre,noviembre,diciembre" | split: "," %}
+                                    {% assign m_idx = post.date | date: "%m" | plus: 0 | minus: 1 %}
+                                    {{ post.date | date: "%-d" }} de {{ months[m_idx] }} de {{ post.date | date: "%Y" }}
+                                </div>
+                            </div>
                         </div>
                         <h2 class="text-xl font-bold mb-4 text-white hover:text-violet-400 transition-colors">
                             <a href="{{ post.url | relative_url }}">{{ post.title }}</a>
@@ -91,7 +96,7 @@ description: >-
             <nav id="pagination-nav" class="flex justify-center items-center gap-4 reveal">
                 {% if paginator.previous_page %}
                 <a href="{{ paginator.previous_page_path | relative_url }}"
-                    class="w-12 h-12 flex items-center justify-center rounded-xl bg-violet-600/20 border border-violet-500/30 text-violet-300 hover:bg-violet-600/40 hover:text-white hover:border-violet-400/60 transition-all">
+                    class="w-12 h-12 flex items-center justify-center rounded-xl bg-violet-600/20 border border-violet-300/70 text-violet-300 hover:bg-violet-600/40 hover:text-white hover:border-violet-400/60 transition-all">
                     <i class="fas fa-chevron-left"></i>
                 </a>
                 {% endif %}
@@ -102,7 +107,7 @@ description: >-
 
                 {% if paginator.next_page %}
                 <a href="{{ paginator.next_page_path | relative_url }}"
-                    class="w-12 h-12 flex items-center justify-center rounded-xl bg-violet-600/20 border border-violet-500/30 text-violet-300 hover:bg-violet-600/40 hover:text-white hover:border-violet-400/60 transition-all">
+                    class="w-12 h-12 flex items-center justify-center rounded-xl bg-violet-600/20 border border-violet-300/70 text-violet-300 hover:bg-violet-600/40 hover:text-white hover:border-violet-400/60 transition-all">
                     <i class="fas fa-chevron-right"></i>
                 </a>
                 {% endif %}
@@ -138,7 +143,7 @@ description: >-
         }
 
         function buildCard(post) {
-            const thumb = post.thumbnail || '/assets/img/favicon.png';
+            const thumb = post.thumbnail || '/assets/img/ui/favicon.png';
             return `<article class="glass-card rounded-[2rem] overflow-hidden flex flex-col">
             <a href="${post.url}" class="aspect-video overflow-hidden relative group block">
                 <img src="${thumb}" alt="${escapeHtml(post.title)}" loading="lazy" width="600" height="340"
@@ -146,8 +151,14 @@ description: >-
                 <div class="absolute inset-0 bg-gradient-to-t from-[#05010d] to-transparent opacity-60"></div>
             </a>
             <div class="p-8 flex flex-col flex-grow">
-                <div class="text-violet-400 text-xs font-bold uppercase tracking-widest mb-3">
-                    <i class="fas fa-calendar-alt mr-1"></i> ${post.date}
+                <div class="flex items-center gap-2 mb-3">
+                    <img src="/assets/img/ui/author-javo.webp" alt="Javo" class="w-6 h-6 rounded-full object-cover border border-violet-300/70 flex-shrink-0" width="24" height="24" loading="lazy">
+                    <div>
+                        <div class="text-slate-500 text-[10px] font-bold uppercase tracking-widest leading-none">Javo</div>
+                        <div class="text-violet-400 text-[10px] font-bold uppercase tracking-widest leading-none mt-0.5">
+                            <i class="fas fa-calendar-alt mr-1"></i> ${post.date}
+                        </div>
+                    </div>
                 </div>
                 <h2 class="text-xl font-bold mb-4 text-white hover:text-violet-400 transition-colors">
                     <a href="${post.url}">${escapeHtml(post.title)}</a>

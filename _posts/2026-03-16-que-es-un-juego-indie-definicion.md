@@ -4,7 +4,7 @@ categories: [Industria]
 tags: [gamedev, indie, aaa, mercado, industria]
 title: "¿Qué es un juego indie? La pregunta que la industria del videojuego no sabe responder"
 date: 2026-03-16 07:51:03 +0100
-thumbnail: "/assets/img/que-es-un-juego-indie.webp"
+thumbnail: "/assets/img/posts/que-es-un-juego-indie.webp"
 excerpt: "Parece una pregunta sencilla, pero hoy es un terreno pantanoso. Analizamos por qué la etiqueta independiente está perdiendo su significado original."
 video:
   id: "0h_F-gHSeM0"
@@ -94,7 +94,7 @@ Esto planteó una pregunta incómoda que iba más allá de un juego concreto: **
 
 ### El criterio de The Game Awards
 
-![Geoff Keighley en The Game Awards presentando Intergalactic, un videojuego AAA de Naughty Dog](/assets/img/geoff-keighley-game-awards-seo.webp)
+![Geoff Keighley en The Game Awards presentando Intergalactic, un videojuego AAA de Naughty Dog](/assets/img/posts/geoff-keighley-game-awards-seo.webp)
 
 The Game Awards, organizados por **Geoff Keighley**, utiliza un criterio relativamente amplio para su categoría de Mejor Juego Independiente. La definición gira en torno a que el juego haya sido desarrollado y publicado sin el respaldo financiero de lo que ellos consideran un **gran publisher tradicional** (es decir, empresas como Sony, Microsoft, Nintendo, EA, Ubisoft, Take-Two o similares).
 

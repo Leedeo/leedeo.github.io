@@ -4,7 +4,7 @@ categories: [Industria, Godot]
 tags: [godot, unity, gamedev, mercado, motores]
 title: "Godot vs Unity en 2026: Por qué el motor no te va a dar el trabajo de tus sueños"
 date: 2026-03-08 07:33:55 +0100
-thumbnail: "/assets/img/godot-vs-unity-realidad.webp"
+thumbnail: "/assets/img/posts/godot-vs-unity-realidad.webp"
 excerpt: "¿Realmente importa qué motor elijas para trabajar? Desmontamos los mitos sobre Unity, el software privativo y la realidad del mercado laboral de videojuegos."
 video:
   id: "L3pFEk1HPCQ"

@@ -4,7 +4,7 @@ categories: [Educación]
 tags: [educación, gamedev, aprendizaje, tecnología]
 title: "Videojuegos como aliados pedagógicos: Más allá del aula y hacia la soberanía técnica"
 date: 2026-03-09 07:52:18 +0100
-thumbnail: "/assets/img/videojuegos-pedagogia-aula.webp"
+thumbnail: "/assets/img/posts/videojuegos-pedagogia-aula.webp"
 excerpt: "Un análisis del papel de los serious games y el marco legal de la LOMLOE en la educación moderna. ¿Cómo transformar el ocio en una herramienta de arquitectura mental?"
 video:
   id: "3ifj5q95qdk"

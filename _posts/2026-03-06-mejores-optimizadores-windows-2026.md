@@ -4,7 +4,7 @@ categories: [Software]
 tags: [windows, optimizacion, software, tutorial]
 title: "Los mejores optimizadores para Windows en 2026: Guía definitiva"
 date: 2026-03-06 07:51:59 +0100
-thumbnail: "/assets/img/optimizadores-windows-26.webp"
+thumbnail: "/assets/img/posts/optimizadores-windows-26.webp"
 excerpt: "¿Tu PC va lento? Descubre los mejores optimizadores gratuitos para Windows en 2026. Analizamos CCleaner, BleachBit y la nueva alternativa ligera: Leedeo Cleaner."
 ---
 

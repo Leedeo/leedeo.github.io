@@ -4,7 +4,7 @@ categories: [Godot, Formación]
 tags: [godot, gamedev, aprendizaje, tutorial, principiantes, indie]
 title: "¿Cómo aprender Godot 4 desde cero en 2026? Guía paso a paso para principiantes"
 date: 2026-03-07 07:24:24 +0100
-thumbnail: "/assets/img/aprender-godot-4.webp"
+thumbnail: "/assets/img/courses/aprender-godot-4.webp"
 excerpt: "¿Quieres crear videojuegos pero no sabes por dónde empezar? Descubre por qué Godot 4 es la mejor opción en 2026 y cómo dar tus primeros pasos sin morir en el intento."
 video:
   id: "L3pFEk1HPCQ"

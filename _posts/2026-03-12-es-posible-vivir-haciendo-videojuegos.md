@@ -5,7 +5,7 @@ description: "Datos reales sobre el mercado laboral y las posibilidades económi
 date: 2026-03-12 08:23:43 +0100
 categories: [Industria]
 tags: [gamedev, indie, mercado, industria, rentabilidad]
-thumbnail: /assets/img/vivir-de-hacer-videojuegos.webp
+thumbnail: /assets/img/posts/vivir-de-hacer-videojuegos.webp
 excerpt: "Voy a empezar con la respuesta corta: sí, es posible. Y ahora voy a dedicar el resto del artículo a explicar por qué esa respuesta, sin contexto, es casi completamente inútil."
 video:
   id: "NWosjlLorEU"

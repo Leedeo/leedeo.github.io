@@ -4,7 +4,7 @@ categories: [Noticias, Industria]
 tags: [noticias, industria, mercado, tecnología]
 title: "Nintendo demanda al gobierno de Estados Unidos por los aranceles de Trump"
 date: 2026-03-10 08:33:25 +0100
-thumbnail: "/assets/img/nintendo-demanda-aranceles-usa.webp"
+thumbnail: "/assets/img/posts/nintendo-demanda-aranceles-usa.webp"
 excerpt: "Nintendo of America inicia acciones legales contra el aparato gubernamental de EE.UU. para reclamar la devolución de aranceles millonarios pagados durante la administración Trump."
 video:
   id: "NWosjlLorEU"

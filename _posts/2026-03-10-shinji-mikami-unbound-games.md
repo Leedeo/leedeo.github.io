@@ -4,7 +4,7 @@ categories: [Noticias, Industria]
 tags: [noticias, gamedev, indie, aaa, industria]
 title: "Shinji Mikami lleva dos años construyendo en silencio su nuevo estudio AAA, y acaba de salir a la luz"
 date: 2026-03-10 07:12:15 +0100
-thumbnail: "/assets/img/shinji-mikami-unbound-games.webp"
+thumbnail: "/assets/img/posts/shinji-mikami-unbound-games.webp"
 excerpt: "El creador de Resident Evil fundó Unbound Games en 2023, un estudio independiente de 50 personas enfocado en crear nuevas IP con Unreal Engine 5."
 video:
   id: "3ifj5q95qdk"
