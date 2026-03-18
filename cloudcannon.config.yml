@@ -1,6 +1,6 @@
 paths:
   static: ''
-  uploads: assets/img
+  uploads: assets/img/posts
 timezone: America/Mexico_City
 markdown:
   engine: kramdown
