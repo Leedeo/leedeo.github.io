@@ -1,7 +1,7 @@
 ---
 layout: post
-categories: [Educación, Pedagogía]
-tags: [educación, gamedev, pedagogía, aula, formación, tecnología]
+categories: [Educación]
+tags: [educación, gamedev, formación, tecnología]
 title: "Videojuegos como aliados pedagógicos: Más allá del aula y hacia la soberanía técnica"
 date: 2026-03-09 07:52:18 +0100
 thumbnail: "/assets/img/videojuegos-pedagogia-aula.webp"

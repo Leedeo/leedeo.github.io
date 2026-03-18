@@ -1,7 +1,7 @@
 ---
 layout: post
-categories: [Industria, Economía]
-tags: [gamedev, aaa, industria, mercado, rentabilidad, crisis]
+categories: [Industria]
+tags: [gamedev, aaa, industria, mercado, rentabilidad]
 title: "Hacer videojuegos cada vez cuesta más, y rentabilizarlos es otro problema"
 date: 2026-03-09 07:11:49 +0100
 thumbnail: "/assets/img/coste-videojuegos-aaa.webp"

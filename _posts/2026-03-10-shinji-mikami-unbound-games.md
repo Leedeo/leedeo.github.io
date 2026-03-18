@@ -1,7 +1,7 @@
 ---
 layout: post
 categories: [Noticias, Industria]
-tags: [noticias, shinji mikami, gamedev, indie, aaa, industria]
+tags: [noticias, gamedev, indie, aaa, industria]
 title: "Shinji Mikami lleva dos años construyendo en silencio su nuevo estudio AAA, y acaba de salir a la luz"
 date: 2026-03-10 07:12:15 +0100
 thumbnail: "/assets/img/shinji-mikami-unbound-games.webp"

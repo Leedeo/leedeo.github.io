@@ -1,7 +1,7 @@
 ---
 layout: post
 categories: [Noticias, Industria]
-tags: [noticias, nintendo, industria, mercado, economía, hardware]
+tags: [noticias, industria, mercado, economía]
 title: "Nintendo demanda al gobierno de Estados Unidos por los aranceles de Trump"
 date: 2026-03-10 08:33:25 +0100
 thumbnail: "/assets/img/nintendo-demanda-aranceles-usa.webp"

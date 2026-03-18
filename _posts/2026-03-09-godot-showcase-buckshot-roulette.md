@@ -1,7 +1,7 @@
 ---
 layout: post
-categories: [Godot, Showcase]
-tags: [godot, gamedev, buckshot roulette, indie, entrevista]
+categories: [Godot]
+tags: [godot, gamedev, indie, entrevista]
 title: "Godot Showcase: Buckshot Roulette y la realidad del desarrollo indie"
 date: 2026-03-09 07:34:17 +0100
 thumbnail: "/assets/img/buckshot-roulette-godot-showcase-thumbnail.webp"

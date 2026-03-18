@@ -1,7 +1,7 @@
 ---
 layout: post
-categories: [Industria, Software]
-tags: [motores, defold, gamedev, indie, tecnología, 2d]
+categories: [Godot, Software]
+tags: [godot, motores, gamedev, indie, tecnología, 2d]
 title: "¿Qué es Defold? El motor de videojuegos gratuito del que casi nadie habla"
 date: 2026-03-14 08:48:13 +0100
 thumbnail: "/assets/img/que-es-defold-engine-2026.webp"

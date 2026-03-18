@@ -3,7 +3,7 @@ layout: post
 title: "El error que comete casi todo desarrollador indie al poner precio a su juego"
 description: "Descubre por qué poner un precio bajo a tu primer videojuego indie hunde tus ventas en Steam. Datos reales sobre psicología de precios, visibilidad y conversiones."
 date: 2026-03-12 08:38:36 +0100
-categories: [Industria, Marketing]
+categories: [Industria]
 tags: [steam, indie, gamedev, marketing, precios, mercado, psicología]
 thumbnail: /assets/img/error-precio-videojuego-indie.webp
 excerpt: "Hay una conversación que Chris Charla, director del programa ID@Xbox de Microsoft y alguien que lleva más de una década trabajando con cientos de desarrolladores independientes, repite casi cada vez que habla con estudios indie."
