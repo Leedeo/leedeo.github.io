@@ -1,7 +1,7 @@
 paths:
   static: ''
-  uploads: assets/img/posts
-timezone: America/Mexico_City
+  uploads: assets/img/ui
+timezone: Europe/Madrid
 markdown:
   engine: kramdown
   options:
@@ -39,6 +39,15 @@ collections_config:
         options:
           values: collections.posts[*].tags
           allow_create: true
+      thumbnail:
+        type: image
+        options:
+          paths:
+            uploads: assets/img/posts
+      author:
+        type: select
+        options:
+          values: data.authors
   posts:
     path: _posts
     icon: event_available
@@ -56,7 +65,25 @@ collections_config:
         options:
           values: collections.posts[*].tags
           allow_create: true
+      thumbnail:
+        type: image
+        options:
+          paths:
+            uploads: assets/img/posts
+      author:
+        type: select
+        options:
+          values: data.authors
     add_options:
       - name: Add Post
       - name: Add Draft
         collection: drafts
+  data:
+    path: _data
+    icon: person
+_inputs:
+  image:
+    type: image
+    options:
+      paths:
+        uploads: assets/img/projects
