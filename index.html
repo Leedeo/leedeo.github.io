@@ -193,22 +193,10 @@ title: Inicio
         </a>
         <div class="p-8 flex flex-col flex-grow">
           <div class="text-violet-400 text-xs font-bold uppercase tracking-widest mb-3">
-            {% assign month = post.date | date: "%B" %}
-            {% case month %}
-                {% when 'January' %}{% assign month_es = 'Ene' %}
-                {% when 'February' %}{% assign month_es = 'Feb' %}
-                {% when 'March' %}{% assign month_es = 'Mar' %}
-                {% when 'April' %}{% assign month_es = 'Abr' %}
-                {% when 'May' %}{% assign month_es = 'May' %}
-                {% when 'June' %}{% assign month_es = 'Jun' %}
-                {% when 'July' %}{% assign month_es = 'Jul' %}
-                {% when 'August' %}{% assign month_es = 'Ago' %}
-                {% when 'September' %}{% assign month_es = 'Sep' %}
-                {% when 'October' %}{% assign month_es = 'Oct' %}
-                {% when 'November' %}{% assign month_es = 'Nov' %}
-                {% when 'December' %}{% assign month_es = 'Dic' %}
-            {% endcase %}
-            {{ post.date | date: "%d" }} {{ month_es }} {{ post.date | date: "%Y" }} • {{ post.date | date: "%H:%M" }}
+            {% assign months = "Ene,Feb,Mar,Abr,May,Jun,Jul,Ago,Sep,Oct,Nov,Dic" | split: "," %}
+            {% assign m_idx = post.date | date: "%m" | plus: 0 | minus: 1 %}
+            <i class="fas fa-calendar-alt mr-1"></i> {{ post.date | date: "%-d" }} {{ months[m_idx] }} {{ post.date | date: "%Y" }}
+            <i class="fas fa-clock ml-2 mr-1"></i> {{ post.date | date: "%H:%M" }}
           </div>
           <h3 class="text-xl font-bold mb-4 text-white hover:text-violet-400 transition-colors">
             <a href="{{ post.url | relative_url }}">{{ post.title }}</a>
