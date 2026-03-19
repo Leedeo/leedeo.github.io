@@ -21,3 +21,4 @@ ver_tags.bat
 !package.json
 !package-lock.json
 config_*.txt
+jekyll_log.txt
