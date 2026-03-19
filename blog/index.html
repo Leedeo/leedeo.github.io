@@ -51,7 +51,7 @@ description: >-
             <!-- Listado de Posts -->
             <div id="paginated-grid" class="grid md:grid-cols-2 lg:grid-cols-3 gap-8 mb-16">
                 {% for post in paginator.posts %}
-                <article class="static-glass-card rounded-[2rem] overflow-hidden flex flex-col reveal"
+                <article class="glass-card rounded-[2rem] overflow-hidden flex flex-col reveal"
                     style="transition-delay: {{ forloop.index0 | times: 100 }}ms;">
                     <a href="{{ post.url | relative_url }}" class="aspect-video overflow-hidden relative group block">
                         <img src="{{ post.thumbnail | relative_url }}" alt="{{ post.title }}" loading="lazy" width="600"
@@ -145,7 +145,7 @@ description: >-
 
         function buildCard(post) {
             const thumb = post.thumbnail || '/assets/img/ui/favicon.png';
-            return `<article class="static-glass-card rounded-[2rem] overflow-hidden flex flex-col">
+            return `<article class="glass-card rounded-[2rem] overflow-hidden flex flex-col">
             <a href="${post.url}" class="aspect-video overflow-hidden relative group block">
                 <img src="${thumb}" alt="${escapeHtml(post.title)}" loading="lazy" width="600" height="340"
                     class="w-full h-full object-cover transition-transform duration-500 group-hover:scale-110">
