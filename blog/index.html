@@ -145,7 +145,7 @@ description: >-
 
         function buildCard(post) {
             const thumb = post.thumbnail || '/assets/img/ui/favicon.png';
-            return `<article class="glass-card rounded-[2rem] overflow-hidden flex flex-col reveal">
+            return `<article class="glass-card rounded-[2rem] overflow-hidden flex flex-col reveal active">
             <a href="${post.url}" class="aspect-video overflow-hidden relative group block">
                 <img src="${thumb}" alt="${escapeHtml(post.title)}" loading="lazy" width="600" height="340"
                     class="w-full h-full object-cover transition-transform duration-500 group-hover:scale-110">
