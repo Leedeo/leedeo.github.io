@@ -12,33 +12,4 @@
     </div>
 </div>
 
-<script>
-document.addEventListener("DOMContentLoaded", function () {
-    const banner = document.getElementById("cookie-banner");
-    const acceptBtn = document.getElementById("cookie-accept");
-    const rejectBtn = document.getElementById("cookie-reject");
-
-    // Migrar clave antigua del sistema de cookies previo
-    var oldConsent = localStorage.getItem("cookies-accepted");
-    if (oldConsent && !localStorage.getItem("cookie_consent")) {
-        localStorage.setItem("cookie_consent", oldConsent === "true" ? "accepted" : "rejected");
-        localStorage.removeItem("cookies-accepted");
-    }
-
-    // Verificar si ya se respondió al banner
-    if (!localStorage.getItem("cookie_consent")) {
-        // Dar un leve retraso para que aparezca fluidamente tras cargar la web
-        setTimeout(() => {
-            banner.classList.remove("translate-y-full");
-        }, 1500);
-    }
-
-    function closeBanner(consentValue) {
-        localStorage.setItem("cookie_consent", consentValue);
-        banner.classList.add("translate-y-full");
-    }
-
-    acceptBtn.addEventListener("click", () => closeBanner("accepted"));
-    rejectBtn.addEventListener("click", () => closeBanner("rejected"));
-});
-</script>
+<script src="{{ '/assets/js/cookies.js' | relative_url }}" defer></script>

@@ -7,7 +7,6 @@ description: >-
 
 <main class="relative min-h-screen pt-32 pb-24 px-6 hero-gradient">
     <div class="max-w-7xl mx-auto">
-        <!-- Encabezado del Blog -->
         <header class="mb-12 text-center reveal">
             <h1 class="text-4xl md:text-6xl font-extrabold mb-6 tracking-tight uppercase leading-[1.2]">
                 Mi <span class="gradient-text italic">Blog</span>
@@ -18,44 +17,33 @@ description: >-
             <div class="h-1.5 w-24 bg-violet-500 mx-auto rounded-full mt-8"></div>
         </header>
 
-        <!-- Buscador -->
         <div class="max-w-2xl mx-auto mb-14 reveal" style="transition-delay: 100ms;">
             <div class="relative group">
-                <span
-                    class="absolute left-5 top-1/2 -translate-y-1/2 text-violet-400 pointer-events-none transition-colors group-focus-within:text-violet-300">
+                <span class="absolute left-5 top-1/2 -translate-y-1/2 text-violet-400 pointer-events-none transition-colors group-focus-within:text-violet-300">
                     <i class="fas fa-search text-sm"></i>
                 </span>
-                <input type="text" id="blog-search" placeholder="Buscar artículos por título o tema..."
+                <input type="text" id="blog-search"
+                    data-blog-url="{{ '/blog/' | relative_url }}"
+                    placeholder="Buscar artículos por título o tema..."
                     autocomplete="off"
                     class="w-full bg-[#1a1130]/80 border border-violet-300/70 focus:border-violet-400/80 text-slate-200 placeholder-slate-500 rounded-2xl pl-12 pr-12 py-4 outline-none transition-all duration-300 focus:bg-[#1d1338]/90 focus:shadow-lg focus:shadow-violet-900/20 text-sm font-medium">
                 <button id="search-clear" aria-label="Limpiar búsqueda"
-                    class="absolute right-4 top-1/2 -translate-y-1/2 text-slate-600 hover:text-violet-400 transition-colors hidden"
-                    onclick="clearSearch()">
+                    class="absolute right-4 top-1/2 -translate-y-1/2 text-slate-600 hover:text-violet-400 transition-colors hidden">
                     <i class="fas fa-times text-sm"></i>
                 </button>
             </div>
-            <!-- Mensaje sin resultados -->
             <p id="no-results" class="hidden text-center text-slate-500 italic mt-8 text-sm">
-                No se encontraron artículos para "<span id="search-term-display"
-                    class="text-violet-400 not-italic font-semibold"></span>".
+                No se encontraron artículos para "<span id="search-term-display" class="text-violet-400 not-italic font-semibold"></span>".
             </p>
         </div>
 
-        <!-- Index de posts para búsqueda (incrustado por Jekyll) -->
-        <script id="post-data" type="application/json">
-        [{% for post in site.posts %}{% assign post_author = site.data.authors[post.author] %}{% unless post_author %}{% assign post_author = site.data.authors['javo'] %}{% endunless %}{"title":{{ post.title | jsonify }},"url":{{ post.url | relative_url | jsonify }},{% assign months = "enero,febrero,marzo,abril,mayo,junio,julio,agosto,septiembre,octubre,noviembre,diciembre" | split: "," %}{% assign m_idx = post.date | date: "%m" | plus: 0 | minus: 1 %}{% capture post_date_str %}{{ post.date | date: "%-d" }} de {{ months[m_idx] }} de {{ post.date | date: "%Y" }}{% endcapture %}"date":{{ post_date_str | jsonify }},"excerpt":{{ post.excerpt | strip_html | truncate: 200 | jsonify }},"thumbnail":{{ post.thumbnail | relative_url | jsonify }},"tags":{{ post.tags | join: "," | jsonify }},"authorName":{{ post_author.name | jsonify }},"authorAvatar":{{ post_author.avatar | jsonify }}}{% unless forloop.last %},{% endunless %}{% endfor %}]
-        </script>
-
-        <!-- Contenedor de post paginados (oculto durante búsqueda activa) -->
         <div id="paginated-posts">
-            <!-- Listado de Posts -->
             <div id="paginated-grid" class="grid md:grid-cols-2 lg:grid-cols-3 gap-8 mb-16">
                 {% for post in paginator.posts %}
                 <article class="glass-card rounded-[2rem] overflow-hidden flex flex-col reveal"
                     style="transition-delay: {{ forloop.index0 | times: 100 }}ms;">
                     <a href="{{ post.url | relative_url }}" class="aspect-video overflow-hidden relative group block">
-                        <img src="{{ post.thumbnail | relative_url }}" alt="{{ post.title }}" loading="lazy" width="600"
-                            height="340"
+                        <img src="{{ post.thumbnail | relative_url }}" alt="{{ post.title }}" loading="lazy" width="600" height="340"
                             class="w-full h-full object-cover transition-transform duration-500 group-hover:scale-110">
                         <div class="absolute inset-0 bg-gradient-to-t from-[#05010d] to-transparent opacity-60"></div>
                     </a>
@@ -80,8 +68,7 @@ description: >-
                         </p>
                         <a href="{{ post.url | relative_url }}"
                             class="text-xs font-black uppercase tracking-[0.2em] text-white flex items-center gap-2 group/link">
-                            Leer más <i
-                                class="fas fa-arrow-right text-violet-500 transition-transform group-hover/link:translate-x-1"></i>
+                            Leer más <i class="fas fa-arrow-right text-violet-500 transition-transform group-hover/link:translate-x-1"></i>
                         </a>
                     </div>
                 </article>
@@ -92,7 +79,6 @@ description: >-
                 {% endfor %}
             </div>
 
-            <!-- Paginación -->
             {% if paginator.total_pages > 1 %}
             <nav id="pagination-nav" class="flex justify-center items-center gap-4 reveal">
                 {% if paginator.previous_page %}
@@ -101,11 +87,9 @@ description: >-
                     <i class="fas fa-chevron-left"></i>
                 </a>
                 {% endif %}
-
                 <span class="text-slate-400 font-bold tracking-widest text-xs uppercase">
                     Página {{ paginator.page }} de {{ paginator.total_pages }}
                 </span>
-
                 {% if paginator.next_page %}
                 <a href="{{ paginator.next_page_path | relative_url }}"
                     class="w-12 h-12 flex items-center justify-center rounded-xl bg-violet-600/20 border border-violet-300/70 text-violet-300 hover:bg-violet-600/40 hover:text-white hover:border-violet-400/60 transition-all">
@@ -116,130 +100,10 @@ description: >-
             {% endif %}
         </div>
 
-        <!-- Grid de resultados de búsqueda (oculto por defecto) -->
         <div id="search-results-container" class="hidden">
-            <div id="search-results-grid" class="flex flex-col gap-2 mb-16">
-                <!-- Resultados inyectados por JS -->
-            </div>
+            <div id="search-results-grid" class="flex flex-col gap-2 mb-16"></div>
         </div>
     </div>
 </main>
 
-<script>
-    (function () {
-        const searchInput = document.getElementById('blog-search');
-        const clearBtn = document.getElementById('search-clear');
-        const noResults = document.getElementById('no-results');
-        const termDisplay = document.getElementById('search-term-display');
-        const paginatedPosts = document.getElementById('paginated-posts');
-        const searchContainer = document.getElementById('search-results-container');
-        const searchGrid = document.getElementById('search-results-grid');
-
-        // Cargar datos de posts incrustados por Jekyll
-        let posts = [];
-        try {
-            posts = JSON.parse(document.getElementById('post-data').textContent);
-        } catch (e) {
-            console.warn('No se pudieron cargar los datos de posts para la búsqueda.');
-        }
-
-        function buildCard(post) {
-            const thumb = post.thumbnail || '/assets/img/ui/favicon.png';
-            return `<article class="group flex items-start gap-5 p-4 rounded-2xl border border-white/5 hover:border-violet-500/30 hover:bg-white/[0.02] transition-all duration-300">
-            <a href="${post.url}" class="flex-shrink-0 w-28 h-20 rounded-xl overflow-hidden block">
-                <img src="${thumb}" alt="${escapeHtml(post.title)}" loading="lazy" width="112" height="80"
-                    class="w-full h-full object-cover transition-transform duration-500 group-hover:scale-110">
-            </a>
-            <div class="flex flex-col flex-grow min-w-0">
-                <div class="flex items-center gap-2 mb-1.5">
-                    <img src="${post.authorAvatar}" alt="${escapeHtml(post.authorName)}" class="w-4 h-4 rounded-full object-cover border border-violet-300/70 flex-shrink-0" width="16" height="16" loading="lazy">
-                    <span class="text-slate-600 text-[10px] font-bold uppercase tracking-widest">${escapeHtml(post.authorName)}</span>
-                    <span class="text-slate-700 text-[10px]">·</span>
-                    <span class="text-violet-400 text-[10px] font-bold uppercase tracking-widest">${post.date}</span>
-                </div>
-                <h2 class="text-base font-bold text-white group-hover:text-violet-400 transition-colors mb-1 line-clamp-2">
-                    <a href="${post.url}">${escapeHtml(post.title)}</a>
-                </h2>
-                <p class="text-slate-500 text-xs leading-relaxed line-clamp-2">${escapeHtml(post.excerpt)}</p>
-            </div>
-        </article>`;
-        }
-
-        function escapeHtml(str) {
-            if (!str) return '';
-            return str.replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;').replace(/"/g, '&quot;');
-        }
-
-        function performSearch(query) {
-            const q = query.trim().toLowerCase();
-
-            if (!q) {
-                // Sin búsqueda: mostrar posts paginados, ocultar resultados
-                paginatedPosts.classList.remove('hidden');
-                searchContainer.classList.add('hidden');
-                noResults.classList.add('hidden');
-                clearBtn.classList.add('hidden');
-                return;
-            }
-
-            clearBtn.classList.remove('hidden');
-
-            const filtered = posts.filter(post => {
-                return post.title.toLowerCase().includes(q) ||
-                    (post.excerpt && post.excerpt.toLowerCase().includes(q)) ||
-                    (post.tags && post.tags.toLowerCase().includes(q));
-            });
-
-            // Ocultar paginación, mostrar resultados de búsqueda
-            paginatedPosts.classList.add('hidden');
-            searchContainer.classList.remove('hidden');
-
-            if (filtered.length === 0) {
-                searchGrid.innerHTML = '';
-                noResults.classList.remove('hidden');
-                termDisplay.textContent = query.trim();
-            } else {
-                noResults.classList.add('hidden');
-                searchGrid.innerHTML = filtered.map(buildCard).join('');
-            }
-        }
-
-        // Debounce para no disparar en cada tecla
-        let debounceTimer;
-        searchInput.addEventListener('input', function () {
-            clearTimeout(debounceTimer);
-            const q = this.value;
-            debounceTimer = setTimeout(() => {
-                // Si estamos en una página paginada (/blog/page2/, etc.), redirigir a /blog/
-                if (window.location.pathname !== '{{ "/blog/" | relative_url }}') {
-                    if (q.trim()) {
-                        window.location.href = '{{ "/blog/" | relative_url }}?search=' + encodeURIComponent(q.trim());
-                    }
-                } else {
-                    performSearch(q);
-                }
-            }, 220);
-        });
-
-        // Limpiar búsqueda
-        window.clearSearch = function () {
-            searchInput.value = '';
-            performSearch('');
-            searchInput.focus();
-        };
-
-        // Limpiar con Escape
-        searchInput.addEventListener('keydown', function (e) {
-            if (e.key === 'Escape') clearSearch();
-        });
-
-        // Leer parámetro ?search= de la URL al cargar la página
-        const urlParams = new URLSearchParams(window.location.search);
-        const searchParam = urlParams.get('search');
-        if (searchParam) {
-            searchInput.value = searchParam;
-            performSearch(searchParam);
-            searchInput.scrollIntoView({ behavior: 'smooth', block: 'center' });
-        }
-    })();
-</script>
+<script src="{{ '/assets/js/search.js' | relative_url }}" defer></script>

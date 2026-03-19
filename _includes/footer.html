@@ -3,8 +3,7 @@
     <div class="max-w-7xl mx-auto text-center">
         <div class="mb-12 text-slate-400 max-w-2xl mx-auto text-sm leading-relaxed italic">
             Dedicado a la creación de recursos para la comunidad de desarrollo de videojuegos, optimización de sistemas
-            y
-            diseño digital. Un espacio para aprender, compartir y crecer juntos.
+            y diseño digital. Un espacio para aprender, compartir y crecer juntos.
         </div>
 
         <div class="flex flex-wrap justify-center gap-10 mb-16 items-center">
@@ -28,41 +27,19 @@
                 aria-label="Seguir a Leedeo Studio en Instagram"><i class="fa-brands fa-instagram"></i></a>
         </div>
 
-        <div
-            class="text-slate-500 text-[10px] md:text-xs font-bold tracking-[0.5em] uppercase border-t border-white/5 pt-12 opacity-80 mb-4">
+        <div class="text-slate-500 text-[10px] md:text-xs font-bold tracking-[0.5em] uppercase border-t border-white/5 pt-12 opacity-80 mb-4">
             © <span id="auto-year"></span> LEEDEO STUDIO • JAVO • CREACIÓN DE VIDEOJUEGOS Y SOFTWARE
         </div>
 
         <div class="flex justify-center gap-6">
             <a href="{{ '/about/' | relative_url }}"
-                class="text-[10px] uppercase tracking-widest text-slate-600 hover:text-violet-400 transition-colors font-bold">Sobre
-                mí</a>
+                class="text-[10px] uppercase tracking-widest text-slate-600 hover:text-violet-400 transition-colors font-bold">Sobre mí</a>
             <a href="{{ '/rules/' | relative_url }}"
-                class="text-[10px] uppercase tracking-widest text-slate-600 hover:text-violet-400 transition-colors font-bold">Normas
-                de la Comunidad</a>
+                class="text-[10px] uppercase tracking-widest text-slate-600 hover:text-violet-400 transition-colors font-bold">Normas de la Comunidad</a>
             <a href="{{ '/policy/' | relative_url }}"
-                class="text-[10px] uppercase tracking-widest text-slate-600 hover:text-violet-400 transition-colors font-bold">Políticas
-                de Privacidad</a>
+                class="text-[10px] uppercase tracking-widest text-slate-600 hover:text-violet-400 transition-colors font-bold">Políticas de Privacidad</a>
         </div>
     </div>
 </footer>
-<script>
-    // Año dinámico
-    if (document.getElementById('auto-year')) {
-        document.getElementById('auto-year').textContent = new Date().getFullYear();
-    }
 
-    // Observer para animaciones globales
-    const revealObserver = new IntersectionObserver((entries) => {
-        entries.forEach(entry => { if (entry.isIntersecting) entry.target.classList.add('active'); });
-    }, { threshold: 0.15 });
-    document.querySelectorAll('.reveal').forEach(el => revealObserver.observe(el));
-
-    // Wrap tables for horizontal scroll responsiveness
-    document.querySelectorAll('.policy-content table').forEach(table => {
-        const wrapper = document.createElement('div');
-        wrapper.className = 'table-wrapper';
-        table.parentNode.insertBefore(wrapper, table);
-        wrapper.appendChild(table);
-    });
-</script>
+<script src="{{ '/assets/js/site.js' | relative_url }}" defer></script>

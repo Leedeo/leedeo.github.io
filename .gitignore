@@ -17,8 +17,9 @@ node_modules/
 # Local Scripts & Diagnostics
 start_server.bat
 ver_tags.bat
+jekyll_log.txt
 *.json
 !package.json
 !package-lock.json
+!search.json
 config_*.txt
-jekyll_log.txt

@@ -15,14 +15,12 @@ video:
 
 <main class="relative min-h-screen pt-32 pb-24 px-6 hero-gradient overflow-x-hidden">
 
-    <!-- HERO: solo título, badge y descripción sobre imagen de fondo -->
-    <!-- -mx-6 y -mt-32 cancelan el px-6 y pt-32 del <main> para llegar a los bordes -->
+    <!-- HERO -->
     <header class="mb-20 reveal -mx-6 -mt-32">
         <div class="relative w-full overflow-hidden" style="min-height: 480px;">
             <img src="{{ '/assets/img/projects/hero-halls-of-delirium.webp' | relative_url }}" alt="Hero image de Halls of Delirium: Captura de cámara de seguridad mostrando una figura humanoide blanca en un pasillo oscuro con pintadas de sangre" aria-hidden="true"
                  class="absolute inset-0 w-full h-full object-cover object-center">
             <div class="absolute inset-0" style="background: linear-gradient(to bottom, rgba(10,5,25,0.55) 0%, rgba(10,5,25,0.55) 50%, rgba(10,5,25,0.95) 100%);"></div>
-
             <div class="relative z-10 flex flex-col items-center justify-center text-center px-6 py-32 max-w-4xl mx-auto" style="min-height: 480px;">
                 <p class="text-violet-400 font-bold uppercase text-xs mb-6 tracking-[0.35em]">Proyecto Indie en Desarrollo</p>
                 <h1 class="text-4xl md:text-6xl font-black tracking-tight mb-6 uppercase leading-[1.2]">
@@ -109,53 +107,37 @@ video:
             <div class="w-24 h-1.5 bg-violet-500 mx-auto rounded-full mt-8"></div>
         </div>
         <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6 mt-12">
-            <button data-image="{{ '/assets/img/projects/halls-of-delirium-1.webp' | relative_url }}" onclick="openGallery(this.dataset.image)" class="group relative rounded-2xl overflow-hidden border border-white/10 aspect-video shadow-lg bg-black focus:outline-none focus:ring-2 focus:ring-violet-500">
+            <button data-image="{{ '/assets/img/projects/halls-of-delirium-1.webp' | relative_url }}" class="group relative rounded-2xl overflow-hidden border border-white/10 aspect-video shadow-lg bg-black focus:outline-none focus:ring-2 focus:ring-violet-500">
                 <img src="{{ '/assets/img/projects/halls-of-delirium-1.webp' | relative_url }}" alt="Halls Of Delirium: Corredor principal de piedra con buzones y texto Producido por Leedeo Studio" class="w-full h-full object-cover transition-all duration-500 group-hover:scale-110 group-hover:opacity-70" loading="lazy">
-                <div class="absolute inset-0 flex items-center justify-center opacity-0 group-hover:opacity-100 transition-opacity duration-300">
-                    <i class="fas fa-search-plus text-3xl text-white drop-shadow-lg"></i>
-                </div>
+                <div class="absolute inset-0 flex items-center justify-center opacity-0 group-hover:opacity-100 transition-opacity duration-300"><i class="fas fa-search-plus text-3xl text-white drop-shadow-lg"></i></div>
             </button>
-            <button data-image="{{ '/assets/img/projects/halls-of-delirium-2.webp' | relative_url }}" onclick="openGallery(this.dataset.image)" class="group relative rounded-2xl overflow-hidden border border-white/10 aspect-video shadow-lg bg-black focus:outline-none focus:ring-2 focus:ring-violet-500">
+            <button data-image="{{ '/assets/img/projects/halls-of-delirium-2.webp' | relative_url }}" class="group relative rounded-2xl overflow-hidden border border-white/10 aspect-video shadow-lg bg-black focus:outline-none focus:ring-2 focus:ring-violet-500">
                 <img src="{{ '/assets/img/projects/halls-of-delirium-2.webp' | relative_url }}" alt="Halls Of Delirium: Nivel 1 Leedeo Backrooms con pasillos amarillos liminales y contador de llaves" class="w-full h-full object-cover transition-all duration-500 group-hover:scale-110 group-hover:opacity-70" loading="lazy">
-                <div class="absolute inset-0 flex items-center justify-center opacity-0 group-hover:opacity-100 transition-opacity duration-300">
-                    <i class="fas fa-search-plus text-3xl text-white drop-shadow-lg"></i>
-                </div>
+                <div class="absolute inset-0 flex items-center justify-center opacity-0 group-hover:opacity-100 transition-opacity duration-300"><i class="fas fa-search-plus text-3xl text-white drop-shadow-lg"></i></div>
             </button>
-            <button data-image="{{ '/assets/img/projects/halls-of-delirium-3.webp' | relative_url }}" onclick="openGallery(this.dataset.image)" class="group relative rounded-2xl overflow-hidden border border-white/10 aspect-video shadow-lg bg-black focus:outline-none focus:ring-2 focus:ring-violet-500">
+            <button data-image="{{ '/assets/img/projects/halls-of-delirium-3.webp' | relative_url }}" class="group relative rounded-2xl overflow-hidden border border-white/10 aspect-video shadow-lg bg-black focus:outline-none focus:ring-2 focus:ring-violet-500">
                 <img src="{{ '/assets/img/projects/halls-of-delirium-3.webp' | relative_url }}" alt="Halls Of Delirium: Nivel La Zona Habitable con el monstruo Señor Blanco acechando en un pasillo oscuro, vista de cámara de seguridad" class="w-full h-full object-cover transition-all duration-500 group-hover:scale-110 group-hover:opacity-70" loading="lazy">
-                <div class="absolute inset-0 flex items-center justify-center opacity-0 group-hover:opacity-100 transition-opacity duration-300">
-                    <i class="fas fa-search-plus text-3xl text-white drop-shadow-lg"></i>
-                </div>
+                <div class="absolute inset-0 flex items-center justify-center opacity-0 group-hover:opacity-100 transition-opacity duration-300"><i class="fas fa-search-plus text-3xl text-white drop-shadow-lg"></i></div>
             </button>
-            <button data-image="{{ '/assets/img/projects/halls-of-delirium-4.webp' | relative_url }}" onclick="openGallery(this.dataset.image)" class="group relative rounded-2xl overflow-hidden border border-white/10 aspect-video shadow-lg bg-black focus:outline-none focus:ring-2 focus:ring-violet-500">
+            <button data-image="{{ '/assets/img/projects/halls-of-delirium-4.webp' | relative_url }}" class="group relative rounded-2xl overflow-hidden border border-white/10 aspect-video shadow-lg bg-black focus:outline-none focus:ring-2 focus:ring-violet-500">
                 <img src="{{ '/assets/img/projects/halls-of-delirium-4.webp' | relative_url }}" alt="Halls Of Delirium: Nivel Dead-Man inspirado en Pac-Man en primera persona con minimapa funcional para localizar fantasmas" class="w-full h-full object-cover transition-all duration-500 group-hover:scale-110 group-hover:opacity-70" loading="lazy">
-                <div class="absolute inset-0 flex items-center justify-center opacity-0 group-hover:opacity-100 transition-opacity duration-300">
-                    <i class="fas fa-search-plus text-3xl text-white drop-shadow-lg"></i>
-                </div>
+                <div class="absolute inset-0 flex items-center justify-center opacity-0 group-hover:opacity-100 transition-opacity duration-300"><i class="fas fa-search-plus text-3xl text-white drop-shadow-lg"></i></div>
             </button>
-            <button data-image="{{ '/assets/img/projects/halls-of-delirium-5.webp' | relative_url }}" onclick="openGallery(this.dataset.image)" class="group relative rounded-2xl overflow-hidden border border-white/10 aspect-video shadow-lg bg-black focus:outline-none focus:ring-2 focus:ring-violet-500">
+            <button data-image="{{ '/assets/img/projects/halls-of-delirium-5.webp' | relative_url }}" class="group relative rounded-2xl overflow-hidden border border-white/10 aspect-video shadow-lg bg-black focus:outline-none focus:ring-2 focus:ring-violet-500">
                 <img src="{{ '/assets/img/projects/halls-of-delirium-5.webp' | relative_url }}" alt="Halls Of Delirium: Nivel provisional Another Brick In The Wall con vista de cámara de seguridad de un aula escolar oscura y abandonada" class="w-full h-full object-cover transition-all duration-500 group-hover:scale-110 group-hover:opacity-70" loading="lazy">
-                <div class="absolute inset-0 flex items-center justify-center opacity-0 group-hover:opacity-100 transition-opacity duration-300">
-                    <i class="fas fa-search-plus text-3xl text-white drop-shadow-lg"></i>
-                </div>
+                <div class="absolute inset-0 flex items-center justify-center opacity-0 group-hover:opacity-100 transition-opacity duration-300"><i class="fas fa-search-plus text-3xl text-white drop-shadow-lg"></i></div>
             </button>
-            <button data-image="{{ '/assets/img/projects/halls-of-delirium-6.webp' | relative_url }}" onclick="openGallery(this.dataset.image)" class="group relative rounded-2xl overflow-hidden border border-white/10 aspect-video shadow-lg bg-black focus:outline-none focus:ring-2 focus:ring-violet-500">
+            <button data-image="{{ '/assets/img/projects/halls-of-delirium-6.webp' | relative_url }}" class="group relative rounded-2xl overflow-hidden border border-white/10 aspect-video shadow-lg bg-black focus:outline-none focus:ring-2 focus:ring-violet-500">
                 <img src="{{ '/assets/img/projects/halls-of-delirium-6.webp' | relative_url }}" alt="Halls Of Delirium: Nivel provisional El Hotel Infinito con vista de cámara de seguridad de un pasillo de hotel siniestro con alfombra roja" class="w-full h-full object-cover transition-all duration-500 group-hover:scale-110 group-hover:opacity-70" loading="lazy">
-                <div class="absolute inset-0 flex items-center justify-center opacity-0 group-hover:opacity-100 transition-opacity duration-300">
-                    <i class="fas fa-search-plus text-3xl text-white drop-shadow-lg"></i>
-                </div>
+                <div class="absolute inset-0 flex items-center justify-center opacity-0 group-hover:opacity-100 transition-opacity duration-300"><i class="fas fa-search-plus text-3xl text-white drop-shadow-lg"></i></div>
             </button>
-            <button data-image="{{ '/assets/img/projects/halls-of-delirium-7.webp' | relative_url }}" onclick="openGallery(this.dataset.image)" class="group relative rounded-2xl overflow-hidden border border-white/10 aspect-video shadow-lg bg-black focus:outline-none focus:ring-2 focus:ring-violet-500">
+            <button data-image="{{ '/assets/img/projects/halls-of-delirium-7.webp' | relative_url }}" class="group relative rounded-2xl overflow-hidden border border-white/10 aspect-video shadow-lg bg-black focus:outline-none focus:ring-2 focus:ring-violet-500">
                 <img src="{{ '/assets/img/projects/halls-of-delirium-7.webp' | relative_url }}" alt="Halls Of Delirium: Nivel La Zona Habitable con niebla volumétrica en pasillos oscuros de Godot Engine" class="w-full h-full object-cover transition-all duration-500 group-hover:scale-110 group-hover:opacity-70" loading="lazy">
-                <div class="absolute inset-0 flex items-center justify-center opacity-0 group-hover:opacity-100 transition-opacity duration-300">
-                    <i class="fas fa-search-plus text-3xl text-white drop-shadow-lg"></i>
-                </div>
+                <div class="absolute inset-0 flex items-center justify-center opacity-0 group-hover:opacity-100 transition-opacity duration-300"><i class="fas fa-search-plus text-3xl text-white drop-shadow-lg"></i></div>
             </button>
-            <button data-image="{{ '/assets/img/projects/halls-of-delirium-8.webp' | relative_url }}" onclick="openGallery(this.dataset.image)" class="group relative rounded-2xl overflow-hidden border border-white/10 aspect-video shadow-lg bg-black focus:outline-none focus:ring-2 focus:ring-violet-500">
+            <button data-image="{{ '/assets/img/projects/halls-of-delirium-8.webp' | relative_url }}" class="group relative rounded-2xl overflow-hidden border border-white/10 aspect-video shadow-lg bg-black focus:outline-none focus:ring-2 focus:ring-violet-500">
                 <img src="{{ '/assets/img/projects/halls-of-delirium-8.webp' | relative_url }}" alt="Halls Of Delirium: Nivel provisional Another Brick In The Wall con mensaje en la pared pintado en sangre sobre casilleros escolares" class="w-full h-full object-cover transition-all duration-500 group-hover:scale-110 group-hover:opacity-70" loading="lazy">
-                <div class="absolute inset-0 flex items-center justify-center opacity-0 group-hover:opacity-100 transition-opacity duration-300">
-                    <i class="fas fa-search-plus text-3xl text-white drop-shadow-lg"></i>
-                </div>
+                <div class="absolute inset-0 flex items-center justify-center opacity-0 group-hover:opacity-100 transition-opacity duration-300"><i class="fas fa-search-plus text-3xl text-white drop-shadow-lg"></i></div>
             </button>
         </div>
     </section>
@@ -163,31 +145,13 @@ video:
 </main>
 
 <!-- Lightbox Modal -->
-<dialog id="galleryModal" class="bg-transparent m-0 p-0 w-screen h-screen max-w-none max-h-none backdrop:bg-black/90 backdrop:backdrop-blur-sm focus:outline-none overflow-hidden" onclick="if(event.target === this) this.close()">
+<dialog id="galleryModal" class="bg-transparent m-0 p-0 w-screen h-screen max-w-none max-h-none backdrop:bg-black/90 backdrop:backdrop-blur-sm focus:outline-none overflow-hidden">
     <div class="relative w-full h-full flex flex-col items-center justify-center p-4 md:p-12">
-        <button onclick="document.getElementById('galleryModal').close()" class="absolute top-6 right-6 lg:top-10 lg:right-10 text-white/50 hover:text-white transition-colors p-4 rounded-full bg-black/50 hover:bg-violet-600/50 backdrop-blur-md z-50 flex items-center justify-center border border-white/10" aria-label="Cerrar galería">
+        <button id="gallery-close" class="absolute top-6 right-6 lg:top-10 lg:right-10 text-white/50 hover:text-white transition-colors p-4 rounded-full bg-black/50 hover:bg-violet-600/50 backdrop-blur-md z-50 flex items-center justify-center border border-white/10" aria-label="Cerrar galería">
             <i class="fas fa-times text-2xl"></i>
         </button>
         <img id="galleryImage" src="" alt="Captura a pantalla completa" class="max-w-full max-h-full object-contain rounded-xl shadow-2xl border border-white/5" style="box-shadow: 0 0 50px rgba(139,92,246,0.15);">
     </div>
 </dialog>
 
-<script>
-    function openGallery(imageSrc) {
-        const modal = document.getElementById('galleryModal');
-        const img = document.getElementById('galleryImage');
-        img.src = imageSrc;
-        modal.showModal();
-        document.body.style.overflow = 'hidden';
-    }
-
-    document.getElementById('galleryModal').addEventListener('close', () => {
-        document.body.style.overflow = 'auto';
-    });
-
-    document.addEventListener('keydown', (e) => {
-        if (e.key === 'Escape' && document.getElementById('galleryModal').open) {
-            document.getElementById('galleryModal').close();
-        }
-    });
-</script>
+<script src="{{ '/assets/js/gallery.js' | relative_url }}" defer></script>
