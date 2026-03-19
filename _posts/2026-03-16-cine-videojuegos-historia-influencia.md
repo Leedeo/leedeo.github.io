@@ -1,5 +1,6 @@
 ---
 layout: post
+author: javo
 categories: [Industria]
 tags: [gamedev, tecnología, industria, mercado]
 title: "Cine y videojuegos: la historia de una influencia mutua que transformó ambas industrias"

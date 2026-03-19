@@ -1,5 +1,6 @@
 ---
 layout: post
+author: javo
 categories: [Godot, Industria]
 tags: [godot, gamedev, tecnología, indie, mercado]
 title: "¿Por qué Godot es el mejor motor para indies en 2026? Realismo y eficiencia"

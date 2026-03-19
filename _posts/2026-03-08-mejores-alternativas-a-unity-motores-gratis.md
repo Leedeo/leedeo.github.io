@@ -1,5 +1,6 @@
 ---
 layout: post
+author: javo
 title: "¿Cuáles son las mejores alternativas a Unity? Motores gratis y open-source para 2026"
 categories: [Industria, Software]
 tags: [motores, unity, gamedev, software libre, tecnología]

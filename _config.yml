@@ -8,6 +8,17 @@ permalink: /blog/:year/:month/:day/:title/
 twitter_username: leedeostudio
 github_username:  Leedeo
 
+author:
+  name: "Javo"
+  twitter: leedeostudio
+  social:
+    links:
+      - https://www.youtube.com/@Leedeo
+      - https://github.com/xavierocampos
+      - https://ko-fi.com/leedeo
+      - https://whatsapp.com/channel/0029VbCnHY0HrDZl9C2p2N0A
+      - https://www.tiktok.com/@leedeostudio
+
 social:
   name: "Leedeo Studio"
   links:

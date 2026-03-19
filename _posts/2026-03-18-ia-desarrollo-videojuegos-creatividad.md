@@ -1,5 +1,6 @@
 ---
 layout: post
+author: javo
 categories: [Industria]
 tags: [gamedev, tecnología, industria, mercado, indie, aprendizaje]
 title: "La IA en el desarrollo de videojuegos: ¿amenaza para la creatividad o el siguiente paso tecnológico?"

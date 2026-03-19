@@ -1,5 +1,6 @@
 ---
 layout: post
+author: javo
 categories: [Industria]
 tags: [gamedev, aaa, industria, mercado, rentabilidad]
 title: "Hacer videojuegos cada vez cuesta más, y rentabilizarlos es otro problema"

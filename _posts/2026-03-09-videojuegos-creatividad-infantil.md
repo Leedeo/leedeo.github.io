@@ -1,5 +1,6 @@
 ---
 layout: post
+author: javo
 categories: [Educación]
 tags: [educación, gamedev, aprendizaje, tecnología]
 title: "¿Fomentan los videojuegos la creatividad? La ciencia detrás del pensamiento interactivo"

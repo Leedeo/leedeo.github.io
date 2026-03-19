@@ -1,5 +1,6 @@
 ---
 layout: post
+author: javo
 categories: [Formación, Industria]
 tags: [gamedev, aprendizaje, industria, guía, principiantes]
 title: "¿Qué es un Game Dev? Todo lo que necesitas saber para empezar a crear videojuegos"

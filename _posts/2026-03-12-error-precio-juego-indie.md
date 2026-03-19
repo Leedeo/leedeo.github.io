@@ -1,5 +1,6 @@
 ---
 layout: post
+author: javo
 title: "El error que comete casi todo desarrollador indie al poner precio a su juego"
 description: "Descubre por qué poner un precio bajo a tu primer videojuego indie hunde tus ventas en Steam. Datos reales sobre psicología de precios, visibilidad y conversiones."
 date: 2026-03-12 08:38:36 +0100

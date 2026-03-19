@@ -1,5 +1,6 @@
 ---
 layout: post
+author: javo
 categories: [Software]
 tags: [windows, optimizacion, software, tutorial]
 title: "Las mejores alternativas a CCleaner en 2026: guía técnica para elegir bien"

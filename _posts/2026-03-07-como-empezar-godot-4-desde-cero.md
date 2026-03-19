@@ -1,5 +1,6 @@
 ---
 layout: post
+author: javo
 categories: [Godot, Formación]
 tags: [godot, gamedev, aprendizaje, tutorial, principiantes, indie]
 title: "¿Cómo aprender Godot 4 desde cero en 2026? Guía paso a paso para principiantes"

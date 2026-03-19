@@ -1,5 +1,6 @@
 ---
 layout: post
+author: javo
 categories: [Software]
 tags: [windows, optimizacion, software, tutorial]
 title: "Los mejores optimizadores para Windows en 2026: Guía definitiva"

@@ -1,5 +1,6 @@
 ---
 layout: post
+author: javo
 categories: [Godot]
 tags: [godot, gamedev, indie, steam]
 title: "Godot Showcase: Buckshot Roulette y la realidad del desarrollo indie"

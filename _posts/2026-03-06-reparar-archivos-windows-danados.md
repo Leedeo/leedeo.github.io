@@ -1,5 +1,6 @@
 ---
 layout: post
+author: javo
 categories: [Software]
 tags: [windows, software, tutorial]
 title: "¿SFC /scannow no funciona? Guía completa para reparar archivos de Windows"

@@ -1,5 +1,6 @@
 ---
 layout: post
+author: javo
 categories: [Godot, Software]
 tags: [godot, motores, software libre, gamedev, tecnología, indie]
 title: "¿Qué es Godot Engine? El motor de videojuegos gratuito que desafía a Unity"

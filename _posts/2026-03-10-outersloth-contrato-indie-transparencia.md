@@ -1,5 +1,6 @@
 ---
 layout: post
+author: javo
 categories: [Noticias, Industria]
 tags: [noticias, indie, industria, mercado]
 title: "Outersloth hace público su contrato con desarrolladores indie, y el gesto importa más de lo que parece"

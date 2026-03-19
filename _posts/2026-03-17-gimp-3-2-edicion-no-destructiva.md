@@ -1,5 +1,6 @@
 ---
 layout: post
+author: javo
 title: "GIMP 3.2: la edición no destructiva llega (por fin) al editor de imagen libre más conocido del mundo"
 date: 2026-03-17 08:52:16 +0100
 categories: [Software]

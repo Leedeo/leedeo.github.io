@@ -1,5 +1,6 @@
 ---
 layout: post
+author: javo
 categories: [Industria]
 tags: [indie, marketing, gamedev, mercado, industria]
 title: "Programas de creadores en videojuegos: qué son, por qué funcionan y cómo puede usarlos un indie"

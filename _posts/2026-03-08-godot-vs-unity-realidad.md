@@ -1,5 +1,6 @@
 ---
 layout: post
+author: javo
 categories: [Industria, Godot]
 tags: [godot, unity, gamedev, mercado, motores]
 title: "Godot vs Unity en 2026: Por qué el motor no te va a dar el trabajo de tus sueños"

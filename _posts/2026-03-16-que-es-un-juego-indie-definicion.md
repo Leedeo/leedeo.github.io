@@ -1,5 +1,6 @@
 ---
 layout: post
+author: javo
 categories: [Industria]
 tags: [gamedev, indie, aaa, mercado, industria]
 title: "¿Qué es un juego indie? La pregunta que la industria del videojuego no sabe responder"

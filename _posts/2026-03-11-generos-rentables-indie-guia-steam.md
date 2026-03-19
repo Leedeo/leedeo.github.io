@@ -1,5 +1,6 @@
 ---
 layout: post
+author: javo
 title: "¿Qué géneros de videojuegos generan más dinero? Guía para el desarrollador indie"
 description: "Análisis de datos reales de Steam 2024. Descubre qué géneros de videojuegos tienen mayor rentabilidad, cuáles están saturados y dónde invertir tu tiempo como desarrollador indie."
 date: 2026-03-11 07:27:14 +0100

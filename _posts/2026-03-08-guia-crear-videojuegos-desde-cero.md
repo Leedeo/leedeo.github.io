@@ -1,5 +1,6 @@
 ---
 layout: post
+author: javo
 categories: [Formación]
 tags: [gamedev, indie, aprendizaje, guía, principiantes]
 title: "¿Cómo empezar a crear videojuegos desde cero? Guía técnica y mental"

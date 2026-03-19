@@ -1,5 +1,6 @@
 ---
 layout: post
+author: javo
 categories: [Noticias, Industria]
 tags: [noticias, gamedev, indie, aaa, industria]
 title: "Shinji Mikami lleva dos años construyendo en silencio su nuevo estudio AAA, y acaba de salir a la luz"

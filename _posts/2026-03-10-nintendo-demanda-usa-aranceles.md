@@ -1,5 +1,6 @@
 ---
 layout: post
+author: javo
 categories: [Noticias, Industria]
 tags: [noticias, industria, mercado, tecnología]
 title: "Nintendo demanda al gobierno de Estados Unidos por los aranceles de Trump"

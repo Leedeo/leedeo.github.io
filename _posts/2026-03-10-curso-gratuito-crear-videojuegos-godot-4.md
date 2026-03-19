@@ -1,5 +1,6 @@
 ---
 layout: post
+author: javo
 categories: [Godot, Formación]
 tags: [godot, gamedev, aprendizaje, tutorial, principiantes, indie]
 title: "Curso gratuito para crear videojuegos con Godot Engine 4"

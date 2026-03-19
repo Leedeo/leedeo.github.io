@@ -1,5 +1,6 @@
 ---
 layout: post
+author: javo
 categories: [Godot, Software]
 tags: [motores, gamedev, indie, tecnología, software libre]
 title: "¿Qué es Defold? El motor de videojuegos gratuito del que casi nadie habla"

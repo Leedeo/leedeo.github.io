@@ -1,5 +1,6 @@
 ---
 layout: post
+author: javo
 categories: [Educación]
 tags: [educación, gamedev, aprendizaje, tecnología]
 title: "Videojuegos como aliados pedagógicos: Más allá del aula y hacia la soberanía técnica"
