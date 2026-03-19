@@ -18,6 +18,7 @@ author:
       - https://ko-fi.com/leedeo
       - https://whatsapp.com/channel/0029VbCnHY0HrDZl9C2p2N0A
       - https://www.tiktok.com/@leedeostudio
+      - https://www.instagram.com/leedeostudio/
 
 social:
   name: "Leedeo Studio"
@@ -26,6 +27,7 @@ social:
     - https://x.com/leedeostudio
     - https://github.com/Leedeo
     - https://ko-fi.com/leedeo
+    - https://www.instagram.com/leedeostudio/
 
 markdown: kramdown
 plugins:
