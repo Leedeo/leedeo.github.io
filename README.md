@@ -2,7 +2,7 @@
 
 Sitio web oficial de **Leedeo Studio**, un espacio dedicado a la creación de recursos para la comunidad de desarrollo de videojuegos, optimización de sistemas y diseño digital.
 
-🚀 **Visita el sitio en:** [https://leedeo.github.io/](https://leedeo.github.io/)
+🚀 **Visita el sitio en:** [https://leedeo.net/](https://leedeo.net/)
 
 ---
 
