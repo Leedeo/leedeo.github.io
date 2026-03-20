@@ -1,4 +1,8 @@
 // assets/js/site.js
+
+// Activar animaciones reveal solo cuando JS está disponible
+document.documentElement.classList.add('js-loaded');
+
 var yearEl = document.getElementById('auto-year');
 if (yearEl) { yearEl.textContent = new Date().getFullYear(); }
 

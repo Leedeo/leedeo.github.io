@@ -40,7 +40,7 @@ description: >-
         <div id="paginated-posts">
             <div id="paginated-grid" class="grid md:grid-cols-2 lg:grid-cols-3 gap-8 mb-16">
                 {% for post in paginator.posts %}
-                <article class="glass-card rounded-[2rem] overflow-hidden flex flex-col reveal"
+                <article class="glass-card rounded-[2rem] overflow-hidden flex flex-col reveal active"
                     style="transition-delay: {{ forloop.index0 | times: 100 }}ms;">
                     <a href="{{ post.url | relative_url }}" class="aspect-video overflow-hidden relative group block">
                         <img src="{{ post.thumbnail | relative_url }}" alt="{{ post.title }}" loading="lazy" width="600" height="340"

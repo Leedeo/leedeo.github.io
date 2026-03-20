@@ -13,7 +13,7 @@ function loadGA() {
     gtag('config', 'G-2SB71QMPV3');
 }
 
-window.addEventListener('load', function () {
+document.addEventListener('DOMContentLoaded', function () {
     if (localStorage.getItem('cookie_consent') === 'accepted') {
         loadGA();
     }
