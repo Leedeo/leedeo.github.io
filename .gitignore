@@ -9,6 +9,10 @@ Gemfile.lock
 
 # Tools & Compilers
 node_modules/
+tailwindcss.exe
+compilar-tailwind.bat
+tailwind.config.js
+assets/css/tailwind-input.css
 
 # Editor & IDEs
 .vscode/
