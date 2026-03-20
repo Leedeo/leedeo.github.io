@@ -71,11 +71,7 @@ Y luego está el caso contrario: desarrolladores que sí intentan hacer marketin
 
 *   **Tráilers que no muestran nada.** Treinta segundos de logos, una frase pretenciosa, tres planos oscuros donde no se entiende qué está pasando y un título al final. Un tráiler tiene que mostrar el juego. Tiene que mostrar qué se hace en él, cómo se ve, cómo se siente. En los primeros cinco segundos. No después de una intro de veinte segundos con efectos de humo.
 
-<div class="my-10">
-  <div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden; max-width: 100%; border-radius: 1rem; box-shadow: 0 20px 25px -5px rgb(0 0 0 / 0.5);">
-    <iframe src="https://www.youtube.com/embed/xFT4UGVw610?rel=0" title="El secreto para que tu juego no sea ignorado, Tráilers que venden" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen loading="lazy" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe>
-  </div>
-</div>
+{% include youtube-embed.html id="xFT4UGVw610" title="El secreto para que tu juego no sea ignorado, Tráilers que venden" %}
 
 *   **Capturas de pantalla que no representan el juego.** Capturas seleccionadas para mostrar el mejor ángulo posible de un momento puntual que no refleja la experiencia real. El jugador compra basándose en esas capturas y se encuentra con algo que no se parece a lo que le vendieron. Resultado: reembolso y reseña negativa.
 
