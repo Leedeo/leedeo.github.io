@@ -8,11 +8,11 @@ date: 2026-03-08 07:18:11 +0100
 thumbnail: "/assets/img/posts/guia-crear-videojuegos.webp"
 excerpt: "Olvida los consejos vacíos. Aprender a crear videojuegos requiere una estrategia técnica y mental. Te explico por dónde empezar realmente y qué pasos seguir."
 video:
-  id: "3ifj5q95qdk"
-  title: "¿Por dónde Empezar a Crear Videojuegos?"
-  description: "Guía práctica para empezar en el desarrollo de videojuegos: qué motor elegir, cómo estructurar tu aprendizaje y los primeros pasos reales."
-  upload_date: "2024-06-18"
-  duration: "PT9M54S" # Formato ISO 8601
+  id: "L3pFEk1HPCQ"
+  title: "Curso Godot 4 desde Cero [01] Instalar y Configurar"
+  description: "Primer capítulo del curso de introducción a Godot 4. Aprende a descargar, instalar y configurar el motor desde cero."
+  upload_date: "2023-03-06"
+  duration: "PT6M27S" # Formato ISO 8601
 ---
 
 Cada día miles de personas se preguntan cómo entrar en el mundo del desarrollo de videojuegos. La respuesta rápida que suele dar internet es "bájate un motor y aprende a programar". Pero si buscas crear algo con alma, algo que realmente funcione y no se quede en un proyecto olvidado en una carpeta, esa respuesta se queda corta. Muy corta.
@@ -85,10 +85,12 @@ Para la mayoría de personas que empiezan, la columna de Godot resuelve todos lo
 
 Si decides embarcar con Godot Engine, aquí tienes la primera lección de mi formación orientada a quien empieza desde cero absoluto:
 
-<div class="my-12">
-  <div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden; max-width: 100%; border-radius: 1rem; box-shadow: 0 20px 25px -5px rgb(0 0 0 / 0.5);">
-    <iframe src="https://www.youtube.com/embed/3ifj5q95qdk?rel=0" title="Cómo crear tu primer videojuego" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen loading="lazy" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe>
-  </div>
+{% include youtube-embed.html id="L3pFEk1HPCQ" title="Curso Godot 4 desde cero [01] Cómo Instalar y Configurar" %}
+
+<div class="text-center mt-8 mb-16">
+  <a href="https://www.youtube.com/playlist?list=PL5PTqiCIVoiVyA2qed1NE4uKejXEWM60e" target="_blank" rel="noopener" class="btn-primary text-lg px-10 py-4">
+    Curso Completo de Godot 4 en Español <i class="fas fa-external-link-alt text-sm opacity-80"></i>
+  </a>
 </div>
 
 ---
@@ -112,11 +114,3 @@ Para exportar a web desde Godot, el proceso es sencillo: activa la exportación 
 Esta es la parte que más se infravalora: **para hacer buenos juegos, necesitas jugar muchos juegos, y analizarlos mientras los juegas**. Pregúntate por qué un control se siente satisfactorio, por qué una mecánica engancha. Ese análisis es formación constante que no requiere ningún tutorial.
 
 Caminante, no hay camino, se hace camino al andar. Toma tus herramientas, elige tu motor y empieza por ese primer nivel sandbox. El resto vendrá rodado si la base es sólida.
-
-<div class="text-center mt-12 mb-8">
-  <a href="https://www.youtube.com/playlist?list=PL5PTqiCIVoiVyA2qed1NE4uKejXEWM60e" target="_blank" rel="noopener" class="btn-primary inline-flex items-center gap-3 bg-violet-600 hover:bg-violet-500 text-white px-8 py-4 rounded-2xl font-bold transition-all text-lg shadow-lg shadow-violet-500/25 hover:shadow-violet-500/40 hover:scale-105">
-    Ver el Curso de Godot 4 desde Cero <i class="fas fa-external-link-alt text-sm opacity-80"></i>
-  </a>
-</div>
-
-

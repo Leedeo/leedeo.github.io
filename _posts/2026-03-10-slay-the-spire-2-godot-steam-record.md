@@ -9,7 +9,7 @@ thumbnail: "/assets/img/posts/slay-the-spire-2-key-art.webp"
 excerpt: "Slay the Spire 2 entra en Early Access batiendo récords y demostrando que la migración de Unity a Godot Engine ha sido un éxito técnico y comercial masivo."
 video:
   id: "L3pFEk1HPCQ"
-  title: "Curso Godot 4 desde Cero [01] - Instalar, Configurar y Renderizadores"
+  title: "Curso Godot 4 desde Cero [01] Instalar y Configurar"
   description: "Primer capítulo del curso de introducción a Godot 4. Aprende a descargar, instalar y configurar el motor desde cero."
   upload_date: "2023-03-06"
   duration: "PT6M27S" # Formato ISO 8601
@@ -29,16 +29,11 @@ Mega Crit llevaba más de dos años desarrollando Slay the Spire 2 en Unity cuan
 
 Unity terminó dando marcha atrás en la política, y la situación también acabó con la dimisión del CEO John Riccitiello. Pero Mega Crit mantuvo su decisión: el desarrollo de Slay the Spire 2 migró a Godot. Y eso supuso tirar a la basura dos años de trabajo y empezar de cero en un motor diferente.
 
-<div class="my-12">
-  <p class="text-slate-400 italic mb-6 text-center max-w-2xl mx-auto">"Historias como esta demuestran que Godot ya no es solo para prototipos; es una herramienta capaz de sostener los mayores éxitos de Steam. Si quieres aprender a dominar este motor desde la base, te dejo aquí mi curso:"</p>
-  <div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden; max-width: 100%; border-radius: 1rem; box-shadow: 0 20px 25px -5px rgb(0 0 0 / 0.5);">
-    <iframe src="https://www.youtube.com/embed/L3pFEk1HPCQ?rel=0" title="Curso Básico de Godot 4" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen loading="lazy" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe>
-  </div>
-</div>
+{% include youtube-embed.html id="L3pFEk1HPCQ" title="Curso Godot 4 desde cero [01] Cómo Instalar y Configurar" %}
 
 <div class="text-center mt-8 mb-16">
-  <a href="https://www.youtube.com/playlist?list=PL5PTqiCIVoiVyA2qed1NE4uKejXEWM60e" target="_blank" rel="noopener" class="btn-primary inline-flex items-center gap-3 bg-violet-600 hover:bg-violet-500 text-white px-8 py-4 rounded-2xl font-bold transition-all text-lg shadow-lg shadow-violet-500/25 hover:shadow-violet-500/40 hover:scale-105">
-    Lista completa: Curso de Godot 4 en Español <i class="fas fa-external-link-alt text-sm opacity-80"></i>
+  <a href="https://www.youtube.com/playlist?list=PL5PTqiCIVoiVyA2qed1NE4uKejXEWM60e" target="_blank" rel="noopener" class="btn-primary text-lg px-10 py-4">
+    Curso Completo de Godot 4 en Español <i class="fas fa-external-link-alt text-sm opacity-80"></i>
   </a>
 </div>
 

@@ -9,7 +9,7 @@ thumbnail: "/assets/img/posts/gimp-3-2-edicion-no-destructiva.webp"
 excerpt: "GIMP 3.2 marca un hito histórico tras tres décadas de espera: la llegada de la edición no destructiva (NDE). Analizamos por qué este cambio es vital para flujos de trabajo profesionales."
 video:
   id: "bslPe_Y43es"
-  title: "Tutorial de Fundamentos de GIMP - Edición de Imagen Libre"
+  title: "Tutorial de GIMP, Edición de imagen libre"
   description: "Aprende los fundamentos de GIMP, el editor de imagen gratuito y open source. Herramientas básicas, capas y flujo de trabajo esencial."
   upload_date: "2022-07-11"
   duration: "PT22M8S" # Formato ISO 8601
@@ -37,11 +37,7 @@ Es la diferencia entre escribir con tinta permanente sobre un papel y escribir c
 
 Antes de entrar en el detalle técnico de la versión 3.2, si te han entrado ganas de profundizar en el programa, te dejo este tutorial de fundamentos. Aunque es de una versión anterior, la lógica de sus herramientas principales sigue siendo totalmente válida para empezar a dominar el editor hoy mismo:
 
-<section aria-label="Tutorial de GIMP" class="my-12">
-    <div class="aspect-video w-full rounded-3xl overflow-hidden shadow-2xl border border-violet-500/20 bg-black">
-        <iframe class="w-full h-full" src="https://www.youtube.com/embed/bslPe_Y43es?si=rKXq-D9ReAPrLuqJ&rel=0" title="Tutorial de Fundamentos de GIMP" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen loading="lazy"></iframe>
-    </div>
-</section>
+{% include youtube-embed.html id="bslPe_Y43es" title="Tutorial de GIMP, Edición de imagen libre" %}
 
 ### Lo que esto significaba en la práctica para los usuarios de GIMP
 

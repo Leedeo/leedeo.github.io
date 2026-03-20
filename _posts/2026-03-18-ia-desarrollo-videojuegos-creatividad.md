@@ -9,7 +9,7 @@ thumbnail: "/assets/img/posts/ia-desarrollo-videojuegos.webp"
 excerpt: "La inteligencia artificial generativa está transformando el desarrollo de videojuegos. Ni el fin de la creatividad ni la solución a todo: un análisis con contexto histórico y sin eslóganes."
 video:
   id: "3ifj5q95qdk"
-  title: "¿Por dónde Empezar a Crear Videojuegos?"
+  title: "¿Por dónde empezar a crear Videojuegos?"
   description: "Guía práctica para empezar en el desarrollo de videojuegos: qué motor elegir, cómo estructurar tu aprendizaje y los primeros pasos reales."
   upload_date: "2024-06-18"
   duration: "PT9M54S" # Formato ISO 8601
@@ -100,11 +100,7 @@ La lista es larga. Cada avance tecnológico que ha tocado un ámbito creativo ha
 
 El patrón es consistente: la herramienta nueva no destruye la disciplina. La transforma. Y si tú eres de las personas que quiere empezar a crear videojuegos en este contexto de herramientas cada vez más accesibles, lo primero que necesitas saber es por dónde empezar:
 
-<div class="my-12">
-  <div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden; max-width: 100%; border-radius: 1rem; box-shadow: 0 20px 25px -5px rgb(0 0 0 / 0.5);">
-    <iframe src="https://www.youtube.com/embed/3ifj5q95qdk?rel=0" title="¿Por dónde Empezar a Crear Videojuegos?" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen loading="lazy" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe>
-  </div>
-</div>
+{% include youtube-embed.html id="3ifj5q95qdk" title="¿Por dónde empezar a crear Videojuegos?" %}
 
 Los profesionales que se adaptan encuentran formas de usar la nueva herramienta para hacer cosas que antes eran imposibles o impracticables. Los que no se adaptan quedan en una posición difícil. Es un proceso doloroso a nivel individual, pero históricamente ha sido imparable.
 

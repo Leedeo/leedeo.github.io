@@ -92,5 +92,3 @@ A diferencia de los anteriores, Leedeo Cleaner no se limita a cachés y temporal
 | Reparar archivos corruptos del sistema | Leedeo Cleaner |
 
 La respuesta correcta no siempre es la misma herramienta. Lo importante es entender qué problema quieres resolver y elegir la que lo ataque directamente, sin instalar más software del necesario en tu sistema.
-
-

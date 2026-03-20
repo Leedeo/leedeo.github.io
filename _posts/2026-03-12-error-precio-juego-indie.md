@@ -10,7 +10,7 @@ thumbnail: /assets/img/posts/error-precio-videojuego-indie.webp
 excerpt: "Hay una conversación que Chris Charla, director del programa ID@Xbox de Microsoft y alguien que lleva más de una década trabajando con cientos de desarrolladores independientes, repite casi cada vez que habla con estudios indie."
 video:
   id: "3ifj5q95qdk"
-  title: "¿Por dónde Empezar a Crear Videojuegos?"
+  title: "¿Por dónde empezar a crear Videojuegos?"
   description: "Guía práctica para empezar en el desarrollo de videojuegos: qué motor elegir, cómo estructurar tu aprendizaje y los primeros pasos reales."
   upload_date: "2024-06-18"
   duration: "PT9M54S" # Formato ISO 8601
@@ -22,18 +22,7 @@ Es un problema que parece tonto hasta que lo piensas desde dentro. Has pasado me
 
 Pero antes de que te obsesiones con el precio final, hay un paso previo fundamental: asegurarte de que tu juego llegue a existir y tenga una base sólida. Es muy fácil infravalorar tu propio trabajo cuando has pasado por un desarrollo caótico y lleno de estrés. Si estás dando tus primeros pasos y quieres evitar los errores de principiante que te llevan a dudar de ti mismo meses después, por aquí es por donde deberías empezar:
 
-<div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden; max-width: 100%; border-radius: 1rem; box-shadow: 0 20px 25px -5px rgb(0 0 0 / 0.5); border: 1px solid rgba(255,255,255,0.1); margin-top: 2.5rem; margin-bottom: 3.5rem;">
-  <iframe 
-    src="https://www.youtube.com/embed/3ifj5q95qdk?si=6oQpnRjtXhgdT2dC&rel=0" 
-    title="Cómo empezar a crear videojuegos" 
-    frameborder="0" 
-    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
-    referrerpolicy="strict-origin-when-cross-origin" 
-    allowfullscreen 
-    loading="lazy" 
-    style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;">
-  </iframe>
-</div>
+{% include youtube-embed.html id="3ifj5q95qdk" title="¿Por dónde empezar a crear Videojuegos?" %}
 
 Con la brújula clara para arrancar el desarrollo de forma sana, hablemos entonces de la estrategia para cuando el juego esté terminado.
 

@@ -9,7 +9,7 @@ thumbnail: "/assets/img/posts/mejores-motores-videojuegos-gratis.webp"
 excerpt: "Unity ha cambiado, y el mercado también. Si estás buscando un un nuevo motor de videojuegos, descubre estas alternativas gratuitas y de código abierto que te ofrecen potencia, control y soberanía sobre tus juegos."
 video:
   id: "WzSrFVa36Lg"
-  title: "Top 9 Motores de Juegos GRATIS"
+  title: "Top 9 Motores de Juegos Gratis"
   description: "Comparativa real de los mejores motores de videojuegos gratuitos y open source como alternativa a Unity en 2024."
   upload_date: "2024-01-07"
   duration: "PT18M15S" # Formato ISO 8601
@@ -21,9 +21,7 @@ Sin embargo, el panorama actual para la **creación de videojuegos** es más ric
 
 En el siguiente vídeo analizo a fondo las **mejores alternativas a Unity**, presentando opciones tanto gratuitas con regalías amigables como motores 100% de código abierto para que elijas el ideal según las necesidades de tu videojuego:
 
-<div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden; max-width: 100%; margin: 30px 0;">
-  <iframe src="https://www.youtube.com/embed/WzSrFVa36Lg?rel=0" title="Las mejores alternativas a Unity: motores de videojuegos gratis" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen loading="lazy" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border-radius: 12px; box-shadow: 0 10px 30px rgba(0,0,0,0.5);"></iframe>
-</div>
+{% include youtube-embed.html id="WzSrFVa36Lg" title="Top 9 Motores de Videojuegos Gratis" %}
 
 ### El auge de las alternativas amigables y el Código Abierto
 
@@ -86,17 +84,10 @@ La respuesta es simple: **la herramienta con la que te sientas más cómodo y en
 
 Si te decides por el camino abierto de **Godot Engine**, la curva de aprendizaje se acelerará si tienes el acompañamiento adecuado. Te invito a empezar con mi formación orientada a novatos para comprender por qué la comunidad está creciendo tanto. Descubre tu mismo por qué Godot me apasiona en el primer vídeo de mi curso:
 
-<div class="my-12">
-  <div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden; max-width: 100%; border-radius: 1rem; box-shadow: 0 20px 25px -5px rgb(0 0 0 / 0.5);">
-    <iframe src="https://www.youtube.com/embed/L3pFEk1HPCQ?rel=0" title="Curso de Godot 4 desde cero" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;" loading="lazy"></iframe>
-  </div>
-</div>
+{% include youtube-embed.html id="3ifj5q95qdk" title="¿Por dónde empezar a crear Videojuegos?" %}
 
-<div class="text-center mt-8 mb-4">
-  <a href="https://www.youtube.com/playlist?list=PL5PTqiCIVoiVyA2qed1NE4uKejXEWM60e" target="_blank" rel="noopener" class="btn-primary inline-flex items-center gap-3 bg-violet-600 hover:bg-violet-500 text-white px-8 py-4 rounded-2xl font-bold transition-all text-lg shadow-lg shadow-violet-500/25 hover:shadow-violet-500/40 hover:scale-105">
-    Acceder al Curso de Godot 4 Gratis <i class="fas fa-external-link-alt text-sm opacity-80"></i>
+<div class="text-center mt-8 mb-16">
+  <a href="https://www.youtube.com/playlist?list=PL5PTqiCIVoiVyA2qed1NE4uKejXEWM60e" target="_blank" rel="noopener" class="btn-primary text-lg px-10 py-4">
+    Curso Completo de Godot 4 en Español <i class="fas fa-external-link-alt text-sm opacity-80"></i>
   </a>
 </div>
-
-
-

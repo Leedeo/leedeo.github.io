@@ -112,5 +112,3 @@ La reparación mediante DISM y SFC resuelve la gran mayoría de corrupciones de 
 *   Actualizaciones de Windows que han fallado a medias y dejado el sistema en un estado inconsistente irrecuperable con las herramientas anteriores.
 
 Si llegas a ese punto, recuerda hacer una **imagen completa del disco con Macrium Reflect** (gratuito) antes de formatear. Te permitirá recuperar datos específicos incluso destrozar después.
-
-

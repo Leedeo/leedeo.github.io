@@ -10,7 +10,7 @@ thumbnail: /assets/img/posts/vivir-de-hacer-videojuegos.webp
 excerpt: "Voy a empezar con la respuesta corta: sí, es posible. Y ahora voy a dedicar el resto del artículo a explicar por qué esa respuesta, sin contexto, es casi completamente inútil."
 video:
   id: "NWosjlLorEU"
-  title: "Por qué aprender Unity o Unreal NO te dará trabajo"
+  title: "Por qué aprender Unity o Unreal no te dará trabajo"
   description: "Análisis honesto sobre la realidad del trabajo en la industria del videojuego: costes, rentabilidad y las expectativas que nadie te cuenta."
   upload_date: "2024-11-12"
   duration: "PT9M41S" # Formato ISO 8601
@@ -22,18 +22,7 @@ Porque "es posible" también aplica a ganar la lotería. La pregunta que realmen
 
 Pero antes de meternos de lleno en las duras realidades del mercado laboral mundial o de las ventas indie, hace falta una toma de consciencia: ninguna de las crudas realidades de este artículo te afecta si ni siquiera tienes la disciplina para dar los primeros pasos básicos en el desarrollo de videojuegos y terminar un proyecto sencillo. Si todo esto te pilla empezando y estás a punto de rendirte porque no sabes por dónde arrancar de verdad a crear tu juego, echa el freno un momento y mira esto:
 
-<div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden; max-width: 100%; border-radius: 1rem; box-shadow: 0 20px 25px -5px rgb(0 0 0 / 0.5); border: 1px solid rgba(255,255,255,0.1); margin-top: 2.5rem; margin-bottom: 3.5rem;">
-  <iframe 
-    src="https://www.youtube.com/embed/NWosjlLorEU?si=sON0b-bGZQDeTiUz&rel=0" 
-    title="La mentira de trabajar haciendo videojuegos" 
-    frameborder="0" 
-    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
-    referrerpolicy="strict-origin-when-cross-origin" 
-    allowfullscreen 
-    loading="lazy" 
-    style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;">
-  </iframe>
-</div>
+{% include youtube-embed.html id="NWosjlLorEU" title="Por qué aprender Unity o Unreal no te dará trabajo" %}
 
 Si ya tienes las bases claras para trabajar, hablemos entonces del panorama que te vas a encontrar fuera. Hay tres caminos distintos para intentar vivir de los videojuegos como desarrollador, y cada uno tiene sus propias reglas, sus propias trampas y sus propias cifras reales. Vamos a verlos uno por uno sin anestesia.
 

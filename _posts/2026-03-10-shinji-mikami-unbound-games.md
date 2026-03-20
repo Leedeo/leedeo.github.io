@@ -9,7 +9,7 @@ thumbnail: "/assets/img/posts/shinji-mikami-unbound-games.webp"
 excerpt: "El creador de Resident Evil fundó Unbound Games en 2023, un estudio independiente de 50 personas enfocado en crear nuevas IP con Unreal Engine 5."
 video:
   id: "3ifj5q95qdk"
-  title: "¿Por dónde Empezar a Crear Videojuegos?"
+  title: "¿Por dónde empezar a crear Videojuegos?"
   description: "Guía práctica para empezar en el desarrollo de videojuegos: qué motor elegir, cómo estructurar tu aprendizaje y los primeros pasos reales."
   upload_date: "2024-06-18"
   duration: "PT9M54S" # Formato ISO 8601
@@ -19,12 +19,9 @@ El creador de Resident Evil lleva más tiempo del que muchos pensaban trabajando
 
 Lo primero que hay que entender sobre Unbound es que no es un proyecto pequeño ni una apuesta conservadora. El estudio se define como una compañía completamente independiente centrada en desarrollar IP originales para PS5, Xbox Series X&#124;S y PC, utilizando Unreal Engine 5. Actualmente tiene alrededor de 50 personas en plantilla, con planes de crecer hasta las 150. Para un estudio independiente que acaba de salir del anonimato, eso es una declaración de intenciones bastante clara.
 
-<div class="my-12">
-  <p class="text-slate-400 italic mb-6 text-center max-w-2xl mx-auto">"Incluso gigantes como Mikami apuestan por la independencia para mantener el control creativo. Si tú también quieres empezar tu propio camino independiente creando videojuegos, este es el primer paso ideal para empezar:"</p>
-  <div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden; max-width: 100%; border-radius: 1rem; box-shadow: 0 20px 25px -5px rgb(0 0 0 / 0.5);">
-    <iframe src="https://www.youtube.com/embed/3ifj5q95qdk?si=GvAoEnVWsfthGuoG&rel=0" title="Cómo Empezar a Crear Videojuegos" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen loading="lazy" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe>
-  </div>
-</div>
+<p class="text-slate-400 italic mb-6 text-center max-w-2xl mx-auto">"Incluso gigantes como Mikami apuestan por la independencia para mantener el control creativo. Si tú también quieres empezar tu propio camino independiente creando videojuegos, este es el primer paso ideal para empezar:"</p>
+
+{% include youtube-embed.html id="3ifj5q95qdk" title="¿Por dónde empezar a crear Videojuegos?" %}
 
 ## Quién está detrás y qué están haciendo
 
@@ -61,5 +58,3 @@ Hay algo llamativo en que un veterano de la industria con el historial de Mikami
 El equipo de Unbound tiene créditos impresionantes sobre el papel, el motor es el más potente disponible, y la filosofía de desarrollo descrita suena más a estudio creativo real que a máquina de producción industrial. Pero construir un juego AAA desde cero, como estudio independiente, sin la red de seguridad de un publisher grande, con 50 personas que tienen que crecer a 150, es un reto enorme. Que el estudio lleve dos años trabajando en silencio sin anunciar nada indica que saben que no tienen prisa, o que entienden que anunciar demasiado pronto es una forma eficaz de meterse en problemas.
 
 Por ahora, no hay título, no hay género confirmado, no hay fecha. Solo un equipo, un motor, y la trayectoria de las personas que lo forman. Con Mikami, eso ha sido suficiente antes.
-
-

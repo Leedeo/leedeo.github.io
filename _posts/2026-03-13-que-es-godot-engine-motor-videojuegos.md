@@ -9,7 +9,7 @@ thumbnail: "/assets/img/posts/que-es-godot-engine-2026.webp"
 excerpt: "Descubre qué es Godot Engine, el motor open source y gratuito que revoluciona el desarrollo indie. Conoce sus ventajas, su historia y los grandes videojuegos creados con él."
 video:
   id: "L3pFEk1HPCQ"
-  title: "Curso Godot 4 desde Cero [01] - Instalar, Configurar y Renderizadores"
+  title: "Curso Godot 4 desde Cero [01] Instalar y Configurar"
   description: "Primer capítulo del curso de introducción a Godot 4. Aprende a descargar, instalar y configurar el motor desde cero."
   upload_date: "2023-03-06"
   duration: "PT6M27S" # Formato ISO 8601
@@ -37,15 +37,11 @@ Y este último punto no es menor, porque tanto Unity como Unreal cobran regalía
 
 La mejor manera de entender realmente por qué Godot se ha convertido en el motor favorito de tantos desarrolladores, es abriéndolo y viendo cómo funciona por dentro. Si la filosofía de este motor conecta contigo y quieres aprender a usarlo paso a paso, aquí tienes el primer capítulo de mi formación completa, diseñada para quienes empiezan desde absoluto cero:
 
-<div class="my-12">
-  <div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden; max-width: 100%; border-radius: 1rem; box-shadow: 0 20px 25px -5px rgb(0 0 0 / 0.5);">
-    <iframe src="https://www.youtube.com/embed/L3pFEk1HPCQ?rel=0" title="Curso completo de Godot 4: Primer capítulo" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen loading="lazy" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe>
-  </div>
-</div>
+{% include youtube-embed.html id="L3pFEk1HPCQ" title="Curso Godot 4 desde cero [01] Cómo Instalar y Configurar" %}
 
-<div class="text-center mt-12 mb-16">
-  <a href="https://www.youtube.com/playlist?list=PL5PTqiCIVoiVyA2qed1NE4uKejXEWM60e" target="_blank" rel="noopener" class="btn-primary inline-flex items-center gap-3 bg-violet-600 hover:bg-violet-500 text-white px-8 py-4 rounded-2xl font-bold transition-all text-lg shadow-lg shadow-violet-500/25 hover:shadow-violet-500/40 hover:scale-105">
-    Ver el Curso Completo de Godot 4 <i class="fas fa-external-link-alt text-sm opacity-80"></i>
+<div class="text-center mt-8 mb-16">
+  <a href="https://www.youtube.com/playlist?list=PL5PTqiCIVoiVyA2qed1NE4uKejXEWM60e" target="_blank" rel="noopener" class="btn-primary text-lg px-10 py-4">
+    Curso Completo de Godot 4 en Español <i class="fas fa-external-link-alt text-sm opacity-80"></i>
   </a>
 </div>
 
@@ -104,11 +100,7 @@ La mejor forma de saber de qué es capaz un motor es ver qué se ha hecho con é
 
 ### Sonic Colors: Ultimate
 
-<div class="my-12">
-  <div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden; max-width: 100%; border-radius: 1rem; box-shadow: 0 20px 25px -5px rgb(0 0 0 / 0.5);">
-    <iframe src="https://www.youtube.com/embed/Z3MCqTdsVKc?rel=0" title="Trailer de Sonic Colors: Ultimate" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen loading="lazy" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe>
-  </div>
-</div>
+{% include youtube-embed.html id="Z3MCqTdsVKc" title="Trailer de Sonic Colors: Ultimate" %}
 
 Que una franquicia del tamaño de Sonic utilice Godot es una de las mayores validaciones que ha recibido el motor en la industria AAA. Esta remasterización del clásico de Wii llevó a la mascota de SEGA a plataformas modernas utilizando Godot como base tecnológica, demostrando que el motor está más que preparado para producciones de alto presupuesto y rendimiento exigente.
 
@@ -116,11 +108,7 @@ Que una franquicia del tamaño de Sonic utilice Godot es una de las mayores vali
 
 ### Slay the Spire 2
 
-<div class="my-12">
-  <div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden; max-width: 100%; border-radius: 1rem; box-shadow: 0 20px 25px -5px rgb(0 0 0 / 0.5);">
-    <iframe src="https://www.youtube.com/embed/2HR2InnbUZc?rel=0" title="Trailer de Slay the Spire 2" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen loading="lazy" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe>
-  </div>
-</div>
+{% include youtube-embed.html id="2HR2InnbUZc" title="Trailer de Slay The Spire 2" %}
 
 La secuela de uno de los juegos independientes más influyentes de la última década. Sus creadores decidieron abandonar Unity en favor de Godot para esta nueva entrega, un movimiento que resonó enormes ecos en toda la industria. Vuelve el icónico constructor de mazos roguelike, ahora construido sobre una tecnología completamente de código abierto.
 
@@ -128,11 +116,7 @@ La secuela de uno de los juegos independientes más influyentes de la última d�
 
 ### Brotato
 
-<div class="my-12">
-  <div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden; max-width: 100%; border-radius: 1rem; box-shadow: 0 20px 25px -5px rgb(0 0 0 / 0.5);">
-    <iframe src="https://www.youtube.com/embed/nfceZHR7Yq0?rel=0" title="Trailer de Brotato" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen loading="lazy" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe>
-  </div>
-</div>
+{% include youtube-embed.html id="nfceZHR7Yq0" title="Trailer de Brotato" %}
 
 Un juego de acción donde el jugador controla a una patata armada con hasta seis armas al mismo tiempo, defendiéndose de oleadas de alienígenas. El concepto parece absurdo, pero el juego es tremendamente adictivo. Ha vendido millones de copias y mantiene una de las mejores valoraciones de Steam.
 
@@ -140,11 +124,7 @@ Un juego de acción donde el jugador controla a una patata armada con hasta seis
 
 ### Buckshot Roulette
 
-<div class="my-12">
-  <div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden; max-width: 100%; border-radius: 1rem; box-shadow: 0 20px 25px -5px rgb(0 0 0 / 0.5);">
-    <iframe src="https://www.youtube.com/embed/JEGxnpGqEaE?rel=0" title="Trailer de Buckshot Roulette" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen loading="lazy" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe>
-  </div>
-</div>
+{% include youtube-embed.html id="JEGxnpGqEaE" title="Trailer de Buckshot Roulette" %}
 
 Una ruleta rusa, pero con escopeta, frente a un personaje inquietante en un sótano oscuro. **Buckshot Roulette** se hizo viral gracias a un concepto simple y una atmósfera opresiva. Lo desarrolló básicamente una sola persona y se convirtió en un fenómeno que los creadores de contenido se peleaban por cubrir.
 
@@ -152,11 +132,7 @@ Una ruleta rusa, pero con escopeta, frente a un personaje inquietante en un sót
 
 ### Cassette Beasts
 
-<div class="my-12">
-  <div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden; max-width: 100%; border-radius: 1rem; box-shadow: 0 20px 25px -5px rgb(0 0 0 / 0.5);">
-    <iframe src="https://www.youtube.com/embed/C0zv4r-DTPg?rel=0" title="Trailer de Cassette Beasts" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen loading="lazy" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe>
-  </div>
-</div>
+{% include youtube-embed.html id="C0zv4r-DTPg" title="Trailer de Cassette Beasts" %}
 
 Para quienes disfrutan los juegos al estilo Pokémon pero buscan algo con personalidad propia. En lugar de capturar criaturas en esferas, aquí se graban en **cintas de casete**. Tiene un mundo abierto cuidado, un sistema de fusión de criaturas muy original y una historia que da más de lo que promete a primera vista.
 
@@ -164,11 +140,7 @@ Para quienes disfrutan los juegos al estilo Pokémon pero buscan algo con person
 
 ### Dome Keeper
 
-<div class="my-12">
-  <div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden; max-width: 100%; border-radius: 1rem; box-shadow: 0 20px 25px -5px rgb(0 0 0 / 0.5);">
-    <iframe src="https://www.youtube.com/embed/UWYHV4RrXu0?rel=0" title="Trailer de Dome Keeper" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen loading="lazy" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe>
-  </div>
-</div>
+{% include youtube-embed.html id="UWYHV4RrXu0" title="Trailer de Dome Keeper" %}
 
 Mezcla de **minería** y **defensa**. El jugador está en un planeta hostil, protegido por una cúpula. Hay que cavar bajo tierra para extraer recursos y volver a la superficie a tiempo para repeler los ataques de criaturas. De esos juegos donde una partida rápida se convierte en tres horas sin darse cuenta.
 
@@ -176,11 +148,7 @@ Mezcla de **minería** y **defensa**. El jugador está en un planeta hostil, pro
 
 ### Katana Dragon
 
-<div class="my-12">
-  <div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden; max-width: 100%; border-radius: 1rem; box-shadow: 0 20px 25px -5px rgb(0 0 0 / 0.5);">
-    <iframe src="https://www.youtube.com/embed/3tTNsfE84nM?rel=0" title="Trailer de Katana Dragon" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen loading="lazy" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe>
-  </div>
-</div>
+{% include youtube-embed.html id="3tTNsfE84nM" title="Trailer de Katana Dragon" %}
 
 Un RPG de acción, aventura y exploración de mazmorras con un apartado visual estilo *voxel* impresionante. Jugando con los ninjas Shin y Nobi, el título demuestra cómo Godot es una base fantástica para mundos coloridos y combates ágiles llenos de personalidad.
 
@@ -188,11 +156,7 @@ Un RPG de acción, aventura y exploración de mazmorras con un apartado visual e
 
 ### Ambidextro
 
-<div class="my-12">
-  <div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden; max-width: 100%; border-radius: 1rem; box-shadow: 0 20px 25px -5px rgb(0 0 0 / 0.5);">
-    <iframe src="https://www.youtube.com/embed/bbJnVpCWJUI?rel=0" title="Trailer de Ambidextro" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen loading="lazy" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe>
-  </div>
-</div>
+{% include youtube-embed.html id="bbJnVpCWJUI" title="Trailer de Ambidextro" %}
 
 Un ingenioso rompecabezas de plataformas que te reta a jugar, literalmente, con las dos manos de forma independiente. Manejando a dos personajes simultáneamente, pone a prueba tu psicomotricidad en niveles muy creativos. Un ejemplo claro de cómo una buena idea bien ejecutada en Godot resulta en algo memorable.
 
@@ -204,11 +168,7 @@ Si los juegos anteriores ya mostraron de qué es capaz Godot, algunos de los pro
 
 ### Road to Vostok
 
-<div class="my-12">
-  <div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden; max-width: 100%; border-radius: 1rem; box-shadow: 0 20px 25px -5px rgb(0 0 0 / 0.5);">
-    <iframe src="https://www.youtube.com/embed/OTFgTRsz43Q?rel=0" title="Trailer de Road to Vostok" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen loading="lazy" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe>
-  </div>
-</div>
+{% include youtube-embed.html id="OTFgTRsz43Q" title="Trailer de Road to Vostok" %}
 
 Un juego de supervivencia y exploración en primera persona, ambientado en la frontera entre Finlandia y Rusia, inspirado en títulos como **S.T.A.L.K.E.R.** y **Escape from Tarkov**. Promete una experiencia dura, realista y con una atmósfera densa.
 

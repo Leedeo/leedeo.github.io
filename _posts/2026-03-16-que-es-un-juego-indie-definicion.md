@@ -9,7 +9,7 @@ thumbnail: "/assets/img/posts/que-es-un-juego-indie.webp"
 excerpt: "Parece una pregunta sencilla, pero hoy es un terreno pantanoso. Analizamos por qué la etiqueta independiente está perdiendo su significado original."
 video:
   id: "0h_F-gHSeM0"
-  title: "Juegos Indie vs AAA: La Verdadera Diferencia"
+  title: "Juegos Indie vs AAA: La verdadera diferencia"
   description: "Qué diferencia realmente a un juego indie de uno AAA: presupuesto, distribución, libertad creativa y el modelo de negocio detrás de cada uno."
   upload_date: "2025-10-19"
   duration: "PT5M2S" # Formato ISO 8601
@@ -23,11 +23,7 @@ Esto no es un debate académico. Tiene consecuencias reales para los desarrollad
 
 Para entender mejor esta tensión constante entre la escala del proyecto y la realidad del mercado, es fundamental ver este vídeo de mi canal, **Leedeo Station**, donde desgloso precisamente qué separa hoy a un juego independiente de un triple A y por qué la línea es cada vez más borrosa:
 
-<div class="my-12">
-  <div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden; max-width: 100%; border-radius: 1rem; box-shadow: 0 20px 25px -5px rgb(0 0 0 / 0.5);">
-    <iframe src="https://www.youtube.com/embed/0h_F-gHSeM0?rel=0" title="INDIE vs AAA: La verdadera diferencia" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen loading="lazy" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe>
-  </div>
-</div>
+{% include youtube-embed.html id="0h_F-gHSeM0" title="Juegos Indie vs AAA: La verdadera diferencia" %}
 
 ---
 
@@ -47,11 +43,7 @@ Cuando el término llegó a los videojuegos, traía ese mismo significado. Y dur
 
 Hubo una época, no tan lejana, en la que identificar un juego indie era fácil. El ejemplo más citado, y con razón, es **Stardew Valley**.
 
-<div class="my-12">
-  <div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden; max-width: 100%; border-radius: 1rem; box-shadow: 0 20px 25px -5px rgb(0 0 0 / 0.5);">
-    <iframe src="https://www.youtube.com/embed/xf9e3c-nMRA?rel=0" title="Trailer de Stardew Valley" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen loading="lazy" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe>
-  </div>
-</div>
+{% include youtube-embed.html id="xf9e3c-nMRA" title="Trailer de Stardew Valley" %}
 
 [Stardew Valley](https://store.steampowered.com/app/413150/Stardew_Valley/) fue creado por **una sola persona**: Eric Barone, conocido como ConcernedApe. Él programó el juego, dibujó los gráficos, compuso la música y escribió los diálogos. Trabajó en el proyecto durante **cuatro años** antes de publicarlo en 2016. No tenía estudio, no tenía empleados, no tenía inversores. Era un tipo haciendo un juego en su casa. El juego vendió millones de copias y se convirtió en uno de los títulos más exitosos de la década. Nadie discute que Stardew Valley es un juego indie.
 
@@ -75,11 +67,7 @@ El problema empezó cuando juegos que no se parecían en nada a estos empezaron 
 
 En diciembre de 2023, [Dave the Diver](https://store.steampowered.com/app/1868140/DAVE_THE_DIVER/) ganó el premio a **Mejor Juego Independiente** en **The Game Awards**, la ceremonia de premios más mediática de la industria del videojuego.
 
-<div class="my-12">
-  <div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden; max-width: 100%; border-radius: 1rem; box-shadow: 0 20px 25px -5px rgb(0 0 0 / 0.5);">
-    <iframe src="https://www.youtube.com/embed/p85VHMpE0to?rel=0" title="Trailer de Dave the Diver" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen loading="lazy" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe>
-  </div>
-</div>
+{% include youtube-embed.html id="p85VHMpE0to" title="Trailer de Dave the Diver" %}
 
 Dave the Diver es un juego encantador. El jugador alterna entre bucear durante el día para pescar y gestionar un restaurante de sushi por la noche. Es divertido, está bien hecho y tuvo un éxito comercial enorme. Hasta ahí, todo bien.
 
@@ -105,11 +93,7 @@ El problema con esta definición es evidente: deja fuera a juegos publicados por
 
 ## Clair Obscur: Expedition 33 y la elasticidad del término
 
-<div class="my-12">
-  <div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden; max-width: 100%; border-radius: 1rem; box-shadow: 0 20px 25px -5px rgb(0 0 0 / 0.5);">
-    <iframe src="https://www.youtube.com/embed/oecZmlLXqXk?rel=0" title="Trailer de Clair Obscur: Expedition 33" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen loading="lazy" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe>
-  </div>
-</div>
+{% include youtube-embed.html id="oecZmlLXqXk" title="Trailer de Clair Obscur: Expedition 33" %}
 
 [Clair Obscur: Expedition 33](https://store.steampowered.com/app/1903340/Clair_Obscur_Expedition_33/) es uno de los juegos más esperados del momento. Un RPG por turnos con un apartado visual impresionante, construido en Unreal Engine 5, con captura de movimiento y un nivel de producción que a primera vista resulta indistinguible de un juego AAA.
 

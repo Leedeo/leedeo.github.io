@@ -9,7 +9,7 @@ thumbnail: "/assets/img/posts/que-es-un-game-dev.webp"
 excerpt: "Si alguna vez has jugado a un videojuego y te has preguntado quién diseña los niveles o escribe el código, la respuesta corta es: un game dev. Pero la realidad es mucho más profunda. Una guía sobre roles, la diferencia entre estudios AAA e indies, y cómo dar tus primeros pasos con motores como Godot."
 video:
   id: "3ifj5q95qdk"
-  title: "¿Por dónde Empezar a Crear Videojuegos?"
+  title: "¿Por dónde empezar a crear Videojuegos?"
   description: "Guía práctica para empezar en el desarrollo de videojuegos: qué motor elegir, cómo estructurar tu aprendizaje y los primeros pasos reales."
   upload_date: "2024-06-18"
   duration: "PT9M54S" # Formato ISO 8601
@@ -75,18 +75,7 @@ Los motores más utilizados hoy son Unity, Unreal Engine y Godot. Los dos primer
 
 Si quieres entender exactamente qué pasos dar para empezar, en el siguiente vídeo lo explico con más detalle:
 
-<div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden; max-width: 100%; border-radius: 1rem; box-shadow: 0 20px 25px -5px rgb(0 0 0 / 0.5); border: 1px solid rgba(255,255,255,0.1); margin-top: 2rem; margin-bottom: 2rem;">
-  <iframe 
-    src="https://www.youtube.com/embed/3ifj5q95qdk?si=f51FaIcnYYvHo5Np&rel=0" 
-    title="Cómo empezar a crear videojuegos" 
-    frameborder="0" 
-    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
-    referrerpolicy="strict-origin-when-cross-origin" 
-    allowfullscreen 
-    loading="lazy" 
-    style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;">
-  </iframe>
-</div>
+{% include youtube-embed.html id="3ifj5q95qdk" title="¿Por dónde empezar a crear Videojuegos?" %}
 
 Si después de ver el vídeo quieres dar el siguiente paso y aprender a crear videojuegos con Godot desde cero, tienes mi curso gratuito disponible aquí abajo.
 

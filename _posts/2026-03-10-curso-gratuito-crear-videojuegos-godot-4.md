@@ -9,7 +9,7 @@ thumbnail: "/assets/img/posts/curso-godot-4-gratis.webp"
 excerpt: "Aprender a hacer videojuegos nunca ha sido tan accesible como ahora. Descubre este curso gratuito y en español para dominar Godot 4 desde cero."
 video:
   id: "L3pFEk1HPCQ"
-  title: "Curso Godot 4 desde Cero [01] - Instalar, Configurar y Renderizadores"
+  title: "Curso Godot 4 desde Cero [01] Instalar y Configurar"
   description: "Primer capítulo del curso de introducción a Godot 4. Aprende a descargar, instalar y configurar el motor desde cero."
   upload_date: "2023-03-06"
   duration: "PT6M27S" # Formato ISO 8601
@@ -19,16 +19,11 @@ Aprender a hacer videojuegos nunca ha sido tan accesible como ahora, y Godot Eng
 
 He preparado una guía completa, gratuita y en español para aprender Godot 4 desde cero. Sin rodeos, sin prerequisitos de programación avanzada, y sin que tengas que pagar nada para empezar.
 
-<div class="my-12">
-  <p class="text-slate-400 italic mb-6 text-center max-w-2xl mx-auto">"Si estás listo para empezar a programar y crear tus propios videojuegos paso a paso, aquí tienes la primera lección del curso completo de Godot 4:"</p>
-  <div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden; max-width: 100%; border-radius: 1rem; box-shadow: 0 20px 25px -5px rgb(0 0 0 / 0.5);">
-    <iframe src="https://www.youtube.com/embed/L3pFEk1HPCQ?rel=0" title="Curso Básico de Godot 4" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen loading="lazy" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe>
-  </div>
-</div>
+{% include youtube-embed.html id="L3pFEk1HPCQ" title="Curso Godot 4 desde cero [01] Cómo Instalar y Configurar" %}
 
 <div class="text-center mt-8 mb-16">
-  <a href="https://www.youtube.com/playlist?list=PL5PTqiCIVoiVyA2qed1NE4uKejXEWM60e" target="_blank" rel="noopener" class="btn-primary inline-flex items-center gap-3 bg-violet-600 hover:bg-violet-500 text-white px-8 py-4 rounded-2xl font-bold transition-all text-lg shadow-lg shadow-violet-500/25 hover:shadow-violet-500/40 hover:scale-105">
-    Ver la lista de reproducción completa en YouTube <i class="fas fa-external-link-alt text-sm opacity-80"></i>
+  <a href="https://www.youtube.com/playlist?list=PL5PTqiCIVoiVyA2qed1NE4uKejXEWM60e" target="_blank" rel="noopener" class="btn-primary text-lg px-10 py-4">
+    Curso Completo de Godot 4 en Español <i class="fas fa-external-link-alt text-sm opacity-80"></i>
   </a>
 </div>
 
@@ -73,4 +68,3 @@ El momento importa. Godot está en un punto de madurez en el que tiene las herra
 Además, la tendencia de la industria indie hacia motores más independientes y sostenibles no es coyuntural. Después de lo que ocurrió con Unity, muchos estudios han replanteado su dependencia de motores propietarios. Godot no es solo una alternativa, es la apuesta de largo plazo de una parte importante del desarrollo independiente.
 
 Si estás pensando en hacer videojuegos, ya sea como hobby o como profesión, aprender Godot 4 ahora es una decisión que tiene mucho sentido. Y si puedes aprenderlo gratis, con un curso en español y estructurado desde cero, mejor todavía.
-

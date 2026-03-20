@@ -9,7 +9,7 @@ thumbnail: "/assets/img/posts/programas-creadores-marketing-indie.webp"
 excerpt: "Descubre por qué los programas de creadores son más efectivos que las campañas puntuales con influencers y cómo un estudio indie puede aprovecharlos para su estrategia de marketing."
 video:
   id: "3ifj5q95qdk"
-  title: "¿Por dónde Empezar a Crear Videojuegos?"
+  title: "¿Por dónde empezar a crear Videojuegos?"
   description: "Guía práctica para empezar en el desarrollo de videojuegos: qué motor elegir, cómo estructurar tu aprendizaje y los primeros pasos reales."
   upload_date: "2024-06-18"
   duration: "PT9M54S" # Formato ISO 8601
@@ -25,11 +25,7 @@ Pero hay otro modelo que lleva años creciendo en silencio y que tiene unas mét
 
 Para entender cómo encaja la creación de contenido con la fase inicial de tu desarrollo, es vital tener una estrategia clara desde el día uno. Aquí tienes una reflexión profunda sobre por dónde empezar realmente:
 
-<div class="my-12">
-  <div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden; max-width: 100%; border-radius: 1rem; box-shadow: 0 20px 25px -5px rgb(0 0 0 / 0.5);">
-    <iframe src="https://www.youtube.com/embed/3ifj5q95qdk?rel=0" title="Cómo crear tu primer videojuego" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen loading="lazy" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe>
-  </div>
-</div>
+{% include youtube-embed.html id="3ifj5q95qdk" title="¿Por dónde empezar a crear Videojuegos?" %}
 
 ---
 

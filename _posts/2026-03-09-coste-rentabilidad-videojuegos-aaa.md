@@ -9,7 +9,7 @@ thumbnail: "/assets/img/posts/coste-videojuegos-aaa.webp"
 excerpt: "Un análisis de la crisis del modelo de desarrollo AAA. Presupuestos de cientos de millones, márgenes irreales y la alternativa indie que está cambiando las reglas del juego."
 video:
   id: "NWosjlLorEU"
-  title: "Por qué aprender Unity o Unreal NO te dará trabajo"
+  title: "Por qué aprender Unity o Unreal no te dará trabajo"
   description: "Análisis honesto sobre la realidad del trabajo en la industria del videojuego: costes, rentabilidad y las expectativas que nadie te cuenta."
   upload_date: "2024-11-12"
   duration: "PT9M41S" # Formato ISO 8601
@@ -21,11 +21,7 @@ Los estudios venden más que nunca, pero los márgenes de beneficio se están es
 
 Antes de desglosar los presupuestos y la crisis del modelo AAA, es fundamental entender cómo esta presión afecta a quienes hacen los juegos. Si te planteas entrar en esta industria con la esperanza de un "trabajo seguro", te recomiendo ver este análisis sobre la realidad laboral del sector antes de continuar la lectura:
 
-<div class="my-12">
-  <div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden; max-width: 100%; border-radius: 1rem; box-shadow: 0 20px 25px -5px rgb(0 0 0 / 0.5);">
-    <iframe src="https://www.youtube.com/embed/NWosjlLorEU?rel=0" title="La mentira sobre trabajar creando videojuegos" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen loading="lazy" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe>
-  </div>
-</div>
+{% include youtube-embed.html id="NWosjlLorEU" title="Por qué aprender Unity o Unreal no te dará trabajo" %}
 
 ---
 
@@ -92,11 +88,3 @@ Lo que probablemente veremos en los próximos años no es el fin de los juegos A
 El problema de fondo es que la industria lleva años creciendo en coste más rápido de lo que crece en audiencia, y en algún momento esa ecuación tiene que reequilibrarse. La pregunta es si ese reequilibrio va a ser ordenado o va a seguir pasando a golpe de cancelaciones y despidos masivos.
 
 Para quien busca crear experiencias sin heredar esta insoportable presión financiera, la lección está clara: **hay una alternativa.** El modelo independiente, el uso de herramientas accesibles y los proyectos de alcances medidos son el refugio natural de la creatividad. Mientras la burbuja AAA lidia con sus contradicciones, el desarrollo puro de videojuegos sigue vivo a escala humana.
-
-<div class="text-center mt-12 mb-8">
-  <a href="https://youtu.be/NWosjlLorEU" target="_blank" rel="noopener" class="btn-primary inline-flex items-center gap-3 bg-violet-600 hover:bg-violet-500 text-white px-8 py-4 rounded-2xl font-bold transition-all text-lg shadow-lg shadow-violet-500/25 hover:shadow-violet-500/40 hover:scale-105">
-    Reflexiona sobre la realidad de la industria <i class="fas fa-external-link-alt text-sm opacity-80"></i>
-  </a>
-</div>
-
-

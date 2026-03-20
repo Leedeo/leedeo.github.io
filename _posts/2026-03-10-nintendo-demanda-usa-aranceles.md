@@ -9,7 +9,7 @@ thumbnail: "/assets/img/posts/nintendo-demanda-aranceles-usa.webp"
 excerpt: "Nintendo of America inicia acciones legales contra el aparato gubernamental de EE.UU. para reclamar la devolución de aranceles millonarios pagados durante la administración Trump."
 video:
   id: "NWosjlLorEU"
-  title: "Por qué aprender Unity o Unreal NO te dará trabajo"
+  title: "Por qué aprender Unity o Unreal no te dará trabajo"
   description: "Análisis honesto sobre la realidad del trabajo en la industria del videojuego: costes, rentabilidad y las expectativas que nadie te cuenta."
   upload_date: "2024-11-12"
   duration: "PT9M41S" # Formato ISO 8601
@@ -33,12 +33,9 @@ Nintendo logró mantener ese precio, pero no sin esfuerzo ni sin advertencias. F
 
 Esa declaración es más significativa de lo que parece. Nintendo no dijo "los aranceles no nos afectan", dijo "de momento los absorbemos porque el lanzamiento es demasiado importante como para arriesgarlo". Es una posición defensiva, no una posición de fuerza.
 
-<div class="my-12">
-  <p class="text-slate-400 italic mb-6 text-center max-w-2xl mx-auto">"Mientras los gigantes corporativos luchan contra las políticas globales, la realidad del sector y el desarrollo de videojuegos está cambiando. De hecho, sobre esta 'otra realidad' hablo en profundidad en este vídeo:"</p>
-  <div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden; max-width: 100%; border-radius: 1rem; box-shadow: 0 20px 25px -5px rgb(0 0 0 / 0.5);">
-    <iframe src="https://www.youtube.com/embed/NWosjlLorEU?rel=0" title="La mentira del trabajo" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen loading="lazy" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe>
-  </div>
-</div>
+<p class="text-slate-400 italic mb-6 text-center max-w-2xl mx-auto">"Mientras los gigantes corporativos luchan contra las políticas globales, la realidad del sector y el desarrollo de videojuegos está cambiando. De hecho, sobre esta 'otra realidad' hablo en profundidad en este vídeo:"</p>
+
+{% include youtube-embed.html id="NWosjlLorEU" title="Por qué aprender Unity o Unreal no te dará trabajo" %}
 
 ## Lo que hay detrás de la demanda
 
@@ -49,5 +46,3 @@ Más allá de los tecnicismos legales, lo que Nintendo está haciendo es intenta
 El resultado de esta demanda, y de las otras mil que la acompañan, dependerá en buena medida de cómo interpreten los tribunales los límites de los poderes ejecutivos en materia comercial. Es un debate que va mucho más allá de los videojuegos, pero que tiene consecuencias muy concretas para una industria que depende de cadenas de suministro globales y márgenes que, como ya hemos visto, no son tan amplios como cabría esperar.
 
 Por ahora, Nintendo ha confirmado la existencia de la demanda pero ha declinado hacer más comentarios. Lo que sí está claro es que la compañía no tiene intención de asumir ese coste sin pelear por recuperarlo.
-
-

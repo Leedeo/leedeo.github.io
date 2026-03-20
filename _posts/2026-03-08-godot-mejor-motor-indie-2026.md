@@ -9,7 +9,7 @@ thumbnail: "/assets/img/posts/godot-mejor-motor-indie.webp"
 excerpt: "Analizo las razones de peso por las que Godot Engine se ha convertido en la herramienta estándar para el desarrollo independiente en 2026."
 video:
   id: "L3pFEk1HPCQ"
-  title: "Curso Godot 4 desde Cero [01] - Instalar, Configurar y Renderizadores"
+  title: "Curso Godot 4 desde Cero [01] Instalar y Configurar"
   description: "Primer capítulo del curso de introducción a Godot 4. Aprende a descargar, instalar y configurar el motor desde cero."
   upload_date: "2023-03-06"
   duration: "PT6M27S" # Formato ISO 8601
@@ -75,10 +75,12 @@ Hace tres años decir que Godot tenía buen soporte en español era optimista. E
 
 Si quieres ver cómo se traduce toda esta teoría en un flujo de trabajo real con el motor, aquí tienes la primera sesión de mi formación:
 
-<div class="my-12">
-  <div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden; max-width: 100%; border-radius: 1rem; box-shadow: 0 20px 25px -5px rgb(0 0 0 / 0.5);">
-    <iframe src="https://www.youtube.com/embed/L3pFEk1HPCQ?rel=0" title="Empezar con Godot 4" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen loading="lazy" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe>
-  </div>
+{% include youtube-embed.html id="L3pFEk1HPCQ" title="Curso Godot 4 desde cero [01] Cómo Instalar y Configurar" %}
+
+<div class="text-center mt-8 mb-16">
+  <a href="https://www.youtube.com/playlist?list=PL5PTqiCIVoiVyA2qed1NE4uKejXEWM60e" target="_blank" rel="noopener" class="btn-primary text-lg px-10 py-4">
+    Curso Completo de Godot 4 en Español <i class="fas fa-external-link-alt text-sm opacity-80"></i>
+  </a>
 </div>
 
 ---
@@ -92,11 +94,3 @@ La honestidad es parte del análisis técnico. Godot en 2026 tiene áreas donde 
 *   **Ecosistema de assets:** La Asset Library oficial es más pequeña que la de Unity Asset Store. Para ciertos recursos (shaders avanzados, sistemas de IA complejos), la oferta es menor.
 
 Para el **desarrollador indie promedio**, ninguna de estas limitaciones es un problema real. Pero es importante saberlas.
-
-<div class="text-center mt-12 mb-8">
-  <a href="https://www.youtube.com/playlist?list=PL5PTqiCIVoiVyA2qed1NE4uKejXEWM60e" target="_blank" rel="noopener" class="btn-primary inline-flex items-center gap-3 bg-violet-600 hover:bg-violet-500 text-white px-8 py-4 rounded-2xl font-bold transition-all text-lg shadow-lg shadow-violet-500/25 hover:shadow-violet-500/40 hover:scale-105">
-    Ver el Curso de Godot 4 Completo <i class="fas fa-external-link-alt text-sm opacity-80"></i>
-  </a>
-</div>
-
-

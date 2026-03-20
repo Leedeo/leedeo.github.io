@@ -10,7 +10,7 @@ thumbnail: /assets/img/posts/generos-videojuegos-rentables-indie.webp
 excerpt: "Si estás pensando en hacer tu primer juego, o en el próximo después de uno que no funcionó como esperabas, en algún momento te has hecho esta pregunta: ¿qué tipo de juego tiene más posibilidades de funcionar?"
 video:
   id: "3ifj5q95qdk"
-  title: "¿Por dónde Empezar a Crear Videojuegos?"
+  title: "¿Por dónde empezar a crear Videojuegos?"
   description: "Guía práctica para empezar en el desarrollo de videojuegos: qué motor elegir, cómo estructurar tu aprendizaje y los primeros pasos reales."
   upload_date: "2024-06-18"
   duration: "PT9M54S" # Formato ISO 8601
@@ -22,18 +22,7 @@ La respuesta honesta es que no existe una garantía en ningún género. Pero sí
 
 De hecho, antes de sumergirnos en los números duros y los porcentajes de Steam, si este es tu primer intento en el mundo del desarrollo, quizás tu mayor barrera no sea el género, sino saber cómo dar los primeros pasos sin abrumarte. Si estás en ese punto exacto del camino, este es el lugar correcto por donde empezar:
 
-<div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden; max-width: 100%; border-radius: 1rem; box-shadow: 0 20px 25px -5px rgb(0 0 0 / 0.5); border: 1px solid rgba(255,255,255,0.1); margin-top: 2.5rem; margin-bottom: 3.5rem;">
-  <iframe 
-    src="https://www.youtube.com/embed/3ifj5q95qdk?si=aIBbCdOWIttF26SK&rel=0" 
-    title="Por dónde empezar para crear videojuegos" 
-    frameborder="0" 
-    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
-    referrerpolicy="strict-origin-when-cross-origin" 
-    allowfullscreen 
-    loading="lazy" 
-    style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;">
-  </iframe>
-</div>
+{% include youtube-embed.html id="3ifj5q95qdk" title="¿Por dónde empezar a crear Videojuegos?" %}
 
 Este artículo no está basado en intuiciones ni en qué juegos están de moda en Twitter. Está construido a partir de análisis de miles de juegos lanzados en Steam entre 2022 y 2024, informes de VG Insights, GameDiscoverCo y estudios independientes de mercado. Algunos de los resultados van a sorprender. Otros van a confirmar lo que ya sospechaban.
 

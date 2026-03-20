@@ -10,7 +10,7 @@ thumbnail: /assets/img/posts/cuanto-gana-un-desarrollador-de-videojuegos-indie.w
 excerpt: "Si estás pensando en hacer un videojuego y publicarlo, en algún momento te has preguntado lo mismo que se pregunta prácticamente todo el mundo antes de dar el salto: ¿cuánto dinero puedo ganar con esto?"
 video:
   id: "3ifj5q95qdk"
-  title: "¿Por dónde Empezar a Crear Videojuegos?"
+  title: "¿Por dónde empezar a crear Videojuegos?"
   description: "Guía práctica para empezar en el desarrollo de videojuegos: qué motor elegir, cómo estructurar tu aprendizaje y los primeros pasos reales."
   upload_date: "2024-06-18"
   duration: "PT9M54S" # Formato ISO 8601
@@ -24,18 +24,7 @@ Este artículo va a darte cifras reales, desglosadas por plataforma, con casos c
 
 Pero antes de marearte con números, estadísticas y porcentajes de conversión de plataformas, hay una verdad innegable: las cifras de ventas dan absolutamente igual si primero no aprendes a terminar y publicar tu juego sin perder la cabeza en el intento. Si es tu primera vez buscando hacer un juego, esto es, de lejos, lo más importante que vas a ver hoy para arrancar con el pie derecho:
 
-<div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden; max-width: 100%; border-radius: 1rem; box-shadow: 0 20px 25px -5px rgb(0 0 0 / 0.5); border: 1px solid rgba(255,255,255,0.1); margin-top: 2.5rem; margin-bottom: 3.5rem;">
-  <iframe 
-    src="https://www.youtube.com/embed/3ifj5q95qdk?si=AAu3UXPskis-wiMZ&rel=0" 
-    title="Cómo empezar a crear videojuegos" 
-    frameborder="0" 
-    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
-    referrerpolicy="strict-origin-when-cross-origin" 
-    allowfullscreen 
-    loading="lazy" 
-    style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;">
-  </iframe>
-</div>
+{% include youtube-embed.html id="3ifj5q95qdk" title="¿Por dónde empezar a crear Videojuegos?" %}
 
 Una vez que ya sabemos de lo que hablo al momento de arrancar y terminar proyectos, ahora sí, hablemos de dinero y del ecosistema donde vamos a competir.
 

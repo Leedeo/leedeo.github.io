@@ -9,7 +9,7 @@ thumbnail: "/assets/img/posts/que-es-defold-engine-2026.webp"
 excerpt: "Descubre qué es Defold, el motor de videojuegos gratuito y sin regalías impulsado por la fundación detrás de Candy Crush. Especialista en 2D, web y móvil."
 video:
   id: "3ifj5q95qdk"
-  title: "¿Por dónde Empezar a Crear Videojuegos?"
+  title: "¿Por dónde empezar a crear Videojuegos?"
   description: "Guía práctica para empezar en el desarrollo de videojuegos: qué motor elegir, cómo estructurar tu aprendizaje y los primeros pasos reales."
   upload_date: "2024-06-18"
   duration: "PT9M54S" # Formato ISO 8601
@@ -23,17 +23,7 @@ Para quien no esté familiarizado con el término, un motor de videojuegos es el
 
 Si todavía no tienes del todo claro qué base tecnológica o motor de videojuegos escoger para dar tus primeros pasos en esta industria, te recomiendo hacer una pequeña pausa y ver esta guía fundamental que preparé en el canal sobre **por dónde debes empezar** para no frustrarte en el intento:
 
-<div class="my-12">
-  <div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden; max-width: 100%; border-radius: 1rem; box-shadow: 0 20px 25px -5px rgb(0 0 0 / 0.5);">
-    <iframe src="https://www.youtube.com/embed/3ifj5q95qdk?rel=0" title="Por dónde empezar a crear videojuegos" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen loading="lazy" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe>
-  </div>
-</div>
-
-<div class="text-center mt-12 mb-16">
-  <a href="https://youtu.be/3ifj5q95qdk" target="_blank" rel="noopener" class="btn-primary inline-flex items-center justify-center gap-3 bg-violet-600 hover:bg-violet-500 text-white px-8 py-4 rounded-2xl font-bold transition-all text-lg shadow-lg shadow-violet-500/25 hover:shadow-violet-500/40 hover:scale-105">
-    Ver en YouTube: Por Dónde Empezar <i class="fab fa-youtube text-lg opacity-90"></i>
-  </a>
-</div>
+{% include youtube-embed.html id="3ifj5q95qdk" title="¿Por dónde empezar a crear Videojuegos?" %}
 
 ---
 
@@ -133,11 +123,7 @@ Es un terreno donde este motor no solo compite: tiene una presencia que muchos m
 
 ## Juegos hechos con Defold
 
-<div class="my-12">
-  <div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden; max-width: 100%; border-radius: 1rem; box-shadow: 0 20px 25px -5px rgb(0 0 0 / 0.5);">
-    <iframe src="https://www.youtube.com/embed/LiS5bPE5yJI?rel=0" title="Defold Engine Showreel" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen loading="lazy" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe>
-  </div>
-</div>
+{% include youtube-embed.html id="LiS5bPE5yJI" title="Defold Engine Showreel" %}
 
 El catálogo de juegos hechos con Defold tiene una particularidad que lo diferencia de lo que se suele ver con otros motores: su fuerte está en el terreno **móvil** y en los **juegos de navegador**, más que en los títulos de PC o consola que suelen acaparar titulares en la prensa especializada.
 

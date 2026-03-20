@@ -10,7 +10,7 @@ excerpt: >-
   El abandono de los videojuegos por parte de los jugadores no es pereza ni falta de atención, es un fenómeno complejo impulsado por la edad de la audiencia, la saturación del mercado, el tamaño del "backlog" y el diseño de los propios títulos AAA y Live Service.
 video:
   id: "3ifj5q95qdk"
-  title: "¿Por dónde Empezar a Crear Videojuegos?"
+  title: "¿Por dónde empezar a crear Videojuegos?"
   description: "Guía práctica para empezar en el desarrollo de videojuegos: qué motor elegir, cómo estructurar tu aprendizaje y los primeros pasos reales."
   upload_date: "2024-06-18"
   duration: "PT9M54S" # Formato ISO 8601
@@ -44,18 +44,7 @@ No es una cuestión de pereza ni de falta de dedicación. Es una cuestión de ar
 
 Precisamente por esto, muchos adultos con poco tiempo libre están descubriendo que, en lugar de frustrarse intentando terminar un juego inabarcable de 80 horas a cuentagotas, resulta mucho más reconfortante y estimulante invertir esas pequeñas ventanas de tiempo en **aprender a construir sus propios micromundos**. Si alguna vez te has planteado dar ese salto de consumidor pasivo a creador activo, aquí te explico exactamente por dónde empezar:
 
-<div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden; max-width: 100%; border-radius: 1rem; box-shadow: 0 20px 25px -5px rgb(0 0 0 / 0.5); border: 1px solid rgba(255,255,255,0.1); margin-top: 2rem; margin-bottom: 2rem;">
-  <iframe 
-    src="https://www.youtube.com/embed/3ifj5q95qdk?si=Iqs7kKIaMJlBZ3mN&rel=0" 
-    title="Cómo empezar a crear videojuegos" 
-    frameborder="0" 
-    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
-    referrerpolicy="strict-origin-when-cross-origin" 
-    allowfullscreen 
-    loading="lazy" 
-    style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;">
-  </iframe>
-</div>
+{% include youtube-embed.html id="3ifj5q95qdk" title="¿Por dónde empezar a crear Videojuegos?" %}
 
 ## El mercado se ha vuelto absurdo
 

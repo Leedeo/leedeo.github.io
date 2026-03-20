@@ -9,7 +9,7 @@ thumbnail: "/assets/img/posts/cine-videojuegos-influencia.webp"
 excerpt: "Exploramos la fascinante relación entre el séptimo arte y el entretenimiento interactivo. De las cinemáticas de los 90 a la producción virtual moderna."
 video:
   id: "0h_F-gHSeM0"
-  title: "Juegos Indie vs AAA: La Verdadera Diferencia"
+  title: "Juegos Indie vs AAA: La verdadera diferencia"
   description: "Qué diferencia realmente a un juego indie de uno AAA: presupuesto, distribución, libertad creativa y el modelo de negocio detrás de cada uno."
   upload_date: "2025-10-19"
   duration: "PT5M2S" # Formato ISO 8601
@@ -27,11 +27,7 @@ Esta es esa historia.
 
 Antes de sumergirnos en la evolución técnica, es fundamental entender en qué punto se encuentra la industria hoy. El cine y los videojuegos no solo comparten talento, sino también presupuestos astronómicos. En este vídeo de mi canal secundario, **Leedeo Station**, analizo precisamente esa brecha entre los proyectos independientes y las superproducciones que hoy miran de tú a tú a Hollywood:
 
-<div class="my-12">
-  <div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden; max-width: 100%; border-radius: 1rem; box-shadow: 0 20px 25px -5px rgb(0 0 0 / 0.5);">
-    <iframe src="https://www.youtube.com/embed/0h_F-gHSeM0?rel=0" title="INDIE vs AAA: La verdadera diferencia" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen loading="lazy" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe>
-  </div>
-</div>
+{% include youtube-embed.html id="0h_F-gHSeM0" title="Juegos Indie vs AAA: La verdadera diferencia" %}
 
 ---
 
@@ -140,11 +136,7 @@ Durante décadas, la influencia fue en una sola dirección: el cine influía en 
 
 ### Unreal Engine en la producción audiovisual
 
-<div class="my-12">
-  <div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden; max-width: 100%; border-radius: 1rem; box-shadow: 0 20px 25px -5px rgb(0 0 0 / 0.5);">
-    <iframe src="https://www.youtube.com/embed/PVc-w1MY5aI?rel=0" title="Unreal Engine en el CES 2026" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen loading="lazy" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe>
-  </div>
-</div>
+{% include youtube-embed.html id="PVc-w1MY5aI" title="Unreal Engine en el CES 2026" %}
 
 **[Unreal Engine](https://www.unrealengine.com/)**, el motor de videojuegos creado por Epic Games, es posiblemente el ejemplo más claro de esta inversión.
 

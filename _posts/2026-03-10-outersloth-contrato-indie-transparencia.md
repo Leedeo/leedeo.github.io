@@ -9,7 +9,7 @@ thumbnail: "/assets/img/posts/outersloth-transparencia-indie.webp"
 excerpt: "Innersloth, creadores de Among Us, rompen el secretismo de la industria publicando su contrato estándar de financiación para juegos independientes."
 video:
   id: "L3pFEk1HPCQ"
-  title: "Curso Godot 4 desde Cero [01] - Instalar, Configurar y Renderizadores"
+  title: "Curso Godot 4 desde Cero [01] Instalar y Configurar"
   description: "Primer capítulo del curso de introducción a Godot 4. Aprende a descargar, instalar y configurar el motor desde cero."
   upload_date: "2023-03-06"
   duration: "PT6M27S" # Formato ISO 8601
@@ -23,16 +23,11 @@ En una industria donde los contratos entre estudios y financiadores rara vez ven
 
 El esquema de Outersloth es un modelo de recoup y revenue share: mientras el proyecto no ha recuperado la inversión inicial, Outersloth se queda con el 50% de los ingresos. Una vez que se recupera esa inversión, el porcentaje baja al 15%. El contrato cubre todas las plataformas independientemente de en cuáles se haya financiado el desarrollo, con el argumento de que si Outersloth está haciendo posible que el juego exista, es razonable que participe en los ingresos de versiones posteriores en otras plataformas.
 
-<div class="my-12">
-  <p class="text-slate-400 italic mb-6 text-center max-w-2xl mx-auto">"La transparencia y el apoyo mutuo son la base de esta nueva era indie. Si quieres formar parte de ella creando tus propios proyectos con herramientas libres, este es el mejor punto de partida:"</p>
-  <div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden; max-width: 100%; border-radius: 1rem; box-shadow: 0 20px 25px -5px rgb(0 0 0 / 0.5);">
-    <iframe src="https://www.youtube.com/embed/L3pFEk1HPCQ?rel=0" title="Curso Básico de Godot 4" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen loading="lazy" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe>
-  </div>
-</div>
+{% include youtube-embed.html id="L3pFEk1HPCQ" title="Curso Godot 4 desde cero [01] Cómo Instalar y Configurar" %}
 
 <div class="text-center mt-8 mb-16">
-  <a href="https://www.youtube.com/playlist?list=PL5PTqiCIVoiVyA2qed1NE4uKejXEWM60e" target="_blank" rel="noopener" class="btn-primary inline-flex items-center gap-3 bg-violet-600 hover:bg-violet-500 text-white px-8 py-4 rounded-2xl font-bold transition-all text-lg shadow-lg shadow-violet-500/25 hover:shadow-violet-500/40 hover:scale-105">
-    Fórmate profesionalmente con mi Curso de Godot 4 <i class="fas fa-external-link-alt text-sm opacity-80"></i>
+  <a href="https://www.youtube.com/playlist?list=PL5PTqiCIVoiVyA2qed1NE4uKejXEWM60e" target="_blank" rel="noopener" class="btn-primary text-lg px-10 py-4">
+    Curso Completo de Godot 4 en Español <i class="fas fa-external-link-alt text-sm opacity-80"></i>
   </a>
 </div>
 
@@ -61,5 +56,3 @@ En octubre de 2024, Outersloth amplió su base de financiación con nuevos socio
 No están solos en este enfoque. Pocketpair, los creadores de Palworld, también abrieron su propio brazo de financiación poco después de su éxito viral. Kinetic Games, detrás de Phasmophobia, hizo lo mismo. Hay un patrón aquí: estudios que tuvieron un éxito inesperado y decidieron usarlo para intentar mejorar las condiciones del sector en lugar de simplemente beneficiarse de ellas.
 
 Si el objetivo de publicar el contrato era generar conversación, ya está funcionando. Si el objetivo era que otras compañías adoptaran condiciones similares, eso tardará más en verse. Pero el hecho de que exista un documento público al que un desarrollador puede señalar y decirle a un publisher "esto es lo que Outersloth ofrece, ¿qué me ofreces tú?" ya cambia ligeramente la dinámica de negociación. A veces la transparencia funciona así, no como un cambio inmediato sino como un punto de referencia que desplaza gradualmente lo que se considera aceptable.
-
-

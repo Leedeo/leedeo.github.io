@@ -9,7 +9,7 @@ thumbnail: "/assets/img/posts/ia-videojuegos-democratizacion.webp"
 excerpt: "La IA ha eliminado las barreras técnicas para crear un videojuego. Pero poder hacer un juego y saber hacer un buen juego siguen siendo cosas radicalmente distintas. Las consecuencias de confundirlas."
 video:
   id: "3ifj5q95qdk"
-  title: "¿Por dónde Empezar a Crear Videojuegos?"
+  title: "¿Por dónde empezar a crear Videojuegos?"
   description: "Guía práctica para empezar en el desarrollo de videojuegos: qué motor elegir, cómo estructurar tu aprendizaje y los primeros pasos reales."
   upload_date: "2024-06-18"
   duration: "PT9M54S" # Formato ISO 8601
@@ -39,11 +39,7 @@ Cuando alguien con veinte años de experiencia en diseño de juegos usa una IA p
 
 Si estás empezando desde cero y quieres entender realmente el proceso antes de delegar nada en una IA, por aquí tienes un punto de partida:
 
-<div class="my-12">
-  <div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden; max-width: 100%; border-radius: 1rem; box-shadow: 0 20px 25px -5px rgb(0 0 0 / 0.5);">
-    <iframe src="https://www.youtube.com/embed/3ifj5q95qdk?rel=0" title="¿Por dónde Empezar a Crear Videojuegos?" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen loading="lazy" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe>
-  </div>
-</div>
+{% include youtube-embed.html id="3ifj5q95qdk" title="¿Por dónde empezar a crear Videojuegos?" %}
 
 ## El problema que ya existía antes de la IA
 

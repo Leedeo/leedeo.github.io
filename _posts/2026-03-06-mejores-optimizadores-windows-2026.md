@@ -109,5 +109,3 @@ La filosofía es opuesta a la de las grandes suites: nada de interfaces vistosas
 | **Wise Care 365** | ❌ | Freemium | Arranque lento, HDD |
 | **Glary Utilities** | ❌ | Freemium | Suite completa "todo en uno" |
 | **Leedeo Cleaner** | ✅ | Gratis | Reparar sistema corrupto |
-
-

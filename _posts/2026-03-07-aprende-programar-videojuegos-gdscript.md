@@ -9,7 +9,7 @@ thumbnail: "/assets/img/posts/aprender-programar-gdscript.webp"
 excerpt: "¿Quieres aprender a programar pero el código te parece imposible? Descubre por qué GDScript en Godot 4 es la forma más rápida, sencilla y lógica de crear tus propios juegos."
 video:
   id: "x9N1gw2qWEQ"
-  title: "Curso Godot 4 desde Cero [04] - Aprende a Programar (GDScript)"
+  title: "Curso Godot 4 desde Cero [04] Aprende a Programar con GDScript"
   description: "Introducción práctica a GDScript, el lenguaje de programación de Godot Engine, pensado para quienes quieren empezar a crear videojuegos."
   upload_date: "2023-03-24"
   duration: "PT16M31S" # Formato ISO 8601
@@ -99,10 +99,12 @@ En esa sesión habrás programado física, input del usuario y movimiento de per
 
 Para ver este proceso en vídeo desde el primer momento:
 
-<div class="my-12">
-  <div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden; max-width: 100%; border-radius: 1rem; box-shadow: 0 20px 25px -5px rgb(0 0 0 / 0.5);">
-    <iframe src="https://www.youtube.com/embed/x9N1gw2qWEQ?rel=0" title="Aprende GDScript desde cero" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen loading="lazy" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe>
-  </div>
+{% include youtube-embed.html id="x9N1gw2qWEQ" title="Curso Godot 4 desde cero [04] Aprende a programar con GDScript" %}
+
+<div class="text-center mt-8 mb-16">
+  <a href="https://www.youtube.com/playlist?list=PL5PTqiCIVoiVyA2qed1NE4uKejXEWM60e" target="_blank" rel="noopener" class="btn-primary text-lg px-10 py-4">
+    Curso Completo de Godot 4 en Español <i class="fas fa-external-link-alt text-sm opacity-80"></i>
+  </a>
 </div>
 
 ---
@@ -113,11 +115,3 @@ Una vez que tengas soltura con GDScript, tienes dos caminos naturales de crecimi
 
 *   **C# en Godot:** Si quieres tipos estrictos, mayor rendimiento o ya vienes de Unity, Godot soporta C# de forma nativa. El conocimiento de GDScript te habrá dado la comprensión del motor que necesitas para el salto.
 *   **GDExtension (C++ y Rust):** Para módulos de alto rendimiento específicos, Godot permite extender el motor directamente con código nativo. Es para casos avanzados, pero poder llegar hasta ese nivel desde GDScript demuestra que el techo del ecosistema es muy alto.
-
-<div class="text-center mt-12 mb-8">
-  <a href="https://www.youtube.com/playlist?list=PL5PTqiCIVoiVyA2qed1NE4uKejXEWM60e" target="_blank" rel="noopener" class="btn-primary inline-flex items-center gap-3 bg-violet-600 hover:bg-violet-500 text-white px-8 py-4 rounded-2xl font-bold transition-all text-lg shadow-lg shadow-violet-500/25 hover:shadow-violet-500/40 hover:scale-105">
-    Ver el Curso Completo de Godot 4 <i class="fas fa-external-link-alt text-sm opacity-80"></i>
-  </a>
-</div>
-
-
