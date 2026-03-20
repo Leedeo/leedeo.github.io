@@ -18,6 +18,9 @@
     function closeBanner(value) {
         localStorage.setItem('cookie_consent', value);
         banner.classList.add('translate-y-full');
+        if (value === 'accepted' && typeof loadGA === 'function') {
+            loadGA();
+        }
     }
 
     if (acceptBtn) acceptBtn.addEventListener('click', function () { closeBanner('accepted'); });
