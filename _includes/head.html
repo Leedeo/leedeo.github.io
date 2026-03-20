@@ -4,6 +4,11 @@
 <!-- SEO -->
 {% seo %}
 
+{% if page.thumbnail and page.image == nil %}
+<meta property="og:image" content="{{ page.thumbnail | absolute_url }}">
+<meta name="twitter:image" content="{{ page.thumbnail | absolute_url }}">
+{% endif %}
+
 <!-- Content Security Policy
      script-src: sin 'unsafe-inline' (todos los scripts son archivos externos)
      script-src-attr: 'none' (no quedan onclick/onload inline)

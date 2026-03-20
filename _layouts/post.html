@@ -4,6 +4,9 @@
 <head>
     {% include head.html %}
 
+    {% assign post_author = site.data.authors[page.author] %}
+    {% unless post_author %}{% assign post_author = site.data.authors['javo'] %}{% endunless %}
+
     {% if page.video %}
     <script type="application/ld+json">
     {
@@ -24,6 +27,60 @@
     }
     </script>
     {% endif %}
+
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "BlogPosting",
+      "headline": "{{ page.title | escape }}",
+      "description": "{{ page.description | default: page.excerpt | strip_html | truncate: 200 | escape }}",
+      "image": "{{ page.thumbnail | default: page.image | absolute_url }}",
+      "url": "{{ page.url | absolute_url }}",
+      "datePublished": "{{ page.date | date_to_xmlschema }}",
+      "dateModified": "{{ page.last_modified_at | default: page.date | date_to_xmlschema }}",
+      "author": {
+        "@type": "Person",
+        "name": "{{ post_author.name | escape }}",
+        "url": "{{ site.url }}/about/"
+      },
+      "publisher": {
+        "@type": "Organization",
+        "name": "Leedeo Studio",
+        "url": "{{ site.url }}"
+      },
+      "mainEntityOfPage": {
+        "@type": "WebPage",
+        "@id": "{{ page.url | absolute_url }}"
+      }
+    }
+    </script>
+
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Inicio",
+          "item": "{{ site.url }}"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "Blog",
+          "item": "{{ site.url }}/blog/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 3,
+          "name": "{{ page.title | escape }}",
+          "item": "{{ page.url | absolute_url }}"
+        }
+      ]
+    }
+    </script>
 </head>
 
 <body class="selection:bg-violet-500/30">
@@ -48,7 +105,6 @@
                     {% assign months = "enero,febrero,marzo,abril,mayo,junio,julio,agosto,septiembre,octubre,noviembre,diciembre" | split: "," %}
                     {% assign month_index = page.date | date: "%m" | plus: 0 | minus: 1 %}
                     {% assign month_es = months[month_index] %}
-                    {% assign post_author = site.data.authors[page.author] %}
                     {% unless post_author %}{% assign post_author = site.data.authors['javo'] %}{% endunless %}
                     <img src="{{ post_author.avatar }}" alt="{{ post_author.name }}" class="inline-block w-5 h-5 rounded-full border border-violet-300/70 object-cover align-middle mr-1" width="20" height="20">
                     <span class="text-white">{{ post_author.name }}</span>
