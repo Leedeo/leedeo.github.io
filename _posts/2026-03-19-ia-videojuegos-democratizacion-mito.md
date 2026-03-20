@@ -1,12 +1,16 @@
 ---
 layout: post
 author: javo
-categories: [Industria]
-tags: [gamedev, industria, mercado, tecnología, indie, aaa]
-title: "El mito de la democratización: cuando «cualquiera puede hacer un juego» no es tan buena noticia como parece"
 date: 2026-03-19 07:38:51 +0100
 thumbnail: "/assets/img/posts/ia-videojuegos-democratizacion.webp"
+
+title: "El mito de la democratización: cuando «cualquiera puede hacer un juego» no es tan buena noticia como parece"
+description: "Que cualquiera pueda hacer un juego con IA no significa que cualquiera pueda hacer un buen juego. Las consecuencias reales de eliminar las barreras técnicas sin democratizar el criterio creativo."
 excerpt: "La IA ha eliminado las barreras técnicas para crear un videojuego. Pero poder hacer un juego y saber hacer un buen juego siguen siendo cosas radicalmente distintas. Las consecuencias de confundirlas."
+
+categories: [Industria]
+tags: [gamedev, industria, mercado, tecnología, indie, aaa]
+
 video:
   id: "3ifj5q95qdk"
   title: "¿Por dónde empezar a crear Videojuegos?"

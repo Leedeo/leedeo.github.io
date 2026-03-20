@@ -1,12 +1,16 @@
 ---
 layout: post
 author: javo
-categories: [Industria]
-tags: [gamedev, tecnología, industria, mercado]
-title: "Cine y videojuegos: la historia de una influencia mutua que transformó ambas industrias"
 date: 2026-03-16 08:47:37 +0100
 thumbnail: "/assets/img/posts/cine-videojuegos-influencia.webp"
+
+title: "Cine y videojuegos: la historia de una influencia mutua que transformó ambas industrias"
+description: "Cómo el cine influyó en los videojuegos durante décadas y cómo Unreal Engine acabó siendo la herramienta de producción de The Mandalorian. La historia completa de una influencia mutua."
 excerpt: "Exploramos la fascinante relación entre el séptimo arte y el entretenimiento interactivo. De las cinemáticas de los 90 a la producción virtual moderna."
+
+categories: [Industria]
+tags: [gamedev, tecnología, industria, mercado]
+
 video:
   id: "0h_F-gHSeM0"
   title: "Juegos Indie vs AAA: La verdadera diferencia"

@@ -1,13 +1,16 @@
 ---
 layout: post
 author: javo
-categories: [Industria]
-tags: [gamedev, mercado, industria, aprendizaje]
-title: "¿Por qué la mayoría de jugadores nunca termina los videojuegos? La respuesta es más compleja de lo que parece"
 date: 2026-03-11 07:57:34 +0100
 thumbnail: "/assets/img/posts/jugadores-no-terminan-juegos.webp"
-excerpt: >-
-  El abandono de los videojuegos por parte de los jugadores no es pereza ni falta de atención, es un fenómeno complejo impulsado por la edad de la audiencia, la saturación del mercado, el tamaño del "backlog" y el diseño de los propios títulos AAA y Live Service.
+
+title: "¿Por qué la mayoría de jugadores nunca termina los videojuegos? La respuesta es más compleja de lo que parece"
+description: "Por qué entre el 60% y el 85% de los jugadores no termina los juegos que compra: el papel de la edad, el backlog, el diseño de los AAA y los juegos live service en el abandono masivo."
+excerpt: "El abandono de los videojuegos por parte de los jugadores no es pereza ni falta de atención, es un fenómeno complejo impulsado por la edad de la audiencia, la saturación del mercado, el tamaño del backlog y el diseño de los propios títulos AAA y Live Service."
+
+categories: [Industria]
+tags: [gamedev, mercado, industria, aprendizaje]
+
 video:
   id: "3ifj5q95qdk"
   title: "¿Por dónde empezar a crear Videojuegos?"

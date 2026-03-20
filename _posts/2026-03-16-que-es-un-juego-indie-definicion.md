@@ -1,12 +1,16 @@
 ---
 layout: post
 author: javo
-categories: [Industria]
-tags: [gamedev, indie, aaa, mercado, industria]
-title: "¿Qué es un juego indie? La pregunta que la industria del videojuego no sabe responder"
 date: 2026-03-16 07:51:03 +0100
 thumbnail: "/assets/img/posts/que-es-un-juego-indie.webp"
+
+title: "¿Qué es un juego indie? La pregunta que la industria del videojuego no sabe responder"
+description: "La etiqueta indie está perdiendo su significado: desde Dave the Diver de Nexon hasta estudios con cientos de empleados. Por qué la industria necesita mejores categorías y qué consecuencias tiene."
 excerpt: "Parece una pregunta sencilla, pero hoy es un terreno pantanoso. Analizamos por qué la etiqueta independiente está perdiendo su significado original."
+
+categories: [Industria]
+tags: [gamedev, indie, aaa, mercado, industria]
+
 video:
   id: "0h_F-gHSeM0"
   title: "Juegos Indie vs AAA: La verdadera diferencia"

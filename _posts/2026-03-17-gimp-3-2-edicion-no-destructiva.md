@@ -1,12 +1,16 @@
 ---
 layout: post
 author: javo
-title: "GIMP 3.2: la edición no destructiva llega (por fin) al editor de imagen libre más conocido del mundo"
 date: 2026-03-17 08:52:16 +0100
+thumbnail: "/assets/img/posts/gimp-3-2-edicion-no-destructiva.webp"
+
+title: "GIMP 3.2: la edición no destructiva llega (por fin) al editor de imagen libre más conocido del mundo"
+description: "GIMP 3.2 incorpora por fin la edición no destructiva tras tres décadas de espera. Qué cambia, qué sigue sin cambiar y si ya es una alternativa real a Photoshop para flujos de trabajo profesionales."
+excerpt: "GIMP 3.2 marca un hito histórico tras tres décadas de espera: la llegada de la edición no destructiva (NDE). Analizamos por qué este cambio es vital para flujos de trabajo profesionales."
+
 categories: [Software]
 tags: [software libre, software, tutorial, tecnología]
-thumbnail: "/assets/img/posts/gimp-3-2-edicion-no-destructiva.webp"
-excerpt: "GIMP 3.2 marca un hito histórico tras tres décadas de espera: la llegada de la edición no destructiva (NDE). Analizamos por qué este cambio es vital para flujos de trabajo profesionales."
+
 video:
   id: "bslPe_Y43es"
   title: "Tutorial de GIMP, Edición de imagen libre"

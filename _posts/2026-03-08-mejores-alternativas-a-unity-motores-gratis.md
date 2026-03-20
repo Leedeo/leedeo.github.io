@@ -1,12 +1,16 @@
 ---
 layout: post
 author: javo
-title: "¿Cuáles son las mejores alternativas a Unity? Motores gratis y open-source para 2026"
-categories: [Industria, Software]
-tags: [motores, unity, gamedev, software libre, tecnología]
 date: 2026-03-08 08:43:44 +0100
 thumbnail: "/assets/img/posts/mejores-motores-videojuegos-gratis.webp"
+
+title: "¿Cuáles son las mejores alternativas a Unity? Motores gratis y open-source para 2026"
+description: "Los mejores motores de videojuegos gratuitos y open source como alternativa a Unity en 2026: Godot, Unreal, Stride, Flax, GDevelop y más, con análisis de licencias y casos de uso."
 excerpt: "Unity ha cambiado, y el mercado también. Si estás buscando un un nuevo motor de videojuegos, descubre estas alternativas gratuitas y de código abierto que te ofrecen potencia, control y soberanía sobre tus juegos."
+
+categories: [Industria, Software]
+tags: [motores, unity, gamedev, software libre, tecnología]
+
 video:
   id: "WzSrFVa36Lg"
   title: "Top 9 Motores de Juegos Gratis"

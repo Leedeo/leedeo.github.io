@@ -1,12 +1,16 @@
 ---
 layout: post
 author: javo
-categories: [Godot, Formación]
-tags: [godot, gamedev, aprendizaje, tutorial, principiantes, indie]
-title: "Curso gratuito para crear videojuegos con Godot Engine 4"
 date: 2026-03-10 08:12:28 +0100
 thumbnail: "/assets/img/posts/curso-godot-4-gratis.webp"
+
+title: "Curso gratuito para crear videojuegos con Godot Engine 4"
+description: "Curso gratuito y en español para aprender a crear videojuegos con Godot 4 desde cero: por qué elegirlo frente a Unity o Unreal, qué ofrece el motor y cómo empezar hoy mismo."
 excerpt: "Aprender a hacer videojuegos nunca ha sido tan accesible como ahora. Descubre este curso gratuito y en español para dominar Godot 4 desde cero."
+
+categories: [Godot, Formación]
+tags: [godot, gamedev, aprendizaje, tutorial, principiantes, indie]
+
 video:
   id: "L3pFEk1HPCQ"
   title: "Curso Godot 4 desde Cero [01] Instalar y Configurar"

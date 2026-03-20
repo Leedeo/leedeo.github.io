@@ -1,12 +1,16 @@
 ---
 layout: post
 author: javo
-categories: [Noticias, Industria]
-tags: [noticias, industria, mercado, tecnología]
-title: "Nintendo demanda al gobierno de Estados Unidos por los aranceles de Trump"
 date: 2026-03-10 08:33:25 +0100
 thumbnail: "/assets/img/posts/nintendo-demanda-aranceles-usa.webp"
+
+title: "Nintendo demanda al gobierno de Estados Unidos por los aranceles de Trump"
+description: "Nintendo demanda al gobierno de EE.UU. para recuperar aranceles millonarios pagados en 2025. Cómo la política comercial de Trump afectó al lanzamiento de Switch 2 y al sector."
 excerpt: "Nintendo of America inicia acciones legales contra el aparato gubernamental de EE.UU. para reclamar la devolución de aranceles millonarios pagados durante la administración Trump."
+
+categories: [Noticias, Industria]
+tags: [noticias, industria, mercado, tecnología]
+
 video:
   id: "NWosjlLorEU"
   title: "Por qué aprender Unity o Unreal no te dará trabajo"

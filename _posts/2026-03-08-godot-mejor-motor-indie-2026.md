@@ -1,12 +1,16 @@
 ---
 layout: post
 author: javo
+date: 2026-03-08 07:31:26 +0100
+
+thumbnail: "/assets/img/posts/godot-mejor-motor-indie.webp"
+title: "¿Por qué Godot es el mejor motor para indies en 2026? Realismo y eficiencia"
+description: "Por qué Godot Engine es la herramienta estándar para el desarrollo indie en 2026: gobernanza abierta sin regalías, ciclo de iteración rápido y ecosistema maduro en español."
+excerpt: "Analizo las razones de peso por las que Godot Engine se ha convertido en la herramienta estándar para el desarrollo independiente en 2026."
+
 categories: [Godot, Industria]
 tags: [godot, gamedev, tecnología, indie, mercado]
-title: "¿Por qué Godot es el mejor motor para indies en 2026? Realismo y eficiencia"
-date: 2026-03-08 07:31:26 +0100
-thumbnail: "/assets/img/posts/godot-mejor-motor-indie.webp"
-excerpt: "Analizo las razones de peso por las que Godot Engine se ha convertido en la herramienta estándar para el desarrollo independiente en 2026."
+
 video:
   id: "L3pFEk1HPCQ"
   title: "Curso Godot 4 desde Cero [01] Instalar y Configurar"

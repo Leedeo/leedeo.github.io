@@ -1,13 +1,16 @@
 ---
 layout: post
 author: javo
-title: "¿Es posible vivir de los videojuegos en 2026? La respuesta que nadie quiere escuchar"
-description: "Datos reales sobre el mercado laboral y las posibilidades económicas del desarrollo indie y freelance en 2026. Una mirada honesta y sin falsas esperanzas."
 date: 2026-03-12 08:23:43 +0100
+thumbnail: "/assets/img/posts/vivir-de-hacer-videojuegos.webp"
+
+title: "¿Es posible vivir de los videojuegos en 2026? La respuesta que nadie quiere escuchar"
+description: "Análisis sin filtros sobre los tres caminos reales para vivir del desarrollo de videojuegos en 2026: empleo en la industria, freelance e indie. Datos, probabilidades y qué esperar de cada uno."
+excerpt: "Voy a empezar con la respuesta corta: sí, es posible. Y ahora voy a dedicar el resto del artículo a explicar por qué esa respuesta, sin contexto, es casi completamente inútil."
+
 categories: [Industria]
 tags: [gamedev, indie, mercado, industria, rentabilidad]
-thumbnail: /assets/img/posts/vivir-de-hacer-videojuegos.webp
-excerpt: "Voy a empezar con la respuesta corta: sí, es posible. Y ahora voy a dedicar el resto del artículo a explicar por qué esa respuesta, sin contexto, es casi completamente inútil."
+
 video:
   id: "NWosjlLorEU"
   title: "Por qué aprender Unity o Unreal no te dará trabajo"

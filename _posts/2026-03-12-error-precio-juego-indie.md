@@ -1,13 +1,16 @@
 ---
 layout: post
 author: javo
-title: "El error que comete casi todo desarrollador indie al poner precio a su juego"
-description: "Descubre por qué poner un precio bajo a tu primer videojuego indie hunde tus ventas en Steam. Datos reales sobre psicología de precios, visibilidad y conversiones."
 date: 2026-03-12 08:38:36 +0100
+thumbnail: "/assets/img/posts/error-precio-videojuego-indie.webp"
+
+title: "El error que comete casi todo desarrollador indie al poner precio a su juego"
+description: "Poner un precio bajo no es jugar sobre seguro: los datos muestran que reduce la visibilidad y la percepción de calidad. Guía con cifras reales sobre cómo fijar el precio de un juego indie."
+excerpt: "Hay una conversación que Chris Charla, director del programa ID@Xbox de Microsoft y alguien que lleva más de una década trabajando con cientos de desarrolladores independientes, repite casi cada vez que habla con estudios indie."
+
 categories: [Industria]
 tags: [steam, indie, gamedev, marketing, mercado]
-thumbnail: /assets/img/posts/error-precio-videojuego-indie.webp
-excerpt: "Hay una conversación que Chris Charla, director del programa ID@Xbox de Microsoft y alguien que lleva más de una década trabajando con cientos de desarrolladores independientes, repite casi cada vez que habla con estudios indie."
+
 video:
   id: "3ifj5q95qdk"
   title: "¿Por dónde empezar a crear Videojuegos?"

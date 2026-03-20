@@ -1,12 +1,16 @@
 ---
 layout: post
 author: javo
-categories: [Formación]
-tags: [gamedev, indie, aprendizaje, guía, principiantes]
-title: "¿Cómo empezar a crear videojuegos desde cero? Guía técnica y mental"
 date: 2026-03-08 07:18:11 +0100
 thumbnail: "/assets/img/posts/guia-crear-videojuegos.webp"
+
+title: "¿Cómo empezar a crear videojuegos desde cero? Guía técnica y mental"
+description: "Guía técnica y mental para empezar a crear videojuegos desde cero: cómo elegir motor, estructurar tu primer proyecto y evitar los errores que hacen abandonar a la mayoría."
 excerpt: "Olvida los consejos vacíos. Aprender a crear videojuegos requiere una estrategia técnica y mental. Te explico por dónde empezar realmente y qué pasos seguir."
+
+categories: [Formación]
+tags: [gamedev, indie, aprendizaje, guía, principiantes]
+
 video:
   id: "L3pFEk1HPCQ"
   title: "Curso Godot 4 desde Cero [01] Instalar y Configurar"

@@ -1,12 +1,16 @@
 ---
 layout: post
 author: javo
-categories: [Industria]
-tags: [indie, marketing, gamedev, mercado, industria]
-title: "Programas de creadores en videojuegos: qué son, por qué funcionan y cómo puede usarlos un indie"
 date: 2026-03-13 08:20:20 +0100
 thumbnail: "/assets/img/posts/programas-creadores-marketing-indie.webp"
+
+title: "Programas de creadores en videojuegos: qué son, por qué funcionan y cómo puede usarlos un indie"
+description: "Qué son los programas de creadores en videojuegos, por qué generan un 80% más de contenido que las campañas puntuales y cómo puede usarlos un estudio indie con presupuesto limitado."
 excerpt: "Descubre por qué los programas de creadores son más efectivos que las campañas puntuales con influencers y cómo un estudio indie puede aprovecharlos para su estrategia de marketing."
+
+categories: [Industria]
+tags: [indie, marketing, gamedev, mercado, industria]
+
 video:
   id: "3ifj5q95qdk"
   title: "¿Por dónde empezar a crear Videojuegos?"

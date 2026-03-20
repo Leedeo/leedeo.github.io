@@ -1,12 +1,16 @@
 ---
 layout: post
 author: javo
-categories: [Godot, Noticias]
-tags: [godot, gamedev, indie, steam, noticias]
-title: "Slay the Spire 2 arrasa en Steam con casi 575.000 jugadores simultáneos, y lo ha hecho con Godot"
 date: 2026-03-10 08:25:11 +0100
 thumbnail: "/assets/img/posts/slay-the-spire-2-key-art.webp"
+
+title: "Slay the Spire 2 arrasa en Steam con casi 575.000 jugadores simultáneos, y lo ha hecho con Godot"
+description: "Slay the Spire 2 roza los 575.000 jugadores simultáneos en Steam tras migrar de Unity a Godot. El caso más visible de que el motor open source ya sostiene proyectos de primer nivel."
 excerpt: "Slay the Spire 2 entra en Early Access batiendo récords y demostrando que la migración de Unity a Godot Engine ha sido un éxito técnico y comercial masivo."
+
+categories: [Godot, Noticias]
+tags: [godot, gamedev, indie, steam, noticias]
+
 video:
   id: "L3pFEk1HPCQ"
   title: "Curso Godot 4 desde Cero [01] Instalar y Configurar"

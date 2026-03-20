@@ -1,12 +1,16 @@
 ---
 layout: post
 author: javo
-categories: [Industria]
-tags: [gamedev, indie, mercado, marketing, steam, rentabilidad]
-title: "¿Por qué el 90% de los juegos indie fracasan en el primer mes?"
 date: 2026-03-19 08:54:17 +0100
 thumbnail: "/assets/img/posts/por-que-fracasan-juegos-indie.webp"
+
+title: "¿Por qué el 90% de los juegos indie fracasan en el primer mes?"
+description: "La tasa de fracaso del desarrollo indie supera el 90%. No es mala suerte: es falta de marketing, identidad visual débil, precios mal calculados y expectativas desconectadas del mercado real."
 excerpt: "La tasa de fracaso comercial del desarrollo indie se sitúa entre el 85% y el 95%. Rara vez es por razones técnicas. Aquí están los motivos reales, sin edulcorar."
+
+categories: [Industria]
+tags: [gamedev, indie, mercado, marketing, steam, rentabilidad]
+
 video:
   id: "3ifj5q95qdk"
   title: "¿Por dónde empezar a crear Videojuegos?"

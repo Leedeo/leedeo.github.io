@@ -1,12 +1,16 @@
 ---
 layout: post
 author: javo
-categories: [Educación]
-tags: [educación, gamedev, aprendizaje, tecnología]
-title: "¿Fomentan los videojuegos la creatividad? La ciencia detrás del pensamiento interactivo"
 date: 2026-03-09 08:39:32 +0100
 thumbnail: "/assets/img/posts/videojuegos-creatividad-infantil.webp"
+
+title: "¿Fomentan los videojuegos la creatividad? La ciencia detrás del pensamiento interactivo"
+description: "La ciencia detrás del videojuego como herramienta creativa: juego simbólico, evidencias de 2025 y por qué pasar de jugador a creador es el salto educativo que nadie explica bien."
 excerpt: "Un análisis del impacto de los entornos interactivos en el desarrollo cognitivo. Del juego simbólico a la creación técnica: por qué el videojuego es el nuevo laboratorio creativo."
+
+categories: [Educación]
+tags: [educación, gamedev, aprendizaje, tecnología]
+
 video:
   id: "L3pFEk1HPCQ"
   title: "Curso Godot 4 desde Cero [01] Instalar y Configurar"
