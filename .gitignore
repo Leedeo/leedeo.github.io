@@ -10,21 +10,20 @@ Gemfile.lock
 # Tools & Compilers
 node_modules/
 tailwindcss.exe
-compilar-tailwind.bat
 tailwind.config.js
 assets/css/tailwind-input.css
+
+# Herramientas locales (scripts de utilidad)
+_herramientas/
 
 # Editor & IDEs
 .vscode/
 .ruby-lsp/
 
-# Local Scripts & Diagnostics
-start_server.bat
-ver_tags.bat
+# Local Diagnostics
 jekyll_log.txt
 *.json
 !package.json
 !package-lock.json
 !search.json
 config_*.txt
-subsetear-fontawesome.bat

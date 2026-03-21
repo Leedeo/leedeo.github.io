@@ -37,7 +37,6 @@ body {
 }
 
 /* --- Componentes Reutilizables --- */
-/* --- Componentes Reutilizables --- */
 .glass-card {
   background: var(--bg-card);
   backdrop-filter: blur(16px);
@@ -623,7 +622,7 @@ main.hero-gradient {
 }
 
 .policy-content pre::before {
-  content: "GDScript";
+  content: "Código";
   position: absolute;
   top: 0.6rem;
   right: 1rem;
