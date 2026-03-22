@@ -63,8 +63,8 @@ description: >-
                         <h2 class="text-xl font-bold mb-4 text-white hover:text-violet-400 transition-colors">
                             <a href="{{ post.url | relative_url }}">{{ post.title }}</a>
                         </h2>
-                        <p class="text-slate-400 text-sm leading-relaxed mb-6 flex-grow line-clamp-3">
-                            {{ post.excerpt | strip_html | truncate: 120 }}
+                        <p class="text-slate-400 text-sm leading-relaxed mb-6 flex-grow">
+                            {{ post.excerpt | strip_html | truncate: 140 }}
                         </p>
                         <a href="{{ post.url | relative_url }}"
                             class="text-xs font-black uppercase tracking-[0.2em] text-white flex items-center gap-2 group/link">

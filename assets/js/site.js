@@ -23,3 +23,12 @@ document.querySelectorAll('.policy-content table').forEach(function (table) {
     table.parentNode.insertBefore(wrapper, table);
     wrapper.appendChild(table);
 });
+
+// YouTube Facades (Bypass strict CSP inline handler restrictions)
+document.querySelectorAll('.js-youtube-facade').forEach(function (el) {
+    el.addEventListener('click', function () {
+        var id = this.getAttribute('data-id');
+        var title = this.getAttribute('data-title');
+        this.innerHTML = '<iframe class="absolute inset-0 w-full h-full" src="https://www.youtube.com/embed/' + id + '?autoplay=1&rel=0" title="' + title + '" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>';
+    });
+});
