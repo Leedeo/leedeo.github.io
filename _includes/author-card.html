@@ -14,8 +14,7 @@
         <div class="flex flex-wrap items-center justify-between gap-3 mb-1">
             <div>
                 <span class="text-[10px] font-bold uppercase tracking-[0.2em] text-violet-400">Escrito por</span>
-                <a href="{{ '/about/' | relative_url }}" class="ml-2 text-white font-bold text-[11px] uppercase tracking-widest hover:text-violet-400 transition-colors">{{ post_author.name }}</a>
-                <span class="ml-2 text-slate-600 text-[10px] font-bold uppercase tracking-widest">{{ post_author.title }}</span>
+                <a href="{{ '/about/' | relative_url }}" class="text-white font-bold text-[11px] uppercase tracking-widest hover:text-violet-400 transition-colors">{{ post_author.name }}</a>
             </div>
             <div class="flex items-center gap-2">
                 {% if post_author.youtube %}
