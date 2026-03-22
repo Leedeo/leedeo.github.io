@@ -141,7 +141,7 @@
 
             <div
                 class="static-glass-card rounded-[3rem] p-8 md:py-16 md:px-24 lg:px-32 policy-content shadow-2xl border border-white/5 text-slate-300 leading-relaxed text-lg">
-                {{ content }}
+                {{ content | replace: '<img ', '<img loading="lazy" ' }}
 
                 {% if page.comments != false %}
                 <div class="border-t border-white/5 mt-16 pt-12 not-prose">
