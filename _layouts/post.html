@@ -94,9 +94,11 @@
                 {% if page.categories.size > 0 %}
                 <div class="flex justify-center flex-wrap gap-2 mb-4">
                     {% for category in page.categories %}
-                    <span class="bg-violet-600/20 text-violet-400 border border-violet-500/30 px-3 py-1 rounded-full text-xs font-bold uppercase tracking-widest">
+                    {% assign cat_slug = category | downcase | replace: " ", "-" %}
+                    <a href="{{ '/categories/' | append: cat_slug | append: '/' | relative_url }}"
+                       class="bg-violet-600/20 text-violet-400 border border-violet-500/30 px-3 py-1 rounded-full text-xs font-bold uppercase tracking-widest hover:bg-violet-600/40 hover:text-white transition-colors">
                         {{ category }}
-                    </span>
+                    </a>
                     {% endfor %}
                 </div>
                 {% endif %}
@@ -118,7 +120,16 @@
                     {{ page.title }}
                 </h1>
                 
-
+                <!-- Tags de la entrada -->
+                {% if page.tags.size > 0 %}
+                <div class="flex justify-center flex-wrap gap-2 mb-8">
+                    {% for tag in page.tags %}
+                    <a href="{{ '/blog/' | relative_url }}?search={{ tag | url_encode }}" class="bg-white/5 hover:bg-white/10 text-slate-300 border border-white/10 px-4 py-1.5 rounded-xl text-sm font-medium transition-colors">
+                        #{{ tag }}
+                    </a>
+                    {% endfor %}
+                </div>
+                {% endif %}
                 
                 <div class="h-1.5 w-24 bg-violet-500 mx-auto rounded-full"></div>
             </header>
@@ -139,7 +150,8 @@
                     <a href="{{ '/blog/' | relative_url }}" class="text-slate-400 hover:text-violet-400 transition-colors">Blog</a>
                     {% if page.categories.size > 0 %}
                     <i class="fas fa-chevron-right text-slate-600" style="font-size:8px"></i>
-                    <span class="text-violet-400">{{ page.categories.first }}</span>
+                    {% assign cat_slug = page.categories.first | downcase | replace: " ", "-" %}
+                    <a href="{{ '/categories/' | append: cat_slug | append: '/' | relative_url }}" class="text-violet-400 hover:text-violet-300 transition-colors">{{ page.categories.first }}</a>
                     {% endif %}
                 </nav>
 
