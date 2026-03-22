@@ -1,22 +1,23 @@
 ---
 layout: post
 author: javo
-date: 2026-03-19 08:54:17 +0100
+date: 2026-03-19 08:54:17.000000000 +01:00
 thumbnail: "/assets/img/posts/por-que-fracasan-juegos-indie.webp"
-
 title: "¿Por qué el 90% de los juegos indie fracasan en el primer mes?"
-description: "La tasa de fracaso del desarrollo indie supera el 90%. No es mala suerte: es falta de marketing, identidad visual débil, precios mal calculados y expectativas desconectadas del mercado real."
-excerpt: "La tasa de fracaso comercial del desarrollo indie se sitúa entre el 85% y el 95%. Rara vez es por razones técnicas. Aquí están los motivos reales, sin edulcorar."
-
-categories: [Industria]
-tags: [gamedev, indie, mercado, marketing, steam, rentabilidad]
-
+description: 'La tasa de fracaso del desarrollo indie supera el 90%. No es mala suerte:
+  es falta de marketing, identidad visual débil, precios mal calculados y expectativas
+  desconectadas del mercado real.'
+excerpt: La tasa de fracaso comercial del desarrollo indie se sitúa entre el 85% y
+  el 95%. Rara vez es por razones técnicas. Aquí están los motivos reales, sin edulcorar.
+categories:
+- Game Dev
 video:
-  id: "3ifj5q95qdk"
+  id: 3ifj5q95qdk
   title: "¿Por dónde empezar a crear Videojuegos?"
-  description: "Guía práctica para empezar en el desarrollo de videojuegos: qué motor elegir, cómo estructurar tu aprendizaje y los primeros pasos reales."
-  upload_date: "2024-06-18"
-  duration: "PT9M54S" # Formato ISO 8601
+  description: 'Guía práctica para empezar en el desarrollo de videojuegos: qué motor
+    elegir, cómo estructurar tu aprendizaje y los primeros pasos reales.'
+  upload_date: '2024-06-18'
+  duration: PT9M54S
 ---
 
 Hay una estadística que circula por la industria del videojuego y que nadie con experiencia en el sector discute: **la inmensa mayoría de los juegos indie fracasan**. Las cifras exactas varían según la fuente y los criterios que se usen para definir "fracaso", pero las estimaciones más citadas sitúan la tasa de fracaso comercial entre el **85% y el 95%**.

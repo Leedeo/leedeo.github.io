@@ -1,22 +1,26 @@
 ---
 layout: post
 author: javo
-date: 2026-03-11 07:57:34 +0100
+date: 2026-03-11 07:57:34.000000000 +01:00
 thumbnail: "/assets/img/posts/jugadores-no-terminan-juegos.webp"
-
-title: "¿Por qué la mayoría de jugadores nunca termina los videojuegos? La respuesta es más compleja de lo que parece"
-description: "Por qué entre el 60% y el 85% de los jugadores no termina los juegos que compra: el papel de la edad, el backlog, el diseño de los AAA y los juegos live service en el abandono masivo."
-excerpt: "El abandono de los videojuegos por parte de los jugadores no es pereza ni falta de atención, es un fenómeno complejo impulsado por la edad de la audiencia, la saturación del mercado, el tamaño del backlog y el diseño de los propios títulos AAA y Live Service."
-
-categories: [Industria]
-tags: [gamedev, mercado, industria, aprendizaje]
-
+title: "¿Por qué la mayoría de jugadores nunca termina los videojuegos? La respuesta
+  es más compleja de lo que parece"
+description: 'Por qué entre el 60% y el 85% de los jugadores no termina los juegos
+  que compra: el papel de la edad, el backlog, el diseño de los AAA y los juegos live
+  service en el abandono masivo.'
+excerpt: El abandono de los videojuegos por parte de los jugadores no es pereza ni
+  falta de atención, es un fenómeno complejo impulsado por la edad de la audiencia,
+  la saturación del mercado, el tamaño del backlog y el diseño de los propios títulos
+  AAA y Live Service.
+categories:
+- Game Dev
 video:
-  id: "3ifj5q95qdk"
+  id: 3ifj5q95qdk
   title: "¿Por dónde empezar a crear Videojuegos?"
-  description: "Guía práctica para empezar en el desarrollo de videojuegos: qué motor elegir, cómo estructurar tu aprendizaje y los primeros pasos reales."
-  upload_date: "2024-06-18"
-  duration: "PT9M54S" # Formato ISO 8601
+  description: 'Guía práctica para empezar en el desarrollo de videojuegos: qué motor
+    elegir, cómo estructurar tu aprendizaje y los primeros pasos reales.'
+  upload_date: '2024-06-18'
+  duration: PT9M54S
 ---
 
 Piensa en los últimos cinco juegos que compraste. ¿Cuántos terminaste?

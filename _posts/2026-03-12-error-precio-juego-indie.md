@@ -1,22 +1,24 @@
 ---
 layout: post
 author: javo
-date: 2026-03-12 08:38:36 +0100
+date: 2026-03-12 08:38:36.000000000 +01:00
 thumbnail: "/assets/img/posts/error-precio-videojuego-indie.webp"
-
-title: "El error que comete casi todo desarrollador indie al poner precio a su juego"
-description: "Poner un precio bajo no es jugar sobre seguro: los datos muestran que reduce la visibilidad y la percepción de calidad. Guía con cifras reales sobre cómo fijar el precio de un juego indie."
-excerpt: "Hay una conversación que Chris Charla, director del programa ID@Xbox de Microsoft y alguien que lleva más de una década trabajando con cientos de desarrolladores independientes, repite casi cada vez que habla con estudios indie."
-
-categories: [Industria]
-tags: [steam, indie, gamedev, marketing, mercado]
-
+title: El error que comete casi todo desarrollador indie al poner precio a su juego
+description: 'Poner un precio bajo no es jugar sobre seguro: los datos muestran que
+  reduce la visibilidad y la percepción de calidad. Guía con cifras reales sobre cómo
+  fijar el precio de un juego indie.'
+excerpt: Hay una conversación que Chris Charla, director del programa ID@Xbox de Microsoft
+  y alguien que lleva más de una década trabajando con cientos de desarrolladores
+  independientes, repite casi cada vez que habla con estudios indie.
+categories:
+- Game Dev
 video:
-  id: "3ifj5q95qdk"
+  id: 3ifj5q95qdk
   title: "¿Por dónde empezar a crear Videojuegos?"
-  description: "Guía práctica para empezar en el desarrollo de videojuegos: qué motor elegir, cómo estructurar tu aprendizaje y los primeros pasos reales."
-  upload_date: "2024-06-18"
-  duration: "PT9M54S" # Formato ISO 8601
+  description: 'Guía práctica para empezar en el desarrollo de videojuegos: qué motor
+    elegir, cómo estructurar tu aprendizaje y los primeros pasos reales.'
+  upload_date: '2024-06-18'
+  duration: PT9M54S
 ---
 
 Hay una conversación que Chris Charla, director del programa ID@Xbox de Microsoft y alguien que lleva más de una década trabajando con cientos de desarrolladores independientes, repite casi cada vez que habla con estudios indie: la mayoría infravalora su propio trabajo. No un poco. Bastante.

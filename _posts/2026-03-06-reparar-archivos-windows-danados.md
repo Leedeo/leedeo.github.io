@@ -1,15 +1,15 @@
 ---
 layout: post
 author: javo
-date: 2026-03-06 07:27:19 +0100
+date: 2026-03-06 07:27:19.000000000 +01:00
 thumbnail: "/assets/img/posts/reparar-errores-windows.webp"
-
 title: "¿SFC /scannow no funciona? Guía completa para reparar archivos de Windows"
-description: "¿Windows encontró archivos corruptos pero no pudo repararlos? Aprende el orden correcto DISM + SFC para reparar el sistema sin formatear, paso a paso."
-excerpt: "¿Windows encontró archivos corruptos pero no pudo repararlos? Descubre el flujo correcto DISM + SFC para solucionar errores del sistema sin formatear."
-
-categories: [Software]
-tags: [windows, software, tutorial]
+description: "¿Windows encontró archivos corruptos pero no pudo repararlos? Aprende
+  el orden correcto DISM + SFC para reparar el sistema sin formatear, paso a paso."
+excerpt: "¿Windows encontró archivos corruptos pero no pudo repararlos? Descubre el
+  flujo correcto DISM + SFC para solucionar errores del sistema sin formatear."
+categories:
+- Herramientas
 ---
 
 Uno de los errores más frustrantes para cualquier usuario de Windows es ejecutar el comando de reparación y encontrarse con el temido mensaje:

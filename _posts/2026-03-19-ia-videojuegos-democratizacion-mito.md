@@ -1,22 +1,25 @@
 ---
 layout: post
 author: javo
-date: 2026-03-19 07:38:51 +0100
+date: 2026-03-19 07:38:51.000000000 +01:00
 thumbnail: "/assets/img/posts/ia-videojuegos-democratizacion.webp"
-
-title: "El mito de la democratización: cuando «cualquiera puede hacer un juego» no es tan buena noticia como parece"
-description: "Que cualquiera pueda hacer un juego con IA no significa que cualquiera pueda hacer un buen juego. Las consecuencias reales de eliminar las barreras técnicas sin democratizar el criterio creativo."
-excerpt: "La IA ha eliminado las barreras técnicas para crear un videojuego. Pero poder hacer un juego y saber hacer un buen juego siguen siendo cosas radicalmente distintas. Las consecuencias de confundirlas."
-
-categories: [Industria]
-tags: [gamedev, industria, mercado, tecnología, indie, aaa]
-
+title: 'El mito de la democratización: cuando «cualquiera puede hacer un juego» no
+  es tan buena noticia como parece'
+description: Que cualquiera pueda hacer un juego con IA no significa que cualquiera
+  pueda hacer un buen juego. Las consecuencias reales de eliminar las barreras técnicas
+  sin democratizar el criterio creativo.
+excerpt: La IA ha eliminado las barreras técnicas para crear un videojuego. Pero poder
+  hacer un juego y saber hacer un buen juego siguen siendo cosas radicalmente distintas.
+  Las consecuencias de confundirlas.
+categories:
+- Game Dev
 video:
-  id: "3ifj5q95qdk"
+  id: 3ifj5q95qdk
   title: "¿Por dónde empezar a crear Videojuegos?"
-  description: "Guía práctica para empezar en el desarrollo de videojuegos: qué motor elegir, cómo estructurar tu aprendizaje y los primeros pasos reales."
-  upload_date: "2024-06-18"
-  duration: "PT9M54S" # Formato ISO 8601
+  description: 'Guía práctica para empezar en el desarrollo de videojuegos: qué motor
+    elegir, cómo estructurar tu aprendizaje y los primeros pasos reales.'
+  upload_date: '2024-06-18'
+  duration: PT9M54S
 ---
 
 En el [artículo anterior](/blog/2026/03/18/ia-desarrollo-videojuegos-creatividad/) hablamos sobre la IA como herramienta creativa en el desarrollo de videojuegos. Sobre cómo la cámara de fotos, el tractor y la imprenta generaron las mismas resistencias en su momento. Sobre cómo la herramienta no define el resultado, sino la persona que la usa. Todo eso sigue siendo cierto.

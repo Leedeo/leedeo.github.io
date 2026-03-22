@@ -1,22 +1,23 @@
 ---
 layout: post
 author: javo
-date: 2026-03-08 07:18:11 +0100
+date: 2026-03-08 07:18:11.000000000 +01:00
 thumbnail: "/assets/img/posts/guia-crear-videojuegos.webp"
-
 title: "¿Cómo empezar a crear videojuegos desde cero? Guía técnica y mental"
-description: "Guía técnica y mental para empezar a crear videojuegos desde cero: cómo elegir motor, estructurar tu primer proyecto y evitar los errores que hacen abandonar a la mayoría."
-excerpt: "Olvida los consejos vacíos. Aprender a crear videojuegos requiere una estrategia técnica y mental. Te explico por dónde empezar realmente y qué pasos seguir."
-
-categories: [Formación]
-tags: [gamedev, indie, aprendizaje, guía, principiantes]
-
+description: 'Guía técnica y mental para empezar a crear videojuegos desde cero: cómo
+  elegir motor, estructurar tu primer proyecto y evitar los errores que hacen abandonar
+  a la mayoría.'
+excerpt: Olvida los consejos vacíos. Aprender a crear videojuegos requiere una estrategia
+  técnica y mental. Te explico por dónde empezar realmente y qué pasos seguir.
+categories:
+- Game Dev
 video:
-  id: "L3pFEk1HPCQ"
-  title: "Curso Godot 4 desde Cero [01] Instalar y Configurar"
-  description: "Primer capítulo del curso de introducción a Godot 4. Aprende a descargar, instalar y configurar el motor desde cero."
-  upload_date: "2023-03-06"
-  duration: "PT6M27S" # Formato ISO 8601
+  id: L3pFEk1HPCQ
+  title: Curso Godot 4 desde Cero [01] Instalar y Configurar
+  description: Primer capítulo del curso de introducción a Godot 4. Aprende a descargar,
+    instalar y configurar el motor desde cero.
+  upload_date: '2023-03-06'
+  duration: PT6M27S
 ---
 
 Cada día miles de personas se preguntan cómo entrar en el mundo del desarrollo de videojuegos. La respuesta rápida que suele dar internet es "bájate un motor y aprende a programar". Pero si buscas crear algo con alma, algo que realmente funcione y no se quede en un proyecto olvidado en una carpeta, esa respuesta se queda corta. Muy corta.

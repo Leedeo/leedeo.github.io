@@ -1,22 +1,24 @@
 ---
 layout: post
 author: javo
-date: 2026-03-10 08:12:28 +0100
+date: 2026-03-10 08:12:28.000000000 +01:00
 thumbnail: "/assets/img/posts/curso-godot-4-gratis.webp"
-
-title: "Curso gratuito para crear videojuegos con Godot Engine 4"
-description: "Curso gratuito y en español para aprender a crear videojuegos con Godot 4 desde cero: por qué elegirlo frente a Unity o Unreal, qué ofrece el motor y cómo empezar hoy mismo."
-excerpt: "Aprender a hacer videojuegos nunca ha sido tan accesible como ahora. Descubre este curso gratuito y en español para dominar Godot 4 desde cero."
-
-categories: [Godot, Formación]
-tags: [godot, gamedev, aprendizaje, tutorial, principiantes, indie]
-
+title: Curso gratuito para crear videojuegos con Godot Engine 4
+description: 'Curso gratuito y en español para aprender a crear videojuegos con Godot
+  4 desde cero: por qué elegirlo frente a Unity o Unreal, qué ofrece el motor y cómo
+  empezar hoy mismo.'
+excerpt: Aprender a hacer videojuegos nunca ha sido tan accesible como ahora. Descubre
+  este curso gratuito y en español para dominar Godot 4 desde cero.
+categories:
+- Godot
+- Game Dev
 video:
-  id: "L3pFEk1HPCQ"
-  title: "Curso Godot 4 desde Cero [01] Instalar y Configurar"
-  description: "Primer capítulo del curso de introducción a Godot 4. Aprende a descargar, instalar y configurar el motor desde cero."
-  upload_date: "2023-03-06"
-  duration: "PT6M27S" # Formato ISO 8601
+  id: L3pFEk1HPCQ
+  title: Curso Godot 4 desde Cero [01] Instalar y Configurar
+  description: Primer capítulo del curso de introducción a Godot 4. Aprende a descargar,
+    instalar y configurar el motor desde cero.
+  upload_date: '2023-03-06'
+  duration: PT6M27S
 ---
 
 Aprender a hacer videojuegos nunca ha sido tan accesible como ahora, y Godot Engine tiene mucho que ver con eso. Si llevas tiempo queriendo dar el salto al desarrollo de juegos pero no sabes por dónde empezar, o si vienes de otro motor y estás buscando una alternativa más libre y sostenible, este curso es para ti.

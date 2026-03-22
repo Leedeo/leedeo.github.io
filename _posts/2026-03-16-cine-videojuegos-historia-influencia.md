@@ -1,22 +1,24 @@
 ---
 layout: post
 author: javo
-date: 2026-03-16 08:47:37 +0100
+date: 2026-03-16 08:47:37.000000000 +01:00
 thumbnail: "/assets/img/posts/cine-videojuegos-influencia.webp"
-
-title: "Cine y videojuegos: la historia de una influencia mutua que transformó ambas industrias"
-description: "Cómo el cine influyó en los videojuegos durante décadas y cómo Unreal Engine acabó siendo la herramienta de producción de The Mandalorian. La historia completa de una influencia mutua."
-excerpt: "Exploramos la fascinante relación entre el séptimo arte y el entretenimiento interactivo. De las cinemáticas de los 90 a la producción virtual moderna."
-
-categories: [Industria]
-tags: [gamedev, tecnología, industria, mercado]
-
+title: 'Cine y videojuegos: la historia de una influencia mutua que transformó ambas
+  industrias'
+description: Cómo el cine influyó en los videojuegos durante décadas y cómo Unreal
+  Engine acabó siendo la herramienta de producción de The Mandalorian. La historia
+  completa de una influencia mutua.
+excerpt: Exploramos la fascinante relación entre el séptimo arte y el entretenimiento
+  interactivo. De las cinemáticas de los 90 a la producción virtual moderna.
+categories:
+- Game Dev
 video:
-  id: "0h_F-gHSeM0"
-  title: "Juegos Indie vs AAA: La verdadera diferencia"
-  description: "Qué diferencia realmente a un juego indie de uno AAA: presupuesto, distribución, libertad creativa y el modelo de negocio detrás de cada uno."
-  upload_date: "2025-10-19"
-  duration: "PT5M2S" # Formato ISO 8601
+  id: 0h_F-gHSeM0
+  title: 'Juegos Indie vs AAA: La verdadera diferencia'
+  description: 'Qué diferencia realmente a un juego indie de uno AAA: presupuesto,
+    distribución, libertad creativa y el modelo de negocio detrás de cada uno.'
+  upload_date: '2025-10-19'
+  duration: PT5M2S
 ---
 
 Hay una idea que durante décadas se repitió como si fuera una verdad absoluta: los videojuegos y el cine son mundos separados. El cine era arte, cultura, espectáculo. Los videojuegos eran entretenimiento infantil, algo menor. Esa separación, si es que alguna vez fue real, dejó de existir hace mucho tiempo.

@@ -1,22 +1,25 @@
 ---
 layout: post
 author: javo
-date: 2026-03-11 07:27:14 +0100
+date: 2026-03-11 07:27:14.000000000 +01:00
 thumbnail: "/assets/img/posts/generos-videojuegos-rentables-indie.webp"
-
-title: "¿Qué géneros de videojuegos generan más dinero? Guía para el desarrollador indie"
-description: "Análisis de datos reales de Steam 2024: qué géneros generan más ingresos para un desarrollador indie, cuáles están saturados y dónde está la verdadera oportunidad en el mercado actual."
-excerpt: "Si estás pensando en hacer tu primer juego, o en el próximo después de uno que no funcionó como esperabas, en algún momento te has hecho esta pregunta: ¿qué tipo de juego tiene más posibilidades de funcionar?"
-
-categories: [Industria]
-tags: [steam, gamedev, rentabilidad, mercado, industria]
-
+title: "¿Qué géneros de videojuegos generan más dinero? Guía para el desarrollador
+  indie"
+description: 'Análisis de datos reales de Steam 2024: qué géneros generan más ingresos
+  para un desarrollador indie, cuáles están saturados y dónde está la verdadera oportunidad
+  en el mercado actual.'
+excerpt: 'Si estás pensando en hacer tu primer juego, o en el próximo después de uno
+  que no funcionó como esperabas, en algún momento te has hecho esta pregunta: ¿qué
+  tipo de juego tiene más posibilidades de funcionar?'
+categories:
+- Game Dev
 video:
-  id: "3ifj5q95qdk"
+  id: 3ifj5q95qdk
   title: "¿Por dónde empezar a crear Videojuegos?"
-  description: "Guía práctica para empezar en el desarrollo de videojuegos: qué motor elegir, cómo estructurar tu aprendizaje y los primeros pasos reales."
-  upload_date: "2024-06-18"
-  duration: "PT9M54S" # Formato ISO 8601
+  description: 'Guía práctica para empezar en el desarrollo de videojuegos: qué motor
+    elegir, cómo estructurar tu aprendizaje y los primeros pasos reales.'
+  upload_date: '2024-06-18'
+  duration: PT9M54S
 ---
 
 Si estás pensando en hacer tu primer juego, o en el próximo después de uno que no funcionó como esperabas, en algún momento te has hecho esta pregunta: ¿qué tipo de juego tiene más posibilidades de funcionar?

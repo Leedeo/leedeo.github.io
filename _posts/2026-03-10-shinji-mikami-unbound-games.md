@@ -1,22 +1,24 @@
 ---
 layout: post
 author: javo
-date: 2026-03-10 07:12:15 +0100
+date: 2026-03-10 07:12:15.000000000 +01:00
 thumbnail: "/assets/img/posts/shinji-mikami-unbound-games.webp"
-
-title: "Shinji Mikami lleva dos años construyendo en silencio su nuevo estudio AAA, y acaba de salir a la luz"
-description: "El creador de Resident Evil lleva dos años construyendo Unbound Games en silencio: 50 personas, Unreal Engine 5 y la apuesta por calidad AAA con escala indie. Todo lo que se sabe."
-excerpt: "El creador de Resident Evil fundó Unbound Games en 2023, un estudio independiente de 50 personas enfocado en crear nuevas IP con Unreal Engine 5."
-
-categories: [Noticias, Industria]
-tags: [noticias, gamedev, indie, aaa, industria]
-
+title: Shinji Mikami lleva dos años construyendo en silencio su nuevo estudio AAA,
+  y acaba de salir a la luz
+description: 'El creador de Resident Evil lleva dos años construyendo Unbound Games
+  en silencio: 50 personas, Unreal Engine 5 y la apuesta por calidad AAA con escala
+  indie. Todo lo que se sabe.'
+excerpt: El creador de Resident Evil fundó Unbound Games en 2023, un estudio independiente
+  de 50 personas enfocado en crear nuevas IP con Unreal Engine 5.
+categories:
+- Game Dev
 video:
-  id: "3ifj5q95qdk"
+  id: 3ifj5q95qdk
   title: "¿Por dónde empezar a crear Videojuegos?"
-  description: "Guía práctica para empezar en el desarrollo de videojuegos: qué motor elegir, cómo estructurar tu aprendizaje y los primeros pasos reales."
-  upload_date: "2024-06-18"
-  duration: "PT9M54S" # Formato ISO 8601
+  description: 'Guía práctica para empezar en el desarrollo de videojuegos: qué motor
+    elegir, cómo estructurar tu aprendizaje y los primeros pasos reales.'
+  upload_date: '2024-06-18'
+  duration: PT9M54S
 ---
 
 El creador de Resident Evil lleva más tiempo del que muchos pensaban trabajando en su próximo proyecto. Shinji Mikami fundó Unbound Games en mayo de 2023, el estudio lleva operativo casi dos años, y su página web existe desde hace al menos uno, pero ha pasado prácticamente desapercibida hasta hace unos días, cuando empezó a circular ampliamente entre la comunidad.

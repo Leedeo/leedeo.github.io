@@ -1,22 +1,26 @@
 ---
 layout: post
 author: javo
-date: 2026-03-20 09:31:08 +0100
+date: 2026-03-20 09:31:08.000000000 +01:00
 thumbnail: "/assets/img/posts/tirania-motores-videojuegos-unity-unreal.webp"
-
-title: "La tiranía de los motores: ¿eres desarrollador de videojuegos o usuario de una herramienta?"
-description: "Depender de Unity, Unreal o cualquier motor propietario es una decisión con consecuencias reales. El episodio del Runtime Fee de Unity lo dejó claro: las reglas pueden cambiar cuando la empresa quiera."
-excerpt: "¿Sabes desarrollar videojuegos, o sabes usar Unity? No es lo mismo. Cuando tu carrera entera depende de una herramienta que no controlas, no eres un desarrollador independiente. Eres un inquilino."
-
-categories: [Industria, Godot]
-tags: [gamedev, godot, motores, industria, tecnología, aprendizaje]
-
+title: 'La tiranía de los motores: ¿eres desarrollador de videojuegos o usuario de
+  una herramienta?'
+description: 'Depender de Unity, Unreal o cualquier motor propietario es una decisión
+  con consecuencias reales. El episodio del Runtime Fee de Unity lo dejó claro: las
+  reglas pueden cambiar cuando la empresa quiera.'
+excerpt: "¿Sabes desarrollar videojuegos, o sabes usar Unity? No es lo mismo. Cuando
+  tu carrera entera depende de una herramienta que no controlas, no eres un desarrollador
+  independiente. Eres un inquilino."
+categories:
+- Game Dev
+- Godot
 video:
-  id: "NWosjlLorEU"
-  title: "Por qué aprender Unity o Unreal no te dará trabajo"
-  description: "Análisis honesto sobre la realidad del trabajo en la industria del videojuego: costes, rentabilidad y las expectativas que nadie te cuenta."
-  upload_date: "2024-11-12"
-  duration: "PT9M41S" # Formato ISO 8601
+  id: NWosjlLorEU
+  title: Por qué aprender Unity o Unreal no te dará trabajo
+  description: 'Análisis honesto sobre la realidad del trabajo en la industria del
+    videojuego: costes, rentabilidad y las expectativas que nadie te cuenta.'
+  upload_date: '2024-11-12'
+  duration: PT9M41S
 ---
 
 Hay una pregunta que incomoda a mucha gente en el mundo del desarrollo de videojuegos, y precisamente por eso merece hacerse:

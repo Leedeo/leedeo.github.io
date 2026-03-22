@@ -1,22 +1,23 @@
 ---
 layout: post
 author: javo
-date: 2026-03-14 08:48:13 +0100
+date: 2026-03-14 08:48:13.000000000 +01:00
 thumbnail: "/assets/img/posts/que-es-defold-engine-2026.webp"
-
 title: "¿Qué es Defold? El motor de videojuegos gratuito del que casi nadie habla"
-description: "Qué es Defold Engine, el motor gratuito y sin regalías nacido en King que domina los juegos de navegador y móvil. Historia, características, licencia y para qué proyectos encaja mejor."
-excerpt: "Descubre qué es Defold, el motor de videojuegos gratuito y sin regalías impulsado por la fundación detrás de Candy Crush. Especialista en 2D, web y móvil."
-
-categories: [Software]
-tags: [motores, gamedev, indie, tecnología, software libre]
-
+description: Qué es Defold Engine, el motor gratuito y sin regalías nacido en King
+  que domina los juegos de navegador y móvil. Historia, características, licencia
+  y para qué proyectos encaja mejor.
+excerpt: Descubre qué es Defold, el motor de videojuegos gratuito y sin regalías impulsado
+  por la fundación detrás de Candy Crush. Especialista en 2D, web y móvil.
+categories:
+- Game Dev
 video:
-  id: "3ifj5q95qdk"
+  id: 3ifj5q95qdk
   title: "¿Por dónde empezar a crear Videojuegos?"
-  description: "Guía práctica para empezar en el desarrollo de videojuegos: qué motor elegir, cómo estructurar tu aprendizaje y los primeros pasos reales."
-  upload_date: "2024-06-18"
-  duration: "PT9M54S" # Formato ISO 8601
+  description: 'Guía práctica para empezar en el desarrollo de videojuegos: qué motor
+    elegir, cómo estructurar tu aprendizaje y los primeros pasos reales.'
+  upload_date: '2024-06-18'
+  duration: PT9M54S
 ---
 
 Cuando se habla de motores de videojuegos, los nombres que aparecen siempre son los mismos: Unity, Unreal Engine y, más recientemente, Godot. Pero existe otro motor que lleva años funcionando en silencio, que es completamente gratuito, que no cobra regalías y que está detrás de juegos con millones de jugadores en todo el mundo. Se llama **[Defold](https://defold.com/)** y, por alguna razón, casi nadie habla de él. Al menos no en español.

@@ -1,22 +1,24 @@
 ---
 layout: post
 author: javo
-date: 2026-03-16 07:51:03 +0100
+date: 2026-03-16 07:51:03.000000000 +01:00
 thumbnail: "/assets/img/posts/que-es-un-juego-indie.webp"
-
-title: "¿Qué es un juego indie? La pregunta que la industria del videojuego no sabe responder"
-description: "La etiqueta indie está perdiendo su significado: desde Dave the Diver de Nexon hasta estudios con cientos de empleados. Por qué la industria necesita mejores categorías y qué consecuencias tiene."
-excerpt: "Parece una pregunta sencilla, pero hoy es un terreno pantanoso. Analizamos por qué la etiqueta independiente está perdiendo su significado original."
-
-categories: [Industria]
-tags: [gamedev, indie, aaa, mercado, industria]
-
+title: "¿Qué es un juego indie? La pregunta que la industria del videojuego no sabe
+  responder"
+description: 'La etiqueta indie está perdiendo su significado: desde Dave the Diver
+  de Nexon hasta estudios con cientos de empleados. Por qué la industria necesita
+  mejores categorías y qué consecuencias tiene.'
+excerpt: Parece una pregunta sencilla, pero hoy es un terreno pantanoso. Analizamos
+  por qué la etiqueta independiente está perdiendo su significado original.
+categories:
+- Game Dev
 video:
-  id: "0h_F-gHSeM0"
-  title: "Juegos Indie vs AAA: La verdadera diferencia"
-  description: "Qué diferencia realmente a un juego indie de uno AAA: presupuesto, distribución, libertad creativa y el modelo de negocio detrás de cada uno."
-  upload_date: "2025-10-19"
-  duration: "PT5M2S" # Formato ISO 8601
+  id: 0h_F-gHSeM0
+  title: 'Juegos Indie vs AAA: La verdadera diferencia'
+  description: 'Qué diferencia realmente a un juego indie de uno AAA: presupuesto,
+    distribución, libertad creativa y el modelo de negocio detrás de cada uno.'
+  upload_date: '2025-10-19'
+  duration: PT5M2S
 ---
 
 Parece una pregunta sencilla. Cinco palabras: ¿qué es un juego indie? Debería tener una respuesta clara. Y durante un tiempo la tuvo. Pero la industria del videojuego ha crecido tanto, se ha vuelto tan compleja y ha generado tantos modelos de negocio distintos que hoy esa pregunta se ha convertido en un terreno pantanoso donde nadie se pone de acuerdo.

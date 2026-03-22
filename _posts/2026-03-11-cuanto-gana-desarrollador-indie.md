@@ -1,22 +1,25 @@
 ---
 layout: post
 author: javo
-date: 2026-03-11 08:06:48 +0100
+date: 2026-03-11 08:06:48.000000000 +01:00
 thumbnail: "/assets/img/posts/cuanto-gana-un-desarrollador-de-videojuegos-indie.webp"
-
-title: "¿Cuánto gana un desarrollador de videojuegos indie? La verdad que nadie te cuenta"
-description: "Datos reales de Steam y App Store sobre los ingresos de un desarrollador indie en 2024: medianas por plataforma, perfiles según ganancias y por qué el segundo juego siempre vende más."
-excerpt: "Si estás pensando en hacer un videojuego y publicarlo, en algún momento te has preguntado lo mismo que se pregunta prácticamente todo el mundo antes de dar el salto: ¿cuánto dinero puedo ganar con esto?"
-
-categories: [Industria]
-tags: [indie, gamedev, steam, mercado, rentabilidad]
-
+title: "¿Cuánto gana un desarrollador de videojuegos indie? La verdad que nadie te
+  cuenta"
+description: 'Datos reales de Steam y App Store sobre los ingresos de un desarrollador
+  indie en 2024: medianas por plataforma, perfiles según ganancias y por qué el segundo
+  juego siempre vende más.'
+excerpt: 'Si estás pensando en hacer un videojuego y publicarlo, en algún momento
+  te has preguntado lo mismo que se pregunta prácticamente todo el mundo antes de
+  dar el salto: ¿cuánto dinero puedo ganar con esto?'
+categories:
+- Game Dev
 video:
-  id: "3ifj5q95qdk"
+  id: 3ifj5q95qdk
   title: "¿Por dónde empezar a crear Videojuegos?"
-  description: "Guía práctica para empezar en el desarrollo de videojuegos: qué motor elegir, cómo estructurar tu aprendizaje y los primeros pasos reales."
-  upload_date: "2024-06-18"
-  duration: "PT9M54S" # Formato ISO 8601
+  description: 'Guía práctica para empezar en el desarrollo de videojuegos: qué motor
+    elegir, cómo estructurar tu aprendizaje y los primeros pasos reales.'
+  upload_date: '2024-06-18'
+  duration: PT9M54S
 ---
 
 Si estás pensando en hacer un videojuego y publicarlo, en algún momento te has preguntado lo mismo que se pregunta prácticamente todo el mundo antes de dar el salto: ¿cuánto dinero puedo ganar con esto?

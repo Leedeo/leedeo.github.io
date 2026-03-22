@@ -1,22 +1,25 @@
 ---
 layout: post
 author: javo
-date: 2026-03-12 08:23:43 +0100
+date: 2026-03-12 08:23:43.000000000 +01:00
 thumbnail: "/assets/img/posts/vivir-de-hacer-videojuegos.webp"
-
-title: "¿Es posible vivir de los videojuegos en 2026? La respuesta que nadie quiere escuchar"
-description: "Análisis sin filtros sobre los tres caminos reales para vivir del desarrollo de videojuegos en 2026: empleo en la industria, freelance e indie. Datos, probabilidades y qué esperar de cada uno."
-excerpt: "Voy a empezar con la respuesta corta: sí, es posible. Y ahora voy a dedicar el resto del artículo a explicar por qué esa respuesta, sin contexto, es casi completamente inútil."
-
-categories: [Industria]
-tags: [gamedev, indie, mercado, industria, rentabilidad]
-
+title: "¿Es posible vivir de los videojuegos en 2026? La respuesta que nadie quiere
+  escuchar"
+description: 'Análisis sin filtros sobre los tres caminos reales para vivir del desarrollo
+  de videojuegos en 2026: empleo en la industria, freelance e indie. Datos, probabilidades
+  y qué esperar de cada uno.'
+excerpt: 'Voy a empezar con la respuesta corta: sí, es posible. Y ahora voy a dedicar
+  el resto del artículo a explicar por qué esa respuesta, sin contexto, es casi completamente
+  inútil.'
+categories:
+- Game Dev
 video:
-  id: "NWosjlLorEU"
-  title: "Por qué aprender Unity o Unreal no te dará trabajo"
-  description: "Análisis honesto sobre la realidad del trabajo en la industria del videojuego: costes, rentabilidad y las expectativas que nadie te cuenta."
-  upload_date: "2024-11-12"
-  duration: "PT9M41S" # Formato ISO 8601
+  id: NWosjlLorEU
+  title: Por qué aprender Unity o Unreal no te dará trabajo
+  description: 'Análisis honesto sobre la realidad del trabajo en la industria del
+    videojuego: costes, rentabilidad y las expectativas que nadie te cuenta.'
+  upload_date: '2024-11-12'
+  duration: PT9M41S
 ---
 
 Voy a empezar con la respuesta corta: sí, es posible. Y ahora voy a dedicar el resto del artículo a explicar por qué esa respuesta, sin contexto, es casi completamente inútil.

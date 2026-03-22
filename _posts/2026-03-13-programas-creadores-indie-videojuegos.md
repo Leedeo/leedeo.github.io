@@ -1,22 +1,25 @@
 ---
 layout: post
 author: javo
-date: 2026-03-13 08:20:20 +0100
+date: 2026-03-13 08:20:20.000000000 +01:00
 thumbnail: "/assets/img/posts/programas-creadores-marketing-indie.webp"
-
-title: "Programas de creadores en videojuegos: qué son, por qué funcionan y cómo puede usarlos un indie"
-description: "Qué son los programas de creadores en videojuegos, por qué generan un 80% más de contenido que las campañas puntuales y cómo puede usarlos un estudio indie con presupuesto limitado."
-excerpt: "Descubre por qué los programas de creadores son más efectivos que las campañas puntuales con influencers y cómo un estudio indie puede aprovecharlos para su estrategia de marketing."
-
-categories: [Industria]
-tags: [indie, marketing, gamedev, mercado, industria]
-
+title: 'Programas de creadores en videojuegos: qué son, por qué funcionan y cómo puede
+  usarlos un indie'
+description: Qué son los programas de creadores en videojuegos, por qué generan un
+  80% más de contenido que las campañas puntuales y cómo puede usarlos un estudio
+  indie con presupuesto limitado.
+excerpt: Descubre por qué los programas de creadores son más efectivos que las campañas
+  puntuales con influencers y cómo un estudio indie puede aprovecharlos para su estrategia
+  de marketing.
+categories:
+- Game Dev
 video:
-  id: "3ifj5q95qdk"
+  id: 3ifj5q95qdk
   title: "¿Por dónde empezar a crear Videojuegos?"
-  description: "Guía práctica para empezar en el desarrollo de videojuegos: qué motor elegir, cómo estructurar tu aprendizaje y los primeros pasos reales."
-  upload_date: "2024-06-18"
-  duration: "PT9M54S" # Formato ISO 8601
+  description: 'Guía práctica para empezar en el desarrollo de videojuegos: qué motor
+    elegir, cómo estructurar tu aprendizaje y los primeros pasos reales.'
+  upload_date: '2024-06-18'
+  duration: PT9M54S
 ---
 
 Cuando escuchas "marketing con influencers para videojuegos", probablemente imaginas un contrato con un streamer de medio millón de seguidores para que juegue a tu juego durante dos horas a cambio de varios miles de euros. Eso existe, funciona en ciertos contextos, y está completamente fuera del alcance de la mayoría de estudios independientes.

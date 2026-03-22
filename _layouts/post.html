@@ -118,16 +118,7 @@
                     {{ page.title }}
                 </h1>
                 
-                <!-- Tags de la entrada -->
-                {% if page.tags.size > 0 %}
-                <div class="flex justify-center flex-wrap gap-2 mb-8">
-                    {% for tag in page.tags %}
-                    <a href="{{ '/blog/' | relative_url }}?search={{ tag | url_encode }}" class="bg-white/5 hover:bg-white/10 text-slate-300 border border-white/10 px-4 py-1.5 rounded-xl text-sm font-medium transition-colors">
-                        #{{ tag }}
-                    </a>
-                    {% endfor %}
-                </div>
-                {% endif %}
+
                 
                 <div class="h-1.5 w-24 bg-violet-500 mx-auto rounded-full"></div>
             </header>
