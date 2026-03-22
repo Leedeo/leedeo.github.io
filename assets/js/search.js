@@ -50,7 +50,7 @@
         var filtered = posts.filter(function (post) {
             return (post.title.toLowerCase().includes(q) ||
                 (post.excerpt && post.excerpt.toLowerCase().includes(q)) ||
-                (post.tags && post.tags.toLowerCase().includes(q)));
+                (post.categories && post.categories.toLowerCase().includes(q)));
         });
         paginatedPosts.classList.add('hidden');
         searchContainer.classList.remove('hidden');
