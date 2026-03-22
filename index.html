@@ -96,7 +96,7 @@ title: Inicio
   <div class="max-w-7xl mx-auto">
     <div class="text-center mb-20 reveal">
       <h2 id="proyectos-titulo" class="text-4xl md:text-5xl font-extrabold mb-4 uppercase tracking-tighter">Optimización de Windows y <span class="text-violet-500">Juegos Indie</span></h2>
-      <p class="text-slate-500 font-medium">Software gratuito como Leedeo Cleaner diseñado para acelerar tu PC y flujo de trabajo.</p>
+      <p class="text-slate-400 font-medium">Software gratuito como Leedeo Cleaner diseñado para acelerar tu PC y flujo de trabajo.</p>
       <div class="h-1.5 w-24 bg-violet-500 mx-auto rounded-full mt-6"></div>
     </div>
 
@@ -146,7 +146,7 @@ title: Inicio
     <div class="flex flex-col md:flex-row items-start md:items-end justify-between gap-6 mb-16 reveal active">
       <div>
         <h2 id="noticias-titulo" class="text-3xl md:text-4xl font-bold mb-4 uppercase tracking-tight">Últimas <span class="text-violet-500">Publicaciones</span></h2>
-        <p class="text-slate-500 font-medium">Tutoriales, noticias y reflexiones sobre el desarrollo de videojuegos y software independiente.</p>
+        <p class="text-slate-400 font-medium">Tutoriales, noticias y reflexiones sobre el desarrollo de videojuegos y software independiente.</p>
       </div>
       <a href="{{ '/blog/' | relative_url }}" class="btn-outline shrink-0">
         Ver el blog completo <i class="fas fa-arrow-right"></i>
@@ -167,7 +167,7 @@ title: Inicio
             {% assign post_author = site.data.authors[post.author] | default: site.data.authors['javo'] %}
             <img src="{{ post_author.avatar }}" alt="{{ post_author.name }}" class="w-6 h-6 rounded-full object-cover border border-violet-300/70 flex-shrink-0" width="24" height="24" loading="lazy">
             <div>
-              <div class="text-slate-500 text-[10px] font-bold uppercase tracking-widest leading-none">{{ post_author.name }}</div>
+              <div class="text-slate-400 text-[10px] font-bold uppercase tracking-widest leading-none">{{ post_author.name }}</div>
               <div class="text-violet-400 text-[10px] font-bold uppercase tracking-widest leading-none mt-0.5">
                 {% assign months = "enero,febrero,marzo,abril,mayo,junio,julio,agosto,septiembre,octubre,noviembre,diciembre" | split: "," %}
                 {% assign m_idx = post.date | date: "%m" | plus: 0 | minus: 1 %}
@@ -219,7 +219,7 @@ title: Inicio
   <div class="max-w-7xl mx-auto px-6 mb-12 flex flex-col md:flex-row items-center justify-between reveal text-center md:text-left">
     <div class="mb-6 md:mb-0">
       <h2 id="testimonios-titulo" class="text-3xl font-bold mb-2 uppercase tracking-tighter">Voces de la <span class="text-violet-500">Comunidad</span></h2>
-      <p class="text-slate-500">Lo que opinan los creadores que ya forman parte de Leedeo.</p>
+        <p class="text-slate-400">Lo que opinan los creadores que ya forman parte de Leedeo.</p>
     </div>
     <a href="https://www.youtube.com/leedeo" target="_blank" rel="noopener" class="btn-outline shrink-0">
       Ver todos los comentarios <i class="fas fa-external-link-alt"></i>
@@ -245,7 +245,7 @@ title: Inicio
         class="inline-flex items-center gap-4 bg-rose-600 hover:bg-rose-500 text-white px-12 py-6 rounded-2xl text-2xl font-black transition-all hover:scale-105 shadow-2xl shadow-rose-900/40">
         <i class="fas fa-coffee"></i> Invítame a un Ko-fi
       </a>
-      <p class="text-xs text-slate-500 uppercase tracking-widest font-bold">¡Gracias por hacer esto posible!</p>
+      <p class="text-xs text-slate-400 uppercase tracking-widest font-bold">¡Gracias por hacer esto posible!</p>
     </div>
   </div>
 </section>
