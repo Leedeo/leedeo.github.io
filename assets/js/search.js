@@ -29,7 +29,6 @@
             '<div class="flex items-center gap-2 mb-1.5">' +
             '<img src="' + post.authorAvatar + '" alt="' + escapeHtml(post.authorName) + '" class="w-4 h-4 rounded-full object-cover border border-violet-300/70 flex-shrink-0" width="16" height="16" loading="lazy">' +
             '<span class="text-slate-600 text-[10px] font-bold uppercase tracking-widest">' + escapeHtml(post.authorName) + '</span>' +
-            '<span class="text-slate-700 text-[10px]">·</span>' +
             '<span class="text-violet-400 text-[10px] font-bold uppercase tracking-widest">' + post.date + '</span>' +
             '</div>' +
             '<h2 class="text-base font-bold text-white group-hover:text-violet-400 transition-colors mb-1 line-clamp-2"><a href="' + post.url + '">' + escapeHtml(post.title) + '</a></h2>' +

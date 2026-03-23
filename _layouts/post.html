@@ -90,13 +90,19 @@
     <main class="relative min-h-screen pt-32 pb-24 px-6 hero-gradient">
         <div class="max-w-7xl mx-auto">
             <header class="mb-12 text-center">
-                <h1 class="text-4xl md:text-6xl font-black mb-8 tracking-tight uppercase leading-tight">
-                    {{ page.title }}
-                </h1>
+                <!-- Categorías de la entrada -->
+                {% if page.categories.size > 0 %}
+                <div class="flex justify-center flex-wrap gap-2 mb-4">
+                    {% for category in page.categories %}
+                    {% assign cat_slug = category | slugify %}
+                    <a href="{{ '/categories/' | append: cat_slug | append: '/' | relative_url }}" class="bg-violet-600/20 text-violet-400 border border-violet-500/30 px-3 py-1 rounded-full text-xs font-bold uppercase tracking-widest hover:bg-violet-600/40 hover:text-white transition-colors">
+                        {{ category }}
+                    </a>
+                    {% endfor %}
+                </div>
+                {% endif %}
 
-                <div class="h-1.5 w-24 bg-violet-500 mx-auto rounded-full mb-6"></div>
-
-                <div class="text-slate-400 text-sm font-bold uppercase tracking-widest mb-3">
+                <div class="text-slate-400 text-sm font-bold uppercase tracking-widest mb-4">
                     {% assign months = "enero,febrero,marzo,abril,mayo,junio,julio,agosto,septiembre,octubre,noviembre,diciembre" | split: "," %}
                     {% assign month_index = page.date | date: "%m" | plus: 0 | minus: 1 %}
                     {% assign month_es = months[month_index] %}
@@ -109,17 +115,11 @@
                     {{ page.date | date: "%H:%M" }} h
                 </div>
 
-                <!-- Categorías de la entrada -->
-                {% if page.categories.size > 0 %}
-                <div class="flex justify-center flex-wrap gap-2">
-                    {% for category in page.categories %}
-                    {% assign cat_slug = category | slugify %}
-                    <a href="{{ '/categories/' | append: cat_slug | append: '/' | relative_url }}" class="bg-violet-600/20 text-violet-400 border border-violet-500/30 px-3 py-1 rounded-full text-xs font-bold uppercase tracking-widest hover:bg-violet-600/40 hover:text-white transition-colors">
-                        {{ category }}
-                    </a>
-                    {% endfor %}
-                </div>
-                {% endif %}
+                <h1 class="text-4xl md:text-6xl font-black mb-8 tracking-tight uppercase leading-tight">
+                    {{ page.title }}
+                </h1>
+
+                <div class="h-1.5 w-24 bg-violet-500 mx-auto rounded-full"></div>
             </header>
 
             {% if page.thumbnail %}
