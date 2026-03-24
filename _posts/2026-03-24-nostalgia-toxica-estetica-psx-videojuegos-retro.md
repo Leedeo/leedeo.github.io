@@ -42,6 +42,8 @@ Cada vez que se habla del videojuego de los 90, aparece una idea que suena muy b
 
 Eso es directamente falso.
 
+![Tres anuncios retro de PlayStation con eslóganes agresivos sobre su potencia técnica, polígonos y superioridad gráfica frente a la competencia.](/assets/img/posts/nostalgia-toxica-estetica-psx-ad.webp)
+
 En los 90, los gráficos importaban muchísimo. De hecho, probablemente más que ahora. La carrera tecnológica entre compañías para ver quién mostraba el salto visual más espectacular era brutal. Las revistas especializadas llenaban sus portadas con capturas gigantes y comparativas técnicas. El marketing se apoyaba una y otra vez en frases como "más polígonos", "más efectos", "más cinemáticas", "más realismo". El salto al 3D no fue una casualidad ni una transición tranquila: fue una obsesión industrial.
 
 Sony vendió la [PlayStation](https://en.wikipedia.org/wiki/PlayStation_(console)) como la máquina del futuro. Sega hizo lo propio con [Saturn](https://en.wikipedia.org/wiki/Sega_Saturn), aunque con peor suerte. Nintendo entró en la guerra con [Nintendo 64](https://en.wikipedia.org/wiki/Nintendo_64), centrándose en el 3D y en la potencia de cálculo de polígonos. Todo giraba alrededor del impacto visual.
