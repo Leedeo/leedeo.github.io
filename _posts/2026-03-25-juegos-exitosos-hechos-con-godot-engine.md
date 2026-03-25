@@ -9,8 +9,8 @@ excerpt: 'Godot Engine ya no es solo "el motor para empezar". Títulos indie cre
   con Godot han vendido millones de copias. Repasamos las cifras estimadas y el impacto
   real en el mercado.'
 categories:
-- Godot
 - Game Dev
+- Godot
 video:
   id: NWosjlLorEU
   title: Por qué aprender Unity o Unreal no te dará trabajo
