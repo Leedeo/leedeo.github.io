@@ -12,7 +12,7 @@ excerpt: Slay the Spire 2 entra en Early Access batiendo récords y demostrando 
   la migración de Unity a Godot Engine ha sido un éxito técnico y comercial masivo.
 categories:
 - Godot
-- Game Dev
+- Gaming
 video:
   id: L3pFEk1HPCQ
   title: Curso Godot 4 desde Cero [01] Instalar y Configurar

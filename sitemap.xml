@@ -34,7 +34,7 @@ layout: null
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>{{ site.url }}{{ site.baseurl }}/categories/analisis/</loc>
+    <loc>{{ site.url }}{{ site.baseurl }}/categories/gaming/</loc>
     <lastmod>{{ site.time | date_to_xmlschema }}</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>

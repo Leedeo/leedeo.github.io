@@ -4,13 +4,13 @@ author: javo
 date: 2026-03-24 05:50:00.000000000 +01:00
 thumbnail: "/assets/img/posts/nostalgia-toxica-estetica-psx-videojuegos-retro.webp"
 title: 'El efecto nostalgia tóxica: por qué nos obsesiona la estética PSX'
-description: 'La estética de PlayStation 1 domina el videojuego indie. ¿Es un homenaje
-  artístico genuino o estamos romantizando una época que no fue como la recordamos?'
-excerpt: "Polígonos torcidos, texturas temblorosas, niebla espesa. La estética PSX
+description: La estética de PlayStation 1 domina el videojuego indie. ¿Es un homenaje
+  artístico genuino o estamos romantizando una época que no fue como la recordamos?
+excerpt: Polígonos torcidos, texturas temblorosas, niebla espesa. La estética PSX
   ya es casi un subgénero. Pero hay una diferencia enorme entre usarla porque entiendes
-  por qué funciona y usarla porque está de moda."
+  por qué funciona y usarla porque está de moda.
 categories:
-- Game Dev
+- Gaming
 video:
   id: 0h_F-gHSeM0
   title: 'Juegos Indie vs AAA: La verdadera diferencia'

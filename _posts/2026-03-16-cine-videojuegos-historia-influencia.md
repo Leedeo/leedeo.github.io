@@ -11,7 +11,7 @@ description: Cómo el cine influyó en los videojuegos durante décadas y cómo 
 excerpt: Exploramos la fascinante relación entre el séptimo arte y el entretenimiento
   interactivo. De las cinemáticas de los 90 a la producción virtual moderna.
 categories:
-- Game Dev
+- Gaming
 video:
   id: 0h_F-gHSeM0
   title: 'Juegos Indie vs AAA: La verdadera diferencia'

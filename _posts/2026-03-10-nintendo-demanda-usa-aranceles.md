@@ -11,7 +11,7 @@ excerpt: Nintendo of America inicia acciones legales contra el aparato gubername
   de EE.UU. para reclamar la devolución de aranceles millonarios pagados durante la
   administración Trump.
 categories:
-- Game Dev
+- Gaming
 video:
   id: NWosjlLorEU
   title: Por qué aprender Unity o Unreal no te dará trabajo

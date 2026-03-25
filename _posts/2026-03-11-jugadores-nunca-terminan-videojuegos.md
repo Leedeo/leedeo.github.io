@@ -13,7 +13,7 @@ excerpt: El abandono de los videojuegos por parte de los jugadores no es pereza 
   la saturación del mercado, el tamaño del backlog y el diseño de los propios títulos
   AAA y Live Service.
 categories:
-- Game Dev
+- Gaming
 video:
   id: 3ifj5q95qdk
   title: "¿Por dónde empezar a crear Videojuegos?"

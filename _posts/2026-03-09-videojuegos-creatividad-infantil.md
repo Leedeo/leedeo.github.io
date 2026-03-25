@@ -12,7 +12,7 @@ excerpt: 'Un análisis del impacto de los entornos interactivos en el desarrollo
   Del juego simbólico a la creación técnica: por qué el videojuego es el nuevo laboratorio
   creativo.'
 categories:
-- Game Dev
+- Gaming
 video:
   id: L3pFEk1HPCQ
   title: Curso Godot 4 desde Cero [01] Instalar y Configurar

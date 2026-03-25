@@ -12,7 +12,7 @@ excerpt: Un análisis del papel de los serious games y el marco legal de la LOML
   en la educación moderna. ¿Cómo transformar el ocio en una herramienta de arquitectura
   mental?
 categories:
-- Game Dev
+- Gaming
 video:
   id: 3ifj5q95qdk
   title: "¿Por dónde empezar a crear Videojuegos?"
