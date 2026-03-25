@@ -18,7 +18,7 @@ layout: default
 
         {% assign cat_posts = site.posts | where_exp: "post", "post.categories contains page.category" %}
 
-        <div class="flex flex-col gap-2 mb-16">
+        <div class="grid lg:grid-cols-1 gap-4 mb-8">
             {% for post in cat_posts %}
             {% assign post_author = site.data.authors[post.author] | default: site.data.authors['javo'] %}
             {% assign months = "enero,febrero,marzo,abril,mayo,junio,julio,agosto,septiembre,octubre,noviembre,diciembre" | split: "," %}
