@@ -40,7 +40,7 @@ Con eso en mente, vamos a los juegos.
 
 ![Brotato - Un juego de supervivencia hecho en Godot con millones de ventas](/assets/img/posts/juegos-godot-brotato-ventas-steam.webp)
 
-| | |
+| Ficha técnica | Brotato |
 |---|---|
 | **Desarrolladora** | Blobfish |
 | **Lanzamiento** | 2023 |
@@ -61,7 +61,7 @@ No fue un accidente. Fue un juego extremadamente bien diseñado en su bucle juga
 
 ![Buckshot Roulette - El fenómeno viral de terror y azar desarrollado con Godot Engine](/assets/img/posts/buckshot-roulette-gameplay-ruleta-escopeta.webp)
 
-| | |
+| Ficha técnica | Buckshot Roulette |
 |---|---|
 | **Desarrollador** | Mike Klubnika |
 | **Lanzamiento** | 2024 |
@@ -82,7 +82,7 @@ A un precio tan bajo, el volumen de ventas tiene que ser enorme para generar ing
 
 ![Cassette Beasts - RPG de mundo abierto y colección de criaturas creado con Godot](/assets/img/posts/juegos-godot-cassette-beasts-rpg.webp)
 
-| | |
+| Ficha técnica | Cassette Beasts |
 |---|---|
 | **Desarrolladora** | Bytten Studio |
 | **Publisher** | [Raw Fury](https://rawfury.com/) |
@@ -104,7 +104,7 @@ Es un caso importante porque demuestra que Godot no solo sirve para juegos peque
 
 ![Dome Keeper - Estrategia y defensa de la cúpula, un éxito de Raw Fury y Godot](/assets/img/posts/juegos-godot-dome-keeper-indie.webp)
 
-| | |
+| Ficha técnica | Dome Keeper |
 |---|---|
 | **Desarrolladora** | Bippinbits |
 | **Publisher** | [Raw Fury](https://rawfury.com/) |
@@ -126,7 +126,7 @@ Es la clase de éxito que no suele aparecer en las conversaciones, pero que repr
 
 ![Halls of Torment - Acción retro inspirada en los 90 con el motor Godot Engine](/assets/img/posts/juegos-godot-halls-of-torment-vampire-survivors.webp)
 
-| | |
+| Ficha técnica | Halls of Torment |
 |---|---|
 | **Desarrolladora** | Chasing Carrots |
 | **Lanzamiento** | 2023 (Early Access) |
@@ -145,7 +145,7 @@ Con más de 15.000 reseñas y un precio bajo, las estimaciones lo sitúan cómod
 
 ![Cruelty Squad - El simulador de asesinatos surrealista que triunfa en Godot](/assets/img/posts/juegos-godot-cruelty-squad-culto.webp)
 
-| | |
+| Ficha técnica | Cruelty Squad |
 |---|---|
 | **Desarrollador** | Consumer Softproducts |
 | **Lanzamiento** | 2021 |
@@ -164,7 +164,7 @@ Se convirtió en juego de culto prácticamente al instante. Su comunidad es pequ
 
 ![Sonic Colors Ultimate - El primer gran título de SEGA que integró Godot Engine](/assets/img/posts/juegos-godot-sonic-colors-ultimate-sega.webp)
 
-| | |
+| Ficha técnica | Sonic Colors: Ultimate |
 |---|---|
 | **Desarrolladora** | Blind Squirrel Games / SEGA |
 | **Lanzamiento** | 2021 |
