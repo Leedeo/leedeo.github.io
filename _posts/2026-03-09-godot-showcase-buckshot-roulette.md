@@ -10,6 +10,7 @@ description: Mike Klubnika, creador de Buckshot Roulette, cuenta cómo desarroll
 excerpt: Mike Klubnika nos cuenta su experiencia desarrollando el éxito indie de 2024
   Buckshot Roulette en Godot Engine, y su nuevo proyecto s.p.l.i.t.
 categories:
+- Game Dev
 - Gaming
 - Godot
 video:
