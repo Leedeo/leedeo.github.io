@@ -1,29 +1,21 @@
-# Jekyll & Build System
+# Jekyll - Archivos generados
 _site/
 .jekyll-cache/
 .jekyll-metadata
-.bundle/
-vendor/
-Gemfile
-Gemfile.lock
 
-# Tools & Compilers
+# Dependencias
 node_modules/
-tailwindcss.exe
-tailwind.config.js
-assets/css/tailwind-input.css
 
-# Herramientas locales (scripts de utilidad)
+# Herramientas locales (NO se suben)
 _herramientas/
 
-# Editor & IDEs
-.vscode/
-.ruby-lsp/
+# Scripts de build en raíz (NO se suben)
+build-tailwind.bat
+build-tailwind.sh
 
-# Local Diagnostics
-jekyll_log.txt
-*.json
-!package.json
-!package-lock.json
-!search.json
-config_*.txt
+# Gemfile.lock (se genera con bundle install)
+Gemfile.lock
+
+# Archivos del sistema
+.DS_Store
+Thumbs.db

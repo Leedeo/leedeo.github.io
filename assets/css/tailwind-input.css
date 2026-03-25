@@ -1,0 +1,24 @@
+/**
+ * Tailwind CSS v4 — Leedeo Studio
+ *
+ * Equivalente al tailwind.config.js de v3.
+ * Los @source escanan automáticamente el proyecto entero, igual que antes.
+ * No hay que tocar este archivo cuando se añaden clases nuevas.
+ */
+
+@import "tailwindcss";
+
+/* ── Fuentes de contenido (rutas relativas a assets/css/) ─────────────────── */
+
+@source "../../_layouts";
+@source "../../_includes";
+@source "../../_posts";
+@source "../../_drafts";
+@source "../../blog";
+@source "../../categories";
+@source "../../courses";
+@source "../../projects";
+@source "../../index.html";
+@source "../../about.html";
+@source "../../rules.html";
+@source "../../policy.html";
