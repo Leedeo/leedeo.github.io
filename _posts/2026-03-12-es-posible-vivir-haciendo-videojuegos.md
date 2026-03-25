@@ -3,8 +3,7 @@ layout: post
 author: javo
 date: 2026-03-12 08:23:43.000000000 +01:00
 thumbnail: "/assets/img/posts/vivir-de-hacer-videojuegos.webp"
-title: "¿Es posible vivir de los videojuegos en 2026? La respuesta que nadie quiere
-  escuchar"
+title: "¿Es posible vivir de los videojuegos en 2026? La respuesta que nadie quiere escuchar"
 description: 'Análisis sin filtros sobre los tres caminos reales para vivir del desarrollo
   de videojuegos en 2026: empleo en la industria, freelance e indie. Datos, probabilidades
   y qué esperar de cada uno.'
