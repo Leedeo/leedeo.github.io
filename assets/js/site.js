@@ -9,7 +9,7 @@ var revealObserver = new IntersectionObserver(function (entries) {
     entries.forEach(function (entry) {
         if (entry.isIntersecting) { entry.target.classList.add('active'); }
     });
-}, { threshold: 0.15 });
+}, { rootMargin: '0px 0px 50px 0px', threshold: 0.02 });
 
 document.querySelectorAll('.reveal').forEach(function (el) {
     revealObserver.observe(el);
