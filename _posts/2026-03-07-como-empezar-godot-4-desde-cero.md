@@ -11,8 +11,8 @@ excerpt: "¿Quieres crear videojuegos pero no sabes por dónde empezar? Descubre
   qué Godot 4 es la mejor opción en 2026 y cómo dar tus primeros pasos sin morir en
   el intento."
 categories:
-- Godot
 - Game Dev
+- Godot
 video:
   id: L3pFEk1HPCQ
   title: Curso Godot 4 desde Cero [01] Instalar y Configurar

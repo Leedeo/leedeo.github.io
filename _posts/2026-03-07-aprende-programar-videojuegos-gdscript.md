@@ -12,8 +12,8 @@ excerpt: "¿Quieres aprender a programar pero el código te parece imposible? De
   por qué GDScript en Godot 4 es la forma más rápida, sencilla y lógica de crear tus
   propios juegos."
 categories:
-- Godot
 - Game Dev
+- Godot
 video:
   id: x9N1gw2qWEQ
   title: Curso Godot 4 desde Cero [04] Aprende a Programar con GDScript

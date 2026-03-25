@@ -10,8 +10,8 @@ description: 'Por qué Godot Engine es la herramienta estándar para el desarrol
 excerpt: Analizo las razones de peso por las que Godot Engine se ha convertido en
   la herramienta estándar para el desarrollo independiente en 2026.
 categories:
-- Godot
 - Game Dev
+- Godot
 video:
   id: L3pFEk1HPCQ
   title: Curso Godot 4 desde Cero [01] Instalar y Configurar
