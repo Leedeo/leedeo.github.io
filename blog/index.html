@@ -83,7 +83,7 @@ description: >-
             <nav id="pagination-nav" class="flex justify-center items-center gap-4 reveal">
                 {% if paginator.previous_page %}
                 <a href="{{ paginator.previous_page_path | relative_url }}"
-                    class="w-12 h-12 flex items-center justify-center rounded-xl bg-violet-600/20 border border-violet-300/70 text-violet-300 hover:bg-violet-600/40 hover:text-white hover:border-violet-400/60 transition-all">
+                    class="w-12 h-12 flex items-center justify-center rounded-xl bg-violet-600/20 border border-violet-300/70 text-violet-300 hover:bg-violet-600/40 hover:text-white hover:border-violet-400/60 transition-all duration-300 ease-out">
                     <i class="fas fa-chevron-left"></i>
                 </a>
                 {% endif %}
@@ -92,7 +92,7 @@ description: >-
                 </span>
                 {% if paginator.next_page %}
                 <a href="{{ paginator.next_page_path | relative_url }}"
-                    class="w-12 h-12 flex items-center justify-center rounded-xl bg-violet-600/20 border border-violet-300/70 text-violet-300 hover:bg-violet-600/40 hover:text-white hover:border-violet-400/60 transition-all">
+                    class="w-12 h-12 flex items-center justify-center rounded-xl bg-violet-600/20 border border-violet-300/70 text-violet-300 hover:bg-violet-600/40 hover:text-white hover:border-violet-400/60 transition-all duration-300 ease-out">
                     <i class="fas fa-chevron-right"></i>
                 </a>
                 {% endif %}
