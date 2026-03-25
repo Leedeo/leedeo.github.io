@@ -16,8 +16,7 @@ layout: default
             <div class="h-1.5 w-24 bg-violet-500 mx-auto rounded-full mt-8"></div>
         </header>
 
-        {% assign cat_name = page.category_name | default: page.title %}
-        {% assign cat_posts = site.posts | where_exp: "post", "post.categories contains cat_name" %}
+        {% assign cat_posts = site.posts | where_exp: "post", "post.categories contains page.category" %}
 
         <div class="flex flex-col gap-2 mb-16">
             {% for post in cat_posts %}
