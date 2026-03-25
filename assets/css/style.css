@@ -18,9 +18,6 @@ Unified & GPU-Accelerated for Main Page & Policy Page
 .rounded-custom-32 { border-radius: 2rem; }
 .rounded-custom-48 { border-radius: 3rem; }
 
-/* Tarjetas y Contenedores */
-/* Las declaraciones @font-face de FontAwesome han sido movidas a head.html para evitar FOUT/FOIT */
-
 /* --- Reseteo y Base --- */
 body {
   font-family: 'Plus Jakarta Sans', sans-serif;
@@ -41,7 +38,7 @@ body {
   background: var(--bg-card);
   backdrop-filter: blur(16px);
   border: 1px solid rgba(255, 255, 255, 0.08);
-  border-radius: 1.5rem; /* rounded-3xl */
+  border-radius: 1.5rem;
   transition: var(--transition-smooth);
   overflow: hidden;
 }
@@ -78,7 +75,7 @@ body {
   align-items: center;
   justify-content: center;
   padding: 0.75rem 1.5rem;
-  border-radius: 0.75rem; /* rounded-xl */
+  border-radius: 0.75rem;
   font-weight: 700;
   text-transform: uppercase;
   letter-spacing: 0.05em;
@@ -112,13 +109,11 @@ body {
   filter: brightness(1.1);
 }
 
-
-
 .btn-outline {
   background: transparent;
   border: 1px solid rgba(139, 92, 246, 0.4);
   color: #a78bfa;
-  font-size: 0.75rem; /* text-xs — es btn de navegación secundaria */
+  font-size: 0.75rem;
   padding: 0.625rem 1.25rem;
 }
 
@@ -142,7 +137,6 @@ body {
   overflow: hidden;
 }
 
-/* Fondo específico para main en página de políticas */
 main.hero-gradient {
   background: radial-gradient(circle at 50% 0%, rgba(139, 92, 246, 0.15) 0%, rgba(5, 1, 13, 1) 70%);
 }
@@ -163,7 +157,6 @@ main.hero-gradient {
   opacity: 0.25;
   animation: move 15s infinite alternate ease-in-out;
   will-change: transform;
-  /* Optimización GPU */
 }
 
 .blob-1 {
@@ -191,21 +184,10 @@ main.hero-gradient {
 }
 
 @keyframes move {
-  0% {
-    transform: translate(0, 0) scale(1);
-  }
-
-  33% {
-    transform: translate(10%, 15%) scale(1.15);
-  }
-
-  66% {
-    transform: translate(-15%, 5%) scale(0.95);
-  }
-
-  100% {
-    transform: translate(5%, -10%) scale(1.05);
-  }
+  0% { transform: translate(0, 0) scale(1); }
+  33% { transform: translate(10%, 15%) scale(1.15); }
+  66% { transform: translate(-15%, 5%) scale(0.95); }
+  100% { transform: translate(5%, -10%) scale(1.05); }
 }
 
 /* --- Animaciones de Entrada --- */
@@ -272,13 +254,8 @@ main.hero-gradient {
 }
 
 @keyframes scroll {
-  0% {
-    transform: translateX(0);
-  }
-
-  100% {
-    transform: translateX(-50%);
-  }
+  0% { transform: translateX(0); }
+  100% { transform: translateX(-50%); }
 }
 
 /* --- Estilos de Contenido de Posts & Políticas --- */
@@ -303,7 +280,6 @@ main.hero-gradient {
   color: var(--violet-light);
 }
 
-/* Resetear margen superior si es el primer elemento */
 .policy-content section:first-child h2,
 .policy-content section:first-child h3,
 .policy-content>h2:first-child,
@@ -349,7 +325,6 @@ main.hero-gradient {
   margin: 3rem 0;
 }
 
-
 .policy-content strong {
   color: #fff;
   font-weight: 600;
@@ -359,45 +334,74 @@ main.hero-gradient {
 .policy-content .table-wrapper {
   overflow-x: auto;
   margin-bottom: 3.5rem;
-  border-radius: 1.5rem;
-  box-shadow: 0 10px 30px -10px rgba(0, 0, 0, 0.4);
+  border-radius: 0.75rem;
+  box-shadow: 0 20px 40px -10px rgba(0, 0, 0, 0.5), 0 0 0 1px rgba(139, 92, 246, 0.15);
 }
 
 .policy-content table {
   width: 100%;
   border-collapse: separate;
   border-spacing: 0;
-  background: rgba(26, 17, 48, 0.4);
-  border: 1px solid rgba(139, 92, 246, 0.2);
-  border-radius: 1.5rem;
+  background: rgba(20, 12, 40, 0.6);
+  border-radius: 0.75rem;
   overflow: hidden;
-  font-size: 0.95rem;
-  margin-bottom: 0; /* Controlado por el wrapper */
+  font-size: 0.9rem;
+  margin-bottom: 0;
 }
 
 .policy-content th {
-  background: rgba(139, 92, 246, 0.25);
-  color: #ffffff;
+  background: linear-gradient(135deg, rgba(139, 92, 246, 0.35) 0%, rgba(109, 40, 217, 0.25) 100%);
+  color: #e2d9ff;
   font-weight: 800;
   text-align: left;
-  padding: 1.25rem 1.5rem;
-  border-bottom: 1px solid rgba(139, 92, 246, 0.3);
+  padding: 1rem 1.5rem;
+  border-bottom: 1px solid rgba(139, 92, 246, 0.4);
   text-transform: uppercase;
-  letter-spacing: 0.12em;
-  font-size: 0.7rem;
+  letter-spacing: 0.15em;
+  font-size: 0.65rem;
+  white-space: nowrap;
+}
+
+.policy-content th:first-child {
+  border-radius: 0.75rem 0 0 0;
+}
+
+.policy-content th:last-child {
+  border-radius: 0 0.75rem 0 0;
 }
 
 .policy-content td {
-  padding: 1.25rem 1.5rem;
-  border-bottom: 1px solid rgba(255, 255, 255, 0.03);
-  color: #cbd5e1; /* Más claro para mejor lectura */
+  padding: 0.9rem 1.5rem;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.04);
+  color: #c4c9d4;
   vertical-align: middle;
   line-height: 1.5;
-  transition: all 0.3s ease;
+  transition: color 0.2s ease, background 0.2s ease;
+}
+
+/* Filas alternas */
+.policy-content tbody tr:nth-child(even) td {
+  background: rgba(139, 92, 246, 0.05);
+}
+
+/* Primera columna en negrita */
+.policy-content td:first-child {
+  color: #ffffff;
+  font-weight: 700;
+  font-size: 0.85rem;
+  white-space: nowrap;
 }
 
 .policy-content tr:last-child td {
   border-bottom: none;
+}
+
+.policy-content tr:last-child td:first-child {
+  border-radius: 0 0 0 0.75rem;
+}
+
+.policy-content tr:last-child td:last-child {
+  border-radius: 0 0 0.75rem 0;
 }
 
 .policy-content tr:hover td {
@@ -442,7 +446,6 @@ main.hero-gradient {
   align-items: center;
   gap: 0.5rem;
   background: #7c3aed;
-  /* violet-600 - más integrado con el fondo dark */
   color: #ffffff !important;
   padding: 0.8rem 1.75rem;
   border-radius: 1rem;
@@ -462,7 +465,6 @@ main.hero-gradient {
   box-shadow: 0 15px 25px -4px rgba(139, 92, 246, 0.4);
 }
 
-
 /* --- Buscador del Blog --- */
 #blog-search {
   font-family: 'Plus Jakarta Sans', sans-serif;
@@ -481,7 +483,6 @@ main.hero-gradient {
    LEEDEO CLEANER PAGE — Componentes de Diseño
    ============================================= */
 
-/* --- Mockup Frame para capturas de interfaz --- */
 .lc-mockup-frame {
   position: relative;
   border-radius: 1.25rem;
@@ -528,7 +529,6 @@ main.hero-gradient {
   opacity: 0.8;
 }
 
-/* --- Feature Card Icon Container --- */
 .lc-icon-box {
   width: 3.5rem;
   height: 3.5rem;
@@ -540,7 +540,6 @@ main.hero-gradient {
   flex-shrink: 0;
 }
 
-/* --- Code Inline Fix (para DISM/SFC) --- */
 .lc-code {
   background: rgba(0, 0, 0, 0.3);
   padding: 0.15rem 0.4rem;
@@ -552,7 +551,6 @@ main.hero-gradient {
   line-height: inherit;
 }
 
-/* --- CTA Box --- */
 .lc-cta-box {
   position: relative;
   border-radius: 2rem;
@@ -594,19 +592,11 @@ main.hero-gradient {
   transform: scale(1.05);
 }
 
-
 /* Ajustes de responsividad */
 @media (max-width: 768px) {
-  .testimonial-card {
-    width: 300px;
-  }
-
-  .blob {
-    width: 80vw;
-    height: 80vw;
-  }
+  .testimonial-card { width: 300px; }
+  .blob { width: 80vw; height: 80vw; }
 }
-
 
 /* --- Bloques de Código en Posts --- */
 .policy-content pre {
@@ -645,10 +635,9 @@ main.hero-gradient {
   border-radius: 0;
 }
 
-/* Colores de sintaxis básicos (sin librería externa) */
-.policy-content pre code .keyword  { color: #c084fc; } /* extends, func, const, var, if */
-.policy-content pre code .function { color: #67e8f9; } /* nombres de función */
-.policy-content pre code .number   { color: #f9a8d4; } /* literales numéricos */
+.policy-content pre code .keyword  { color: #c084fc; }
+.policy-content pre code .function { color: #67e8f9; }
+.policy-content pre code .number   { color: #f9a8d4; }
 .policy-content pre code .comment  { color: #4b5563; font-style: italic; }
 .policy-content pre code .string   { color: #86efac; }
 
