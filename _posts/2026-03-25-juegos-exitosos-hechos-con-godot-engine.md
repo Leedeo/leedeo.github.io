@@ -3,10 +3,8 @@ layout: post
 author: javo
 date: 2026-03-25 09:28:00.000000000 +01:00
 thumbnail: "/assets/img/posts/juegos-godot-exitosos-ventas-ingresos.webp"
-title: "Juegos exitosos hechos con Godot Engine: ventas, ingresos y el fin de un estigma"
-description: 'Análisis de ventas y estimaciones de juegos como Brotato, Buckshot Roulette
-  y Cassette Beasts: cifras reales que demuestran la viabilidad comercial de Godot
-  Engine en 2026.'
+title: "Juegos exitosos hechos con Godot Engine en 2026: ventas, ingresos y el fin de un estigma"
+description: "Análisis actualizado a 2026 de las ventas e ingresos de juegos como Brotato y Buckshot Roulette: la prueba definitiva de la viabilidad comercial de Godot Engine."
 excerpt: 'Godot Engine ya no es solo "el motor para empezar". Títulos indie creados
   con Godot han vendido millones de copias. Repasamos las cifras estimadas y el impacto
   real en el mercado.'
