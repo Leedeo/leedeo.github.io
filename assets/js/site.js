@@ -1,7 +1,6 @@
 // assets/js/site.js
 
-// Activar animaciones reveal solo cuando JS está disponible
-document.documentElement.classList.add('js-loaded');
+// La clase 'js-loaded' se añade sincrónicamente en <head> mediante init.js para prevenir FOUC
 
 var yearEl = document.getElementById('auto-year');
 if (yearEl) { yearEl.textContent = new Date().getFullYear(); }
