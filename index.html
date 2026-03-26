@@ -69,7 +69,7 @@ title: "Inicio"
       </div>
     </div>
 
-    <div class="relative reveal" style="--reveal-delay: 200ms;">
+    <div class="relative reveal">
       <div class="aspect-video bg-slate-900 rounded-custom-40 border border-white/10 overflow-hidden shadow-2xl relative group">
         <img src="{{ '/assets/img/ui/thumb-youtube.webp' | relative_url }}"
           alt="Avatar 2D ilustrado de un instructor con barba y gafas, posando frente a un escritorio de desarrollo con múltiples monitores" loading="lazy"
@@ -112,7 +112,7 @@ title: "Inicio"
         </a>
       </article>
 
-      <article class="glass-card rounded-3xl p-8 flex flex-col reveal" style="--reveal-delay: 100ms;">
+      <article class="glass-card rounded-3xl p-8 flex flex-col reveal">
         <div class="w-14 h-14 bg-fuchsia-500/10 rounded-2xl flex items-center justify-center text-fuchsia-500 mb-8">
           <i class="fas fa-gamepad text-3xl"></i>
         </div>
@@ -124,7 +124,7 @@ title: "Inicio"
         </a>
       </article>
 
-      <article class="glass-card rounded-3xl p-8 flex flex-col reveal" style="--reveal-delay: 200ms;">
+      <article class="glass-card rounded-3xl p-8 flex flex-col reveal">
         <div class="w-14 h-14 bg-indigo-500/10 rounded-2xl flex items-center justify-center text-indigo-400 mb-8">
           <i class="fas fa-language text-3xl"></i>
         </div>
@@ -154,8 +154,7 @@ title: "Inicio"
 
     <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
       {% for post in site.posts limit:3 %}
-      <article class="glass-card rounded-custom-32 overflow-hidden flex-col reveal flex"
-        style="--reveal-delay: {{ forloop.index0 | modulo: 3 | times: 100 }}ms;">
+      <article class="glass-card rounded-custom-32 overflow-hidden flex-col reveal flex">
         <a href="{{ post.url | relative_url }}" class="aspect-video overflow-hidden relative group block">
           <img src="{{ post.thumbnail | relative_url }}" alt="{{ post.title }}" loading="lazy" width="600" height="340"
             class="w-full h-full object-cover transition-transform duration-500 group-hover:scale-110" />

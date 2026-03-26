@@ -196,10 +196,8 @@ main.hero-gradient {
 
 /* --- Animaciones de Entrada --- */
 .reveal {
-  transition-property: opacity, transform, scale, filter, background-color, border-color, box-shadow, color;
-  transition-duration: 0.7s;
-  transition-timing-function: ease-out;
-  transition-delay: var(--reveal-delay, 0s), var(--reveal-delay, 0s), 0s, 0s, 0s, 0s, 0s, 0s;
+  transition: opacity 0.7s ease-out var(--reveal-delay, 0s), 
+              transform 0.7s ease-out var(--reveal-delay, 0s);
 }
 
 .js-loaded .reveal {

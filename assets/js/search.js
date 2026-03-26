@@ -21,7 +21,7 @@
 
     function buildCard(post) {
         var thumb = post.thumbnail || '/assets/img/ui/favicon.png';
-        return '<article class="group flex items-start gap-5 p-4 rounded-2xl border border-white/5 hover:border-violet-500/30 hover:bg-white/[0.02] transition-all duration-300">' +
+        return '<article class="reveal group flex items-start gap-5 p-4 rounded-2xl border border-white/5 hover:border-violet-500/30 hover:bg-white/[0.02] transition-all duration-300">' +
             '<a href="' + post.url + '" class="flex-shrink-0 w-32 h-24 md:w-48 md:h-32 rounded-xl overflow-hidden block">' +
             '<img src="' + thumb + '" alt="' + escapeHtml(post.title) + '" loading="lazy" width="112" height="80" class="w-full h-full object-cover transition-transform duration-500 group-hover:scale-110">' +
             '</a>' +
@@ -60,6 +60,15 @@
         } else {
             noResults.classList.add('hidden');
             searchGrid.innerHTML = filtered.map(buildCard).join('');
+            
+            // Re-vincular animaciones reveal para los nuevos elementos
+            if (window.revealObserver) {
+                searchGrid.querySelectorAll('.reveal').forEach(function(el, idx) {
+                    // Stagger opcional de 50ms para suavizar la aparición en lista
+                    el.style.setProperty('--reveal-delay', (idx * 50) + 'ms');
+                    window.revealObserver.observe(el);
+                });
+            }
         }
     }
 
