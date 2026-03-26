@@ -15,7 +15,7 @@ document.querySelectorAll('.reveal').forEach(function (el) {
     revealObserver.observe(el);
 });
 
-document.querySelectorAll('.policy-content table').forEach(function (table) {
+document.querySelectorAll('.rich-content table').forEach(function (table) {
     if (table.parentElement.classList.contains('table-wrapper')) { return; }
     var wrapper = document.createElement('div');
     wrapper.className = 'table-wrapper';
