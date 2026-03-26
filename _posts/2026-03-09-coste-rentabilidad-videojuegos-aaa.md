@@ -47,6 +47,8 @@ Y luego está el marketing. Un juego técnicamente sobresaliente que nadie conoc
 
 Aquí es donde entra un factor que los análisis financieros a veces pasan por alto pero que cualquiera que juegue de forma habitual entiende perfectamente: las horas de juego están cada vez más concentradas en unos pocos títulos.
 
+![Vista aérea de un jugador descendiendo en paracaídas hacia el mapa de Fortnite, representando el modelo de juegos como servicio que domina la atención del mercado.](/assets/img/posts/modelo-negocio-fortnite-retencion-jugadores-aaa.webp)
+
 *Fortnite*, *Call of Duty*, *GTA Online*, *FIFA* o cualquier título deportivo de turno absorben una cantidad desproporcionada del tiempo que los jugadores dedican a los videojuegos. No es algo irracional; son juegos diseñados explícitamente para retener al jugador el mayor tiempo posible, con bucles de progresión, contenido temporal y componentes sociales que crean una inercia muy difícil de romper.
 
 El resto del mercado, incluidos títulos AAA con presupuestos de decenas o cientos de millones, compite por el tiempo sobrante. Y ese tiempo es limitado. No es que los jugadores no quieran probar cosas nuevas, es que cambiar de juego tiene un coste de oportunidad real: abandonar el progreso acumulado, aprender nuevas mecánicas, alejarse de amigos con los que juegas habitualmente.
