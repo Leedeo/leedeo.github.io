@@ -15,6 +15,30 @@ description: "Artículos sobre desarrollo de videojuegos, industria indie, tutor
             <div class="h-1.5 w-24 bg-violet-500 mx-auto rounded-full mt-8"></div>
         </header>
 
+        <!-- Submenu de categorías -->
+        <nav aria-label="Categorías del blog" class="flex flex-wrap justify-center gap-2 mb-12 reveal" style="--reveal-delay: 50ms;">
+            <a href="{{ '/blog/' | relative_url }}"
+                class="px-4 py-2 rounded-xl text-xs font-bold uppercase tracking-widest transition-all duration-300 bg-violet-600 text-white border border-violet-500">
+                Todos
+            </a>
+            <a href="{{ '/categories/game-dev/' | relative_url }}"
+                class="px-4 py-2 rounded-xl text-xs font-bold uppercase tracking-widest transition-all duration-300 bg-white/5 text-slate-400 border border-white/10 hover:bg-violet-600/20 hover:text-violet-400 hover:border-violet-500/30">
+                Game Dev
+            </a>
+            <a href="{{ '/categories/gaming/' | relative_url }}"
+                class="px-4 py-2 rounded-xl text-xs font-bold uppercase tracking-widest transition-all duration-300 bg-white/5 text-slate-400 border border-white/10 hover:bg-violet-600/20 hover:text-violet-400 hover:border-violet-500/30">
+                Gaming
+            </a>
+            <a href="{{ '/categories/godot/' | relative_url }}"
+                class="px-4 py-2 rounded-xl text-xs font-bold uppercase tracking-widest transition-all duration-300 bg-white/5 text-slate-400 border border-white/10 hover:bg-violet-600/20 hover:text-violet-400 hover:border-violet-500/30">
+                Godot
+            </a>
+            <a href="{{ '/categories/herramientas/' | relative_url }}"
+                class="px-4 py-2 rounded-xl text-xs font-bold uppercase tracking-widest transition-all duration-300 bg-white/5 text-slate-400 border border-white/10 hover:bg-violet-600/20 hover:text-violet-400 hover:border-violet-500/30">
+                Herramientas
+            </a>
+        </nav>
+
         <div class="max-w-2xl mx-auto mb-14 reveal" style="--reveal-delay: 100ms;">
             <div class="relative group">
                 <span class="absolute left-5 top-1/2 -translate-y-1/2 text-violet-400 pointer-events-none transition-colors group-focus-within:text-violet-300">

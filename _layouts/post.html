@@ -163,7 +163,8 @@
                         {% assign count = 0 %}
                         {% for post in related_posts %}
                             {% if count < 4 %}
-                            <a href="{{ post.url | relative_url }}" class="group block">
+                            <a href="{{ post.url | relative_url }}" class="group block reveal"
+                               style="--reveal-delay: {{ count | modulo: 4 | times: 100 }}ms;">
                                 <div class="aspect-video rounded-xl overflow-hidden" style="margin-bottom:0.5rem">
                                     <img src="{{ post.thumbnail | relative_url }}" alt="{{ post.title }}" loading="lazy"
                                          class="w-full h-full object-cover transition-transform duration-500 group-hover:scale-105">
