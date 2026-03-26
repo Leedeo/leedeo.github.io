@@ -8,6 +8,10 @@ description: "Nintendo demanda al gobierno de EE.UU. para recuperar aranceles mi
 excerpt: "Nintendo of America inicia acciones legales contra el aparato gubernamental de EE.UU. para reclamar la devolución de aranceles millonarios pagados durante la administración Trump."
 categories:
 - Gaming
+redirect_from:
+  - "/nintendo-demanda-usa-aranceles/"
+  - "/2026/03/10/nintendo-demanda-usa-aranceles/"
+  - "/2026/03/10/nintendo-demanda-usa-aranceles.html"
 video:
   id: "NWosjlLorEU"
   title: "Por qué aprender Unity o Unreal no te dará trabajo"

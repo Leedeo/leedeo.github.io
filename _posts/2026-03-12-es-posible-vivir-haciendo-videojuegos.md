@@ -8,6 +8,10 @@ description: "Análisis sin filtros sobre los tres caminos reales para vivir del
 excerpt: "Voy a empezar con la respuesta corta: sí, es posible. Y ahora voy a dedicar el resto del artículo a explicar por qué esa respuesta, sin contexto, es casi completamente inútil."
 categories:
 - Game Dev
+redirect_from:
+  - "/es-posible-vivir-haciendo-videojuegos/"
+  - "/2026/03/12/es-posible-vivir-haciendo-videojuegos/"
+  - "/2026/03/12/es-posible-vivir-haciendo-videojuegos.html"
 video:
   id: "NWosjlLorEU"
   title: "Por qué aprender Unity o Unreal no te dará trabajo"

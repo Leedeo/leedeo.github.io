@@ -8,6 +8,10 @@ description: "La estética de PlayStation 1 domina el videojuego indie. ¿Es un 
 excerpt: "Polígonos torcidos, texturas temblorosas, niebla espesa. La estética PSX ya es casi un subgénero. Pero hay una diferencia enorme entre usarla porque entiendes por qué funciona y usarla porque está de moda."
 categories:
 - Gaming
+redirect_from:
+  - "/nostalgia-toxica-estetica-psx-videojuegos-retro/"
+  - "/2026/03/24/nostalgia-toxica-estetica-psx-videojuegos-retro/"
+  - "/2026/03/24/nostalgia-toxica-estetica-psx-videojuegos-retro.html"
 video:
   id: "0h_F-gHSeM0"
   title: "Juegos Indie vs AAA: La verdadera diferencia"

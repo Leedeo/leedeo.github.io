@@ -8,6 +8,10 @@ description: "Qué son los programas de creadores en videojuegos, por qué gener
 excerpt: "Descubre por qué los programas de creadores son más efectivos que las campañas puntuales con influencers y cómo un estudio indie puede aprovecharlos para su estrategia de marketing."
 categories:
 - Game Dev
+redirect_from:
+  - "/programas-creadores-indie-videojuegos/"
+  - "/2026/03/13/programas-creadores-indie-videojuegos/"
+  - "/2026/03/13/programas-creadores-indie-videojuegos.html"
 video:
   id: "3ifj5q95qdk"
   title: "¿Por dónde empezar a crear Videojuegos?"

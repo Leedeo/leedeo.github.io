@@ -8,6 +8,10 @@ description: "La IA generativa en el desarrollo de videojuegos: contexto histór
 excerpt: "La inteligencia artificial generativa está transformando el desarrollo de videojuegos. Ni el fin de la creatividad ni la solución a todo: un análisis con contexto histórico y sin eslóganes."
 categories:
 - Game Dev
+redirect_from:
+  - "/ia-desarrollo-videojuegos-creatividad/"
+  - "/2026/03/18/ia-desarrollo-videojuegos-creatividad/"
+  - "/2026/03/18/ia-desarrollo-videojuegos-creatividad.html"
 video:
   id: "3ifj5q95qdk"
   title: "¿Por dónde empezar a crear Videojuegos?"

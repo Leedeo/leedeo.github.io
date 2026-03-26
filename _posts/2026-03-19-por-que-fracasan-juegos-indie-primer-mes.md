@@ -8,6 +8,10 @@ description: "La tasa de fracaso del desarrollo indie supera el 90%. No es mala 
 excerpt: "La tasa de fracaso comercial del desarrollo indie se sitúa entre el 85% y el 95%. Rara vez es por razones técnicas. Aquí están los motivos reales, sin edulcorar."
 categories:
 - Game Dev
+redirect_from:
+  - "/por-que-fracasan-juegos-indie-primer-mes/"
+  - "/2026/03/19/por-que-fracasan-juegos-indie-primer-mes/"
+  - "/2026/03/19/por-que-fracasan-juegos-indie-primer-mes.html"
 video:
   id: "3ifj5q95qdk"
   title: "¿Por dónde empezar a crear Videojuegos?"

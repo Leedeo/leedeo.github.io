@@ -8,6 +8,10 @@ description: "Poner un precio bajo no es jugar sobre seguro: los datos muestran 
 excerpt: "Hay una conversación que Chris Charla, director del programa ID@Xbox de Microsoft y alguien que lleva más de una década trabajando con cientos de desarrolladores independientes, repite casi cada vez que habla con estudios indie."
 categories:
 - Game Dev
+redirect_from:
+  - "/error-precio-juego-indie/"
+  - "/2026/03/12/error-precio-juego-indie/"
+  - "/2026/03/12/error-precio-juego-indie.html"
 video:
   id: "3ifj5q95qdk"
   title: "¿Por dónde empezar a crear Videojuegos?"

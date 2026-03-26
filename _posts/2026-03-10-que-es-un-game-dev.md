@@ -8,6 +8,10 @@ description: "Qué es un game developer, qué roles existen en un equipo, la dif
 excerpt: "Si alguna vez has jugado a un videojuego y te has preguntado quién diseña los niveles o escribe el código, la respuesta corta es: un game dev. Pero la realidad es mucho más profunda. Una guía sobre roles, la diferencia entre estudios AAA e indies, y cómo dar tus primeros pasos con motores como Godot."
 categories:
 - Game Dev
+redirect_from:
+  - "/que-es-un-game-dev/"
+  - "/2026/03/10/que-es-un-game-dev/"
+  - "/2026/03/10/que-es-un-game-dev.html"
 video:
   id: "3ifj5q95qdk"
   title: "¿Por dónde empezar a crear Videojuegos?"

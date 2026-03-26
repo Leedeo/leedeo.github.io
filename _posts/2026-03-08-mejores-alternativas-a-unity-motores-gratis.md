@@ -8,6 +8,10 @@ description: "Los mejores motores de videojuegos gratuitos y open source como al
 excerpt: "Unity ha cambiado, y el mercado también. Si estás buscando un un nuevo motor de videojuegos, descubre estas alternativas gratuitas y de código abierto que te ofrecen potencia, control y soberanía sobre tus juegos."
 categories:
 - Game Dev
+redirect_from:
+  - "/mejores-alternativas-a-unity-motores-gratis/"
+  - "/2026/03/08/mejores-alternativas-a-unity-motores-gratis/"
+  - "/2026/03/08/mejores-alternativas-a-unity-motores-gratis.html"
 video:
   id: "WzSrFVa36Lg"
   title: "Top 9 Motores de Juegos Gratis"

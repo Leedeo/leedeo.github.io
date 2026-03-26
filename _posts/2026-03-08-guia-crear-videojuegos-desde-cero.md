@@ -8,6 +8,10 @@ description: "Guía técnica y mental para empezar a crear videojuegos desde cer
 excerpt: "Olvida los consejos vacíos. Aprender a crear videojuegos requiere una estrategia técnica y mental. Te explico por dónde empezar realmente y qué pasos seguir."
 categories:
 - Game Dev
+redirect_from:
+  - "/guia-crear-videojuegos-desde-cero/"
+  - "/2026/03/08/guia-crear-videojuegos-desde-cero/"
+  - "/2026/03/08/guia-crear-videojuegos-desde-cero.html"
 video:
   id: "L3pFEk1HPCQ"
   title: "Curso Godot 4 desde Cero [01] Instalar y Configurar"

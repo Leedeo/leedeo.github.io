@@ -8,6 +8,10 @@ description: "Qué es Defold Engine, el motor gratuito y sin regalías nacido en
 excerpt: "Descubre qué es Defold, el motor de videojuegos gratuito y sin regalías impulsado por la fundación detrás de Candy Crush. Especialista en 2D, web y móvil."
 categories:
 - Game Dev
+redirect_from:
+  - "/que-es-defold-motor-videojuegos/"
+  - "/2026/03/14/que-es-defold-motor-videojuegos/"
+  - "/2026/03/14/que-es-defold-motor-videojuegos.html"
 video:
   id: "3ifj5q95qdk"
   title: "¿Por dónde empezar a crear Videojuegos?"

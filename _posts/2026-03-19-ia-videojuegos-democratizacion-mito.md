@@ -8,6 +8,10 @@ description: "Que cualquiera pueda hacer un juego con IA no significa que cualqu
 excerpt: "La IA ha eliminado las barreras técnicas para crear un videojuego. Pero poder hacer un juego y saber hacer un buen juego siguen siendo cosas radicalmente distintas. Las consecuencias de confundirlas."
 categories:
 - Game Dev
+redirect_from:
+  - "/ia-videojuegos-democratizacion-mito/"
+  - "/2026/03/19/ia-videojuegos-democratizacion-mito/"
+  - "/2026/03/19/ia-videojuegos-democratizacion-mito.html"
 video:
   id: "3ifj5q95qdk"
   title: "¿Por dónde empezar a crear Videojuegos?"

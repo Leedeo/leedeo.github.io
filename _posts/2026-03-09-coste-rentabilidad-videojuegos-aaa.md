@@ -8,6 +8,10 @@ description: "Los presupuestos AAA superan los 300 millones y los márgenes se e
 excerpt: "Un análisis de la crisis del modelo de desarrollo AAA. Presupuestos de cientos de millones, márgenes irreales y la alternativa indie que está cambiando las reglas del juego."
 categories:
 - Game Dev
+redirect_from:
+  - "/coste-rentabilidad-videojuegos-aaa/"
+  - "/2026/03/09/coste-rentabilidad-videojuegos-aaa/"
+  - "/2026/03/09/coste-rentabilidad-videojuegos-aaa.html"
 video:
   id: "NWosjlLorEU"
   title: "Por qué aprender Unity o Unreal no te dará trabajo"

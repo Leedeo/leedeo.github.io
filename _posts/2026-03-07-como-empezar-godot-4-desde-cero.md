@@ -9,6 +9,10 @@ excerpt: "¿Quieres crear videojuegos pero no sabes por dónde empezar? Descubre
 categories:
 - Game Dev
 - Godot
+redirect_from:
+  - "/como-empezar-godot-4-desde-cero/"
+  - "/2026/03/07/como-empezar-godot-4-desde-cero/"
+  - "/2026/03/07/como-empezar-godot-4-desde-cero.html"
 video:
   id: "L3pFEk1HPCQ"
   title: "Curso Godot 4 desde Cero [01] Instalar y Configurar"

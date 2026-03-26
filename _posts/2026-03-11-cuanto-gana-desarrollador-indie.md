@@ -8,6 +8,10 @@ description: "Datos reales de Steam y App Store sobre los ingresos de un desarro
 excerpt: "Si estás pensando en hacer un videojuego y publicarlo, en algún momento te has preguntado lo mismo que se pregunta prácticamente todo el mundo antes de dar el salto: ¿cuánto dinero puedo ganar con esto?"
 categories:
 - Game Dev
+redirect_from:
+  - "/cuanto-gana-desarrollador-indie/"
+  - "/2026/03/11/cuanto-gana-desarrollador-indie/"
+  - "/2026/03/11/cuanto-gana-desarrollador-indie.html"
 video:
   id: "3ifj5q95qdk"
   title: "¿Por dónde empezar a crear Videojuegos?"

@@ -9,6 +9,10 @@ excerpt: "Godot Engine ya no es solo \"el motor para empezar\". Títulos indie c
 categories:
 - Game Dev
 - Godot
+redirect_from:
+  - "/juegos-exitosos-hechos-con-godot-engine/"
+  - "/2026/03/25/juegos-exitosos-hechos-con-godot-engine/"
+  - "/2026/03/25/juegos-exitosos-hechos-con-godot-engine.html"
 video:
   id: "NWosjlLorEU"
   title: "Por qué aprender Unity o Unreal no te dará trabajo"

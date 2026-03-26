@@ -8,6 +8,10 @@ description: "El creador de Resident Evil lleva dos años construyendo Unbound G
 excerpt: "El creador de Resident Evil fundó Unbound Games en 2023, un estudio independiente de 50 personas enfocado en crear nuevas IP con Unreal Engine 5."
 categories:
 - Gaming
+redirect_from:
+  - "/shinji-mikami-unbound-games/"
+  - "/2026/03/10/shinji-mikami-unbound-games/"
+  - "/2026/03/10/shinji-mikami-unbound-games.html"
 video:
   id: "3ifj5q95qdk"
   title: "¿Por dónde empezar a crear Videojuegos?"

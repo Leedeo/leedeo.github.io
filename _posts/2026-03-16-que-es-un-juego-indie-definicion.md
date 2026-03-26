@@ -8,6 +8,10 @@ description: "La etiqueta indie está perdiendo su significado: desde Dave the D
 excerpt: "Parece una pregunta sencilla, pero hoy es un terreno pantanoso. Analizamos por qué la etiqueta independiente está perdiendo su significado original."
 categories:
 - Gaming
+redirect_from:
+  - "/que-es-un-juego-indie-definicion/"
+  - "/2026/03/16/que-es-un-juego-indie-definicion/"
+  - "/2026/03/16/que-es-un-juego-indie-definicion.html"
 video:
   id: "0h_F-gHSeM0"
   title: "Juegos Indie vs AAA: La verdadera diferencia"

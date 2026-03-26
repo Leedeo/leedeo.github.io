@@ -9,6 +9,10 @@ excerpt: "Descubre qué es Godot Engine, el motor open source y gratuito que rev
 categories:
 - Godot
 - Game Dev
+redirect_from:
+  - "/que-es-godot-engine-motor-videojuegos/"
+  - "/2026/03/13/que-es-godot-engine-motor-videojuegos/"
+  - "/2026/03/13/que-es-godot-engine-motor-videojuegos.html"
 video:
   id: "L3pFEk1HPCQ"
   title: "Curso Godot 4 desde Cero [01] Instalar y Configurar"

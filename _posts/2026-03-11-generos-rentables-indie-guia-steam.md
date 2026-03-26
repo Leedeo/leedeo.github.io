@@ -8,6 +8,10 @@ description: "Análisis de datos reales de Steam 2024: qué géneros generan má
 excerpt: "Si estás pensando en hacer tu primer juego, o en el próximo después de uno que no funcionó como esperabas, en algún momento te has hecho esta pregunta: ¿qué tipo de juego tiene más posibilidades de funcionar?"
 categories:
 - Game Dev
+redirect_from:
+  - "/generos-rentables-indie-guia-steam/"
+  - "/2026/03/11/generos-rentables-indie-guia-steam/"
+  - "/2026/03/11/generos-rentables-indie-guia-steam.html"
 video:
   id: "3ifj5q95qdk"
   title: "¿Por dónde empezar a crear Videojuegos?"

@@ -9,6 +9,10 @@ excerpt: "¿Sabes desarrollar videojuegos, o sabes usar Unity? No es lo mismo. C
 categories:
 - Game Dev
 - Godot
+redirect_from:
+  - "/tirania-motores-videojuegos-unity-unreal/"
+  - "/2026/03/20/tirania-motores-videojuegos-unity-unreal/"
+  - "/2026/03/20/tirania-motores-videojuegos-unity-unreal.html"
 video:
   id: "NWosjlLorEU"
   title: "Por qué aprender Unity o Unreal no te dará trabajo"

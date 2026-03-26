@@ -8,6 +8,10 @@ description: "GIMP 3.2 incorpora por fin la edición no destructiva tras tres d�
 excerpt: "GIMP 3.2 marca un hito histórico tras tres décadas de espera: la llegada de la edición no destructiva (NDE). Analizamos por qué este cambio es vital para flujos de trabajo profesionales."
 categories:
 - Herramientas
+redirect_from:
+  - "/gimp-3-2-edicion-no-destructiva/"
+  - "/2026/03/17/gimp-3-2-edicion-no-destructiva/"
+  - "/2026/03/17/gimp-3-2-edicion-no-destructiva.html"
 video:
   id: "bslPe_Y43es"
   title: "Tutorial de GIMP, Edición de imagen libre"

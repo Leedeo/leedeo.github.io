@@ -8,6 +8,10 @@ description: "Innersloth publica su contrato estándar con desarrolladores indie
 excerpt: "Innersloth, creadores de Among Us, rompen el secretismo de la industria publicando su contrato estándar de financiación para juegos independientes."
 categories:
 - Game Dev
+redirect_from:
+  - "/outersloth-contrato-indie-transparencia/"
+  - "/2026/03/10/outersloth-contrato-indie-transparencia/"
+  - "/2026/03/10/outersloth-contrato-indie-transparencia.html"
 video:
   id: "L3pFEk1HPCQ"
   title: "Curso Godot 4 desde Cero [01] Instalar y Configurar"

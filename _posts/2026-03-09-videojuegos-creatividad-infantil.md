@@ -8,6 +8,10 @@ description: "La ciencia detrás del videojuego como herramienta creativa: juego
 excerpt: "Un análisis del impacto de los entornos interactivos en el desarrollo cognitivo. Del juego simbólico a la creación técnica: por qué el videojuego es el nuevo laboratorio creativo."
 categories:
 - Gaming
+redirect_from:
+  - "/videojuegos-creatividad-infantil/"
+  - "/2026/03/09/videojuegos-creatividad-infantil/"
+  - "/2026/03/09/videojuegos-creatividad-infantil.html"
 video:
   id: "L3pFEk1HPCQ"
   title: "Curso Godot 4 desde Cero [01] Instalar y Configurar"
