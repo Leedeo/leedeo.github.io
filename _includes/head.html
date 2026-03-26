@@ -14,22 +14,22 @@
      script-src-attr: 'none' (no quedan onclick/onload inline)
      style-src: mantiene 'unsafe-inline' — necesario para atributos style="" de Tailwind e iframes
 -->
-<meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self' https://pagead2.googlesyndication.com https://www.googletagmanager.com https://www.google-analytics.com https://fundingchoicesmessages.google.com https://leedeo.disqus.com https://a.disquscdn.com; script-src-attr 'none'; style-src 'self' 'unsafe-inline'; font-src 'self' data:; img-src 'self' data: https://pagead2.googlesyndication.com https://www.google-analytics.com https://referrer.disqus.com https://a.disquscdn.com https://i.ytimg.com; connect-src 'self' https://pagead2.googlesyndication.com https://www.google-analytics.com https://links.services.disqus.com; frame-src https://fundingchoicesmessages.google.com https://googleads.g.doubleclick.net https://www.youtube.com https://www.youtube-nocookie.com https://disqus.com; base-uri 'self'; form-action 'self'; upgrade-insecure-requests;">
+<meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self' https://pagead2.googlesyndication.com https://www.googletagmanager.com https://www.google-analytics.com https://fundingchoicesmessages.google.com https://leedeo.disqus.com https://a.disquscdn.com; script-src-attr 'none'; style-src 'self' 'unsafe-inline' https://fonts.googleapis.com https://cdn.jsdelivr.net https://cdnjs.cloudflare.com; font-src 'self' data: https://fonts.gstatic.com https://cdn.jsdelivr.net https://cdnjs.cloudflare.com; img-src 'self' data: https://pagead2.googlesyndication.com https://www.google-analytics.com https://referrer.disqus.com https://a.disquscdn.com https://i.ytimg.com; connect-src 'self' https://pagead2.googlesyndication.com https://www.google-analytics.com https://links.services.disqus.com https://fonts.googleapis.com https://fonts.gstatic.com; frame-src https://fundingchoicesmessages.google.com https://googleads.g.doubleclick.net https://www.youtube.com https://www.youtube-nocookie.com https://disqus.com; base-uri 'self'; form-action 'self'; upgrade-insecure-requests;">
 
 <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-4585804237331442" crossorigin="anonymous"></script>
 
 <!-- Preconectar orígenes clave -->
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link rel="preconnect" href="https://cdnjs.cloudflare.com">
+<link rel="preconnect" href="https://cdn.jsdelivr.net">
 <link rel="preconnect" href="https://www.youtube.com">
 <link rel="dns-prefetch" href="https://www.youtube.com">
 <link rel="preconnect" href="https://i.ytimg.com">
 <link rel="dns-prefetch" href="https://i.ytimg.com">
 
-<!-- Preload de fuentes críticas -->
-<link rel="preload" href="{{ '/assets/fonts/plus-jakarta-sans-latin.woff2' | relative_url }}" as="font" type="font/woff2" crossorigin>
-<link rel="preload" href="{{ '/assets/fonts/pacifico-latin.woff2' | relative_url }}" as="font" type="font/woff2" crossorigin>
-<link rel="preload" href="{{ '/assets/fonts/fa-brands-400.woff2' | relative_url }}" as="font" type="font/woff2" crossorigin>
-<link rel="preload" href="{{ '/assets/fonts/fa-solid-900.woff2' | relative_url }}" as="font" type="font/woff2" crossorigin>
+<!-- Fuentes Externas -->
+<link href="https://fonts.googleapis.com/css2?family=Pacifico&family=Plus+Jakarta+Sans:ital,wght@0,200..800;1,200..800&display=swap" rel="stylesheet">
 
 <!-- Estilos Críticos e Inline de Fuentes -->
 <style>
@@ -40,22 +40,6 @@
     --violet-light: #c084fc;
     --pink-accent: #f472b6;
     --text-slate: #f1f5f9;
-  }
-
-  @font-face {
-    font-family: 'Plus Jakarta Sans';
-    font-style: normal;
-    font-weight: 200 800;
-    font-display: swap;
-    src: url('{{ "/assets/fonts/plus-jakarta-sans-latin.woff2" | relative_url }}') format('woff2');
-  }
-
-  @font-face {
-    font-family: 'Pacifico';
-    font-style: normal;
-    font-weight: 400;
-    font-display: swap;
-    src: url('{{ "/assets/fonts/pacifico-latin.woff2" | relative_url }}') format('woff2');
   }
 
   body {
@@ -76,8 +60,8 @@
 <!-- CSS Personalizado -->
 <link rel="stylesheet" href="{{ '/assets/css/style.css' | relative_url }}">
 
-<!-- FontAwesome: Localizado -->
-<link rel="stylesheet" href="{{ '/assets/css/fontawesome.min.css' | relative_url }}">
+<!-- FontAwesome: CDN cdnjs (Cloudflare) -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css">
 
 <link rel="shortcut icon" href="{{ '/assets/img/ui/favicon.png' | relative_url }}" type="image/png">
 
