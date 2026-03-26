@@ -18,6 +18,10 @@ Unified & GPU-Accelerated for Main Page & Policy Page
 .rounded-custom-32 { border-radius: 2rem; }
 .rounded-custom-48 { border-radius: 3rem; }
 
+/* --- Fix para FontAwesome font-display: swap (Core Web Vitals) --- */
+@font-face { font-family: 'Font Awesome 7 Free'; font-display: swap; src: local('Font Awesome 7 Free'); }
+@font-face { font-family: 'Font Awesome 7 Brands'; font-display: swap; src: local('Font Awesome 7 Brands'); }
+
 /* --- Reseteo y Base --- */
 body {
   font-family: 'Plus Jakarta Sans', sans-serif;

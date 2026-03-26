@@ -21,6 +21,11 @@
 <!-- Preconectar orígenes clave -->
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="preconnect" href="https://cdnjs.cloudflare.com" crossorigin>
+
+<!-- Preload de fuentes críticas (FontAwesome) para evitar avisos de FOIT/swap -->
+<link rel="preload" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/webfonts/fa-solid-900.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/webfonts/fa-brands-400.woff2" as="font" type="font/woff2" crossorigin>
 
 {% if page.video %}
 <link rel="preconnect" href="https://www.youtube.com">
