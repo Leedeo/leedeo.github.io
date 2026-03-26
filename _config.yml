@@ -1,7 +1,6 @@
 title: Leedeo Studio
 email: javo@leedeo.studio
-description: >-
-  Leedeo Studio: Tutoriales prácticos de Godot Engine, cursos de desarrollo de videojuegos y herramientas exclusivas de optimización como Leedeo Cleaner.
+description: "Leedeo Studio: Tutoriales prácticos de Godot Engine, cursos de desarrollo de videojuegos y herramientas exclusivas de optimización como Leedeo Cleaner."
 baseurl: ""
 url: "https://leedeo.net"
 permalink: /blog/:title/
@@ -27,6 +26,7 @@ markdown: kramdown
 plugins:
   - jekyll-feed
   - jekyll-seo-tag
+  - jekyll-sitemap
   - jekyll-paginate
 
 paginate: 12
