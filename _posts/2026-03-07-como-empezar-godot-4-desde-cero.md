@@ -1,27 +1,21 @@
 ---
-layout: post
-author: javo
-date: 2026-03-07 07:24:24.000000000 +01:00
+layout: "post"
+author: "javo"
+date: "2026-03-07 07:24:24 +0100"
 thumbnail: "/assets/img/courses/aprender-godot-4.webp"
 title: "¿Cómo aprender Godot 4 desde cero en 2026? Guía paso a paso para principiantes"
-description: 'Guía paso a paso para aprender Godot 4 desde cero en 2026: conceptos
-  clave, flujo de trabajo práctico y recursos para no perderte. Sin conocimientos
-  previos necesarios.'
-excerpt: "¿Quieres crear videojuegos pero no sabes por dónde empezar? Descubre por
-  qué Godot 4 es la mejor opción en 2026 y cómo dar tus primeros pasos sin morir en
-  el intento."
+description: "Guía paso a paso para aprender Godot 4 desde cero en 2026: conceptos clave, flujo de trabajo práctico y recursos para no perderte. Sin conocimientos previos necesarios."
+excerpt: "¿Quieres crear videojuegos pero no sabes por dónde empezar? Descubre por qué Godot 4 es la mejor opción en 2026 y cómo dar tus primeros pasos sin morir en el intento."
 categories:
 - Game Dev
 - Godot
 video:
-  id: L3pFEk1HPCQ
-  title: Curso Godot 4 desde Cero [01] Instalar y Configurar
-  description: Primer capítulo del curso de introducción a Godot 4. Aprende a descargar,
-    instalar y configurar el motor desde cero.
-  upload_date: '2023-03-06'
-  duration: PT6M27S
+  id: "L3pFEk1HPCQ"
+  title: "Curso Godot 4 desde Cero [01] Instalar y Configurar"
+  description: "Primer capítulo del curso de introducción a Godot 4. Aprende a descargar, instalar y configurar el motor desde cero."
+  upload_date: "2023-03-06"
+  duration: "PT6M27S"
 ---
-
 Hay un momento específico en el que muchas personas deciden aprender a crear videojuegos: pueden ser las horas que le han dedicado a sus juegos favoritos, la frustración de ver una mecánica en un juego y pensar "yo podría hacerlo mejor", o simplemente las ganas de construir algo propio desde cero. El problema es que entre ese impulso y el primer proyecto funcional hay una curva de aprendizaje que, si no se gestiona bien, acaba con muchos proyectos antes de arrancar.
 
 Esta guía es para que no te conviertas en una estadística más de proyectos abandonados.

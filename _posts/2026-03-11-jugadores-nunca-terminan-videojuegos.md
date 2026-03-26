@@ -1,28 +1,20 @@
 ---
-layout: post
-author: javo
-date: 2026-03-11 07:57:34.000000000 +01:00
+layout: "post"
+author: "javo"
+date: "2026-03-11 07:57:34 +0100"
 thumbnail: "/assets/img/posts/jugadores-no-terminan-juegos.webp"
-title: "¿Por qué la mayoría de jugadores nunca termina los videojuegos? La respuesta
-  es más compleja de lo que parece"
-description: 'Por qué entre el 60% y el 85% de los jugadores no termina los juegos
-  que compra: el papel de la edad, el backlog, el diseño de los AAA y los juegos live
-  service en el abandono masivo.'
-excerpt: El abandono de los videojuegos por parte de los jugadores no es pereza ni
-  falta de atención, es un fenómeno complejo impulsado por la edad de la audiencia,
-  la saturación del mercado, el tamaño del backlog y el diseño de los propios títulos
-  AAA y Live Service.
+title: "¿Por qué la mayoría de jugadores nunca termina los videojuegos? La respuesta es más compleja de lo que parece"
+description: "Por qué entre el 60% y el 85% de los jugadores no termina los juegos que compra: el papel de la edad, el backlog, el diseño de los AAA y los juegos live service en el abandono masivo."
+excerpt: "El abandono de los videojuegos por parte de los jugadores no es pereza ni falta de atención, es un fenómeno complejo impulsado por la edad de la audiencia, la saturación del mercado, el tamaño del backlog y el diseño de los propios títulos AAA y Live Service."
 categories:
 - Gaming
 video:
-  id: 3ifj5q95qdk
+  id: "3ifj5q95qdk"
   title: "¿Por dónde empezar a crear Videojuegos?"
-  description: 'Guía práctica para empezar en el desarrollo de videojuegos: qué motor
-    elegir, cómo estructurar tu aprendizaje y los primeros pasos reales.'
-  upload_date: '2024-06-18'
-  duration: PT9M54S
+  description: "Guía práctica para empezar en el desarrollo de videojuegos: qué motor elegir, cómo estructurar tu aprendizaje y los primeros pasos reales."
+  upload_date: "2024-06-18"
+  duration: "PT9M54S"
 ---
-
 Piensa en los últimos cinco juegos que compraste. ¿Cuántos terminaste?
 
 Si la respuesta honesta es "uno" o "ninguno", no estás solo. De hecho, estás en una mayoría silenciosa que la industria lleva décadas intentando entender y, en algunos casos, explotar. Porque no terminar los videojuegos no es un hábito nuevo ni un síntoma de que los jugadores actuales tienen menos paciencia que los de antes. Es un fenómeno complejo que tiene que ver con la psicología, la economía, el diseño de los propios juegos y un mercado que ha crecido hasta volverse, para muchos, genuinamente inmanejable.

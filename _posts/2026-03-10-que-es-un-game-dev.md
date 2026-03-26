@@ -1,27 +1,20 @@
 ---
-layout: post
-author: javo
-date: 2026-03-10 08:13:32.000000000 +01:00
+layout: "post"
+author: "javo"
+date: "2026-03-10 08:13:32 +0100"
 thumbnail: "/assets/img/posts/que-es-un-game-dev.webp"
 title: "¿Qué es un Game Dev? Todo lo que necesitas saber para empezar a crear videojuegos"
-description: Qué es un game developer, qué roles existen en un equipo, la diferencia
-  entre indie y AAA, y cómo empezar desde cero con Godot Engine sin necesidad de experiencia
-  previa.
-excerpt: 'Si alguna vez has jugado a un videojuego y te has preguntado quién diseña
-  los niveles o escribe el código, la respuesta corta es: un game dev. Pero la realidad
-  es mucho más profunda. Una guía sobre roles, la diferencia entre estudios AAA e
-  indies, y cómo dar tus primeros pasos con motores como Godot.'
+description: "Qué es un game developer, qué roles existen en un equipo, la diferencia entre indie y AAA, y cómo empezar desde cero con Godot Engine sin necesidad de experiencia previa."
+excerpt: "Si alguna vez has jugado a un videojuego y te has preguntado quién diseña los niveles o escribe el código, la respuesta corta es: un game dev. Pero la realidad es mucho más profunda. Una guía sobre roles, la diferencia entre estudios AAA e indies, y cómo dar tus primeros pasos con motores como Godot."
 categories:
 - Game Dev
 video:
-  id: 3ifj5q95qdk
+  id: "3ifj5q95qdk"
   title: "¿Por dónde empezar a crear Videojuegos?"
-  description: 'Guía práctica para empezar en el desarrollo de videojuegos: qué motor
-    elegir, cómo estructurar tu aprendizaje y los primeros pasos reales.'
-  upload_date: '2024-06-18'
-  duration: PT9M54S
+  description: "Guía práctica para empezar en el desarrollo de videojuegos: qué motor elegir, cómo estructurar tu aprendizaje y los primeros pasos reales."
+  upload_date: "2024-06-18"
+  duration: "PT9M54S"
 ---
-
 Si alguna vez has jugado a un videojuego y te has preguntado quién hay detrás de todo eso, quién diseña los niveles, quién escribe el código que hace que el personaje salte, quién compone la música que te pone los pelos de punta en el momento justo, la respuesta corta es: un game dev.
 
 Pero la respuesta corta no le hace justicia al término, porque "game dev" es uno de esos conceptos que parece simple hasta que empiezas a rascar un poco.

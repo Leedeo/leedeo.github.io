@@ -1,27 +1,20 @@
 ---
-layout: post
-author: javo
-date: 2026-03-18 07:43:22.000000000 +01:00
+layout: "post"
+author: "javo"
+date: "2026-03-18 07:43:22 +0100"
 thumbnail: "/assets/img/posts/ia-desarrollo-videojuegos.webp"
-title: 'La IA en el desarrollo de videojuegos: ¿amenaza para la creatividad o el siguiente
-  paso tecnológico?'
-description: 'La IA generativa en el desarrollo de videojuegos: contexto histórico,
-  el debate sobre autoría y copia, y por qué la herramienta no destruye la creatividad
-  aunque sí puede cambiar quién trabaja y cómo.'
-excerpt: 'La inteligencia artificial generativa está transformando el desarrollo de
-  videojuegos. Ni el fin de la creatividad ni la solución a todo: un análisis con
-  contexto histórico y sin eslóganes.'
+title: "La IA en el desarrollo de videojuegos: ¿amenaza para la creatividad o el siguiente paso tecnológico?"
+description: "La IA generativa en el desarrollo de videojuegos: contexto histórico, el debate sobre autoría y copia, y por qué la herramienta no destruye la creatividad aunque sí puede cambiar quién trabaja y cómo."
+excerpt: "La inteligencia artificial generativa está transformando el desarrollo de videojuegos. Ni el fin de la creatividad ni la solución a todo: un análisis con contexto histórico y sin eslóganes."
 categories:
 - Game Dev
 video:
-  id: 3ifj5q95qdk
+  id: "3ifj5q95qdk"
   title: "¿Por dónde empezar a crear Videojuegos?"
-  description: 'Guía práctica para empezar en el desarrollo de videojuegos: qué motor
-    elegir, cómo estructurar tu aprendizaje y los primeros pasos reales.'
-  upload_date: '2024-06-18'
-  duration: PT9M54S
+  description: "Guía práctica para empezar en el desarrollo de videojuegos: qué motor elegir, cómo estructurar tu aprendizaje y los primeros pasos reales."
+  upload_date: "2024-06-18"
+  duration: "PT9M54S"
 ---
-
 Cada vez que aparece una nueva tecnología capaz de automatizar algo que antes solo podían hacer las personas, se repite el mismo ciclo. Primero el asombro. Luego el miedo. Después los discursos encendidos. Y finalmente, con el tiempo, la normalización.
 
 Con la inteligencia artificial generativa está pasando exactamente eso. Y en pocos sectores el debate es tan intenso como en el de los videojuegos, donde la IA puede intervenir en prácticamente todas las fases de la creación: el arte, la música, la programación, el diseño de niveles, los diálogos, las animaciones.

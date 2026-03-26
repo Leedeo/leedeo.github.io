@@ -1,27 +1,20 @@
 ---
-layout: post
-author: javo
-date: 2026-03-08 08:43:44.000000000 +01:00
+layout: "post"
+author: "javo"
+date: "2026-03-08 08:43:44 +0100"
 thumbnail: "/assets/img/posts/mejores-motores-videojuegos-gratis.webp"
-title: "¿Cuáles son las mejores alternativas a Unity? Motores gratis y open-source
-  para 2026"
-description: 'Los mejores motores de videojuegos gratuitos y open source como alternativa
-  a Unity en 2026: Godot, Unreal, Stride, Flax, GDevelop y más, con análisis de licencias
-  y casos de uso.'
-excerpt: Unity ha cambiado, y el mercado también. Si estás buscando un un nuevo motor
-  de videojuegos, descubre estas alternativas gratuitas y de código abierto que te
-  ofrecen potencia, control y soberanía sobre tus juegos.
+title: "¿Cuáles son las mejores alternativas a Unity? Motores gratis y open-source para 2026"
+description: "Los mejores motores de videojuegos gratuitos y open source como alternativa a Unity en 2026: Godot, Unreal, Stride, Flax, GDevelop y más, con análisis de licencias y casos de uso."
+excerpt: "Unity ha cambiado, y el mercado también. Si estás buscando un un nuevo motor de videojuegos, descubre estas alternativas gratuitas y de código abierto que te ofrecen potencia, control y soberanía sobre tus juegos."
 categories:
 - Game Dev
 video:
-  id: WzSrFVa36Lg
-  title: Top 9 Motores de Juegos Gratis
-  description: Comparativa real de los mejores motores de videojuegos gratuitos y
-    open source como alternativa a Unity en 2024.
-  upload_date: '2024-01-07'
-  duration: PT18M15S
+  id: "WzSrFVa36Lg"
+  title: "Top 9 Motores de Juegos Gratis"
+  description: "Comparativa real de los mejores motores de videojuegos gratuitos y open source como alternativa a Unity en 2024."
+  upload_date: "2024-01-07"
+  duration: "PT18M15S"
 ---
-
 El desarrollo de videojuegos no debería ser una relación de codependencia tóxica con una empresa. Muchos desarrolladores indie se sienten atrapados en motores privativos por miedo al cambio o por la falsa creencia de que fuera de los "gigantes" de la industria no existen herramientas profesionales. 
 
 Sin embargo, el panorama actual para la **creación de videojuegos** es más rico que nunca. Existen motores que no solo igualan en potencia a las opciones comerciales, sino que ofrecen modelos de licencia mucho más amigables. Algunos te devuelven la **propiedad absoluta de tu tecnología** gracias al código abierto, mientras que otros ofrecen potencia AAA de forma gratuita hasta que alcances el éxito comercial.

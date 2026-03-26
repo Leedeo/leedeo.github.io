@@ -1,28 +1,21 @@
 ---
-layout: post
-author: javo
-date: 2026-03-07 08:21:50.000000000 +01:00
+layout: "post"
+author: "javo"
+date: "2026-03-07 08:21:50 +0100"
 thumbnail: "/assets/img/posts/aprender-programar-gdscript.webp"
-title: "¿Cómo aprender a programar videojuegos? Por qué GDScript es el mejor lenguaje
-  para empezar"
-description: GDScript es el lenguaje más accesible para empezar a programar videojuegos.
-  Descubre por qué supera a C# o Python para principiantes y cómo dar tus primeros
-  pasos reales.
-excerpt: "¿Quieres aprender a programar pero el código te parece imposible? Descubre
-  por qué GDScript en Godot 4 es la forma más rápida, sencilla y lógica de crear tus
-  propios juegos."
+title: "¿Cómo aprender a programar videojuegos? Por qué GDScript es el mejor lenguaje para empezar"
+description: "GDScript es el lenguaje más accesible para empezar a programar videojuegos. Descubre por qué supera a C# o Python para principiantes y cómo dar tus primeros pasos reales."
+excerpt: "¿Quieres aprender a programar pero el código te parece imposible? Descubre por qué GDScript en Godot 4 es la forma más rápida, sencilla y lógica de crear tus propios juegos."
 categories:
 - Game Dev
 - Godot
 video:
-  id: x9N1gw2qWEQ
-  title: Curso Godot 4 desde Cero [04] Aprende a Programar con GDScript
-  description: Introducción práctica a GDScript, el lenguaje de programación de Godot
-    Engine, pensado para quienes quieren empezar a crear videojuegos.
-  upload_date: '2023-03-24'
-  duration: PT16M31S
+  id: "x9N1gw2qWEQ"
+  title: "Curso Godot 4 desde Cero [04] Aprende a Programar con GDScript"
+  description: "Introducción práctica a GDScript, el lenguaje de programación de Godot Engine, pensado para quienes quieren empezar a crear videojuegos."
+  upload_date: "2023-03-24"
+  duration: "PT16M31S"
 ---
-
 La mayoría de personas que quieren programar videojuegos se enfrentan al mismo dilema inicial: ¿por dónde empiezo? ¿C++? ¿Python? ¿JavaScript? ¿Unity con C#? Y ese mar de opciones termina siendo el primer obstáculo, incluso antes de haber escrito una sola línea.
 
 Existe, sin embargo, una respuesta técnicamente sólida para quien quiere **aprender a programar específicamente para crear videojuegos**: GDScript. Y no te lo digo por conveniencia, sino porque hay razones concretas y verificables.

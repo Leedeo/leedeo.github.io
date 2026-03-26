@@ -1,8 +1,7 @@
 ---
 layout: default
-title: Halls of Delirium, Juego de Terror y Espacios Liminales
-description: >-
-  Explora Halls of Delirium, un proyecto de terror indie desarrollado por Javo de Leedeo Studio. Inspirado en los espacios liminales y desarrollado en Godot Engine.
+title: Halls of Delirium, Juego de Terror Indie
+description: 'Explora Halls of Delirium, un proyecto de terror indie desarrollado por Javo de Leedeo Studio. Inspirado en los espacios liminales y desarrollado en Godot Engine.'
 permalink: /projects/halls-of-delirium/
 image: /assets/img/projects/halls-of-delirium-3.webp
 video:
@@ -35,9 +34,8 @@ video:
 
     <!-- TRÁILER Y CTA -->
     <section aria-label="Tráiler y descarga" class="max-w-4xl mx-auto mb-20 text-center reveal">
-        <div class="aspect-video w-full rounded-3xl overflow-hidden shadow-2xl border border-violet-500/30 mb-10 bg-black">
-            <iframe class="w-full h-full" src="https://www.youtube.com/embed/LTF9AT0K9mk?si=yoiTxTD8VRaaXSA_&rel=0" title="Halls of Delirium Trailer" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen loading="lazy"></iframe>
-        </div>
+        {% include youtube-embed.html id="LTF9AT0K9mk" title="Trailer Halls of Delirium" %}
+
         <div class="flex flex-col sm:flex-row gap-4 justify-center items-center">
             <a href="https://leedeo.itch.io/halls-of-delirium" target="_blank" rel="noopener" class="btn-primary text-lg px-8 py-4">
                 <i class="fas fa-gamepad"></i> Descargar Demo en Itch.io
@@ -91,9 +89,8 @@ video:
                         Sin embargo, para evitar problemas legales y potenciar el factor supervivencia en <strong class="text-white">Halls of Delirium</strong>, la arquitectura definitiva será un laberinto original diseñado para desorientar e inquietar aún más al jugador.
                     </p>
                 </div>
-                <div class="aspect-video rounded-2xl overflow-hidden shadow-2xl border border-white/10 bg-black">
-                    <iframe class="w-full h-full" src="https://www.youtube.com/embed/v8zZWKz7Ujk?si=t3YJ0wjhceUjSEgN&rel=0" title="Desarrollo del nivel Pac-Man - Devlog" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen loading="lazy"></iframe>
-                </div>
+
+                {% include youtube-embed.html id="v8zZWKz7Ujk" title="Desarrollo del nivel Pac-Man, Devlog" %}
             </div>
         </div>
     </section>

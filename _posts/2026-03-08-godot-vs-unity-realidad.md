@@ -1,27 +1,21 @@
 ---
-layout: post
-author: javo
-date: 2026-03-08 07:33:55.000000000 +01:00
+layout: "post"
+author: "javo"
+date: "2026-03-08 07:33:55 +0100"
 thumbnail: "/assets/img/posts/godot-vs-unity-realidad.webp"
-title: 'Godot vs Unity en 2026: Por qué el motor no te va a dar el trabajo de tus
-  sueños'
-description: La crisis de confianza de Unity en 2023 y la realidad del mercado laboral
-  en videojuegos. Por qué el motor que eliges importa menos de lo que crees, y qué
-  sí importa de verdad.
-excerpt: "¿Realmente importa qué motor elijas para trabajar? Desmontamos los mitos
-  sobre Unity, el software privativo y la realidad del mercado laboral de videojuegos."
+title: "Godot vs Unity en 2026: Por qué el motor no te va a dar el trabajo de tus sueños"
+description: "La crisis de confianza de Unity en 2023 y la realidad del mercado laboral en videojuegos. Por qué el motor que eliges importa menos de lo que crees, y qué sí importa de verdad."
+excerpt: "¿Realmente importa qué motor elijas para trabajar? Desmontamos los mitos sobre Unity, el software privativo y la realidad del mercado laboral de videojuegos."
 categories:
 - Game Dev
 - Godot
 video:
-  id: L3pFEk1HPCQ
-  title: Curso Godot 4 desde Cero [01] Instalar y Configurar
-  description: Primer capítulo del curso de introducción a Godot 4. Aprende a descargar,
-    instalar y configurar el motor desde cero.
-  upload_date: '2023-03-06'
-  duration: PT6M27S
+  id: "L3pFEk1HPCQ"
+  title: "Curso Godot 4 desde Cero [01] Instalar y Configurar"
+  description: "Primer capítulo del curso de introducción a Godot 4. Aprende a descargar, instalar y configurar el motor desde cero."
+  upload_date: "2023-03-06"
+  duration: "PT6M27S"
 ---
-
 Después de haber usado Unity durante cuatro años, puedo decir sin miedo que es un motor increíble. Fue mi puerta de entrada al desarrollo "moderno" tras años de pausa desde mi adolescencia con RPG Maker. Pero las herramientas no son solo líneas de código; también son las empresas que las gestionan y las decisiones que toman.
 
 Y las decisiones de Unity Technologies en los últimos años han sido, objetivamente, muy malas para quienes confían en él.

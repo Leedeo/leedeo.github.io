@@ -1,26 +1,20 @@
 ---
-layout: post
-author: javo
-date: 2026-03-12 08:38:36.000000000 +01:00
+layout: "post"
+author: "javo"
+date: "2026-03-12 08:38:36 +0100"
 thumbnail: "/assets/img/posts/error-precio-videojuego-indie.webp"
-title: El error que comete casi todo desarrollador indie al poner precio a su juego
-description: 'Poner un precio bajo no es jugar sobre seguro: los datos muestran que
-  reduce la visibilidad y la percepción de calidad. Guía con cifras reales sobre cómo
-  fijar el precio de un juego indie.'
-excerpt: Hay una conversación que Chris Charla, director del programa ID@Xbox de Microsoft
-  y alguien que lleva más de una década trabajando con cientos de desarrolladores
-  independientes, repite casi cada vez que habla con estudios indie.
+title: "El error que comete casi todo desarrollador indie al poner precio a su juego"
+description: "Poner un precio bajo no es jugar sobre seguro: los datos muestran que reduce la visibilidad y la percepción de calidad. Guía con cifras reales sobre cómo fijar el precio de un juego indie."
+excerpt: "Hay una conversación que Chris Charla, director del programa ID@Xbox de Microsoft y alguien que lleva más de una década trabajando con cientos de desarrolladores independientes, repite casi cada vez que habla con estudios indie."
 categories:
 - Game Dev
 video:
-  id: 3ifj5q95qdk
+  id: "3ifj5q95qdk"
   title: "¿Por dónde empezar a crear Videojuegos?"
-  description: 'Guía práctica para empezar en el desarrollo de videojuegos: qué motor
-    elegir, cómo estructurar tu aprendizaje y los primeros pasos reales.'
-  upload_date: '2024-06-18'
-  duration: PT9M54S
+  description: "Guía práctica para empezar en el desarrollo de videojuegos: qué motor elegir, cómo estructurar tu aprendizaje y los primeros pasos reales."
+  upload_date: "2024-06-18"
+  duration: "PT9M54S"
 ---
-
 Hay una conversación que Chris Charla, director del programa ID@Xbox de Microsoft y alguien que lleva más de una década trabajando con cientos de desarrolladores independientes, repite casi cada vez que habla con estudios indie: la mayoría infravalora su propio trabajo. No un poco. Bastante.
 
 Es un problema que parece tonto hasta que lo piensas desde dentro. Has pasado meses o años haciendo un juego, conoces cada bug que has corregido, cada mecánica que has rediseñado tres veces, cada noche que te quedaste hasta tarde depurando algo que no funcionaba. Cuando llega el momento de poner un precio, todo ese conocimiento íntimo de las costuras del proyecto juega en tu contra. Ves los defectos, no el valor. Y el resultado, casi invariablemente, es un precio demasiado bajo.

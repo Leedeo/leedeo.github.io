@@ -1,25 +1,20 @@
 ---
-layout: post
-author: javo
-date: 2026-03-24 05:50:00.000000000 +01:00
+layout: "post"
+author: "javo"
+date: "2026-03-24 05:50:00 +0100"
 thumbnail: "/assets/img/posts/nostalgia-toxica-estetica-psx-videojuegos-retro.webp"
-title: 'El efecto nostalgia tóxica: por qué nos obsesiona la estética PSX'
-description: La estética de PlayStation 1 domina el videojuego indie. ¿Es un homenaje
-  artístico genuino o estamos romantizando una época que no fue como la recordamos?
-excerpt: Polígonos torcidos, texturas temblorosas, niebla espesa. La estética PSX
-  ya es casi un subgénero. Pero hay una diferencia enorme entre usarla porque entiendes
-  por qué funciona y usarla porque está de moda.
+title: "El efecto nostalgia tóxica: por qué nos obsesiona la estética PSX"
+description: "La estética de PlayStation 1 domina el videojuego indie. ¿Es un homenaje artístico genuino o estamos romantizando una época que no fue como la recordamos?"
+excerpt: "Polígonos torcidos, texturas temblorosas, niebla espesa. La estética PSX ya es casi un subgénero. Pero hay una diferencia enorme entre usarla porque entiendes por qué funciona y usarla porque está de moda."
 categories:
 - Gaming
 video:
-  id: 0h_F-gHSeM0
-  title: 'Juegos Indie vs AAA: La verdadera diferencia'
-  description: 'Qué diferencia realmente a un juego indie de uno AAA: presupuesto,
-    distribución, libertad creativa y el modelo de negocio detrás de cada uno.'
-  upload_date: '2025-10-19'
-  duration: PT5M2S
+  id: "0h_F-gHSeM0"
+  title: "Juegos Indie vs AAA: La verdadera diferencia"
+  description: "Qué diferencia realmente a un juego indie de uno AAA: presupuesto, distribución, libertad creativa y el modelo de negocio detrás de cada uno."
+  upload_date: "2025-10-19"
+  duration: "PT5M2S"
 ---
-
 Hay una imagen que se repite cada vez más en el videojuego independiente: texturas temblorosas, polígonos toscos, niebla espesa, animaciones rígidas, modelos que parecen tallados con una cuchara y una interfaz que podría haber salido de un televisor de tubo en 1998. La llamada **estética PSX** ya no es una rareza; es casi un subgénero visual con identidad propia.
 
 Y la pregunta es inevitable: ¿por qué?

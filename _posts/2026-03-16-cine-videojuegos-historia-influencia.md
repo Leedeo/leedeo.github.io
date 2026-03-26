@@ -1,26 +1,20 @@
 ---
-layout: post
-author: javo
-date: 2026-03-16 08:47:37.000000000 +01:00
+layout: "post"
+author: "javo"
+date: "2026-03-16 08:47:37 +0100"
 thumbnail: "/assets/img/posts/cine-videojuegos-influencia.webp"
-title: 'Cine y videojuegos: la historia de una influencia mutua que transformó ambas
-  industrias'
-description: Cómo el cine influyó en los videojuegos durante décadas y cómo Unreal
-  Engine acabó siendo la herramienta de producción de The Mandalorian. La historia
-  completa de una influencia mutua.
-excerpt: Exploramos la fascinante relación entre el séptimo arte y el entretenimiento
-  interactivo. De las cinemáticas de los 90 a la producción virtual moderna.
+title: "Cine y videojuegos: la historia de una influencia mutua que transformó ambas industrias"
+description: "Cómo el cine influyó en los videojuegos durante décadas y cómo Unreal Engine acabó siendo la herramienta de producción de The Mandalorian. La historia completa de una influencia mutua."
+excerpt: "Exploramos la fascinante relación entre el séptimo arte y el entretenimiento interactivo. De las cinemáticas de los 90 a la producción virtual moderna."
 categories:
 - Gaming
 video:
-  id: 0h_F-gHSeM0
-  title: 'Juegos Indie vs AAA: La verdadera diferencia'
-  description: 'Qué diferencia realmente a un juego indie de uno AAA: presupuesto,
-    distribución, libertad creativa y el modelo de negocio detrás de cada uno.'
-  upload_date: '2025-10-19'
-  duration: PT5M2S
+  id: "0h_F-gHSeM0"
+  title: "Juegos Indie vs AAA: La verdadera diferencia"
+  description: "Qué diferencia realmente a un juego indie de uno AAA: presupuesto, distribución, libertad creativa y el modelo de negocio detrás de cada uno."
+  upload_date: "2025-10-19"
+  duration: "PT5M2S"
 ---
-
 Hay una idea que durante décadas se repitió como si fuera una verdad absoluta: los videojuegos y el cine son mundos separados. El cine era arte, cultura, espectáculo. Los videojuegos eran entretenimiento infantil, algo menor. Esa separación, si es que alguna vez fue real, dejó de existir hace mucho tiempo.
 
 Lo que ha ocurrido entre estas dos industrias durante las últimas tres décadas es una historia de influencia cruzada que ha cambiado la forma en que se crean tanto películas como videojuegos. Los juegos quisieron parecerse al cine. Lo consiguieron. Y entonces, el cine empezó a usar las herramientas que los videojuegos habían creado para lograrlo.

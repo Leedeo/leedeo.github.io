@@ -1,27 +1,20 @@
 ---
-layout: post
-author: javo
-date: 2026-03-17 08:52:16.000000000 +01:00
+layout: "post"
+author: "javo"
+date: "2026-03-17 08:52:16 +0100"
 thumbnail: "/assets/img/posts/gimp-3-2-edicion-no-destructiva.webp"
-title: 'GIMP 3.2: la edición no destructiva llega (por fin) al editor de imagen libre
-  más conocido del mundo'
-description: GIMP 3.2 incorpora por fin la edición no destructiva tras tres décadas
-  de espera. Qué cambia, qué sigue sin cambiar y si ya es una alternativa real a Photoshop
-  para flujos de trabajo profesionales.
-excerpt: 'GIMP 3.2 marca un hito histórico tras tres décadas de espera: la llegada
-  de la edición no destructiva (NDE). Analizamos por qué este cambio es vital para
-  flujos de trabajo profesionales.'
+title: "GIMP 3.2: la edición no destructiva llega (por fin) al editor de imagen libre más conocido del mundo"
+description: "GIMP 3.2 incorpora por fin la edición no destructiva tras tres décadas de espera. Qué cambia, qué sigue sin cambiar y si ya es una alternativa real a Photoshop para flujos de trabajo profesionales."
+excerpt: "GIMP 3.2 marca un hito histórico tras tres décadas de espera: la llegada de la edición no destructiva (NDE). Analizamos por qué este cambio es vital para flujos de trabajo profesionales."
 categories:
 - Herramientas
 video:
-  id: bslPe_Y43es
-  title: Tutorial de GIMP, Edición de imagen libre
-  description: Aprende los fundamentos de GIMP, el editor de imagen gratuito y open
-    source. Herramientas básicas, capas y flujo de trabajo esencial.
-  upload_date: '2022-07-11'
-  duration: PT22M8S
+  id: "bslPe_Y43es"
+  title: "Tutorial de GIMP, Edición de imagen libre"
+  description: "Aprende los fundamentos de GIMP, el editor de imagen gratuito y open source. Herramientas básicas, capas y flujo de trabajo esencial."
+  upload_date: "2022-07-11"
+  duration: "PT22M8S"
 ---
-
 **[GIMP](https://www.gimp.org/)** acaba de publicar su versión **3.2**, y aunque cada actualización trae su lista de mejoras y correcciones, esta vez hay un cambio que lleva décadas esperándose: la **edición no destructiva**.
 
 No es una exageración. Es una función que Photoshop tiene desde hace más de veinte años. Es algo que los usuarios de GIMP llevan pidiendo prácticamente desde que el programa existe. Y es, sin ninguna duda, la novedad más significativa que GIMP ha recibido en muchísimo tiempo.

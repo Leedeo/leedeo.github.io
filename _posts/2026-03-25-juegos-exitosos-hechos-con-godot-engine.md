@@ -1,25 +1,21 @@
 ---
-layout: post
-author: javo
-date: 2026-03-25 09:28:00.000000000 +01:00
+layout: "post"
+author: "javo"
+date: "2026-03-25 09:28:00 +0100"
 thumbnail: "/assets/img/posts/juegos-godot-exitosos-ventas-ingresos.webp"
 title: "Juegos exitosos hechos con Godot Engine en 2026: ventas, ingresos y el fin de un estigma"
 description: "Análisis actualizado a 2026 de las ventas e ingresos de juegos como Brotato y Buckshot Roulette: la prueba definitiva de la viabilidad comercial de Godot Engine."
-excerpt: 'Godot Engine ya no es solo "el motor para empezar". Títulos indie creados
-  con Godot han vendido millones de copias. Repasamos las cifras estimadas y el impacto
-  real en el mercado.'
+excerpt: "Godot Engine ya no es solo \"el motor para empezar\". Títulos indie creados con Godot han vendido millones de copias. Repasamos las cifras estimadas y el impacto real en el mercado."
 categories:
 - Game Dev
 - Godot
 video:
-  id: NWosjlLorEU
-  title: Por qué aprender Unity o Unreal no te dará trabajo
-  description: 'Análisis honesto sobre la realidad del trabajo en la industria del
-    videojuego: costes, rentabilidad y las expectativas que nadie te cuenta.'
-  upload_date: '2024-11-12'
-  duration: PT9M41S
+  id: "NWosjlLorEU"
+  title: "Por qué aprender Unity o Unreal no te dará trabajo"
+  description: "Análisis honesto sobre la realidad del trabajo en la industria del videojuego: costes, rentabilidad y las expectativas que nadie te cuenta."
+  upload_date: "2024-11-12"
+  duration: "PT9M41S"
 ---
-
 Hay una frase que se ha repetido durante años en foros, comentarios de YouTube y debates interminables sobre motores de videojuegos: *"Godot está bien para aprender, pero no hay juegos exitosos hechos con él."*
 
 A marzo de 2026, esa frase ya no es una opinión discutible. Es una afirmación desactualizada.
