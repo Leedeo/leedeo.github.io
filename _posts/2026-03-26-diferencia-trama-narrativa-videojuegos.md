@@ -175,7 +175,7 @@ Otro síntoma claro de esta confusión es la forma en que mucha gente analiza ob
 
 Eso puede servir para explicar la trama. Pero no para explicar por qué funciona una historia.
 
-Resumir [Red Dead Redemption 2](https://store.steampowered.com/app/1174180/Red_Dead_Redemption_2/) como una lista de acontecimientos es perderse lo esencial. Lo que hace que funcione no es solo lo que ocurre con Arthur Morgan y la banda, sino el tono melancólico, el ritmo pausado, la construcción del deterioro, el peso del tiempo y la forma en que el mondo acompaña esa caída.
+Resumir [Red Dead Redemption 2](https://store.steampowered.com/app/1174180/Red_Dead_Redemption_2/) como una lista de acontecimientos es perderse lo esencial. Lo que hace que funcione no es solo lo que ocurre con Arthur Morgan y la banda, sino el tono melancólico, el ritmo pausado, la construcción del deterioro, el peso del tiempo y la forma en que el mundo acompaña esa caída.
 
 Lo mismo ocurre con muchísimas otras obras. Si para defender una historia solo puedes contar "las cosas que pasan", probablemente no estés hablando de narrativa, sino de trama.
 
