@@ -32,6 +32,11 @@ body {
   -webkit-font-smoothing: antialiased;
 }
 
+strong {
+  font-weight: 700;
+  color: #fff;
+}
+
 .font-pacifico {
   font-family: 'Pacifico', cursive;
   font-weight: 400;
