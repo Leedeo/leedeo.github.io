@@ -39,7 +39,7 @@ El proyecto ha sido auditado para maximizar el posicionamiento en buscadores baj
 ## 🤝 Apoyo y Contacto
 Si el contenido o las herramientas te han sido de ayuda, puedes apoyar el proyecto:
 *   ☕ **Ko-fi:** [ko-fi.com/leedeo](https://ko-fi.com/leedeo)
-*   📺 **YouTube:** [youtube.com/leedeo](https://www.youtube.com/leedeo)
+*   📺 **YouTube:** [youtube.com/leedeo](https://www.youtube.com/@Leedeo)
 *   📱 **WhatsApp:** [Canal de Novedades](https://whatsapp.com/channel/0029VbCnHY0HrDZl9C2p2N0A)
 
 ---
