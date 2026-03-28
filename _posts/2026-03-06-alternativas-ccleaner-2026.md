@@ -49,7 +49,7 @@ Es la elección favorita de desarrolladores y usuarios con conocimientos técnic
 *   **Potencia real:** Limpia en profundidad directorios que el resto ignora: miniaturas antiguas de Windows, cachés de compiladores, logs de aplicaciones, etc.
 *   **Ideal para:** Usuarios que quieran máximo control y transparencia sobre qué se borra.
 
-[Descargar BleachBit <i class="fas fa-external-link-alt"></i>](https://www.bleachbit.org/){: .btn-primary }
+[Descargar BleachBit <i class="fas fa-external-link-alt"></i>](https://www.bleachbit.org/)
 
 ---
 
@@ -66,7 +66,7 @@ Su versión gratuita incluye el grueso de las funcionalidades. La Pro solo añad
 
 *   **Ideal para:** Usuarios que migran desde CCleaner y buscan una curva de aprendizaje mínima.
 
-[Descargar Glary Utilities <i class="fas fa-external-link-alt"></i>](https://www.glarysoft.com/){: .btn-primary }
+[Descargar Glary Utilities <i class="fas fa-external-link-alt"></i>](https://www.glarysoft.com/)
 
 ---
 
@@ -78,7 +78,7 @@ Esta es la herramienta más enfocada en una métrica concreta: **reducir el tiem
 *   **Limpiador de privacidad:** Elimina el historial de búsquedas en el Explorador de Windows, el historial del portapapeles y otras huellas de uso del sistema.
 *   **Ideal para:** Ordenadores con unos años encima que arrancan lentos, especialmente con discos HDD.
 
-[Descargar Wise Care 365 <i class="fas fa-external-link-alt"></i>](https://www.wisecleaner.com/wise-care-365.html){: .btn-primary }
+[Descargar Wise Care 365 <i class="fas fa-external-link-alt"></i>](https://www.wisecleaner.com/wise-care-365.html)
 
 ---
 
@@ -92,7 +92,7 @@ A diferencia de los anteriores, Leedeo Cleaner no se limita a cachés y temporal
 *   **Sin instalación:** Corre directamente como ejecutable portable, sin crear entradas en el registro ni en la carpeta de usuario.
 *   **Ideal para:** Técnicos, desarrolladores y usuarios avanzados que quieren una herramienta de confianza sin compromisos de privacidad.
 
-[Saber más sobre Leedeo Cleaner <i class="fas fa-arrow-right"></i>]({{ '/projects/leedeo-cleaner/' | relative_url }}){: .btn-primary }
+[Saber más sobre Leedeo Cleaner <i class="fas fa-external-link-alt"></i>]({{ '/projects/leedeo-cleaner/' | relative_url }})
 
 ---
 
