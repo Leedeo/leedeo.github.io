@@ -2,24 +2,38 @@
 layout: "post"
 author: "javo"
 date: "2026-03-11 08:06:48 +0100"
+
 thumbnail: "/assets/img/posts/cuanto-gana-un-desarrollador-de-videojuegos-indie.webp"
 title: "¿Cuánto gana un desarrollador de videojuegos indie? La verdad que nadie te cuenta"
 description: "Datos reales de Steam y App Store sobre los ingresos de un desarrollador indie en 2024: medianas por plataforma, perfiles según ganancias y por qué el segundo juego siempre vende más."
-excerpt: "Si estás pensando en hacer un videojuego y publicarlo, en algún momento te has preguntado lo mismo que se pregunta prácticamente todo el mundo antes de dar el salto: ¿cuánto dinero puedo ganar con esto?"
+excerpt: "Si estás pensando en crear un videojuego y publicarlo, en algún momento te has preguntado lo mismo que se pregunta prácticamente todo el mundo antes de dar el salto: ¿cuánto dinero puedo ganar con esto?"
+
 categories:
 - Game Dev
+
 redirect_from:
   - "/cuanto-gana-desarrollador-indie/"
   - "/2026/03/11/cuanto-gana-desarrollador-indie/"
   - "/2026/03/11/cuanto-gana-desarrollador-indie.html"
+
 video:
   id: "3ifj5q95qdk"
   title: "¿Por dónde empezar a crear Videojuegos?"
   description: "Guía práctica para empezar en el desarrollo de videojuegos: qué motor elegir, cómo estructurar tu aprendizaje y los primeros pasos reales."
   upload_date: "2024-06-18"
   duration: "PT9M54S"
+
+faq:
+  - question: "¿Cuánto dinero puede ganar un desarrollador indie en Steam?"
+    answer: "Un primer juego bien ejecutado en 2024 puede aspirar a generar entre 5.000 y 30.000 dólares brutos en su primer año, aunque la mayoría de los títulos no superan los 1.000 dólares."
+  - question: "¿Qué comisión se queda Steam de las ventas?"
+    answer: "Valve se queda con el 30% de cada venta, y hay un coste inicial de publicación de 100 dólares que se recupera una vez que el juego supera esa cantidad en ingresos."
+  - question: "¿Es rentable publicar juegos en móviles?"
+    answer: "El mercado móvil es masivo, pero la visibilidad orgánica es muy difícil sin presupuesto publicitario. Nichos como los puzles narrativos son mejores para desarrolladores independientes."
+  - question: "¿Cuántos juegos suele tardar un estudio en tener éxito?"
+    answer: "Estadísticamente, el éxito rara vez llega con el primer proyecto; los ingresos suelen crecer significativamente a partir del segundo o tercer juego publicado."
 ---
-Si estás pensando en hacer un videojuego y publicarlo, en algún momento te has preguntado lo mismo que se pregunta prácticamente todo el mundo antes de dar el salto: ¿cuánto dinero puedo ganar con esto?
+Si estás pensando en crear un videojuego y publicarlo, en algún momento te has preguntado lo mismo que se pregunta prácticamente todo el mundo antes de dar el salto: ¿cuánto dinero puedo ganar con esto?
 
 La respuesta honesta es que depende de muchos factores, y que la mayoría de esos factores nadie los controla completamente. Pero eso no significa que no haya datos. Los hay, y son bastante más concretos de lo que la mayoría de los artículos sobre el tema están dispuestos a reconocer.
 

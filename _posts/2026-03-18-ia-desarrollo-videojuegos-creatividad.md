@@ -2,22 +2,34 @@
 layout: "post"
 author: "javo"
 date: "2026-03-18 07:43:22 +0100"
+
 thumbnail: "/assets/img/posts/ia-desarrollo-videojuegos.webp"
 title: "La IA en el desarrollo de videojuegos: ¿amenaza para la creatividad o el siguiente paso tecnológico?"
 description: "La IA generativa en el desarrollo de videojuegos: contexto histórico, el debate sobre autoría y copia, y por qué la herramienta no destruye la creatividad aunque sí puede cambiar quién trabaja y cómo."
 excerpt: "La inteligencia artificial generativa está transformando el desarrollo de videojuegos. Ni el fin de la creatividad ni la solución a todo: un análisis con contexto histórico y sin eslóganes."
+
 categories:
 - Game Dev
+
 redirect_from:
   - "/ia-desarrollo-videojuegos-creatividad/"
   - "/2026/03/18/ia-desarrollo-videojuegos-creatividad/"
   - "/2026/03/18/ia-desarrollo-videojuegos-creatividad.html"
+
 video:
   id: "3ifj5q95qdk"
   title: "¿Por dónde empezar a crear Videojuegos?"
   description: "Guía práctica para empezar en el desarrollo de videojuegos: qué motor elegir, cómo estructurar tu aprendizaje y los primeros pasos reales."
   upload_date: "2024-06-18"
   duration: "PT9M54S"
+
+faq:
+  - question: "¿Es la IA una amenaza para los artistas de videojuegos?"
+    answer: "La IA no sustituye la creatividad, pero sí automatiza tareas. Al igual que la cámara fotográfica no eliminó la pintura, la IA obliga a los profesionales a evolucionar hacia roles de dirección y supervisión, cambiando el flujo de trabajo tradicional."
+  - question: "¿La IA 'copia' el trabajo de otros?"
+    answer: "Los modelos de IA aprenden encontrando patrones en datos existentes, un proceso análogo al aprendizaje humano (estudiar a los maestros). El debate ético real reside en el consentimiento de los datos de entrenamiento y no en el acto de aprender de lo anterior."
+  - question: "¿Cómo se usa la IA actualmente en el desarrollo?"
+    answer: "Más allá de la generativa, se usa en la navegación de NPCs, generación procedural de mundos (como en No Man's Sky) y herramientas de asistencia al código (GitHub Copilot) para eliminar tareas repetitivas."
 ---
 Cada vez que aparece una nueva tecnología capaz de automatizar algo que antes solo podían hacer las personas, se repite el mismo ciclo. Primero el asombro. Luego el miedo. Después los discursos encendidos. Y finalmente, con el tiempo, la normalización.
 

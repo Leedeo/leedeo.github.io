@@ -2,22 +2,34 @@
 layout: "post"
 author: "javo"
 date: "2026-03-10 08:13:32 +0100"
+
 thumbnail: "/assets/img/posts/que-es-un-game-dev.webp"
 title: "¿Qué es un Game Dev? Todo lo que necesitas saber para empezar a crear videojuegos"
 description: "Qué es un game developer, qué roles existen en un equipo, la diferencia entre indie y AAA, y cómo empezar desde cero con Godot Engine sin necesidad de experiencia previa."
-excerpt: "Si alguna vez has jugado a un videojuego y te has preguntado quién diseña los niveles o escribe el código, la respuesta corta es: un game dev. Pero la realidad es mucho más profunda. Una guía sobre roles, la diferencia entre estudios AAA e indies, y cómo dar tus primeros pasos con motores como Godot."
+excerpt: "Si alguna vez has jugado a un videojuego y te has preguntado quién diseña los niveles o escribe el código, la respuesta corta es: un game dev. Una guía sobre roles y cómo dar tus primeros pasos."
+
 categories:
 - Game Dev
+
 redirect_from:
   - "/que-es-un-game-dev/"
   - "/2026/03/10/que-es-un-game-dev/"
   - "/2026/03/10/que-es-un-game-dev.html"
+
 video:
   id: "3ifj5q95qdk"
   title: "¿Por dónde empezar a crear Videojuegos?"
   description: "Guía práctica para empezar en el desarrollo de videojuegos: qué motor elegir, cómo estructurar tu aprendizaje y los primeros pasos reales."
   upload_date: "2024-06-18"
   duration: "PT9M54S"
+
+faq:
+  - question: "¿Qué significa exactamente ser un Game Dev?"
+    answer: "Un Game Dev o desarrollador de videojuegos es cualquier persona que participa activamente en la creación de un juego, incluyendo roles como programadores, artistas, diseñadores, músicos y productores."
+  - question: "¿Qué roles existen en el desarrollo de videojuegos?"
+    answer: "Los roles principales incluyen programadores (lógica), diseñadores de juego (mecánicas), artistas (visuales), diseñadores de niveles (espacios), compositores (audio) y especialistas en QA (pruebas)."
+  - question: "¿Se puede crear un videojuego sin saber programar?"
+    answer: "Sí, existen roles como artista o diseñador de niveles que no requieren programación profunda, y motores como Godot ofrecen herramientas visuales; no obstante, tener nociones de código es altamente recomendable para cualquier rol profesional."
 ---
 Si alguna vez has jugado a un videojuego y te has preguntado quién hay detrás de todo eso, quién diseña los niveles, quién escribe el código que hace que el personaje salte, quién compone la música que te pone los pelos de punta en el momento justo, la respuesta corta es: un game dev.
 

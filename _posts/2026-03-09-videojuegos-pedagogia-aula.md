@@ -2,22 +2,34 @@
 layout: "post"
 author: "javo"
 date: "2026-03-09 07:52:18 +0100"
+
 thumbnail: "/assets/img/posts/videojuegos-pedagogia-aula.webp"
 title: "Videojuegos como aliados pedagógicos: Más allá del aula y hacia la soberanía técnica"
 description: "Serious games, LOMLOE y el respaldo institucional a los videojuegos en el aula. Cómo transformar el ocio en pensamiento sistémico y soberanía técnica real en 2026."
 excerpt: "Un análisis del papel de los serious games y el marco legal de la LOMLOE en la educación moderna. ¿Cómo transformar el ocio en una herramienta de arquitectura mental?"
+
 categories:
 - Gaming
+
 redirect_from:
   - "/videojuegos-pedagogia-aula/"
   - "/2026/03/09/videojuegos-pedagogia-aula/"
   - "/2026/03/09/videojuegos-pedagogia-aula.html"
+
 video:
   id: "3ifj5q95qdk"
   title: "¿Por dónde empezar a crear Videojuegos?"
   description: "Guía práctica para empezar en el desarrollo de videojuegos: qué motor elegir, cómo estructurar tu aprendizaje y los primeros pasos reales."
   upload_date: "2024-06-18"
   duration: "PT9M54S"
+
+faq:
+  - question: "¿Qué dice la ley española sobre los videojuegos en el aula?"
+    answer: "La LOMLOE (Ley Orgánica 3/2020) establece que las administraciones deben promover el uso de las TIC como un medio didáctico valioso, reconociendo el potencial de los entornos interactivos para el aprendizaje."
+  - question: "¿Qué son los Serious Games?"
+    answer: "Son videojuegos diseñados desde su concepción con un objetivo formativo o educativo principal, utilizando mecánicas de juego para mantener la atención y resolver problemas de lógica, historia o ciencia."
+  - question: "¿Qué pilares debe cumplir un videojuego educativo de éxito?"
+    answer: "Para ser efectivo, debe tener un nivel de dificultad equilibrado (estado de flujo), capacidad de inmersión, mecánicas flexibles, libertad creativa para el usuario y una comunidad activa de aprendizaje social."
 ---
 El debate sobre la digitalización en las aulas ha dado un giro definitivo. Ya no discutimos si la tecnología debe estar presente, sino cómo utilizarla para que no sea un simple sustituto del papel, sino un **catalizador de habilidades cognitivas**. Mientras los medios generalistas observan el fenómeno desde la superficie, en el sector del desarrollo entiendo que me encuentro ante la mayor herramienta de contextualización de la historia.
 

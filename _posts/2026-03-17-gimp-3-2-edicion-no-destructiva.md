@@ -2,22 +2,34 @@
 layout: "post"
 author: "javo"
 date: "2026-03-17 08:52:16 +0100"
+
 thumbnail: "/assets/img/posts/gimp-3-2-edicion-no-destructiva.webp"
 title: "GIMP 3.2: la edición no destructiva llega (por fin) al editor de imagen libre más conocido del mundo"
 description: "GIMP 3.2 incorpora por fin la edición no destructiva tras tres décadas de espera. Qué cambia, qué sigue sin cambiar y si ya es una alternativa real a Photoshop para flujos de trabajo profesionales."
 excerpt: "GIMP 3.2 marca un hito histórico tras tres décadas de espera: la llegada de la edición no destructiva (NDE). Analizamos por qué este cambio es vital para flujos de trabajo profesionales."
+
 categories:
 - Herramientas
+
 redirect_from:
   - "/gimp-3-2-edicion-no-destructiva/"
   - "/2026/03/17/gimp-3-2-edicion-no-destructiva/"
   - "/2026/03/17/gimp-3-2-edicion-no-destructiva.html"
+
 video:
   id: "bslPe_Y43es"
   title: "Tutorial de GIMP, Edición de imagen libre"
   description: "Aprende los fundamentos de GIMP, el editor de imagen gratuito y open source. Herramientas básicas, capas y flujo de trabajo esencial."
   upload_date: "2022-07-11"
   duration: "PT22M8S"
+
+faq:
+  - question: "¿Qué es la edición no destructiva en GIMP 3.2?"
+    answer: "Es la capacidad de aplicar filtros y ajustes como capas editables en lugar de modificar permanentemente los píxeles de la imagen original, permitiendo cambios ilimitados en cualquier momento."
+  - question: "¿Es GIMP 3.2 una alternativa real a Photoshop?"
+    answer: "Para la mayoría de usuarios y flujos de trabajo profesionales de diseño, el añadido de la edición no destructiva cierra la brecha técnica más importante, aunque sigue teniendo diferencias en interfaz y herramientas avanzadas."
+  - question: "¿GIMP 3.2 sigue siendo gratuito?"
+    answer: "Sí, GIMP es un software libre y de código abierto bajo licencia GPL, lo que garantiza que sea gratuito para siempre y para cualquier uso, comercial o personal."
 ---
 **[GIMP](https://www.gimp.org/)** acaba de publicar su versión **3.2**, y aunque cada actualización trae su lista de mejoras y correcciones, esta vez hay un cambio que lleva décadas esperándose: la **edición no destructiva**.
 

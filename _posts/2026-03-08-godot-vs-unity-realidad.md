@@ -2,23 +2,35 @@
 layout: "post"
 author: "javo"
 date: "2026-03-08 07:33:55 +0100"
+
 thumbnail: "/assets/img/posts/godot-vs-unity-realidad.webp"
 title: "Godot vs Unity en 2026: Por qué el motor no te va a dar el trabajo de tus sueños"
 description: "La crisis de confianza de Unity en 2023 y la realidad del mercado laboral en videojuegos. Por qué el motor que eliges importa menos de lo que crees, y qué sí importa de verdad."
 excerpt: "¿Realmente importa qué motor elijas para trabajar? Desmontamos los mitos sobre Unity, el software privativo y la realidad del mercado laboral de videojuegos."
+
 categories:
 - Game Dev
 - Godot
+
 redirect_from:
   - "/godot-vs-unity-realidad/"
   - "/2026/03/08/godot-vs-unity-realidad/"
   - "/2026/03/08/godot-vs-unity-realidad.html"
+
 video:
   id: "L3pFEk1HPCQ"
   title: "Curso Godot 4 desde Cero [01] Instalar y Configurar"
   description: "Primer capítulo del curso de introducción a Godot 4. Aprende a descargar, instalar y configurar el motor desde cero."
   upload_date: "2023-03-06"
   duration: "PT6M27S"
+
+faq:
+  - question: "¿Por qué hubo una crisis de confianza con Unity en 2023?"
+    answer: "Debido al anuncio de cambios retroactivos en su modelo de precios (Runtime Fee) que penalizaba las instalaciones, lo que generó un pánico masivo entre los desarrolladores independientes."
+  - question: "¿Es Godot mejor que Unity para encontrar trabajo?"
+    answer: "No necesariamente. Lo que realmente importa para un estudio es tu portfolio de proyectos terminados, no el motor específico que uses. Godot te ofrece libertad total, pero Unity sigue teniendo su nicho en el sector corporativo."
+  - question: "¿Qué ventajas tiene la licencia MIT de Godot?"
+    answer: "Garantiza que el motor es 100% gratuito para siempre, que puedes modificar su código fuente sin restricciones y que nunca tendrás que pagar regalías por tus ventas."
 ---
 Después de haber usado Unity durante cuatro años, puedo decir sin miedo que es un motor increíble. Fue mi puerta de entrada al desarrollo "moderno" tras años de pausa desde mi adolescencia con RPG Maker. Pero las herramientas no son solo líneas de código; también son las empresas que las gestionan y las decisiones que toman.
 

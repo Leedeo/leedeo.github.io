@@ -2,24 +2,36 @@
 layout: "post"
 author: "javo"
 date: "2026-03-09 07:34:17 +0100"
+
 thumbnail: "/assets/img/posts/buckshot-roulette-godot-showcase-thumbnail.webp"
 title: "Godot Showcase: Buckshot Roulette y la realidad del desarrollo indie"
 description: "Mike Klubnika, creador de Buckshot Roulette, cuenta cómo desarrolló el éxito indie de 2024 con Godot Engine y qué aprendió en el proceso. Entrevista con la Godot Foundation."
-excerpt: "Mike Klubnika nos cuenta su experiencia desarrollando el éxito indie de 2024 Buckshot Roulette en Godot Engine, y su nuevo proyecto s.p.l.i.t."
+excerpt: "Mike Klubnika nos cuenta su experiencia creando el éxito indie de 2024 Buckshot Roulette en Godot Engine, y su nuevo proyecto s.p.l.i.t."
+
 categories:
 - Game Dev
 - Gaming
 - Godot
+
 redirect_from:
   - "/godot-showcase-buckshot-roulette/"
   - "/2026/03/09/godot-showcase-buckshot-roulette/"
   - "/2026/03/09/godot-showcase-buckshot-roulette.html"
+
 video:
   id: "L3pFEk1HPCQ"
   title: "Curso Godot 4 desde Cero [01] Instalar y Configurar"
   description: "Primer capítulo del curso de introducción a Godot 4. Aprende a descargar, instalar y configurar el motor desde cero."
   upload_date: "2023-03-06"
   duration: "PT6M27S"
+
+faq:
+  - question: "¿Qué motor utiliza Buckshot Roulette?"
+    answer: "Mike Klubnika desarrolló Buckshot Roulette utilizando Godot Engine, tras decidir migrar desde Unity debido a los cambios en las políticas de licencias de este último."
+  - question: "¿Qué es lo que más destaca su creador de Godot?"
+    answer: "Mike destaca la rapidez del motor, la potencia del nodo AnimationPlayer y la facilidad de iteración que ofrece GDScript para ajustar pequeños detalles sin fricción."
+  - question: "¿Qué consejo da Mike Klubnika a los nuevos desarrolladores?"
+    answer: "Recomienda encarecidamente crear muchos juegos pequeños que se puedan terminar en un par de semanas, ya que la repetición del proceso completo es lo que realmente enseña a desarrollar."
 ---
 En esta nueva entrega analizando títulos del escenario indie, compartimos la reciente publicación del **Godot Showcase**, donde la fundación ha entrevistado directamente a **Mike Klubnika**, quien nos cuenta su experiencia desarrollando el masivo éxito indie de 2024 *Buckshot Roulette*, así como su proyecto más reciente, *s.p.l.i.t*.
 

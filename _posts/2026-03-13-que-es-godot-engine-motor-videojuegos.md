@@ -2,23 +2,37 @@
 layout: "post"
 author: "javo"
 date: "2026-03-13 07:29:35 +0100"
+
 thumbnail: "/assets/img/posts/que-es-godot-engine-2026.webp"
 title: "¿Qué es Godot Engine? El motor de videojuegos gratuito que desafía a Unity"
 description: "Qué es Godot Engine, cómo nació en Argentina, qué lo diferencia de Unity y Unreal, y los juegos más conocidos creados con él. La guía completa sobre el motor open source que desafía al sector."
 excerpt: "Descubre qué es Godot Engine, el motor open source y gratuito que revoluciona el desarrollo indie. Conoce sus ventajas, su historia y los grandes videojuegos creados con él."
+
 categories:
 - Godot
 - Game Dev
+
 redirect_from:
   - "/que-es-godot-engine-motor-videojuegos/"
   - "/2026/03/13/que-es-godot-engine-motor-videojuegos/"
   - "/2026/03/13/que-es-godot-engine-motor-videojuegos.html"
+
 video:
   id: "L3pFEk1HPCQ"
   title: "Curso Godot 4 desde Cero [01] Instalar y Configurar"
   description: "Primer capítulo del curso de introducción a Godot 4. Aprende a descargar, instalar y configurar el motor desde cero."
   upload_date: "2023-03-06"
   duration: "PT6M27S"
+
+faq:
+  - question: "¿Qué es Godot Engine?"
+    answer: "Es un motor de videojuegos gratuito y de código abierto que permite crear proyectos profesionales sin pagar regalías ni cuotas mensuales."
+  - question: "¿Por qué se llama Godot?"
+    answer: "El nombre proviene de la obra de teatro 'Esperando a Godot' de Samuel Beckett; simboliza que el motor era algo que muchos desarrolladores estaban esperando sin saberlo."
+  - question: "¿Es Godot realmente gratuito?"
+    answer: "Sí, tiene licencia MIT, lo que significa que es 100% gratuito y que todos los ingresos por las ventas de tus videojuegos te pertenecen íntegramente a ti."
+  - question: "¿Qué lenguajes de programación utiliza Godot?"
+    answer: "Utiliza principalmente GDScript (un lenguaje sencillo similar a Python), pero también es compatible con C# y C++ para proyectos que requieran mayor rendimiento."
 ---
 Para entender qué es Godot Engine, primero hay que entender qué es un motor de videojuegos, y la buena noticia es que no hace falta ser ingeniero para comprenderlo.
 

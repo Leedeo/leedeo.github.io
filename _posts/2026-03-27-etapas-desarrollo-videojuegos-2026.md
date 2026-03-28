@@ -2,18 +2,29 @@
 layout: "post"
 author: "javo"
 date: "2026-03-27 12:27:00 +0100"
+
 thumbnail: "/assets/img/posts/etapas-desarrollo-videojuegos-2026.webp"
 title: "Etapas del desarrollo de videojuegos en 2026: proceso, herramientas y cómo ha cambiado todo"
 description: "Guía actualizada sobre las fases de creación de un videojuego en 2026. Preproducción, motores (Godot, Unity, Unreal) y el impacto de la IA en la industria."
 excerpt: "El desarrollo de videojuegos ha cambiado. Adiós a guías de 2018. Descubre el proceso real paso a paso, qué motores se usan hoy y cómo la IA afecta a la producción indie y AAA."
+
 categories:
 - Game Dev
+
 video:
   id: "3ifj5q95qdk"
   title: "¿Por dónde empezar a crear Videojuegos?"
   description: "Guía práctica para empezar en el desarrollo de videojuegos: qué motor elegir, cómo estructurar tu aprendizaje y los primeros pasos reales."
   upload_date: "2024-06-18"
   duration: "PT9M54S"
+
+faq:
+  - question: "¿Cuáles son las etapas principales del desarrollo de un juego?"
+    answer: "Se divide en Preproducción (definición), Prototipado (validación), Producción (construcción), Testing (depuración), Pulido (acabado), Lanzamiento (marketing) y Postlanzamiento (mantenimiento)."
+  - question: "¿Cómo ha afectado la IA a las fases de desarrollo?"
+    answer: "En 2026, la IA es una herramienta estándar para automatizar tareas repetitivas en producción, generar referencias en preproducción y asistir en la escritura de código, reduciendo tiempos especialmente en estudios pequeños."
+  - question: "¿Qué motor de videojuegos elegir en 2026?"
+    answer: "Depende del proyecto: Godot para indies 2D/3D ligeros y soberanía total, Unity para móviles y versatilidad, o Unreal Engine para potencia visual extrema y proyectos AAA."
 ---
 Si buscas en Google cosas como **“etapas del desarrollo de videojuegos”**, **“proceso de creación de un videojuego”** o **“cómo se desarrolla un videojuego”**, te salen muchos artículos que explican lo básico... pero muchos están desactualizados, escritos desde una visión demasiado académica o directamente desconectados de cómo trabaja hoy la industria.
 
@@ -209,9 +220,7 @@ Y esto conecta con otra realidad incómoda: la industria vive una época de desp
 
 No hace falta ponerse conspiranoico ni vender humo. Basta con mirar el contexto: herramientas más capaces, automatización creciente, tareas repetitivas cada vez más reducibles y estudios buscando ahorrar costes. La relación es demasiado evidente como para no mencionarla.
 
-## Entonces, ¿cómo se hace hoy un videojuego?
-
-La respuesta corta sería esta:
+## La respuesta corta sería esta:
 
 1. Se piensa una idea viable  
 2. Se prototipa para ver si funciona  

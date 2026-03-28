@@ -2,23 +2,35 @@
 layout: "post"
 author: "javo"
 date: "2026-03-10 08:25:11 +0100"
+
 thumbnail: "/assets/img/posts/slay-the-spire-2-key-art.webp"
 title: "Slay the Spire 2 arrasa en Steam con casi 575.000 jugadores simultáneos, y lo ha hecho con Godot"
 description: "Slay the Spire 2 roza los 575.000 jugadores simultáneos en Steam tras migrar de Unity a Godot. El caso más visible de que el motor open source ya sostiene proyectos de primer nivel."
 excerpt: "Slay the Spire 2 entra en Early Access batiendo récords y demostrando que la migración de Unity a Godot Engine ha sido un éxito técnico y comercial masivo."
+
 categories:
 - Godot
 - Gaming
+
 redirect_from:
   - "/slay-the-spire-2-godot-steam-record/"
   - "/2026/03/10/slay-the-spire-2-godot-steam-record/"
   - "/2026/03/10/slay-the-spire-2-godot-steam-record.html"
+
 video:
   id: "L3pFEk1HPCQ"
   title: "Curso Godot 4 desde Cero [01] Instalar y Configurar"
   description: "Primer capítulo del curso de introducción a Godot 4. Aprende a descargar, instalar y configurar el motor desde cero."
   upload_date: "2023-03-06"
   duration: "PT6M27S"
+
+faq:
+  - question: "¿Qué motor utiliza Slay the Spire 2?"
+    answer: "Mega Crit desarrolló Slay the Spire 2 utilizando Godot Engine 4, tras decidir abandonar Unity en 2023 debido a los cambios en las políticas de precios que pretendían cobrar por instalación."
+  - question: "¿Cuántos jugadores simultáneos alcanzó Slay the Spire 2 en Steam?"
+    answer: "El juego batió récords para el estudio alcanzando un pico de 574.638 jugadores simultáneos en su primera semana de Early Access, demostrando la solidez de Godot para proyectos de alto perfil."
+  - question: "¿Por qué Mega Crit migró de Unity a Godot a mitad del desarrollo?"
+    answer: "Por una cuestión de soberanía tecnológica; Godot, al ser de código abierto y licencia MIT, garantiza que las condiciones de uso no cambiarán retroactivamente, ofreciendo seguridad a largo plazo."
 ---
 Slay the Spire 2 entró en Early Access el 5 de marzo en Steam y en menos de una semana ya acumula cifras que normalmente solo se ven en lanzamientos de franquicias con presupuestos de decenas de millones. Según SteamDB, el juego alcanzó un pico de 574.638 jugadores simultáneos el domingo, quedándose a poco más de 12.000 del récord de 587.150 que estableció Hollow Knight: Silksong en 2025. Según estimaciones de Video Game Insights, ya ha vendido alrededor de 2,8 millones de unidades y ha generado unos 55 millones de dólares en ingresos, y todavía tiene 2,4 millones de wishlists pendientes en Steam.
 

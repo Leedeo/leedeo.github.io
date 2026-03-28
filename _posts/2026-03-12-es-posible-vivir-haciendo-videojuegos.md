@@ -2,26 +2,38 @@
 layout: "post"
 author: "javo"
 date: "2026-03-12 08:23:43 +0100"
+
 thumbnail: "/assets/img/posts/vivir-de-hacer-videojuegos.webp"
 title: "¿Es posible vivir de los videojuegos en 2026? La respuesta que nadie quiere escuchar"
-description: "Análisis sin filtros sobre los tres caminos reales para vivir del desarrollo de videojuegos en 2026: empleo en la industria, freelance e indie. Datos, probabilidades y qué esperar de cada uno."
+description: "Análisis sin filtros sobre los tres caminos reales para vivir del desarrollo de videojuegos in 2026: empleo en la industria, freelance e indie. Datos, probabilidades y qué esperar de cada uno."
 excerpt: "Voy a empezar con la respuesta corta: sí, es posible. Y ahora voy a dedicar el resto del artículo a explicar por qué esa respuesta, sin contexto, es casi completamente inútil."
+
 categories:
 - Game Dev
+
 redirect_from:
   - "/es-posible-vivir-haciendo-videojuegos/"
   - "/2026/03/12/es-posible-vivir-haciendo-videojuegos/"
   - "/2026/03/12/es-posible-vivir-haciendo-videojuegos.html"
+
 video:
   id: "NWosjlLorEU"
   title: "Por qué aprender Unity o Unreal no te dará trabajo"
   description: "Análisis honesto sobre la realidad del trabajo en la industria del videojuego: costes, rentabilidad y las expectativas que nadie te cuenta."
   upload_date: "2024-11-12"
   duration: "PT9M41S"
+
+faq:
+  - question: "¿Es posible vivir del desarrollo de videojuegos en 2026?"
+    answer: "Sí, es posible, pero requiere un enfoque realista. Existen tres vías principales: el empleo en estudios (muy competitivo tras los despidos de 2022-2025), el trabajo freelance y el desarrollo indie propio."
+  - question: "¿Cómo ha afectado la crisis de despidos al sector?"
+    answer: "Entre 2022 y 2025 se perdieron unos 45.000 empleos globales. Esto significa que los nuevos aspirantes compiten con profesionales con mucha experiencia, por lo que tener un portafolio de proyectos terminados es más crucial que nunca."
+  - question: "¿Cuánto gana un desarrollador indie promedio?"
+    answer: "Los datos de VG Insights muestran que solo el 15% de los desarrolladores en solitario supera los 100.000$ anuales. La mayoría de los juegos en Steam no alcanzan los 1.000$ de ingresos totales, evidenciando el alto riesgo del modelo."
 ---
 Voy a empezar con la respuesta corta: sí, es posible. Y ahora voy a dedicar el resto del artículo a explicar por qué esa respuesta, sin contexto, es casi completamente inútil.
 
-Porque "es posible" también aplica a ganar la lotería. La pregunta que realmente importa no es si es posible, sino qué probabilidades tiene alguien concreto, con recursos concretos, en el mercado de 2026, de construir algo sostenible haciendo videojuegos. Y esa pregunta tiene una respuesta mucho más matizada, menos romántica, y bastante más útil.
+Porque "es posible" también aplica a ganar la lotería. La pregunta que realmente importa no es si es posible, sino qué probabilidades tiene alguien concreto, con recursos concretos, en el mercado de 2026, de construir algo sostenible creando videojuegos. Y esa pregunta tiene una respuesta mucho más matizada, menos romántica, y bastante más útil.
 
 Pero antes de meternos de lleno en las duras realidades del mercado laboral mundial o de las ventas indie, hace falta una toma de consciencia: ninguna de las crudas realidades de este artículo te afecta si ni siquiera tienes la disciplina para dar los primeros pasos básicos en el desarrollo de videojuegos y terminar un proyecto sencillo. Si todo esto te pilla empezando y estás a punto de rendirte porque no sabes por dónde arrancar de verdad a crear tu juego, echa el freno un momento y mira esto:
 

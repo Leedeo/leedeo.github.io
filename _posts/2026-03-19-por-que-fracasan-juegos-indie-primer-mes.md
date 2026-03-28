@@ -2,22 +2,34 @@
 layout: "post"
 author: "javo"
 date: "2026-03-19 08:54:17 +0100"
+
 thumbnail: "/assets/img/posts/por-que-fracasan-juegos-indie.webp"
 title: "¿Por qué el 90% de los juegos indie fracasan en el primer mes?"
 description: "La tasa de fracaso del desarrollo indie supera el 90%. No es mala suerte: es falta de marketing, identidad visual débil, precios mal calculados y expectativas desconectadas del mercado real."
 excerpt: "La tasa de fracaso comercial del desarrollo indie se sitúa entre el 85% y el 95%. Rara vez es por razones técnicas. Aquí están los motivos reales, sin edulcorar."
+
 categories:
 - Game Dev
+
 redirect_from:
   - "/por-que-fracasan-juegos-indie-primer-mes/"
   - "/2026/03/19/por-que-fracasan-juegos-indie-primer-mes/"
   - "/2026/03/19/por-que-fracasan-juegos-indie-primer-mes.html"
+
 video:
   id: "3ifj5q95qdk"
   title: "¿Por dónde empezar a crear Videojuegos?"
   description: "Guía práctica para empezar en el desarrollo de videojuegos: qué motor elegir, cómo estructurar tu aprendizaje y los primeros pasos reales."
   upload_date: "2024-06-18"
   duration: "PT9M54S"
+
+faq:
+  - question: "¿Por qué fracasan la mayoría de los juegos indie?"
+    answer: "Entre el 85% y el 95% fracasan comercialmente, principalmente por falta de marketing, no construir una audiencia previa en redes o Steam (wishlists) y subestimar la saturación del mercado (40 lanzamientos diarios)."
+  - question: "¿Cuándo se debe empezar el marketing de un juego?"
+    answer: "Desde el primer día de desarrollo. Esperar al lanzamiento es un error crítico; es necesario mostrar el proceso, crear la página de Steam meses antes y contactar con creadores de contenido con antelación."
+  - question: "¿Cuántas wishlists se necesitan para un lanzamiento exitoso en Steam?"
+    answer: "Aunque no hay una cifra mágica, los expertos coinciden en que llegar con menos de 1.000 wishlists supone un riesgo de invisibilidad total. Un objetivo saludable para un indie pequeño es intentar superar las 7.000-10.000 antes de publicar."
 ---
 Hay una estadística que circula por la industria del videojuego y que nadie con experiencia en el sector discute: **la inmensa mayoría de los juegos indie fracasan**. Las cifras exactas varían según la fuente y los criterios que se usen para definir "fracaso", pero las estimaciones más citadas sitúan la tasa de fracaso comercial entre el **85% y el 95%**.
 
@@ -61,13 +73,15 @@ No hace falta contratar una agencia. No hace falta gastar miles de dólares. El 
 
 **2. Construir una página de Steam cuanto antes.** Steam permite crear la página del juego mucho antes de que esté terminado. Cada persona que añade el juego a su lista de deseados es una persona que va a recibir una notificación el día del lanzamiento. Un juego que llega al día de lanzamiento con 50 wishlists tiene un problema. Un juego que llega con 10.000 tiene una oportunidad.
 
-**3. Contactar con creadores de contenido.** Streamers, youtubers, periodistas de medios especializados. Enviar copias del juego a personas que puedan mostrarlo a una audiencia. No todos van a responder, y no todos los que respondan van a cubrir el juego. Pero los que lo hagan pueden generar más visibilidad en un vídeo de 20 minutos que toda la publicidad pagada del mundo.
+### 3. Contactar con creadores de contenido
+
+Streamers, youtubers, periodistas de medios especializados. Enviar copias del juego a personas que puedan mostrarlo a una audiencia. No todos van a responder, y no todos los que respondan van a cubrir el juego. Pero los que lo hagan pueden generar más visibilidad en un vídeo de 20 minutos que toda la publicidad pagada del mundo.
 
 Nada de esto cuesta dinero. Cuesta **tiempo y esfuerzo**. Y esa es precisamente la barrera que muchos desarrolladores no están dispuestos a cruzar.
 
-### Marketing mal hecho, dicho con todas las letras
+### Marketing mal creado, dicho con todas las letras
 
-Y luego está el caso contrario: desarrolladores que sí intentan hacer marketing, pero lo hacen tan mal que habría dado igual no hacerlo.
+Y luego está el caso contrario: desarrolladores que sí intentan crear marketing, pero lo hacen tan mal que habría dado igual no hacerlo.
 
 *   **Tráilers que no muestran nada.** Treinta segundos de logos, una frase pretenciosa, tres planos oscuros donde no se entiende qué está pasando y un título al final. Un tráiler tiene que mostrar el juego. Tiene que mostrar qué se hace en él, cómo se ve, cómo se siente. En los primeros cinco segundos. No después de una intro de veinte segundos con efectos de humo.
 
@@ -79,7 +93,7 @@ Y luego está el caso contrario: desarrolladores que sí intentan hacer marketin
 
 *   **Publicar y desaparecer.** Algunos desarrolladores tratan el lanzamiento como el final del camino. El juego se publica y el desarrollador deja de comunicar. Eso le dice al potencial comprador que el juego está abandonado, incluso si no lo está.
 
-El marketing no tiene que ser brillante. Pero tiene que existir. Y tiene que estar hecho con un mínimo de criterio.
+El marketing no tiene que ser brillante. Pero tiene que existir. Y tiene que estar creado con un mínimo de criterio.
 
 ## La alergia a gastar dinero
 
@@ -87,7 +101,7 @@ Este es un tema que genera reacciones intensas, así que merece abordarse sin ro
 
 Hay un perfil de desarrollador indie que se repite con una frecuencia llamativa: la persona que invierte **cientos o miles de horas** en desarrollar un juego, que gasta dinero en su día a día sin pensarlo dos veces, pero que cuando llega el momento de invertir aunque sea una cantidad modesta en su propio proyecto comercial, se bloquea por completo.
 
-Gastar 5 euros al día en caprichos durante un año de desarrollo son más de 1.800 euros que no han generado ningún retorno. Pero invertir 200 en publicidad dirigida, o 500 en un artista que haga un buen key art... eso es impensable. Eso es "demasiado".
+Gastar 5 euros al día en caprichos durante un año de desarrollo son más de 1.800 euros que no han generado ningún retorno. Pero invertir 200 en publicidad dirigida, o 500 en un artista que cree un buen key art... eso es impensable. Eso es "demasiado".
 
 ### El miedo al publisher
 
@@ -101,7 +115,7 @@ El 30% de cero es cero. El 70% de algo es **algo**.
 
 Un publisher no es un estafador que viene a quitarte dinero. Es un socio comercial que puede convertir un proyecto invisible en un producto viable. Hay que investigar, comparar, pedir referencias. Pero rechazar de plano la idea porque "no quiero darle mi dinero a nadie" es, en la mayoría de los casos, la forma más directa de asegurarse de que no va a haber ningún dinero que dar.
 
-### La aritmética que nadie quiere hacer
+### La aritmética que nadie quiere crear
 
 Hagamos las cuentas que muchos desarrolladores evitan:
 
@@ -146,7 +160,7 @@ Participar no cuesta dinero. Cuesta orgullo, que a veces es una moneda más dif�
 
 Quizá el problema de fondo, el que alimenta todos los demás, es la **expectativa**.
 
-[Among Us](https://store.steampowered.com/app/945360/Among_Us/) pasó dos años en la irrelevancia antes de explotar. [Stardew Valley](https://store.steampowered.com/app/413150/Stardew_Valley/) fue un éxito enorme hecho por una sola persona. [Vampire Survivors](https://store.steampowered.com/app/1794680/Vampire_Survivors/) lo desarrolló una persona y vendió millones.
+[Among Us](https://store.steampowered.com/app/945360/Among_Us/) pasó dos años en la irrelevancia antes de explotar. [Stardew Valley](https://store.steampowered.com/app/413150/Stardew_Valley/) fue un éxito enorme creado por una sola persona. [Vampire Survivors](https://store.steampowered.com/app/1794680/Vampire_Survivors/) lo desarrolló una persona y vendió millones.
 
 Pero por cada Among Us hay **miles** de juegos que pasaron dos años en la irrelevancia y se quedaron ahí para siempre. Los casos de éxito son los que se conocen precisamente porque son excepcionales. Si fueran la norma, no serían noticia.
 
@@ -158,11 +172,11 @@ No hay una fórmula mágica, pero hay patrones que se repiten:
 *   **Construyen una audiencia antes de tener un producto.** Cuando el juego se lanza, ya hay gente esperándolo.
 *   **Tienen una identidad visual clara.** El juego se reconoce en una miniatura.
 *   **Escuchan la retroalimentación y la incorporan.** No esperan a que el juego esté terminado para descubrir que algo fundamental no funciona.
-*   **Invierten en lo que no saben hacer.** No intentan hacerlo todo solos si hacerlo todo solos significa hacerlo todo mal.
+*   **Invierten en lo que no saben crear.** No intentan crearlo todo solos si crearlo todo solos significa crearlo todo mal.
 *   **Tienen expectativas realistas.** No esperan el éxito viral. Esperan vender lo suficiente para que el proyecto haya valido la pena, y trabajan activamente para que eso ocurra.
 *   **Estudian el mercado.** Saben qué juegos existen en su género y qué hace que un título destaque en ese espacio concreto.
 
-Nada de esto garantiza el éxito. Pero no hacer ninguna de estas cosas casi garantiza el fracaso.
+Nada de esto garantiza el éxito. Pero no crear ninguna de estas cosas casi garantiza el fracaso.
 
 ## La pregunta incómoda
 
@@ -174,7 +188,7 @@ No si le darías una oportunidad porque conoces al desarrollador. No si lo jugar
 
 Si la respuesta honesta es no, el juego no está listo para venderse. Puede estar listo como proyecto personal, como ejercicio de aprendizaje, como prototipo. Pero no como producto comercial. Y no pasa nada. No todos los juegos tienen que venderse.
 
-Pero si la intención es venderlo, hay que tratarlo como lo que es: un producto que va a competir en un mercado. Y en un mercado, la calidad del producto y la capacidad de hacerlo visible son igualmente importantes.
+Pero si la intención es venderlo, hay que tratarlo como lo que es: un producto que va a competir en un mercado. Y en un mercado, la calidad del producto y la capacidad de crearlo visible son igualmente importantes.
 
 El 90% de los juegos indie fracasan en el primer mes. No por mala suerte. No por un mercado injusto. No porque Steam esté roto o porque los jugadores sean ingratos.
 

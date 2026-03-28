@@ -2,16 +2,27 @@
 layout: "post"
 author: "javo"
 date: "2026-03-06 07:27:19 +0100"
+
 thumbnail: "/assets/img/posts/reparar-errores-windows.webp"
 title: "¿SFC /scannow no funciona? Guía completa para reparar archivos de Windows"
 description: "¿Windows encontró archivos corruptos pero no pudo repararlos? Aprende el orden correcto DISM + SFC para reparar el sistema sin formatear, paso a paso."
 excerpt: "¿Windows encontró archivos corruptos pero no pudo repararlos? Descubre el flujo correcto DISM + SFC para solucionar errores del sistema sin formatear."
+
 categories:
 - Herramientas
+
 redirect_from:
   - "/reparar-archivos-windows-danados/"
   - "/2026/03/06/reparar-archivos-windows-danados/"
   - "/2026/03/06/reparar-archivos-windows-danados.html"
+
+faq:
+  - question: "¿Qué hacer si SFC /scannow no funciona?"
+    answer: "Si SFC falla, generalmente es porque la imagen maestra del sistema está dañada. Primero debes ejecutar el comando DISM con la opción /RestoreHealth para reparar el almacén de componentes y luego reintentar SFC."
+  - question: "¿Cuál es la diferencia entre SFC y DISM?"
+    answer: "SFC repara archivos individuales del sistema comparándolos con una copia local sana, mientras que DISM repara la imagen completa del sistema y su almacén maestro de archivos."
+  - question: "¿Cómo solucionar el error 0x800f081f en DISM?"
+    answer: "Este error ocurre cuando DISM no puede descargar archivos de Windows Update. Se soluciona montando una imagen ISO de Windows y usando el parámetro /Source para indicar la ruta de los archivos locales."
 ---
 Uno de los errores más frustrantes para cualquier usuario de Windows es ejecutar el comando de reparación y encontrarse con el temido mensaje:
 

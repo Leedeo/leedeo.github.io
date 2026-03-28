@@ -2,22 +2,34 @@
 layout: "post"
 author: "javo"
 date: "2026-03-24 05:50:00 +0100"
+
 thumbnail: "/assets/img/posts/nostalgia-toxica-estetica-psx-videojuegos-retro.webp"
 title: "El efecto nostalgia tóxica: por qué nos obsesiona la estética PSX"
 description: "La estética de PlayStation 1 domina el videojuego indie. ¿Es un homenaje artístico genuino o estamos romantizando una época que no fue como la recordamos?"
 excerpt: "Polígonos torcidos, texturas temblorosas, niebla espesa. La estética PSX ya es casi un subgénero. Pero hay una diferencia enorme entre usarla porque entiendes por qué funciona y usarla porque está de moda."
+
 categories:
 - Gaming
+
 redirect_from:
   - "/nostalgia-toxica-estetica-psx-videojuegos-retro/"
   - "/2026/03/24/nostalgia-toxica-estetica-psx-videojuegos-retro/"
   - "/2026/03/24/nostalgia-toxica-estetica-psx-videojuegos-retro.html"
+
 video:
   id: "0h_F-gHSeM0"
   title: "Juegos Indie vs AAA: La verdadera diferencia"
   description: "Qué diferencia realmente a un juego indie de uno AAA: presupuesto, distribución, libertad creativa y el modelo de negocio detrás de cada uno."
   upload_date: "2025-10-19"
   duration: "PT5M2S"
+
+faq:
+  - question: "¿Por qué es tan popular la estética PSX en los juegos indie?"
+    answer: "Combina el factor generacional (los desarrolladores actuales crecieron con ella) con una ventaja práctica: es mucho más viable y económico producir modelos de bajos polígonos y texturas de baja resolución para equipos pequeños."
+  - question: "¿Qué es el 'wobble' o temblor de polígonos de la PS1?"
+    answer: "Era una limitación técnica de la primera PlayStation al no tener corrección de perspectiva en las texturas ni z-buffer, lo que hacía que los vértices 'saltaran' al moverse. Hoy se imita por software para lograr esa atmósfera retro auténtica."
+  - question: "¿Es la estética PSX solo una moda?"
+    answer: "Aunque hay un componente de tendencia, juegos como Signalis o Crow Country demuestran que, bien usada, es una herramienta expresiva única para generar atmósfera y extrañeza, especialmente en el género de terror."
 ---
 Hay una imagen que se repite cada vez más en el videojuego independiente: texturas temblorosas, polígonos toscos, niebla espesa, animaciones rígidas, modelos que parecen tallados con una cuchara y una interfaz que podría haber salido de un televisor de tubo en 1998. La llamada **estética PSX** ya no es una rareza; es casi un subgénero visual con identidad propia.
 
@@ -49,7 +61,7 @@ Sony vendió la [PlayStation](https://en.wikipedia.org/wiki/PlayStation_(console
 
 Los estudios querían demostrar que podían llevar sus franquicias al 3D, aunque muchas veces el resultado fuera discutible. Ahí están casos como [Bubsy 3D](https://en.wikipedia.org/wiki/Bubsy_3D), convertido casi en símbolo del desastre; [Earthworm Jim 3D](https://en.wikipedia.org/wiki/Earthworm_Jim_3D), que intentó adaptarse al nuevo lenguaje sin demasiado éxito; [Castlevania](https://en.wikipedia.org/wiki/Castlevania_(1999_video_game)) en Nintendo 64, cuya transición al 3D sigue siendo una de las más discutidas de la saga; o [Sonic R](https://en.wikipedia.org/wiki/Sonic_R), ese experimento extraño de Sega que intentó tantear a Sonic en un terreno tridimensional sin terminar de encontrar la fórmula.
 
-Lo cierto es que **las compañías no estaban haciendo juegos feos por gusto**. Estaban intentando llegar a un futuro técnico para el que todavía no tenían las herramientas suficientes.
+Lo cierto es que **las compañías no estaban creando juegos feos por gusto**. Estaban intentando llegar a un futuro técnico para el que todavía no tenían las herramientas suficientes.
 
 ## El 3D de PSX fue revolucionario... y envejeció fatal
 

@@ -2,23 +2,35 @@
 layout: "post"
 author: "javo"
 date: "2026-03-07 07:24:24 +0100"
+
 thumbnail: "/assets/img/courses/aprender-godot-4.webp"
 title: "¿Cómo aprender Godot 4 desde cero en 2026? Guía paso a paso para principiantes"
 description: "Guía paso a paso para aprender Godot 4 desde cero en 2026: conceptos clave, flujo de trabajo práctico y recursos para no perderte. Sin conocimientos previos necesarios."
 excerpt: "¿Quieres crear videojuegos pero no sabes por dónde empezar? Descubre por qué Godot 4 es la mejor opción en 2026 y cómo dar tus primeros pasos sin morir en el intento."
+
 categories:
 - Game Dev
 - Godot
+
 redirect_from:
   - "/como-empezar-godot-4-desde-cero/"
   - "/2026/03/07/como-empezar-godot-4-desde-cero/"
   - "/2026/03/07/como-empezar-godot-4-desde-cero.html"
+
 video:
   id: "L3pFEk1HPCQ"
   title: "Curso Godot 4 desde Cero [01] Instalar y Configurar"
   description: "Primer capítulo del curso de introducción a Godot 4. Aprende a descargar, instalar y configurar el motor desde cero."
   upload_date: "2023-03-06"
   duration: "PT6M27S"
+
+faq:
+  - question: "¿Por qué elegir Godot 4 en 2026 para aprender?"
+    answer: "Godot 4 es ideal por ser totalmente gratuito y de código abierto (sin regalías), extremadamente ligero (menos de 100MB) y tener una de las curvas de aprendizaje más accesibles para principiantes."
+  - question: "¿Qué son las Escenas y los Nodos en Godot?"
+    answer: "Son los bloques básicos de construcción: los Nodos son las piezas con funciones específicas (como sprites o físicas) y las Escenas son conjuntos de nodos que se pueden anidar unos dentro de otros para crear sistemas complejos."
+  - question: "¿Es necesario pagar algo por vender juegos hechos en Godot?"
+    answer: "No, Godot tiene licencia MIT, lo que significa que el motor es 100% gratuito para siempre y no cobra porcentajes sobre tus ventas ni cuotas mensuales, independientemente de tu éxito."
 ---
 Hay un momento específico en el que muchas personas deciden aprender a crear videojuegos: pueden ser las horas que le han dedicado a sus juegos favoritos, la frustración de ver una mecánica en un juego y pensar "yo podría hacerlo mejor", o simplemente las ganas de construir algo propio desde cero. El problema es que entre ese impulso y el primer proyecto funcional hay una curva de aprendizaje que, si no se gestiona bien, acaba con muchos proyectos antes de arrancar.
 

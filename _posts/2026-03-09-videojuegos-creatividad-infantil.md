@@ -2,22 +2,36 @@
 layout: "post"
 author: "javo"
 date: "2026-03-09 08:39:32 +0100"
+
 thumbnail: "/assets/img/posts/videojuegos-creatividad-infantil.webp"
 title: "¿Fomentan los videojuegos la creatividad? La ciencia detrás del pensamiento interactivo"
 description: "La ciencia detrás del videojuego como herramienta creativa: juego simbólico, evidencias de 2025 y por qué pasar de jugador a creador es el salto educativo que nadie explica bien."
 excerpt: "Un análisis del impacto de los entornos interactivos en el desarrollo cognitivo. Del juego simbólico a la creación técnica: por qué el videojuego es el nuevo laboratorio creativo."
+
 categories:
 - Gaming
+
 redirect_from:
   - "/videojuegos-creatividad-infantil/"
   - "/2026/03/09/videojuegos-creatividad-infantil/"
   - "/2026/03/09/videojuegos-creatividad-infantil.html"
+
 video:
   id: "L3pFEk1HPCQ"
   title: "Curso Godot 4 desde Cero [01] Instalar y Configurar"
   description: "Primer capítulo del curso de introducción a Godot 4. Aprende a descargar, instalar y configurar el motor desde cero."
   upload_date: "2023-03-06"
   duration: "PT6M27S"
+
+faq:
+  - question: "¿Cómo influyen los videojuegos en la creatividad infantil?"
+    answer: "Los videojuegos de mundo abierto y construcción actúan como una forma avanzada de juego simbólico, permitiendo a los menores inventar historias, probar roles y desarrollar pensamiento interactivo mediante la toma de decisiones constante."
+  - question: "¿Existe evidencia científica sobre los beneficios de los videojuegos?"
+    answer: "Sí, estudios de 2025 publicados en 'Frontiers in Behavioral Neuroscience' y 'Journal of Learning Analytics' confirman que los entornos interactivos estimulan la imaginación, la motivación y las funciones ejecutivas del cerebro."
+  - question: "¿Cuál es el papel recomendado para los padres en la tecnología?"
+    answer: "Se recomienda un perfil equilibrado de acompañamiento y negociación, donde la consola esté en espacios comunes, se establezcan límites claros y exista un interés genuino por el contenido que el menor consume."
+  
+
 ---
 Hace apenas unas décadas, la imagen de la creatividad infantil estaba ligada indisolublemente a los bloques de construcción y los muñecos articulados. Los niños pasaban horas inventando mundos que se materializaban en el suelo de su habitación. Hoy, esa misma pulsión creativa ha encontrado un nuevo ecosistema: los **entornos digitales interactivos**. 
 

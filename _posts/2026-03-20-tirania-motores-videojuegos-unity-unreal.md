@@ -2,27 +2,39 @@
 layout: "post"
 author: "javo"
 date: "2026-03-20 09:31:08 +0100"
+
 thumbnail: "/assets/img/posts/tirania-motores-videojuegos-unity-unreal.webp"
 title: "La tiranía de los motores: ¿eres desarrollador de videojuegos o usuario de una herramienta?"
-description: "Depender de Unity, Unreal o cualquier motor propietario es una decisión con consecuencias reales. El episodio del Runtime Fee de Unity lo dejó claro: las reglas pueden cambiar cuando la empresa quiera."
-excerpt: "¿Sabes desarrollar videojuegos, o sabes usar Unity? No es lo mismo. Cuando tu carrera entera depende de una herramienta que no controlas, no eres un desarrollador independiente. Eres un inquilino."
+description: "Depender de Unity, Unreal o cualquier motor propietario es una decisión con consecuencias reales. El Runtime Fee de Unity lo dejó claro: las reglas pueden cambiar cuando la empresa quiera."
+excerpt: "¿Sabes crear videojuegos, o sabes usar Unity? No es lo mismo. Cuando tu carrera entera depende de una herramienta que no controlas, no eres un desarrollador independiente. Eres un inquilino."
+
 categories:
 - Game Dev
-- Godot
+- Motores
+
 redirect_from:
   - "/tirania-motores-videojuegos-unity-unreal/"
   - "/2026/03/20/tirania-motores-videojuegos-unity-unreal/"
   - "/2026/03/20/tirania-motores-videojuegos-unity-unreal.html"
+
 video:
   id: "NWosjlLorEU"
   title: "Por qué aprender Unity o Unreal no te dará trabajo"
   description: "Análisis honesto sobre la realidad del trabajo en la industria del videojuego: costes, rentabilidad y las expectativas que nadie te cuenta."
   upload_date: "2024-11-12"
   duration: "PT9M41S"
+
+faq:
+  - question: "¿Qué fue la polémica del Runtime Fee de Unity?"
+    answer: "En 2023, Unity intentó cobrar una tarifa por cada instalación de un juego. Esto reveló la fragilidad de depender de motores propietarios, ya que una empresa privada puede cambiar las reglas económicas retroactivamente en cualquier momento."
+  - question: "¿Qué diferencia a los motores de código abierto como Godot o Defold?"
+    answer: "No pertenecen a una empresa privada, no cobran regalías y su código es público. Esto garantiza que las condiciones de uso nunca cambiarán unilateralmente, ofreciendo una soberanía total al desarrollador sobre su trabajo."
+  - question: "¿Es mejor aprender un motor específico para encontrar trabajo?"
+    answer: "Más que dominar los menús de un software, la industria valora los fundamentos transferibles (programación, diseño de juegos) y un portafolio sólido de proyectos terminados. Un buen desarrollador puede cambiar de motor en semanas si entiende la base."
 ---
 Hay una pregunta que incomoda a mucha gente en el mundo del desarrollo de videojuegos, y precisamente por eso merece hacerse:
 
-**¿Sabes desarrollar videojuegos, o sabes usar Unity?**
+**¿Sabes crear videojuegos, o sabes usar Unity?**
 
 No es lo mismo. Nunca lo ha sido. Pero la industria, las comunidades, los canales de YouTube y los cursos online llevan años tratando ambas cosas como si fueran sinónimos. Y esa confusión tiene consecuencias reales.
 
@@ -82,7 +94,7 @@ Creadores de contenido que llevan años usando un motor específico y que, cuand
 
 No lo son, por cierto. Pero la resistencia a explorar alternativas no viene de un análisis técnico: viene del **miedo a la pérdida**. La respuesta es sencilla: esos años enseñaron a desarrollar videojuegos. Los conceptos de diseño, la lógica de programación, la estructura de un proyecto... todo eso es **transferible**. Un desarrollador que entiende los fundamentos puede cambiar de motor en semanas. Uno que solo ha memorizado dónde están los botones de un motor concreto necesita empezar casi desde cero.
 
-Y ahí está la distinción clave: **aprender a desarrollar videojuegos** versus **aprender a usar una herramienta**. Lo primero sirve para siempre, con cualquier motor, con cualquier tecnología. Lo segundo sirve hasta que esa herramienta cambia, desaparece o deja de ser relevante.
+Y ahí está la distinción clave: **aprender a crear videojuegos** versus **aprender a usar una herramienta**. Lo primero sirve para siempre, con cualquier motor, con cualquier tecnología. Lo segundo sirve hasta que esa herramienta cambia, desaparece o deja de ser relevante.
 
 ## La falacia del empleo
 
@@ -128,7 +140,7 @@ Todo este debate se reduce a una idea que debería ser obvia pero que se pierde 
 
 **La herramienta no es la habilidad.**
 
-Un carpintero no es bueno porque usa una marca concreta de sierra. Es bueno porque entiende la madera, las uniones, las proporciones y las técnicas. Ponle cualquier sierra funcional en las manos y va a producir un buen trabajo.
+Un carpintero no es bueno porque usa una marca concreta de sierra. Es bueno porque entiende la madera, las uniones, las proporciones y las técnicas. Ponle cualquier sierra funcional en las manos y va a crear un buen trabajo.
 
 Un desarrollador de videojuegos no es bueno porque use Unity, Unreal, Godot o Defold. Es bueno porque entiende cómo funcionan los juegos, cómo se estructuran los sistemas, cómo se diseñan las experiencias y cómo se resuelven los problemas. Ponle cualquier motor funcional delante y va a producir un buen trabajo.
 

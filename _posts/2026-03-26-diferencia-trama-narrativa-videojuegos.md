@@ -2,18 +2,29 @@
 layout: "post"
 author: "javo"
 date: "2026-03-26 09:30:00 +0100"
+
 thumbnail: "/assets/img/posts/trama-vs-narrativa-videojuegos.webp"
 title: "Diferencia entre trama y narrativa en videojuegos: por qué no son lo mismo"
-description: "Muchos confunden trama con narrativa, pero entender su diferencia es clave para el diseño de juegos. Analizamos por qué los hechos no son la historia y cómo construir experiencias memorables."
+description: "Muchos confunden trama con narrativa, pero entender su diferencia es clave para el diseño de juegos. Analizamos por qué los hechos no son la historia y cómo crear experiencias memorables."
 excerpt: "¿Es lo mismo lo que pasa que cómo se cuenta? Un análisis sobre la distinción entre trama y narrativa, el error de Vegeta y por qué los grandes juegos se experimentan, no solo se resumen."
+
 categories:
 - Game Dev
+
 video:
   id: "3ifj5q95qdk"
   title: "¿Por dónde empezar a crear Videojuegos?"
   description: "Guía práctica para empezar en el desarrollo de videojuegos: qué motor elegir, cómo estructurar tu aprendizaje y los primeros pasos reales."
   upload_date: "2024-06-18"
   duration: "PT9M54S"
+
+faq:
+  - question: "¿Cuál es la diferencia entre trama y narrativa?"
+    answer: "La trama es el conjunto de hechos y sucesos (qué pasa), mientras que la narrativa es la forma en que esos hechos se cuentan y el significado emocional que adquieren para el jugador (cómo se cuenta)."
+  - question: "¿Por qué un giro de guion no siempre es buena narrativa?"
+    answer: "Un giro impactante es solo una herramienta de la trama. Si no está construido con coherencia y peso emocional previo, se siente vacío. La profundidad narrativa real nace de la experiencia acumulada y no solo de la sorpresa final."
+  - question: "¿Qué es la narrativa interactiva en videojuegos?"
+    answer: "A diferencia del cine o la literatura, en los videojuegos la narrativa se construye también a través de las mecánicas, la exploración y la convivencia jugable con los personajes, convirtiendo al jugador en parte activa del relato."
 ---
 Hay dos palabras que se usan constantemente cuando se habla de videojuegos, cine, series o incluso anime, y que sin embargo muchísima gente mezcla como si fueran sinónimos: **trama** y **narrativa**.
 

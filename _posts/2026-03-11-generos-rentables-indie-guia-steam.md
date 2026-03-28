@@ -2,24 +2,36 @@
 layout: "post"
 author: "javo"
 date: "2026-03-11 07:27:14 +0100"
+
 thumbnail: "/assets/img/posts/generos-videojuegos-rentables-indie.webp"
 title: "¿Qué géneros de videojuegos generan más dinero? Guía para el desarrollador indie"
 description: "Análisis de datos reales de Steam 2024: qué géneros generan más ingresos para un desarrollador indie, cuáles están saturados y dónde está la verdadera oportunidad en el mercado actual."
-excerpt: "Si estás pensando en hacer tu primer juego, o en el próximo después de uno que no funcionó como esperabas, en algún momento te has hecho esta pregunta: ¿qué tipo de juego tiene más posibilidades de funcionar?"
+excerpt: "Si estás pensando en crear tu primer juego, o en el próximo después de uno que no funcionó como esperabas, en algún momento te has hecho esta pregunta: ¿qué tipo de juego tiene más posibilidades de funcionar?"
+
 categories:
 - Game Dev
+
 redirect_from:
   - "/generos-rentables-indie-guia-steam/"
   - "/2026/03/11/generos-rentables-indie-guia-steam/"
   - "/2026/03/11/generos-rentables-indie-guia-steam.html"
+
 video:
   id: "3ifj5q95qdk"
   title: "¿Por dónde empezar a crear Videojuegos?"
   description: "Guía práctica para empezar en el desarrollo de videojuegos: qué motor elegir, cómo estructurar tu aprendizaje y los primeros pasos reales."
   upload_date: "2024-06-18"
   duration: "PT9M54S"
+
+faq:
+  - question: "¿Cuáles son los géneros más rentables para un desarrollador indie en Steam?"
+    answer: "Actualmente, los géneros con mejores medianas de ingresos son el Survival Crafting de mundo abierto, los Simuladores de gestión específicos y los City Builders, debido a su alta rejugabilidad y demanda del público."
+  - question: "¿Qué géneros se desaconsejan para empezar en el desarrollo indie?"
+    answer: "Plataformeros 2D/3D, Shooters en primera persona sin un giro innovador y Tower Defense; suelen estar muy saturados y tienen una mediana de ingresos muy baja en comparación con otros géneros."
+  - question: "¿Qué es la hibridación en el desarrollo de videojuegos?"
+    answer: "Es la técnica de combinar mecánicas de dos o más géneros conocidos (como Roguelite + Póker en Balatro) para ofrecer algo familiar pero fresco, reduciendo el riesgo comercial al atraer a distintos tipos de jugadores."
 ---
-Si estás pensando en hacer tu primer juego, o en el próximo después de uno que no funcionó como esperabas, en algún momento te has hecho esta pregunta: ¿qué tipo de juego tiene más posibilidades de funcionar?
+Si estás pensando en crear tu primer juego, o en el próximo después de uno que no funcionó como esperabas, en algún momento te has hecho esta pregunta: ¿qué tipo de juego tiene más posibilidades de funcionar?
 
 La respuesta honesta es que no existe una garantía en ningún género. Pero sí existen datos, y los datos cuentan una historia bastante clara sobre dónde están las oportunidades reales y dónde los desarrolladores indie siguen invirtiendo tiempo y dinero en géneros que el mercado lleva años rechazando.
 

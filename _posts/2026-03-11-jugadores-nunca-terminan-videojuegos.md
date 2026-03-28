@@ -2,22 +2,34 @@
 layout: "post"
 author: "javo"
 date: "2026-03-11 07:57:34 +0100"
+
 thumbnail: "/assets/img/posts/jugadores-no-terminan-juegos.webp"
 title: "¿Por qué la mayoría de jugadores nunca termina los videojuegos? La respuesta es más compleja de lo que parece"
 description: "Por qué entre el 60% y el 85% de los jugadores no termina los juegos que compra: el papel de la edad, el backlog, el diseño de los AAA y los juegos live service en el abandono masivo."
 excerpt: "El abandono de los videojuegos por parte de los jugadores no es pereza ni falta de atención, es un fenómeno complejo impulsado por la edad de la audiencia, la saturación del mercado, el tamaño del backlog y el diseño de los propios títulos AAA y Live Service."
+
 categories:
 - Gaming
+
 redirect_from:
   - "/jugadores-nunca-terminan-videojuegos/"
   - "/2026/03/11/jugadores-nunca-terminan-videojuegos/"
   - "/2026/03/11/jugadores-nunca-terminan-videojuegos.html"
+
 video:
   id: "3ifj5q95qdk"
   title: "¿Por dónde empezar a crear Videojuegos?"
   description: "Guía práctica para empezar en el desarrollo de videojuegos: qué motor elegir, cómo estructurar tu aprendizaje y los primeros pasos reales."
   upload_date: "2024-06-18"
   duration: "PT9M54S"
+
+faq:
+  - question: "¿Qué porcentaje de jugadores termina realmente los videojuegos?"
+    answer: "En juegos AAA de campaña, la tasa de finalización media suele rondar entre el 15% y el 35%, dependiendo de la duración y el género; solo los títulos muy cortos o lineales superan habitualmente el 50%."
+  - question: "¿Por qué los jugadores abandonan los juegos largos?"
+    answer: "Principalmente por la falta de tiempo fragmentado en la vida adulta, la saturación de opciones en el mercado (paradoja de la elección) y diseños de juego con exceso de contenido 'relleno' que diluyen la experiencia principal."
+  - question: "¿Qué es el fenómeno del 'backlog'?"
+    answer: "Es la acumulación de juegos comprados (a menudo en rebajas o suscripciones) que el usuario todavía no ha jugado, lo que puede generar una sensación de agobio o culpa que afecta negativamente al disfrute del hobby."
 ---
 Piensa en los últimos cinco juegos que compraste. ¿Cuántos terminaste?
 

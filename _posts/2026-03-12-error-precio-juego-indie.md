@@ -2,26 +2,38 @@
 layout: "post"
 author: "javo"
 date: "2026-03-12 08:38:36 +0100"
+
 thumbnail: "/assets/img/posts/error-precio-videojuego-indie.webp"
 title: "El error que comete casi todo desarrollador indie al poner precio a su juego"
 description: "Poner un precio bajo no es jugar sobre seguro: los datos muestran que reduce la visibilidad y la percepción de calidad. Guía con cifras reales sobre cómo fijar el precio de un juego indie."
 excerpt: "Hay una conversación que Chris Charla, director del programa ID@Xbox de Microsoft y alguien que lleva más de una década trabajando con cientos de desarrolladores independientes, repite casi cada vez que habla con estudios indie."
+
 categories:
 - Game Dev
+
 redirect_from:
   - "/error-precio-juego-indie/"
   - "/2026/03/12/error-precio-juego-indie/"
   - "/2026/03/12/error-precio-juego-indie.html"
+
 video:
   id: "3ifj5q95qdk"
   title: "¿Por dónde empezar a crear Videojuegos?"
   description: "Guía práctica para empezar en el desarrollo de videojuegos: qué motor elegir, cómo estructurar tu aprendizaje y los primeros pasos reales."
   upload_date: "2024-06-18"
   duration: "PT9M54S"
+
+faq:
+  - question: "¿Por qué un precio bajo puede perjudicar a un juego indie?"
+    answer: "Poner un precio demasiado bajo (como 1,99€) suele reducir la percepción de calidad del jugador e impactar negativamente en el algoritmo de visibilidad de Steam, que prioriza juegos que generan más ingresos iniciales."
+  - question: "¿Cuál es el rango de precio recomendado para un juego indie en Steam?"
+    answer: "Los estudios de mercado actuales sugieren que el punto óptimo para la mayoría de indies competentes está entre 15€ y 25€, equilibrando accesibilidad con una señal de valor profesional."
+  - question: "¿Cómo influyen los precios regionales en las ventas?"
+    answer: "Permiten ajustar el coste del juego al poder adquisitivo de cada país; ignorarlos puede cerrar mercados masivos como Brasil, China o Turquía, donde el precio estándar en dólares resultaría prohibitivo."
 ---
 Hay una conversación que Chris Charla, director del programa ID@Xbox de Microsoft y alguien que lleva más de una década trabajando con cientos de desarrolladores independientes, repite casi cada vez que habla con estudios indie: la mayoría infravalora su propio trabajo. No un poco. Bastante.
 
-Es un problema que parece tonto hasta que lo piensas desde dentro. Has pasado meses o años haciendo un juego, conoces cada bug que has corregido, cada mecánica que has rediseñado tres veces, cada noche que te quedaste hasta tarde depurando algo que no funcionaba. Cuando llega el momento de poner un precio, todo ese conocimiento íntimo de las costuras del proyecto juega en tu contra. Ves los defectos, no el valor. Y el resultado, casi invariablemente, es un precio demasiado bajo.
+Es un problema que parece tonto hasta que lo piensas desde dentro. Has pasado meses o años creando un juego, conoces cada bug que has corregido, cada mecánica que has rediseñado tres veces, cada noche que te quedaste hasta tarde depurando algo que no funcionaba. Cuando llega el momento de poner un precio, todo ese conocimiento íntimo de las costuras del proyecto juega en tu contra. Ves los defectos, no el valor. Y el resultado, casi invariablemente, es un precio demasiado bajo.
 
 Pero antes de que te obsesiones con el precio final, hay un paso previo fundamental: asegurarte de que tu juego llegue a existir y tenga una base sólida. Es muy fácil infravalorar tu propio trabajo cuando has pasado por un desarrollo caótico y lleno de estrés. Si estás dando tus primeros pasos y quieres evitar los errores de principiante que te llevan a dudar de ti mismo meses después, por aquí es por donde deberías empezar:
 
