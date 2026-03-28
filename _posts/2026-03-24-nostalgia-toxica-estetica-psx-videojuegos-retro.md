@@ -14,7 +14,6 @@ categories:
 redirect_from:
   - "/nostalgia-toxica-estetica-psx-videojuegos-retro/"
   - "/2026/03/24/nostalgia-toxica-estetica-psx-videojuegos-retro/"
-  - "/2026/03/24/nostalgia-toxica-estetica-psx-videojuegos-retro.html"
 
 video:
   id: "0h_F-gHSeM0"
@@ -61,7 +60,7 @@ Sony vendió la [PlayStation](https://en.wikipedia.org/wiki/PlayStation_(console
 
 Los estudios querían demostrar que podían llevar sus franquicias al 3D, aunque muchas veces el resultado fuera discutible. Ahí están casos como [Bubsy 3D](https://en.wikipedia.org/wiki/Bubsy_3D), convertido casi en símbolo del desastre; [Earthworm Jim 3D](https://en.wikipedia.org/wiki/Earthworm_Jim_3D), que intentó adaptarse al nuevo lenguaje sin demasiado éxito; [Castlevania](https://en.wikipedia.org/wiki/Castlevania_(1999_video_game)) en Nintendo 64, cuya transición al 3D sigue siendo una de las más discutidas de la saga; o [Sonic R](https://en.wikipedia.org/wiki/Sonic_R), ese experimento extraño de Sega que intentó tantear a Sonic en un terreno tridimensional sin terminar de encontrar la fórmula.
 
-Lo cierto es que **las compañías no estaban creando juegos feos por gusto**. Estaban intentando llegar a un futuro técnico para el que todavía no tenían las herramientas suficientes.
+Lo cierto es que **las compañías no estaban haciendo juegos feos por gusto**. Estaban intentando llegar a un futuro técnico para el que todavía no tenían las herramientas suficientes.
 
 ## El 3D de PSX fue revolucionario... y envejeció fatal
 
@@ -113,7 +112,7 @@ Eso no invalida el resultado. Un juego puede nacer de una limitación y aun así
 
 También hay un factor generacional bastante claro.
 
-Los niños que crecieron con PlayStation en los años 90 hoy tienen treinta y tantos, cuarenta o incluso más. Muchos de ellos son ahora artistas, diseñadores, desarrolladores o directores creativos. Ya están en edad de hacer los juegos que soñaban cuando eran pequeños.
+Los niños que crecieron con PlayStation en los años 90 hoy tienen treinta y tantos, cuarenta o incluso más. Muchos de ellos son ahora artistas, diseñadores, desarrolladores o directores creativos. Ya están en edad de crear los juegos que soñaban cuando eran pequeños.
 
 Eso explica por qué durante los últimos años se ha disparado la recuperación de estéticas asociadas a esa época. No es solo PlayStation: también se rescata el low-poly de Nintendo 64, el anime comprimido de Dreamcast, la crudeza de PC de finales de los 90 o el survival horror de cámaras fijas. Pero PSX tiene algo especial: fue la consola que llevó el 3D a una escala de masas muy difícil de igualar.
 
@@ -127,7 +126,7 @@ Cuando hoy se imita la estética PSX, casi nunca se imita del todo. Se rescatan 
 
 Eso significa que no estamos recreando el pasado tal como fue. Estamos recreando una **versión idealizada** del pasado. Una versión filtrada por el gusto actual.
 
-Pensemos en [Silent Hill](https://en.wikipedia.org/wiki/Silent_Hill_(video_game)). La niebla es hoy uno de sus rasgos visuales más recordados, casi un símbolo estético. Pero no estaba ahí solo por arte. Estaba ahí porque la consola necesitaba ocultar la aparición tardía de los elementos del escenario. Era una solución técnica convertida en recurso atmosférico. Si haces hoy un juego "estilo PSX" y quitas la niebla porque ya no la necesitas, se pierde parte de la identidad. Pero si la mantienes, lo estás haciendo ya no por necesidad, sino como una cita consciente a una limitación antigua.
+Pensemos en [Silent Hill](https://en.wikipedia.org/wiki/Silent_Hill_(video_game)). La niebla es hoy uno de sus rasgos visuales más recordados, casi un símbolo estético. Pero no estaba ahí solo por arte. Estaba ahí porque la consola necesitaba ocultar la aparición tardía de los elementos del escenario. Era una solución técnica convertida en recurso atmosférico. Si creas hoy un juego "estilo PSX" y quitas la niebla porque ya no la necesitas, se pierde parte de la identidad. Pero si la mantienes, lo estás haciendo ya no por necesidad, sino como una cita consciente a una limitación antigua.
 
 Eso es fascinante. Y también algo tramposo.
 

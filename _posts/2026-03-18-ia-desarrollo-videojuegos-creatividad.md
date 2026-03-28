@@ -14,7 +14,6 @@ categories:
 redirect_from:
   - "/ia-desarrollo-videojuegos-creatividad/"
   - "/2026/03/18/ia-desarrollo-videojuegos-creatividad/"
-  - "/2026/03/18/ia-desarrollo-videojuegos-creatividad.html"
 
 video:
   id: "3ifj5q95qdk"
@@ -166,7 +165,7 @@ Eso no significa que la transición sea indolora. Para la persona que pierde su 
 
 Hay una posibilidad que incomoda a mucha gente: que alguien, usando exclusivamente herramientas de IA, cree un videojuego y que ese juego sea bueno. Que tenga éxito. Que guste a miles o millones de personas.
 
-Esa posibilidad no es teórica. Ya hay proyectos desarrollados en gran parte con asistencia de IA que están llegando al mercado. Y a medida que las herramientas mejoren, habrá más.
+Esa posibilidad no es teórica. Ya hay proyectos desarrollados en gran parte con asistencia de IA que están llegando al mercado. Y a medida que las herramientas mejoren, habrá más. La posibilidad de vivir de crear videojuegos usando estas herramientas es real.
 
 La reacción habitual es deslegitimar ese trabajo: "Esa persona no es programadora. No es artista. No es compositora. Solo le dio instrucciones a una máquina."
 
@@ -176,7 +175,7 @@ Un director de cine no opera la cámara (para eso está el director de fotograf�
 
 Nadie cuestiona que un director de cine sea un creador. Nadie dice que Spielberg, Kubrick o Miyazaki no son artistas porque no dibujaron cada fotograma ni escribieron cada línea de código de sus películas.
 
-Si alguien utiliza herramientas de IA para generar los gráficos, la música, los diálogos y parte del código de un videojuego, y el resultado es un producto coherente, con personalidad, que funciona y que conecta con su público, esa persona ha hecho algo que **no está al alcance de cualquiera**. Ha tomado miles de decisiones creativas. Ha descartado el noventa por ciento de lo que la IA generaba porque no encajaba con su visión. Ha iterado, ajustado, combinado y pulido hasta obtener algo que funciona como un todo.
+Si alguien utiliza herramientas de IA para generar los gráficos, la música, los diálogos y parte del código de un videojuego, y el resultado es un producto coherente, con personalidad, que funciona y que conecta con su público, esa persona ha creado algo que **no está al alcance de cualquiera**. Ha tomado miles de decisiones creativas. Ha descartado el noventa por ciento de lo que la IA generaba porque no encajaba con su visión. Ha iterado, ajustado, combinado y pulido hasta obtener algo que funciona como un todo.
 
 Llamar a esa persona "director" no es descabellado. Es, de hecho, bastante preciso. Y la habilidad necesaria para hacerlo bien es real, considerable y digna de reconocimiento, aunque sea una habilidad diferente a la de alguien que programa, dibuja o compone a mano.
 
@@ -188,7 +187,7 @@ Si hay algo que merece preocupación genuina sobre la IA en el desarrollo de vid
 
 La historia de la industria del videojuego está llena de ejemplos donde una tecnología que podría haber mejorado los juegos se usó en cambio para reducir costes sin mejorar nada. Las microtransacciones podían haber sido un modelo razonable para financiar actualizaciones de contenido; en muchos casos se convirtieron en sistemas diseñados para explotar psicológicamente al jugador. Los juegos como servicio podían haber sido una forma de mantener títulos vivos durante años; en muchos casos se convirtieron en excusas para lanzar productos inacabados y cobrar por lo que faltaba.
 
-El riesgo real con la IA no es que un desarrollador independiente la use para hacer un juego que no podría haber hecho solo. El riesgo es que grandes corporaciones la usen para **reducir plantillas y recortar presupuestos sin que eso se traduzca en mejores juegos ni en precios más bajos para el jugador**. Que la IA se convierta en una herramienta para producir más contenido genérico a menor coste, maximizando márgenes de beneficio mientras la calidad se estanca o retrocede.
+El riesgo real con la IA no es que un desarrollador independiente la use para crear un juego que no podría haber creado solo. El riesgo es que grandes corporaciones la usen para **reducir plantillas y recortar presupuestos sin que eso se traduzca en mejores juegos ni en precios más bajos para el jugador**. Que la IA se convierta en una herramienta para producir más contenido genérico a menor coste, maximizando márgenes de beneficio mientras la calidad se estanca o retrocede.
 
 Ese riesgo no es especulativo. Ya hay indicios de que está ocurriendo. Y es un problema que tiene más que ver con las decisiones empresariales que con la tecnología en sí.
 

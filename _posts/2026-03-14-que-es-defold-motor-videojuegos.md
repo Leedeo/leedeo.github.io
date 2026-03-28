@@ -14,7 +14,6 @@ categories:
 redirect_from:
   - "/que-es-defold-motor-videojuegos/"
   - "/2026/03/14/que-es-defold-motor-videojuegos/"
-  - "/2026/03/14/que-es-defold-motor-videojuegos.html"
 
 video:
   id: "3ifj5q95qdk"
@@ -81,7 +80,7 @@ El código fuente de Defold está **disponible de forma pública en [GitHub](htt
 
 Existe un matiz que merece explicación. Defold utiliza su propia licencia, que permite el uso gratuito y la contribución al proyecto, pero que técnicamente no se clasifica como una licencia de "código abierto" en el sentido más estricto del término, es decir, las que cumplen con los criterios de la Open Source Initiative.
 
-¿Qué significa esto en la práctica para alguien que quiere hacer juegos? Nada que deba preocupar. Se puede usar Defold sin restricciones, crear juegos comerciales, publicarlos y venderlos sin pedir permiso a nadie ni pagar nada. La diferencia es más una cuestión de clasificación legal sobre el tipo de licencia que una limitación real para el usuario.
+¿Qué significa esto en la práctica para alguien que quiere crear juegos? Nada que deba preocupar. Se puede usar Defold sin restricciones, crear juegos comerciales, publicarlos y venderlos sin pedir permiso a nadie ni pagar nada. La diferencia es más una cuestión de clasificación legal sobre el tipo de licencia que una limitación real para el usuario.
 
 El código está ahí, es accesible, y la comunidad participa activamente en su mejora. Para efectos prácticos, funciona como un proyecto abierto.
 
@@ -171,7 +170,7 @@ Depende de lo que se busque. Y esta es la respuesta más honesta posible.
 - Se necesita abundante documentación y tutoriales en español. La gran mayoría del material disponible está en inglés.
 - Se quiere acceder a un catálogo amplio de complementos y recursos hechos por terceros, al estilo de la Asset Store de Unity.
 
-Para quien está empezando y quiere hacer un juego 2D, un juego para móviles o un juego para el navegador, Defold es una de las mejores opciones disponibles. Lua es accesible, el motor es ligero, y no hay ninguna barrera económica.
+Para quien está empezando y quiere crear un juego 2D, un juego para móviles o un juego para el navegador, Defold es una de las mejores opciones disponibles. Lua es accesible, el motor es ligero, y no hay ninguna barrera económica.
 
 Para quien ya tiene experiencia y busca un motor eficiente para producción, especialmente en el ámbito móvil y web, Defold es una herramienta probada en proyectos con millones de usuarios. No es el motor que más ruido hace, pero sí uno de los que mejor funcionan en lo suyo.
 

@@ -14,7 +14,6 @@ categories:
 redirect_from:
   - "/que-es-un-game-dev/"
   - "/2026/03/10/que-es-un-game-dev/"
-  - "/2026/03/10/que-es-un-game-dev.html"
 
 video:
   id: "3ifj5q95qdk"
@@ -63,11 +62,11 @@ Un videojuego moderno es el resultado de la colaboración de perfiles muy distin
 
 ## ¿Un game dev puede trabajar solo?
 
-Sí, y cada vez hay más ejemplos notables de ello. Los llamados *solodevs* son desarrolladores independientes que crean un juego completos ellos solos, asumiendo todos los roles o la mayoría. Es un camino duro, lento y exigente, pero posible.
+Sí, y cada vez hay más ejemplos notables de ello. Los llamados *solodevs* son desarrolladores independientes que **crean un juego completo** ellos solos, asumiendo todos los roles o la mayoría. Es un camino duro, lento y exigente, pero posible.
 
 *Stardew Valley* lo desarrolló una sola persona, Eric Barone, durante cuatro años. Programación, gráficos, música, diseño: todo. El resultado fue uno de los juegos indie más exitosos de la última década. *Undertale*, de Toby Fox, es otro ejemplo bien conocido. Más recientemente, *Balatro*, el juego de cartas que arrasó en 2024, también fue obra de una sola persona bajo el seudónimo LocalThunk.
 
-La diferencia entre un solodev y un equipo grande no es tanto de calidad como de escala y tiempo. Un juego que un equipo de cincuenta personas puede hacer en dos años, un solodev puede tardarse ocho, o nunca terminarlo. Pero también tiene ventajas reales: control creativo total, sin compromisos, sin reuniones interminables, sin depender de que otras personas hagan su parte.
+La diferencia entre un solodev y un equipo grande no es tanto de calidad como de escala y tiempo. Un juego que un equipo de cincuenta personas puede **crear en dos años**, un solodev puede tardarse ocho, o nunca terminarlo. Pero también tiene ventajas reales: control creativo total, sin compromisos, sin reuniones interminables, sin depender de que otras personas hagan su parte.
 
 ## Game Dev indie vs. estudio AAA: dos mundos dentro del mismo sector
 
@@ -115,11 +114,11 @@ Dicho eso, tener nociones básicas de programación, aunque no seas programador 
 
 ## El game dev como actividad, no solo como profesión
 
-Una cosa que no siempre se menciona es que hacer videojuegos no tiene que ser un objetivo profesional para que valga la pena. Hay miles de personas que crean juegos como hobby, por el placer de construir algo interactivo, de resolver los problemas técnicos y creativos que implica, de publicar un proyecto y ver cómo otras personas lo juegan.
+Una cosa que no siempre se menciona es que **crear videojuegos** no tiene que ser un objetivo profesional para que valga la pena. Hay miles de personas que crean juegos como hobby, por el placer de construir algo interactivo, de resolver los problemas técnicos y creativos que implica, de publicar un proyecto y ver cómo otras personas lo juegan.
 
 Las game jams son uno de los fenómenos más interesantes del mundo indie: eventos de 48 o 72 horas en los que developers de todo el mundo crean un juego desde cero bajo un mismo tema. Son una de las mejores formas de aprender, de conectar con otros developers y de forzarte a terminar algo en lugar de quedarte atascado en la fase de planificación indefinidamente.
 
-Empezar a hacer videojuegos nunca ha sido tan accesible como ahora. Las herramientas son gratuitas, la documentación es extensa, la comunidad es enorme y los recursos educativos, incluyendo el curso que tienes disponible aquí, son mejores que nunca.
+Empezar a **crear videojuegos** nunca ha sido tan accesible como ahora. Las herramientas son gratuitas, la documentación es extensa, la comunidad es enorme y los recursos educativos, incluyendo el curso que tienes disponible aquí, son mejores que nunca.
 
 Si llevas tiempo dándole vueltas a la idea, este es probablemente el mejor momento para dar el primer paso.
 

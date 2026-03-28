@@ -4,7 +4,7 @@ author: "javo"
 date: "2026-03-09 07:11:49 +0100"
 
 thumbnail: "/assets/img/posts/coste-videojuegos-aaa.webp"
-title: "Crear videojuegos cada vez cuesta más, y rentabilizarlos es otro problema"
+title: "Hacer videojuegos cada vez cuesta más, y rentabilizarlos es otro problema"
 description: "Los presupuestos AAA superan los 300 millones y los márgenes se estrechan. Un análisis de por qué el modelo de los grandes estudios está roto y qué significa para el desarrollo indie."
 excerpt: "Un análisis de la crisis del modelo de desarrollo AAA. Presupuestos de cientos de millones, márgenes irreales y la alternativa indie que está cambiando las reglas del juego."
 
@@ -14,7 +14,6 @@ categories:
 redirect_from:
   - "/coste-rentabilidad-videojuegos-aaa/"
   - "/2026/03/09/coste-rentabilidad-videojuegos-aaa/"
-  - "/2026/03/09/coste-rentabilidad-videojuegos-aaa.html"
 
 video:
   id: "NWosjlLorEU"

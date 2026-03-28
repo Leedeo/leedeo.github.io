@@ -6,7 +6,7 @@ date: "2026-03-11 08:06:48 +0100"
 thumbnail: "/assets/img/posts/cuanto-gana-un-desarrollador-de-videojuegos-indie.webp"
 title: "¿Cuánto gana un desarrollador de videojuegos indie? La verdad que nadie te cuenta"
 description: "Datos reales de Steam y App Store sobre los ingresos de un desarrollador indie en 2024: medianas por plataforma, perfiles según ganancias y por qué el segundo juego siempre vende más."
-excerpt: "Si estás pensando en crear un videojuego y publicarlo, en algún momento te has preguntado lo mismo que se pregunta prácticamente todo el mundo antes de dar el salto: ¿cuánto dinero puedo ganar con esto?"
+excerpt: "Si estás pensando en hacer un videojuego y publicarlo, en algún momento te has preguntado lo mismo que se pregunta prácticamente todo el mundo antes de dar el salto: ¿cuánto dinero puedo ganar con esto?"
 
 categories:
 - Game Dev
@@ -14,7 +14,6 @@ categories:
 redirect_from:
   - "/cuanto-gana-desarrollador-indie/"
   - "/2026/03/11/cuanto-gana-desarrollador-indie/"
-  - "/2026/03/11/cuanto-gana-desarrollador-indie.html"
 
 video:
   id: "3ifj5q95qdk"
@@ -33,13 +32,11 @@ faq:
   - question: "¿Cuántos juegos suele tardar un estudio en tener éxito?"
     answer: "Estadísticamente, el éxito rara vez llega con el primer proyecto; los ingresos suelen crecer significativamente a partir del segundo o tercer juego publicado."
 ---
-Si estás pensando en crear un videojuego y publicarlo, en algún momento te has preguntado lo mismo que se pregunta prácticamente todo el mundo antes de dar el salto: ¿cuánto dinero puedo ganar con esto?
+Si estás pensando en hacer un videojuego y publicarlo, en algún momento te has preguntado lo mismo que se pregunta prácticamente todo el mundo antes de dar el salto: ¿cuánto dinero puedo ganar con esto?
 
 La respuesta honesta es que depende de muchos factores, y que la mayoría de esos factores nadie los controla completamente. Pero eso no significa que no haya datos. Los hay, y son bastante más concretos de lo que la mayoría de los artículos sobre el tema están dispuestos a reconocer.
 
-Este artículo va a darte cifras reales, desglosadas por plataforma, con casos concretos y con el contexto necesario para que entiendas qué significan. Sin el optimismo forzado de quien quiere venderte algo, y sin el pesimismo paralizante de quien nunca ha publicado nada.
-
-Pero antes de marearte con números, estadísticas y porcentajes de conversión de plataformas, hay una verdad innegable: las cifras de ventas dan absolutamente igual si primero no aprendes a terminar y publicar tu juego sin perder la cabeza en el intento. Si es tu primera vez buscando hacer un juego, esto es, de lejos, lo más importante que vas a ver hoy para arrancar con el pie derecho:
+Pero antes de marearte con números, estadísticas y porcentajes de conversión de plataformas, hay una verdad innegable: las cifras de ventas dan absolutamente igual si primero no aprendes a terminar y publicar tu juego sin perder la cabeza en el intento. Si es tu primera vez buscando **crear un juego**, esto es, de lejos, lo más importante que vas a ver hoy para arrancar con el pie derecho:
 
 {% include youtube-embed.html id="3ifj5q95qdk" title="¿Por dónde empezar a crear Videojuegos?" %}
 
@@ -123,7 +120,7 @@ Cualquier cifra de ingresos pierde sentido si no se pone en relación con el tie
 
 Un desarrollador que trabaja solo durante dos años en un juego y lo vende por 10.000 dólares brutos ha cobrado el equivalente a unos 1,75 dólares la hora, antes de impuestos. Ese mismo juego, si lo hubiera hecho en cuatro meses, empieza a tener otra lectura económica.
 
-Esta es la razón por la que el consejo más repetido por quienes llevan años en el sector indie es siempre el mismo: empieza con un juego pequeño. No el juego de tu vida, no el juego que llevas años queriendo hacer. Un juego que puedas terminar en semanas o en pocos meses, que te enseñe a completar un proyecto, a navegar el proceso de publicación, a entender cómo reaccionan los jugadores reales a lo que construyes.
+Esta es la razón por la que el consejo más repetido por quienes llevan años en el sector indie es siempre el mismo: empieza con un juego pequeño. No el juego de tu vida, no el juego que llevas años queriendo **crear**. Un juego que puedas terminar en semanas o en pocos meses, que te enseñe a completar un proyecto, a navegar el proceso de publicación, a entender cómo reaccionan los jugadores reales a lo que construyes.
 
 El valor de ese primer juego no está en los ingresos que genere, que probablemente serán bajos. Está en todo lo que aprendes que no puedes aprender de ninguna otra manera.
 
@@ -135,7 +132,7 @@ El primer juego genera una media de 120.000 dólares brutos. El segundo genera 1
 
 Los estudios que hoy tienen éxito en el mercado indie casi sin excepción tienen varios juegos en su historial. Los creadores de Peglin y Dome Keeper publicaron juegos mediocres antes de dar con sus éxitos. Lethal Company, Palworld, V Rising: ninguno fue el debut de su estudio.
 
-La conclusión práctica de todo esto no es desalentadora si se lee bien: hacer videojuegos indie como negocio sostenible es posible, pero raramente ocurre en el primer intento. Los que lo consiguen son los que tratan cada proyecto como una inversión en conocimiento tanto como una inversión en ingresos, y que no abandonan cuando el primero no genera lo que esperaban.
+La conclusión práctica de todo esto no es desalentadora si se lee bien: **crear videojuegos indie** como negocio sostenible es posible, pero raramente ocurre en el primer intento. Los que lo consiguen son los que tratan cada proyecto como una inversión en conocimiento tanto como una inversión en ingresos, y que no abandonan cuando el primero no genera lo que esperaban.
 
 El mercado está ahí. Los datos muestran que hay espacio para más desarrolladores indie con proyectos bien ejecutados. Lo que no hay es atajos.
 

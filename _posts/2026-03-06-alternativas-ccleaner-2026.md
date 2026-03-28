@@ -14,7 +14,6 @@ categories:
 redirect_from:
   - "/alternativas-ccleaner-2026/"
   - "/2026/03/06/alternativas-ccleaner-2026/"
-  - "/2026/03/06/alternativas-ccleaner-2026.html"
 
 faq:
   - question: "¿Cuál es la mejor alternativa a CCleaner en 2026?"

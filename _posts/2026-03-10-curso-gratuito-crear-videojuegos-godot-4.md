@@ -15,7 +15,6 @@ categories:
 redirect_from:
   - "/curso-gratuito-crear-videojuegos-godot-4/"
   - "/2026/03/10/curso-gratuito-crear-videojuegos-godot-4/"
-  - "/2026/03/10/curso-gratuito-crear-videojuegos-godot-4.html"
 
 video:
   id: "L3pFEk1HPCQ"
@@ -84,4 +83,4 @@ El momento importa. Godot está en un punto de madurez en el que tiene las herra
 
 Además, la tendencia de la industria indie hacia motores más independientes y sostenibles no es coyuntural. Después de lo que ocurrió con Unity, muchos estudios han replanteado su dependencia de motores propietarios. Godot no es solo una alternativa, es la apuesta de largo plazo de una parte importante del desarrollo independiente.
 
-Si estás pensando en hacer videojuegos, ya sea como hobby o como profesión, aprender Godot 4 ahora es una decisión que tiene mucho sentido. Y si puedes aprenderlo gratis, con un curso en español y estructurado desde cero, mejor todavía.
+Si estás pensando en **crear videojuegos**, ya sea como hobby o como profesión, aprender Godot 4 ahora es una decisión que tiene mucho sentido. Y si puedes aprenderlo gratis, con un curso en español y estructurado desde cero, mejor todavía.

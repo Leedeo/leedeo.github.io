@@ -11,6 +11,11 @@ excerpt: "El desarrollo de videojuegos ha cambiado. Adiós a guías de 2018. Des
 categories:
 - Game Dev
 
+redirect_from:
+  - "/etapas-desarrollo-videojuegos-2026/"
+  - "/2026/03/27/etapas-desarrollo-videojuegos-2026/"
+  - "/2026/03/27/etapas-desarrollo-videojuegos-2026.html"
+
 video:
   id: "3ifj5q95qdk"
   title: "¿Por dónde empezar a crear Videojuegos?"
@@ -52,11 +57,11 @@ Aunque cada estudio trabaja de una manera distinta, el desarrollo de videojuegos
 
 ### 1. Preproducción: cuando el juego todavía no existe, pero ya empieza a decidirse
 
-La preproducción es la fase donde se define qué se va a hacer.
+La preproducción es la fase donde se define qué se va a crear.
 
 Aquí todavía no se está construyendo el juego como tal, o al menos no de forma seria. Lo que se hace es tomar decisiones fundamentales: de qué va el juego, cuál es su género, a qué público apunta, qué mecánicas tendrá, qué estilo visual encaja mejor, qué alcance realista tiene y cuánto tiempo puede llevar.
 
-Es también la fase donde se decide algo importantísimo que mucha gente subestima: **qué no se va a hacer**.
+Es también la fase donde se decide algo importantísimo que mucha gente subestima: **qué no se va a crear**.
 
 Porque una de las formas más rápidas de matar un proyecto es intentar que tenga de todo. Mundo abierto, combate, sigilo, gestión, crafteo, multijugador, historia ramificada, árboles de habilidades y una ciudad viva con NPCs que tengan su propia rutina. Suena muy bien en la cabeza. Luego llega la realidad, y el proyecto se hunde bajo su propio peso.
 
@@ -154,7 +159,7 @@ Preparar una página de Steam, hacer capturas, editar un tráiler, redactar una 
 
 Y aquí mucha gente falla estrepitosamente.
 
-Hay desarrolladores que pasan dos años creando un juego y luego dedican dos tardes a venderlo. Después se sorprenden de que nadie lo compre. Pero es lógico: si nadie sabe que tu juego existe, nadie lo va a jugar.
+Hay desarrolladores que pasan dos años haciendo un juego y luego dedican dos tardes a venderlo. Después se sorprenden de que nadie lo compre. Pero es lógico: si nadie sabe que tu juego existe, nadie lo va a jugar.
 
 El marketing no viene “después”. En 2026, el marketing empieza prácticamente desde que el proyecto tiene una forma mínimamente enseñable.
 

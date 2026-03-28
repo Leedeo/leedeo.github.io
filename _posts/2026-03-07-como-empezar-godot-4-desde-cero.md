@@ -15,7 +15,6 @@ categories:
 redirect_from:
   - "/como-empezar-godot-4-desde-cero/"
   - "/2026/03/07/como-empezar-godot-4-desde-cero/"
-  - "/2026/03/07/como-empezar-godot-4-desde-cero.html"
 
 video:
   id: "L3pFEk1HPCQ"

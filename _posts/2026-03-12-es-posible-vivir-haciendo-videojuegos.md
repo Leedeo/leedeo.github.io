@@ -14,7 +14,6 @@ categories:
 redirect_from:
   - "/es-posible-vivir-haciendo-videojuegos/"
   - "/2026/03/12/es-posible-vivir-haciendo-videojuegos/"
-  - "/2026/03/12/es-posible-vivir-haciendo-videojuegos.html"
 
 video:
   id: "NWosjlLorEU"
@@ -33,9 +32,9 @@ faq:
 ---
 Voy a empezar con la respuesta corta: sí, es posible. Y ahora voy a dedicar el resto del artículo a explicar por qué esa respuesta, sin contexto, es casi completamente inútil.
 
-Porque "es posible" también aplica a ganar la lotería. La pregunta que realmente importa no es si es posible, sino qué probabilidades tiene alguien concreto, con recursos concretos, en el mercado de 2026, de construir algo sostenible creando videojuegos. Y esa pregunta tiene una respuesta mucho más matizada, menos romántica, y bastante más útil.
+Porque "es posible" también aplica a ganar la lotería. La pregunta que realmente importa no es si es posible, sino qué probabilidades tiene alguien concreto, con recursos concretos, en el mercado de 2026, de construir algo sostenible haciendo videojuegos. Y esa pregunta tiene una respuesta mucho más matizada, menos romántica, y bastante más útil.
 
-Pero antes de meternos de lleno en las duras realidades del mercado laboral mundial o de las ventas indie, hace falta una toma de consciencia: ninguna de las crudas realidades de este artículo te afecta si ni siquiera tienes la disciplina para dar los primeros pasos básicos en el desarrollo de videojuegos y terminar un proyecto sencillo. Si todo esto te pilla empezando y estás a punto de rendirte porque no sabes por dónde arrancar de verdad a crear tu juego, echa el freno un momento y mira esto:
+Pero antes de meternos de lleno en las duras realidades del mercado laboral mundial o de las ventas indie, hace falta una toma de consciencia: ninguna de las crudas realidades de este artículo te afecta si ni siquiera tienes la disciplina para dar los primeros pasos básicos en el desarrollo de videojuegos y terminar un proyecto sencillo. Si todo esto te pilla empezando y estás a punto de rendirte porque no sabes por dónde arrancar de verdad a hacer tu juego, echa el freno un momento y mira esto:
 
 {% include youtube-embed.html id="NWosjlLorEU" title="Por qué aprender Unity o Unreal no te dará trabajo" %}
 
@@ -93,7 +92,7 @@ Es el modelo que siguen en la práctica la mayoría de los desarrolladores indie
 
 Hay un patrón en la industria del videojuego que merece nombrarse directamente porque tiene consecuencias muy reales para quienes quieren entrar.
 
-Durante décadas, la narrativa dominante ha sido que hacer videojuegos es una vocación, una pasión, algo que va más allá del trabajo normal. Y eso es verdad para muchas personas que trabajan en el sector. El problema es que esa narrativa también ha funcionado como justificación para pagar menos, exigir más horas, y aceptar condiciones laborales que en otros sectores serían inaceptables. El "passion tax" es un término que los profesionales del sector llevan años usando para describir exactamente eso: el descuento que aceptas en salario y condiciones a cambio de trabajar en algo que te gusta.
+Durante décadas, la narrativa dominante ha sido que crear videojuegos es una vocación, una pasión, algo que va más allá del trabajo normal. Y eso es verdad para muchas personas que trabajan en el sector. El problema es que esa narrativa también ha funcionado como justificación para pagar menos, exigir más horas, y aceptar condiciones laborales que en otros sectores serían inaceptables. El "passion tax" es un término que los profesionales del sector llevan años usando para describir exactamente eso: el descuento que aceptas en salario y condiciones a cambio de trabajar en algo que te gusta.
 
 El movimiento de sindicalización en la industria, que ha crecido notablemente desde 2022 en parte como respuesta a los despidos masivos, es una señal de que muchos profesionales están revisando esa ecuación. Pero para quien está fuera mirando hacia dentro, la lección es clara: entrar en la industria por pasión sin evaluar de forma realista la ecuación económica es un camino hacia el agotamiento.
 

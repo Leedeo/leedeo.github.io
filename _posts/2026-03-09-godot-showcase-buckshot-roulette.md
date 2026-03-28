@@ -16,7 +16,6 @@ categories:
 redirect_from:
   - "/godot-showcase-buckshot-roulette/"
   - "/2026/03/09/godot-showcase-buckshot-roulette/"
-  - "/2026/03/09/godot-showcase-buckshot-roulette.html"
 
 video:
   id: "L3pFEk1HPCQ"
@@ -49,13 +48,13 @@ Mike es el más reciente patrocinador Corporate Platinum del Godot Development F
 
 ### ¿Cómo empezaste en el desarrollo de videojuegos? ¿Y cómo se convirtió en tu trabajo a tiempo completo?
 
-Empecé aprendiendo a hacer arte 3D allá por 2018, es decir, unos 3 años antes de meterme en el desarrollo de juegos en solitario. Eventualmente, me empezó a interesar cada vez más el desarrollo en sí, y decidí trabajar en un juego pequeño durante 2 meses. Una vez que lo publiqué, el efecto fue como una bola de nieve y ya no pude dejar de pensar en hacer juegos.
+Empecé aprendiendo a **crear arte 3D** allá por 2018, es decir, unos 3 años antes de meterme en el desarrollo de juegos en solitario. Eventualmente, me empezó a interesar cada vez más el desarrollo en sí, y decidí trabajar en un juego pequeño durante 2 meses. Una vez que lo publiqué, el efecto fue como una bola de nieve y ya no pude dejar de pensar en **crear juegos**.
 
 ![Buckshot Roulette Gameplay](/assets/img/posts/buckshot-roulette-gameplay-ruleta-escopeta.webp)
 
 Para finales de 2023 ya había lanzado 16 juegos cortos, y tenía una comunidad decente tanto de jugadores como de creadores de contenido. Todos estos proyectos los desarrollé mientras estudiaba o trabajaba a tiempo completo. Mis mayores inspiraciones eran juegos oscuros con mecánicas, narrativas y apartados visuales extraños; tenía mucha libertad trabajando en mis cosas al no depender de ellas para generar ingresos. 
 
-Ya estaba súper agradecido por mi pequeña comunidad, así que, tras vender *Buckshot Roulette* por un dólar a finales de 2023, me quedé sin palabras cuando el juego se hizo viral y llegó al público masivo. Desde entonces, he podido dedicarme a hacer juegos a tiempo completo.
+Ya estaba súper agradecido por mi pequeña comunidad, así que, tras vender *Buckshot Roulette* por un dólar a finales de 2023, me quedé sin palabras cuando el juego se hizo viral y llegó al público masivo. Desde entonces, he podido dedicarme a **crear juegos a tiempo completo**.
 
 ### Algunos estarán familiarizados con Buckshot Roulette, pero ¿puedes hablarnos de tu nuevo proyecto, s.p.l.i.t.?
 
@@ -91,7 +90,7 @@ Estaría genial poder ver una visualización en tiempo real del árbol de escena
 
 ### ¿Qué consejo le darías a los aspirantes a desarrolladores de videojuegos que acaban de empezar en la industria?
 
-Recomendaría encarecidamente hacer un montón de juegos pequeños, cosas que puedas terminar en un par de semanas. El primer juego siempre es el más difícil porque estás haciendo todo por primera vez, pero una vez que pasas por el proceso varias veces, todo empieza a tener mucho más sentido.
+Recomendaría encarecidamente **crear un montón de juegos pequeños**, cosas que puedas terminar en un par de semanas. El primer juego siempre es el más difícil porque estás haciendo todo por primera vez, pero una vez que pasas por el proceso varias veces, todo empieza a tener mucho más sentido.
 
 En el desarrollo en solitario hay que ponerse muchos sombreros distintos. Lo que realmente me ayudó a entrar en el desarrollo de videojuegos fueron los años que pasé aprendiendo software 3D antes de tocar un motor gráfico. Gracias a eso, ya estaba familiarizado con bastantes cosas dentro de un motor, y lo único que tuve que aprender desde cero fue a programar.
 

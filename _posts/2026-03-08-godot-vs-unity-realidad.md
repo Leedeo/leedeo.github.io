@@ -15,7 +15,6 @@ categories:
 redirect_from:
   - "/godot-vs-unity-realidad/"
   - "/2026/03/08/godot-vs-unity-realidad/"
-  - "/2026/03/08/godot-vs-unity-realidad.html"
 
 video:
   id: "L3pFEk1HPCQ"

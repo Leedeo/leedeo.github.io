@@ -128,7 +128,7 @@ Es un caso importante porque demuestra que Godot no solo sirve para juegos peque
 
 Cavar recursos bajo tierra y volver corriendo a la superficie para defender tu cúpula de oleadas alienígenas. Simple de explicar, difícil de soltar.
 
-Dome Keeper no genera titulares. No se hizo viral de forma explosiva. Pero tiene algo que a largo plazo vale más que la viralidad: una base de jugadores fiel, reseñas sólidas y un rendimiento comercial que permite a un estudio pequeño seguir existiendo y seguir creando.
+Dome Keeper no genera titulares. No se hizo viral de forma explosiva. Pero tiene algo que a largo plazo vale más que la viralidad: una base de jugadores fiel, reseñas sólidas y un rendimiento comercial que permite a un estudio pequeño seguir existiendo y seguir haciendo.
 
 Es la clase de éxito que no suele aparecer en las conversaciones, pero que representa la realidad de la mayoría de estudios indie rentables: no se trata de vender diez millones de copias, sino de vender las suficientes para que el siguiente proyecto sea posible.
 
@@ -192,7 +192,7 @@ No se puede comparar directamente con los indies anteriores porque juega en otra
 
 ## La excusa ya no funciona
 
-Si has llegado hasta aquí y estás pensando en qué motor elegir para empezar a crear juegos, hay una reflexión dura pero necesaria que hacer. Existe un mito terrible de que elegir el motor más potente, brillante o utilizado en la industria triple A (como Unreal o Unity) es lo que te conseguirá tu primer empleo o te garantizará el éxito. 
+Si has llegado hasta aquí y estás pensando en qué motor elegir para empezar a hacer juegos, hay una reflexión dura pero necesaria que hacer. Existe un mito terrible de que elegir el motor más potente, brillante o utilizado en la industria triple A (como Unreal o Unity) es lo que te conseguirá tu primer empleo o te garantizará el éxito. 
 
 Antes de que te bloquees aprendiendo una herramienta gigante por miedo a equivocarte de motor, te recomiendo pausar un momento y escuchar esto:
 
@@ -204,7 +204,7 @@ No estamos hablando de un motor donde "algún día" habrá éxitos. Los éxitos 
 
 Godot no es perfecto. Tiene limitaciones reales, especialmente en 3D de alto nivel, y su ecosistema es más pequeño que el de Unity o Unreal. Nada de eso está en discusión. Lo que sí está en discusión es seguir actuando como si este motor no tuviera resultados comerciales que mostrar, porque los tiene, y son difíciles de ignorar.
 
-Los juegos no triunfan por el motor. Triunfan porque son buenos, porque encuentran su público y porque alguien se tomó en serio no solo el desarrollo, si no también todo lo que viene después. Pero que todos estos juegos hayan podido existir y generar estos resultados sobre Godot demuestra algo que ya no debería hacer falta demostrar: **la herramienta no era el problema. Nunca lo fue.**
+Los juegos no triunfan por el motor. Triunfan porque son buenos, porque encuentran su público y porque alguien se tomó en serio no solo el desarrollo, sino también todo lo que viene después. Pero que todos estos juegos hayan podido existir y generar estos resultados sobre Godot demuestra algo que ya no debería hacer falta demostrar: **la herramienta no era el problema. Nunca lo fue.**
 
 ## Lo que viene: proyectos que ya están eligiendo Godot
 

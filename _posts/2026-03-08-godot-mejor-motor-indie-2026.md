@@ -15,7 +15,6 @@ categories:
 redirect_from:
   - "/godot-mejor-motor-indie-2026/"
   - "/2026/03/08/godot-mejor-motor-indie-2026/"
-  - "/2026/03/08/godot-mejor-motor-indie-2026.html"
 
 video:
   id: "L3pFEk1HPCQ"

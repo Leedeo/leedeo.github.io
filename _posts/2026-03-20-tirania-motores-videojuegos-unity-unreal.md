@@ -6,7 +6,7 @@ date: "2026-03-20 09:31:08 +0100"
 thumbnail: "/assets/img/posts/tirania-motores-videojuegos-unity-unreal.webp"
 title: "La tiranía de los motores: ¿eres desarrollador de videojuegos o usuario de una herramienta?"
 description: "Depender de Unity, Unreal o cualquier motor propietario es una decisión con consecuencias reales. El Runtime Fee de Unity lo dejó claro: las reglas pueden cambiar cuando la empresa quiera."
-excerpt: "¿Sabes crear videojuegos, o sabes usar Unity? No es lo mismo. Cuando tu carrera entera depende de una herramienta que no controlas, no eres un desarrollador independiente. Eres un inquilino."
+excerpt: "¿Sabes hacer videojuegos, o sabes usar Unity? No es lo mismo. Cuando tu carrera entera depende de una herramienta que no controlas, no eres un desarrollador independiente. Eres un inquilino."
 
 categories:
 - Game Dev
@@ -15,7 +15,6 @@ categories:
 redirect_from:
   - "/tirania-motores-videojuegos-unity-unreal/"
   - "/2026/03/20/tirania-motores-videojuegos-unity-unreal/"
-  - "/2026/03/20/tirania-motores-videojuegos-unity-unreal.html"
 
 video:
   id: "NWosjlLorEU"
@@ -34,7 +33,7 @@ faq:
 ---
 Hay una pregunta que incomoda a mucha gente en el mundo del desarrollo de videojuegos, y precisamente por eso merece hacerse:
 
-**¿Sabes crear videojuegos, o sabes usar Unity?**
+**¿Sabes hacer videojuegos, o sabes usar Unity?**
 
 No es lo mismo. Nunca lo ha sido. Pero la industria, las comunidades, los canales de YouTube y los cursos online llevan años tratando ambas cosas como si fueran sinónimos. Y esa confusión tiene consecuencias reales.
 
@@ -92,9 +91,9 @@ Hay un fenómeno que cualquiera que pase tiempo en comunidades de desarrollo rec
 
 Creadores de contenido que llevan años usando un motor específico y que, cuando alguien les pregunta cuál es el mejor, responden invariablemente que el suyo. No porque hayan evaluado las alternativas de forma objetiva, sino porque han invertido tanto tiempo en aprender esa herramienta que admitir que podría no ser la mejor opción se siente como admitir que esos años fueron un desperdicio.
 
-No lo son, por cierto. Pero la resistencia a explorar alternativas no viene de un análisis técnico: viene del **miedo a la pérdida**. La respuesta es sencilla: esos años enseñaron a desarrollar videojuegos. Los conceptos de diseño, la lógica de programación, la estructura de un proyecto... todo eso es **transferible**. Un desarrollador que entiende los fundamentos puede cambiar de motor en semanas. Uno que solo ha memorizado dónde están los botones de un motor concreto necesita empezar casi desde cero.
+No lo son, por cierto. Pero la resistencia a explorar alternativas no viene de un análisis técnico: viene del **miedo a la pérdida**. La respuesta es sencilla: esos años enseñaron a crear videojuegos. Los conceptos de diseño, la lógica de programación, la estructura de un proyecto... todo eso es **transferible**. Un desarrollador que entiende los fundamentos puede cambiar de motor en semanas. Uno que solo ha memorizado dónde están los botones de un motor concreto necesita empezar casi desde cero.
 
-Y ahí está la distinción clave: **aprender a crear videojuegos** versus **aprender a usar una herramienta**. Lo primero sirve para siempre, con cualquier motor, con cualquier tecnología. Lo segundo sirve hasta que esa herramienta cambia, desaparece o deja de ser relevante.
+Y ahí está la distinción clave: **aprender a hacer videojuegos** versus **aprender a usar una herramienta**. Lo primero sirve para siempre, con cualquier motor, con cualquier tecnología. Lo segundo sirve hasta que esa herramienta cambia, desaparece o deja de ser relevante.
 
 ## La falacia del empleo
 
@@ -140,7 +139,7 @@ Todo este debate se reduce a una idea que debería ser obvia pero que se pierde 
 
 **La herramienta no es la habilidad.**
 
-Un carpintero no es bueno porque usa una marca concreta de sierra. Es bueno porque entiende la madera, las uniones, las proporciones y las técnicas. Ponle cualquier sierra funcional en las manos y va a crear un buen trabajo.
+Un carpintero no es bueno porque usa una marca concreta de sierra. Es bueno porque entiende la madera, las uniones, las proporciones y las técnicas. Ponle cualquier sierra funcional en las manos y va a hacer un buen trabajo.
 
 Un desarrollador de videojuegos no es bueno porque use Unity, Unreal, Godot o Defold. Es bueno porque entiende cómo funcionan los juegos, cómo se estructuran los sistemas, cómo se diseñan las experiencias y cómo se resuelven los problemas. Ponle cualquier motor funcional delante y va a producir un buen trabajo.
 

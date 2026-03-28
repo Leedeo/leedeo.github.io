@@ -4,7 +4,7 @@ author: "javo"
 date: "2026-03-10 08:35:38 +0100"
 
 thumbnail: "/assets/img/posts/outersloth-transparencia-indie.webp"
-title: "Outersloth hace público su contrato con desarrolladores indie, y el gesto importa más de lo que parece"
+title: "Outersloth publica su contrato con desarrolladores indie, y el gesto importa más de lo que parece"
 description: "Innersloth publica su contrato estándar con desarrolladores indie. Qué términos ofrece Outersloth, por qué es inusual en la industria y qué cambia para quien negocia con publishers."
 excerpt: "Innersloth, creadores de Among Us, rompen el secretismo de la industria publicando su contrato estándar de financiación para juegos independientes."
 
@@ -14,7 +14,6 @@ categories:
 redirect_from:
   - "/outersloth-contrato-indie-transparencia/"
   - "/2026/03/10/outersloth-contrato-indie-transparencia/"
-  - "/2026/03/10/outersloth-contrato-indie-transparencia.html"
 
 video:
   id: "L3pFEk1HPCQ"

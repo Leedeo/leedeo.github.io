@@ -15,7 +15,6 @@ categories:
 redirect_from:
   - "/slay-the-spire-2-godot-steam-record/"
   - "/2026/03/10/slay-the-spire-2-godot-steam-record/"
-  - "/2026/03/10/slay-the-spire-2-godot-steam-record.html"
 
 video:
   id: "L3pFEk1HPCQ"

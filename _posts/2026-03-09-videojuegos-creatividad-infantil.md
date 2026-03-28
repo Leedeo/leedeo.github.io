@@ -14,7 +14,6 @@ categories:
 redirect_from:
   - "/videojuegos-creatividad-infantil/"
   - "/2026/03/09/videojuegos-creatividad-infantil/"
-  - "/2026/03/09/videojuegos-creatividad-infantil.html"
 
 video:
   id: "L3pFEk1HPCQ"
@@ -30,8 +29,6 @@ faq:
     answer: "Sí, estudios de 2025 publicados en 'Frontiers in Behavioral Neuroscience' y 'Journal of Learning Analytics' confirman que los entornos interactivos estimulan la imaginación, la motivación y las funciones ejecutivas del cerebro."
   - question: "¿Cuál es el papel recomendado para los padres en la tecnología?"
     answer: "Se recomienda un perfil equilibrado de acompañamiento y negociación, donde la consola esté en espacios comunes, se establezcan límites claros y exista un interés genuino por el contenido que el menor consume."
-  
-
 ---
 Hace apenas unas décadas, la imagen de la creatividad infantil estaba ligada indisolublemente a los bloques de construcción y los muñecos articulados. Los niños pasaban horas inventando mundos que se materializaban en el suelo de su habitación. Hoy, esa misma pulsión creativa ha encontrado un nuevo ecosistema: los **entornos digitales interactivos**. 
 

@@ -14,7 +14,6 @@ categories:
 redirect_from:
   - "/nintendo-demanda-usa-aranceles/"
   - "/2026/03/10/nintendo-demanda-usa-aranceles/"
-  - "/2026/03/10/nintendo-demanda-usa-aranceles.html"
 
 video:
   id: "NWosjlLorEU"

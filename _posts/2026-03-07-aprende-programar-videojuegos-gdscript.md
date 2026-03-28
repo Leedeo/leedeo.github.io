@@ -15,7 +15,6 @@ categories:
 redirect_from:
   - "/aprende-programar-videojuegos-gdscript/"
   - "/2026/03/07/aprende-programar-videojuegos-gdscript/"
-  - "/2026/03/07/aprende-programar-videojuegos-gdscript.html"
 
 video:
   id: "x9N1gw2qWEQ"

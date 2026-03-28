@@ -14,7 +14,6 @@ categories:
 redirect_from:
   - "/ia-videojuegos-democratizacion-mito/"
   - "/2026/03/19/ia-videojuegos-democratizacion-mito/"
-  - "/2026/03/19/ia-videojuegos-democratizacion-mito.html"
 
 video:
   id: "3ifj5q95qdk"
@@ -39,13 +38,13 @@ La palabra que más se repite cuando se habla de IA y creación es **"democratiz
 
 Y aquí es donde hay que hacer una pausa y preguntarse: **¿eso es realmente bueno?**
 
-Porque "cualquiera puede crear un juego" y "cualquiera puede crear un **buen** juego" son dos frases que se parecen mucho pero que significan cosas radicalmente distintas. Y la distancia entre ambas es exactamente donde se encuentra el problema.
+Porque "cualquiera puede hacer un juego" y "cualquiera puede hacer un **buen** juego" son dos frases que se parecen mucho pero que significan cosas radicalmente distintas. Y la distancia entre ambas es exactamente donde se encuentra el problema.
 
-## Poder crear un juego no es saber crear un juego
+## Poder hacer un juego no es saber hacer un juego
 
 Esta es la distinción fundamental que se pierde en el entusiasmo de la democratización.
 
-**Saber crear un videojuego** implica entender cómo funciona un bucle de juego. Implica saber por qué un salto se siente satisfactorio y otro se siente como si el personaje flotara en gelatina. Implica entender la curva de dificultad, el ritmo de las recompensas, la economía interna, el flujo de información al jugador. Implica saber que un menú mal diseñado puede arruinar una experiencia que por lo demás es excelente. Implica entender qué es el "game feel" y por qué dos juegos con mecánicas idénticas sobre el papel pueden sentirse completamente distintos en la práctica.
+**Saber hacer un videojuego** implica entender cómo funciona un bucle de juego. Implica saber por qué un salto se siente satisfactorio y otro se siente como si el personaje flotara en gelatina. Implica entender la curva de dificultad, el ritmo de las recompensas, la economía interna, el flujo de información al jugador. Implica saber que un menú mal diseñado puede arruinar una experiencia que por lo demás es excelente. Implica entender qué es el "game feel" y por qué dos juegos con mecánicas idénticas sobre el papel pueden sentirse completamente distintos en la práctica.
 
 Nada de eso lo proporciona una IA. La IA puede generar código, puede generar arte, puede generar música. Lo que no puede generar es el **criterio** para saber si todo eso funciona como conjunto. Y ese criterio es lo que separa un videojuego de un archivo ejecutable que técnicamente se abre y muestra cosas en pantalla.
 
@@ -75,9 +74,9 @@ Steam ha tenido que implementar sistemas de filtrado, algoritmos de recomendaci�
 
 ## Lo que pasa cuando las barreras desaparecen del todo
 
-Hasta hace poco, crear un juego malo requería al menos un esfuerzo mínimo. Había que saber algo de programación, o al menos saber usar un motor de videojuegos a un nivel básico. Había que conseguir o crear los gráficos de alguna forma. Había que dedicar tiempo, aunque fuera poco y mal invertido.
+Hasta hace poco, hacer un juego malo requería al menos un esfuerzo mínimo. Había que saber algo de programación, o al menos saber usar un motor de videojuegos a un nivel básico. Había que conseguir o crear los gráficos de alguna forma. Había que dedicar tiempo, aunque fuera poco y mal invertido.
 
-Ese esfuerzo mínimo funcionaba, sin que nadie lo hubiera diseñado así, como un **filtro natural**. No impedía que se publicaran juegos malos, pero limitaba la velocidad a la que se podían producir. Crear basura llevaba tiempo. No mucho, pero algo.
+Ese esfuerzo mínimo funcionaba, sin que nadie lo hubiera diseñado así, como un **filtro natural**. No impedía que se publicaran juegos malos, pero limitaba la velocidad a la que se podían producir. Hacer basura llevaba tiempo. No mucho, pero algo.
 
 La IA generativa elimina ese filtro.
 
@@ -109,7 +108,7 @@ Si la perspectiva indie tiene sus matices, la perspectiva de las grandes empresa
 
 No hay semana que pase sin que se anuncie un nuevo despido masivo en la industria del videojuego. Se estima que **más de 20.000 puestos de trabajo** se han perdido en la industria solo entre 2023 y 2025. Microsoft cerró estudios como Tango Gameworks y Arkane Austin. Electronic Arts, Ubisoft, Riot Games, Epic Games, Bungie... La lista sigue y sigue. Y aunque no todos esos despidos están directamente relacionados con la IA, la herramienta está empezando a formar parte de la ecuación.
 
-La lógica del recorte es sencilla: si un directivo puede crear el mismo juego por 100 millones en lugar de 300 usando IA, ¿qué va a hacer? La respuesta es obvia. Y no es necesariamente porque sea una mala persona, sino porque las empresas que cotizan en bolsa responden ante accionistas que exigen márgenes de beneficio crecientes.
+La lógica del recorte es sencilla: si un directivo puede hacer el mismo juego por 100 millones en lugar de 300 usando IA, ¿qué va a hacer? La respuesta es obvia. Y no es necesariamente porque sea una mala persona, sino porque las empresas que cotizan en bolsa responden ante accionistas que exigen márgenes de beneficio crecientes.
 
 Pero la pregunta es: **¿el resultado va a ser el mismo?**
 
@@ -117,13 +116,13 @@ Pensemos en lo que hizo grande a [Red Dead Redemption 2](https://store.steampowe
 
 Esos detalles no estaban ahí porque un algoritmo los generara. Estaban ahí porque personas con oficio, con sensibilidad y con tiempo suficiente los pensaron, los implementaron y los pulieron. ¿Puede una IA generar árboles, nieve y conversaciones? Sí. ¿Va a generar *esos* árboles, *esa* nieve, *esas* conversaciones? Lo que sabemos hasta ahora sugiere que los resultados serán funcionales pero genéricos. Correctos pero sin alma.
 
-Si las grandes empresas usan la IA para gastar menos en lugar de para crear algo mejor, el resultado va a ser el mismo que ya se vio en la industria del cine con los efectos visuales generados por ordenador: producciones que cuestan menos de producir, que siguen vendiéndose al mismo precio y que ofrecen una experiencia inferior. Más margen para el accionista, menos valor para el jugador.
+Si las grandes empresas usan la IA para gastar menos en lugar de para hacer algo mejor, el resultado va a ser el mismo que ya se vio en la industria del cine con los efectos visuales generados por ordenador: producciones que cuestan menos de producir, que siguen vendiéndose al mismo precio y que ofrecen una experiencia inferior. Más margen para el accionista, menos valor para el jugador.
 
 ## La saturación del mercado: el problema de fondo
 
 El mercado de videojuegos ya estaba saturado antes de la IA. Hay más juegos disponibles de los que cualquier persona podría jugar en varias vidas. Para un desarrollador independiente que ha invertido años de su vida en crear algo genuino, la competencia ya era feroz. Conseguir visibilidad era uno de los mayores desafíos del desarrollo indie, a menudo más difícil que hacer el juego en sí.
 
-Si la IA multiplica la cantidad de productos que se publican cada día, ese problema se agrava exponencialmente. No porque los juegos generados con IA vayan a ser competencia real en términos de calidad, sino porque van a **ocupar espacio, atención y visibilidad** en las plataformas de distribución. Van a aparecer en las búsquedas, en las listas de novedades, en los algoritmos de recomendación. Van a crear más difícil que el jugador encuentre los juegos que sí merecen su tiempo y su dinero.
+Si la IA multiplica la cantidad de productos que se publican cada día, ese problema se agrava exponencialmente. No porque los juegos generados con IA vayan a ser competencia real en términos de calidad, sino porque van a **ocupar espacio, atención y visibilidad** en las plataformas de distribución. Van a aparecer en las búsquedas, en las listas de novedades, en los algoritmos de recomendación. Van a hacer más difícil que el jugador encuentre los juegos que sí merecen su tiempo y su dinero.
 
 Es el equivalente a intentar encontrar un buen restaurante en una calle donde han abierto trescientos locales de comida rápida. La comida rápida no es mejor. Pero hay tanta que el buen restaurante queda enterrado entre el ruido.
 
@@ -131,7 +130,7 @@ Es el equivalente a intentar encontrar un buen restaurante en una calle donde ha
 
 ## Lo que se pierde cuando todo es fácil
 
-Hay algo más sutil que se pierde cuando las barreras de entrada desaparecen. Cuando crear un juego era difícil, las personas que lo intentaban solían tener una de dos cosas: **conocimiento técnico** o **determinación fuera de lo común**. A menudo, ambas.
+Hay algo más sutil que se pierde cuando las barreras de entrada desaparecen. Cuando hacer un juego era difícil, las personas que lo intentaban solían tener una de dos cosas: **conocimiento técnico** o **determinación fuera de lo común**. A menudo, ambas.
 
 El proceso de aprender a programar, de entender cómo funciona un motor de videojuegos, de estudiar diseño por cuenta propia, de fracasar una y otra vez antes de conseguir algo que funcionara... ese proceso era formativo. No solo producía un juego: producía un **desarrollador**. Alguien que entiende su herramienta, que sabe lo que puede y lo que no puede hacer, que tiene un conocimiento íntimo de su oficio que informa cada decisión que toma.
 
@@ -147,4 +146,4 @@ Lo que debería preocupar no es la existencia de la herramienta, sino la ausenci
 
 La democratización del desarrollo de videojuegos suena bien como eslogan. Pero democratizar el acceso a una herramienta no es lo mismo que democratizar el conocimiento para usarla bien. Y mientras la conversación siga confundiendo una cosa con la otra, el resultado va a ser un mercado con más productos y menos valor, donde encontrar algo que merezca la pena sea cada vez más difícil.
 
-Poder crear un juego no es lo mismo que saber crear un juego. Nunca lo ha sido. La IA no cambia eso. Solo hace que la diferencia sea más fácil de ignorar.
+Poder hacer un juego no es lo mismo que saber hacer un juego. Nunca lo ha sido. La IA no cambia eso. Solo hace que la diferencia sea más fácil de ignorar.

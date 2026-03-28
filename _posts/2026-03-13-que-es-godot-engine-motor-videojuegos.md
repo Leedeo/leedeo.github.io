@@ -15,7 +15,6 @@ categories:
 redirect_from:
   - "/que-es-godot-engine-motor-videojuegos/"
   - "/2026/03/13/que-es-godot-engine-motor-videojuegos/"
-  - "/2026/03/13/que-es-godot-engine-motor-videojuegos.html"
 
 video:
   id: "L3pFEk1HPCQ"
@@ -44,7 +43,7 @@ Los dos motores más conocidos de la industria son **Unity** y **Unreal Engine**
 
 **[Godot Engine](https://godotengine.org/)** es un motor de videojuegos **gratuito y de código abierto**.
 
-Gratuito significa exactamente lo que parece: lo descargas, haces tu juego, lo vendes, y no le debes dinero a nadie. No hay cuotas mensuales, no hay porcentajes sobre las ventas, no hay versiones "premium" con las funciones importantes bloqueadas. Todo está disponible desde el primer momento.
+Gratuito significa exactamente lo que parece: lo descargas, creas tu juego, lo vendes, y no le debes dinero a nadie. No hay cuotas mensuales, no hay porcentajes sobre las ventas, no hay versiones "premium" con las funciones importantes bloqueadas. Todo está disponible desde el primer momento.
 
 Lo de "código abierto" significa que el código con el que está construido el motor es público. Cualquier persona puede leerlo, estudiarlo, modificarlo y contribuir a mejorarlo. Es un proyecto que pertenece a su comunidad, no a una empresa que pueda cambiar las reglas cuando le convenga.
 

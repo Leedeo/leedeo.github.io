@@ -14,7 +14,6 @@ categories:
 redirect_from:
   - "/cine-videojuegos-historia-influencia/"
   - "/2026/03/16/cine-videojuegos-historia-influencia/"
-  - "/2026/03/16/cine-videojuegos-historia-influencia.html"
 
 video:
   id: "0h_F-gHSeM0"
@@ -29,11 +28,11 @@ faq:
   - question: "¿Qué es la producción virtual con Unreal Engine?"
     answer: "Es una técnica que usa motores de videojuegos para proyectar escenarios 3D en tiempo real sobre pantallas LED gigantes durante el rodaje. Esto permite que los actores vean el entorno y que la iluminación sea natural, como se vio en The Mandalorian."
   - question: "¿Por qué algunos efectos digitales modernos parecen peores que los antiguos?"
-    answer: "Se debe a una combinación de factores: el volumen masivo de planos (de 50 a 2000 por película), plazos de entrega extremadamente cortos y el uso de 'ajos' tecnológicos para ganar velocidad en lugar del detallado trabajo artesanal de antaño."
+    answer: "Se debe a una combinación de factores: el volumen masivo de planos (de 50 a 2000 por película), plazos de entrega extremadamente cortos y el uso de 'atajos' tecnológicos para ganar velocidad en lugar del detallado trabajo artesanal de antaño."
 ---
 Hay una idea que durante décadas se repitió como si fuera una verdad absoluta: los videojuegos y el cine son mundos separados. El cine era arte, cultura, espectáculo. Los videojuegos eran entretenimiento infantil, algo menor. Esa separación, si es que alguna vez fue real, dejó de existir hace mucho tiempo.
 
-Lo que ha ocurrido entre estas dos industrias durante las últimas tres décadas es una historia de influencia cruzada que ha cambiado la forma en que se crean tanto películas como videojuegos. Los juegos quisieron parecerse al cine. Lo consiguieron. Y entonces, el cine empezó a usar las herramientas que los videojuegos habían creado para lograrlo.
+Lo que ha ocurrido entre estas dos industrias durante las últimas tres décadas es una historia de influencia cruzada que ha cambiado la forma en que se hacen tanto películas como videojuegos. Los juegos quisieron parecerse al cine. Lo consiguieron. Y entonces, el cine empezó a usar las herramientas que los videojuegos habían creado para lograrlo.
 
 Esta es esa historia.
 
@@ -183,7 +182,7 @@ Tras el éxito de The Mandalorian, la producción virtual con motores de videoju
 
 No es solo Unreal Engine. **Unity**, otro motor de videojuegos, también se utiliza en producción audiovisual, aunque con menor protagonismo. La idea central es la misma: herramientas creadas para hacer videojuegos se han convertido en herramientas para hacer cine y televisión.
 
-Un motor de videojuegos. Creando los escenarios de series y películas. Si alguien hubiera dicho eso en el año 2000, nadie lo habría tomado en serio.
+Un motor de videojuegos. Haciendo los escenarios de series y películas. Si alguien hubiera dicho eso en el año 2000, nadie lo habría tomado en serio.
 
 ## Mejores herramientas, resultados cuestionables
 

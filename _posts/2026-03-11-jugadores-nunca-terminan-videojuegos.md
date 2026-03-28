@@ -14,7 +14,6 @@ categories:
 redirect_from:
   - "/jugadores-nunca-terminan-videojuegos/"
   - "/2026/03/11/jugadores-nunca-terminan-videojuegos/"
-  - "/2026/03/11/jugadores-nunca-terminan-videojuegos.html"
 
 video:
   id: "3ifj5q95qdk"

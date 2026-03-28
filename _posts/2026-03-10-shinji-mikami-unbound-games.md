@@ -14,7 +14,6 @@ categories:
 redirect_from:
   - "/shinji-mikami-unbound-games/"
   - "/2026/03/10/shinji-mikami-unbound-games/"
-  - "/2026/03/10/shinji-mikami-unbound-games.html"
 
 video:
   id: "3ifj5q95qdk"

@@ -14,7 +14,6 @@ categories:
 redirect_from:
   - "/que-es-un-juego-indie-definicion/"
   - "/2026/03/16/que-es-un-juego-indie-definicion/"
-  - "/2026/03/16/que-es-un-juego-indie-definicion.html"
 
 video:
   id: "0h_F-gHSeM0"
@@ -61,7 +60,7 @@ Hubo una época, no tan lejana, en la que identificar un juego indie era fácil.
 
 {% include youtube-embed.html id="xf9e3c-nMRA" title="Trailer de Stardew Valley" %}
 
-[Stardew Valley](https://store.steampowered.com/app/413150/Stardew_Valley/) fue creado por **una sola persona**: Eric Barone, conocido como ConcernedApe. Él programó el juego, dibujó los gráficos, compuso la música y escribió los diálogos. Trabajó en el proyecto durante **cuatro años** antes de publicarlo en 2016. No tenía estudio, no tenía empleados, no tenía inversores. Era un tipo creando un juego en su casa. El juego vendió millones de copias y se convirtió en uno de los títulos más exitosos de la década. Nadie discute que Stardew Valley es un juego indie.
+[Stardew Valley](https://store.steampowered.com/app/413150/Stardew_Valley/) fue creado por **una sola persona**: Eric Barone, conocido como ConcernedApe. Él programó el juego, dibujó los gráficos, compuso la música y escribió los diálogos. Trabajó en el proyecto durante **cuatro años** antes de publicarlo en 2016. No tenía estudio, no tenía empleados, no tenía inversores. Era un tipo haciendo un juego en su casa. El juego vendió millones de copias y se convirtió en uno de los títulos más exitosos de la década. Nadie discute que Stardew Valley es un juego indie.
 
 **Undertale** (2015), creado por **Toby Fox**, es otro caso similar. Un desarrollador prácticamente solo, con un presupuesto que se financió a través de una campaña de Kickstarter que recaudó poco más de 50.000 dólares. El resultado fue un juego que marcó a toda una generación de jugadores.
 
@@ -211,9 +210,9 @@ Es un argumento que suena bien, pero que no resiste un análisis riguroso.
 
 **Rockstar Games** tiene libertad creativa total sobre Grand Theft Auto. Nadie le dice a Rockstar qué hacer con sus juegos. ¿Es GTA un juego indie?
 
-**FromSoftware** tuvo libertad creativa para hacer [Elden Ring](https://store.steampowered.com/app/1245620/ELDEN_RING/) exactamente como quiso, a pesar de contar con Bandai Namco como publisher. ¿Es Elden Ring indie?
+**FromSoftware** tuvo libertad creativa para crear [Elden Ring](https://store.steampowered.com/app/1245620/ELDEN_RING/) exactamente como quiso, a pesar de contar con Bandai Namco como publisher. ¿Es Elden Ring indie?
 
-**Hideo Kojima** tuvo libertad creativa absoluta para hacer [Death Stranding](https://store.steampowered.com/app/1850570/DEATH_STRANDING_DIRECTORS_CUT/), hasta el punto de que el juego es probablemente el proyecto más personal y excéntrico que se haya producido con ese nivel de presupuesto. ¿Es Death Stranding indie porque Kojima hizo lo que le dio la gana?
+**Hideo Kojima** tuvo libertad creativa absoluta para crear [Death Stranding](https://store.steampowered.com/app/1850570/DEATH_STRANDING_DIRECTORS_CUT/), hasta el punto de que el juego es probablemente el proyecto más personal y excéntrico que se haya producido con ese nivel de presupuesto. ¿Es Death Stranding indie porque Kojima creó lo que le dio la gana?
 
 Si la respuesta a estas preguntas es "no" (y debería serlo), entonces la libertad creativa **no puede ser el criterio que define lo indie**. Es un componente frecuente de los proyectos independientes, pero no es lo que los hace independientes. De lo contrario, cualquier director de cine con poder suficiente para imponer su visión estaría haciendo "cine indie", y eso vaciaría el término de todo contenido.
 

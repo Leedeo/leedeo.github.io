@@ -14,7 +14,6 @@ categories:
 redirect_from:
   - "/programas-creadores-indie-videojuegos/"
   - "/2026/03/13/programas-creadores-indie-videojuegos/"
-  - "/2026/03/13/programas-creadores-indie-videojuegos.html"
 
 video:
   id: "3ifj5q95qdk"
@@ -79,7 +78,7 @@ Gamesight identifica en su análisis uno de los problemas más frecuentes al imp
 
 La recomendación es escalar el programa según la capacidad real de gestión, no según el tamaño que se desearía tener. Un programa de diez creadores bien gestionado es infinitamente más valioso que uno de cien creadores donde nadie se siente escuchado.
 
-El otro error que se repite es confundir "programa de creadores" con "lista de distribución de claves de juego". Los estudios que simplemente mandan una key y esperan que el creador haga algo con ella no están montando un programa, están haciendo una variante perezosa de las relaciones públicas tradicionales. Los programas que funcionan son los que construyen relaciones reales: acceso anticipado a información, capacidad de dar feedback que el equipo considera, eventos específicos para miembros del programa, reconocimiento dentro de la comunidad del juego.
+El otro error que se repite es confundir "programa de creadores" con "lista de distribución de claves de juego". Los estudios que simplemente mandan una key y esperan que el creador haga algo con ella no están montando un programa, están realizando una variante perezosa de las relaciones públicas tradicionales. Los programas que funcionan son los que construyen relaciones reales: acceso anticipado a información, capacidad de dar feedback que el equipo considera, eventos específicos para miembros del programa, reconocimiento dentro de la comunidad del juego.
 
 ## Qué significa esto si eres un desarrollador independiente que empieza
 

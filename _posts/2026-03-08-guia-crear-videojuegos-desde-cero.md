@@ -14,7 +14,6 @@ categories:
 redirect_from:
   - "/guia-crear-videojuegos-desde-cero/"
   - "/2026/03/08/guia-crear-videojuegos-desde-cero/"
-  - "/2026/03/08/guia-crear-videojuegos-desde-cero.html"
 
 video:
   id: "L3pFEk1HPCQ"
@@ -41,7 +40,7 @@ Esta guía no es otro listado genérico de consejos. Es una reflexión técnica 
 
 ### El error de concepto más común: confundir la herramienta con el arte
 
-Hay una primera verdad incómoda en el desarrollo de videojuegos que nadie suele decirte: **la herramienta importa mucho menos de lo que crees**. Un desarrollador con criterio y metodología puede hacer un juego memorable con Godot, Game Maker o incluso con Python puro. Un desarrollador sin metodología puede llevar años en Unity y no terminar nada.
+Hay una primera verdad incómoda en el desarrollo de videojuegos que nadie suele decirte: **la herramienta importa mucho menos de lo que crees**. Un desarrollador con criterio y metodología puede crear un juego memorable con Godot, Game Maker o incluso con Python puro. Un desarrollador sin metodología puede llevar años en Unity y no terminar nada.
 
 El motor es el pincel. Pero si no sabes qué quieres pintar ni tienes una técnica para hacerlo, cambiar de pincel solo cambia el nombre del problema.
 
@@ -115,7 +114,7 @@ Si decides embarcar con Godot Engine, aquí tienes la primera lección de mi for
 
 ### 4. Publicar: la parte que nadie enseña y todos necesitan
 
-Hacer el juego es el 70% del trabajo. El 30% restante, que muchos ignoran hasta que ya es "demasiado tarde para arreglarlo", es la publicación. Y este 30% puede determinar si alguien juega tu juego o no.
+Crear el juego es el 70% del trabajo. El 30% restante, que muchos ignoran hasta que ya es "demasiado tarde para arreglarlo", es la publicación. Y este 30% puede determinar si alguien juega tu juego o no.
 
 **Plataformas para publicar tu primer juego online:**
 
@@ -129,6 +128,6 @@ Para exportar a web desde Godot, el proceso es sencillo: activa la exportación 
 
 ### Amar los videojuegos para poder crearlos
 
-Esta es la parte que más se infravalora: **para hacer buenos juegos, necesitas jugar muchos juegos, y analizarlos mientras los juegas**. Pregúntate por qué un control se siente satisfactorio, por qué una mecánica engancha. Ese análisis es formación constante que no requiere ningún tutorial.
+Esta es la parte que más se infravalora: **para crear buenos juegos, necesitas jugar muchos juegos, y analizarlos mientras los juegas**. Pregúntate por qué un control se siente satisfactorio, por qué una mecánica engancha. Ese análisis es formación constante que no requiere ningún tutorial.
 
 Caminante, no hay camino, se hace camino al andar. Toma tus herramientas, elige tu motor y empieza por ese primer nivel sandbox. El resto vendrá rodado si la base es sólida.

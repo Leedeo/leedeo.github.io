@@ -14,7 +14,6 @@ categories:
 redirect_from:
   - "/gimp-3-2-edicion-no-destructiva/"
   - "/2026/03/17/gimp-3-2-edicion-no-destructiva/"
-  - "/2026/03/17/gimp-3-2-edicion-no-destructiva.html"
 
 video:
   id: "bslPe_Y43es"
@@ -39,7 +38,7 @@ No es una exageración. Es una función que Photoshop tiene desde hace más de v
 
 ## Qué significa "edición no destructiva" y por qué importa tanto
 
-Para quien no trabaje habitualmente con editores de imagen, el conceptonecesita una explicación sencilla.
+Para quien no trabaje habitualmente con editores de imagen, el concepto necesita una explicación sencilla.
 
 Cuando se edita una imagen en cualquier programa de este tipo, es habitual aplicar efectos, filtros y ajustes: cambiar el brillo, modificar los colores, desenfocar una zona, añadir sombras, aplicar un efecto artístico. Cada una de esas acciones **modifica los datos de la imagen**.
 

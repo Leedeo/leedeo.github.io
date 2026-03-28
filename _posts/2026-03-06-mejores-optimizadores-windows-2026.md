@@ -14,7 +14,6 @@ categories:
 redirect_from:
   - "/mejores-optimizadores-windows-2026/"
   - "/2026/03/06/mejores-optimizadores-windows-2026/"
-  - "/2026/03/06/mejores-optimizadores-windows-2026.html"
 
 faq:
   - question: "¿Por qué mi PC con Windows va lento?"

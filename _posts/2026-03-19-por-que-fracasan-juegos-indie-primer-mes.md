@@ -14,7 +14,6 @@ categories:
 redirect_from:
   - "/por-que-fracasan-juegos-indie-primer-mes/"
   - "/2026/03/19/por-que-fracasan-juegos-indie-primer-mes/"
-  - "/2026/03/19/por-que-fracasan-juegos-indie-primer-mes.html"
 
 video:
   id: "3ifj5q95qdk"
@@ -79,9 +78,9 @@ Streamers, youtubers, periodistas de medios especializados. Enviar copias del ju
 
 Nada de esto cuesta dinero. Cuesta **tiempo y esfuerzo**. Y esa es precisamente la barrera que muchos desarrolladores no están dispuestos a cruzar.
 
-### Marketing mal creado, dicho con todas las letras
+### Marketing mal hecho, dicho con todas las letras
 
-Y luego está el caso contrario: desarrolladores que sí intentan crear marketing, pero lo hacen tan mal que habría dado igual no hacerlo.
+Y luego está el caso contrario: desarrolladores que sí intentan hacer marketing, pero lo hacen tan mal que habría dado igual no hacerlo.
 
 *   **Tráilers que no muestran nada.** Treinta segundos de logos, una frase pretenciosa, tres planos oscuros donde no se entiende qué está pasando y un título al final. Un tráiler tiene que mostrar el juego. Tiene que mostrar qué se hace en él, cómo se ve, cómo se siente. En los primeros cinco segundos. No después de una intro de veinte segundos con efectos de humo.
 
@@ -93,7 +92,7 @@ Y luego está el caso contrario: desarrolladores que sí intentan crear marketin
 
 *   **Publicar y desaparecer.** Algunos desarrolladores tratan el lanzamiento como el final del camino. El juego se publica y el desarrollador deja de comunicar. Eso le dice al potencial comprador que el juego está abandonado, incluso si no lo está.
 
-El marketing no tiene que ser brillante. Pero tiene que existir. Y tiene que estar creado con un mínimo de criterio.
+El marketing no tiene que ser brillante. Pero tiene que existir. Y tiene que estar hecho con un mínimo de criterio.
 
 ## La alergia a gastar dinero
 
@@ -115,7 +114,7 @@ El 30% de cero es cero. El 70% de algo es **algo**.
 
 Un publisher no es un estafador que viene a quitarte dinero. Es un socio comercial que puede convertir un proyecto invisible en un producto viable. Hay que investigar, comparar, pedir referencias. Pero rechazar de plano la idea porque "no quiero darle mi dinero a nadie" es, en la mayoría de los casos, la forma más directa de asegurarse de que no va a haber ningún dinero que dar.
 
-### La aritmética que nadie quiere crear
+### La aritmética que nadie quiere hacer
 
 Hagamos las cuentas que muchos desarrolladores evitan:
 
@@ -172,11 +171,11 @@ No hay una fórmula mágica, pero hay patrones que se repiten:
 *   **Construyen una audiencia antes de tener un producto.** Cuando el juego se lanza, ya hay gente esperándolo.
 *   **Tienen una identidad visual clara.** El juego se reconoce en una miniatura.
 *   **Escuchan la retroalimentación y la incorporan.** No esperan a que el juego esté terminado para descubrir que algo fundamental no funciona.
-*   **Invierten en lo que no saben crear.** No intentan crearlo todo solos si crearlo todo solos significa crearlo todo mal.
+*   **Invierten en lo que no saben hacer.** No intentan hacerlo todo solos si hacerlo todo solos significa hacerlo todo mal.
 *   **Tienen expectativas realistas.** No esperan el éxito viral. Esperan vender lo suficiente para que el proyecto haya valido la pena, y trabajan activamente para que eso ocurra.
 *   **Estudian el mercado.** Saben qué juegos existen en su género y qué hace que un título destaque en ese espacio concreto.
 
-Nada de esto garantiza el éxito. Pero no crear ninguna de estas cosas casi garantiza el fracaso.
+Nada de esto garantiza el éxito. Pero no hacer ninguna de estas cosas casi garantiza el fracaso.
 
 ## La pregunta incómoda
 
@@ -188,7 +187,7 @@ No si le darías una oportunidad porque conoces al desarrollador. No si lo jugar
 
 Si la respuesta honesta es no, el juego no está listo para venderse. Puede estar listo como proyecto personal, como ejercicio de aprendizaje, como prototipo. Pero no como producto comercial. Y no pasa nada. No todos los juegos tienen que venderse.
 
-Pero si la intención es venderlo, hay que tratarlo como lo que es: un producto que va a competir en un mercado. Y en un mercado, la calidad del producto y la capacidad de crearlo visible son igualmente importantes.
+Pero si la intención es venderlo, hay que tratarlo como lo que es: un producto que va a competir en un mercado. Y en un mercado, la calidad del producto y la capacidad de hacerlo visible son igualmente importantes.
 
 El 90% de los juegos indie fracasan en el primer mes. No por mala suerte. No por un mercado injusto. No porque Steam esté roto o porque los jugadores sean ingratos.
 

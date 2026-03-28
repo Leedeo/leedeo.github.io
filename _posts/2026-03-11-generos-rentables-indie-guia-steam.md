@@ -6,7 +6,7 @@ date: "2026-03-11 07:27:14 +0100"
 thumbnail: "/assets/img/posts/generos-videojuegos-rentables-indie.webp"
 title: "¿Qué géneros de videojuegos generan más dinero? Guía para el desarrollador indie"
 description: "Análisis de datos reales de Steam 2024: qué géneros generan más ingresos para un desarrollador indie, cuáles están saturados y dónde está la verdadera oportunidad en el mercado actual."
-excerpt: "Si estás pensando en crear tu primer juego, o en el próximo después de uno que no funcionó como esperabas, en algún momento te has hecho esta pregunta: ¿qué tipo de juego tiene más posibilidades de funcionar?"
+excerpt: "Si estás pensando en hacer tu primer juego, o en el próximo después de uno que no funcionó como esperabas, en algún momento te has hecho esta pregunta: ¿qué tipo de juego tiene más posibilidades de funcionar?"
 
 categories:
 - Game Dev
@@ -14,7 +14,6 @@ categories:
 redirect_from:
   - "/generos-rentables-indie-guia-steam/"
   - "/2026/03/11/generos-rentables-indie-guia-steam/"
-  - "/2026/03/11/generos-rentables-indie-guia-steam.html"
 
 video:
   id: "3ifj5q95qdk"
@@ -55,7 +54,7 @@ El género que elijas no garantiza el éxito, pero sí puede mejorar significati
 
 ## Los géneros que consistentemente generan más ingresos
 
-La métrica que más interesa a un desarrollador independiente no es el ingreso total de un género, sino la *mediana de ingresos* por juego. El ingreso total puede estar inflado por un único juego que fue un fenómeno. La mediana te dice qué puedes esperar tú, el desarrollador que no es Innersloth ni Pocketpair, si haces un juego competente en ese género.
+La métrica que más interesa a un desarrollador independiente no es el ingreso total de un género, sino la *mediana de ingresos* por juego. El ingreso total puede estar inflado por un único juego que fue un fenómeno. La mediana te dice qué puedes esperar tú, el desarrollador que no es Innersloth ni Pocketpair, si creas un juego competente en ese género.
 
 ### 1. Survival crafting y mundo abierto: el rey consistente
 
@@ -79,7 +78,7 @@ Los simuladores de gestión y constructores de ciudades tienen la proporción m�
 
 En 2024, *Supermarket Simulator* demostró cómo una premisa extremadamente simple (gestionar un supermercado) podía generar millones si se ejecutaba de forma divertida.
 
-El jugador de simuladores es muy fiel, algo mayor demográficamente, dispuesto a pagar precio completo y a recomendarlo a su nicho. El peligro aquí es hacer *lo mismo de siempre*: un simulador de granja que calque a *Stardew Valley* nacerá muerto porque el mercado ya tiene a su rey. La clave es la **especificidad del tema simulado**.
+El jugador de simuladores es muy fiel, algo mayor demográficamente, dispuesto a pagar precio completo y a recomendarlo a su nicho. El peligro aquí es crear *lo mismo de siempre*: un simulador de granja que calque a *Stardew Valley* nacerá muerto porque el mercado ya tiene a su rey. La clave es la **especificidad del tema simulado**.
 
 ### 3. Roguelikes y Roguelites: recompensa masiva, pero ojo
 

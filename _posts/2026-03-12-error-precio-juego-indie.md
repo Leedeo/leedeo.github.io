@@ -14,7 +14,6 @@ categories:
 redirect_from:
   - "/error-precio-juego-indie/"
   - "/2026/03/12/error-precio-juego-indie/"
-  - "/2026/03/12/error-precio-juego-indie.html"
 
 video:
   id: "3ifj5q95qdk"

@@ -14,7 +14,6 @@ categories:
 redirect_from:
   - "/videojuegos-pedagogia-aula/"
   - "/2026/03/09/videojuegos-pedagogia-aula/"
-  - "/2026/03/09/videojuegos-pedagogia-aula.html"
 
 video:
   id: "3ifj5q95qdk"
