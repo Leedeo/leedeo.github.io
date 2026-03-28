@@ -385,7 +385,7 @@ main.hero-gradient {
   margin-top: 0;
 }
 
-/* Textos e Inline * /
+/* Textos e Inline */
 .rich-content p { margin-bottom: 1rem; }
 .rich-content strong { color: #fff; font-weight: 600; }
 .rich-content > p em, .rich-content > blockquote em, .rich-content > li em { color: var(--violet-light); font-style: italic; }
