@@ -39,7 +39,7 @@ De hecho, si estás en ese punto exacto en el que tienes la pasión y una idea, 
 
 Aunque cada estudio trabaja de una manera distinta, el desarrollo de videojuegos suele dividirse en varias etapas bastante claras. Los nombres pueden cambiar, pero la lógica general sigue siendo la misma.
 
-## 1. Preproducción: cuando el juego todavía no existe, pero ya empieza a decidirse
+### 1. Preproducción: cuando el juego todavía no existe, pero ya empieza a decidirse
 
 La preproducción es la fase donde se define qué se va a hacer.
 
@@ -64,7 +64,7 @@ Antes se hablaba muchísimo del **Game Design Document** como si fuera una bibli
 
 ![Documentación y planificación ágil](/assets/img/posts/planificacion-desarrollo-juegos.webp)
 
-## 2. Prototipado: comprobar si la idea funciona de verdad
+### 2. Prototipado: comprobar si la idea funciona de verdad
 
 Aquí empieza la parte divertida y también la más traicionera.
 
@@ -78,7 +78,7 @@ Muchos proyectos se deberían haber quedado aquí. Y no pasa nada. De hecho, det
 
 ![Prototipo sin texturas o greyboxing](/assets/img/posts/greyboxing-prototipo-videojuego.webp)
 
-## 3. Producción: el momento donde el juego empieza a existir de verdad
+### 3. Producción: el momento donde el juego empieza a existir de verdad
 
 La producción es la fase más larga y la que la gente suele imaginar cuando piensa en desarrollo.
 
@@ -113,7 +113,7 @@ Eso no significa que la IA haga el juego sola. Significa que ha pasado a formar 
 
 Quien siga escribiendo sobre desarrollo de videojuegos en 2026 como si esto no estuviera pasando, simplemente está escribiendo desde otro tiempo.
 
-## 4. Testing: romper el juego antes de que lo rompan los jugadores
+### 4. Testing: romper el juego antes de que lo rompan los jugadores
 
 Una vez el juego es jugable, toca probarlo. Mucho.
 
@@ -123,7 +123,7 @@ Aquí se ve algo que a muchos desarrolladores principiantes les cuesta aceptar: 
 
 Puedes tener un sistema sin errores técnicos y aun así haber creado algo aburrido, frustrante o mal explicado. Por eso el testing tiene que incluir tanto pruebas técnicas como pruebas de experiencia real con jugadores.
 
-## 5. Pulido y optimización: donde se separan los juegos terminados de los juegos serios
+### 5. Pulido y optimización: donde se separan los juegos terminados de los juegos serios
 
 Hay una frase muy repetida en desarrollo: cualquiera puede empezar un juego, lo difícil es terminarlo.
 
@@ -133,7 +133,7 @@ El pulido es lo que hace que un juego deje de sentirse como un proyecto en const
 
 Aquí también entra la optimización. Y esto es más importante que nunca, porque hoy los jugadores esperan que un juego funcione bien incluso en hardware modesto. A veces se da por hecho que con un motor potente ya está todo resuelto, pero no. Puedes abrir [Unreal Engine](https://www.unrealengine.com/) y hacer que un cubo se vea espectacular. Otra cosa es que eso luego funcione de forma eficiente en un proyecto real.
 
-## 6. Lanzamiento: publicar no es apretar un botón
+### 6. Lanzamiento: publicar no es apretar un botón
 
 Una idea que sigue haciendo mucho daño es pensar que el desarrollo termina cuando el juego está acabado y se sube a una tienda.
 
@@ -147,7 +147,7 @@ Hay desarrolladores que pasan dos años creando un juego y luego dedican dos tar
 
 El marketing no viene “después”. En 2026, el marketing empieza prácticamente desde que el proyecto tiene una forma mínimamente enseñable.
 
-## 7. Postlanzamiento: hoy casi ningún juego termina al salir
+### 7. Postlanzamiento: hoy casi ningún juego termina al salir
 
 Esto es algo que hace años no era tan dominante, pero ahora ya forma parte del proceso de forma natural.
 
