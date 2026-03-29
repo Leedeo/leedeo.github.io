@@ -74,7 +74,7 @@ Es el cambio que convierte a GIMP en una herramienta mucho más viable para fluj
 
 ### Mejoras en el manejo del texto
 
-El trabajo con texto en GIMP ha sido históricamente uno de sus puntos más débiles. Esta versión incorpora mejoras en la herramienta de texto que hacen que la experiencia sea menos tosca, aunque este sigue siendo un área donde el programa tiene margen de mejora.
+El trabajo con texto en GIMP ha sido históricamente uno de sus puntos más débiles. Esta versión incorpora mejoras en la herramienta de texto que hacen que la experiencia sea menos tosca, aunque esta sigue siendo un área donde el programa tiene margen de mejora.
 
 ### Mejoras de rendimiento
 

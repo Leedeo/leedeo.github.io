@@ -104,7 +104,7 @@ The Game Awards, organizados por **Geoff Keighley**, utiliza un criterio relativ
 
 Bajo este criterio, un juego puede estar financiado por múltiples fuentes, tener un presupuesto considerable y un equipo grande, y aun así ser elegible para la categoría de "independiente" siempre y cuando su publisher no sea uno de esos nombres conocidos.
 
-El problema con esta definición es evidente: deja fuera a juegos publicados por una gran distribora pero incluye a juegos creados dentro de corporaciones multimillonarias que técnicamente no son "publishers tradicionales" de videojuegos. El resultado es una categoría donde un juego de Nexon puede ganar el premio a la independencia, mientras que un juego hecho por dos personas en un garaje que firmó un acuerdo de distribución con una gran editora podría quedar excluido.
+El problema con esta definición es evidente: deja fuera a juegos publicados por una gran distribuidora pero incluye a juegos creados dentro de corporaciones multimillonarias que técnicamente no son "publishers tradicionales" de videojuegos. El resultado es una categoría donde un juego de Nexon puede ganar el premio a la independencia, mientras que un juego hecho por dos personas en un garaje que firmó un acuerdo de distribución con una gran editora podría quedar excluido.
 
 ## Clair Obscur: Expedition 33 y la elasticidad del término
 
