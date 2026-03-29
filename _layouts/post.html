@@ -7,6 +7,23 @@
     {% assign post_author = site.data.authors[page.author] %}
     {% unless post_author %}{% assign post_author = site.data.authors['javo'] %}{% endunless %}
 
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "Person",
+      "name": "Javo",
+      "url": "{{ site.url }}/about/",
+      "image": "{{ '/assets/img/ui/author-javo.webp' | absolute_url }}",
+      "jobTitle": "Desarrollador de Videojuegos Independiente",
+      "sameAs": [
+        "https://www.youtube.com/@Leedeo",
+        "https://x.com/leedeostudio",
+        "https://github.com/xavierocampos",
+        "https://ko-fi.com/leedeo"
+      ]
+    }
+    </script>
+
     {% if page.video %}
     <script type="application/ld+json">
     {
@@ -20,9 +37,9 @@
       "contentUrl": "https://www.youtube.com/watch?v={{ page.video.id }}",
       "embedUrl": "https://www.youtube.com/embed/{{ page.video.id }}",
       "publisher": {
-        "@type": "Organization",
-        "name": "Leedeo Studio",
-        "url": "{{ site.url }}"
+        "@type": "Person",
+        "name": "Javo",
+        "url": "{{ site.url }}/about/"
       }
     }
     </script>
@@ -41,12 +58,14 @@
       "author": {
         "@type": "Person",
         "name": "{{ post_author.name | escape }}",
-        "url": "{{ site.url }}/about/"
+        "url": "{{ site.url }}/about/",
+        "@id": "{{ site.url }}/about/#javo"
       },
       "publisher": {
-        "@type": "Organization",
-        "name": "Leedeo Studio",
-        "url": "{{ site.url }}"
+        "@type": "Person",
+        "name": "Javo",
+        "url": "{{ site.url }}/about/",
+        "@id": "{{ site.url }}/about/#javo"
       },
       "mainEntityOfPage": {
         "@type": "WebPage",

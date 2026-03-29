@@ -10,7 +10,6 @@ excerpt: "¿Sabes hacer videojuegos, o sabes usar Unity? No es lo mismo. Cuando 
 
 categories:
 - Game Dev
-- Motores
 
 redirect_from:
   - "/tirania-motores-videojuegos-unity-unreal/"

@@ -3,6 +3,29 @@ layout: "default"
 title: "Formación y Desarrollo de Videojuegos Indie"
 description: "Aprende a crear videojuegos desde cero con tutoriales prácticos, cursos gratuitos de Godot Engine y análisis honestos de la industria. Contenido en español por Javo."
 ---
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebSite",
+  "name": "Leedeo Studio",
+  "url": "{{ site.url }}",
+  "description": "{{ page.description | escape }}",
+  "inLanguage": "es",
+  "publisher": {
+    "@type": "Person",
+    "name": "Javo",
+    "url": "{{ site.url }}/about/"
+  },
+  "potentialAction": {
+    "@type": "SearchAction",
+    "target": {
+      "@type": "EntryPoint",
+      "urlTemplate": "{{ site.url }}/blog/?q={search_term_string}"
+    },
+    "query-input": "required name=search_term_string"
+  }
+}
+</script>
 <!-- Hero Section -->
 <header id="inicio" class="relative min-h-screen flex items-center justify-center pt-20 hero-gradient">
   <div class="hero-bg-anim">

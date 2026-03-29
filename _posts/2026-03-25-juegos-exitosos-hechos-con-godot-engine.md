@@ -15,7 +15,6 @@ categories:
 redirect_from:
   - "/juegos-exitosos-hechos-con-godot-engine/"
   - "/2026/03/25/juegos-exitosos-hechos-con-godot-engine/"
-  - "/2026/03/25/juegos-exitosos-hechos-con-godot-engine.html"
 
 video:
   id: "NWosjlLorEU"

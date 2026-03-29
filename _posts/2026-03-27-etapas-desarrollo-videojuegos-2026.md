@@ -14,7 +14,6 @@ categories:
 redirect_from:
   - "/etapas-desarrollo-videojuegos-2026/"
   - "/2026/03/27/etapas-desarrollo-videojuegos-2026/"
-  - "/2026/03/27/etapas-desarrollo-videojuegos-2026.html"
 
 video:
   id: "3ifj5q95qdk"

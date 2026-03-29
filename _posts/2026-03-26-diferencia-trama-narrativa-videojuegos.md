@@ -14,7 +14,6 @@ categories:
 redirect_from:
   - "/diferencia-trama-narrativa-videojuegos/"
   - "/2026/03/26/diferencia-trama-narrativa-videojuegos/"
-  - "/2026/03/26/diferencia-trama-narrativa-videojuegos.html"
 
 video:
   id: "3ifj5q95qdk"
