@@ -170,9 +170,7 @@ La ironía es que, poco después del lanzamiento de Hellblade, **Microsoft compr
 
 La industria del cine tiene una escala razonablemente aceptada: hay grandes producciones de estudio, hay producciones de presupuesto medio y hay cine independiente. Cada categoría tiene sus circuitos, sus festivales y sus expectativas.
 
-En los videojuegos existe el concepto de **"AA"** (doble A), que describe juegos con un presupuesto y una escala de producción intermedios: por encima de lo que se espera de un indie, pero por debajo de los grandes blockbusters. Juegos como **A Plague Tale: Innocence** de Asobo Studio, **Greedfall** de Spiders o **Hellblade** encajarían en esta categoría.
-
-[A Plague Tale: Innocence en Steam](https://store.steampowered.com/app/752590/A_Plague_Tale_Innocence/)
+En los videojuegos existe el concepto de **"AA"** (doble A), que describe juegos con un presupuesto y una escala de producción intermedios: por encima de lo que se espera de un indie, pero por debajo de los grandes blockbusters. Juegos como [A Plague Tale: Innocence](https://store.steampowered.com/app/752590/A_Plague_Tale_Innocence/) de Asobo Studio, **Greedfall** de Spiders o **Hellblade** encajarían en esta categoría.
 
 El problema es que "AA" no tiene el mismo peso cultural ni el mismo atractivo que "indie". Nadie organiza premios para "Mejor Juego AA". No existe un circuito AA con su propia identidad. El término existe en las conversaciones de la industria pero no ha calado en el público general ni en los medios.
 
