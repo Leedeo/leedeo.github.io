@@ -62,17 +62,11 @@ Hubo una época, no tan lejana, en la que identificar un juego indie era fácil.
 
 [Stardew Valley](https://store.steampowered.com/app/413150/Stardew_Valley/) fue creado por **una sola persona**: Eric Barone, conocido como ConcernedApe. Él programó el juego, dibujó los gráficos, compuso la música y escribió los diálogos. Trabajó en el proyecto durante **cuatro años** antes de publicarlo en 2016. No tenía estudio, no tenía empleados, no tenía inversores. Era un tipo haciendo un juego en su casa. El juego vendió millones de copias y se convirtió en uno de los títulos más exitosos de la década. Nadie discute que Stardew Valley es un juego indie.
 
-**Undertale** (2015), creado por **Toby Fox**, es otro caso similar. Un desarrollador prácticamente solo, con un presupuesto que se financió a través de una campaña de Kickstarter que recaudó poco más de 50.000 dólares. El resultado fue un juego que marcó a toda una generación de jugadores.
+[Undertale](https://store.steampowered.com/app/391540/Undertale/) (2015), creado por **Toby Fox**, es otro caso similar. Un desarrollador prácticamente solo, con un presupuesto que se financió a través de una campaña de Kickstarter que recaudó poco más de 50.000 dólares. El resultado fue un juego que marcó a toda una generación de jugadores.
 
-[Undertale en Steam](https://store.steampowered.com/app/391540/Undertale/)
+[Hollow Knight](https://store.steampowered.com/app/367520/Hollow_Knight/) (2017), del estudio australiano **Team Cherry**, fue creado por un equipo de **tres personas**. Se financió con una campaña de Kickstarter y con los ahorros personales de sus creadores. Vendió millones de copias y es considerado uno de los mejores juegos de la década.
 
-**Hollow Knight** (2017), del estudio australiano **Team Cherry**, fue creado por un equipo de **tres personas**. Se financió con una campaña de Kickstarter y con los ahorros personales de sus creadores. Vendió millones de copias y es considerado uno de los mejores juegos de la década.
-
-[Hollow Knight en Steam](https://store.steampowered.com/app/367520/Hollow_Knight/)
-
-**Among Us** (2018), de **Innersloth**, fue desarrollado por un equipo que en su momento más reducido tenía **tres personas**. El juego pasó dos años prácticamente ignorado hasta que en 2020 se convirtió en un fenómeno global con cientos de millones de descargas.
-
-[Among Us en Steam](https://store.steampowered.com/app/945360/Among_Us/)
+[Among Us](https://store.steampowered.com/app/945360/Among_Us/) (2018), de **Innersloth**, fue desarrollado por un equipo que en su momento más reducido tenía **tres personas**. El juego pasó dos años prácticamente ignorado hasta que en 2020 se convirtió en un fenómeno global con cientos de millones de descargas.
 
 En todos estos casos, la etiqueta "indie" encaja sin forzarla. Equipos pequeños o unipersonales, recursos limitados, sin respaldo de grandes corporaciones, asumiendo riesgos financieros personales. El espíritu original del término está intacto.
 
