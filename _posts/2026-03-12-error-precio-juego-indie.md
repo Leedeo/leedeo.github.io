@@ -10,7 +10,6 @@ excerpt: "Hay una conversación que Chris Charla, director del programa ID@Xbox 
 
 categories:
 - Game Dev
-
 redirect_from:
   - "/error-precio-juego-indie/"
   - "/2026/03/12/error-precio-juego-indie/"
@@ -21,7 +20,6 @@ video:
   description: "Guía práctica para empezar en el desarrollo de videojuegos: qué motor elegir, cómo estructurar tu aprendizaje y los primeros pasos reales."
   upload_date: "2024-06-18"
   duration: "PT9M54S"
-
 faq:
   - question: "¿Por qué un precio bajo puede perjudicar a un juego indie?"
     answer: "Poner un precio demasiado bajo (como 1,99€) suele reducir la percepción de calidad del jugador e impactar negativamente en el algoritmo de visibilidad de Steam, que prioriza juegos que generan más ingresos iniciales."
@@ -29,6 +27,7 @@ faq:
     answer: "Los estudios de mercado actuales sugieren que el punto óptimo para la mayoría de indies competentes está entre 15€ y 25€, equilibrando accesibilidad con una señal de valor profesional."
   - question: "¿Cómo influyen los precios regionales en las ventas?"
     answer: "Permiten ajustar el coste del juego al poder adquisitivo de cada país; ignorarlos puede cerrar mercados masivos como Brasil, China o Turquía, donde el precio estándar en dólares resultaría prohibitivo."
+comments: true
 ---
 Hay una conversación que Chris Charla, director del programa ID@Xbox de Microsoft y alguien que lleva más de una década trabajando con cientos de desarrolladores independientes, repite casi cada vez que habla con estudios indie: la mayoría infravalora su propio trabajo. No un poco. Bastante.
 

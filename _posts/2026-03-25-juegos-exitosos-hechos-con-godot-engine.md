@@ -11,7 +11,6 @@ excerpt: "Godot Engine ya no es solo \"el motor para empezar\". Títulos indie c
 categories:
 - Game Dev
 - Godot
-
 redirect_from:
   - "/juegos-exitosos-hechos-con-godot-engine/"
   - "/2026/03/25/juegos-exitosos-hechos-con-godot-engine/"
@@ -22,7 +21,6 @@ video:
   description: "Análisis honesto sobre la realidad del trabajo en la industria del videojuego: costes, rentabilidad y las expectativas que nadie te cuenta."
   upload_date: "2024-11-12"
   duration: "PT9M41S"
-
 faq:
   - question: "¿Qué juegos famosos se han creado con Godot?"
     answer: "Títulos como Brotato (2-4 millones de ventas), Buckshot Roulette (3-5 millones), Cassette Beasts y Dome Keeper son éxitos comerciales masivos desarrollados íntegramente con Godot."
@@ -30,6 +28,7 @@ faq:
     answer: "Sí. Casos como el de SEGA con Sonic Colors: Ultimate demuestran que grandes corporaciones ya confían en Godot para productos de primer nivel, rompiendo el estigma de que solo sirve para prototipos o aprendizaje."
   - question: "¿Cómo se estiman las ventas de un juego en Steam?"
     answer: "Se utiliza la 'regla de las reseñas': multiplicar el número de reseñas públicas por un factor de entre 30 y 50. Es una aproximación estándar en la industria para medir el éxito comercial."
+comments: true
 ---
 A marzo de 2026, esa frase ya no es una opinión discutible. Es una afirmación desactualizada.
 

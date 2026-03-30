@@ -10,7 +10,6 @@ excerpt: "¿Sabes hacer videojuegos, o sabes usar Unity? No es lo mismo. Cuando 
 
 categories:
 - Game Dev
-
 redirect_from:
   - "/tirania-motores-videojuegos-unity-unreal/"
   - "/2026/03/20/tirania-motores-videojuegos-unity-unreal/"
@@ -21,7 +20,6 @@ video:
   description: "Análisis honesto sobre la realidad del trabajo en la industria del videojuego: costes, rentabilidad y las expectativas que nadie te cuenta."
   upload_date: "2024-11-12"
   duration: "PT9M41S"
-
 faq:
   - question: "¿Qué fue la polémica del Runtime Fee de Unity?"
     answer: "En 2023, Unity intentó cobrar una tarifa por cada instalación de un juego. Esto reveló la fragilidad de depender de motores propietarios, ya que una empresa privada puede cambiar las reglas económicas retroactivamente en cualquier momento."
@@ -29,6 +27,7 @@ faq:
     answer: "No pertenecen a una empresa privada, no cobran regalías y su código es público. Esto garantiza que las condiciones de uso nunca cambiarán unilateralmente, ofreciendo una soberanía total al desarrollador sobre su trabajo."
   - question: "¿Es mejor aprender un motor específico para encontrar trabajo?"
     answer: "Más que dominar los menús de un software, la industria valora los fundamentos transferibles (programación, diseño de juegos) y un portafolio sólido de proyectos terminados. Un buen desarrollador puede cambiar de motor en semanas si entiende la base."
+comments: true
 ---
 Hay una pregunta que incomoda a mucha gente en el mundo del desarrollo de videojuegos, y precisamente por eso merece hacerse:
 

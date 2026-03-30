@@ -10,7 +10,6 @@ excerpt: "Descubre qué es Defold, el motor de videojuegos gratuito y sin regal�
 
 categories:
 - Game Dev
-
 redirect_from:
   - "/que-es-defold-motor-videojuegos/"
   - "/2026/03/14/que-es-defold-motor-videojuegos/"
@@ -21,7 +20,6 @@ video:
   description: "Guía práctica para empezar en el desarrollo de videojuegos: qué motor elegir, cómo estructurar tu aprendizaje y los primeros pasos reales."
   upload_date: "2024-06-18"
   duration: "PT9M54S"
-
 faq:
   - question: "¿Qué es Defold Engine?"
     answer: "Es un motor de videojuegos gratuito y sin regalías, especializado en desarrollo 2D, web (HTML5) y móvil, nacido originalmente en King (creadores de Candy Crush)."
@@ -29,6 +27,7 @@ faq:
     answer: "Utiliza Lua, un lenguaje muy ligero y rápido que es fácil de aprender para principiantes y ampliamente utilizado en la industria para scripting y mods."
   - question: "¿Es Defold realmente gratis y sin royalties?"
     answer: "Sí, Defold es gestionado por una fundación sin ánimo de lucro y todos los ingresos que generes con tus juegos te pertenecen al 100%, sin importar cuánto vendas."
+comments: true
 ---
 Cuando se habla de motores de videojuegos, los nombres que aparecen siempre son los mismos: Unity, Unreal Engine y, más recientemente, Godot. Pero existe otro motor que lleva años funcionando en silencio, que es completamente gratuito, que no cobra regalías y que está detrás de juegos con millones de jugadores en todo el mundo. Se llama **[Defold](https://defold.com/)** y, por alguna razón, casi nadie habla de él. Al menos no en español.
 

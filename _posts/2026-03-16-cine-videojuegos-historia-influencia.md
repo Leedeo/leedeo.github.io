@@ -10,7 +10,6 @@ excerpt: "Exploramos la fascinante relación entre el séptimo arte y el entrete
 
 categories:
 - Gaming
-
 redirect_from:
   - "/cine-videojuegos-historia-influencia/"
   - "/2026/03/16/cine-videojuegos-historia-influencia/"
@@ -21,7 +20,6 @@ video:
   description: "Qué diferencia realmente a un juego indie de uno AAA: presupuesto, distribución, libertad creativa y el modelo de negocio detrás de cada uno."
   upload_date: "2025-10-19"
   duration: "PT5M2S"
-
 faq:
   - question: "¿Cómo influyó el cine en los videojuegos clásicos?"
     answer: "Desde los 80, los juegos adoptaron arquetipos narrativos del cine. Con la llegada del CD-ROM en los 90, se integraron escenas de vídeo real (FMV), música orquestal y doblajes profesionales, buscando una experiencia cinematográfica."
@@ -29,6 +27,7 @@ faq:
     answer: "Es una técnica que usa motores de videojuegos para proyectar escenarios 3D en tiempo real sobre pantallas LED gigantes durante el rodaje. Esto permite que los actores vean el entorno y que la iluminación sea natural, como se vio en The Mandalorian."
   - question: "¿Por qué algunos efectos digitales modernos parecen peores que los antiguos?"
     answer: "Se debe a una combinación de factores: el volumen masivo de planos (de 50 a 2000 por película), plazos de entrega extremadamente cortos y el uso de 'atajos' tecnológicos para ganar velocidad en lugar del detallado trabajo artesanal de antaño."
+comments: true
 ---
 Hay una idea que durante décadas se repitió como si fuera una verdad absoluta: los videojuegos y el cine son mundos separados. El cine era arte, cultura, espectáculo. Los videojuegos eran entretenimiento infantil, algo menor. Esa separación, si es que alguna vez fue real, dejó de existir hace mucho tiempo.
 

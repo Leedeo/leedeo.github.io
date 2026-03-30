@@ -61,10 +61,10 @@
             noResults.classList.add('hidden');
             searchGrid.innerHTML = filtered.map(buildCard).join('');
             
-            // Re-vincular animaciones reveal para los nuevos elementos
+            // Volver a activar las animaciones de aparición para las tarjetas nuevas de búsqueda
             if (window.revealObserver) {
                 searchGrid.querySelectorAll('.reveal').forEach(function(el, idx) {
-                    // Stagger opcional de 50ms para suavizar la aparición en lista
+                    // Un pequeño desfase (stagger) para que aparezcan escalonadas y se vea bonito
                     el.style.setProperty('--reveal-delay', (idx * 50) + 'ms');
                     window.revealObserver.observe(el);
                 });

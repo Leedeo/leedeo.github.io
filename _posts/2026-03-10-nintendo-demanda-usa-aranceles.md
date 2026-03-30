@@ -10,7 +10,6 @@ excerpt: "Nintendo of America inicia acciones legales contra el aparato gubernam
 
 categories:
 - Gaming
-
 redirect_from:
   - "/nintendo-demanda-usa-aranceles/"
   - "/2026/03/10/nintendo-demanda-usa-aranceles/"
@@ -21,7 +20,6 @@ video:
   description: "Análisis honesto sobre la realidad del trabajo en la industria del videojuego: costes, rentabilidad y las expectativas que nadie te cuenta."
   upload_date: "2024-11-12"
   duration: "PT9M41S"
-
 faq:
   - question: "¿Por qué Nintendo está demandando al gobierno de EE.UU.?"
     answer: "Nintendo of America reclama la devolución de aranceles millonarios pagados en 2025, alegando que la recaudación de más de 200.000 millones de dólares en impuestos sobre importaciones fue ilegal."
@@ -29,6 +27,7 @@ faq:
     answer: "Nintendo tuvo que absorber los costes temporalmente para mantener el precio de lanzamiento de Switch 2 en 449,99 dólares, además de sufrir retrasos en las previsiones y subidas de precio en los accesorios."
   - question: "¿Qué otras empresas han presentado demandas similares?"
     answer: "Más de 1.000 empresas, incluyendo a FedEx y Costco, han iniciado acciones legales similares para recuperar aranceles tras la anulación de gran parte de estas medidas por el Tribunal Supremo."
+comments: true
 ---
 Nintendo of America ha presentado una demanda ante el Tribunal de Comercio Internacional de Estados Unidos para reclamar la devolución de los aranceles que pagó el año pasado, con intereses incluidos. La demanda acusa a varios organismos del gobierno federal de haber recaudado más de **200.000 millones de dólares** en aranceles sobre importaciones procedentes de prácticamente todos los países del mundo, calificando esas medidas como ilegales.
 

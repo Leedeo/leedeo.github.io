@@ -10,7 +10,6 @@ excerpt: "Olvida los consejos vacíos. Aprender a crear videojuegos requiere una
 
 categories:
 - Game Dev
-
 redirect_from:
   - "/guia-crear-videojuegos-desde-cero/"
   - "/2026/03/08/guia-crear-videojuegos-desde-cero/"
@@ -21,7 +20,6 @@ video:
   description: "Primer capítulo del curso de introducción a Godot 4. Aprende a descargar, instalar y configurar el motor desde cero."
   upload_date: "2023-03-06"
   duration: "PT6M27S"
-
 faq:
   - question: "¿Por dónde empezar a crear videojuegos desde cero?"
     answer: "Lo más importante no es la herramienta, sino la metodología; empieza definiendo tus fortalezas (arte, música o código) y construye un prototipo funcional (MVP) de un solo nivel."
@@ -31,6 +29,7 @@ faq:
     answer: "No es un requisito previo absoluto para empezar a experimentar, pero aprender la lógica de programación (como GDScript en Godot) es fundamental para tener libertad creativa total."
   - question: "¿Dónde puedo publicar mi primer videojuego gratis?"
     answer: "Plataformas como itch.io, GameJolt y Newgrounds son ideales para desarrolladores independientes que quieren recibir feedback real sin costes de publicación iniciales."
+comments: true
 ---
 Cada día miles de personas se preguntan cómo entrar en el mundo del desarrollo de videojuegos. La respuesta rápida que suele dar internet es "bájate un motor y aprende a programar". Pero si buscas crear algo con alma, algo que realmente funcione y no se quede en un proyecto olvidado en una carpeta, esa respuesta se queda corta. Muy corta.
 

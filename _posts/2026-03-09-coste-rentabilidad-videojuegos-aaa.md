@@ -10,7 +10,6 @@ excerpt: "Un análisis de la crisis del modelo de desarrollo AAA. Presupuestos d
 
 categories:
 - Game Dev
-
 redirect_from:
   - "/coste-rentabilidad-videojuegos-aaa/"
   - "/2026/03/09/coste-rentabilidad-videojuegos-aaa/"
@@ -21,7 +20,6 @@ video:
   description: "Análisis honesto sobre la realidad del trabajo en la industria del videojuego: costes, rentabilidad y las expectativas que nadie te cuenta."
   upload_date: "2024-11-12"
   duration: "PT9M41S"
-
 faq:
   - question: "¿Por qué los videojuegos AAA cuestan tanto dinero?"
     answer: "El coste se dispara debido a la escala técnica (gráficos fotorrealistas), equipos de cientos de personas, marketing global masivo y el soporte continuo tras el lanzamiento."
@@ -29,7 +27,7 @@ faq:
     answer: "Aunque varía, el margen promedio de la industria se sitúa entre el 17% y el 22%; expectativas de beneficios superiores al 30% suelen estar desconectadas de la realidad del mercado."
   - question: "¿Qué ventaja tiene el desarrollo indie frente al modelo AAA?"
     answer: "El desarrollo independiente permite proyectos con presupuestos humanos, mayor libertad creativa y no hereda la presión financiera extrema de los grandes estudios cotizados."
-
+comments: true
 ---
 La industria del videojuego genera más dinero que el cine y la música juntos. En 2023 superó los 196.000 millones de dólares a nivel global, y las previsiones apuntan a que rozará los 257.000 millones en 2028. Con esos números encima de la mesa, uno asumiría que las grandes compañías nadan en beneficios. La realidad, sin embargo, es bastante más complicada que eso.
 

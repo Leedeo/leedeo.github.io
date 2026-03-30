@@ -10,7 +10,6 @@ excerpt: "Si estás pensando en hacer un videojuego y publicarlo, en algún mome
 
 categories:
 - Game Dev
-
 redirect_from:
   - "/cuanto-gana-desarrollador-indie/"
   - "/2026/03/11/cuanto-gana-desarrollador-indie/"
@@ -21,7 +20,6 @@ video:
   description: "Guía práctica para empezar en el desarrollo de videojuegos: qué motor elegir, cómo estructurar tu aprendizaje y los primeros pasos reales."
   upload_date: "2024-06-18"
   duration: "PT9M54S"
-
 faq:
   - question: "¿Cuánto dinero puede ganar un desarrollador indie en Steam?"
     answer: "Un primer juego bien ejecutado en 2024 puede aspirar a generar entre 5.000 y 30.000 dólares brutos en su primer año, aunque la mayoría de los títulos no superan los 1.000 dólares."
@@ -31,6 +29,7 @@ faq:
     answer: "El mercado móvil es masivo, pero la visibilidad orgánica es muy difícil sin presupuesto publicitario. Nichos como los puzles narrativos son mejores para desarrolladores independientes."
   - question: "¿Cuántos juegos suele tardar un estudio en tener éxito?"
     answer: "Estadísticamente, el éxito rara vez llega con el primer proyecto; los ingresos suelen crecer significativamente a partir del segundo o tercer juego publicado."
+comments: true
 ---
 Si estás pensando en hacer un videojuego y publicarlo, en algún momento te has preguntado lo mismo que se pregunta prácticamente todo el mundo antes de dar el salto: ¿cuánto dinero puedo ganar con esto?
 

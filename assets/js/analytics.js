@@ -6,7 +6,8 @@ function loadGA() {
     if (window._gaLoaded) return;
     window._gaLoaded = true;
 
-    // Preconnect dinámico para evitar advertencias de Lighthouse en usuarios sin consentimiento
+    // Agregamos el preconnect de forma dinámica para contentar a Lighthouse
+    // sin tener que conectar con Google si el usuario rechaza las cookies.
     var p = document.createElement('link');
     p.rel = 'preconnect';
     p.href = 'https://www.googletagmanager.com';

@@ -10,7 +10,6 @@ excerpt: "La inteligencia artificial generativa está transformando el desarroll
 
 categories:
 - Game Dev
-
 redirect_from:
   - "/ia-desarrollo-videojuegos-creatividad/"
   - "/2026/03/18/ia-desarrollo-videojuegos-creatividad/"
@@ -21,7 +20,6 @@ video:
   description: "Guía práctica para empezar en el desarrollo de videojuegos: qué motor elegir, cómo estructurar tu aprendizaje y los primeros pasos reales."
   upload_date: "2024-06-18"
   duration: "PT9M54S"
-
 faq:
   - question: "¿Es la IA una amenaza para los artistas de videojuegos?"
     answer: "La IA no sustituye la creatividad, pero sí automatiza tareas. Al igual que la cámara fotográfica no eliminó la pintura, la IA obliga a los profesionales a evolucionar hacia roles de dirección y supervisión, cambiando el flujo de trabajo tradicional."
@@ -29,6 +27,7 @@ faq:
     answer: "Los modelos de IA aprenden encontrando patrones en datos existentes, un proceso análogo al aprendizaje humano (estudiar a los maestros). El debate ético real reside en el consentimiento de los datos de entrenamiento y no en el acto de aprender de lo anterior."
   - question: "¿Cómo se usa la IA actualmente en el desarrollo?"
     answer: "Más allá de la generativa, se usa en la navegación de NPCs, generación procedural de mundos (como en No Man's Sky) y herramientas de asistencia al código (GitHub Copilot) para eliminar tareas repetitivas."
+comments: true
 ---
 Cada vez que aparece una nueva tecnología capaz de automatizar algo que antes solo podían hacer las personas, se repite el mismo ciclo. Primero el asombro. Luego el miedo. Después los discursos encendidos. Y finalmente, con el tiempo, la normalización.
 

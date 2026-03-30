@@ -10,7 +10,6 @@ excerpt: "Parece una pregunta sencilla, pero hoy es un terreno pantanoso. Analiz
 
 categories:
 - Gaming
-
 redirect_from:
   - "/que-es-un-juego-indie-definicion/"
   - "/2026/03/16/que-es-un-juego-indie-definicion/"
@@ -21,7 +20,6 @@ video:
   description: "Qué diferencia realmente a un juego indie de uno AAA: presupuesto, distribución, libertad creativa y el modelo de negocio detrás de cada uno."
   upload_date: "2025-10-19"
   duration: "PT5M2S"
-
 faq:
   - question: "¿Qué significa que un juego sea 'indie'?"
     answer: "Originalmente, 'indie' (de independiente) define a los juegos creados fuera de las grandes estructuras corporativas, donde los desarrolladores asumen el riesgo financiero y mantienen el control creativo total."
@@ -29,6 +27,7 @@ faq:
     answer: "Porque se aplica tanto a desarrolladores solitarios como a estudios con cientos de empleados y millones en financiación, lo que diluye el significado original y dificulta la visibilidad de los proyectos más pequeños."
   - question: "¿Qué diferencia a un juego indie de un AAA?"
     answer: "La diferencia principal radica en el presupuesto, el tamaño del equipo y la distribución. Los AAA (Triple A) son superproducciones de grandes empresas, mientras que los indies suelen operar con recursos limitados y mayor libertad experimental."
+comments: true
 ---
 Parece una pregunta sencilla. Cinco palabras: ¿qué es un juego indie? Debería tener una respuesta clara. Y durante un tiempo la tuvo. Pero la industria del videojuego ha crecido tanto, se ha vuelto tan compleja y ha generado tantos modelos de negocio distintos que hoy esa pregunta se ha convertido en un terreno pantanoso donde nadie se pone de acuerdo.
 

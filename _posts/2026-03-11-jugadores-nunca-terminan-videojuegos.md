@@ -10,7 +10,6 @@ excerpt: "El abandono de los videojuegos por parte de los jugadores no es pereza
 
 categories:
 - Gaming
-
 redirect_from:
   - "/jugadores-nunca-terminan-videojuegos/"
   - "/2026/03/11/jugadores-nunca-terminan-videojuegos/"
@@ -21,7 +20,6 @@ video:
   description: "Guía práctica para empezar en el desarrollo de videojuegos: qué motor elegir, cómo estructurar tu aprendizaje y los primeros pasos reales."
   upload_date: "2024-06-18"
   duration: "PT9M54S"
-
 faq:
   - question: "¿Qué porcentaje de jugadores termina realmente los videojuegos?"
     answer: "En juegos AAA de campaña, la tasa de finalización media suele rondar entre el 15% y el 35%, dependiendo de la duración y el género; solo los títulos muy cortos o lineales superan habitualmente el 50%."
@@ -29,6 +27,7 @@ faq:
     answer: "Principalmente por la falta de tiempo fragmentado en la vida adulta, la saturación de opciones en el mercado (paradoja de la elección) y diseños de juego con exceso de contenido 'relleno' que diluyen la experiencia principal."
   - question: "¿Qué es el fenómeno del 'backlog'?"
     answer: "Es la acumulación de juegos comprados (a menudo en rebajas o suscripciones) que el usuario todavía no ha jugado, lo que puede generar una sensación de agobio o culpa que afecta negativamente al disfrute del hobby."
+comments: true
 ---
 Piensa en los últimos cinco juegos que compraste. ¿Cuántos terminaste?
 

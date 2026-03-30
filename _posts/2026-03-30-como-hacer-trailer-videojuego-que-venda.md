@@ -10,7 +10,6 @@ excerpt: "Un tráiler de videojuego no está para tener algo que subir a redes, 
 
 categories:
 - Game Dev
-
 redirect_from:
   - "/como-hacer-trailer-videojuego-que-venda/"
   - "/2026/03/30/como-hacer-trailer-videojuego-que-venda/"
@@ -21,7 +20,6 @@ video:
   description: "Claves para montar un tráiler de videojuego profesional que capte la atención y aumente las ventas."
   upload_date: "2023-07-16"
   duration: "PT3M52S"
-
 faq:
   - question: "¿Cuál es la diferencia entre un teaser y un tráiler de videojuego?"
     answer: "Un teaser busca despertar curiosidad sugiriendo una atmósfera sin explicar el juego, mientras que un tráiler busca comunicar claramente de qué trata el juego, su jugabilidad y por qué es interesante para el espectador."
@@ -29,6 +27,7 @@ faq:
     answer: "La duración ideal para un tráiler de videojuego suele estar entre 1 y 2 minutos. Es tiempo suficiente para responder dudas básicas sin perder la atención del espectador."
   - question: "¿Qué elementos debe tener un tráiler de videojuego para vender?"
     answer: "Un tráiler efectivo debe mostrar una propuesta visual clara, gameplay real, el gancho o mecánica diferencial del juego y transmitir el tono correcto del proyecto."
+comments: true
 ---
 Hay un error bastante común entre quienes desarrollan un videojuego y llegan al momento de enseñarlo al mundo: pensar que cualquier video sirve. Un montaje rápido, música épica, unas cuantas capturas, el logo al final y listo. Ya hay tráiler.
 

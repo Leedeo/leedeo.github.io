@@ -10,7 +10,6 @@ excerpt: "El creador de Resident Evil fundó Unbound Games en 2023, un estudio i
 
 categories:
 - Gaming
-
 redirect_from:
   - "/shinji-mikami-unbound-games/"
   - "/2026/03/10/shinji-mikami-unbound-games/"
@@ -21,7 +20,6 @@ video:
   description: "Guía práctica para empezar en el desarrollo de videojuegos: qué motor elegir, cómo estructurar tu aprendizaje y los primeros pasos reales."
   upload_date: "2024-06-18"
   duration: "PT9M54S"
-
 faq:
   - question: "¿Qué es Unbound Games, el nuevo estudio de Shinji Mikami?"
     answer: "Es un estudio independiente fundado en 2023 por el creador de Resident Evil, enfocado en crear nuevas IP de calidad AAA con Unreal Engine 5 para consolas de nueva generación y PC."
@@ -29,6 +27,7 @@ faq:
     answer: "El estudio apuesta por una escala de 'AAA independiente' (unas 150 personas), priorizando la flexibilidad, el control creativo y un ciclo de producción basado en la prueba y error constante."
   - question: "¿Qué relación tiene Mikami con Tango Gameworks actualmente?"
     answer: "Shinji Mikami abandonó Tango Gameworks en 2023, antes de que el estudio fuera cerrado por Microsoft y rescatado por Krafton; Unbound Games es su nuevo camino independiente."
+comments: true
 ---
 El creador de Resident Evil lleva más tiempo del que muchos pensaban trabajando en su próximo proyecto. Shinji Mikami fundó Unbound Games en mayo de 2023, el estudio lleva operativo casi dos años, y su página web existe desde hace al menos uno, pero ha pasado prácticamente desapercibida hasta hace unos días, cuando empezó a circular ampliamente entre la comunidad.
 

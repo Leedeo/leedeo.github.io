@@ -10,7 +10,6 @@ excerpt: "La IA ha eliminado las barreras técnicas para crear un videojuego. Pe
 
 categories:
 - Game Dev
-
 redirect_from:
   - "/ia-videojuegos-democratizacion-mito/"
   - "/2026/03/19/ia-videojuegos-democratizacion-mito/"
@@ -21,7 +20,6 @@ video:
   description: "Guía práctica para empezar en el desarrollo de videojuegos: qué motor elegir, cómo estructurar tu aprendizaje y los primeros pasos reales."
   upload_date: "2024-06-18"
   duration: "PT9M54S"
-
 faq:
   - question: "¿Qué significa la 'democratización' del desarrollo con IA?"
     answer: "Se refiere a la eliminación de barreras técnicas (programación, arte, música) permitiendo que cualquier persona genere un juego. Sin embargo, esto no democratiza el criterio de diseño ni el talento necesario para crear una experiencia de calidad."
@@ -29,6 +27,7 @@ faq:
     answer: "El shovelware son juegos de bajísima calidad hechos con el mínimo esfuerzo. La IA agrava este problema al permitir que estos productos se generen y publiquen de forma masiva, saturando tiendas como Steam con contenido genérico."
   - question: "¿Sustituirá la IA a los diseñadores de videojuegos?"
     answer: "La IA puede generar componentes, pero carece de la visión de conjunto y la sensibilidad humana para pulir detalles de 'game feel'. Los diseñadores evolucionarán hacia roles de dirección, usando la IA para iterar pero aportando el criterio final."
+comments: true
 ---
 En el [artículo anterior](/blog/2026/03/18/ia-desarrollo-videojuegos-creatividad/) hablamos sobre la IA como herramienta creativa en el desarrollo de videojuegos. Sobre cómo la cámara de fotos, el tractor y la imprenta generaron las mismas resistencias en su momento. Sobre cómo la herramienta no define el resultado, sino la persona que la usa. Todo eso sigue siendo cierto.
 

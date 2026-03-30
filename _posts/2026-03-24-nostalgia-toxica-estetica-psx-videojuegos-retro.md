@@ -10,7 +10,6 @@ excerpt: "Polígonos torcidos, texturas temblorosas, niebla espesa. La estética
 
 categories:
 - Gaming
-
 redirect_from:
   - "/nostalgia-toxica-estetica-psx-videojuegos-retro/"
   - "/2026/03/24/nostalgia-toxica-estetica-psx-videojuegos-retro/"
@@ -21,7 +20,6 @@ video:
   description: "Qué diferencia realmente a un juego indie de uno AAA: presupuesto, distribución, libertad creativa y el modelo de negocio detrás de cada uno."
   upload_date: "2025-10-19"
   duration: "PT5M2S"
-
 faq:
   - question: "¿Por qué es tan popular la estética PSX en los juegos indie?"
     answer: "Combina el factor generacional (los desarrolladores actuales crecieron con ella) con una ventaja práctica: es mucho más viable y económico producir modelos de bajos polígonos y texturas de baja resolución para equipos pequeños."
@@ -29,6 +27,7 @@ faq:
     answer: "Era una limitación técnica de la primera PlayStation al no tener corrección de perspectiva en las texturas ni z-buffer, lo que hacía que los vértices 'saltaran' al moverse. Hoy se imita por software para lograr esa atmósfera retro auténtica."
   - question: "¿Es la estética PSX solo una moda?"
     answer: "Aunque hay un componente de tendencia, juegos como Signalis o Crow Country demuestran que, bien usada, es una herramienta expresiva única para generar atmósfera y extrañeza, especialmente en el género de terror."
+comments: true
 ---
 Hay una imagen que se repite cada vez más en el videojuego independiente: texturas temblorosas, polígonos toscos, niebla espesa, animaciones rígidas, modelos que parecen tallados con una cuchara y una interfaz que podría haber salido de un televisor de tubo en 1998. La llamada **estética PSX** ya no es una rareza; es casi un subgénero visual con identidad propia.
 

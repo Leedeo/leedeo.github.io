@@ -1,10 +1,12 @@
 // assets/js/site.js
 
-// La clase 'js-loaded' se añade sincrónicamente en <head> mediante init.js para prevenir FOUC
+// Todo este script asume que la clase 'js-loaded' ya está en el <html>,
+// así evitamos destellos blancos feos (FOUC) al cargar la página.
 
 var yearEl = document.getElementById('auto-year');
 if (yearEl) { yearEl.textContent = new Date().getFullYear(); }
 
+// Carga las animaciones suaves solo cuando el elemento va a entrar en pantalla
 var revealObserver = new IntersectionObserver(function (entries) {
     entries.forEach(function (entry) {
         if (entry.isIntersecting) { entry.target.classList.add('active'); }
@@ -23,7 +25,8 @@ document.querySelectorAll('.rich-content table').forEach(function (table) {
     wrapper.appendChild(table);
 });
 
-// YouTube Facades (Bypass strict CSP inline handler restrictions)
+// Carga diferida de los vídeos de YouTube. No carga el reproductor pesado
+// hasta que el usuario hace clic en el botón, ahorrando mucho tiempo de carga.
 document.querySelectorAll('.js-youtube-facade').forEach(function (el) {
     el.addEventListener('click', function () {
         var id = this.getAttribute('data-id');

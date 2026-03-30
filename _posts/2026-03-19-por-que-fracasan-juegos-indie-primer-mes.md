@@ -10,7 +10,6 @@ excerpt: "La tasa de fracaso comercial del desarrollo indie se sitúa entre el 8
 
 categories:
 - Game Dev
-
 redirect_from:
   - "/por-que-fracasan-juegos-indie-primer-mes/"
   - "/2026/03/19/por-que-fracasan-juegos-indie-primer-mes/"
@@ -21,7 +20,6 @@ video:
   description: "Guía práctica para empezar en el desarrollo de videojuegos: qué motor elegir, cómo estructurar tu aprendizaje y los primeros pasos reales."
   upload_date: "2024-06-18"
   duration: "PT9M54S"
-
 faq:
   - question: "¿Por qué fracasan la mayoría de los juegos indie?"
     answer: "Entre el 85% y el 95% fracasan comercialmente, principalmente por falta de marketing, no construir una audiencia previa en redes o Steam (wishlists) y subestimar la saturación del mercado (40 lanzamientos diarios)."
@@ -29,6 +27,7 @@ faq:
     answer: "Desde el primer día de desarrollo. Esperar al lanzamiento es un error crítico; es necesario mostrar el proceso, crear la página de Steam meses antes y contactar con creadores de contenido con antelación."
   - question: "¿Cuántas wishlists se necesitan para un lanzamiento exitoso en Steam?"
     answer: "Aunque no hay una cifra mágica, los expertos coinciden en que llegar con menos de 1.000 wishlists supone un riesgo de invisibilidad total. Un objetivo saludable para un indie pequeño es intentar superar las 7.000-10.000 antes de publicar."
+comments: true
 ---
 Hay una estadística que circula por la industria del videojuego y que nadie con experiencia en el sector discute: **la inmensa mayoría de los juegos indie fracasan**. Las cifras exactas varían según la fuente y los criterios que se usen para definir "fracaso", pero las estimaciones más citadas sitúan la tasa de fracaso comercial entre el **85% y el 95%**.
 

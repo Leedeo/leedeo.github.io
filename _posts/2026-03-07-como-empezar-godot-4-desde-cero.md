@@ -11,7 +11,6 @@ excerpt: "¿Quieres crear videojuegos pero no sabes por dónde empezar? Descubre
 categories:
 - Game Dev
 - Godot
-
 redirect_from:
   - "/como-empezar-godot-4-desde-cero/"
   - "/2026/03/07/como-empezar-godot-4-desde-cero/"
@@ -22,7 +21,6 @@ video:
   description: "Primer capítulo del curso de introducción a Godot 4. Aprende a descargar, instalar y configurar el motor desde cero."
   upload_date: "2023-03-06"
   duration: "PT6M27S"
-
 faq:
   - question: "¿Por qué elegir Godot 4 en 2026 para aprender?"
     answer: "Godot 4 es ideal por ser totalmente gratuito y de código abierto (sin regalías), extremadamente ligero (menos de 100MB) y tener una de las curvas de aprendizaje más accesibles para principiantes."
@@ -30,6 +28,7 @@ faq:
     answer: "Son los bloques básicos de construcción: los Nodos son las piezas con funciones específicas (como sprites o físicas) y las Escenas son conjuntos de nodos que se pueden anidar unos dentro de otros para crear sistemas complejos."
   - question: "¿Es necesario pagar algo por vender juegos hechos en Godot?"
     answer: "No, Godot tiene licencia MIT, lo que significa que el motor es 100% gratuito para siempre y no cobra porcentajes sobre tus ventas ni cuotas mensuales, independientemente de tu éxito."
+comments: true
 ---
 Hay un momento específico en el que muchas personas deciden aprender a crear videojuegos: pueden ser las horas que le han dedicado a sus juegos favoritos, la frustración de ver una mecánica en un juego y pensar "yo podría hacerlo mejor", o simplemente las ganas de construir algo propio desde cero. El problema es que entre ese impulso y el primer proyecto funcional hay una curva de aprendizaje que, si no se gestiona bien, acaba con muchos proyectos antes de arrancar.
 

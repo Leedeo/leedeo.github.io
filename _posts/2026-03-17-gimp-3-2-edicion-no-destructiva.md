@@ -10,7 +10,6 @@ excerpt: "GIMP 3.2 marca un hito histórico tras tres décadas de espera: la lle
 
 categories:
 - Herramientas
-
 redirect_from:
   - "/gimp-3-2-edicion-no-destructiva/"
   - "/2026/03/17/gimp-3-2-edicion-no-destructiva/"
@@ -21,7 +20,6 @@ video:
   description: "Aprende los fundamentos de GIMP, el editor de imagen gratuito y open source. Herramientas básicas, capas y flujo de trabajo esencial."
   upload_date: "2022-07-11"
   duration: "PT22M8S"
-
 faq:
   - question: "¿Qué es la edición no destructiva en GIMP 3.2?"
     answer: "Es la capacidad de aplicar filtros y ajustes como capas editables en lugar de modificar permanentemente los píxeles de la imagen original, permitiendo cambios ilimitados en cualquier momento."
@@ -29,6 +27,7 @@ faq:
     answer: "Para la mayoría de usuarios y flujos de trabajo profesionales de diseño, el añadido de la edición no destructiva cierra la brecha técnica más importante, aunque sigue teniendo diferencias en interfaz y herramientas avanzadas."
   - question: "¿GIMP 3.2 sigue siendo gratuito?"
     answer: "Sí, GIMP es un software libre y de código abierto bajo licencia GPL, lo que garantiza que sea gratuito para siempre y para cualquier uso, comercial o personal."
+comments: true
 ---
 **[GIMP](https://www.gimp.org/)** acaba de publicar su versión **3.2**, y aunque cada actualización trae su lista de mejoras y correcciones, esta vez hay un cambio que lleva décadas esperándose: la **edición no destructiva**.
 

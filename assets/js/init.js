@@ -1,4 +1,4 @@
 // assets/js/init.js
-// Script ligero síncrono cargado en el <head> para prevenir el parpadeo de contenido (FOUC).
-// Se necesita en un archivo externo para cumplir con la estricta Content Security Policy del proyecto.
+// Añade esta clase rápido para evitar el odioso flash de contenido sin estilo
+// al cargar Tailwind, aislando este script por seguridad (CSP).
 document.documentElement.classList.add('js-loaded');

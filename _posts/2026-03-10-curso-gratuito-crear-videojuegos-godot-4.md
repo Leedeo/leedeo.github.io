@@ -11,7 +11,6 @@ excerpt: "Aprender a crear videojuegos nunca ha sido tan accesible como ahora. D
 categories:
 - Godot
 - Game Dev
-
 redirect_from:
   - "/curso-gratuito-crear-videojuegos-godot-4/"
   - "/2026/03/10/curso-gratuito-crear-videojuegos-godot-4/"
@@ -22,7 +21,6 @@ video:
   description: "Primer capítulo del curso de introducción a Godot 4. Aprende a descargar, instalar y configurar el motor desde cero."
   upload_date: "2023-03-06"
   duration: "PT6M27S"
-
 faq:
   - question: "¿Qué ofrece el curso gratuito de Godot 4?"
     answer: "Es una guía completa en español diseñada para principiantes que quieren aprender a desarrollar videojuegos desde cero, cubriendo desde la instalación hasta conceptos de programación con GDScript."
@@ -30,6 +28,7 @@ faq:
     answer: "Godot destaca por ser 100% de código abierto (licencia MIT), no cobrar regalías nunca por tus ventas, pesar menos de 100MB y tener una de las curvas de aprendizaje más amigables del sector."
   - question: "¿Es difícil aprender GDScript si no sé programar?"
     answer: "No, GDScript tiene una sintaxis muy similar a Python y ha sido creado específicamente para el desarrollo de juegos, lo que lo convierte en uno de los mejores lenguajes para empezar en la programación."
+comments: true
 ---
 Aprender a crear videojuegos nunca ha sido tan accesible como ahora, y Godot Engine tiene mucho que ver con eso. Si llevas tiempo queriendo dar el salto al desarrollo de juegos pero no sabes por dónde empezar, o si vienes de otro motor y estás buscando una alternativa más libre y sostenible, este curso es para ti.
 

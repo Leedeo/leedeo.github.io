@@ -10,7 +10,6 @@ excerpt: "¿Windows encontró archivos corruptos pero no pudo repararlos? Descub
 
 categories:
 - Herramientas
-
 redirect_from:
   - "/reparar-archivos-windows-danados/"
   - "/2026/03/06/reparar-archivos-windows-danados/"
@@ -22,6 +21,7 @@ faq:
     answer: "SFC repara archivos individuales del sistema comparándolos con una copia local sana, mientras que DISM repara la imagen completa del sistema y su almacén maestro de archivos."
   - question: "¿Cómo solucionar el error 0x800f081f en DISM?"
     answer: "Este error ocurre cuando DISM no puede descargar archivos de Windows Update. Se soluciona montando una imagen ISO de Windows y usando el parámetro /Source para indicar la ruta de los archivos locales."
+comments: true
 ---
 Uno de los errores más frustrantes para cualquier usuario de Windows es ejecutar el comando de reparación y encontrarse con el temido mensaje:
 

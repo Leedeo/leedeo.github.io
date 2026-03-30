@@ -12,7 +12,6 @@ categories:
 - Game Dev
 - Gaming
 - Godot
-
 redirect_from:
   - "/godot-showcase-buckshot-roulette/"
   - "/2026/03/09/godot-showcase-buckshot-roulette/"
@@ -23,7 +22,6 @@ video:
   description: "Primer capítulo del curso de introducción a Godot 4. Aprende a descargar, instalar y configurar el motor desde cero."
   upload_date: "2023-03-06"
   duration: "PT6M27S"
-
 faq:
   - question: "¿Qué motor utiliza Buckshot Roulette?"
     answer: "Mike Klubnika desarrolló Buckshot Roulette utilizando Godot Engine, tras decidir migrar desde Unity debido a los cambios en las políticas de licencias de este último."
@@ -31,6 +29,7 @@ faq:
     answer: "Mike destaca la rapidez del motor, la potencia del nodo AnimationPlayer y la facilidad de iteración que ofrece GDScript para ajustar pequeños detalles sin fricción."
   - question: "¿Qué consejo da Mike Klubnika a los nuevos desarrolladores?"
     answer: "Recomienda encarecidamente crear muchos juegos pequeños que se puedan terminar en un par de semanas, ya que la repetición del proceso completo es lo que realmente enseña a desarrollar."
+comments: true
 ---
 En esta nueva entrega analizando títulos del escenario indie, compartimos la reciente publicación del **Godot Showcase**, donde la fundación ha entrevistado directamente a **Mike Klubnika**, quien nos cuenta su experiencia desarrollando el masivo éxito indie de 2024 *Buckshot Roulette*, así como su proyecto más reciente, *s.p.l.i.t*.
 

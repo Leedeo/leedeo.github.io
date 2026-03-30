@@ -10,7 +10,6 @@ excerpt: "Voy a empezar con la respuesta corta: sí, es posible. Y ahora voy a d
 
 categories:
 - Game Dev
-
 redirect_from:
   - "/es-posible-vivir-haciendo-videojuegos/"
   - "/2026/03/12/es-posible-vivir-haciendo-videojuegos/"
@@ -21,7 +20,6 @@ video:
   description: "Análisis honesto sobre la realidad del trabajo en la industria del videojuego: costes, rentabilidad y las expectativas que nadie te cuenta."
   upload_date: "2024-11-12"
   duration: "PT9M41S"
-
 faq:
   - question: "¿Es posible vivir del desarrollo de videojuegos en 2026?"
     answer: "Sí, es posible, pero requiere un enfoque realista. Existen tres vías principales: el empleo en estudios (muy competitivo tras los despidos de 2022-2025), el trabajo freelance y el desarrollo indie propio."
@@ -29,6 +27,7 @@ faq:
     answer: "Entre 2022 y 2025 se perdieron unos 45.000 empleos globales. Esto significa que los nuevos aspirantes compiten con profesionales con mucha experiencia, por lo que tener un portafolio de proyectos terminados es más crucial que nunca."
   - question: "¿Cuánto gana un desarrollador indie promedio?"
     answer: "Los datos de VG Insights muestran que solo el 15% de los desarrolladores en solitario supera los 100.000$ anuales. La mayoría de los juegos en Steam no alcanzan los 1.000$ de ingresos totales, evidenciando el alto riesgo del modelo."
+comments: true
 ---
 Voy a empezar con la respuesta corta: sí, es posible. Y ahora voy a dedicar el resto del artículo a explicar por qué esa respuesta, sin contexto, es casi completamente inútil.
 
