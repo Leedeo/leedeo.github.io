@@ -6,6 +6,8 @@
    1. VARIABLES & SETUP
    ============================================= */
 :root {
+  --bg-dark: #0f0a1d;
+  --bg-card: rgba(30, 20, 50, 0.7);
   --violet-primary: #8b5cf6;
   --violet-light: #c084fc;
   --pink-accent: #f472b6;
@@ -29,6 +31,7 @@ body {
   font-family: 'Plus Jakarta Sans', sans-serif;
   background-color: var(--bg-dark);
   color: var(--text-slate);
+  margin: 0;
   overflow-x: hidden;
   text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased;
