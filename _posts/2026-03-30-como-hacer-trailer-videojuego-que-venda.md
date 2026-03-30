@@ -46,7 +46,7 @@ El **teaser** es, en muchos casos, el primer contacto que tiene el público con 
 
 Su función no es explicar. Su función es **despertar curiosidad**.
 
-Un teaser no suele mostrar el juego completo ni necesita enseñar el producto final tal y como será. Muchas veces aparece cuando el proyecto todavía está en una fase temprana, y lo que hace es enseñar una idea, una atmósfera, una dirección visual o un pequeño destello que haga que alguien pensara: *"¿Y esto qué es?"*
+Un teaser no suele mostrar el juego completo ni necesita enseñar el producto final tal y como será. Muchas veces aparece cuando el proyecto todavía está en una fase temprana, y lo que hace es enseñar una idea, una atmósfera, una dirección visual o un pequeño destello que haga que alguien piense: *"¿Y esto qué es?"*
 
 Ese es su trabajo.
 
@@ -254,3 +254,5 @@ Si quieres profundizar más en este tema, aquí es donde encaja perfectamente el
 - [CapCut](https://www.capcut.com/)
 - [DaVinci Resolve](https://www.blackmagicdesign.com/products/davinciresolve)
 - [Efecto Zeigarnik](https://en.wikipedia.org/wiki/Zeigarnik_effect)
+
+¿Y tú? ¿Cuál es el tráiler que más te ha impactado recientemente y por qué? Déjame tu opinión en los comentarios o cuéntamelo en mi canal de YouTube.
