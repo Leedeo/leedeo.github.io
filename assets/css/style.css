@@ -1,9 +1,8 @@
-/* LEEDEO STUDIO - Global Stylesheet
-   Unified & GPU-Accelerated for Main Page & Policy Page
+/* LEEDEO STUDIO — Estilos globales
 ============================================= */
 
 /* =============================================
-   1. VARIABLES & SETUP
+   1. Variables
    ============================================= */
 :root {
   --bg-dark: #0f0a1d;
@@ -25,7 +24,7 @@
 
 
 /* =============================================
-   2. BASE & RESET
+   2. Base
    ============================================= */
 body {
   font-family: 'Plus Jakarta Sans', sans-serif;
@@ -49,24 +48,8 @@ strong {
 
 
 /* =============================================
-   3. STRUCTURAL UTILITIES & CARDS
+   3. Utilidades
    ============================================= */
-.glass-card {
-  background: var(--bg-card);
-  backdrop-filter: blur(16px);
-  border: 1px solid rgba(255, 255, 255, 0.08);
-  border-radius: 1.5rem;
-  transition: var(--transition-smooth);
-  overflow: hidden;
-}
-
-.glass-card:hover {
-  transform: translateY(-8px);
-  border-color: var(--violet-light);
-  box-shadow: 0 25px 50px -12px rgba(139, 92, 246, 0.3);
-  background: rgba(45, 30, 75, 0.8);
-}
-
 .static-glass-card {
   background: rgba(45, 30, 75, 0.8);
   backdrop-filter: blur(16px);
@@ -88,7 +71,7 @@ strong {
 
 
 /* =============================================
-   4. UI COMPONENTS (Buttons & Badges)
+   4. Botones
    ============================================= */
 .btn-primary, .btn-secondary, .btn-outline, .btn-markdown {
   display: inline-flex;
@@ -174,7 +157,7 @@ strong {
 
 
 /* =============================================
-   5. HERO & BACKGROUND ANIMATIONS
+   5. Fondo animado y blobs
    ============================================= */
 .hero-gradient {
   position: relative;
@@ -215,8 +198,12 @@ main.hero-gradient {
   100% { transform: translate(5%, -10%) scale(1.05); }
 }
 
+
+/* =============================================
+   6. Animación de aparición (reveal)
+   ============================================= */
 .reveal {
-  transition: opacity 0.7s ease-out var(--reveal-delay, 0s), 
+  transition: opacity 0.7s ease-out var(--reveal-delay, 0s),
               transform 0.7s ease-out var(--reveal-delay, 0s);
 }
 
@@ -232,7 +219,27 @@ main.hero-gradient {
 
 
 /* =============================================
-   6. MARQUEE (Testimonials)
+   7. Tarjetas glass (después de .reveal para que mande)
+   ============================================= */
+.glass-card {
+  background: var(--bg-card);
+  backdrop-filter: blur(16px);
+  border: 1px solid rgba(255, 255, 255, 0.08);
+  border-radius: 1.5rem;
+  transition: opacity 0.7s ease-out var(--reveal-delay, 0s), transform 0.7s ease-out var(--reveal-delay, 0s), border-color 0.3s ease, box-shadow 0.3s ease, background 0.3s ease;
+  overflow: hidden;
+}
+
+.glass-card:hover {
+  transform: translateY(-8px);
+  border-color: var(--violet-light);
+  box-shadow: 0 25px 50px -12px rgba(139, 92, 246, 0.3);
+  background: rgba(45, 30, 75, 0.8);
+}
+
+
+/* =============================================
+   8. Marquee (testimonios)
    ============================================= */
 .marquee-container {
   overflow: hidden;
@@ -281,9 +288,8 @@ main.hero-gradient {
 
 
 /* =============================================
-   7. WIDGETS & SPECIFIC PAGES
+   9. Buscador del blog
    ============================================= */
-/* Buscador del Blog */
 #blog-search {
   font-family: 'Plus Jakarta Sans', sans-serif;
   caret-color: var(--violet-primary);
@@ -291,7 +297,10 @@ main.hero-gradient {
 #blog-search::placeholder { color: rgba(148, 163, 184, 0.5); }
 #blog-search:focus { box-shadow: 0 0 0 2px rgba(139, 92, 246, 0.2), 0 10px 25px -5px rgba(0, 0, 0, 0.4); }
 
-/* Leedeo Cleaner */
+
+/* =============================================
+   10. Leedeo Cleaner (página de proyecto)
+   ============================================= */
 .lc-mockup-frame {
   position: relative;
   border-radius: 1.25rem;
@@ -354,7 +363,7 @@ main.hero-gradient {
 
 
 /* =============================================
-   8. TYPOGRAPHY & CONTENT BLOCKS (.rich-content)
+   11. Contenido enriquecido (posts y páginas)
    ============================================= */
 .rich-content {
   color: var(--text-dim);
@@ -362,7 +371,7 @@ main.hero-gradient {
   font-size: 1.15rem;
 }
 
-/* Encabezados Globales dentro de contenido */
+/* Encabezados */
 .rich-content h2, .rich-content h3 {
   color: #fff;
   font-weight: 800;
@@ -381,14 +390,14 @@ main.hero-gradient {
   letter-spacing: 0.15em; font-size: 0.75rem; margin-top: 1.5rem; margin-bottom: 0.5rem;
 }
 
-/* Control de espaciado inicial en rich-content para evitar saltos indeseados */
+/* Sin margen en el primer elemento */
 .rich-content > *:first-child,
 .rich-content > section:first-child > h2:first-of-type,
 .rich-content > section:first-child > h3:first-of-type {
   margin-top: 0;
 }
 
-/* Textos e Inline */
+/* Textos */
 .rich-content p { margin-bottom: 1rem; }
 .rich-content strong { color: #fff; font-weight: 600; }
 .rich-content > p em, .rich-content > blockquote em, .rich-content > li em { color: var(--violet-light); font-style: italic; }
@@ -422,7 +431,7 @@ main.hero-gradient {
   padding: 0 0.75rem; font-size: 0.8rem; line-height: 1;
 }
 
-/* Citas (Blockquotes) */
+/* Citas */
 .rich-content > blockquote {
   position: relative; margin: 1.75rem 0; padding: 1.75rem 2rem;
   background: rgba(139, 92, 246, 0.06); border-left: 3px solid var(--violet-primary);
@@ -441,7 +450,7 @@ main.hero-gradient {
 .rich-content > blockquote footer { display: block; margin-top: 0.75rem; font-size: 0.8rem; font-style: normal; color: var(--violet-light); font-weight: 700; text-transform: uppercase; letter-spacing: 0.1em; }
 .rich-content > blockquote cite::before, .rich-content > blockquote footer::before { content: "— "; }
 
-/* Media / Imágenes */
+/* Imágenes */
 .rich-content > p > img {
   border-radius: 1.25rem; border: 1px solid rgba(139, 92, 246, 0.2);
   box-shadow: 0 20px 40px -10px rgba(0, 0, 0, 0.6), 0 0 0 1px rgba(255, 255, 255, 0.03);
@@ -453,7 +462,7 @@ main.hero-gradient {
   box-shadow: 0 30px 60px -15px rgba(0, 0, 0, 0.7), 0 0 0 1px rgba(139, 92, 246, 0.3);
 }
 
-/* Tablas e Informes */
+/* Tablas */
 .rich-content .table-wrapper {
   overflow-x: auto; margin-bottom: 2rem; border-radius: 0.75rem;
   box-shadow: 0 20px 40px -10px rgba(0, 0, 0, 0.5), 0 0 0 1px rgba(139, 92, 246, 0.15);
@@ -483,7 +492,7 @@ main.hero-gradient {
 .rich-content tr:hover td { background: rgba(139, 92, 246, 0.12); color: #fff; }
 .rich-content td a { color: var(--violet-light) !important; text-decoration: underline !important; }
 
-/* Bloques de Código */
+/* Bloques de código */
 .rich-content pre {
   background: rgba(8, 5, 18, 0.85); border: 1px solid rgba(139, 92, 246, 0.25);
   border-left: 3px solid var(--violet-primary); border-radius: 0.75rem;
@@ -506,7 +515,7 @@ main.hero-gradient {
   font-family: 'Fira Code', 'Consolas', monospace; font-size: 0.85em; color: #c4b5fd;
 }
 
-/* Syntax Highlighting */
+/* Colores de sintaxis */
 .rich-content pre code .keyword  { color: #c084fc; }
 .rich-content pre code .function { color: #67e8f9; }
 .rich-content pre code .number   { color: #f9a8d4; }
@@ -515,7 +524,7 @@ main.hero-gradient {
 
 
 /* =============================================
-   9. GLOBAL RESPONSIVE ADJUSTMENTS
+   12. Responsive
    ============================================= */
 @media (max-width: 768px) {
   .testimonial-card { width: 300px; }

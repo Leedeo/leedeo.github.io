@@ -9,7 +9,16 @@ if (yearEl) { yearEl.textContent = new Date().getFullYear(); }
 // Carga las animaciones suaves solo cuando el elemento va a entrar en pantalla
 var revealObserver = new IntersectionObserver(function (entries) {
     entries.forEach(function (entry) {
-        if (entry.isIntersecting) { entry.target.classList.add('active'); }
+        if (entry.isIntersecting) {
+            var el = entry.target;
+            el.classList.add('active');
+            // Elimina el delay después de que termine la animación para que el hover no se vea afectado
+            var delayStr = getComputedStyle(el).getPropertyValue('--reveal-delay') || '0s';
+            var delayMs = parseFloat(delayStr) || 0;
+            setTimeout(function () {
+                el.style.setProperty('--reveal-delay', '0s');
+            }, 700 + delayMs);
+        }
     });
 }, { rootMargin: '0px 0px 50px 0px', threshold: 0.02 });
 

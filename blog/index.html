@@ -62,7 +62,9 @@ description: "Artículos sobre desarrollo de videojuegos, industria indie, tutor
         <div id="paginated-posts">
             <div id="paginated-grid" class="grid md:grid-cols-2 lg:grid-cols-3 gap-8 mb-16">
                 {% for post in paginator.posts %}
-                <article class="glass-card rounded-[2rem] overflow-hidden flex flex-col reveal">
+                {% assign mod_index = forloop.index0 | modulo: 3 %}
+                {% assign reveal_delay = mod_index | times: 100 %}
+                <article class="glass-card rounded-[2rem] overflow-hidden flex flex-col reveal" style="--reveal-delay: {{ reveal_delay }}ms;">
                     <a href="{{ post.url | relative_url }}" class="aspect-video overflow-hidden relative group block">
                         <img src="{{ post.thumbnail | relative_url }}" alt="{{ post.title }}" loading="lazy" width="600" height="340"
                             class="w-full h-full object-cover transition-transform duration-500 group-hover:scale-110">
