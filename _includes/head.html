@@ -4,6 +4,10 @@
 <!-- SEO -->
 {% seo %}
 
+{% if page.noindex == true %}
+<meta name="robots" content="noindex, follow">
+{% endif %}
+
 {% if page.thumbnail and page.image == nil %}
 <meta property="og:image" content="{{ page.thumbnail | absolute_url }}">
 <meta name="twitter:image" content="{{ page.thumbnail | absolute_url }}">
