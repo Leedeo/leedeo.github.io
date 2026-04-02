@@ -1,15 +1,12 @@
 ---
 layout: "default"
 author: "javo"
-
 thumbnail: "/assets/img/projects/halls-of-delirium-3.webp"
 title: "Halls of Delirium, Juego de Terror Indie"
 description: "Explora Halls of Delirium, un proyecto de terror indie desarrollado por Javo de Leedeo Studio. Inspirado en los espacios liminales y desarrollado en Godot Engine."
-
 redirect_from:
   - "/projects/halls-of-delirium.html"
 permalink: "/projects/halls-of-delirium/"
-
 video:
   id: "LTF9AT0K9mk"
   title: "Trailer Halls of Delirium: Backrooms of Madness"
@@ -17,12 +14,11 @@ video:
   upload_date: "2024-09-15"
   duration: "PT55S"
 ---
-<main class="relative min-h-screen pt-32 pb-24 px-6 hero-gradient overflow-x-hidden">
+<div class="relative min-h-screen pt-32 pb-24 px-6 hero-gradient overflow-x-hidden">
 
-    <!-- HERO -->
     <header class="mb-20 reveal -mx-6 -mt-32">
         <div class="relative w-full overflow-hidden" style="min-height: 480px;">
-            <img src="{{ '/assets/img/projects/hero-halls-of-delirium.webp' | relative_url }}" alt="Hero image de Halls of Delirium: Captura de cámara de seguridad mostrando una figura humanoide blanca en un pasillo oscuro con pintadas de sangre" aria-hidden="true"
+            <img src="{{ '/assets/img/projects/hero-halls-of-delirium.webp' | relative_url }}" alt="Hero image de Halls of Delirium" aria-hidden="true"
                  class="absolute inset-0 w-full h-full object-cover object-center">
             <div class="absolute inset-0" style="background: linear-gradient(to bottom, rgba(10,5,25,0.55) 0%, rgba(10,5,25,0.55) 50%, rgba(10,5,25,0.95) 100%);"></div>
             <div class="relative z-10 flex flex-col items-center justify-center text-center px-6 py-32 max-w-4xl mx-auto" style="min-height: 480px;">
@@ -37,10 +33,8 @@ video:
         </div>
     </header>
 
-    <!-- TRÁILER Y CTA -->
     <section aria-label="Tráiler y descarga" class="max-w-4xl mx-auto mb-20 text-center reveal">
         {% include youtube-embed.html id="LTF9AT0K9mk" title="Trailer Halls of Delirium" %}
-
         <div class="flex flex-col sm:flex-row gap-4 justify-center items-center">
             <a href="https://leedeo.itch.io/halls-of-delirium" target="_blank" rel="noopener" class="btn-primary text-lg px-8 py-4">
                 <i class="fas fa-gamepad"></i> Descargar Demo en Itch.io
@@ -48,23 +42,21 @@ video:
         </div>
     </section>
 
-    <!-- HISTORIA Y CONTEXTO -->
-    <section aria-labelledby="historia-titulo" class="max-w-6xl mx-auto mb-28">
+    <section aria-labelledby="story-title" class="max-w-6xl mx-auto mb-28">
         <div class="text-center mb-16 reveal">
-            <h2 id="historia-titulo" class="text-3xl md:text-4xl font-black tracking-tight mb-4 uppercase">
+            <h2 id="story-title" class="text-3xl md:text-4xl font-black tracking-tight mb-4 uppercase">
                 De Reto a <span class="text-violet-500 italic">Lore Propio</span>
             </h2>
             <p class="text-slate-400 max-w-2xl mx-auto text-lg">Lo que empezó como un experimento en directo creció hasta convertirse en un universo de terror con identidad propia.</p>
             <div class="w-24 h-1.5 bg-violet-500 mx-auto rounded-full mt-8"></div>
         </div>
-
         <div class="grid lg:grid-cols-2 gap-12 items-center reveal">
             <div class="flex flex-col gap-6">
                 <p class="text-slate-400 leading-relaxed font-light">
                     Todo comenzó como un pequeño experimento en vivo: <strong class="text-white font-bold">Leedeo Backrooms</strong>, un proyecto concebido y prototipado en un reto de 24 horas para mi canal de YouTube.
                 </p>
                 <p class="text-slate-400 leading-relaxed font-light">
-                    Lo que empezó como un simple tributo al <em>creepypasta</em> de los Backrooms creció de forma natural con el tiempo. Decidí convertir esa base en un ecosistema propio con su propia historia y enemigos. Mantuve el Nivel 1 por el cariño evidente hacia la estética de los «espacios liminales» y sus largos pasillos amarillentos, pero el juego ahora late con su propia identidad.
+                    Lo que empezó como un simple tributo al <em>creepypasta</em> de los Backrooms creció de forma natural con el tiempo. Decidí convertir esa base en un ecosistema propio con su propia historia y enemigos.
                 </p>
                 <div>
                     <a href="https://youtu.be/Osytok_YMwg?si=TJpGcPoiIZhLV2X7" target="_blank" rel="noopener" class="btn-outline inline-flex group mt-2">
@@ -78,13 +70,12 @@ video:
         </div>
     </section>
 
-    <!-- DEVLOG Y DISEÑO -->
-    <section aria-labelledby="devlog-titulo" class="max-w-6xl mx-auto mb-28 reveal">
+    <section aria-labelledby="devlog-title" class="max-w-6xl mx-auto mb-28 reveal">
         <div class="static-glass-card rounded-3xl p-8 md:p-12 relative overflow-hidden">
             <div class="absolute top-0 right-0 w-64 h-64 bg-fuchsia-600/10 rounded-full blur-[80px] pointer-events-none"></div>
             <div class="grid lg:grid-cols-2 gap-12 items-center relative z-10">
                 <div>
-                    <h2 id="devlog-titulo" class="text-3xl font-black uppercase tracking-tight mb-4">
+                    <h2 id="devlog-title" class="text-3xl font-black uppercase tracking-tight mb-4">
                         Inspiración de <span class="gradient-text italic">un Clásico</span>
                     </h2>
                     <p class="text-slate-400 leading-relaxed font-light mb-4">
@@ -94,57 +85,55 @@ video:
                         Sin embargo, para evitar problemas legales y potenciar el factor supervivencia en <strong class="text-white">Halls of Delirium</strong>, la arquitectura definitiva será un laberinto original diseñado para desorientar e inquietar aún más al jugador.
                     </p>
                 </div>
-
                 {% include youtube-embed.html id="v8zZWKz7Ujk" title="Desarrollo del nivel Pac-Man, Devlog" %}
             </div>
         </div>
     </section>
 
-    <!-- GALERÍA -->
-    <section aria-labelledby="galeria-titulo" class="max-w-8xl mx-auto reveal">
+    <section aria-labelledby="gallery-title" class="max-w-7xl mx-auto reveal">
         <div class="text-center mb-12">
-            <h2 id="galeria-titulo" class="text-3xl md:text-4xl font-black tracking-tight mb-4 uppercase">
+            <h2 id="gallery-title" class="text-3xl md:text-4xl font-black tracking-tight mb-4 uppercase">
                 Capturas del <span class="text-violet-500 italic">Proyecto</span>
             </h2>
             <div class="w-24 h-1.5 bg-violet-500 mx-auto rounded-full mt-8"></div>
         </div>
         <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6 mt-12">
             <button data-image="{{ '/assets/img/projects/halls-of-delirium-1.webp' | relative_url }}" class="group relative rounded-2xl overflow-hidden border border-white/10 aspect-video shadow-lg bg-black focus:outline-none focus:ring-2 focus:ring-violet-500">
-                <img src="{{ '/assets/img/projects/halls-of-delirium-1.webp' | relative_url }}" alt="Halls Of Delirium: Corredor principal de piedra con buzones y texto Producido por Leedeo Studio" class="w-full h-full object-cover transition-all duration-500 group-hover:scale-110 group-hover:opacity-70" loading="lazy">
+                <img src="{{ '/assets/img/projects/halls-of-delirium-1.webp' | relative_url }}" alt="Halls Of Delirium: Corredor principal de piedra" class="w-full h-full object-cover transition-all duration-500 group-hover:scale-110 group-hover:opacity-70" loading="lazy">
                 <div class="absolute inset-0 flex items-center justify-center opacity-0 group-hover:opacity-100 transition-opacity duration-300"><i class="fas fa-search-plus text-3xl text-white drop-shadow-lg"></i></div>
             </button>
             <button data-image="{{ '/assets/img/projects/halls-of-delirium-2.webp' | relative_url }}" class="group relative rounded-2xl overflow-hidden border border-white/10 aspect-video shadow-lg bg-black focus:outline-none focus:ring-2 focus:ring-violet-500">
-                <img src="{{ '/assets/img/projects/halls-of-delirium-2.webp' | relative_url }}" alt="Halls Of Delirium: Nivel 1 Leedeo Backrooms con pasillos amarillos liminales y contador de llaves" class="w-full h-full object-cover transition-all duration-500 group-hover:scale-110 group-hover:opacity-70" loading="lazy">
+                <img src="{{ '/assets/img/projects/halls-of-delirium-2.webp' | relative_url }}" alt="Halls Of Delirium: Nivel 1 Leedeo Backrooms con pasillos amarillos liminales" class="w-full h-full object-cover transition-all duration-500 group-hover:scale-110 group-hover:opacity-70" loading="lazy">
                 <div class="absolute inset-0 flex items-center justify-center opacity-0 group-hover:opacity-100 transition-opacity duration-300"><i class="fas fa-search-plus text-3xl text-white drop-shadow-lg"></i></div>
             </button>
             <button data-image="{{ '/assets/img/projects/halls-of-delirium-3.webp' | relative_url }}" class="group relative rounded-2xl overflow-hidden border border-white/10 aspect-video shadow-lg bg-black focus:outline-none focus:ring-2 focus:ring-violet-500">
-                <img src="{{ '/assets/img/projects/halls-of-delirium-3.webp' | relative_url }}" alt="Halls Of Delirium: Nivel La Zona Habitable con el monstruo Señor Blanco acechando en un pasillo oscuro, vista de cámara de seguridad" class="w-full h-full object-cover transition-all duration-500 group-hover:scale-110 group-hover:opacity-70" loading="lazy">
+                <img src="{{ '/assets/img/projects/halls-of-delirium-3.webp' | relative_url }}" alt="Halls Of Delirium: Nivel La Zona Habitable con el monstruo Señor Blanco" class="w-full h-full object-cover transition-all duration-500 group-hover:scale-110 group-hover:opacity-70" loading="lazy">
                 <div class="absolute inset-0 flex items-center justify-center opacity-0 group-hover:opacity-100 transition-opacity duration-300"><i class="fas fa-search-plus text-3xl text-white drop-shadow-lg"></i></div>
             </button>
             <button data-image="{{ '/assets/img/projects/halls-of-delirium-4.webp' | relative_url }}" class="group relative rounded-2xl overflow-hidden border border-white/10 aspect-video shadow-lg bg-black focus:outline-none focus:ring-2 focus:ring-violet-500">
-                <img src="{{ '/assets/img/projects/halls-of-delirium-4.webp' | relative_url }}" alt="Halls Of Delirium: Nivel Dead-Man inspirado en Pac-Man en primera persona con minimapa funcional para localizar fantasmas" class="w-full h-full object-cover transition-all duration-500 group-hover:scale-110 group-hover:opacity-70" loading="lazy">
+                <img src="{{ '/assets/img/projects/halls-of-delirium-4.webp' | relative_url }}" alt="Halls Of Delirium: Nivel Dead-Man inspirado en Pac-Man" class="w-full h-full object-cover transition-all duration-500 group-hover:scale-110 group-hover:opacity-70" loading="lazy">
                 <div class="absolute inset-0 flex items-center justify-center opacity-0 group-hover:opacity-100 transition-opacity duration-300"><i class="fas fa-search-plus text-3xl text-white drop-shadow-lg"></i></div>
             </button>
             <button data-image="{{ '/assets/img/projects/halls-of-delirium-5.webp' | relative_url }}" class="group relative rounded-2xl overflow-hidden border border-white/10 aspect-video shadow-lg bg-black focus:outline-none focus:ring-2 focus:ring-violet-500">
-                <img src="{{ '/assets/img/projects/halls-of-delirium-5.webp' | relative_url }}" alt="Halls Of Delirium: Nivel provisional Another Brick In The Wall con vista de cámara de seguridad de un aula escolar oscura y abandonada" class="w-full h-full object-cover transition-all duration-500 group-hover:scale-110 group-hover:opacity-70" loading="lazy">
+                <img src="{{ '/assets/img/projects/halls-of-delirium-5.webp' | relative_url }}" alt="Halls Of Delirium: Nivel provisional Another Brick In The Wall" class="w-full h-full object-cover transition-all duration-500 group-hover:scale-110 group-hover:opacity-70" loading="lazy">
                 <div class="absolute inset-0 flex items-center justify-center opacity-0 group-hover:opacity-100 transition-opacity duration-300"><i class="fas fa-search-plus text-3xl text-white drop-shadow-lg"></i></div>
             </button>
             <button data-image="{{ '/assets/img/projects/halls-of-delirium-6.webp' | relative_url }}" class="group relative rounded-2xl overflow-hidden border border-white/10 aspect-video shadow-lg bg-black focus:outline-none focus:ring-2 focus:ring-violet-500">
-                <img src="{{ '/assets/img/projects/halls-of-delirium-6.webp' | relative_url }}" alt="Halls Of Delirium: Nivel provisional El Hotel Infinito con vista de cámara de seguridad de un pasillo de hotel siniestro con alfombra roja" class="w-full h-full object-cover transition-all duration-500 group-hover:scale-110 group-hover:opacity-70" loading="lazy">
+                <img src="{{ '/assets/img/projects/halls-of-delirium-6.webp' | relative_url }}" alt="Halls Of Delirium: Nivel provisional El Hotel Infinito" class="w-full h-full object-cover transition-all duration-500 group-hover:scale-110 group-hover:opacity-70" loading="lazy">
                 <div class="absolute inset-0 flex items-center justify-center opacity-0 group-hover:opacity-100 transition-opacity duration-300"><i class="fas fa-search-plus text-3xl text-white drop-shadow-lg"></i></div>
             </button>
             <button data-image="{{ '/assets/img/projects/halls-of-delirium-7.webp' | relative_url }}" class="group relative rounded-2xl overflow-hidden border border-white/10 aspect-video shadow-lg bg-black focus:outline-none focus:ring-2 focus:ring-violet-500">
-                <img src="{{ '/assets/img/projects/halls-of-delirium-7.webp' | relative_url }}" alt="Halls Of Delirium: Nivel La Zona Habitable con niebla volumétrica en pasillos oscuros de Godot Engine" class="w-full h-full object-cover transition-all duration-500 group-hover:scale-110 group-hover:opacity-70" loading="lazy">
+                <img src="{{ '/assets/img/projects/halls-of-delirium-7.webp' | relative_url }}" alt="Halls Of Delirium: Nivel La Zona Habitable con niebla volumétrica" class="w-full h-full object-cover transition-all duration-500 group-hover:scale-110 group-hover:opacity-70" loading="lazy">
                 <div class="absolute inset-0 flex items-center justify-center opacity-0 group-hover:opacity-100 transition-opacity duration-300"><i class="fas fa-search-plus text-3xl text-white drop-shadow-lg"></i></div>
             </button>
             <button data-image="{{ '/assets/img/projects/halls-of-delirium-8.webp' | relative_url }}" class="group relative rounded-2xl overflow-hidden border border-white/10 aspect-video shadow-lg bg-black focus:outline-none focus:ring-2 focus:ring-violet-500">
-                <img src="{{ '/assets/img/projects/halls-of-delirium-8.webp' | relative_url }}" alt="Halls Of Delirium: Nivel provisional Another Brick In The Wall con mensaje en la pared pintado en sangre sobre casilleros escolares" class="w-full h-full object-cover transition-all duration-500 group-hover:scale-110 group-hover:opacity-70" loading="lazy">
+                <img src="{{ '/assets/img/projects/halls-of-delirium-8.webp' | relative_url }}" alt="Halls Of Delirium: Nivel Another Brick In The Wall con mensaje en la pared" class="w-full h-full object-cover transition-all duration-500 group-hover:scale-110 group-hover:opacity-70" loading="lazy">
                 <div class="absolute inset-0 flex items-center justify-center opacity-0 group-hover:opacity-100 transition-opacity duration-300"><i class="fas fa-search-plus text-3xl text-white drop-shadow-lg"></i></div>
             </button>
         </div>
     </section>
 
-</main>
+</div>
 
 <!-- Lightbox Modal -->
 <dialog id="galleryModal" class="bg-transparent m-0 p-0 w-screen h-screen max-w-none max-h-none backdrop:bg-black/90 backdrop:backdrop-blur-sm focus:outline-none overflow-hidden">

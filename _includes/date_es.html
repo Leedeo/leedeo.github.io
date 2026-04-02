@@ -1,0 +1,8 @@
+{% comment %}
+  date_es.html
+  Convierte una fecha de Jekyll al formato en español: "5 de abril de 2026"
+  Uso: {% include date_es.html date=page.date %}
+{% endcomment %}
+{% assign months = "enero,febrero,marzo,abril,mayo,junio,julio,agosto,septiembre,octubre,noviembre,diciembre" | split: "," %}
+{% assign month_index = include.date | date: "%m" | plus: 0 | minus: 1 %}
+{{ include.date | date: "%-d" }} de {{ months[month_index] }} de {{ include.date | date: "%Y" }}

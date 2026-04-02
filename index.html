@@ -1,9 +1,10 @@
 ---
 layout: "default"
-
 title: "Formación y Desarrollo de Videojuegos Indie"
 description: "Aprende a crear videojuegos desde cero con tutoriales prácticos, cursos gratuitos de Godot Engine y análisis honestos de la industria. Contenido en español por Javo."
 ---
+
+<!-- esquema: sitio web con acción de búsqueda -->
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -27,250 +28,282 @@ description: "Aprende a crear videojuegos desde cero con tutoriales prácticos, 
   }
 }
 </script>
-<!-- Hero Section -->
-<header id="inicio" class="relative min-h-screen flex items-center justify-center pt-20 hero-gradient">
-  <div class="hero-bg-anim">
-    <div class="blob blob-1"></div>
-    <div class="blob blob-2"></div>
-    <div class="blob blob-3"></div>
-    <div class="absolute inset-0 opacity-10 pointer-events-none"
-      style="background-image: linear-gradient(#4c1d95 1px, transparent 1px), linear-gradient(90deg, #4c1d95 1px, transparent 1px); background-size: 50px 50px;">
-    </div>
-    <div class="absolute inset-0 bg-gradient-to-b from-transparent via-transparent to-[#0f0a1d]"></div>
-  </div>
 
-  <div class="relative z-10 max-w-5xl mx-auto px-6 text-center">
-    <div
-      class="inline-flex items-center gap-2 px-4 py-2 mb-8 text-xs font-bold tracking-widest text-violet-400 uppercase bg-violet-400/10 rounded-full border border-violet-400/20">
-      Javo • Game Dev y Creación de Contenido
+<!-- esquema: organización con redes sociales -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Organization",
+  "name": "Leedeo Studio",
+  "url": "{{ site.url }}",
+  "sameAs": [
+    "https://www.youtube.com/@Leedeo",
+    "https://x.com/leedeostudio",
+    "https://github.com/Leedeo",
+    "https://ko-fi.com/leedeo",
+    "https://whatsapp.com/channel/0029VbCnHY0HrDZl9C2p2N0A",
+    "https://www.tiktok.com/@leedeostudio",
+    "https://www.instagram.com/leedeostudio/"
+  ],
+  "contactPoint": {
+    "@type": "ContactPoint",
+    "email": "javo@leedeo.studio",
+    "contactType": "customer support"
+  }
+}
+</script>
+
+<!-- sección hero principal -->
+<header id="home" class="relative min-h-screen flex items-center justify-center pt-20 hero-gradient">
+    <div class="hero-bg-anim">
+        <div class="blob blob-1"></div>
+        <div class="blob blob-2"></div>
+        <div class="blob blob-3"></div>
+        <div class="absolute inset-0 opacity-10 pointer-events-none"
+            style="background-image: linear-gradient(#4c1d95 1px, transparent 1px), linear-gradient(90deg, #4c1d95 1px, transparent 1px); background-size: 50px 50px;">
+        </div>
+        <div class="absolute inset-0 bg-gradient-to-b from-transparent via-transparent to-[#0f0a1d]"></div>
     </div>
-    <h1 class="text-4xl uppercase md:text-7xl font-extrabold mb-8 tracking-tighter">
-      Aprende a <br>
-      <span class="gradient-text italic decoration-violet-500/30">Crear Videojuegos</span><br>
-      con Lógica Profesional
-    </h1>
-    <p class="text-xl md:text-2xl text-slate-400 mb-12 leading-relaxed max-w-3xl mx-auto font-light">
-      Un sitio para aprender a <strong class="text-white font-bold">crear videojuegos desde cero</strong>, descubrir noticias de la industria y conocer cómo se desarrolla un juego por dentro.
-    </p>
-    <div class="flex flex-wrap justify-center gap-6">
-      <a href="{{ '/courses/godot/' | relative_url }}"
-        class="btn-primary px-10 py-4 text-white font-bold rounded-2xl transition-all duration-300 ease-out hover:scale-105 flex items-center gap-3">
-        Empezar a aprender
-      </a>
-      <a href="https://whatsapp.com/channel/0029VbCnHY0HrDZl9C2p2N0A" target="_blank" rel="noopener"
-        class="btn-secondary">
-        <i class="fab fa-whatsapp text-xl text-green-500"></i> Canal de novedades
-      </a>
+
+    <div class="relative z-10 max-w-5xl mx-auto px-6 text-center">
+        <div class="inline-flex items-center gap-2 px-4 py-2 mb-8 text-xs font-bold tracking-widest text-violet-400 uppercase bg-violet-400/10 rounded-full border border-violet-400/20">
+            Javo • Game Dev y Creación de Contenido
+        </div>
+
+        <h1 class="text-4xl uppercase md:text-7xl font-extrabold mb-8 tracking-tighter">
+            Aprende a <br>
+            <span class="gradient-text italic decoration-violet-500/30">Crear Videojuegos</span><br>
+            con Lógica Profesional
+        </h1>
+
+        <p class="text-xl md:text-2xl text-slate-400 mb-12 leading-relaxed max-w-3xl mx-auto font-light">
+            Un sitio para aprender a <strong class="text-white font-bold">crear videojuegos desde cero</strong>, descubrir noticias de la industria y conocer cómo se desarrolla un juego por dentro.
+        </p>
+
+        <div class="flex flex-wrap justify-center gap-6">
+            <a href="{{ '/courses/godot/' | relative_url }}"
+                class="btn-primary px-10 py-4 text-white font-bold rounded-2xl transition-all duration-300 ease-out hover:scale-105 flex items-center gap-3">
+                Empezar a aprender
+            </a>
+            <a href="https://whatsapp.com/channel/0029VbCnHY0HrDZl9C2p2N0A" target="_blank" rel="noopener"
+                class="btn-secondary">
+                <i class="fab fa-whatsapp text-xl text-green-500"></i> Canal de novedades
+            </a>
+        </div>
     </div>
-  </div>
 </header>
 
-<!-- 1. Sección Formación -->
-<section id="formacion" aria-labelledby="formacion-titulo" class="py-24 px-6 relative">
-  <div class="max-w-7xl mx-auto grid lg:grid-cols-2 gap-16 items-center">
-    <div class="reveal">
-      <h2 id="formacion-titulo" class="text-3xl md:text-4xl font-bold mb-6 uppercase tracking-tight">Tu formación en <span class="text-violet-500">Desarrollo de Videojuegos</span></h2>
-      <div class="space-y-6 text-slate-400 leading-relaxed text-lg">
-        <p>En Leedeo Studio te acompaño a pensar como un desarrollador. Desde tus primeros pasos hasta entender la estructura de la industria por dentro, aquí tienes guías directas y recursos técnicos que de verdad aportan valor.</p>
-        <ul class="space-y-4">
-          <li class="flex items-start gap-3">
-            <i class="fas fa-code text-violet-500 mt-1.5"></i>
-            <span><strong>Aprende a programar videojuegos:</strong> Una guía paso a paso para crear tu primer proyecto desde cero sin perderte por el camino.</span>
-          </li>
-          <li class="flex items-start gap-3">
-            <i class="fas fa-code text-violet-500 mt-1.5"></i>
-            <span><strong>Curso de Godot y herramientas:</strong> Tutoriales enfocados en uno de los mejores motores para crear videojuegos y otros programas gratuitos esenciales.</span>
-          </li>
-          <li class="flex items-start gap-3">
-            <i class="fas fa-rocket text-violet-500 mt-1.5"></i>
-            <span><strong>Gaming y videojuegos indie:</strong> Mantente al día con lo que pasa en toda la industria del videojuego y descubre curiosidades del mundo del desarrollo.</span>
-          </li>
-        </ul>
-      </div>
-      <div class="mt-10 flex flex-wrap gap-3">
-        <span class="px-4 py-2 bg-slate-900 border border-white/5 rounded-lg text-xs text-slate-300 font-bold">Godot Engine</span>
-        <span class="px-4 py-2 bg-slate-900 border border-white/5 rounded-lg text-xs text-slate-300 font-bold">Affinity</span>
-        <span class="px-4 py-2 bg-slate-900 border border-white/5 rounded-lg text-xs text-slate-300 font-bold">Optimización</span>
-      </div>
-    </div>
-
-    <div class="relative reveal">
-      <div class="aspect-video bg-slate-900 rounded-custom-40 border border-white/10 overflow-hidden shadow-2xl relative group">
-        <img src="{{ '/assets/img/ui/thumb-youtube.webp' | relative_url }}"
-          alt="Avatar 2D ilustrado de un instructor con barba y gafas, posando frente a un escritorio de desarrollo con múltiples monitores" loading="lazy"
-          width="1280" height="720"
-          class="absolute inset-0 w-full h-full object-cover opacity-100 group-hover:scale-110 group-hover:opacity-40 transition-all duration-700" />
-        <div class="absolute inset-0 bg-gradient-to-tr from-violet-600/20 to-transparent"></div>
-        <div class="absolute inset-0 flex items-center justify-center pointer-events-none group-hover:scale-90 transition-transform duration-500">
-          <i class="fab fa-youtube text-8xl text-white/80 group-hover:text-red-600/0 transition-colors"></i>
-        </div>
-        <div class="absolute inset-0 bg-black/40 opacity-0 group-hover:opacity-100 transition-opacity flex items-center justify-center">
-          <a href="https://www.youtube.com/@Leedeo" target="_blank" rel="noopener"
-            class="bg-white text-black px-8 py-3 rounded-full font-black uppercase text-sm tracking-widest hover:scale-105 transition-transform">
-            Ver tutoriales
-          </a>
-        </div>
-      </div>
-    </div>
-  </div>
-</section>
-
-<!-- 2. Proyectos y Software -->
-<section id="proyectos" aria-labelledby="proyectos-titulo" class="py-32 px-6 bg-[#16102a]">
-  <div class="max-w-7xl mx-auto">
-    <div class="text-center mb-20 reveal">
-      <h2 id="proyectos-titulo" class="text-4xl md:text-5xl font-extrabold mb-4 uppercase tracking-tighter">Optimización de Windows y <span class="text-violet-500">Juegos Indie</span></h2>
-      <p class="text-slate-400 text-lg">Software gratuito como Leedeo Cleaner diseñado para acelerar tu PC y flujo de trabajo.</p>
-      <div class="h-1.5 w-24 bg-violet-500 mx-auto rounded-full mt-6"></div>
-    </div>
-
-    <div class="grid lg:grid-cols-3 gap-8">
-      <article class="glass-card rounded-3xl p-8 flex flex-col reveal">
-        <div class="w-14 h-14 bg-violet-500/10 rounded-2xl flex items-center justify-center text-violet-400 mb-8">
-          <i class="fas fa-broom text-3xl"></i>
-        </div>
-        <h3 class="text-2xl font-bold mb-4">Leedeo Cleaner</h3>
-        <p class="text-slate-400 mb-8 leading-relaxed flex-grow italic">Optimizador gratuito y rápido para Windows. Acelera tu PC, limpia archivos basura y mejora el rendimiento sin telemetría.</p>
-        <a href="{{ '/projects/leedeo-cleaner/' | relative_url }}"
-          class="text-violet-400 font-bold flex items-center gap-2 hover:gap-4 transition-all duration-300 ease-out uppercase text-xs tracking-widest">
-          Saber más <i class="fas fa-arrow-right"></i>
-        </a>
-      </article>
-
-      <article class="glass-card rounded-3xl p-8 flex flex-col reveal">
-        <div class="w-14 h-14 bg-fuchsia-500/10 rounded-2xl flex items-center justify-center text-fuchsia-500 mb-8">
-          <i class="fas fa-gamepad text-3xl"></i>
-        </div>
-        <h3 class="text-2xl font-bold mb-4">Mis Juegos</h3>
-        <p class="text-slate-400 mb-8 leading-relaxed flex-grow italic">Explora mis experimentos y pequeños proyectos desarrollados de forma independiente.</p>
-        <a href="https://leedeo.itch.io/" target="_blank" rel="noopener"
-          class="text-fuchsia-500 font-bold flex items-center gap-2 hover:gap-4 transition-all duration-300 ease-out uppercase text-xs tracking-widest">
-          Explorar Itch.io <i class="fas fa-arrow-right"></i>
-        </a>
-      </article>
-
-      <article class="glass-card rounded-3xl p-8 flex flex-col reveal">
-        <div class="w-14 h-14 bg-indigo-500/10 rounded-2xl flex items-center justify-center text-indigo-400 mb-8">
-          <i class="fas fa-language text-3xl"></i>
-        </div>
-        <h3 class="text-2xl font-bold mb-4">Localización Godot</h3>
-        <p class="text-slate-400 mb-8 leading-relaxed flex-grow italic">Colaboración activa en la traducción al español de Godot Engine para la comunidad hispana.</p>
-        <a href="https://hosted.weblate.org/user/Javo/" target="_blank" rel="noopener"
-          class="text-indigo-400 font-bold flex items-center gap-2 hover:gap-4 transition-all duration-300 ease-out uppercase text-xs tracking-widest">
-          Colaborar <i class="fas fa-arrow-right"></i>
-        </a>
-      </article>
-    </div>
-  </div>
-</section>
-
-<!-- 3. Últimas Publicaciones -->
-<section id="noticias" aria-labelledby="noticias-titulo" class="py-24 px-6 relative bg-[#0f0a1d]">
-  <div class="max-w-7xl mx-auto">
-    <div class="flex flex-col md:flex-row items-start md:items-end justify-between gap-6 mb-16 reveal">
-      <div>
-        <h2 id="noticias-titulo" class="text-3xl md:text-4xl font-bold mb-4 uppercase tracking-tight">Últimas <span class="text-violet-500">Publicaciones</span></h2>
-        <p class="text-slate-400 font-medium">Tutoriales, noticias y reflexiones sobre el desarrollo de videojuegos y software independiente.</p>
-      </div>
-      <a href="{{ '/blog/' | relative_url }}" class="btn-outline shrink-0">
-        Ver el blog completo <i class="fas fa-arrow-right"></i>
-      </a>
-    </div>
-
-    <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
-      {% for post in site.posts limit:3 %}
-      <article class="glass-card rounded-custom-32 overflow-hidden flex-col reveal flex">
-        <a href="{{ post.url | relative_url }}" class="aspect-video overflow-hidden relative group block">
-          <img src="{{ post.thumbnail | relative_url }}" alt="{{ post.title }}" loading="lazy" width="600" height="340"
-            class="w-full h-full object-cover transition-transform duration-500 group-hover:scale-110" />
-          <div class="absolute inset-0 bg-gradient-to-t from-[#0f0a1d] to-transparent opacity-60"></div>
-        </a>
-        <div class="p-8 flex flex-col flex-grow">
-          <div class="flex items-center gap-2 mb-3">
-            {% assign post_author = site.data.authors[post.author] | default: site.data.authors['javo'] %}
-            <img src="{{ post_author.avatar }}" alt="{{ post_author.name }}" class="w-6 h-6 rounded-full object-cover border border-violet-300/70 flex-shrink-0" width="24" height="24" loading="lazy">
-            <div>
-              <div class="text-slate-400 text-[10px] font-bold uppercase tracking-widest leading-none">{{ post_author.name }}</div>
-              <div class="text-violet-400 text-[10px] font-bold uppercase tracking-widest leading-none mt-0.5">
-                {% assign months = "enero,febrero,marzo,abril,mayo,junio,julio,agosto,septiembre,octubre,noviembre,diciembre" | split: "," %}
-                {% assign m_idx = post.date | date: "%m" | plus: 0 | minus: 1 %}
-                {{ post.date | date: "%-d" }} de {{ months[m_idx] }} de {{ post.date | date: "%Y" }}
-              </div>
+<!-- sección: formación -->
+<section id="training" aria-labelledby="training-title" class="py-24 px-6 relative">
+    <div class="max-w-7xl mx-auto grid lg:grid-cols-2 gap-16 items-center">
+        <div class="reveal">
+            <h2 id="training-title" class="text-3xl md:text-4xl font-bold mb-6 uppercase tracking-tight">
+                Tu formación en <span class="text-violet-500">Desarrollo de Videojuegos</span>
+            </h2>
+            <div class="space-y-6 text-slate-400 leading-relaxed text-lg">
+                <p>En Leedeo Studio te acompaño a pensar como un desarrollador. Desde tus primeros pasos hasta entender la estructura de la industria por dentro, aquí tienes guías directas y recursos técnicos que de verdad aportan valor.</p>
+                <ul class="space-y-4">
+                    <li class="flex items-start gap-3">
+                        <i class="fas fa-code text-violet-500 mt-1.5"></i>
+                        <span><strong>Aprende a programar videojuegos:</strong> Una guía paso a paso para crear tu primer proyecto desde cero sin perderte por el camino.</span>
+                    </li>
+                    <li class="flex items-start gap-3">
+                        <i class="fas fa-code text-violet-500 mt-1.5"></i>
+                        <span><strong>Curso de Godot y herramientas:</strong> Tutoriales enfocados en uno de los mejores motores para crear videojuegos y otros programas gratuitos esenciales.</span>
+                    </li>
+                    <li class="flex items-start gap-3">
+                        <i class="fas fa-rocket text-violet-500 mt-1.5"></i>
+                        <span><strong>Gaming y videojuegos indie:</strong> Mantente al día con lo que pasa en toda la industria del videojuego y descubre curiosidades del mundo del desarrollo.</span>
+                    </li>
+                </ul>
             </div>
-          </div>
-          <h3 class="text-xl font-bold mb-4 text-white hover:text-violet-400 transition-colors">
-            <a href="{{ post.url | relative_url }}">{{ post.title }}</a>
-          </h3>
-          <p class="text-slate-400 text-sm leading-relaxed mb-6 flex-grow line-clamp-3">
-            {{ post.excerpt | strip_html | truncate: 155 }}
-          </p>
-          <a href="{{ post.url | relative_url }}"
-            class="text-xs font-black uppercase tracking-[0.2em] text-white flex items-center gap-2 group/link">
-            Leer más <i class="fas fa-arrow-right text-violet-500 transition-transform group-hover/link:translate-x-1"></i>
-          </a>
+            <div class="mt-10 flex flex-wrap gap-3">
+                <span class="px-4 py-2 bg-slate-900 border border-white/5 rounded-lg text-xs text-slate-300 font-bold">Godot Engine</span>
+                <span class="px-4 py-2 bg-slate-900 border border-white/5 rounded-lg text-xs text-slate-300 font-bold">Affinity</span>
+                <span class="px-4 py-2 bg-slate-900 border border-white/5 rounded-lg text-xs text-slate-300 font-bold">Optimización</span>
+            </div>
         </div>
-      </article>
-      {% endfor %}
+
+        <div class="relative reveal">
+            <div class="aspect-video bg-slate-900 rounded-custom-40 border border-white/10 overflow-hidden shadow-2xl relative group">
+                <img src="{{ '/assets/img/ui/thumb-youtube.webp' | relative_url }}"
+                    alt="Avatar 2D ilustrado de un instructor con barba y gafas, posando frente a un escritorio de desarrollo con múltiples monitores"
+                    loading="lazy"
+                    width="1280" height="720"
+                    class="absolute inset-0 w-full h-full object-cover opacity-100 group-hover:scale-110 group-hover:opacity-40 transition-all duration-700" />
+                <div class="absolute inset-0 bg-gradient-to-tr from-violet-600/20 to-transparent"></div>
+                <div class="absolute inset-0 flex items-center justify-center pointer-events-none group-hover:scale-90 transition-transform duration-500">
+                    <i class="fab fa-youtube text-8xl text-white/80 group-hover:text-red-600/0 transition-colors"></i>
+                </div>
+                <div class="absolute inset-0 bg-black/40 opacity-0 group-hover:opacity-100 transition-opacity flex items-center justify-center">
+                    <a href="https://www.youtube.com/@Leedeo" target="_blank" rel="noopener"
+                        class="bg-white text-black px-8 py-3 rounded-full font-black uppercase text-sm tracking-widest hover:scale-105 transition-transform">
+                        Ver tutoriales
+                    </a>
+                </div>
+            </div>
+        </div>
     </div>
-  </div>
 </section>
 
-<!-- 4. Comunidad -->
-<section id="comunidad" aria-labelledby="comunidad-titulo" class="pt-0 pb-24 px-6">
-  <div class="max-w-7xl mx-auto bg-gradient-to-br from-slate-900 to-[#05010d] rounded-custom-48 p-8 md:p-16 border border-white/5 relative overflow-hidden">
-    <div class="absolute top-0 right-0 p-10 opacity-10 hidden lg:block">
-      <i class="fab fa-whatsapp text-[15rem] text-green-500 rotate-12"></i>
+<!-- sección: proyectos -->
+<section id="projects" aria-labelledby="projects-title" class="py-32 px-6 bg-[#16102a]">
+    <div class="max-w-7xl mx-auto">
+        <div class="text-center mb-20 reveal">
+            <h2 id="projects-title" class="text-4xl md:text-5xl font-extrabold mb-4 uppercase tracking-tighter">
+                Optimización de Windows y <span class="text-violet-500">Juegos Indie</span>
+            </h2>
+            <p class="text-slate-400 text-lg">Software gratuito como Leedeo Cleaner diseñado para acelerar tu PC y flujo de trabajo.</p>
+            <div class="h-1.5 w-24 bg-violet-500 mx-auto rounded-full mt-6"></div>
+        </div>
+
+        <div class="grid lg:grid-cols-3 gap-8">
+            <article class="glass-card rounded-3xl p-8 flex flex-col reveal">
+                <div class="w-14 h-14 bg-violet-500/10 rounded-2xl flex items-center justify-center text-violet-400 mb-8">
+                    <i class="fas fa-broom text-3xl"></i>
+                </div>
+                <h3 class="text-2xl font-bold mb-4">Leedeo Cleaner</h3>
+                <p class="text-slate-400 mb-8 leading-relaxed flex-grow italic">Optimizador gratuito y rápido para Windows. Acelera tu PC, limpia archivos basura y mejora el rendimiento sin telemetría.</p>
+                <a href="{{ '/projects/leedeo-cleaner/' | relative_url }}"
+                    class="text-violet-400 font-bold flex items-center gap-2 hover:gap-4 transition-all duration-300 ease-out uppercase text-xs tracking-widest">
+                    Saber más <i class="fas fa-arrow-right"></i>
+                </a>
+            </article>
+
+            <article class="glass-card rounded-3xl p-8 flex flex-col reveal">
+                <div class="w-14 h-14 bg-fuchsia-500/10 rounded-2xl flex items-center justify-center text-fuchsia-500 mb-8">
+                    <i class="fas fa-gamepad text-3xl"></i>
+                </div>
+                <h3 class="text-2xl font-bold mb-4">Mis Juegos</h3>
+                <p class="text-slate-400 mb-8 leading-relaxed flex-grow italic">Explora mis experimentos y pequeños proyectos desarrollados de forma independiente.</p>
+                <a href="https://leedeo.itch.io/" target="_blank" rel="noopener"
+                    class="text-fuchsia-500 font-bold flex items-center gap-2 hover:gap-4 transition-all duration-300 ease-out uppercase text-xs tracking-widest">
+                    Explorar Itch.io <i class="fas fa-arrow-right"></i>
+                </a>
+            </article>
+
+            <article class="glass-card rounded-3xl p-8 flex flex-col reveal">
+                <div class="w-14 h-14 bg-indigo-500/10 rounded-2xl flex items-center justify-center text-indigo-400 mb-8">
+                    <i class="fas fa-language text-3xl"></i>
+                </div>
+                <h3 class="text-2xl font-bold mb-4">Localización Godot</h3>
+                <p class="text-slate-400 mb-8 leading-relaxed flex-grow italic">Colaboración activa en la traducción al español de Godot Engine para la comunidad hispana.</p>
+                <a href="https://hosted.weblate.org/user/Javo/" target="_blank" rel="noopener"
+                    class="text-indigo-400 font-bold flex items-center gap-2 hover:gap-4 transition-all duration-300 ease-out uppercase text-xs tracking-widest">
+                    Colaborar <i class="fas fa-arrow-right"></i>
+                </a>
+            </article>
+        </div>
     </div>
-    <div class="relative z-10 lg:w-2/3">
-      <div class="wa-badge inline-flex items-center gap-2 px-4 py-1.5 rounded-full text-xs font-bold uppercase tracking-widest mb-6">
-        <i class="fab fa-whatsapp"></i> Canal directo
-      </div>
-      <h2 id="comunidad-titulo" class="text-3xl md:text-5xl font-black mb-6 tracking-tight">Mantente al tanto.</h2>
-      <p class="text-lg text-slate-400 mb-10 leading-relaxed font-light">
-        Únete a la comunidad privada en WhatsApp para estar al día de nuevos análisis, actualizaciones técnicas y contenido en primicia.
-      </p>
-      <a href="https://whatsapp.com/channel/0029VbCnHY0HrDZl9C2p2N0A" target="_blank" rel="noopener"
-        class="inline-flex items-center gap-4 bg-green-600 hover:bg-green-500 text-white px-10 py-5 rounded-2xl text-xl font-bold transition-all duration-300 ease-out hover:scale-105 shadow-xl shadow-green-900/20">
-        <i class="fab fa-whatsapp"></i> Unirse al canal
-      </a>
-    </div>
-  </div>
 </section>
 
-<!-- 5. Testimonios -->
-<section aria-labelledby="testimonios-titulo" class="py-24 border-y border-white/5 bg-[#070212]/50">
-  <div class="max-w-7xl mx-auto px-6 mb-12 flex flex-col md:flex-row items-center justify-between reveal text-center md:text-left">
-    <div class="mb-6 md:mb-0">
-      <h2 id="testimonios-titulo" class="text-3xl font-bold mb-2 uppercase tracking-tighter">Voces de la <span class="text-violet-500">Comunidad</span></h2>
-        <p class="text-slate-400">Lo que opinan los creadores que ya forman parte de Leedeo.</p>
+<!-- sección: últimas publicaciones -->
+<section id="news" aria-labelledby="news-title" class="py-24 px-6 relative bg-[#0f0a1d]">
+    <div class="max-w-7xl mx-auto">
+        <div class="flex flex-col md:flex-row items-start md:items-end justify-between gap-6 mb-16 reveal">
+            <div>
+                <h2 id="news-title" class="text-3xl md:text-4xl font-bold mb-4 uppercase tracking-tight">
+                    Últimas <span class="text-violet-500">Publicaciones</span>
+                </h2>
+                <p class="text-slate-400 font-medium">Tutoriales, noticias y reflexiones sobre el desarrollo de videojuegos y software independiente.</p>
+            </div>
+            <a href="{{ '/blog/' | relative_url }}" class="btn-outline shrink-0">
+                Ver el blog completo <i class="fas fa-arrow-right"></i>
+            </a>
+        </div>
+
+        <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
+            {% for post in site.posts limit:3 %}
+            <article class="glass-card rounded-custom-32 overflow-hidden flex-col reveal flex">
+                <a href="{{ post.url | relative_url }}" class="aspect-video overflow-hidden relative group block">
+                    <img src="{{ post.thumbnail | relative_url }}" alt="{{ post.title }}" loading="lazy" width="600" height="340"
+                        class="w-full h-full object-cover transition-transform duration-500 group-hover:scale-110" />
+                    <div class="absolute inset-0 bg-gradient-to-t from-[#0f0a1d] to-transparent opacity-60"></div>
+                </a>
+                <div class="p-8 flex flex-col flex-grow">
+                    <div class="flex items-center gap-2 mb-3">
+                        {% assign post_author = site.data.authors[post.author] | default: site.data.authors['javo'] %}
+                        <img src="{{ post_author.avatar }}" alt="{{ post_author.name }}" class="w-6 h-6 rounded-full object-cover border border-violet-300/70 flex-shrink-0" width="24" height="24" loading="lazy">
+                        <div>
+                            <div class="text-slate-400 text-[10px] font-bold uppercase tracking-widest leading-none">{{ post_author.name }}</div>
+                            <div class="text-violet-400 text-[10px] font-bold uppercase tracking-widest leading-none mt-0.5">
+                                {% include date_es.html date=post.date %}
+                            </div>
+                        </div>
+                    </div>
+                    <h3 class="text-xl font-bold mb-4 text-white hover:text-violet-400 transition-colors">
+                        <a href="{{ post.url | relative_url }}">{{ post.title }}</a>
+                    </h3>
+                    <p class="text-slate-400 text-sm leading-relaxed mb-6 flex-grow line-clamp-3">
+                        {{ post.excerpt | strip_html | truncate: 155 }}
+                    </p>
+                    <a href="{{ post.url | relative_url }}"
+                        class="text-xs font-black uppercase tracking-[0.2em] text-white flex items-center gap-2 group/link">
+                        Leer más <i class="fas fa-arrow-right text-violet-500 transition-transform group-hover/link:translate-x-1"></i>
+                    </a>
+                </div>
+            </article>
+            {% endfor %}
+        </div>
     </div>
-    <a href="https://www.youtube.com/@Leedeo" target="_blank" rel="noopener" class="btn-outline shrink-0">
-      Ver todos los comentarios <i class="fas fa-external-link-alt"></i>
-    </a>
-  </div>
-  <div class="marquee-container">
-    <div class="marquee-content" id="marquee-inner">
-      <!-- Generado por testimonials.js -->
-    </div>
-  </div>
 </section>
 
-<!-- 6. Apoyo -->
-<section id="apoyo" aria-labelledby="apoyo-titulo" class="py-24 px-6">
-  <div class="max-w-4xl mx-auto glass-card rounded-custom-48 p-12 text-center border-rose-500/20 reveal">
-    <div class="inline-block p-4 bg-rose-500/10 rounded-full text-rose-500 mb-8">
-      <i class="fas fa-heart text-4xl animate-pulse"></i>
+<!-- sección: comunidad whatsapp -->
+<section id="community" aria-labelledby="community-title" class="pt-0 pb-24 px-6">
+    <div class="max-w-7xl mx-auto bg-gradient-to-br from-slate-900 to-[#05010d] rounded-custom-48 p-8 md:p-16 border border-white/5 relative overflow-hidden">
+        <div class="absolute top-0 right-0 p-10 opacity-10 hidden lg:block">
+            <i class="fab fa-whatsapp text-[15rem] text-green-500 rotate-12"></i>
+        </div>
+        <div class="relative z-10 lg:w-2/3">
+            <div class="wa-badge inline-flex items-center gap-2 px-4 py-1.5 rounded-full text-xs font-bold uppercase tracking-widest mb-6">
+                <i class="fab fa-whatsapp"></i> Canal directo
+            </div>
+            <h2 id="community-title" class="text-3xl md:text-5xl font-black mb-6 tracking-tight">Mantente al tanto.</h2>
+            <p class="text-lg text-slate-400 mb-10 leading-relaxed font-light">
+                Únete a la comunidad privada en WhatsApp para estar al día de nuevos análisis, actualizaciones técnicas y contenido en primicia.
+            </p>
+            <a href="https://whatsapp.com/channel/0029VbCnHY0HrDZl9C2p2N0A" target="_blank" rel="noopener"
+                class="inline-flex items-center gap-4 bg-green-600 hover:bg-green-500 text-white px-10 py-5 rounded-2xl text-xl font-bold transition-all duration-300 ease-out hover:scale-105 shadow-xl shadow-green-900/20">
+                <i class="fab fa-whatsapp"></i> Unirse al canal
+            </a>
+        </div>
     </div>
-    <h2 id="apoyo-titulo" class="text-3xl md:text-5xl font-black mb-6 uppercase tracking-tighter">Apoya el contenido</h2>
-    <p class="text-xl text-slate-300 mb-10 leading-relaxed font-light italic">"Tu apoyo me ayuda a seguir dedicando tiempo a la creación de contenido y herramientas gratuitas para todos."</p>
-    <div class="flex flex-col items-center gap-6">
-      <a href="https://ko-fi.com/leedeo" target="_blank" rel="noopener"
-        class="inline-flex items-center gap-4 bg-rose-600 hover:bg-rose-500 text-white px-12 py-6 rounded-2xl text-2xl font-black transition-all duration-300 ease-out hover:scale-105 shadow-2xl shadow-rose-900/40">
-        <i class="fas fa-coffee"></i> Invítame a un Ko-fi
-      </a>
-      <p class="text-xs text-slate-400 uppercase tracking-widest font-bold">¡Gracias por formar parte de este proyecto!</p>
+</section>
+
+<!-- sección: testimonios -->
+<section aria-labelledby="testimonials-title" class="py-24 border-y border-white/5 bg-[#070212]/50">
+    <div class="max-w-7xl mx-auto px-6 mb-12 flex flex-col md:flex-row items-center justify-between reveal text-center md:text-left">
+        <div class="mb-6 md:mb-0">
+            <h2 id="testimonials-title" class="text-3xl font-bold mb-2 uppercase tracking-tighter">
+                Voces de la <span class="text-violet-500">Comunidad</span>
+            </h2>
+            <p class="text-slate-400">Lo que opinan los creadores que ya forman parte de Leedeo.</p>
+        </div>
+        <a href="https://www.youtube.com/@Leedeo" target="_blank" rel="noopener" class="btn-outline shrink-0">
+            Ver todos los comentarios <i class="fas fa-external-link-alt"></i>
+        </a>
     </div>
-  </div>
+    <div class="marquee-container">
+        <div class="marquee-content" id="marquee-inner"></div>
+    </div>
+</section>
+
+<!-- sección: apoyo -->
+<section id="support" aria-labelledby="support-title" class="py-24 px-6">
+    <div class="max-w-4xl mx-auto glass-card rounded-custom-48 p-12 text-center border-rose-500/20 reveal">
+        <div class="inline-block p-4 bg-rose-500/10 rounded-full text-rose-500 mb-8">
+            <i class="fas fa-heart text-4xl animate-pulse"></i>
+        </div>
+        <h2 id="support-title" class="text-3xl md:text-5xl font-black mb-6 uppercase tracking-tighter">Apoya el contenido</h2>
+        <p class="text-xl text-slate-300 mb-10 leading-relaxed font-light italic">"Tu apoyo me ayuda a seguir dedicando tiempo a la creación de contenido y herramientas gratuitas para todos."</p>
+        <div class="flex flex-col items-center gap-6">
+            <a href="https://ko-fi.com/leedeo" target="_blank" rel="noopener"
+                class="inline-flex items-center gap-4 bg-rose-600 hover:bg-rose-500 text-white px-12 py-6 rounded-2xl text-2xl font-black transition-all duration-300 ease-out hover:scale-105 shadow-2xl shadow-rose-900/40">
+                <i class="fas fa-coffee"></i> Invítame a un Ko-fi
+            </a>
+            <p class="text-xs text-slate-400 uppercase tracking-widest font-bold">¡Gracias por formar parte de este proyecto!</p>
+        </div>
+    </div>
 </section>
 
 <script src="{{ '/assets/js/testimonials.js' | relative_url }}" defer></script>

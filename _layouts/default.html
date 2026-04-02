@@ -1,34 +1,11 @@
 <!DOCTYPE html>
 <html lang="es" class="scroll-smooth">
-
 <head>
     {% include head.html %}
-
-    <script type="application/ld+json">
-    {
-      "@context": "https://schema.org",
-      "@type": "Person",
-      "name": "Javo",
-      "url": "{{ site.url }}/about/",
-      "image": "{{ '/assets/img/ui/author-javo.webp' | absolute_url }}",
-      "jobTitle": "Desarrollador de Videojuegos Independiente",
-      "description": "{{ site.data.authors.javo.bio | escape }}",
-      "sameAs": [
-        "https://www.youtube.com/@Leedeo",
-        "https://x.com/leedeostudio",
-        "https://github.com/Leedeo",
-        "https://ko-fi.com/leedeo",
-        "https://www.tiktok.com/@leedeostudio",
-        "https://www.instagram.com/leedeo/"
-      ],
-      "mainEntityOfPage": {
-        "@type": "WebPage",
-        "@id": "{{ site.url }}"
-      }
-    }
-    </script>
+    {% include schema-person.html %}
 
     {% if page.video %}
+    <!-- esquema: vídeo -->
     <script type="application/ld+json">
     {
       "@context": "https://schema.org",
@@ -51,15 +28,15 @@
 </head>
 
 <body class="selection:bg-violet-500/30">
-
     {% include header.html %}
 
     <main id="main-content">
         {{ content }}
     </main>
+
     {% include footer.html %}
     {% include cookie-banner.html %}
 
+    <script src="{{ '/assets/js/scroll-top.js' | relative_url }}" defer></script>
 </body>
-
 </html>

@@ -1,0 +1,27 @@
+{% comment %}
+  schema-person.html
+  Marcado de persona (Javo) para Schema.org
+{% endcomment %}
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Person",
+  "name": "Javo",
+  "url": "{{ site.url }}/about/",
+  "image": "{{ '/assets/img/ui/author-javo.webp' | absolute_url }}",
+  "jobTitle": "Desarrollador de Videojuegos Independiente",
+  "description": "{{ site.data.authors.javo.bio | escape }}",
+  "sameAs": [
+    "https://www.youtube.com/@Leedeo",
+    "https://x.com/leedeostudio",
+    "https://github.com/Leedeo",
+    "https://ko-fi.com/leedeo",
+    "https://www.tiktok.com/@leedeostudio",
+    "https://www.instagram.com/leedeo/"
+  ],
+  "mainEntityOfPage": {
+    "@type": "WebPage",
+    "@id": "{{ site.url }}"
+  }
+}
+</script>

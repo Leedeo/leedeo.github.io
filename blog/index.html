@@ -3,8 +3,11 @@ layout: "default"
 title: "Blog de Desarrollo de Videojuegos"
 description: "Artículos sobre desarrollo de videojuegos, industria indie, tutoriales de Godot Engine y análisis del mercado. Contenido original de Leedeo Studio."
 ---
-<main class="relative min-h-screen pt-32 pb-24 px-6 hero-gradient">
+
+<div class="relative min-h-screen pt-32 pb-24 px-6 hero-gradient">
     <div class="max-w-7xl mx-auto">
+
+        <!-- cabecera del blog -->
         <header class="mb-12 text-center reveal">
             <h1 class="text-4xl md:text-6xl font-extrabold mb-6 tracking-tight uppercase leading-[1.2]">
                 Mi <span class="gradient-text italic">Blog</span>
@@ -15,7 +18,7 @@ description: "Artículos sobre desarrollo de videojuegos, industria indie, tutor
             <div class="h-1.5 w-24 bg-violet-500 mx-auto rounded-full mt-8"></div>
         </header>
 
-        <!-- Submenu de categorías -->
+        <!-- navegación por categorías -->
         <nav aria-label="Categorías del blog" class="flex flex-wrap justify-center gap-2 mb-12 reveal" style="--reveal-delay: 50ms;">
             <a href="{{ '/blog/' | relative_url }}"
                 class="px-4 py-2 rounded-xl text-xs font-bold uppercase tracking-widest transition-all duration-300 bg-violet-600 text-white border border-violet-500">
@@ -39,6 +42,7 @@ description: "Artículos sobre desarrollo de videojuegos, industria indie, tutor
             </a>
         </nav>
 
+        <!-- buscador -->
         <div class="max-w-2xl mx-auto mb-14 reveal">
             <div class="relative group">
                 <span class="absolute left-5 top-1/2 -translate-y-1/2 text-violet-400 pointer-events-none transition-colors group-focus-within:text-violet-300">
@@ -59,6 +63,7 @@ description: "Artículos sobre desarrollo de videojuegos, industria indie, tutor
             </p>
         </div>
 
+        <!-- artículos paginados -->
         <div id="paginated-posts">
             <div id="paginated-grid" class="grid md:grid-cols-2 lg:grid-cols-3 gap-8 mb-16">
                 {% for post in paginator.posts %}
@@ -77,9 +82,7 @@ description: "Artículos sobre desarrollo de videojuegos, industria indie, tutor
                             <div>
                                 <div class="text-slate-500 text-[10px] font-bold uppercase tracking-widest leading-none">{{ post_author.name }}</div>
                                 <div class="text-violet-400 text-[10px] font-bold uppercase tracking-widest leading-none mt-0.5">
-                                    {% assign months = "enero,febrero,marzo,abril,mayo,junio,julio,agosto,septiembre,octubre,noviembre,diciembre" | split: "," %}
-                                    {% assign m_idx = post.date | date: "%m" | plus: 0 | minus: 1 %}
-                                    {{ post.date | date: "%-d" }} de {{ months[m_idx] }} de {{ post.date | date: "%Y" }}
+                                    {% include date_es.html date=post.date %}
                                 </div>
                             </div>
                         </div>
@@ -102,8 +105,9 @@ description: "Artículos sobre desarrollo de videojuegos, industria indie, tutor
                 {% endfor %}
             </div>
 
+            <!-- paginación -->
             {% if paginator.total_pages > 1 %}
-            <nav id="pagination-nav" class="flex justify-center items-center gap-4 reveal">
+            <nav id="pagination-nav" class="flex justify-center items-center gap-4 reveal" aria-label="Navegación de páginas">
                 {% if paginator.previous_page %}
                 <a href="{{ paginator.previous_page_path | relative_url }}"
                     class="w-12 h-12 flex items-center justify-center rounded-xl bg-violet-600/20 border border-violet-300/70 text-violet-300 hover:bg-violet-600/40 hover:text-white hover:border-violet-400/60 transition-all duration-300 ease-out">
@@ -123,10 +127,11 @@ description: "Artículos sobre desarrollo de videojuegos, industria indie, tutor
             {% endif %}
         </div>
 
+        <!-- contenedor de resultados de búsqueda (oculto por defecto) -->
         <div id="search-results-container" class="hidden">
             <div id="search-results-grid" class="grid lg:grid-cols-2 gap-4"></div>
         </div>
     </div>
-</main>
+</div>
 
 <script src="{{ '/assets/js/search.js' | relative_url }}" defer></script>

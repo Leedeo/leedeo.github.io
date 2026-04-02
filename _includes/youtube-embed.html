@@ -1,20 +1,16 @@
+<!-- vídeo de youtube con carga diferida: solo carga el iframe al hacer clic -->
 <div class="my-8">
-  <!-- YouTube Facade: Se carga la imagen en diferido y el iframe solo se inyecta al hacer clic -->
-  <div class="relative w-full aspect-video rounded-2xl overflow-hidden shadow-2xl bg-[#0f0a1d] group cursor-pointer js-youtube-facade" 
-       data-id="{{ include.id }}" 
-       data-title="{{ include.title | default: 'Vídeo de YouTube' | escape }}">
-    
-    <!-- Miniatura (Carga directa desde la API de YouTube, 0 KB extra en tu repo) -->
-    <img src="https://i.ytimg.com/vi/{{ include.id }}/maxresdefault.jpg" 
-         alt="{{ include.title | default: 'Haz clic para reproducir el vídeo' }}" 
-         class="absolute inset-0 w-full h-full object-cover transition-transform duration-500 group-hover:scale-105" 
-         loading="lazy">
-    
-    <!-- Filtro oscuro y Botón Play visual (Estilo YouTube ampliado) -->
-    <div class="absolute inset-0 flex items-center justify-center bg-black/20 group-hover:bg-transparent transition-colors duration-300">
-      <div class="w-24 h-16 bg-red-600 rounded-2xl flex items-center justify-center shadow-2xl transform">
-        <i class="fas fa-play text-white text-3xl ml-2"></i>
-      </div>
+    <div class="relative w-full aspect-video rounded-2xl overflow-hidden shadow-2xl bg-[#0f0a1d] group cursor-pointer js-youtube-facade"
+        data-id="{{ include.id }}"
+        data-title="{{ include.title | default: 'Vídeo de YouTube' | escape }}">
+        <img src="https://i.ytimg.com/vi/{{ include.id }}/maxresdefault.jpg"
+            alt="{{ include.title | default: 'Haz clic para reproducir el vídeo' }}"
+            class="absolute inset-0 w-full h-full object-cover transition-transform duration-500 group-hover:scale-105"
+            loading="lazy">
+        <div class="absolute inset-0 flex items-center justify-center bg-black/20 group-hover:bg-transparent transition-colors duration-300">
+            <div class="w-24 h-16 bg-red-600 rounded-2xl flex items-center justify-center shadow-2xl">
+                <i class="fas fa-play text-white text-3xl ml-2"></i>
+            </div>
+        </div>
     </div>
-  </div>
 </div>

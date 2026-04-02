@@ -1,11 +1,9 @@
 ---
 layout: "default"
 author: "javo"
-
 thumbnail: "/assets/img/projects/leedeo-cleaner-interface.webp"
 title: "Leedeo Cleaner, Optimizador Portable de Windows"
 description: "Leedeo Cleaner es un optimizador de Windows gratuito, portable y open source que utiliza herramientas nativas de Microsoft para reparar y limpiar tu sistema en profundidad."
-
 redirect_from:
   - "/projects/leedeo-cleaner.html"
 permalink: "/projects/leedeo-cleaner/"
@@ -40,9 +38,8 @@ permalink: "/projects/leedeo-cleaner/"
   "license": "https://opensource.org/licenses/MIT"
 }
 </script>
-<main class="relative min-h-screen pt-32 pb-24 px-6 hero-gradient overflow-x-hidden">
+<div class="relative min-h-screen pt-32 pb-24 px-6 hero-gradient overflow-x-hidden">
 
-  <!-- HERO: logo, título y descripción -->
   <header class="max-w-4xl mx-auto text-center mb-20 reveal">
     <div class="mb-8 inline-block">
       <div class="bg-white/5 p-4 rounded-3xl backdrop-blur-sm border border-white/10 shadow-2xl" style="box-shadow: 0 25px 50px -12px rgba(139,92,246,0.2);">
@@ -58,7 +55,6 @@ permalink: "/projects/leedeo-cleaner/"
     </p>
   </header>
 
-  <!-- MOCKUP DE INTERFAZ -->
   <section aria-label="Captura de la interfaz" class="max-w-3xl mx-auto mb-16 reveal delay-100">
     <div class="lc-mockup-frame">
       <div class="lc-mockup-titlebar">
@@ -72,10 +68,9 @@ permalink: "/projects/leedeo-cleaner/"
     </div>
   </section>
 
-  <!-- QUÉ HACE Y QUÉ NO HACE -->
-  <section aria-labelledby="comparativa-titulo" class="max-w-4xl mx-auto mb-16">
+  <section aria-labelledby="comparison-title" class="max-w-4xl mx-auto mb-16">
     <div class="text-center mb-16 reveal">
-      <h2 id="comparativa-titulo" class="text-3xl md:text-4xl font-black tracking-tight mb-4 uppercase">
+      <h2 id="comparison-title" class="text-3xl md:text-4xl font-black tracking-tight mb-4 uppercase">
         Reparación nativa, <span class="text-violet-500 italic">sin humo</span>
       </h2>
       <p class="text-slate-400 max-w-2xl mx-auto text-lg">La mayoría de "optimizadores comerciales" instalan procesos persistentes y te asustan con alertas exageradas. Leedeo Cleaner es brutalmente honesto y técnico.</p>
@@ -89,22 +84,10 @@ permalink: "/projects/leedeo-cleaner/"
         </div>
         <h3 class="text-2xl font-bold text-white mb-6 uppercase tracking-tight">Lo que NO hace</h3>
         <ul class="text-slate-400 space-y-4 font-medium">
-          <li class="flex items-start gap-3">
-            <i class="fas fa-minus mt-1 flex-shrink-0 text-red-500/50"></i>
-            <span>No se instala ni modifica tu disco duro de forma pasiva.</span>
-          </li>
-          <li class="flex items-start gap-3">
-            <i class="fas fa-minus mt-1 flex-shrink-0 text-red-500/50"></i>
-            <span>No deja procesos consumiendo memoria RAM en segundo plano.</span>
-          </li>
-          <li class="flex items-start gap-3">
-            <i class="fas fa-minus mt-1 flex-shrink-0 text-red-500/50"></i>
-            <span>No inventa cientos de "errores graves" inexistentes para venderte nada.</span>
-          </li>
-          <li class="flex items-start gap-3">
-            <i class="fas fa-minus mt-1 flex-shrink-0 text-red-500/50"></i>
-            <span>No recopila absolutamente ningún dato de telemetría.</span>
-          </li>
+          <li class="flex items-start gap-3"><i class="fas fa-minus mt-1 flex-shrink-0 text-red-500/50"></i><span>No se instala ni modifica tu disco duro de forma pasiva.</span></li>
+          <li class="flex items-start gap-3"><i class="fas fa-minus mt-1 flex-shrink-0 text-red-500/50"></i><span>No deja procesos consumiendo memoria RAM en segundo plano.</span></li>
+          <li class="flex items-start gap-3"><i class="fas fa-minus mt-1 flex-shrink-0 text-red-500/50"></i><span>No inventa cientos de "errores graves" inexistentes para venderte nada.</span></li>
+          <li class="flex items-start gap-3"><i class="fas fa-minus mt-1 flex-shrink-0 text-red-500/50"></i><span>No recopila absolutamente ningún dato de telemetría.</span></li>
         </ul>
       </div>
 
@@ -115,64 +98,47 @@ permalink: "/projects/leedeo-cleaner/"
         </div>
         <h3 class="text-2xl font-bold text-white mb-6 uppercase tracking-tight relative z-10">Lo que SÍ hace</h3>
         <ul class="text-slate-300 space-y-4 font-medium relative z-10">
-          <li class="flex items-start gap-3">
-            <i class="fas fa-plus mt-1 flex-shrink-0 text-green-500/50"></i>
-            <span>Ejecuta comandos <span class="lc-code">DISM</span> y <span class="lc-code">SFC</span> nativos de Windows.</span>
-          </li>
-          <li class="flex items-start gap-3">
-            <i class="fas fa-plus mt-1 flex-shrink-0 text-green-500/50"></i>
-            <span>Repara la integridad de los archivos del sistema que causan pantallazos.</span>
-          </li>
-          <li class="flex items-start gap-3">
-            <i class="fas fa-plus mt-1 flex-shrink-0 text-green-500/50"></i>
-            <span>Purga la caché de Windows Update cuando se bloquea.</span>
-          </li>
-          <li class="flex items-start gap-3">
-            <i class="fas fa-plus mt-1 flex-shrink-0 text-green-500/50"></i>
-            <span>Lo llevas en tu pendrive. Simplemente lo ejecutas y lo cierras.</span>
-          </li>
+          <li class="flex items-start gap-3"><i class="fas fa-plus mt-1 flex-shrink-0 text-green-500/50"></i><span>Ejecuta comandos <span class="lc-code">DISM</span> y <span class="lc-code">SFC</span> nativos de Windows.</span></li>
+          <li class="flex items-start gap-3"><i class="fas fa-plus mt-1 flex-shrink-0 text-green-500/50"></i><span>Repara la integridad de los archivos del sistema que causan pantallazos.</span></li>
+          <li class="flex items-start gap-3"><i class="fas fa-plus mt-1 flex-shrink-0 text-green-500/50"></i><span>Purga la caché de Windows Update cuando se bloquea.</span></li>
+          <li class="flex items-start gap-3"><i class="fas fa-plus mt-1 flex-shrink-0 text-green-500/50"></i><span>Lo llevas en tu pendrive. Simplemente lo ejecutas y lo cierras.</span></li>
         </ul>
       </div>
     </div>
   </section>
 
-  <!-- CARACTERÍSTICAS PRINCIPALES -->
-  <section aria-labelledby="features-titulo" class="max-w-5xl mx-auto mb-32">
-    <h2 id="features-titulo" class="sr-only">Características principales</h2>
+  <section aria-labelledby="features-title" class="max-w-5xl mx-auto mb-32">
+    <h2 id="features-title" class="sr-only">Características principales</h2>
     <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
       <div class="static-glass-card rounded-3xl p-8 border border-white/5 text-center reveal">
         <div class="lc-icon-box mx-auto mb-6 bg-white/5">
           <i class="fas fa-code text-violet-400 text-2xl"></i>
         </div>
         <h3 class="text-xl font-bold text-white mb-3 uppercase tracking-tight">Transparencia Total</h3>
-        <p class="text-sm text-slate-400 leading-relaxed font-medium">Su código fuente es 100% público en GitHub. Puedes explorar línea por línea y auditar cada operación que realiza la herramienta sobre tu máquina.</p>
+        <p class="text-sm text-slate-400 leading-relaxed font-medium">Su código fuente es 100% público en GitHub. Puedes explorar línea por línea y auditar cada operación.</p>
       </div>
-
       <div class="static-glass-card rounded-3xl p-8 border border-white/5 text-center reveal delay-100">
         <div class="lc-icon-box mx-auto mb-6 bg-white/5">
           <i class="fas fa-trash-alt text-fuchsia-400 text-2xl"></i>
         </div>
         <h3 class="text-xl font-bold text-white mb-3 uppercase tracking-tight">Limpieza Server-Grade</h3>
-        <p class="text-sm text-slate-400 leading-relaxed font-medium">Vacía los registros de error antiguos, las carpetas prefetch y los temporales nativos del sistema que las suites comerciales evitan tocar.</p>
+        <p class="text-sm text-slate-400 leading-relaxed font-medium">Vacía los registros de error antiguos, las carpetas prefetch y los temporales nativos del sistema.</p>
       </div>
-
       <div class="static-glass-card rounded-3xl p-8 border border-white/5 text-center reveal delay-200">
         <div class="lc-icon-box mx-auto mb-6 bg-white/5">
           <i class="fas fa-hdd text-sky-400 text-2xl"></i>
         </div>
         <h3 class="text-xl font-bold text-white mb-3 uppercase tracking-tight">Cero Rastro</h3>
-        <p class="text-sm text-slate-400 leading-relaxed font-medium">El compañero ideal para el pendrive de cualquier técnico o power user. Resuelve el problema del equipo, ciérralo y extrae el USB. Sin instalar nada.</p>
+        <p class="text-sm text-slate-400 leading-relaxed font-medium">El compañero ideal para el pendrive de cualquier técnico o power user. Resuelve el problema y ciérralo.</p>
       </div>
     </div>
   </section>
 
-  <!-- CTA FINAL DE DESCARGA -->
-  <section aria-labelledby="cta-titulo" class="max-w-4xl mx-auto text-center reveal relative z-10">
+  <section aria-labelledby="cta-title" class="max-w-4xl mx-auto text-center reveal relative z-10">
     <div class="static-glass-card lc-cta-box">
       <div class="absolute inset-0 bg-gradient-to-b from-violet-900/10 to-transparent pointer-events-none"></div>
       <i class="fas fa-broom lc-cta-bg-icon"></i>
-
-      <h2 id="cta-titulo" class="text-3xl md:text-5xl font-black text-white mb-6 uppercase tracking-tight relative z-10">El Control Vuelve a Ti</h2>
+      <h2 id="cta-title" class="text-3xl md:text-5xl font-black text-white mb-6 uppercase tracking-tight relative z-10">El Control Vuelve a Ti</h2>
       <p class="text-slate-300 mb-12 text-lg leading-relaxed font-light relative z-10">
         Descarga la versión más reciente en la sección de Github Releases. Descomprime en una carpeta, ejecuta como administrador y deja que las herramientas nativas de tu sistema hagan el trabajo.
       </p>
@@ -187,4 +153,4 @@ permalink: "/projects/leedeo-cleaner/"
     </div>
   </section>
 
-</main>
+</div>

@@ -1,3 +1,6 @@
+{% comment %}
+  autor del artículo: si no tiene autor asignado, usa javo por defecto
+{% endcomment %}
 {% assign post_author = site.data.authors[page.author] %}
 {% unless post_author %}
   {% assign post_author = site.data.authors['javo'] %}
