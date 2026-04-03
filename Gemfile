@@ -7,7 +7,6 @@ gem "github-pages", "~> 228"
 # Plugins locales (no soportados nativamente por GH Pages, pero requeridos localmente)
 group :jekyll_plugins do
   gem "jekyll-paginate"
-  gem "jekyll-redirect-from"
   gem "jekyll-sitemap"
   gem "jekyll-feed"
   gem "jekyll-seo-tag"

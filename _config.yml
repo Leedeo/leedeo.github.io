@@ -4,30 +4,12 @@ description: "Leedeo Studio: Tutoriales prácticos de Godot Engine, cursos de de
 baseurl: ""
 url: "https://leedeo.net"
 permalink: /blog/:title/
-twitter_username: leedeostudio
-github_username:  Leedeo
-
-author:
-  name: "Javo"
-  twitter: leedeostudio
-
-social:
-  name: "Leedeo Studio"
-  links:
-    - https://www.youtube.com/@Leedeo
-    - https://x.com/leedeostudio
-    - https://github.com/Leedeo
-    - https://ko-fi.com/leedeo
-    - https://whatsapp.com/channel/0029VbCnHY0HrDZl9C2p2N0A
-    - https://www.tiktok.com/@leedeostudio
-    - https://www.instagram.com/leedeostudio/
 
 markdown: kramdown
 plugins:
   - jekyll-feed
   - jekyll-seo-tag
   - jekyll-sitemap
-  - jekyll-redirect-from
   - jekyll-paginate
 
 paginate: 12
