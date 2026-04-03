@@ -10,10 +10,6 @@ excerpt: "La IA ha eliminado las barreras técnicas para crear un videojuego. Pe
 
 categories:
 - Game Dev
-redirect_from:
-  - "/ia-videojuegos-democratizacion-mito/"
-  - "/2026/03/19/ia-videojuegos-democratizacion-mito/"
-
 video:
   id: "3ifj5q95qdk"
   title: "¿Por dónde empezar a crear Videojuegos?"

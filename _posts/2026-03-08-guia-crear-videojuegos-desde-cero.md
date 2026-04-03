@@ -10,10 +10,6 @@ excerpt: "Olvida los consejos vacíos. Aprender a crear videojuegos requiere una
 
 categories:
 - Game Dev
-redirect_from:
-  - "/guia-crear-videojuegos-desde-cero/"
-  - "/2026/03/08/guia-crear-videojuegos-desde-cero/"
-
 video:
   id: "L3pFEk1HPCQ"
   title: "Curso Godot 4 desde Cero [01] Instalar y Configurar"

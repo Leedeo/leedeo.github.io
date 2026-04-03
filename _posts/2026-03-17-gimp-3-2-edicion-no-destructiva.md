@@ -10,10 +10,6 @@ excerpt: "GIMP 3.2 marca un hito histórico tras tres décadas de espera: la lle
 
 categories:
 - Herramientas
-redirect_from:
-  - "/gimp-3-2-edicion-no-destructiva/"
-  - "/2026/03/17/gimp-3-2-edicion-no-destructiva/"
-
 video:
   id: "bslPe_Y43es"
   title: "Tutorial de GIMP, Edición de imagen libre"

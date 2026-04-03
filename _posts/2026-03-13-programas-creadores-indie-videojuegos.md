@@ -10,10 +10,6 @@ excerpt: "Descubre por qué los programas de creadores son más efectivos que la
 
 categories:
 - Game Dev
-redirect_from:
-  - "/programas-creadores-indie-videojuegos/"
-  - "/2026/03/13/programas-creadores-indie-videojuegos/"
-
 video:
   id: "3ifj5q95qdk"
   title: "¿Por dónde empezar a crear Videojuegos?"

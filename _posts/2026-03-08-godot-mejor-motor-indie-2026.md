@@ -11,10 +11,6 @@ excerpt: "Analizo las razones de peso por las que Godot Engine se ha convertido 
 categories:
 - Game Dev
 - Godot
-redirect_from:
-  - "/godot-mejor-motor-indie-2026/"
-  - "/2026/03/08/godot-mejor-motor-indie-2026/"
-
 video:
   id: "L3pFEk1HPCQ"
   title: "Curso Godot 4 desde Cero [01] Instalar y Configurar"

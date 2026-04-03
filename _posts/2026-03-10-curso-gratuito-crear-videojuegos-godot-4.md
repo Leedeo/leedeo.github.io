@@ -11,10 +11,6 @@ excerpt: "Aprender a crear videojuegos nunca ha sido tan accesible como ahora. D
 categories:
 - Godot
 - Game Dev
-redirect_from:
-  - "/curso-gratuito-crear-videojuegos-godot-4/"
-  - "/2026/03/10/curso-gratuito-crear-videojuegos-godot-4/"
-
 video:
   id: "L3pFEk1HPCQ"
   title: "Curso Godot 4 desde Cero [01] Instalar y Configurar"

@@ -10,10 +10,6 @@ excerpt: "El creador de Resident Evil fundó Unbound Games en 2023, un estudio i
 
 categories:
 - Gaming
-redirect_from:
-  - "/shinji-mikami-unbound-games/"
-  - "/2026/03/10/shinji-mikami-unbound-games/"
-
 video:
   id: "3ifj5q95qdk"
   title: "¿Por dónde empezar a crear Videojuegos?"

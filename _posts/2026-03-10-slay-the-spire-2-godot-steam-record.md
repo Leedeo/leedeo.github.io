@@ -11,10 +11,6 @@ excerpt: "Slay the Spire 2 entra en Early Access batiendo récords y demostrando
 categories:
 - Godot
 - Gaming
-redirect_from:
-  - "/slay-the-spire-2-godot-steam-record/"
-  - "/2026/03/10/slay-the-spire-2-godot-steam-record/"
-
 video:
   id: "L3pFEk1HPCQ"
   title: "Curso Godot 4 desde Cero [01] Instalar y Configurar"

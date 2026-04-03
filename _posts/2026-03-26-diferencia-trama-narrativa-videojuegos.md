@@ -10,10 +10,6 @@ excerpt: "¿Es lo mismo lo que pasa que cómo se cuenta? Un análisis sobre la d
 
 categories:
 - Game Dev
-redirect_from:
-  - "/diferencia-trama-narrativa-videojuegos/"
-  - "/2026/03/26/diferencia-trama-narrativa-videojuegos/"
-
 video:
   id: "3ifj5q95qdk"
   title: "¿Por dónde empezar a crear Videojuegos?"

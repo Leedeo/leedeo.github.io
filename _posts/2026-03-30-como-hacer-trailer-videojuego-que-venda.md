@@ -10,10 +10,6 @@ excerpt: "Un tráiler de videojuego no está para tener algo que subir a redes, 
 
 categories:
 - Game Dev
-redirect_from:
-  - "/como-hacer-trailer-videojuego-que-venda/"
-  - "/2026/03/30/como-hacer-trailer-videojuego-que-venda/"
-
 video:
   id: "xFT4UGVw610"
   title: "El secreto para que tu juego no sea ignorado: Tráilers que venden"

@@ -11,10 +11,6 @@ excerpt: "¿Realmente importa qué motor elijas para trabajar? Desmontamos los m
 categories:
 - Game Dev
 - Godot
-redirect_from:
-  - "/godot-vs-unity-realidad/"
-  - "/2026/03/08/godot-vs-unity-realidad/"
-
 video:
   id: "L3pFEk1HPCQ"
   title: "Curso Godot 4 desde Cero [01] Instalar y Configurar"

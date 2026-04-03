@@ -12,10 +12,6 @@ categories:
 - Game Dev
 - Gaming
 
-redirect_from:
-  - "/historia-mugen-motor-crossovers/"
-  - "/2026/03/31/historia-mugen-motor-crossovers/"
-
 video:
   id: "1_33sLVzqlE"
   title: "Historia de MUGEN, El Motor de los Crossovers Imposibles"

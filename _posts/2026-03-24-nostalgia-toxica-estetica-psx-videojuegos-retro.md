@@ -10,10 +10,6 @@ excerpt: "Polígonos torcidos, texturas temblorosas, niebla espesa. La estética
 
 categories:
 - Gaming
-redirect_from:
-  - "/nostalgia-toxica-estetica-psx-videojuegos-retro/"
-  - "/2026/03/24/nostalgia-toxica-estetica-psx-videojuegos-retro/"
-
 video:
   id: "0h_F-gHSeM0"
   title: "Juegos Indie vs AAA: La verdadera diferencia"

@@ -10,10 +10,6 @@ excerpt: "El abandono de los videojuegos por parte de los jugadores no es pereza
 
 categories:
 - Gaming
-redirect_from:
-  - "/jugadores-nunca-terminan-videojuegos/"
-  - "/2026/03/11/jugadores-nunca-terminan-videojuegos/"
-
 video:
   id: "3ifj5q95qdk"
   title: "¿Por dónde empezar a crear Videojuegos?"

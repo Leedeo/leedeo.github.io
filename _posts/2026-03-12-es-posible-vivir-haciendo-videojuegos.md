@@ -10,10 +10,6 @@ excerpt: "Voy a empezar con la respuesta corta: sí, es posible. Y ahora voy a d
 
 categories:
 - Game Dev
-redirect_from:
-  - "/es-posible-vivir-haciendo-videojuegos/"
-  - "/2026/03/12/es-posible-vivir-haciendo-videojuegos/"
-
 video:
   id: "NWosjlLorEU"
   title: "Por qué aprender Unity o Unreal no te dará trabajo"

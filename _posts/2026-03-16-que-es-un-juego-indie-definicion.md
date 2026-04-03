@@ -10,10 +10,6 @@ excerpt: "Parece una pregunta sencilla, pero hoy es un terreno pantanoso. Analiz
 
 categories:
 - Gaming
-redirect_from:
-  - "/que-es-un-juego-indie-definicion/"
-  - "/2026/03/16/que-es-un-juego-indie-definicion/"
-
 video:
   id: "0h_F-gHSeM0"
   title: "Juegos Indie vs AAA: La verdadera diferencia"

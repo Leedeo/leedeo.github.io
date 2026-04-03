@@ -12,10 +12,6 @@ categories:
 - Gaming
 - Godot
 
-redirect_from:
-  - "/sengodai-analisis-deck-builder/"
-  - "/2026/04/01/sengodai-analisis-deck-builder/"
-
 video:
   id: "6JZ90bDNc60"
   title: "Sengodai: Cartas, Dolor y una Partida Más"

@@ -12,10 +12,6 @@ categories:
 - Game Dev
 - Gaming
 - Godot
-redirect_from:
-  - "/godot-showcase-buckshot-roulette/"
-  - "/2026/03/09/godot-showcase-buckshot-roulette/"
-
 video:
   id: "L3pFEk1HPCQ"
   title: "Curso Godot 4 desde Cero [01] Instalar y Configurar"

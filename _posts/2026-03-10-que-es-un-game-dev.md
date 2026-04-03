@@ -10,10 +10,6 @@ excerpt: "Si alguna vez has jugado a un videojuego y te has preguntado quién di
 
 categories:
 - Game Dev
-redirect_from:
-  - "/que-es-un-game-dev/"
-  - "/2026/03/10/que-es-un-game-dev/"
-
 video:
   id: "3ifj5q95qdk"
   title: "¿Por dónde empezar a crear Videojuegos?"

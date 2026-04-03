@@ -10,10 +10,6 @@ excerpt: "Descubre qué es Defold, el motor de videojuegos gratuito y sin regal�
 
 categories:
 - Game Dev
-redirect_from:
-  - "/que-es-defold-motor-videojuegos/"
-  - "/2026/03/14/que-es-defold-motor-videojuegos/"
-
 video:
   id: "3ifj5q95qdk"
   title: "¿Por dónde empezar a crear Videojuegos?"

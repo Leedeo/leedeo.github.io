@@ -10,10 +10,6 @@ excerpt: "Exploramos la fascinante relación entre el séptimo arte y el entrete
 
 categories:
 - Gaming
-redirect_from:
-  - "/cine-videojuegos-historia-influencia/"
-  - "/2026/03/16/cine-videojuegos-historia-influencia/"
-
 video:
   id: "0h_F-gHSeM0"
   title: "Juegos Indie vs AAA: La verdadera diferencia"

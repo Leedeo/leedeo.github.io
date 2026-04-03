@@ -10,10 +10,6 @@ excerpt: "Si estás pensando en hacer un videojuego y publicarlo, en algún mome
 
 categories:
 - Game Dev
-redirect_from:
-  - "/cuanto-gana-desarrollador-indie/"
-  - "/2026/03/11/cuanto-gana-desarrollador-indie/"
-
 video:
   id: "3ifj5q95qdk"
   title: "¿Por dónde empezar a crear Videojuegos?"

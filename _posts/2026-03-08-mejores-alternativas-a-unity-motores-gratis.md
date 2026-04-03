@@ -10,10 +10,6 @@ excerpt: "Unity ha cambiado, y el mercado también. Si estás buscando un un nue
 
 categories:
 - Game Dev
-redirect_from:
-  - "/mejores-alternativas-a-unity-motores-gratis/"
-  - "/2026/03/08/mejores-alternativas-a-unity-motores-gratis/"
-
 video:
   id: "WzSrFVa36Lg"
   title: "Top 9 Motores de Juegos Gratis"

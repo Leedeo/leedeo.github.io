@@ -10,10 +10,6 @@ excerpt: "Hay una conversación que Chris Charla, director del programa ID@Xbox 
 
 categories:
 - Game Dev
-redirect_from:
-  - "/error-precio-juego-indie/"
-  - "/2026/03/12/error-precio-juego-indie/"
-
 video:
   id: "3ifj5q95qdk"
   title: "¿Por dónde empezar a crear Videojuegos?"

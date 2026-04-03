@@ -10,10 +10,6 @@ excerpt: "Si estás pensando en hacer tu primer juego, o en el próximo después
 
 categories:
 - Game Dev
-redirect_from:
-  - "/generos-rentables-indie-guia-steam/"
-  - "/2026/03/11/generos-rentables-indie-guia-steam/"
-
 video:
   id: "3ifj5q95qdk"
   title: "¿Por dónde empezar a crear Videojuegos?"

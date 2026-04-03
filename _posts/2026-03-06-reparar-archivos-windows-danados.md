@@ -10,10 +10,6 @@ excerpt: "¿Windows encontró archivos corruptos pero no pudo repararlos? Descub
 
 categories:
 - Herramientas
-redirect_from:
-  - "/reparar-archivos-windows-danados/"
-  - "/2026/03/06/reparar-archivos-windows-danados/"
-
 faq:
   - question: "¿Qué hacer si SFC /scannow no funciona?"
     answer: "Si SFC falla, generalmente es porque la imagen maestra del sistema está dañada. Primero debes ejecutar el comando DISM con la opción /RestoreHealth para reparar el almacén de componentes y luego reintentar SFC."

@@ -10,10 +10,6 @@ excerpt: "La tasa de fracaso comercial del desarrollo indie se sitúa entre el 8
 
 categories:
 - Game Dev
-redirect_from:
-  - "/por-que-fracasan-juegos-indie-primer-mes/"
-  - "/2026/03/19/por-que-fracasan-juegos-indie-primer-mes/"
-
 video:
   id: "3ifj5q95qdk"
   title: "¿Por dónde empezar a crear Videojuegos?"

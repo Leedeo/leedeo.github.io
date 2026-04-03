@@ -11,10 +11,6 @@ excerpt: "¿Quieres aprender a programar pero el código te parece imposible? De
 categories:
 - Game Dev
 - Godot
-redirect_from:
-  - "/aprende-programar-videojuegos-gdscript/"
-  - "/2026/03/07/aprende-programar-videojuegos-gdscript/"
-
 video:
   id: "x9N1gw2qWEQ"
   title: "Curso Godot 4 desde Cero [04] Aprende a Programar con GDScript"

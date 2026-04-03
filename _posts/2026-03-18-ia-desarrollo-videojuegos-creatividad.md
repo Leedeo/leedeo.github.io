@@ -10,10 +10,6 @@ excerpt: "La inteligencia artificial generativa está transformando el desarroll
 
 categories:
 - Game Dev
-redirect_from:
-  - "/ia-desarrollo-videojuegos-creatividad/"
-  - "/2026/03/18/ia-desarrollo-videojuegos-creatividad/"
-
 video:
   id: "3ifj5q95qdk"
   title: "¿Por dónde empezar a crear Videojuegos?"

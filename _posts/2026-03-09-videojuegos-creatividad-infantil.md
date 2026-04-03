@@ -10,10 +10,6 @@ excerpt: "Un análisis del impacto de los entornos interactivos en el desarrollo
 
 categories:
 - Gaming
-redirect_from:
-  - "/videojuegos-creatividad-infantil/"
-  - "/2026/03/09/videojuegos-creatividad-infantil/"
-
 video:
   id: "L3pFEk1HPCQ"
   title: "Curso Godot 4 desde Cero [01] Instalar y Configurar"

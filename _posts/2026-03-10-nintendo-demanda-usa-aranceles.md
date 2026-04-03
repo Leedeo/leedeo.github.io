@@ -10,10 +10,6 @@ excerpt: "Nintendo of America inicia acciones legales contra el aparato gubernam
 
 categories:
 - Gaming
-redirect_from:
-  - "/nintendo-demanda-usa-aranceles/"
-  - "/2026/03/10/nintendo-demanda-usa-aranceles/"
-
 video:
   id: "NWosjlLorEU"
   title: "Por qué aprender Unity o Unreal no te dará trabajo"

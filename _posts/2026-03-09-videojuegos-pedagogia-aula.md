@@ -10,10 +10,6 @@ excerpt: "Un análisis del papel de los serious games y el marco legal de la LOM
 
 categories:
 - Gaming
-redirect_from:
-  - "/videojuegos-pedagogia-aula/"
-  - "/2026/03/09/videojuegos-pedagogia-aula/"
-
 video:
   id: "3ifj5q95qdk"
   title: "¿Por dónde empezar a crear Videojuegos?"

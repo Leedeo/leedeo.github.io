@@ -10,10 +10,6 @@ excerpt: "Un análisis de la crisis del modelo de desarrollo AAA. Presupuestos d
 
 categories:
 - Game Dev
-redirect_from:
-  - "/coste-rentabilidad-videojuegos-aaa/"
-  - "/2026/03/09/coste-rentabilidad-videojuegos-aaa/"
-
 video:
   id: "NWosjlLorEU"
   title: "Por qué aprender Unity o Unreal no te dará trabajo"

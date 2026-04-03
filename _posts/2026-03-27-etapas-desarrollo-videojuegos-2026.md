@@ -10,10 +10,6 @@ excerpt: "El desarrollo de videojuegos ha cambiado. Adiós a guías de 2018. Des
 
 categories:
 - Game Dev
-redirect_from:
-  - "/etapas-desarrollo-videojuegos-2026/"
-  - "/2026/03/27/etapas-desarrollo-videojuegos-2026/"
-
 video:
   id: "3ifj5q95qdk"
   title: "¿Por dónde empezar a crear Videojuegos?"
