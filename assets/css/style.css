@@ -13,10 +13,6 @@
   --transition-smooth: all 0.4s cubic-bezier(0.175, 0.885, 0.32, 1.275);
 }
 
-/* fuentes de font awesome locales para que el navegador no las pida dos veces */
-@font-face { font-family: 'Font Awesome 7 Free'; font-display: swap; src: local('Font Awesome 7 Free'); }
-@font-face { font-family: 'Font Awesome 7 Brands'; font-display: swap; src: local('Font Awesome 7 Brands'); }
-
 /* redondeos personalizados que tailwind no cubre con sus utilidades */
 .rounded-custom-40 { border-radius: 2.5rem; }
 .rounded-custom-32 { border-radius: 2rem; }
@@ -113,26 +109,6 @@ strong { font-weight: 700; color: #fff; }
   border-color: #8b5cf6;
   color: white;
   transform: translateY(-2px);
-}
-
-/* botón que se genera desde markdown, no tocar clases inline */
-.btn-markdown {
-  background: #7c3aed;
-  color: #ffffff !important;
-  padding: 0.8rem 1.75rem;
-  border-radius: 1rem;
-  border: 1px solid rgba(255, 255, 255, 0.05);
-  box-shadow: 0 10px 15px -3px rgba(139, 92, 246, 0.25);
-  text-decoration: none !important;
-  font-size: 1rem;
-  margin: 1rem 0;
-}
-
-.btn-markdown:hover {
-  background: var(--violet-primary);
-  color: #ffffff !important;
-  transform: scale(1.04);
-  box-shadow: 0 15px 25px -4px rgba(139, 92, 246, 0.4);
 }
 
 /* badge del canal de whatsapp */

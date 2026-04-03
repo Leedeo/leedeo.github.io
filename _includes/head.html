@@ -17,13 +17,9 @@
 <meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self' https://pagead2.googlesyndication.com https://www.googletagmanager.com https://www.google-analytics.com https://fundingchoicesmessages.google.com https://leedeo.disqus.com https://a.disquscdn.com; script-src-attr 'none'; style-src 'self' 'unsafe-inline' https://fonts.googleapis.com https://cdnjs.cloudflare.com; font-src 'self' data: https://fonts.gstatic.com https://cdnjs.cloudflare.com; img-src 'self' data: https://pagead2.googlesyndication.com https://www.google-analytics.com https://referrer.disqus.com https://a.disquscdn.com https://i.ytimg.com; connect-src 'self' https://pagead2.googlesyndication.com https://www.google-analytics.com https://links.services.disqus.com https://fonts.googleapis.com https://fonts.gstatic.com; frame-src https://fundingchoicesmessages.google.com https://googleads.g.doubleclick.net https://www.youtube.com https://www.youtube-nocookie.com https://disqus.com; base-uri 'self'; form-action 'self'; upgrade-insecure-requests;">
 
 <!-- preconexiones a dominios externos -->
-<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.googleapis.com" crossorigin>
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link rel="preconnect" href="https://cdnjs.cloudflare.com" crossorigin>
-
-<!-- precarga de fuentes críticas de font awesome -->
-<link rel="preload" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/webfonts/fa-solid-900.woff2" as="font" type="font/woff2" crossorigin>
-<link rel="preload" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/webfonts/fa-brands-400.woff2" as="font" type="font/woff2" crossorigin>
 
 {% if page.video %}
 <link rel="preconnect" href="https://www.youtube.com">
@@ -46,7 +42,6 @@
 <script src="{{ '/assets/js/site.js' | relative_url }}" defer></script>
 <script src="{{ '/assets/js/analytics.js' | relative_url }}" defer></script>
 
-<!-- favicon y feeds -->
+<!-- favicon -->
 <link rel="icon" href="{{ '/favicon.ico' | relative_url }}" type="image/x-icon">
 <link rel="apple-touch-icon" href="{{ '/apple-touch-icon.png' | relative_url }}">
-<link rel="alternate" type="application/rss+xml" title="Leedeo Studio - Blog" href="{{ '/feed.xml' | relative_url }}">

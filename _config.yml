@@ -28,3 +28,8 @@ exclude:
   - vendor
   - assets/css/tailwind-input.css
   - _herramientas
+  - package.json
+  - package-lock.json
+  - build-tailwind.sh
+  - build-tailwind.bat
+  - cloudcannon.config.yml
