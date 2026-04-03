@@ -145,12 +145,8 @@ strong { font-weight: 700; color: #fff; }
 /* ── fondo animado con blobs ─────────────────────────── */
 .hero-gradient {
   position: relative;
-  background: var(--bg-dark);
-  overflow: hidden;
-}
-
-main.hero-gradient {
   background: radial-gradient(circle at 50% 0%, rgba(139, 92, 246, 0.15) 0%, rgba(5, 1, 13, 1) 70%);
+  overflow: hidden;
 }
 
 .hero-bg-anim {
