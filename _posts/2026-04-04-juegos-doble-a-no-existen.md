@@ -11,16 +11,16 @@ excerpt: "Cada cierto tiempo la industria se inventa una etiqueta nueva. El dobl
 categories:
 - Gaming
 faq:
-  - question: "¿Existen realmente los juegos doble A?"
-    answer: "No como categoría con identidad propia. El término AA se usa para describir juegos de presupuesto medio entre indie y AAA, pero no define una naturaleza de producción ni una filosofía creativa. Es una franja presupuestaria vaga, no una categoría real."
-  - question: "¿Por qué la industria usa la etiqueta doble A?"
-    answer: "Porque las grandes empresas necesitan una narrativa emocional para empaquetar la reducción de presupuestos. Hacer juegos más pequeños es más rentable tras los costes descontrolados de los AAA, pero venderlo como 'doble A' suena más noble que decir 'recortamos gastos'."
+  - question: "¿Qué es un juego AA en videojuegos?"
+    answer: "El término 'AA' (doble A) se usa informalmente para describir juegos de presupuesto medio, situados entre los indies pequeños y las superproducciones AAA. Sin embargo, no es una categoría oficial ni tiene una definición clara de presupuesto o equipo, sino que funciona más como una etiqueta de marketing."
+  - question: "¿Cuál es la diferencia entre juegos AAA y AA?"
+    answer: "La diferencia principal es la escala de presupuesto y el alcance. Mientras los AAA son superproducciones de cientos de millones de dólares, los supuestos 'AA' son proyectos más contenidos. No obstante, muchos 'AA' actuales provienen de grandes empresas que han reducido costes, no de estudios independientes."
   - question: "¿Qué diferencia a un juego indie de un AAA?"
-    answer: "La diferencia principal es la estructura de producción: un juego indie se crea fuera de grandes corporaciones con control creativo propio, mientras que un AAA es una superproducción de una gran empresa. El supuesto 'AA' no encaja en ninguna de las dos lógicas de forma clara."
-  - question: "¿Los juegos doble A están salvando la industria?"
-    answer: "No. Los estudios no están haciendo juegos más pequeños por amor al arte ni por redescubrir la creatividad. Lo hacen porque es más rentable tras los presupuestos desorbitados de los AAA. Es una decisión empresarial, no una revolución filosófica."
-  - question: "¿Qué problema tiene la etiqueta doble A?"
-    answer: "Que no define nada con precisión. Se mete todo lo que no encaja cómodamente en indie o AAA. Además, se usa para romantizar decisiones corporativas como si fueran proyectos heroicos, cuando a veces detrás de un 'AA' sigue habiendo la misma maquinaria empresarial de siempre."
+    answer: "La diferencia radica en la estructura de producción y el riesgo. Un indie se crea fuera de grandes corporaciones con control creativo propio y recursos limitados, mientras que un AAA es producto de una gran empresa con presupuestos masivos. El 'AA' no encaja claramente en ninguna de las dos lógicas."
+  - question: "¿Los juegos AA son indies?"
+    answer: "No necesariamente. Aunque algunos juegos AA mantienen espíritu independiente, muchos son desarrollados por divisiones de grandes empresas o estudios medianos con financiación corporativa. La etiqueta AA a menudo se usa para dar una imagen de cercanía 'indie' a proyectos que no lo son realmente."
+  - question: "¿Por qué se habla tanto de los juegos AA?"
+    answer: "Se habla de ellos porque la industria está ajustando presupuestos tras los costes desorbitados de los AAA. Las empresas buscan reducir riesgos haciendo juegos más baratos y rentables, y utilizan la etiqueta 'AA' como una narrativa de marketing para vender esa reducción de costes como una ventaja creativa."
 comments: true
 ---
 Cada cierto tiempo, la industria del videojuego se inventa una etiqueta nueva para explicar algo que ya existía, pero envuelto en un lenguaje más bonito. No porque haga falta entender mejor la realidad, sino porque hace falta **venderla mejor**.
