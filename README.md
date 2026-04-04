@@ -1,46 +1,43 @@
-# Leedeo Studio - Sitio Oficial
+# Leedeo Studio
 
-Sitio web oficial de **Leedeo Studio**, un espacio dedicado a la creación de recursos para la comunidad de desarrollo de videojuegos, optimización de sistemas y diseño digital.
+El sitio web de Leedeo Studio, mi marca personal. Aquí comparto todo lo que voy aprendiendo sobre desarrollo de videojuegos, herramientas que construyo para mi propio flujo de trabajo, y opiniones sobre la industria.
 
-🚀 **Visita el sitio en:** [https://leedeo.net/](https://leedeo.net/)
-
----
-
-## 🎯 Objetivo del Proyecto
-Este portal sirve como centro neurálgico para la marca **Leedeo**, facilitando el acceso a:
-*   **Cursos de Godot Engine:** Tutoriales prácticos desde nivel básico a avanzado.
-*   **Leedeo Cleaner:** Herramienta de optimización de bajo nivel para Windows basada en comandos nativos.
-*   **Comunidad:** Canal de novedades vía WhatsApp y soporte a través de Ko-fi.
-*   **Blog Técnico:** Artículos sobre SEO para software, reparación de Windows y alternativas de código abierto.
-
-## 🛠️ Tecnologías Utilizadas
-*   **Motor Estático:** [Jekyll](https://jekyllrb.com/)
-*   **Estilo:** CSS Moderno (Glassmorphism, CSS Variables, Flexbox/Grid)
-*   **Iconografía:** FontAwesome & Google Fonts
-*   **Paginación:** Jekyll Paginate
-*   **SEO:** Jerarquía semántica optimizada y Jekyll Sitemap
-
-## 📂 Estructura del Repositorio
-*   `_posts/`: Contenido del blog en formato Markdown.
-*   `assets/`: Imágenes optimizadas (WebP), CSS y fuentes.
-*   `_includes/`: Componentes reutilizables (header, footer).
-*   `_layouts/`: Plantillas maestras (default, post).
-*   `blog/`: Listado paginado de publicaciones.
-
-## 📈 SEO y Visibilidad
-El proyecto ha sido auditado para maximizar el posicionamiento en buscadores bajo las palabras clave:
-*   `Cursos de Godot`
-*   `Leedeo Studio`
-*   `Leedeo Cleaner`
-*   `Optimizar Windows 2026`
+**[https://leedeo.net](https://leedeo.net)**
 
 ---
 
-## 🤝 Apoyo y Contacto
-Si el contenido o las herramientas te han sido de ayuda, puedes apoyar el proyecto:
-*   ☕ **Ko-fi:** [ko-fi.com/leedeo](https://ko-fi.com/leedeo)
-*   📺 **YouTube:** [youtube.com/leedeo](https://www.youtube.com/@Leedeo)
-*   📱 **WhatsApp:** [Canal de Novedades](https://whatsapp.com/channel/0029VbCnHY0HrDZl9C2p2N0A)
+## Qué hay dentro
+
+* **Blog** — Artículos sobre Godot Engine, desarrollo indie, marketing de videojuegos y herramientas que uso.
+* **Cursos** — Tutoriales de Godot 4 y marketing para desarrolladores indie, todo gratuito.
+* **Proyectos** — Leedeo Cleaner (optimizador de Windows que hice para mí y comparto), y mis juegos en [itch.io](https://leedeo.itch.io/).
+* **Sobre mí** — Quién soy, por qué hago esto y mi trayectoria con Godot.
+
+## Cómo está hecho
+
+* [Jekyll](https://jekyllrb.com/) para generar el sitio estático.
+* Tailwind CSS + un archivo de estilos propios para los detalles que Tailwind no cubre.
+* Alojado en GitHub Pages con dominio propio en Cloudflare.
+
+## Estructura
+
+```
+_posts/          Artículos del blog
+_includes/       Piezas reutilizables (header, footer, etc.)
+_layouts/        Plantillas (default, post, categoría)
+assets/          CSS, JS, imágenes
+blog/            Listado paginado
+categories/      Páginas por categoría
+courses/         Páginas de cursos
+projects/        Páginas de proyectos
+```
+
+## Contacto
+
+* YouTube: [youtube.com/@Leedeo](https://www.youtube.com/@Leedeo)
+* Ko-fi: [ko-fi.com/leedeo](https://ko-fi.com/leedeo)
+* WhatsApp: [Canal de novedades](https://whatsapp.com/channel/0029VbCnHY0HrDZl9C2p2N0A)
 
 ---
-*Desarrollado con ❤️ por Javo y Leedeo Studio.*
+
+Hecho por [Javo](https://leedeo.net/about/).
