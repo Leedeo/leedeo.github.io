@@ -390,7 +390,7 @@ strong { font-weight: 700; color: #fff; }
 }
 
 .rich-content > blockquote::before {
-  content: "\201C"; position: absolute; bottom: -0.5rem; right: 1.5rem;
+  content: "\201C"; position: absolute; bottom: -1.5rem; right: 1.5rem;
   font-size: 11rem; line-height: 1; transform: translateY(35%);
   color: rgba(192, 132, 252, 0.15); font-family: Georgia, 'Times New Roman', serif;
   pointer-events: none; user-select: none;
