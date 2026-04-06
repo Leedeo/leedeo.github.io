@@ -13,8 +13,7 @@ _herramientas/
 build-tailwind.bat
 build-tailwind.sh
 
-# Gemfile.lock (se genera con bundle install)
-Gemfile.lock
+
 
 # Archivos del sistema
 .DS_Store
