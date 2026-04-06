@@ -17,7 +17,7 @@ var revealObserver = new IntersectionObserver(function (entries) {
       }, 700 + delayMs);
     }
   });
-}, { rootMargin: '0px 0px 50px 0px', threshold: 0.02 });
+}, { rootMargin: '0px 0px 50px 0px', threshold: 0.1 });
 
 document.querySelectorAll('.reveal').forEach(function (el) {
   revealObserver.observe(el);
