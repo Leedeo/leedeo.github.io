@@ -54,11 +54,11 @@ description: "Artículos sobre desarrollo de videojuegos, industria indie, tutor
                     autocomplete="off"
                     class="w-full bg-[#1a1130]/80 border border-violet-300/70 focus:border-violet-400/80 text-slate-200 placeholder-slate-500 rounded-2xl pl-12 pr-12 py-4 outline-none transition-all duration-300 focus:bg-[#1d1338]/90 focus:shadow-lg focus:shadow-violet-900/20 text-sm font-medium">
                 <button id="search-clear" aria-label="Limpiar búsqueda"
-                    class="absolute right-4 top-1/2 -translate-y-1/2 text-slate-600 hover:text-violet-400 transition-colors hidden">
+                    class="absolute right-4 top-1/2 -translate-y-1/2 text-slate-400 hover:text-violet-400 transition-colors hidden">
                     <i class="fas fa-times text-sm"></i>
                 </button>
             </div>
-            <p id="no-results" class="hidden text-center text-slate-500 italic mt-8 text-sm">
+            <p id="no-results" class="hidden text-center text-slate-400 italic mt-8 text-sm">
                 No se encontraron artículos para "<span id="search-term-display" class="text-violet-400 not-italic font-semibold"></span>".
             </p>
         </div>
@@ -80,7 +80,7 @@ description: "Artículos sobre desarrollo de videojuegos, industria indie, tutor
                             {% assign post_author = site.data.authors[post.author] | default: site.data.authors['javo'] %}
                             <img src="{{ post_author.avatar }}" alt="{{ post_author.name }}" class="w-6 h-6 rounded-full object-cover border border-violet-300/70 flex-shrink-0" width="24" height="24" loading="lazy">
                             <div>
-                                <div class="text-slate-500 text-[10px] font-bold uppercase tracking-widest leading-none">{{ post_author.name }}</div>
+                                <div class="text-slate-400 text-[10px] font-bold uppercase tracking-widest leading-none">{{ post_author.name }}</div>
                                 <div class="text-violet-400 text-[10px] font-bold uppercase tracking-widest leading-none mt-0.5">
                                     {% include date_es.html date=post.date %}
                                 </div>
@@ -100,7 +100,7 @@ description: "Artículos sobre desarrollo de videojuegos, industria indie, tutor
                 </article>
                 {% else %}
                 <div class="col-span-full text-center py-20">
-                    <p class="text-slate-500 italic">No hay publicaciones disponibles por el momento.</p>
+                    <p class="text-slate-400 italic">No hay publicaciones disponibles por el momento.</p>
                 </div>
                 {% endfor %}
             </div>
