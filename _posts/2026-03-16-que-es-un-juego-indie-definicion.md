@@ -25,6 +25,7 @@ faq:
     answer: "La diferencia principal radica en el presupuesto, el tamaño del equipo y la distribución. Los AAA (Triple A) son superproducciones de grandes empresas, mientras que los indies suelen operar con recursos limitados y mayor libertad experimental."
 comments: true
 ---
+
 Parece una pregunta sencilla. Cinco palabras: ¿qué es un juego indie? Debería tener una respuesta clara. Y durante un tiempo la tuvo. Pero la industria del videojuego ha crecido tanto, se ha vuelto tan compleja y ha generado tantos modelos de negocio distintos que hoy esa pregunta se ha convertido en un terreno pantanoso donde nadie se pone de acuerdo.
 
 Porque cuando un juego desarrollado por una filial de una de las corporaciones más grandes de Corea del Sur gana el premio a Mejor Juego Independiente del año, algo no encaja. Y cuando estudios con decenas de empleados, financiación de múltiples empresas, sedes oficiales y actores reconocidos se presentan al mundo bajo la bandera "indie", la palabra empieza a perder significado.
@@ -79,7 +80,7 @@ Que un juego producido dentro de una empresa de ese tamaño ganara el premio a M
 
 Lo más notable fue la reacción del propio director del juego, **Kim Jaeho**, que reconoció públicamente que Dave the Diver **no debería considerarse un juego indie**. Según sus propias palabras, el equipo no pidió ser incluido en esa categoría. Fue una muestra de honestidad poco habitual en una industria donde la etiqueta "indie" se ha convertido en un activo de marketing que pocos rechazan cuando se lo ofrecen.
 
-### El criterio de The Game Awards
+## El criterio de The Game Awards
 
 ![Geoff Keighley en The Game Awards presentando Intergalactic, un videojuego AAA de Naughty Dog](/assets/img/posts/geoff-keighley-game-awards-seo.webp)
 
@@ -127,7 +128,7 @@ Pero Larian Studios tiene **más de 400 empleados** distribuidos en múltiples o
 
 ¿Es Baldur's Gate 3 un juego indie? Por estructura empresarial, Larian encaja. Por escala de producción, presupuesto y tamaño del equipo, el juego no se diferencia de lo que produce cualquier gran estudio del sector.
 
-## Hellblade y la invención del "AAA Independiente"
+## Hellblade y la invención del "Independent AAA"
 
 **Ninja Theory**, el estudio británico detrás de [Hellblade: Senua's Sacrifice](https://store.steampowered.com/app/414340/Hellblade_Senuas_Sacrifice/) (2017), intentó resolver este problema inventando un término nuevo: **"Independent AAA"** o "AAA Independiente".
 

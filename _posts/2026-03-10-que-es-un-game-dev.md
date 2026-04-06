@@ -25,6 +25,7 @@ faq:
     answer: "Sí, existen roles como artista o diseñador de niveles que no requieren programación profunda, y motores como Godot ofrecen herramientas visuales; no obstante, tener nociones de código es altamente recomendable para cualquier rol profesional."
 comments: true
 ---
+
 Si alguna vez has jugado a un videojuego y te has preguntado quién hay detrás de todo eso, quién diseña los niveles, quién escribe el código que hace que el personaje salte, quién compone la música que te pone los pelos de punta en el momento justo, la respuesta corta es: un game dev.
 
 Pero la respuesta corta no le hace justicia al término, porque "game dev" es uno de esos conceptos que parece simple hasta que empiezas a rascar un poco.
@@ -41,19 +42,26 @@ En la práctica, el término se usa de dos maneras. A veces se refiere a una per
 
 Un videojuego moderno es el resultado de la colaboración de perfiles muy distintos. Entender qué hace cada uno ayuda a entender tanto la industria como el proceso de crear un juego, especialmente si estás pensando en meterte en esto.
 
-**Programador (Game Programmer):** Es quien escribe el código que hace que el juego funcione. Dentro de la programación hay subespecialidades: programadores de gameplay (las mecánicas con las que el jugador interactúa), de motor gráfico (lo que se renderiza en pantalla), de inteligencia artificial (cómo se comportan los enemigos), de redes (todo lo relacionado con el multijugador online) y de herramientas (los programas internos que usa el propio equipo para crear el juego).
+### Programador (Game Programmer)
+Es quien escribe el código que hace que el juego funcione. Dentro de la programación hay subespecialidades: programadores de gameplay (las mecánicas con las que el jugador interactúa), de motor gráfico (lo que se renderiza en pantalla), de inteligencia artificial (cómo se comportan los enemigos), de redes (todo lo relacionado con el multijugador online) y de herramientas (los programas internos que usa el propio equipo para crear el juego).
 
-**Diseñador de juegos (Game Designer):** Define cómo funciona el juego. Las reglas, las mecánicas, el flujo de la partida, la dificultad, los sistemas de progresión. Es quien se pregunta "¿cómo debería sentirse jugar a esto?" y trabaja para que la respuesta sea satisfactoria. No hay que confundirlo con el diseñador gráfico, que trabaja en el aspecto visual.
+### Diseñador de juegos (Game Designer)
+Define cómo funciona el juego. Las reglas, las mecánicas, el flujo de la partida, la dificultad, los sistemas de progresión. Es quien se pregunta "¿cómo debería siente jugar a esto?" y trabaja para que la respuesta sea satisfactoria. No hay que confundirlo con el diseñador gráfico, que trabaja en el aspecto visual.
 
-**Artista:** Es responsable de todo lo que el jugador ve. Hay artistas conceptuales, que definen el estilo visual en las primeras fases del desarrollo. Modeladores 3D, que construyen los personajes, objetos y escenarios. Animadores, que dan movimiento a esos modelos. Artistas de UI, que diseñan los menús e interfaces. Y artistas de efectos especiales (VFX), que crean explosiones, magia, partículas y todo aquello que añade espectacularidad visual.
+### Artista
+Es responsable de todo lo que el jugador ve. Hay artistas conceptuales, que definen el estilo visual en las primeras fases del desarrollo. Modeladores 3D, que construyen los personajes, objetos y escenarios. Animadores, que dan movimiento a esos modelos. Artistas de UI, que diseñan los menús e interfaces. Y artistas de efectos especiales (VFX), que crean explosiones, magia, partículas y todo aquello que añade espectacularidad visual.
 
-**Diseñador de niveles (Level Designer):** Construye los espacios por los que el jugador se mueve. No es solo colocar plataformas o pasillos: es diseñar experiencias, controlar el ritmo, guiar al jugador sin que lo note, crear momentos memorables dentro de un entorno.
+### Diseñador de niveles (Level Designer)
+Construye los espacios por los que el jugador se mueve. No es solo colocar plataformas o pasillos: es diseñar experiencias, controlar el ritmo, guiar al jugador sin que lo note, crear momentos memorables dentro de un entorno.
 
-**Compositor y diseñador de sonido:** La música y el sonido son responsables de una parte enorme de cómo se siente un videojuego, aunque sea la que menos se menciona cuando se habla de producción. El compositor escribe la banda sonora. El diseñador de sonido crea los efectos, las voces del ambiente, los sonidos de los pasos, el ruido de una espada al chocar con un escudo.
+### Compositor y diseñador de sonido
+La música y el sonido son responsables de una parte enorme de cómo se siente un videojuego, aunque sea la que menos se menciona cuando se habla de producción. El compositor escribe la banda sonora. El diseñador de sonido crea los efectos, las voces del ambiente, los sonidos de los pasos, el ruido de una espada al chocar con un escudo.
 
-**Productor (Producer):** Gestiona el proyecto. Se asegura de que el equipo tenga lo que necesita para trabajar, de que se cumplan los plazos, de que la comunicación entre departamentos fluya. En estudios grandes es un rol especializado; en estudios pequeños suele ser el propio director del proyecto.
+### Productor (Producer)
+Gestiona el proyecto. Se asegura de que el equipo tenga lo que necesita para trabajar, de que se cumplan los plazos, de que la comunicación entre departamentos fluya. En estudios grandes es un rol especializado; en estudios pequeños suele ser el propio director del proyecto.
 
-**QA (Quality Assurance):** El equipo de testing. Juegan al juego en todas sus fases de desarrollo para encontrar bugs, inconsistencias, problemas de equilibrio y cualquier cosa que no funcione como debería. Es un trabajo menos glamuroso de lo que parece en el imaginario popular, pero crítico para que el juego llegue en condiciones decentes.
+### QA (Quality Assurance)
+El equipo de testing. Juegan al juego en todas sus fases de desarrollo para encontrar bugs, inconsistencias, problemas de equilibrio y cualquier cosa que no funcione como debería. Es un trabajo menos glamuroso de lo que parece en el imaginario popular, pero crítico para que el juego llegue en condiciones decentes.
 
 ## ¿Un game dev puede trabajar solo?
 
@@ -116,4 +124,3 @@ Las game jams son uno de los fenómenos más interesantes del mundo indie: event
 Empezar a **crear videojuegos** nunca ha sido tan accesible como ahora. Las herramientas son gratuitas, la documentación es extensa, la comunidad es enorme y los recursos educativos, incluyendo el curso que tienes disponible aquí, son mejores que nunca.
 
 Si llevas tiempo dándole vueltas a la idea, este es probablemente el mejor momento para dar el primer paso.
-

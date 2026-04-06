@@ -24,9 +24,9 @@ faq:
     answer: "Sengodai es un deck builder roguelike desarrollado por Stunoa Games, un estudio de Alicante, España. Toma el universo de su juego Katana Dragon y lo adapta a un juego de cartas por turnos con estética voxel art."
   - question: "¿Es difícil Sengodai si no conoces los deck builders?"
     answer: "El inicio es áspero. No hay un tutorial paso a paso, solo explicaciones de la interfaz. Pero después de varias partidas la mecánica hace clic y empiezas a entender la importancia de gestionar estamina, energía y turnos."
-  - question: "En qué motor está hecho Sengodai?"
+  - question: "¿En qué motor está hecho Sengodai?"
     answer: "Sengodai está hecho en Godot 4. El rendimiento es sólido, sin tirones, y el voxel art se mueve con fluidez. Stunoa Games ya había usado Godot en Katana Dragon, así que dominan la herramienta."
-  - question: "Qué relación tiene Sengodai con Katana Dragon?"
+  - question: "¿Qué relación tiene Sengodai con Katana Dragon?"
     answer: "Sengodai es un spin-off del universo de Katana Dragon. Comparte estética voxel art, música, ambientación y los gokai. Amplía la franquicia desde otro género en lugar de hacer una secuela directa."
 comments: true
 ---

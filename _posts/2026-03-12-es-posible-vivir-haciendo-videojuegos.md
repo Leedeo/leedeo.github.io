@@ -25,6 +25,7 @@ faq:
     answer: "Los datos de VG Insights muestran que solo el 15% de los desarrolladores en solitario supera los 100.000$ anuales. La mayoría de los juegos en Steam no alcanzan los 1.000$ de ingresos totales, evidenciando el alto riesgo del modelo."
 comments: true
 ---
+
 Voy a empezar con la respuesta corta: sí, es posible. Y ahora voy a dedicar el resto del artículo a explicar por qué esa respuesta, sin contexto, es casi completamente inútil.
 
 Porque "es posible" también aplica a ganar la lotería. La pregunta que realmente importa no es si es posible, sino qué probabilidades tiene alguien concreto, con recursos concretos, en el mercado de 2026, de construir algo sostenible haciendo videojuegos. Y esa pregunta tiene una respuesta mucho más matizada, menos romántica, y bastante más útil.
@@ -79,7 +80,11 @@ Y aquí entra la figura del publisher, que muchos ven como el enemigo que se que
 
 Hay una cuarta opción que no suena tan glamurosa como ninguna de las tres anteriores pero que, mirando los casos de quienes han conseguido vivir de esto de forma sostenible, aparece una y otra vez: la combinación.
 
-No el freelance solo, no los juegos propios solos, no el empleo solo. Una mezcla que evoluciona con el tiempo. Un trabajo o freelance que paga las facturas mientras se desarrolla el primer juego. El primer juego que no necesita ser un éxito sino una demostración de que puedes terminar algo, publicarlo y gestionar lo que viene después. Las ventas de ese juego, aunque sean modestas, que añaden un ingreso pasivo mientras se trabaja en el segundo. El segundo juego que se beneficia de la audiencia del primero y vende algo más. Y así sucesivamente, construyendo una marca y una base de jugadores de manera incremental.
+- No el freelance solo, no los juegos propios solos, no el empleo solo. Una mezcla que evoluciona con el tiempo.
+- Un trabajo o freelance que paga las facturas mientras se desarrolla el primer juego.
+- El primer juego que no necesita ser un éxito sino una demostración de que puedes terminar algo, publicarlo y gestionar lo que viene después.
+- Las ventas de ese juego, aunque sean modestas, que añaden un ingreso pasivo mientras se trabaja en el segundo.
+- El segundo juego que se beneficia de la audiencia del primero y vende algo más. Y así sucesivamente, construyendo una marca y una base de jugadores de manera incremental.
 
 Es el modelo que siguen en la práctica la mayoría de los desarrolladores indie que son financieramente viables. No llegaron a vivir de los juegos de un día para otro. Llegaron después de varios años de construir algo de manera sostenida, sin apostar todo a un solo lanzamiento.
 
@@ -100,7 +105,5 @@ Si tienes experiencia demostrable, un portafolio sólido y disposición a compet
 Lo que no tiene ningún sentido es esperar resultados de cualquiera de estos caminos sin la combinación de habilidad, persistencia y una evaluación honesta del mercado en el que se está intentando operar.
 
 El sector del videojuego es enorme y seguirá creciendo. Pero enorme no significa fácil. Significa competitivo.
-
----
 
 *Fuentes utilizadas en este artículo: [Wikipedia — 2022-2025 Video Game Industry Layoffs](https://en.wikipedia.org/wiki/2022%E2%80%932025_video_game_industry_layoffs){:target="_blank"}, [PC Gamer — GDC State of the Game Industry 2026](https://www.pcgamer.com/gaming-industry/one-third-of-us-games-industry-workers-were-laid-off-in-the-last-2-years-gdc-survey-says/){:target="_blank"}, [PocketGamer — Amir Satvat hiring velocity analysis](https://www.pocketgamer.biz/games-industry-hiring-matches-layoffs-for-the-first-time-in-years/){:target="_blank"}, [Variety — GDC State of the Game Industry 2025](https://variety.com/2025/gaming/news/video-game-layoffs-2024-report-gdc-1236277739/){:target="_blank"}, [Statista — Gaming industry layoffs 2022-2024](https://www.statista.com/statistics/1458214/worldwide-gaming-industry-layoffs/){:target="_blank"}, [MakeUseOf — Indie game developer salary](https://www.makeuseof.com/what-is-typical-indie-game-developer-salary/){:target="_blank"}, [Wayline — Realistic indie dev income](https://www.wayline.io/blog/realistically-how-much-does-an-indie-game-dev-make-per-year){:target="_blank"}, [Combine — 2025 Global Gaming Employment Outlook](https://combinegr.com/2025-global-gaming-employment-outlook-trends-talent-strategy/){:target="_blank"}.*

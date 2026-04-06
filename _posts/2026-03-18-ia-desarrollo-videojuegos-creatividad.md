@@ -25,6 +25,7 @@ faq:
     answer: "Más allá de la generativa, se usa en la navegación de NPCs, generación procedural de mundos (como en No Man's Sky) y herramientas de asistencia al código (GitHub Copilot) para eliminar tareas repetitivas."
 comments: true
 ---
+
 Cada vez que aparece una nueva tecnología capaz de automatizar algo que antes solo podían hacer las personas, se repite el mismo ciclo. Primero el asombro. Luego el miedo. Después los discursos encendidos. Y finalmente, con el tiempo, la normalización.
 
 Con la inteligencia artificial generativa está pasando exactamente eso. Y en pocos sectores el debate es tan intenso como en el de los videojuegos, donde la IA puede intervenir en prácticamente todas las fases de la creación: el arte, la música, la programación, el diseño de niveles, los diálogos, las animaciones.
@@ -37,13 +38,13 @@ Este artículo no pretende defender ni atacar la IA. Pretende observar lo que es
 
 Quien haya seguido la conversación sobre IA y creación durante los últimos años habrá escuchado los mismos argumentos repetidos hasta el agotamiento:
 
-*"La IA copia."*
-*"La IA pone en peligro el copyright."*
-*"La IA va a quitar el trabajo a las personas."*
+*\"La IA copia.\"*
+*\"La IA pone en peligro el copyright.\"*
+*\"La IA va a quitar el trabajo a las personas.\"*
 
 Los tres contienen verdad. Los tres son incompletos. Y los tres ignoran algo que resulta incómodo de admitir: **describen comportamientos que no son exclusivos de la IA**.
 
-### "La IA copia"
+## \"La IA copia\"
 
 Sí. Los modelos de inteligencia artificial generativa aprenden a partir de datos existentes. Un modelo de generación de imágenes ha sido entrenado con millones de imágenes creadas por personas. Un modelo de generación de texto ha procesado cantidades inmensas de texto escrito por humanos. La IA no crea desde la nada: procesa, encuentra patrones y genera resultados basados en lo que ha aprendido.
 
@@ -55,15 +56,15 @@ Un músico que empieza a tocar la guitarra aprende reproduciendo canciones de ot
 
 El proceso humano de creación **siempre** parte de lo que ya existe. Nadie crea en el vacío. Todo artista es, en mayor o menor medida, una destilación de sus influencias. Lo que diferencia la copia del aprendizaje no es el proceso (absorber lo que otros han hecho), sino el resultado (transformarlo en algo propio).
 
-Eso no significa que el debate sobre cómo se entrenan los modelos de IA sea irrelevante. Hay cuestiones legítimas sobre consentimiento, sobre si los artistas cuyas obras se usaron para entrenar modelos deberían tener voz en ese proceso, sobre cómo se gestiona la atribución. Son debates necesarios y válidos. Pero el argumento de que "la IA copia y por eso es ilegítima" ignora que la copia es el punto de partida de toda tradición creativa humana. La diferencia está en el grado, la escala y la velocidad, no en la naturaleza del proceso.
+Eso no significa que el debate sobre cómo se entrenan los modelos de IA sea irrelevante. Hay cuestiones legítimas sobre consentimiento, sobre si los artistas cuyas obras se usaron para entrenar modelos deberían tener voz en ese proceso, sobre cómo se gestiona la atribución. Son debates necesarios y válidos. Pero el argumento de que \"la IA copia y por eso es ilegítima\" ignora que la copia es el punto de partida de toda tradición creativa humana. La diferencia está en el grado, la escala y la velocidad, no en la naturaleza del proceso.
 
-### La doble vara de medir
+## La doble vara de medir
 
 Hay un ejemplo que ilustra bien cierta inconsistencia en este debate.
 
 **Nintendo** es propietaria de Pokémon, una de las franquicias más valiosas del mundo. Durante décadas, personas y equipos de desarrollo han creado **fangames** de Pokémon: juegos no oficiales que usan los personajes, los diseños, la música y los conceptos de la franquicia sin autorización de Nintendo. Algunos de estos fangames son proyectos enormes, con años de desarrollo detrás.
 
-La comunidad de jugadores, en términos generales, ha tratado estos proyectos con cariño. Se los considera **muestras de amor hacia la franquicia**, expresiones de creatividad de los fans, homenajes. Cuando Nintendo envía órdenes de cese y desistimiento para cerrar estos proyectos (cosa que hace con frecuencia, porque está en su derecho legal), una parte considerable de la comunidad se indigna y critica a Nintendo por "ir contra sus propios fans".
+La comunidad de jugadores, en términos generales, ha tratado estos proyectos con cariño. Se los considera **muestras de amor hacia la franquicia**, expresiones de creatividad de los fans, homenajes. Cuando Nintendo envía órdenes de cese y desistimiento para cerrar estos proyectos (cosa que hace con frecuencia, porque está en su derecho legal), una parte considerable de la comunidad se indigna y critica a Nintendo por \"ir contra sus propios fans\".
 
 Esos fangames usan la propiedad intelectual de Nintendo sin permiso. Copian sus diseños, sus mecánicas, sus personajes. Y son defendidos.
 
@@ -79,13 +80,13 @@ La sensación de que una nueva tecnología va a destruir la creatividad humana n
 
 ### La cámara de fotos
 
-A mediados del siglo XIX, cuando la fotografía empezó a extenderse, la reacción del mundo artístico fue feroz. El poeta y crítico francés **Charles Baudelaire** escribió en 1859 que la fotografía era "el refugio de todos los pintores fracasados" y que, si se le permitía invadir el terreno del arte, acabaría corrompiéndolo por completo.
+A mediados del siglo XIX, cuando la fotografía empezó a extenderse, la reacción del mundo artístico fue feroz. El poeta y crítico francés **Charles Baudelaire** escribió en 1859 que la fotografía era \"el refugio de todos los pintores fracasados\" y que, si se le permitía invadir el terreno del arte, acabaría corrompiéndolo por completo.
 
 La pintura, se decía, estaba condenada. ¿Para qué iba alguien a encargar un retrato a un pintor si una máquina podía capturar la realidad con exactitud en segundos? La fotografía iba a destruir el oficio del artista visual. Iba a hacer que cualquiera, sin talento ni formación, pudiera producir imágenes. Iba a acabar con la creatividad porque eliminaba el esfuerzo humano del proceso.
 
 Pasaron los años. La pintura no desapareció. De hecho, la llegada de la fotografía **liberó** a la pintura de su función documental (retratos, paisajes, registros históricos) y abrió el camino al impresionismo, al expresionismo, al cubismo, al arte abstracto. Liberada de la obligación de representar la realidad con fidelidad (algo que la cámara hacía mejor), la pintura pudo explorar territorios que antes no se había planteado.
 
-Y la fotografía, esa herramienta que "cualquiera podía usar", se convirtió en una forma de arte por derecho propio. Hoy nadie discute que un trabajo de **Sebastião Salgado**, **Annie Leibovitz** o **Henri Cartier-Bresson** es arte. Pero la herramienta que utilizan, la cámara, es la misma que usa cualquier persona para hacerse una foto con el teléfono en la calle. La diferencia no está en la herramienta. Está en quién la usa y con qué intención.
+Y la fotografía, esa herramienta que \"cualquiera podía usar\", se convirtió en una forma de arte por derecho propio. Hoy nadie discute que un trabajo de **Sebastião Salgado**, **Annie Leibovitz** o **Henri Cartier-Bresson** es arte. Pero la herramienta que utilizan, la cámara, es la misma que usa cualquier persona para hacerse una foto con el teléfono en la calle. La diferencia no está en la herramienta. Está en quién la usa y con qué intención.
 
 ### El tractor
 
@@ -97,16 +98,16 @@ Nadie pidió que se eliminaran los tractores. Nadie propone hoy volver a arar lo
 
 ¿Fue doloroso el proceso? Sí. ¿Se perdieron oficios y formas de vida? Sí. ¿Era evitable? Probablemente no. ¿El resultado final ha sido positivo para la sociedad en su conjunto? Es difícil argumentar lo contrario.
 
-### La imprenta, el cine, el sintetizador, internet
+### La imprenta: el miedo a la democratización del conocimiento
 
 La lista es larga. Cada avance tecnológico que ha tocado un ámbito creativo ha generado las mismas resistencias:
 
-*   **La imprenta** amenazó a los copistas que reproducían libros a mano. Los monasterios que se dedicaban a esa labor vieron cómo su función desaparecía.
-*   **El cine** fue despreciado inicialmente por el mundo del teatro. Actores y dramaturgos lo consideraban un espectáculo vulgar, incapaz de alcanzar la profundidad del teatro en vivo.
-*   **El sintetizador** generó pánico entre los músicos de orquesta y los instrumentistas de estudio. ¿Para qué contratar a un violinista si una máquina podía emular el sonido? Décadas después, los sintetizadores no han acabado con las orquestas, pero sí han creado géneros musicales enteros que antes no existían.
-*   **Internet** iba a destruir la industria editorial, la musical, la cinematográfica. Ha transformado todas esas industrias, ha eliminado algunos modelos de negocio y ha creado otros. Los libros siguen existiendo. La música se sigue haciendo. Las películas se siguen produciendo.
-*   **Los motores de videojuegos accesibles** como Unity, Godot o [Defold](https://defold.com/) hicieron que cualquier persona pudiera crear un juego sin necesidad de programar un motor desde cero. Nadie argumentó que eso fuera hacer trampa o que los juegos resultantes fueran menos válidos por usar herramientas que automatizaban tareas que antes requerían meses de trabajo manual.
-*   **[Blender](https://www.blender.org/)**, el programa de modelado y animación 3D gratuito y de código abierto, permitió que personas sin acceso a software profesional de miles de dólares pudieran crear contenido 3D de calidad. La película **Flow** (2024), dirigida por **Gints Zilbalodis**, fue producida con un equipo reducido utilizando Blender como herramienta principal, y fue nominada al Oscar a Mejor Película de Animación. Nadie cuestionó la validez artística de la película por la herramienta utilizada.
+- **La imprenta** amenazó a los copistas que reproducían libros a mano. Los monasterios que se dedicaban a esa labor vieron cómo su función desaparecía.
+- **El cine** fue despreciado inicialmente por el mundo del teatro. Actores y dramaturgos lo consideraban un espectáculo vulgar, incapaz de alcanzar la profundidad del teatro en vivo.
+- **El sintetizador** generó pánico entre los músicos de orquesta y los instrumentistas de estudio. ¿Para qué contratar a un violinista si una máquina podía emular el sonido? Décadas después, los sintetizadores no han acabado con las orquestas, pero sí han creado géneros musicales enteros que antes no existían.
+- **Internet** iba a destruir la industria editorial, la musical, la cinematográfica. Ha transformado todas esas industrias, ha eliminado algunos modelos de negocio y ha creado otros. Los libros siguen existiendo. La música se sigue haciendo. Las películas se siguen produciendo.
+- **Los motores de videojuegos accesibles** como Unity, Godot o [Defold](https://defold.com/) hicieron que cualquier persona pudiera crear un juego sin necesidad de programar un motor desde cero. Nadie argumentó que eso fuera hacer trampa o que los juegos resultantes fueran menos válidos por usar herramientas que automatizan tareas que antes requerían meses de trabajo manual.
+- **[Blender](https://www.blender.org/)**, el programa de modelado y animación 3D gratuito y de código abierto, permitió que personas sin acceso a software profesional de miles de dólares pudieran crear contenido 3D de calidad. La película **Flow** (2024), dirigida por **Gints Zilbalodis**, fue producida con un equipo reducido utilizando Blender como herramienta principal, y fue nominada al Oscar a Mejor Película de Animación. Nadie cuestionó la validez artística de la película por la herramienta utilizada.
 
 El patrón es consistente: la herramienta nueva no destruye la disciplina. La transforma. Y si tú eres de las personas que quiere empezar a crear videojuegos en este contexto de herramientas cada vez más accesibles, lo primero que necesitas saber es por dónde empezar:
 
@@ -114,7 +115,7 @@ El patrón es consistente: la herramienta nueva no destruye la disciplina. La tr
 
 Los profesionales que se adaptan encuentran formas de usar la nueva herramienta para hacer cosas que antes eran imposibles o impracticables. Los que no se adaptan quedan en una posición difícil. Es un proceso doloroso a nivel individual, pero históricamente ha sido imparable.
 
-## La IA ya está en los videojuegos (y lleva tiempo ahí)
+### La IA ya está en tus juegos favoritos (y no te has quejado)
 
 Cuando se habla de IA en videojuegos, mucha gente piensa exclusivamente en las herramientas generativas que producen imágenes, texto o música. Pero la inteligencia artificial lleva **décadas** siendo parte fundamental del desarrollo de videojuegos, solo que nadie la llamaba así ni generaba titulares alarmantes.
 
@@ -132,7 +133,7 @@ Todo juego que tenga enemigos que persiguen al jugador, aliados que le acompaña
 
 [Minecraft en su página oficial](https://www.minecraft.net/)
 
-Nadie ha argumentado que No Man's Sky o Minecraft sean menos creativos por usar generación procedural. Nadie ha dicho que esos mundos no "cuentan" porque no los diseñó una persona a mano. Son herramientas que los desarrolladores utilizaron para lograr algo que de otra forma habría sido imposible: crear universos de una escala que ningún equipo humano podría diseñar manualmente.
+Nadie ha argumentado que No Man's Sky o Minecraft sean menos creativos por usar generación procedural. Nadie ha dicho que esos mundos no \"cuentan\" porque no los diseñó una persona a mano. Son herramientas que los desarrolladores utilizaron para lograr algo que de otra forma habría sido imposible: crear universos de una escala que ningún equipo humano podría diseñar manualmente.
 
 ### Herramientas de desarrollo asistido
 
@@ -150,7 +151,7 @@ La IA generativa **va a eliminar puestos de trabajo**. No es una predicción pes
 
 Es importante no caer en dos trampas opuestas.
 
-La primera trampa es **negar que esto esté pasando**. Afirmar que "la IA nunca podrá reemplazar a un artista humano" es una frase reconfortante, pero no se corresponde con lo que está ocurriendo en la práctica. No necesita reemplazar al artista por completo: basta con que reduzca la cantidad de artistas necesarios para un proyecto para que el impacto en el empleo sea real.
+La primera trampa es **negar que esto esté pasando**. Afirmar que \"la IA nunca podrá reemplazar a un artista humano\" es una frase reconfortante, pero no se corresponde con lo que está ocurriendo en la práctica. No necesita reemplazar al artista por completo: basta con que reduzca la cantidad de artistas necesarios para un proyecto para que el impacto en el empleo sea real.
 
 La segunda trampa es **asumir que esto es el fin**. Cada revolución tecnológica ha eliminado empleos y ha creado otros nuevos. La fotografía eliminó la demanda de retratistas, pero creó una industria fotográfica entera. La mecanización agrícola eliminó millones de puestos en el campo, pero la productividad resultante permitió que la sociedad desarrollara sectores que antes no existían. Internet eliminó modelos de negocio enteros (videoclubs, agencias de viajes físicas, buena parte de la prensa impresa) y generó una economía digital que emplea a millones de personas en roles que hace treinta años ni siquiera tenían nombre.
 
@@ -162,7 +163,7 @@ Hay una posibilidad que incomoda a mucha gente: que alguien, usando exclusivamen
 
 Esa posibilidad no es teórica. Ya hay proyectos desarrollados en gran parte con asistencia de IA que están llegando al mercado. Y a medida que las herramientas mejoren, habrá más. La posibilidad de vivir de crear videojuegos usando estas herramientas es real.
 
-La reacción habitual es deslegitimar ese trabajo: "Esa persona no es programadora. No es artista. No es compositora. Solo le dio instrucciones a una máquina."
+La reacción habitual es deslegitimar ese trabajo: \"Esa persona no es programadora. No es artista. No es compositora. Solo le dio instrucciones a una máquina.\"
 
 Esa reacción ignora algo fundamental: **dirigir** es una habilidad.
 
@@ -172,7 +173,7 @@ Nadie cuestiona que un director de cine sea un creador. Nadie dice que Spielberg
 
 Si alguien utiliza herramientas de IA para generar los gráficos, la música, los diálogos y parte del código de un videojuego, y el resultado es un producto coherente, con personalidad, que funciona y que conecta con su público, esa persona ha creado algo que **no está al alcance de cualquiera**. Ha tomado miles de decisiones creativas. Ha descartado el noventa por ciento de lo que la IA generaba porque no encajaba con su visión. Ha iterado, ajustado, combinado y pulido hasta obtener algo que funciona como un todo.
 
-Llamar a esa persona "director" no es descabellado. Es, de hecho, bastante preciso. Y la habilidad necesaria para hacerlo bien es real, considerable y digna de reconocimiento, aunque sea una habilidad diferente a la de alguien que programa, dibuja o compone a mano.
+Llamar a esa persona \"director\" no es descabellado. Es, de hecho, bastante preciso. Y la habilidad necesaria para hacerlo bien es real, considerable y digna de reconocimiento, aunque sea una habilidad diferente a la de alguien que programa, dibuja o compone a mano.
 
 No todo el que use IA va a producir algo bueno, exactamente igual que no todo el que tiene una cámara es fotógrafo y no todo el que tiene un ordenador con Blender va a hacer una película nominada al Oscar. La herramienta no garantiza el resultado. Lo que determina el resultado es la capacidad de la persona que la usa.
 

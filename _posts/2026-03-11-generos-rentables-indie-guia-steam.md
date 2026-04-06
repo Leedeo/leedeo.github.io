@@ -25,6 +25,7 @@ faq:
     answer: "Es la técnica de combinar mecánicas de dos o más géneros conocidos (como Roguelite + Póker en Balatro) para ofrecer algo familiar pero fresco, reduciendo el riesgo comercial al atraer a distintos tipos de jugadores."
 comments: true
 ---
+
 Si estás pensando en crear tu primer juego, o en el próximo después de uno que no funcionó como esperabas, en algún momento te has hecho esta pregunta: ¿qué tipo de juego tiene más posibilidades de funcionar?
 
 La respuesta honesta es que no existe una garantía en ningún género. Pero sí existen datos, y los datos cuentan una historia bastante clara sobre dónde están las oportunidades reales y dónde los desarrolladores indie siguen invirtiendo tiempo y dinero en géneros que el mercado lleva años rechazando.
@@ -51,7 +52,7 @@ El género que elijas no garantiza el éxito, pero sí puede mejorar significati
 
 La métrica que más interesa a un desarrollador independiente no es el ingreso total de un género, sino la *mediana de ingresos* por juego. El ingreso total puede estar inflado por un único juego que fue un fenómeno. La mediana te dice qué puedes esperar tú, el desarrollador que no es Innersloth ni Pocketpair, si creas un juego competente en ese género.
 
-### 1. Survival crafting y mundo abierto: el rey consistente
+## Survival crafting y mundo abierto: el rey consistente
 
 El survival crafting —esos juegos donde empiezas sin nada, recolectas recursos, construyes estructuras y vas expandiendo tus posibilidades— es con diferencia el género más consistentemente rentable para desarrolladores indie.
 
@@ -67,7 +68,7 @@ Ejemplos clave:
 
 **El riesgo:** La escala. Requiere un volumen de contenido inmenso, mejor perfilado para estudios de 3 a 15 personas, no para *solo devs*.
 
-### 2. Simuladores y City Builders: demanda enorme
+## Simuladores y City Builders: demanda enorme
 
 Los simuladores de gestión y constructores de ciudades tienen la proporción más favorable entre demanda del jugador y saturación del mercado.
 
@@ -75,7 +76,7 @@ En 2024, *Supermarket Simulator* demostró cómo una premisa extremadamente simp
 
 El jugador de simuladores es muy fiel, algo mayor demográficamente, dispuesto a pagar precio completo y a recomendarlo a su nicho. El peligro aquí es crear *lo mismo de siempre*: un simulador de granja que calque a *Stardew Valley* nacerá muerto porque el mercado ya tiene a su rey. La clave es la **especificidad del tema simulado**.
 
-### 3. Roguelikes y Roguelites: recompensa masiva, pero ojo
+## Roguelikes y Roguelites: recompensa masiva, pero ojo
 
 El género indie por excelencia. Los roguelites (reinicios constantes pero con progresión meta) gozan de una rejugabilidad infinita, lo que dispara las horas de juego y su viralidad pasiva.
 
@@ -83,7 +84,7 @@ El género indie por excelencia. Los roguelites (reinicios constantes pero con p
 
 Pero cuidado con el nicho **Deckbuilder** (combate por cartas): los datos de GameDiscoverCo a finales de 2024 mostraron fuerte fatiga en el jugador. Para destacar aquí hoy, tienes que ofrecer algo muy distinto a *Slay the Spire*. Lo mismo ocurre con los clones de *Vampire Survivors* (bullet heavens): el mercado se saturó en 2023.
 
-### 4. Juegos de Terror: baja mediana, alto techo viral
+## Juegos de Terror: baja mediana, alto techo viral
 
 El horror es único. Tiene el ingreso total más alto después del survival, pero su mediana por juego es bajísima. Significa que **la mayoría fracasa, pero los que triunfan, explotan**.
 
@@ -105,7 +106,5 @@ Los grandes éxitos recientes rara vez son puros. *Stardew Valley* es Sim + RPG 
 Otro dato lapidario para cerrar: **si tu juego no vende en el primer mes, casi seguro no venderá jamás**. Las resurrecciones milagrosas a largo plazo son anomalías estadísticas extremas. Steam premia el *engagement* explosivo (de ahí la enorme importancia de las Wishlists y la comunidad previa).
 
 No hay fórmulas mágicas, pero elegir un género base con una matemática favorable (o hibridarlo inteligentemente) es darle a tu juego, a tu esfuerzo y a tu equipo una ventaja injusta desde el día uno.
-
----
 
 *Fuentes utilizadas en este artículo: [VG Insights / Game World Observer — Indie vs. AAA revenue 2024](https://gameworldobserver.com/2024/10/16/indie-games-revenue-steam-vs-aaa-titles-vg-insights), [Game World Observer — Most successful indie genres H1 2024](https://gameworldobserver.com/2024/08/19/most-successful-game-genres-on-steam-h1-2024-survival-city-builder-horror), [GameDiscoverCo — Deckbuilder genre fatigue 2024](https://newsletter.gamediscover.co), [SteamDB — Steam releases 2024](https://steamdb.info/stats/releases/), [How To Market A Game — Chris Zukowski](https://howtomarketagame.com).*

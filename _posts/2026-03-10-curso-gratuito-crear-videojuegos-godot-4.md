@@ -26,6 +26,7 @@ faq:
     answer: "No, GDScript tiene una sintaxis muy similar a Python y ha sido creado específicamente para el desarrollo de juegos, lo que lo convierte en uno de los mejores lenguajes para empezar en la programación."
 comments: true
 ---
+
 Aprender a crear videojuegos nunca ha sido tan accesible como ahora, y Godot Engine tiene mucho que ver con eso. Si llevas tiempo queriendo dar el salto al desarrollo de juegos pero no sabes por dónde empezar, o si vienes de otro motor y estás buscando una alternativa más libre y sostenible, este curso es para ti.
 
 He preparado una guía completa, gratuita y en español para aprender Godot 4 desde cero. Sin rodeos, sin prerequisitos de programación avanzada, y sin que tengas que pagar nada para empezar.
@@ -54,17 +55,12 @@ El ejemplo más reciente y visible es Slay the Spire 2, la secuela del famoso ju
 
 ## Ventajas de aprender Godot 4 frente a otros motores
 
-**Es completamente gratuito, sin condiciones.** Unity tiene un plan gratuito con limitaciones y ha demostrado que puede cambiar sus condiciones cuando quiera. Unreal Engine cobra un royalty del 5% sobre los ingresos que superen los 1 millón de dólares. Godot no te cobra nada, ahora ni nunca, independientemente de cuánto ganes con tu juego.
-
-**GDScript es fácil de aprender.** Godot tiene su propio lenguaje de scripting llamado GDScript, diseñado específicamente para el desarrollo de juegos. Si has visto Python alguna vez, la sintaxis te resultará familiar. Si nunca has programado, GDScript es uno de los mejores puntos de entrada que existen. Además, Godot también soporta C# para quienes prefieran un lenguaje más cercano al estándar de la industria.
-
-**El motor es ligero y eficiente.** Godot 4 completo pesa menos de 100 MB. No necesitas una máquina potente para desarrollar, y los tiempos de compilación son significativamente menores que en motores más pesados. Eso se traduce en menos tiempo esperando y más tiempo creando.
-
-**Exporta a múltiples plataformas.** Desde Godot puedes exportar tu juego a Windows, macOS, Linux, Android, iOS y web (HTML5) sin herramientas adicionales. La exportación a consolas requiere acuerdos específicos con cada plataforma, como ocurre con cualquier motor, pero para las plataformas principales el proceso es directo.
-
-**La comunidad es activa y crece rápido.** La documentación oficial de Godot es una de las mejor valoradas del sector. Hay miles de tutoriales, proyectos de ejemplo, plugins y recursos disponibles de forma gratuita. Y al ser de código abierto, cualquier problema que encuentres probablemente alguien ya lo ha resuelto y está documentado públicamente.
-
-**El código es tuyo.** Al ser open source, si en algún momento necesitas modificar el propio motor para adaptarlo a las necesidades de tu proyecto, puedes hacerlo. Eso no es algo que puedas hacer con Unity ni con Unreal en los mismos términos.
+- **Es completamente gratuito, sin condiciones.** Unity tiene un plan gratuito con limitaciones y ha demostrado que puede cambiar sus condiciones cuando quiera. Unreal Engine cobra un royalty del 5% sobre los ingresos que superen los 1 millón de dólares. Godot no te cobra nada, ahora ni nunca, independientemente de cuánto ganes con tu juego.
+- **GDScript es fácil de aprender.** Godot tiene su propio lenguaje de scripting llamado GDScript, diseñado específicamente para el desarrollo de juegos. Si has visto Python alguna vez, la sintaxis te resultará familiar. Si nunca has programado, GDScript es uno de los mejores puntos de entrada que existen. Además, Godot también soporta C# para quienes prefieran un lenguaje más cercano al estándar de la industria.
+- **El motor es ligero y eficiente.** Godot 4 completo pesa menos de 100 MB. No necesitas una máquina potente para desarrollar, y los tiempos de compilación son significativamente menores que en motores más pesados. Eso se traduce en menos tiempo esperando y más tiempo creando.
+- **Exporta a múltiples plataformas.** Desde Godot puedes exportar tu juego a Windows, macOS, Linux, Android, iOS y web (HTML5) sin herramientas adicionales. La exportación a consolas requiere acuerdos específicos con cada plataforma, como ocurre con cualquier motor, pero para las plataformas principales el proceso es directo.
+- **La comunidad es activa y crece rápido.** La documentación oficial de Godot es una de las mejor valoradas del sector. Hay miles de tutoriales, proyectos de ejemplo, plugins y recursos disponibles de forma gratuita. Y al ser de código abierto, cualquier problema que encuentres probablemente alguien ya lo ha resuelto y está documentado públicamente.
+- **El código es tuyo.** Al ser open source, si en algún momento necesitas modificar el propio motor para adaptarlo a las necesidades de tu proyecto, puedes hacerlo. Eso no es algo que puedas hacer con Unity ni con Unreal en los mismos términos.
 
 ## ¿Para qué tipo de juegos es bueno Godot 4?
 

@@ -25,6 +25,7 @@ faq:
     answer: "Permiten ajustar el coste del juego al poder adquisitivo de cada país; ignorarlos puede cerrar mercados masivos como Brasil, China o Turquía, donde el precio estándar en dólares resultaría prohibitivo."
 comments: true
 ---
+
 Hay una conversación que Chris Charla, director del programa ID@Xbox de Microsoft y alguien que lleva más de una década trabajando con cientos de desarrolladores independientes, repite casi cada vez que habla con estudios indie: la mayoría infravalora su propio trabajo. No un poco. Bastante.
 
 Es un problema que parece tonto hasta que lo piensas desde dentro. Has pasado meses o años creando un juego, conoces cada bug que has corregido, cada mecánica que has rediseñado tres veces, cada noche que te quedaste hasta tarde depurando algo que no funcionaba. Cuando llega el momento de poner un precio, todo ese conocimiento íntimo de las costuras del proyecto juega en tu contra. Ves los defectos, no el valor. Y el resultado, casi invariablemente, es un precio demasiado bajo.
@@ -96,7 +97,5 @@ Hay una última dimensión del pricing que es difícil de cuantificar pero que c
 Un juego a 4,99 euros envía un mensaje. Un juego a 24,99 euros envía otro. No hay un precio objetivamente correcto para todos los juegos, pero sí hay precios que encajan con lo que el juego promete y precios que no encajan. Un juego con una dirección artística cuidada, un tráiler de alta producción y una comunidad activa antes del lanzamiento puede sostener un precio más alto que un juego idéntico en mecánicas pero presentado de forma más descuidada.
 
 El precio no existe en el vacío. Es una parte más de la página de tienda, del posicionamiento, de la imagen general del proyecto. Y como el resto de esas decisiones, merece pensarse con cuidado antes del lanzamiento, no en el último momento porque hay que rellenar el campo en Steamworks.
-
----
 
 *Fuentes utilizadas en este artículo: [IndieBI — How to price your game in 2025 and beyond](https://sellmoregames.medium.com/how-to-price-your-game-in-2025-and-beyond-9a44d32f3682){:target="_blank"}, [Indie Launch Lab — Pricing Psychology Traps](https://indielaunchlab.com/blog/pricing-psychology-traps-how-indie-developers-price-themselves-out-of-success){:target="_blank"}, [Kotaku — Peak pricing psychology](https://kotaku.com/game-pricing-indie-steam-peak-content-warning-2000658886){:target="_blank"}, [Practical Media — Pricing psychology for indie games](https://practicalmedia.io/article/how-can-indie-developers-use-pricing-psychology-to-boost-game-sales){:target="_blank"}, [Callin — Marketing strategies for indie games 2025](https://callin.io/marketing-strategies-for-indie-video-games/){:target="_blank"}, [GamesIndustry.biz — Chris Charla on indie game pricing](https://www.gamesindustry.biz/i-think-people-undervalue-their-own-work-idxbox-head-chris-charla-on-the-tricky-problem-of-indie-game-pricing){:target="_blank"}.*

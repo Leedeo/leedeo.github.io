@@ -25,6 +25,7 @@ faq:
     answer: "Más que dominar los menús de un software, la industria valora los fundamentos transferibles (programación, diseño de juegos) y un portafolio sólido de proyectos terminados. Un buen desarrollador puede cambiar de motor en semanas si entiende la base."
 comments: true
 ---
+
 Hay una pregunta que incomoda a mucha gente en el mundo del desarrollo de videojuegos, y precisamente por eso merece hacerse:
 
 **¿Sabes hacer videojuegos, o sabes usar Unity?**
@@ -45,7 +46,7 @@ La polémica fue tan grande que Unity tuvo que dar marcha atrás parcialmente. E
 
 Pero el daño ya estaba hecho. No por la tarifa en sí, sino por lo que el episodio reveló: **que una empresa privada podía cambiar las reglas del juego para miles de desarrolladores en cualquier momento**. Que años de trabajo construidos sobre una plataforma ajena podían verse amenazados por una decisión corporativa tomada en una sala de juntas a la que ninguno de esos desarrolladores fue invitado.
 
-### Pero no fue la primera vez
+## Pero no fue la primera vez
 
 Lo del Runtime Fee fue el escándalo más sonado, pero Unity ya tenía un historial de decisiones que erosionaban la confianza de su comunidad.
 
@@ -91,7 +92,7 @@ Y ahí está la distinción clave: **aprender a hacer videojuegos** versus **apr
 
 ## La falacia del empleo
 
-Hay un argumento que se repite constantemente: *"Si quieres trabajar en la industria, tienes que aprender Unity"* (o Unreal, dependiendo de quién lo diga).
+Hay un argumento que se repite constantemente: *\"Si quieres trabajar en la industria, tienes que aprender Unity\"* (o Unreal, dependiendo de quién lo diga).
 
 Este argumento tiene algo de verdad y mucho de mito. Y es importante entenderlo antes de dedicar años a dominar una herramienta por razones equivocadas:
 
@@ -99,13 +100,13 @@ Este argumento tiene algo de verdad y mucho de mito. Y es importante entenderlo 
 
 La realidad del empleo en la industria del videojuego en 2025-2026 es bastante más cruda de lo que ese argumento sugiere. La industria está atravesando una **crisis de empleo sin precedentes en su historia reciente**:
 
-*   **2023**: Más de **10.500 personas** despedidas en la industria del videojuego.
-*   **2024**: La cifra empeoró. Más de **14.000 despidos** documentados. Microsoft, Sony, EA, Ubisoft, Riot Games, Epic Games, Bungie, Unity Technologies... prácticamente todas las grandes empresas realizaron recortes significativos.
-*   **2025**: La tendencia no se ha detenido.
+- **2023**: Más de **10.500 personas** despedidas en la industria del videojuego.
+- **2024**: La cifra empeoró. Más de **14.000 despidos** documentados. Microsoft, Sony, EA, Ubisoft, Riot Games, Epic Games, Bungie, Unity Technologies... prácticamente todas las grandes empresas realizaron recortes significativos.
+- **2025**: La tendencia no se ha detenido.
 
-En este contexto, decirle a alguien que aprenda un motor específico para "conseguir trabajo" es, siendo generosos, una simplificación excesiva. Lo que los estudios buscan cuando contratan no es alguien que sepa dónde están los menús de Unity. Buscan **experiencia demostrable**: proyectos terminados, problemas resueltos, capacidad para adaptarse a herramientas y flujos de trabajo que varían de un estudio a otro.
+En este contexto, decirle a alguien que aprenda un motor específico para \"conseguir trabajo\" es, siendo generosos, una simplificación excesiva. Lo que los estudios buscan cuando contratan no es alguien que sepa dónde están los menús de Unity. Buscan **experiencia demostrable**: proyectos terminados, problemas resueltos, capacidad para adaptarse a herramientas y flujos de trabajo que varían de un estudio a otro.
 
-Un desarrollador con un portafolio sólido de proyectos terminados va a ser un candidato más fuerte que alguien cuyo único argumento es "sé usar Unity", independientemente de lo que diga la oferta de trabajo.
+Un desarrollador con un portafolio sólido de proyectos terminados va a ser un candidato más fuerte que alguien cuyo único argumento es \"sé usar Unity\", independientemente de lo que diga la oferta de trabajo.
 
 ## Lo que Flash enseñó y nadie quiso aprender
 
@@ -119,13 +120,10 @@ La tecnología cambia. Las empresas cambian. Los modelos de negocio cambian. Lo 
 
 ## Lo que sí se puede controlar
 
-**Aprender los fundamentos.** Programación, diseño de juegos, lógica de software, estructuras de datos. Estas habilidades son transferibles a cualquier motor, cualquier lenguaje y cualquier tecnología. Son la base que hace que cambiar de herramienta sea una cuestión de semanas, no de años.
-
-**No casarse con un motor.** Usar uno, dominarlo, disfrutarlo, pero ser consciente de que es una herramienta, no una identidad. Tener curiosidad por las alternativas, experimentar con otros motores, entender sus filosofías distintas.
-
-**Construir un portafolio de proyectos terminados.** Un juego terminado vale más que mil horas de tutoriales. Demuestra capacidad de ejecución, de toma de decisiones, de resolución de problemas. Y lo demuestra independientemente del motor utilizado, porque lo que importa es el resultado y el proceso, no la marca del software.
-
-**Evaluar los riesgos de cada herramienta.** Antes de empezar un proyecto que va a durar meses o años, pensar qué pasaría si el motor elegido cambia sus condiciones, si la empresa detrás tiene problemas, si aparece una alternativa mejor a mitad de desarrollo.
+- **Aprender los fundamentos.** Programación, diseño de juegos, lógica de software, estructuras de datos. Estas habilidades son transferibles a cualquier motor, cualquier lenguaje y cualquier tecnología. Son la base que hace que cambiar de herramienta sea una cuestión de semanas, no de años.
+- **No casarse con un motor.** Usar uno, dominarlo, disfrutarlo, pero ser consciente de que es una herramienta, no una identidad. Tener curiosidad por las alternativas, experimentar con otros motores, entender sus filosofías distintas.
+- **Construir un portafolio de proyectos terminados.** Un juego terminado vale más que mil horas de tutoriales. Demuestra capacidad de ejecución, de toma de decisiones, de resolución de problemas. Y lo demuestra independientemente del motor utilizado, porque lo que importa es el resultado y el proceso, no la marca del software.
+- **Evaluar los riesgos de cada herramienta.** Antes de empezar un proyecto que va a durar meses o años, pensar qué pasaría si el motor elegido cambia sus condiciones, si la empresa detrás tiene problemas, si aparece una alternativa mejor a mitad de desarrollo.
 
 ## La herramienta no es la habilidad
 

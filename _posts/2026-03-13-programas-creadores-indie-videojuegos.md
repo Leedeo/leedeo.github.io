@@ -25,19 +25,16 @@ faq:
     answer: "Porque los miembros de un programa generan de media un 80% más de contenido sobre el juego y tienen mayor retención a largo plazo, creando una comunidad orgánica que sigue activa incluso entre actualizaciones."
 comments: true
 ---
-Cuando escuchas "marketing con influencers para videojuegos", probablemente imaginas un contrato con un streamer de medio millón de seguidores para que juegue a tu juego durante dos horas a cambio de varios miles de euros. Eso existe, funciona en ciertos contextos, y está completamente fuera del alcance de la mayoría de estudios independientes.
+
+Cuando escuchas \"marketing con influencers para videojuegos\", probablemente imaginas un contrato con un streamer de medio millón de seguidores para que juegue a tu juego durante dos horas a cambio de varios miles de euros. Eso existe, funciona en ciertos contextos, y está completamente fuera del alcance de la mayoría de estudios independientes.
 
 Pero hay otro modelo que lleva años creciendo en silencio y que tiene unas métricas de rendimiento bastante más interesantes: los programas de creadores. No son lo mismo que una campaña de influencer marketing puntual. Son una estrategia diferente, con una lógica diferente, y los datos que empiezan a publicarse sobre ellos merecen atención aunque tu equipo sea de dos personas y tu presupuesto de marketing sea casi inexistente.
 
----
-
-### Por dónde empezar: El video que conecta los conceptos
+## Por dónde empezar: El video que conecta los conceptos
 
 Para entender cómo encaja la creación de contenido con la fase inicial de tu desarrollo, es vital tener una estrategia clara desde el día uno. Aquí tienes una reflexión profunda sobre por dónde empezar realmente:
 
 {% include youtube-embed.html id="3ifj5q95qdk" title="¿Por dónde empezar a crear Videojuegos?" %}
-
----
 
 ## Qué es exactamente un programa de creadores
 
@@ -55,7 +52,7 @@ El otro número que destaca es la retención de contenido: los creadores dentro 
 
 Para juegos con modelo de servicio continuo, donde mantener la comunidad activa entre actualizaciones es tan importante como el lanzamiento en sí, esa retención puede ser la diferencia entre que un juego tenga vida útil de dos años o de seis meses.
 
-El tercer dato es el que tiene más implicaciones estratégicas para estudios con más de un título: los creadores dentro del programa tienen una tasa de "polinización cruzada" del 70%, es decir, acaban creando contenido también sobre otros juegos del mismo catálogo. Fuera del programa, ese porcentaje baja al 12%. Si tienes o planeas tener más de un juego publicado, eso multiplica el valor de cada relación que construyes.
+El tercer dato es el que tiene más implicaciones estratégicas para estudios con más de un título: los creadores dentro del programa tienen una tasa de \"polinización cruzada\" del 70%, es decir, acaban creando contenido también sobre otros juegos del mismo catálogo. Fuera del programa, ese porcentaje baja al 12%. Si tienes o planeas tener más de un juego publicado, eso multiplica el valor de cada relación que construyes.
 
 Todo esto se traduce en una estimación de 20 millones de dólares anuales en *Earned Media Value* para juegos de servicio continuo con un programa bien estructurado. El Earned Media Value es el equivalente en valor publicitario del contenido generado de forma orgánica por los creadores: lo que habrías tenido que pagar si ese contenido fuera publicidad directa. Según datos, el mercado global de marketing con influencers alcanzó los 32.550 millones de dólares en 2026, y los videojuegos representan entre el 18% y el 20% del gasto total en este tipo de marketing.
 
@@ -73,7 +70,7 @@ Gamesight identifica en su análisis uno de los problemas más frecuentes al imp
 
 La recomendación es escalar el programa según la capacidad real de gestión, no según el tamaño que se desearía tener. Un programa de diez creadores bien gestionado es infinitamente más valioso que uno de cien creadores donde nadie se siente escuchado.
 
-El otro error que se repite es confundir "programa de creadores" con "lista de distribución de claves de juego". Los estudios que simplemente mandan una key y esperan que el creador haga algo con ella no están montando un programa, están realizando una variante perezosa de las relaciones públicas tradicionales. Los programas que funcionan son los que construyen relaciones reales: acceso anticipado a información, capacidad de dar feedback que el equipo considera, eventos específicos para miembros del programa, reconocimiento dentro de la comunidad del juego.
+El otro error que se repite es confundir \"programa de creadores\" con \"lista de distribución de claves de juego\". Los estudios que simplemente mandan una key y esperan que el creador haga algo con ella no están montando un programa, están realizando una variante perezosa de las relaciones públicas tradicionales. Los programas que funcionan son los que construyen relaciones reales: acceso anticipado a información, capacidad de dar feedback que el equipo considera, eventos específicos para miembros del programa, reconocimiento dentro de la comunidad del juego.
 
 ## Qué significa esto si eres un desarrollador independiente que empieza
 
@@ -83,8 +80,6 @@ Identificar quién está creando contenido sobre juegos similares al tuyo antes 
 
 No necesitas veinte millones de dólares en *Earned Media Value* para que esto valga la pena. Necesitas que tres o cuatro creadores con comunidades pequeñas pero relevantes confíen en tu juego lo suficiente como para mostrárselo a su audiencia con entusiasmo real. Eso, en el mercado actual donde hay casi 19.000 juegos lanzados en Steam al año, puede ser la diferencia entre que tu juego sea descubierto o no.
 
-Ignorar las relaciones con creadores porque "no hay presupuesto para marketing" es dejar una de las pocas herramientas accesibles para estudios pequeños completamente sin utilizar.
-
----
+Ignorar las relaciones con creadores porque \"no hay presupuesto para marketing\" es dejar una de las pocas herramientas accesible para estudios pequeños completamente sin utilizar.
 
 *Fuentes utilizadas en este artículo: [Gamesight — Quantifying the impact of creator programs](https://www.gamesindustry.biz/quantifying-the-impact-of-creator-programs){:target="_blank"}, [Business of Apps — Mobile gaming influencer marketing trends 2025](https://www.businessofapps.com/insights/mobile-gaming-influencer-marketing-trends-2025){:target="_blank"}, [Go Viral Global — Influencer marketing statistics 2025](https://www.goviralglobal.com/post/influencer-marketing-facts-and-statistics-updated-september-2025){:target="_blank"}, [Porter Wills — Esports influencer marketing ROI data 2025](https://porterwills.co/thoughts/the-rising-star-of-influencers-in-gaming-and-esports-marketing){:target="_blank"}, [Archive — Influencer marketing growth statistics 2026](https://archive.com/blog/influencer-marketing-growth-statistics){:target="_blank"}, [Influencer Marketing Hub — 2025 benchmark report](https://iqfluence.io/public/blog/influencer-marketing-statistics){:target="_blank"}.*

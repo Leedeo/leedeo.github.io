@@ -25,13 +25,12 @@ faq:
     answer: "Sí, GIMP es un software libre y de código abierto bajo licencia GPL, lo que garantiza que sea gratuito para siempre y para cualquier uso, comercial o personal."
 comments: true
 ---
+
 **[GIMP](https://www.gimp.org/)** acaba de publicar su versión **3.2**, y aunque cada actualización trae su lista de mejoras y correcciones, esta vez hay un cambio que lleva décadas esperándose: la **edición no destructiva**.
 
 No es una exageración. Es una función que Photoshop tiene desde hace más de veinte años. Es algo que los usuarios de GIMP llevan pidiendo prácticamente desde que el programa existe. Y es, sin ninguna duda, la novedad más significativa que GIMP ha recibido en muchísimo tiempo.
 
-<!-- more -->
-
-## Qué significa "edición no destructiva" y por qué importa tanto
+## Qué significa \"edición no destructiva\" y por qué importa tanto
 
 Para quien no trabaje habitualmente con editores de imagen, el concepto necesita una explicación sencilla.
 
@@ -43,19 +42,19 @@ En un flujo de trabajo **no destructivo**, los efectos y ajustes se aplican como
 
 Es la diferencia entre escribir con tinta permanente sobre un papel y escribir con notas adhesivas que se pueden mover, cambiar o quitar cuando haga falta. El papel (la imagen original) permanece intacto debajo.
 
-### ¿Quieres aprender a dominar GIMP?
+## ¿Quieres aprender a dominar GIMP?
 
 Antes de entrar en el detalle técnico de la versión 3.2, si te han entrado ganas de profundizar en el programa, te dejo este tutorial de fundamentos. Aunque es de una versión anterior, la lógica de sus herramientas principales sigue siendo totalmente válida para empezar a dominar el editor hoy mismo:
 
 {% include youtube-embed.html id="bslPe_Y43es" title="Tutorial de GIMP, Edición de imagen libre" %}
 
-### Lo que esto significaba en la práctica para los usuarios de GIMP
+## Lo que esto significaba en la práctica para los usuarios de GIMP
 
 Hasta ahora, trabajar con GIMP implicaba aceptar que cada efecto aplicado era una decisión definitiva. Una vez que se aplicaba un filtro y se seguía trabajando encima, ese filtro quedaba grabado en la imagen. No había forma de volver atrás a modificar solo ese paso sin perder todo lo que se había hecho después.
 
 Para un usuario doméstico que retoca fotos por diversión, esto podía ser una molestia menor. Para alguien que trabaja con diseño de forma profesional, era un problema serio. Los proyectos de diseño rara vez son lineales: los clientes piden cambios, las ideas evolucionan, los detalles se ajustan durante todo el proceso. Tener que rehacer pasos porque no se pueden modificar de forma aislada no es un inconveniente menor. Es tiempo perdido, trabajo duplicado y una fuente constante de frustración.
 
-La respuesta habitual dentro de ciertos sectores de la comunidad del software libre era algo así como "se puede trabajar así, es cuestión de organizarse bien". Y técnicamente era cierto: se podía trabajar así. Pero que algo sea posible no significa que sea razonable. Cualquier diseñador que haya pasado por la experiencia de tener que reconstruir un efecto desde cero porque el cliente pidió "un poquito menos de sombra" sabe perfectamente la diferencia entre lo posible y lo práctico.
+La respuesta habitual dentro de ciertos sectores de la comunidad del software libre era algo así como \"se puede trabajar así, es cuestión de organizarse bien\". Y técnicamente era cierto: se podía trabajar así. Pero que algo sea posible no significa que sea razonable. Cualquier diseñador que haya pasado por la experiencia de tener que reconstruir un efecto desde cero porque el cliente pidió \"un poquito menos de sombra\" sabe perfectamente la diferencia entre lo posible y lo práctico.
 
 ## Qué trae GIMP 3.2
 
@@ -79,7 +78,7 @@ Varios procesos internos han sido optimizados, lo que se traduce en una experien
 
 Como es habitual en cada versión, hay una cantidad considerable de correcciones de errores y ajustes en la interfaz. GIMP 3.2 llega como continuación del trabajo iniciado con GIMP 3.0, que ya supuso una actualización importante tras años de desarrollo.
 
-## Contexto: treinta años de espera
+### Contexto: treinta años de espera
 
 GIMP se publicó por primera vez en **1996**. Lleva **tres décadas** siendo la alternativa libre y gratuita a Photoshop. Durante todo ese tiempo, la edición no destructiva fue una de las funciones más solicitadas por su comunidad de usuarios.
 
@@ -99,6 +98,6 @@ Pero GIMP sigue teniendo carencias. La interfaz, aunque ha mejorado con el tiemp
 
 Y eso no tiene nada de malo. GIMP es un proyecto libre, gratuito, mantenido por una comunidad. Que no esté al nivel de un producto con los recursos de Adobe no es un fracaso: es una realidad lógica dada la diferencia abismal de medios. Lo importante es la dirección, y la dirección es buena. GIMP 3.0 fue un paso adelante. GIMP 3.2 es un paso todavía más grande. Si el desarrollo sigue este ritmo y esta línea, el programa va a seguir ganando terreno.
 
-La edición no destructiva no convierte a GIMP en Photoshop de la noche a la mañana. Pero sí lo convierte en un programa al que ya no se le puede descartar tan fácilmente con el argumento de "le falta lo más básico". Eso básico, lo que llevaba faltando treinta años, ya está aquí.
+La edición no destructiva no convierte a GIMP en Photoshop de la noche a la mañana. Pero sí lo convierte en un programa al que ya no se le puede descartar tan fácilmente con el argumento de \"le falta lo más básico\". Eso básico, lo que llevaba faltando treinta años, ya está aquí.
 
 GIMP 3.2 se puede descargar de forma gratuita desde la **[página oficial del proyecto](https://www.gimp.org/downloads/)**.

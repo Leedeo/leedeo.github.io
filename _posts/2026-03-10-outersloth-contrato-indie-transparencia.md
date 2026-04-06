@@ -25,6 +25,7 @@ faq:
     answer: "Porque rompe el secretismo habitual de la industria, ofreciendo un punto de referencia transparente que los desarrolladores pueden usar para negociar mejores condiciones con otros publishers o fondos."
 comments: true
 ---
+
 Outersloth, el fondo de inversión que Innersloth —los creadores de Among Us— montó para financiar juegos indie, acaba de publicar su contrato estándar con desarrolladores. Lo hicieron poco después de dar una charla sobre el tema en la Game Developers Conference, y la intención declarada es que otras compañías se vean empujadas a ofrecer condiciones similares o, al menos, a tener esa conversación.
 
 En una industria donde los contratos entre estudios y financiadores rara vez ven la luz del día, hacer esto público es inusual. El único precedente comparable que existe es el de Raw Fury, que hizo algo similar en 2021. Que hayan pasado cuatro años hasta el siguiente ejemplo dice bastante sobre cuánto le gusta al sector la transparencia.

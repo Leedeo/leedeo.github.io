@@ -28,6 +28,7 @@ faq:
     answer: "Utiliza principalmente GDScript (un lenguaje sencillo similar a Python), pero también es compatible con C# y C++ para proyectos que requieran mayor rendimiento."
 comments: true
 ---
+
 Para entender qué es Godot Engine, primero hay que entender qué es un motor de videojuegos, y la buena noticia es que no hace falta ser ingeniero para comprenderlo.
 
 Cuando alguien crea un videojuego, necesita resolver un montón de problemas técnicos: que los personajes se muevan, que los objetos choquen entre sí, que se escuche la música, que los gráficos se vean en pantalla. Un motor de videojuegos es el programa que se encarga de todo eso. Es la base sobre la que se construye el juego, las herramientas con las que se arma pieza a pieza.
@@ -38,15 +39,13 @@ Los dos motores más conocidos de la industria son **Unity** y **Unreal Engine**
 
 **[Godot Engine](https://godotengine.org/)** es un motor de videojuegos **gratuito y de código abierto**.
 
-Gratuito significa exactamente lo que parece: lo descargas, creas tu juego, lo vendes, y no le debes dinero a nadie. No hay cuotas mensuales, no hay porcentajes sobre las ventas, no hay versiones "premium" con las funciones importantes bloqueadas. Todo está disponible desde el primer momento.
+Gratuito significa exactamente lo que parece: lo descargas, creas tu juego, lo vendes, y no le debes dinero a nadie. No hay cuotas mensuales, no hay porcentajes sobre las ventas, no hay versiones \"premium\" con las funciones importantes bloqueadas. Todo está disponible desde el primer momento.
 
-Lo de "código abierto" significa que el código con el que está construido el motor es público. Cualquier persona puede leerlo, estudiarlo, modificarlo y contribuir a mejorarlo. Es un proyecto que pertenece a su comunidad, no a una empresa que pueda cambiar las reglas cuando le convenga.
+Lo de \"código abierto\" significa que el código con el que está construido el motor es público. Cualquier persona puede leerlo, estudiarlo, modificarlo y contribuir a mejorarlo. Es un proyecto que pertenece a su comunidad, no a una empresa que pueda cambiar las reglas cuando le convenga.
 
 Y este último punto no es menor, porque tanto Unity como Unreal cobran regalías a partir de ciertos ingresos. Con Godot eso no existe.
 
----
-
-### Iníciate en Godot desde Cero
+## Iníciate en Godot desde Cero
 
 La mejor manera de entender realmente por qué Godot se ha convertido en el motor favorito de tantos desarrolladores, es abriéndolo y viendo cómo funciona por dentro. Si la filosofía de este motor conecta contigo y quieres aprender a usarlo paso a paso, aquí tienes el primer capítulo de mi formación completa, diseñada para quienes empiezan desde absoluto cero:
 
@@ -58,15 +57,13 @@ La mejor manera de entender realmente por qué Godot se ha convertido en el moto
   </a>
 </div>
 
----
-
 ## De dónde viene
 
 Godot no salió de Silicon Valley ni de ningún gran estudio. Nació en **Argentina**, creado por **Juan Linietsky** y **Ariel Manzur**, dos desarrolladores que llevaban años construyendo su propio motor para trabajar en proyectos de diversas empresas latinoamericanas.
 
 Después de mucho tiempo usándolo de forma privada, en **enero de 2014** decidieron publicarlo como software libre. A partir de ese momento, cualquier persona en el mundo podía descargarlo, usarlo y participar en su desarrollo.
 
-El nombre, por cierto, viene de la obra de teatro **"Esperando a Godot"** de Samuel Beckett, donde dos personajes pasan toda la función esperando a alguien que nunca llega. El chiste es bastante claro: este motor era lo que muchos desarrolladores estaban esperando sin saberlo. Se pronuncia algo así como **"go-DOH"**, aunque cada quien lo dice a su manera y nadie se ofende por eso.
+El nombre, por cierto, viene de la obra de teatro **\"Esperando a Godot\"** de Samuel Beckett, donde dos personajes pasan toda la función esperando a alguien que nunca llega. El chiste es bastante claro: este motor era lo que muchos desarrolladores estaban esperando sin saberlo. Se pronuncia algo así como **\"go-DOH\"**, aunque cada quien lo dice a su manera y nadie se ofende por eso.
 
 ## El camino recorrido
 
@@ -81,7 +78,7 @@ Pero si hubo un momento que cambió la historia de Godot, fue **septiembre de 20
 
 Godot recibió una avalancha de nuevos usuarios y de atención mediática como nunca había tenido. Poco después se creó la **Godot Foundation**, una fundación sin ánimo de lucro para garantizar el futuro del proyecto, y empresas como **W4 Games** (cofundada por el propio Juan Linietsky) empezaron a ofrecer servicios profesionales alrededor del motor.
 
-El proyecto dejó de ser "ese motor open source interesante" para convertirse en algo que la industria ya no podía ignorar.
+El proyecto dejó de ser \"ese motor open source interesante\" para convertirse en algo que la industria ya no podía ignorar.
 
 ## Qué ofrece
 
@@ -188,7 +185,5 @@ Un juego de supervivencia y exploración en primera persona, ambientado en la fr
 Lo que llama la atención es el nivel técnico y gráfico que está alcanzando, algo que hace pocos años habría parecido fuera del alcance de este motor. Es probablemente el proyecto más ambicioso que se está desarrollando con Godot ahora mismo, y el que mejor demuestra hasta dónde ha llegado el motor.
 
 👉 [Road to Vostok en Steam](https://store.steampowered.com/app/1963270/Road_to_Vostok/)
-
----
 
 **[Godot Engine](https://godotengine.org/)** es gratuito, abierto, ligero y cada vez más capaz. No pertenece a ninguna empresa, sino a la comunidad que lo construye día a día. Para quien tenga curiosidad, está a una descarga de distancia desde su **[página oficial](https://godotengine.org/)**.

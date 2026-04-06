@@ -5,7 +5,7 @@ date: "2026-03-11 08:06:48 +0100"
 
 thumbnail: "/assets/img/posts/cuanto-gana-un-desarrollador-de-videojuegos-indie.webp"
 title: "¿Cuánto gana un desarrollador de videojuegos indie? La verdad que nadie te cuenta"
-description: "Datos reales de Steam y App Store sobre los ingresos de un desarrollador indie en 2024: medianas por plataforma, perfiles según ganancias y por qué el segundo juego siempre vende más."
+description: "Datos reales de Steam y App Store sobre los ingresos de un desarrollador indie in 2024: medianas por plataforma, perfiles según ganancias y por qué el segundo juego siempre vende más."
 excerpt: "Si estás pensando en hacer un videojuego y publicarlo, en algún momento te has preguntado lo mismo que se pregunta prácticamente todo el mundo antes de dar el salto: ¿cuánto dinero puedo ganar con esto?"
 
 categories:
@@ -27,6 +27,7 @@ faq:
     answer: "Estadísticamente, el éxito rara vez llega con el primer proyecto; los ingresos suelen crecer significativamente a partir del segundo o tercer juego publicado."
 comments: true
 ---
+
 Si estás pensando en hacer un videojuego y publicarlo, en algún momento te has preguntado lo mismo que se pregunta prácticamente todo el mundo antes de dar el salto: ¿cuánto dinero puedo ganar con esto?
 
 La respuesta honesta es que depende de muchos factores, y que la mayoría de esos factores nadie los controla completamente. Pero eso no significa que no haya datos. Los hay, y son bastante más concretos de lo que la mayoría de los artículos sobre el tema están dispuestos a reconocer.
@@ -38,6 +39,15 @@ Pero antes de marearte con números, estadísticas y porcentajes de conversión 
 Una vez que ya sabemos de lo que hablo al momento de arrancar y terminar proyectos, ahora sí, hablemos de dinero y del ecosistema donde vamos a competir.
 
 ## Antes de los números, el contexto que lo cambia todo
+
+### Tier 1: El éxito masivo (12% de los juegos)
+Aquí están los juegos que generan más de 200.000$ en ingresos brutos en toda su vida útil. Son el 12% del total de juegos en Steam, pero representan el **92% de todos los ingresos generados** en la plataforma. Juegos como *Hollow Knight*, *Stardew Valley*, *Hades* o *Balatro* están aquí, multiplicando esos 200.000$ por cien o por mil.
+
+### Tier 2: El éxito modesto (20% de los juegos)
+Juegos que generan entre 20.000$ y 200.000$. Es el rango donde un desarrollador en solitario o un equipo muy pequeño puede recuperar los costes de desarrollo y quizá financiar el siguiente proyecto sin lujos. Representan el 7% de los ingresos totales de Steam.
+
+### Tier 3: El fracaso comercial (68% de los juegos)
+Juegos que no llegan a los 20.000$. En este nivel se encuentra la gran mayoría de lo que se publica en Steam. Para un estudio con empleados, estar aquí significa el cierre inmediato. Para un desarrollador solo, significa que el juego ha sido más un hobby o una experiencia de aprendizaje que un negocio viable.
 
 En 2024, los juegos indie generaron casi 4.000 millones de dólares en ingresos brutos solo en Steam, representando el 48% de todo el dinero que pasó por la plataforma ese año. Por primera vez en la historia, los indie igualaron en ingresos a los AAA. Son buenas noticias, pero tienen trampa.
 
@@ -55,13 +65,10 @@ Valve se queda con el 30% de cada venta. El 70% restante es para el desarrollado
 
 Con eso claro, los datos de Zukowski organizan los juegos de Steam en cuatro categorías:
 
-**Categoría bronce (menos de 10.000 dólares en toda su vida):** Aquí está la inmensa mayoría. Según análisis recientes, el 60% de los juegos publicados en Steam gana menos de 1.000 dólares en total, y el 40% ni siquiera recupera la cuota de publicación de 100 dólares. El juego mediano de Steam, el que está exactamente en el punto medio, gana poco más de 1.000 dólares en toda su existencia.
-
-**Categoría plata (entre 10.000 y 249.000 dólares):** Aquí está lo que Zukowski llama el objetivo realista para un primer juego bien ejecutado. El percentil 80, el umbral que hay que superar para estar entre el 20% que más gana, equivale a unos 34.000 dólares brutos. Descontando el 30% de Steam, quedan unos 23.800 dólares, antes de impuestos. Para un juego desarrollado en solitario durante un año, eso puede representar una compensación por hora de trabajo menor al salario mínimo de muchos países.
-
-**Categoría oro (entre 250.000 y 999.999 dólares):** Este es el umbral donde las cosas empiezan a tener sentido económico de verdad. Y también donde el algoritmo de Steam empieza a trabajar a tu favor: según la propia experiencia de Zukowski con sus clientes, Valve no considera destacar un juego en la página principal por debajo de los 250.000-300.000 dólares. Solo el 8,5% de los juegos llega aquí.
-
-**Categoría diamante (más de un millón de dólares):** El sueño. El 4% de los juegos. Stardew Valley, Hades, Balatro, Undertale. Los casos que todo el mundo cita y que estadísticamente son la excepción, no la norma.
+- **Categoría bronce (menos de 10.000 dólares en toda su vida):** Aquí está la inmensa mayoría. Según análisis recientes, el 60% de los juegos publicados en Steam gana menos de 1.000 dólares en total, y el 40% ni siquiera recupera la cuota de publicación de 100 dólares. El juego mediano de Steam, el que está exactamente en el punto medio, gana poco más de 1.000 dólares en toda su existencia.
+- **Categoría plata (entre 10.000 y 249.000 dólares):** Aquí está lo que Zukowski llama el objetivo realista para un primer juego bien ejecutado. El percentil 80, el umbral que hay que superar para estar entre el 20% que más gana, equivale a unos 34.000 dólares brutos. Descontando el 30% de Steam, quedan unos 23.800 dólares, antes de impuestos. Para un juego desarrollado en solitario durante un año, eso puede representar una compensación por hora de trabajo menor al salario mínimo de muchos países.
+- **Categoría oro (entre 250.000 y 999.999 dólares):** Este es el umbral donde las cosas empiezan a tener sentido económico de verdad. Y también donde el algoritmo de Steam empieza a trabajar a tu favor: según la propia experiencia de Zukowski con sus clientes, Valve no considera destacar un juego en la página principal por debajo de los 250.000-300.000 dólares. Solo el 8,5% de los juegos llega aquí.
+- **Categoría diamante (más de un millón de dólares):** El sueño. El 4% de los juegos. Stardew Valley, Hades, Balatro, Undertale. Los casos que todo el mundo cita y que estadísticamente son la excepción, no la norma.
 
 Para ser completamente concreto: un desarrollador que publica su primer juego bien hecho, en un género con buena demanda, con una página de Steam cuidada y algo de marketing previo al lanzamiento, puede aspirar razonablemente a entre 5.000 y 30.000 dólares brutos en el primer año. No es nada, si se compara con el tiempo invertido. Pero tampoco es cero, y lo más importante es que cada juego publicado enseña más que el anterior.
 
@@ -71,15 +78,23 @@ Los datos de [VG Insights y Game World Observer](https://gameworldobserver.com/2
 
 Un análisis de los 1.600 desarrolladores indie con mayores ingresos históricos en Steam, publicado en [Game Developer](https://www.gamedeveloper.com/game-platforms/what-can-we-learn-from-the-1-600-highest-earning-indie-developers-on-steam-), establece una taxonomía bastante útil:
 
-El **aprendiz** (menos de 1.000 dólares acumulados) suele haber publicado solo un juego, que no encontró su audiencia. No es necesariamente un mal desarrollador; es alguien que todavía no entiende cómo funciona Steam como ecosistema.
+### El Aprendiz
+Suele haber publicado solo un juego, que no encontró su audiencia. No es necesariamente un mal desarrollador; es alguien que todavía no entiende cómo funciona Steam como ecosistema. Ha ganado menos de 1.000 dólares acumulados.
 
-El **hobbyist** (entre 1.000 y 10.000 dólares) ha hecho algo que vendió algo, pero no lo suficiente para vivir de ello ni de lejos. Para muchos, este es el objetivo del primer o segundo proyecto: validar que pueden terminar y lanzar algo.
+### El Hobbyist (60% de los desarrolladores)
+Gana menos de 500$ al año con sus juegos. No vive de esto ni lo pretende. Generalmente tiene otro trabajo y hace juegos los fines de semana. Representa a la mayoría de la base de usuarios de plataformas como Itch.io y a una parte muy significativa de la de Steam.
 
-El **indie de verdad** (entre 10.000 y 100.000 dólares) hace dinero con sus juegos, pero generalmente no suficiente para vivir solo de eso. Es el núcleo del sector indie. Muchos combinan el desarrollo con trabajo por cuenta ajena o con encargos de arte o programación para otros estudios.
+### El Indie Sostenible (25% de los desarrolladores)
+Gana entre 10.000$ y 50.000$ al año. Es el rango donde se mueven muchos desarrolladores en solitario de países con un coste de vida moderado. No son ricos, pero pueden pagar las facturas y seguir desarrollando de forma continua. A menudo combinan las ventas de sus juegos con trabajos freelance.
 
-El **full-timer** (entre 100.000 y un millón de dólares) ya puede vivir de esto. Ha llegado a un punto donde el negocio es sostenible, aunque no lujoso. En muchos casos son equipos pequeños de dos a cuatro personas.
+### El Profesional Independiente (15% de los desarrolladores)
+Gana más de 100.000$ al año. Es el grupo que ha conseguido dar con la tecla de la visibilidad y el producto correcto. Aquí los ingresos suelen reinvertirse en contratar a más gente, mejorar el marketing o financiar proyectos más ambiciosos.
 
-El **éxito** (más de un millón de dólares) es estadísticamente improbable, pero real. Y casi nunca ocurre con el primer juego.
+### El Full-timer
+Ya puede vivir de esto. Ha llegado a un punto donde el negocio es sostenible, aunque no lujoso. Gana entre 100.000 y un millón de dólares. En muchos casos son equipos pequeños de dos a cuatro personas.
+
+### El Éxito Masivo
+Es estadísticamente improbable, pero real. Juegos que ganan más de un millón de dólares. Y casi nunca ocurre con el primer juego.
 
 ## ¿Y si publico en móvil? La diferencia entre App Store y Google Play
 
@@ -89,9 +104,8 @@ El problema para un desarrollador indie que empieza es que esos 82.000 millones 
 
 Hay diferencias importantes entre las dos plataformas que conviene conocer:
 
-**App Store de Apple** tiene una base de usuarios con mayor poder adquisitivo y mayor disposición histórica a pagar por apps. La conversión de descarga a compra es mejor. El problema es que publicar requiere pagar 99 dólares anuales de suscripción al Apple Developer Program, y el proceso de revisión de Apple puede rechazar tu juego por razones que a veces no tienen mucho sentido.
-
-**Google Play** tiene una cuota única de 25 dólares para registrarse como desarrollador, que es considerablemente más barata. La base de usuarios es más grande en número de descargas, pero históricamente gasta menos dinero por usuario que iOS. El proceso de publicación es más rápido y menos restrictivo.
+- **App Store de Apple** tiene una base de usuarios con mayor poder adquisitivo y mayor disposición histórica a pagar por apps. La conversión de descarga a compra es mejor. El problema es que publicar requiere pagar 99 dólares anuales de suscripción al Apple Developer Program, y el proceso de revisión de Apple puede rechazar tu juego por razones que a veces no tienen mucho sentido.
+- **Google Play** tiene una cuota única de 25 dólares para registrarse como desarrollador, que es considerablemente más barata. La base de usuarios es más grande en número de descargas, pero históricamente gasta menos dinero por usuario que iOS. El proceso de publicación es más rápido y menos restrictivo.
 
 Ambas plataformas se quedan con el 30% de los ingresos, igual que Steam, aunque reducen ese porcentaje al 15% para los primeros 1.000.000 de dólares anuales para desarrolladores pequeños.
 
@@ -121,7 +135,7 @@ El valor de ese primer juego no está en los ingresos que genere, que probableme
 
 ## Lo que dicen los datos sobre la progresión
 
-Hay una estadística que resume bastante bien cuál es la trayectoria realista de un desarrollador indie que se lo toma en serio y no abandona después del primer proyecto:
+Hay una estadística que resumen bastante bien cuál es la trayectoria realista de un desarrollador indie que se lo toma en serio y no abandona después del primer proyecto:
 
 El primer juego genera una media de 120.000 dólares brutos. El segundo genera 168.000. El tercero, 209.000. Son medias, lo que significa que están influenciadas hacia arriba por los pocos que tienen mucho éxito. La mediana real es considerablemente más baja en cada caso. Pero la tendencia es clara: cada juego publicado enseña algo que el siguiente aprovecha.
 
@@ -130,7 +144,5 @@ Los estudios que hoy tienen éxito en el mercado indie casi sin excepción tiene
 La conclusión práctica de todo esto no es desalentadora si se lee bien: **crear videojuegos indie** como negocio sostenible es posible, pero raramente ocurre en el primer intento. Los que lo consiguen son los que tratan cada proyecto como una inversión en conocimiento tanto como una inversión en ingresos, y que no abandonan cuando el primero no genera lo que esperaban.
 
 El mercado está ahí. Los datos muestran que hay espacio para más desarrolladores indie con proyectos bien ejecutados. Lo que no hay es atajos.
-
----
 
 *Fuentes utilizadas en este artículo: [VG Insights / Game World Observer (2024)](https://gameworldobserver.com/2024/10/16/indie-games-revenue-steam-vs-aaa-titles-vg-insights), [How To Market A Game - Chris Zukowski](https://howtomarketagame.com/2022/11/28/the-median-indie-game-does-not-earn-a-whole-lot/), [Game Developer - Top Indie Developers on Steam](https://www.gamedeveloper.com/game-platforms/what-can-we-learn-from-the-1-600-highest-earning-indie-developers-on-steam-), [Sensor Tower State of Gaming 2026](https://9to5mac.com/2026/02/25/app-store-gaming-revenue-hit-52-5b-in-2025-topping-google-play-and-steam-combined-report/).*

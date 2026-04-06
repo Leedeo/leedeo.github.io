@@ -25,6 +25,7 @@ faq:
     answer: "Más de 1.000 empresas, incluyendo a FedEx y Costco, han iniciado acciones legales similares para recuperar aranceles tras la anulación de gran parte de estas medidas por el Tribunal Supremo."
 comments: true
 ---
+
 Nintendo of America ha presentado una demanda ante el Tribunal de Comercio Internacional de Estados Unidos para reclamar la devolución de los aranceles que pagó el año pasado, con intereses incluidos. La demanda acusa a varios organismos del gobierno federal de haber recaudado más de **200.000 millones de dólares** en aranceles sobre importaciones procedentes de prácticamente todos los países del mundo, calificando esas medidas como ilegales.
 
 Los organismos demandados incluyen al Departamento del Tesoro, el Departamento de Seguridad Nacional, la Oficina del Representante de Comercio de Estados Unidos, la Agencia de Aduanas y Protección Fronteriza, y el Departamento de Comercio. En otras palabras, Nintendo no va contra una agencia concreta, sino contra todo el aparato gubernamental que participó en la imposición y gestión de esas medidas.

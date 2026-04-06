@@ -32,7 +32,7 @@ En pleno 2026, con Godot 4.6 en producción y la 4.7 en betas activas, el motor 
 
 ---
 
-### 1. Gobernanza abierta: No hay una empresa que te pueda dejar tirado
+## 1. Gobernanza abierta: No hay una empresa que te pueda dejar tirado
 
 El suceso que más dañó la percepción de la industria de motores fue la crisis de Unity en septiembre de 2023. Unity Technologies anunció cambios retroactivos en su sistema de precios que imponían tarifas por instalación de juegos ya publicados. En 24 horas el daño reputacional fue irreversible para miles de estudios.
 
@@ -40,7 +40,7 @@ Godot no puede hacer eso. No porque no quiera, sino porque **estructuralmente no
 
 ---
 
-### 2. Eficiencia técnica: El motor que se aparta de tu camino
+## 2. Eficiencia técnica: El motor que se aparta de tu camino
 
 Para un desarrollador indie, el tiempo es el recurso más escaso. Godot está diseñado para minimizar la fricción entre la idea y la implementación:
 
@@ -51,7 +51,7 @@ Para un desarrollador indie, el tiempo es el recurso más escaso. Godot está di
 
 ---
 
-### 3. Arquitectura de nodos: El sistema más lógico para cerebros humanos
+## 3. Arquitectura de nodos: El sistema más lógico para cerebros humanos
 
 La arquitectura de Godot está basada en un árbol jerárquico de **Nodos**. Cada nodo hace exactamente una cosa y lo hace bien. La composición de comportamientos se consigue combinando nodos, no via herencia de clases compleja.
 
@@ -69,7 +69,7 @@ Cada elemento es independiente, se puede modificar de forma aislada y el árbol 
 
 ---
 
-### 4. GDScript 2.0: Un lenguaje que ha madurado
+## 4. GDScript 2.0: Un lenguaje que ha madurado
 
 El salto a Godot 4 trajo consigo una revisión profunda de GDScript. Las mejoras más relevantes para desarrollo profesional:
 
@@ -80,7 +80,7 @@ El salto a Godot 4 trajo consigo una revisión profunda de GDScript. Las mejoras
 
 ---
 
-### 5. Un ecosistema maduro en español
+## 5. Un ecosistema maduro en español
 
 Hace tres años decir que Godot tenía buen soporte en español era optimista. En 2026, la realidad es otra: la interfaz del editor está completamente traducida, la documentación oficial cubre el 90% del API en español y existe una comunidad hispanohablante activa tanto en Discord como en foros especializados.
 
@@ -96,7 +96,7 @@ Si quieres ver cómo se traduce toda esta teoría en un flujo de trabajo real co
 
 ---
 
-### ¿Qué limitaciones tiene Godot en 2026?
+## ¿Qué limitaciones tiene Godot en 2026?
 
 La honestidad es parte del análisis técnico. Godot en 2026 tiene áreas donde aún no compite de igual a igual con Unreal Engine o Unity:
 

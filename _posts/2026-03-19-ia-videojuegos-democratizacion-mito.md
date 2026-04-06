@@ -25,6 +25,7 @@ faq:
     answer: "La IA puede generar componentes, pero carece de la visión de conjunto y la sensibilidad humana para pulir detalles de 'game feel'. Los diseñadores evolucionarán hacia roles de dirección, usando la IA para iterar pero aportando el criterio final."
 comments: true
 ---
+
 En el [artículo anterior](/blog/2026/03/18/ia-desarrollo-videojuegos-creatividad/) hablamos sobre la IA como herramienta creativa en el desarrollo de videojuegos. Sobre cómo la cámara de fotos, el tractor y la imprenta generaron las mismas resistencias en su momento. Sobre cómo la herramienta no define el resultado, sino la persona que la usa. Todo eso sigue siendo cierto.
 
 Pero hay una segunda parte de esta conversación que merece un artículo propio, porque tiene implicaciones distintas y porque ignorarla sería deshonesto.
@@ -103,7 +104,7 @@ Si la perspectiva indie tiene sus matices, la perspectiva de las grandes empresa
 
 No hay semana que pase sin que se anuncie un nuevo despido masivo en la industria del videojuego. Se estima que **más de 20.000 puestos de trabajo** se han perdido en la industria solo entre 2023 y 2025. Microsoft cerró estudios como Tango Gameworks y Arkane Austin. Electronic Arts, Ubisoft, Riot Games, Epic Games, Bungie... La lista sigue y sigue. Y aunque no todos esos despidos están directamente relacionados con la IA, la herramienta está empezando a formar parte de la ecuación.
 
-La lógica del recorte es sencilla: si un directivo puede hacer el mismo juego por 100 millones en lugar de 300 usando IA, ¿qué va a hacer? La respuesta es obvia. Y no es necesariamente porque sea una mala persona, sino porque las empresas que cotizan en bolsa responden ante accionistas que exigen márgenes de beneficio crecientes.
+La lógica del recorte es sencilla: si un directivo puede hacer el mismo juego por 100 millones en lugar de 300 usando IA, ¿qué va a hacer? La respuesta es obvia. Y no es necesariamente porque sea una mala persona, sino porque las empresas que cotizan en bolsa responde ante accionistas que exigen márgenes de beneficio crecientes.
 
 Pero la pregunta es: **¿el resultado va a ser el mismo?**
 

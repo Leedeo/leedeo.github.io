@@ -61,13 +61,13 @@ Responder a preguntas concretas sobre tus personajes te dará el género de form
 
 Los tutoriales te enseñan a usar herramientas. Rara vez te enseñan los principios que hacen que un juego funcione.
 
-**La música es innegociable:**
+### La música es innegociable
 
 La música no es decoración: es la mitad de la experiencia sensorial del jugador. Está demostrado que la misma escena de un juego puede percibirse como un momento tenso o como una secuencia cómica dependiendo únicamente del audio. 
 
 Si no puedes componer, hay opciones libres de derechos excelentes (Incompetech, Freesound, OpenGameArt), pero debes ser muy selectivo. La música libre genérica que no encaja con el tono del juego es peor que no tener música.
 
-**La Ley de las Dos Escenas:**
+### La Ley de las Dos Escenas
 
 Esta es la regla más importante para no perder semanas en proyectos que no van a ningún lado: **no intentes construir un juego de 40 niveles antes de tener dos escenas que funcionen bien**.
 

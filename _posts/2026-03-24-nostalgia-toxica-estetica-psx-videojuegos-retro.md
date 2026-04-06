@@ -25,6 +25,7 @@ faq:
     answer: "Aunque hay un componente de tendencia, juegos como Signalis o Crow Country demuestran que, bien usada, es una herramienta expresiva única para generar atmósfera y extrañeza, especialmente en el género de terror."
 comments: true
 ---
+
 Hay una imagen que se repite cada vez más en el videojuego independiente: texturas temblorosas, polígonos toscos, niebla espesa, animaciones rígidas, modelos que parecen tallados con una cuchara y una interfaz que podría haber salido de un televisor de tubo en 1998. La llamada **estética PSX** ya no es una rareza; es casi un subgénero visual con identidad propia.
 
 Y la pregunta es inevitable: ¿por qué?
@@ -63,7 +64,7 @@ Eso también hay que decirlo con claridad: la mayoría de los juegos 3D de la er
 
 No porque fueran malos en su momento, sino porque eran el resultado de una tecnología que estaba dando sus primeros pasos. La primera PlayStation trabajaba con limitaciones enormes: baja resolución, sin corrección de perspectiva en las texturas, sin z-buffer, con polígonos que temblaban y se deformaban al moverse. El famoso *wobble* o bamboleo visual de muchos juegos de PS1 no era una decisión artística: era una consecuencia directa de la arquitectura de la máquina.
 
-La PS1 dibujaba polígonos de una forma que provocaba distorsiones visibles, especialmente cuando la cámara se movía o cuando los objetos estaban cerca del jugador. Hoy eso se recuerda con cariño, pero en su momento no era "estilo": era simplemente el precio que había que pagar por tener 3D en casa.
+La PS1 dibujaba polígonos de una forma que provocaba distorsiones visibles, especialmente cuando la cámara se movía o cuando los objetos estaban cerca del jugador. Hoy eso se recuerda con cariño, pero en su momento no era \"estilo\": era simplemente el precio que había que pagar por tener 3D en casa.
 
 ![Crash Bandicoot en PS1: distorsión de texturas y desplazamiento de vértices (wobble) en personaje y entorno.](/assets/img/posts/nostalgia-toxica-estetica-psx-wobble-poligonos.webp)
 *El bamboleo de vértices era una limitación de hardware, no una decisión artística. Hoy lo imitamos a propósito.*
@@ -75,13 +76,14 @@ Veníamos de generaciones donde el 3D en consolas era limitado, experimental o d
 El problema es que una cosa es recordar lo que significaron, y otra muy distinta rejugarlos hoy sin el filtro de la memoria. Muchos siguen siendo jugablemente potentes, sí. Pero visualmente, la mayoría son duros de mirar para ojos contemporáneos. Y aquí es donde entra en juego la nostalgia.
 
 ## Lo feo también puede tener encanto
+
 ![Crow Country: estética survival horror de 32 bits con personajes estilo chibi, texturas pixeladas e iluminación retro.](/assets/img/posts/nostalgia-toxica-estetica-psx-crow-country.webp)
 
 Decir que la estética PSX es objetivamente fea no debería escandalizar a nadie. La mayoría de esos juegos, vistos fuera de contexto, tienen modelos rígidos, texturas borrosas, animaciones toscas y escenarios vacíos. Pero hay algo más fuerte que la belleza objetiva: **el encanto**.
 
 Y el encanto muchas veces nace precisamente de lo imperfecto.
 
-El horror, por ejemplo, ha encontrado en la estética PSX un terreno fértil. Juegos como [Signalis](https://store.steampowered.com/app/1262350/SIGNALIS/), [Alisa](https://store.steampowered.com/app/1335530/Alisa/), [Lost in Vivo](https://store.steampowered.com/app/963710/Lost_in_Vivo/) o [Dread Delusion](https://store.steampowered.com/app/1574240/Dread_Delusion/) no usan gráficos "antiguos" porque sí. Los usan porque esa tosquedad genera una distancia incómoda, una sensación de extrañeza, un vacío que no produce el hiperrealismo moderno.
+El horror, por ejemplo, ha encontrado en la estética PSX un terreno fértil. Juegos como [Signalis](https://store.steampowered.com/app/1262350/SIGNALIS/), [Alisa](https://store.steampowered.com/app/1335530/Alisa/), [Lost in Vivo](https://store.steampowered.com/app/963710/Lost_in_Vivo/) o [Dread Delusion](https://store.steampowered.com/app/1574240/Dread_Delusion/) no usan gráficos \"antiguos\" porque sí. Los usan porque esa tosquedad genera una distancia incómoda, una sensación de extrañeza, un vacío que no produce el hiperrealismo moderno.
 
 Incluso juegos como [Crow Country](https://store.steampowered.com/app/1996010/Crow_Country/) demuestran que esta estética puede usarse con plena conciencia, no como un parche técnico sino como una herramienta expresiva. La clave está ahí: cuando la estética PSX se usa sabiendo por qué funciona, puede tener mucho poder.
 
@@ -93,7 +95,7 @@ No todo juego con polígonos gordos y texturas pixeladas está haciendo algo int
 
 En los últimos años, la estética PSX se ha convertido en un recurso muy accesible para estudios pequeños. Y eso tiene una explicación práctica: producir gráficos con menos detalle, menos animaciones complejas y una presentación más austera es, en muchos casos, más viable para equipos modestos. No hace falta un ejército de artistas para modelar un personaje de 300 polígonos con una textura de 128x128.
 
-Aquí es donde aparece una pregunta incómoda: **¿cuántos juegos "estilo PSX" son realmente un homenaje artístico, y cuántos son una limitación técnica disfrazada de estilo?**
+Aquí es donde aparece una pregunta incómoda: **¿cuántos juegos \"estilo PSX\" son realmente un homenaje artístico, y cuántos son una limitación técnica disfrazada de estilo?**
 
 No hay nada malo en trabajar dentro de tus posibilidades. Todo lo contrario. El problema aparece cuando el discurso alrededor del juego quiere vender como decisión estética profunda algo que en realidad también responde a falta de recursos. Y esta tensión tiene mucho que ver con algo más estructural: la diferencia de fondo entre cómo trabaja un estudio indie y cómo lo hace uno AAA, y qué libertades y qué presiones tiene cada uno a la hora de tomar decisiones visuales:
 
@@ -115,13 +117,13 @@ Su huella cultural fue enorme. Y esa huella ahora vuelve convertida en estilo.
 
 ## La nostalgia selecciona lo bonito y borra lo molesto
 
-Aquí es donde entra la parte "tóxica" del asunto.
+Aquí es donde entra la parte \"tóxica\" del asunto.
 
 Cuando hoy se imita la estética PSX, casi nunca se imita del todo. Se rescatan los polígonos, la niebla, las texturas de baja resolución, las animaciones rígidas y los menús austeros. Pero se eliminan muchas de las incomodidades reales de aquella época: cámaras infernales, controles torpes, tiempos de carga insoportables, popping agresivo, caídas de rendimiento o interfaces confusas.
 
 Eso significa que no estamos recreando el pasado tal como fue. Estamos recreando una **versión idealizada** del pasado. Una versión filtrada por el gusto actual.
 
-Pensemos en [Silent Hill](https://en.wikipedia.org/wiki/Silent_Hill_(video_game)). La niebla es hoy uno de sus rasgos visuales más recordados, casi un símbolo estético. Pero no estaba ahí solo por arte. Estaba ahí porque la consola necesitaba ocultar la aparición tardía de los elementos del escenario. Era una solución técnica convertida en recurso atmosférico. Si creas hoy un juego "estilo PSX" y quitas la niebla porque ya no la necesitas, se pierde parte de la identidad. Pero si la mantienes, lo estás haciendo ya no por necesidad, sino como una cita consciente a una limitación antigua.
+Pensemos en [Silent Hill](https://en.wikipedia.org/wiki/Silent_Hill_(video_game)). La niebla es hoy uno de sus rasgos visuales más recordados, casi un símbolo estético. Pero no estaba ahí solo por arte. Estaba ahí porque la consola necesitaba ocultar la aparición tardía de los elementos del escenario. Era una solución técnica convertida en recurso atmosférico. Si creas hoy un juego \"estilo PSX\" y quitas la niebla porque ya no la necesitas, se pierde parte de la identidad. Pero si la mantienes, lo estás haciendo ya no por necesidad, sino como una cita consciente a una limitación antigua.
 
 Eso es fascinante. Y también algo tramposo.
 
@@ -133,7 +135,7 @@ Aquí viene una idea que suele incomodar a quienes romantizan a ciegas la era PS
 
 Mientras muchas compañías se obsesionaban con el salto tridimensional aunque todavía no dominaran la tecnología, otras estaban produciendo sprites, fondos y animaciones 2D con un nivel de detalle impresionante. Basta mirar juegos como [Castlevania: Symphony of the Night](https://store.steampowered.com/app/2369900/Castlevania_Dominus_Collection/), [Rayman](https://store.steampowered.com/app/242550/Rayman_Origins/) o tantos títulos de lucha, shoot 'em up y plataformas de la época.
 
-Ese 2D no era "pixel art" en el sentido en que usamos hoy el término. Y esto es importante. Hoy el pixel art se entiende como una disciplina con reglas concretas, donde el píxel tiene valor estructural y cada decisión visual está pensada para respetar una cuadrícula visible. En los 90, la mayoría de estudios no estaban intentando "hacer pixel art" como lo entendemos ahora; estaban intentando que los píxeles se notaran lo menos posible. Las televisiones CRT, con sus [scanlines](https://en.wikipedia.org/wiki/Scan_line) y su ruido analógico, suavizaban bordes, mezclaban colores y disimulaban defectos. La imagen real que veíamos entonces no era la que vemos hoy en un monitor LCD limpio y afilado.
+Ese 2D no era \"pixel art\" en el sentido en que usamos hoy el término. Y esto es importante. Hoy el pixel art se entiende como una disciplina con reglas concretas, donde el píxel tiene valor estructural y cada decisión visual está pensada para respetar una cuadrícula visible. En los 90, la mayoría de estudios no estaban intentando \"hacer pixel art\" como lo entendemos ahora; estaban intentando que los píxeles se notaran lo menos posible. Las televisiones CRT, con sus [scanlines](https://en.wikipedia.org/wiki/Scan_line) y su ruido analógico, suavizaban bordes, mezclaban colores y disimulaban defectos. La imagen real que veíamos entonces no era la que vemos hoy en un monitor LCD limpio y afilado.
 
 Eso también se olvida mucho cuando se habla de estética retro: **no solo importaba el juego, importaba la pantalla en la que se veía**.
 

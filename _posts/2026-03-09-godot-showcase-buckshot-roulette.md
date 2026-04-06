@@ -27,6 +27,7 @@ faq:
     answer: "Recomienda encarecidamente crear muchos juegos pequeños que se puedan terminar en un par de semanas, ya que la repetición del proceso completo es lo que realmente enseña a desarrollar."
 comments: true
 ---
+
 En esta nueva entrega analizando títulos del escenario indie, compartimos la reciente publicación del **Godot Showcase**, donde la fundación ha entrevistado directamente a **Mike Klubnika**, quien nos cuenta su experiencia desarrollando el masivo éxito indie de 2024 *Buckshot Roulette*, así como su proyecto más reciente, *s.p.l.i.t*.
 
 Mike es el más reciente patrocinador Corporate Platinum del Godot Development Fund. Gracias a desarrolladores como él que devuelven a la comunidad parte de su éxito, el motor sigue creciendo para todos. Pero antes de leer su historia y cómo logró todo esto usando herramientas accesibles, si tú también quieres empezar a crear juegos y aprender a usar Godot Engine desde cero, te comparto la primera clase de mi curso gratuito:
@@ -39,9 +40,7 @@ Mike es el más reciente patrocinador Corporate Platinum del Godot Development F
   </a>
 </div>
 
----
-
-### ¿Cómo empezaste en el desarrollo de videojuegos? ¿Y cómo se convirtió en tu trabajo a tiempo completo?
+## ¿Cómo empezaste en el desarrollo de videojuegos? ¿Y cómo se convirtió en tu trabajo a tiempo completo?
 
 Empecé aprendiendo a **crear arte 3D** allá por 2018, es decir, unos 3 años antes de meterme en el desarrollo de juegos en solitario. Eventualmente, me empezó a interesar cada vez más el desarrollo en sí, y decidí trabajar en un juego pequeño durante 2 meses. Una vez que lo publiqué, el efecto fue como una bola de nieve y ya no pude dejar de pensar en **crear juegos**.
 
@@ -51,7 +50,7 @@ Para finales de 2023 ya había lanzado 16 juegos cortos, y tenía una comunidad 
 
 Ya estaba súper agradecido por mi pequeña comunidad, así que, tras vender *Buckshot Roulette* por un dólar a finales de 2023, me quedé sin palabras cuando el juego se hizo viral y llegó al público masivo. Desde entonces, he podido dedicarme a **crear juegos a tiempo completo**.
 
-### Algunos estarán familiarizados con Buckshot Roulette, pero ¿puedes hablarnos de tu nuevo proyecto, s.p.l.i.t.?
+## Algunos estarán familiarizados con Buckshot Roulette, pero ¿puedes hablarnos de tu nuevo proyecto, s.p.l.i.t.?
 
 *s.p.l.i.t.* es un juego que todavía no sé muy bien cómo describir. Básicamente, es un simulador de hacking con elementos estilo *Typing of The Dead* y una buena dosis de terror existencial. Después de *Buckshot Roulette*, tenía muchas ganas de hacer algo con un mayor peso narrativo, y *s.p.l.i.t.* terminó siendo el proyecto perfecto para eso.
 
@@ -59,7 +58,7 @@ Ya estaba súper agradecido por mi pequeña comunidad, así que, tras vender *Bu
 
 Por el lado del gameplay, intenté conseguir un estilo de hacking algo "realista", así que la terminal es muy básica, sin efectos visuales llamativos, y el juego utiliza comandos de consola con los que espero que los jugadores ya estén familiarizados.
 
-### ¿Cuáles fueron los mayores retos durante el desarrollo y cómo los superaste?
+## ¿Cuáles fueron los mayores retos durante el desarrollo y cómo los superaste?
 
 Decidí desde el principio que el juego se controlaría únicamente con el teclado, lo cual trajo algunos problemas a la hora de idear un esquema de control para navegar por distintas pantallas e interactuar con el entorno. Esa mecánica estilo *Typing of The Dead* acabó funcionando muy bien para esto: el jugador ve sus "pensamientos de acción" en ciertas partes del escenario y tiene que teclearlos para ejecutar la interacción. Además, se veía genial; fue muy divertido enmarcar distintos pensamientos de forma cinematográfica a través de las escenas.
 
@@ -67,23 +66,23 @@ Decidí desde el principio que el juego se controlaría únicamente con el tecla
 
 El mayor desafío fue lograr que el juego fuera mínimamente accesible para personas que nunca antes habían tocado una línea de comandos. Originalmente, los puzles de la terminal estaban diseñados de forma que el objetivo final estaba claro, pero el camino para llegar a él no. Los jugadores acababan perdidos, así que hacer más claros los pasos hacia el objetivo ayudó muchísimo. Al final, los puzles quedaron en un punto en el que el jugador tiene una idea bastante clara de su objetivo, y debe traducir los pasos necesarios para cumplirlo en comandos de terminal.
 
-### ¿Cómo descubriste Godot Engine? ¿Qué te hizo elegirlo para tu proyecto?
+## ¿Cómo descubriste Godot Engine? ¿Qué te hizo elegirlo para tu proyecto?
 
 Descubrí Godot originalmente hacia 2022, pero lo abrí por primera vez a finales de 2023. Antes de eso, había usado Unity durante unos 3 años, pero cuando anunciaron su tarifa por instalación (Runtime Fee), decidí probar a cambiar de motor. Me gustó mucho el hecho de que Godot fuera de código abierto y descubrí que era bastante fácil acostumbrarse a él, ya que comparte muchas similitudes con el flujo de trabajo que yo tenía en Unity.
 
 ![Buckshot Roulette Casino Oscuro](/assets/img/posts/buckshot-roulette-mesa-casino-oscuro.webp)
 
-### ¿Qué es lo que más te gusta de Godot?
+## ¿Qué es lo que más te gusta de Godot?
 
 Es muy rápido, incluso en proyectos grandes. Mi característica favorita tiene que ser el `AnimationPlayer`, que es potentísimo y muy rápido de configurar. Al venir de C#, también me gustó mucho GDScript una vez que me acostumbré; creo que es un lenguaje de programación muy bueno. En general, siento que es súper rápido iterar en diferentes características: apenas hay fricción a la hora de experimentar o ajustar pequeños detalles.
 
-### Durante el desarrollo de tu juego, ¿hubo alguna función que te hubiera gustado ver en Godot?
+## Durante el desarrollo de tu juego, ¿hubo alguna función que te hubiera gustado ver en Godot?
 
 Estaría genial poder ver una visualización en tiempo real del árbol de escenas remoto directamente en el editor. Algo parecido a Unity, donde si ejecutas el juego, puedes verlo funcionando dentro del propio editor, navegar por él y ajustar variables de los objetos en tiempo real.
 
 ![Buckshot Roulette Escena Final](/assets/img/posts/buckshot-roulette-escena-final.webp)
 
-### ¿Qué consejo le darías a los aspirantes a desarrolladores de videojuegos que acaban de empezar en la industria?
+## ¿Qué consejo le darías a los aspirantes a desarrolladores de videojuegos que acaban de empezar en la industria?
 
 Recomendaría encarecidamente **crear un montón de juegos pequeños**, cosas que puedas terminar en un par de semanas. El primer juego siempre es el más difícil porque estás haciendo todo por primera vez, pero una vez que pasas por el proceso varias veces, todo empieza a tener mucho más sentido.
 
@@ -91,6 +90,4 @@ En el desarrollo en solitario hay que ponerse muchos sombreros distintos. Lo que
 
 Pero, por lo general, todo es cuestión de tiempo; lo mejor es seguir dándole duro. En mi caso personal, solo empecé a notar mi progreso cuando miré hacia atrás y vi mis primeros juegos, después de apenas un par de meses haciendo proyectos.
 
----
-
-*(Entrevista original publicada en inglés por el [blog oficial de la Fundación Godot](https://godotengine.org/article/godot-showcase-buckshot-roulette/). Adaptación técnica para la comunidad de Leedeo Studio).*
+(Entrevista original publicada en inglés por el [blog oficial de la Fundación Godot](https://godotengine.org/article/godot-showcase-buckshot-roulette/). Adaptación técnica para la comunidad de Leedeo Studio).

@@ -25,6 +25,7 @@ faq:
     answer: "Sí, Defold es gestionado por una fundación sin ánimo de lucro y todos los ingresos que generes con tus juegos te pertenecen al 100%, sin importar cuánto vendas."
 comments: true
 ---
+
 Cuando se habla de motores de videojuegos, los nombres que aparecen siempre son los mismos: Unity, Unreal Engine y, más recientemente, Godot. Pero existe otro motor que lleva años funcionando en silencio, que es completamente gratuito, que no cobra regalías y que está detrás de juegos con millones de jugadores en todo el mundo. Se llama **[Defold](https://defold.com/)** y, por alguna razón, casi nadie habla de él. Al menos no en español.
 
 ## Qué es Defold
@@ -34,8 +35,6 @@ Para quien no esté familiarizado con el término, un motor de videojuegos es el
 Si todavía no tienes del todo claro qué base tecnológica o motor de videojuegos escoger para dar tus primeros pasos en esta industria, te recomiendo hacer una pequeña pausa y ver esta guía fundamental que preparé en el canal sobre **por dónde debes empezar** para no frustrarte en el intento:
 
 {% include youtube-embed.html id="3ifj5q95qdk" title="¿Por dónde empezar a crear Videojuegos?" %}
-
----
 
 Retomando el hilo, [Defold](https://defold.com/) es un motor de videojuegos **gratuito** y con su **código fuente disponible de forma pública**. Lo gestiona la **Defold Foundation**, una fundación sin ánimo de lucro, y se puede descargar desde su [página oficial](https://defold.com/) sin coste alguno.
 
@@ -51,7 +50,7 @@ King utilizó Defold internamente para sus propios proyectos y, en **2016**, tom
 
 ### La Defold Foundation
 
-En **2020**, el proyecto dio otro paso importante. King, que para entonces ya formaba parte de Activision Blizzard, transfirió Defold a una entidad independiente: la **[Defold Foundation](https://defold.com/foundation/)**, una fundación sin ánimo de lucro creada específicamente para garantizar el futuro del motor a largo plazo.
+In **2020**, el proyecto dio otro paso importante. King, que para entonces ya formaba parte de Activision Blizzard, transfirió Defold a una entidad independiente: la **[Defold Foundation](https://defold.com/foundation/)**, una fundación sin ánimo de lucro creada específicamente para garantizar el futuro del motor a largo plazo.
 
 Este movimiento le dio a Defold algo muy valioso: **independencia**. El motor dejó de depender de las decisiones corporativas de una gran empresa y pasó a estar gobernado por una fundación cuyo único objetivo es mantenerlo, mejorarlo y asegurar que siga siendo gratuito y accesible.
 
@@ -105,7 +104,7 @@ Es un lenguaje fácil de aprender, con una sintaxis limpia que no intimida a qui
 
 Una de las ventajas más llamativas de Defold es el **tamaño de los juegos que genera**. Mientras que un juego hecho con otros motores puede ocupar cientos de megabytes con facilidad, un juego de Defold puede pesar apenas unos pocos megabytes.
 
-Esto no es un dato menor. Tiene implicaciones directas:
+Este no es un dato menor. Tiene implicaciones directas:
 
 - Los jugadores descargan el juego más rápido.
 - En dispositivos móviles con almacenamiento limitado, ocupa mucho menos espacio.
@@ -163,7 +162,7 @@ Depende de lo que se busque. Y esta es la respuesta más honesta posible.
 - Se necesita un motor 3D de alto nivel para un proyecto visualmente ambicioso. El soporte 3D está mejorando, pero otros motores llevan ventaja clara en este terreno.
 - Se busca una comunidad y un ecosistema tan grandes como los de Unity, Unreal o Godot. La comunidad de Defold es activa y colaborativa, pero más pequeña en número.
 - Se necesita abundante documentación y tutoriales en español. La gran mayoría del material disponible está en inglés.
-- Se quiere acceder a un catálogo amplio de complementos y recursos hechos por terceros, al estilo de la Asset Store de Unity.
+- Se quiere acceder a un catálogo amplio de complementos y recursos hechos por terceros, al estilo de the Asset Store de Unity.
 
 Para quien está empezando y quiere crear un juego 2D, un juego para móviles o un juego para el navegador, Defold es una de las mejores opciones disponibles. Lua es accesible, el motor es ligero, y no hay ninguna barrera económica.
 

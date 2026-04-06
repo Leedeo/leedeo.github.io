@@ -25,6 +25,7 @@ faq:
     answer: "Shinji Mikami abandonó Tango Gameworks en 2023, antes de que el estudio fuera cerrado por Microsoft y rescatado por Krafton; Unbound Games es su nuevo camino independiente."
 comments: true
 ---
+
 El creador de Resident Evil lleva más tiempo del que muchos pensaban trabajando en su próximo proyecto. Shinji Mikami fundó Unbound Games en mayo de 2023, el estudio lleva operativo casi dos años, y su página web existe desde hace al menos uno, pero ha pasado prácticamente desapercibida hasta hace unos días, cuando empezó a circular ampliamente entre la comunidad.
 
 Lo primero que hay que entender sobre Unbound es que no es un proyecto pequeño ni una apuesta conservadora. El estudio se define como una compañía completamente independiente centrada en desarrollar IP originales para PS5, Xbox Series X&#124;S y PC, utilizando Unreal Engine 5. Actualmente tiene alrededor de 50 personas en plantilla, con planes de crecer hasta las 150. Para un estudio independiente que acaba de salir del anonimato, eso es una declaración de intenciones bastante clara.

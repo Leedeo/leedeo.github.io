@@ -25,6 +25,7 @@ faq:
     answer: "Aunque no hay una cifra mágica, los expertos coinciden en que llegar con menos de 1.000 wishlists supone un riesgo de invisibilidad total. Un objetivo saludable para un indie pequeño es intentar superar las 7.000-10.000 antes de publicar."
 comments: true
 ---
+
 Hay una estadística que circula por la industria del videojuego y que nadie con experiencia en el sector discute: **la inmensa mayoría de los juegos indie fracasan**. Las cifras exactas varían según la fuente y los criterios que se usen para definir "fracaso", pero las estimaciones más citadas sitúan la tasa de fracaso comercial entre el **85% y el 95%**.
 
 No es una exageración. No es pesimismo. Es lo que ocurre cuando se cruzan los datos de lanzamientos en plataformas como [Steam](https://store.steampowered.com/) con las cifras de ventas reales.
@@ -59,33 +60,27 @@ Hay que ser directo con esto: **si no estás dispuesto a hacer marketing de tu j
 
 Porque lo que ocurre cuando alguien publica un juego sin ningún esfuerzo de marketing es predecible con una precisión casi científica: el juego se publica, no lo ve nadie, no se vende, y el desarrollador se frustra y culpa al mercado, a Steam, a los jugadores, a la mala suerte o a la injusticia del mundo. A todo menos a la decisión de lanzar un producto comercial sin hacer ni el más mínimo esfuerzo por darlo a conocer.
 
-### ¿Qué significa hacer marketing de un juego indie?
+## ¿Qué significa hacer marketing de un juego indie?
 
 No hace falta contratar una agencia. No hace falta gastar miles de dólares. El marketing de un juego indie empieza mucho antes del lanzamiento y, en su forma más básica, consiste en hacer tres cosas:
 
-**1. Mostrar el juego mientras se desarrolla.** Publicar avances en redes sociales, compartir capturas, grabar pequeños vídeos del desarrollo, contar qué se está haciendo y por qué. Construir una audiencia antes de tener un producto a la venta. El día del lanzamiento es demasiado tarde para empezar a hablar del juego.
-
-**2. Construir una página de Steam cuanto antes.** Steam permite crear la página del juego mucho antes de que esté terminado. Cada persona que añade el juego a su lista de deseados es una persona que va a recibir una notificación el día del lanzamiento. Un juego que llega al día de lanzamiento con 50 wishlists tiene un problema. Un juego que llega con 10.000 tiene una oportunidad.
-
-### 3. Contactar con creadores de contenido
-
-Streamers, youtubers, periodistas de medios especializados. Enviar copias del juego a personas que puedan mostrarlo a una audiencia. No todos van a responder, y no todos los que respondan van a cubrir el juego. Pero los que lo hagan pueden generar más visibilidad en un vídeo de 20 minutos que toda la publicidad pagada del mundo.
+- **1. Mostrar el juego mientras se desarrolla.** Publicar avances en redes sociales, compartir capturas, grabar pequeños vídeos del desarrollo, contar qué se está haciendo y por qué. Construir una audiencia antes de tener un producto a la venta. El día del lanzamiento es demasiado tarde para empezar a hablar del juego.
+- **2. Construir una página de Steam cuanto antes.** Steam permite crear la página del juego mucho antes de que esté terminado. Cada persona que añade el juego a su lista de deseados es una persona que va a recibir una notificación el día del lanzamiento. Un juego que llega al día de lanzamiento con 50 wishlists tiene un problema. Un juego que llega con 10.000 tiene una oportunidad.
+- **3. Contactar con creadores de contenido.** Streamers, youtubers, periodistas de medios especializados. Enviar copias del juego a personas que puedan mostrarlo a una audiencia. No todos van a responder, y no todos los que respondan van a cubrir el juego. Pero los que lo hagan pueden generar más visibilidad en un vídeo de 20 minutos que toda la publicidad pagada del mundo.
 
 Nada de esto cuesta dinero. Cuesta **tiempo y esfuerzo**. Y esa es precisamente la barrera que muchos desarrolladores no están dispuestos a cruzar.
 
-### Marketing mal hecho, dicho con todas las letras
+## Marketing mal hecho, dicho con todas las letras
 
 Y luego está el caso contrario: desarrolladores que sí intentan hacer marketing, pero lo hacen tan mal que habría dado igual no hacerlo.
 
-*   **Tráilers que no muestran nada.** Treinta segundos de logos, una frase pretenciosa, tres planos oscuros donde no se entiende qué está pasando y un título al final. Un tráiler tiene que mostrar el juego. Tiene que mostrar qué se hace en él, cómo se ve, cómo se siente. En los primeros cinco segundos. No después de una intro de veinte segundos con efectos de humo.
+- **Tráilers que no muestran nada.** Treinta segundos de logos, una frase pretenciosa, tres planos oscuros donde no se entiende qué está pasando y un título al final. Un tráiler tiene que mostrar el juego. Tiene que mostrar qué se hace en él, cómo se ve, cómo se siente. En los primeros cinco segundos. No después de una intro de veinte segundos con efectos de humo.
 
 {% include youtube-embed.html id="xFT4UGVw610" title="El secreto para que tu juego no sea ignorado, Tráilers que venden" %}
 
-*   **Capturas de pantalla que no representan el juego.** Capturas seleccionadas para mostrar el mejor ángulo posible de un momento puntual que no refleja la experiencia real. El jugador compra basándose en esas capturas y se encuentra con algo que no se parece a lo que le vendieron. Resultado: reembolso y reseña negativa.
-
-*   **Descripciones genéricas.** *"Un emocionante juego de aventuras donde explorarás un mundo lleno de misterios."* Eso no describe nada. Describe a diez mil juegos. Si la descripción de tu juego podría servir para cualquier otro del mismo género, no está haciendo su trabajo.
-
-*   **Publicar y desaparecer.** Algunos desarrolladores tratan el lanzamiento como el final del camino. El juego se publica y el desarrollador deja de comunicar. Eso le dice al potencial comprador que el juego está abandonado, incluso si no lo está.
+- **Capturas de pantalla que no representan el juego.** Capturas seleccionadas para mostrar el mejor ángulo posible de un momento puntual que no refleja la experiencia real. El jugador compra basándose en esas capturas y se encuentra con algo que no se parece a lo que le vendieron. Resultado: reembolso y reseña negativa.
+- **Descripciones genéricas.** *\"Un emocionante juego de aventuras donde explorarás un mundo lleno de misterios.\"* Eso no describe nada. Describe a diez mil juegos. Si la descripción de tu juego podría servir para cualquier otro del mismo género, no está haciendo su trabajo.
+- **Publicar y desaparecer.** Algunos desarrolladores tratan el lanzamiento como el final del camino. El juego se publica y el desarrollador deja de comunicar. Eso le dice al potencial comprador que el juego está abandonado, incluso si no lo está.
 
 El marketing no tiene que ser brillante. Pero tiene que existir. Y tiene que estar hecho con un mínimo de criterio.
 
@@ -95,32 +90,32 @@ Este es un tema que genera reacciones intensas, así que merece abordarse sin ro
 
 Hay un perfil de desarrollador indie que se repite con una frecuencia llamativa: la persona que invierte **cientos o miles de horas** en desarrollar un juego, que gasta dinero en su día a día sin pensarlo dos veces, pero que cuando llega el momento de invertir aunque sea una cantidad modesta en su propio proyecto comercial, se bloquea por completo.
 
-Gastar 5 euros al día en caprichos durante un año de desarrollo son más de 1.800 euros que no han generado ningún retorno. Pero invertir 200 en publicidad dirigida, o 500 en un artista que cree un buen key art... eso es impensable. Eso es "demasiado".
+Gastar 5 euros al día en caprichos durante un año de desarrollo son más de 1.800 euros que no han generado ningún retorno. Pero invertir 200 en publicidad dirigida, o 500 en un artista que cree un buen key art... eso es impensable. Eso es \"demasiado\".
 
-### El miedo al publisher
+## El miedo al publisher
 
 Un publisher indie típico se queda con un porcentaje de las ventas a cambio de financiar parte del desarrollo, encargarse del marketing y aportar experiencia sobre qué funciona en el mercado actual.
 
-La reacción de muchos desarrolladores novatos es: *"¿Darle un 30% de mis ventas? ¿Están locos?"*
+La reacción de muchos desarrolladores novatos es: *\"¿Darle un 30% de mis ventas? ¿Están locos?\"*
 
 Detengámonos aquí un momento. Tu juego no va a vender un millón de copias sin ayuda, no en tu primer lanzamiento, no sin una base de seguidores, no sin marketing. Lo que sí es muy probable es que sin ningún tipo de apoyo el juego venda **cero**. O algo muy cercano a cero.
 
 El 30% de cero es cero. El 70% de algo es **algo**.
 
-Un publisher no es un estafador que viene a quitarte dinero. Es un socio comercial que puede convertir un proyecto invisible en un producto viable. Hay que investigar, comparar, pedir referencias. Pero rechazar de plano la idea porque "no quiero darle mi dinero a nadie" es, en la mayoría de los casos, la forma más directa de asegurarse de que no va a haber ningún dinero que dar.
+Un publisher no es un estafador que viene a quitarte dinero. Es un socio comercial que puede convertir un proyecto invisible en un producto viable. Hay que investigar, comparar, pedir referencias. Pero rechazar de plano la idea porque \"no quiero darle mi dinero a nadie\" es, en la mayoría de los casos, la forma más directa de asegurarse de que no va a haber ningún dinero que dar.
 
-### La aritmética que nadie quiere hacer
+## La aritmética que nadie quiere hacer
 
 Hagamos las cuentas que muchos desarrolladores evitan:
 
-*   Publicar en Steam cuesta **100 dólares**.
-*   Steam se queda con el **30%** de cada venta.
-*   Los impuestos se llevan otro porcentaje según la jurisdicción.
-*   Si el juego se vende a **10 dólares**, el desarrollador recibe, siendo optimista, unos **5 o 6 dólares** después de comisiones y antes de impuestos.
+- Publicar en Steam cuesta **100 dólares**.
+- Steam se queda con el **30%** de cada venta.
+- Los impuestos se llevan otro porcentaje según la jurisdicción.
+- Si el juego se vende a **10 dólares**, el desarrollador recibe, siendo optimista, unos **5 o 6 dólares** después de comisiones y antes de impuestos.
 
 Para recuperar solo los 100 dólares de la cuota de Steam hay que vender entre 17 y 20 copias. Parece poco. Pero hay juegos en Steam que no llegan a esa cifra.
 
-La pregunta no es "¿cuánto dinero me van a quitar?". La pregunta es "¿cuánto dinero voy a generar si no invierto nada?". Y la respuesta, en la inmensa mayoría de los casos, no justifica ni el tiempo dedicado al desarrollo.
+La pregunta no es \"¿cuánto dinero me van a quitar?\". La pregunta es \"¿cuánto dinero voy a generar si no invierto nada?\". Y la respuesta, en la inmensa mayoría de los casos, no justifica ni el tiempo dedicado al desarrollo.
 
 ## Falta de identidad visual
 
@@ -132,7 +127,7 @@ Estos juegos no solo son buenos. **Se ven** como si fueran buenos. Y eso importa
 
 ## No escuchar al jugador
 
-Si durante el desarrollo los jugadores dicen consistentemente que algo no funciona, que algo no se entiende, que algo no es divertido... esa información vale oro. Ignorarla porque "mi visión es más importante" es una decisión legítima desde el punto de vista artístico, pero suicida desde el punto de vista comercial.
+Si durante el desarrollo los jugadores dicen consistentemente que algo no funciona, que algo no se entiende, que algo no es divertido... esa información vale oro. Ignorarla porque \"mi visión es más importante\" es una decisión legítima desde el punto de vista artístico, pero suicida desde el punto de vista comercial.
 
 Steam ofrece herramientas como el **acceso anticipado** y las **demos** que permiten exponer el juego a jugadores reales antes del lanzamiento definitivo. [Hades](https://store.steampowered.com/app/1145360/Hades/) pasó casi dos años en Early Access ajustando mecánicas basándose en la retroalimentación de los jugadores. [Baldur's Gate 3](https://store.steampowered.com/app/1086940/Baldurs_Gate_3/) pasó por tres años de acceso anticipado escuchando, ajustando y reescribiendo. El resultado fue el Juego del Año 2023.
 
@@ -162,13 +157,13 @@ Pero por cada Among Us hay **miles** de juegos que pasaron dos años en la irrel
 
 No hay una fórmula mágica, pero hay patrones que se repiten:
 
-*   **Empiezan el marketing desde el primer día de desarrollo.** No al final. Desde el principio.
-*   **Construyen una audiencia antes de tener un producto.** Cuando el juego se lanza, ya hay gente esperándolo.
-*   **Tienen una identidad visual clara.** El juego se reconoce en una miniatura.
-*   **Escuchan la retroalimentación y la incorporan.** No esperan a que el juego esté terminado para descubrir que algo fundamental no funciona.
-*   **Invierten en lo que no saben hacer.** No intentan hacerlo todo solos si hacerlo todo solos significa hacerlo todo mal.
-*   **Tienen expectativas realistas.** No esperan el éxito viral. Esperan vender lo suficiente para que el proyecto haya valido la pena, y trabajan activamente para que eso ocurra.
-*   **Estudian el mercado.** Saben qué juegos existen en su género y qué hace que un título destaque en ese espacio concreto.
+- **Empiezan el marketing desde el primer día de desarrollo.** No al final. Desde el principio.
+- **Construyen una audiencia antes de tener un producto.** Cuando el juego se lanza, ya hay gente esperándolo.
+- **Tienen una identidad visual clara.** El juego se reconoce en una miniatura.
+- **Escuchan la retroalimentación y la incorporan.** No esperan a que el juego esté terminado para descubrir que algo fundamental no funciona.
+- **Invierten en lo que no saben hacer.** No intentan hacerlo todo solos si hacerlo todo solos significa hacerlo todo mal.
+- **Tienen expectativas realistas.** No esperan el éxito viral. Esperan vender lo suficiente para que el proyecto haya valido la pena, y trabajan activamente para que eso ocurra.
+- **Estudian el mercado.** Saben qué juegos existen en su género y qué hace que un título destaque en ese espacio concreto.
 
 Nada de esto garantiza el éxito. Pero no hacer ninguna de estas cosas casi garantiza el fracaso.
 
@@ -176,7 +171,7 @@ Nada de esto garantiza el éxito. Pero no hacer ninguna de estas cosas casi gara
 
 Antes de publicar un juego, todo desarrollador debería hacerse una pregunta y responderse con honestidad:
 
-*"Si yo no fuera el creador de este juego, ¿lo compraría?"*
+*\"Si yo no fuera el creador de este juego, ¿lo compraría?\"*
 
 No si le darías una oportunidad porque conoces al desarrollador. No si lo jugarías si te lo regalaran. **¿Lo comprarías?** ¿Sacarías la tarjeta, pagarías 10 o 15 euros y lo elegirías por encima de los otros 40 juegos que se publican ese mismo día?
 

@@ -25,17 +25,16 @@ faq:
     answer: "El desarrollo independiente permite proyectos con presupuestos humanos, mayor libertad creativa y no hereda la presión financiera extrema de los grandes estudios cotizados."
 comments: true
 ---
+
 La industria del videojuego genera más dinero que el cine y la música juntos. En 2023 superó los 196.000 millones de dólares a nivel global, y las previsiones apuntan a que rozará los 257.000 millones en 2028. Con esos números encima de la mesa, uno asumiría que las grandes compañías nadan en beneficios. La realidad, sin embargo, es bastante más complicada que eso.
 
 Los estudios venden más que nunca, pero los márgenes de beneficio se están estrechando. El problema no es la demanda, que claramente existe, sino lo que cuesta satisfacerla.
 
-Antes de desglosar los presupuestos y la crisis del modelo AAA, es fundamental entender cómo esta presión afecta a quienes hacen los juegos. Si te planteas entrar en esta industria con la esperanza de un "trabajo seguro", te recomiendo ver este análisis sobre la realidad laboral del sector antes de continuar la lectura:
+Antes de desglosar los presupuestos y la crisis del modelo AAA, es fundamental entender cómo esta presión afecta a quienes hacen los juegos. Si te planteas entrar en esta industria con la esperanza de un \"trabajo seguro\", te recomiendo ver este análisis sobre la realidad laboral del sector antes de continuar la lectura:
 
 {% include youtube-embed.html id="NWosjlLorEU" title="Por qué aprender Unity o Unreal no te dará trabajo" %}
 
----
-
-### El precio de hacer un juego "grande"
+## El precio de hacer un juego \"grande\"
 
 Producir un título AAA en 2025 puede superar con facilidad los cientos de millones de dólares, y no se trata solo del desarrollo, sino del conjunto: programación, arte, diseño, música, doblaje, servidores, soporte post-lanzamiento y, por supuesto, marketing.
 
@@ -43,13 +42,11 @@ Gracias a los documentos que salieron a la luz durante el juicio por la adquisic
 
 ¿Por qué cuesta tanto? Hay varios factores que se han ido acumulando durante la última década. El primero, y probablemente el más evidente, es la escala técnica. Desarrollar gráficos con nivel de realismo casi cinematográfico no es solo cuestión de tener buenos artistas: requiere pipelines de producción enormes, motores gráficos que hay que adaptar o construir desde cero, y equipos especializados en áreas que antes ni existían, como el renderizado de pelo en tiempo real, la captura de movimiento facial o la iluminación global dinámica.
 
-A eso se le suma que los juegos ya no se "terminan" en el lanzamiento. El soporte continuo, las actualizaciones de contenido, el mantenimiento de servidores online y la gestión de comunidades son costes permanentes que se extienden años después de que el juego salga al mercado. Un estudio que lanza un juego hoy sabe que va a seguir invirtiendo en él durante años, independientemente de si el retorno de esa inversión está garantizado.
+A eso se le suma que los juegos ya no se \"terminan\" en el lanzamiento. El soporte continuo, las actualizaciones de contenido, el mantenimiento de servidores online y la gestión de comunidades son costes permanentes que se extienden años después de que el juego salga al mercado. Un estudio que lanza un juego hoy sabe que va a seguir invirtiendo en él durante años, independientemente de si el retorno de esa inversión está garantizado.
 
 Y luego está el marketing. Un juego técnicamente sobresaliente que nadie conoce no vende. Las campañas actuales implican presencia en ferias como el Tokyo Game Show o el Summer Game Fest, acuerdos con creadores de contenido, activaciones en redes sociales, trailers que se producen con presupuestos propios de cortometrajes, y estrategias de descuentos coordinadas con plataformas como Steam o el PlayStation Store. Sin todo eso, un juego desaparece en el ruido.
 
----
-
-### El problema de la atención
+## El problema de la atención
 
 Aquí es donde entra un factor que los análisis financieros a veces pasan por alto pero que cualquiera que juegue de forma habitual entiende perfectamente: las horas de juego están cada vez más concentradas en unos pocos títulos.
 
@@ -61,9 +58,7 @@ El resto del mercado, incluidos títulos AAA con presupuestos de decenas o cient
 
 Esto crea una paradoja: la industria invierte más en crear experiencias nuevas, pero los jugadores dedican cada vez más tiempo a los mismos juegos de siempre. El resultado es que incluso juegos bien recibidos tienen cada vez más dificultades para recuperar su inversión.
 
----
-
-### El experimento fallido de Microsoft
+## El experimento fallido de Microsoft
 
 El caso de Xbox en los últimos años es probablemente el ejemplo más claro de cómo una estrategia mal calibrada puede generar consecuencias en cadena.
 
@@ -73,9 +68,7 @@ Fijar un objetivo del 30% cuando la industria entera rara vez lo alcanza no es a
 
 Lo curioso del giro multiplataforma es que, visto desde fuera, tiene lógica financiera a corto plazo: más plataformas significa más potencial de ventas. Pero a largo plazo erosiona el argumento central para comprar una consola Xbox, que es tener acceso a juegos que no puedes jugar en otro sitio. Es una solución que resuelve un problema de rentabilidad inmediata creando otro problema estructural más difícil de revertir.
 
----
-
-### Lo que Nintendo entiende que otros no
+## Lo que Nintendo entiende que otros no
 
 Nintendo no es inmune al aumento de costes, y su CEO Shuntaro Furukawa lo ha reconocido públicamente: los tiempos de desarrollo son cada vez más largos, y eso implica más riesgo y más inversión. Pero la respuesta de Nintendo ante esa realidad es distinta a la del resto de la industria.
 
@@ -85,11 +78,9 @@ Esto tiene varias ventajas prácticas. La más obvia es financiera: no depender 
 
 *Metroid Prime 4: Beyond* se anunció en 2017 y llegó al mercado en diciembre de 2025. Ocho años de desarrollo. Eso es un riesgo enorme, pero Nintendo se puede permitir ese riesgo precisamente porque tiene una estructura que no depende de un solo lanzamiento para mantenerse a flote.
 
-La frase de Nintendo de que "un juego se lanza cuando está listo" puede sonar a marketing, pero el historial de la compañía respalda que se lo toman en serio. Y esa paciencia tiene un coste, sí, pero también tiene un resultado: sus juegos generalmente llegan en un estado considerablemente más pulido que la media de la industria.
+La frase de Nintendo de que \"un juego se lanza cuando está listo\" puede sonar a marketing, pero el historial de la compañía respalda que se lo toman en serio. Y esa paciencia tiene un coste, sí, pero también tiene un resultado: sus juegos generalmente llegan en un estado considerablemente más pulido que la media de la industria.
 
----
-
-### El modelo AAA está roto, pero no muerto
+## El modelo AAA está roto, pero no muerto
 
 Sería fácil concluir de todo esto que el modelo de los juegos AAA es insostenible y está condenado. La realidad es más matizada. El modelo tiene problemas serios, pero el problema no es tanto el coste de hacer los juegos sino la expectativa de que cualquier juego puede ser el siguiente gran éxito global.
 
