@@ -142,9 +142,9 @@ La diferencia no está en el escote. Está en si hay algo más detrás.
 
 Y también merece crítica la hipocresía.
 
-Porque los mismos círculos que exigen más realismo corporal en personajes femeninos, no suelen hacer la misma exigencia con los masculinos. Nadie le pide a Kratos que adelgace un poco y que sea más representativo del hombre de a pie. Nadie exige que los protagonistas de los shooters militares tengan tripita y problemas de columna.
+Porque esa exigencia de realismo corporal selectivo, que ya mencionaba antes con los ejemplos de los personajes masculinos, no se aplica por coherencia. Se aplica por conveniencia. Cuando interesa, se exige representatividad. Cuando no, se acepta la fantasía sin rechistar.
 
-La exigencia de realismo corporal solo parece aplicarse en una dirección. Y eso ya no es coherencia. Es otra cosa.
+Eso ya no es un argumento. Es incomodidad disfrazada de principio.
 
 ## Aloy, Stellar Blade y el derecho a coexistir
 
