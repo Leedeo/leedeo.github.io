@@ -34,7 +34,7 @@ Hay géneros con los que uno conecta al instante, y luego están los juegos de c
 
 No es postureo ni rechazo voluntario: simplemente me pasa. Me siento delante de un deck builder, intento entenderlo con toda la buena intención del mundo, y a los pocos minutos estoy preguntándome qué demonios está ocurriendo en pantalla.
 
-Por eso acercarme a [Sengodai](https://store.steampowered.com/app/4090730/Sengodai/) tenía algo de experimento y algo de suicidio controlado. Lo desarrolla **Tsunoa Games**, un estudio con sede en **Alicante, España**, creadores de [Katana Dragon](https://store.steampowered.com/app/1769360/Katana_Dragon/), un RPG con estética voxel art hecho en [Godot](https://godotengine.org/) que ya destacaba por su personalidad visual. Son además un estudio amigo de Leedeo, así que lo mínimo que puedo hacer es ser honesto: no voy a fingir que este género es lo mío.
+Por eso acercarme a [Sengodai](https://store.steampowered.com/app/4090730/) tenía algo de experimento y algo de suicidio controlado. Lo desarrolla **Tsunoa Games**, un estudio con sede en **Alicante, España**, creadores de [Katana Dragon](https://store.steampowered.com/app/3303010/), un RPG con estética voxel art hecho en [Godot](https://godotengine.org/) que ya destacaba por su personalidad visual. Son además un estudio amigo de Leedeo, así que lo mínimo que puedo hacer es ser honesto: no voy a fingir que este género es lo mío.
 
 {% include youtube-embed.html id="6JZ90bDNc60" title="Sengodai: Cartas, Dolor y una Partida Más" %}
 
@@ -72,6 +72,6 @@ Desde el primer combate deja claro que no va a perdonarte. Prefiero un juego que
 
 No es un juego para todo el mundo. Si los deck builders no son tu terreno, el inicio va a ser áspero y puede que más de uno se rinda antes de que haga clic. Pero si le das la oportunidad que merece, hay un sistema bien pensado debajo, con una identidad visual muy cuidada y ese ciclo de "una partida más" que es la señal de que algo está funcionando bien.
 
-Puedes echarle un vistazo en su [página de Steam](https://store.steampowered.com/app/4090730/Sengodai/) y conocer más sobre el estudio en la [web oficial de Tsunoa Games](https://tsunoagames.com/).
+Puedes echarle un vistazo en su [página de Steam](https://store.steampowered.com/app/4090730/ y conocer más sobre el estudio en la [web oficial de Tsunoa Games](https://tsunoagames.com/).
 
 Y ahora te toca a ti. ¿Te manejas bien con los deck builders o te pasa como a mí, que ves cartas y el cerebro entra en huelga? Déjame tu opinión en los comentarios. Y si ya jugaste a Sengodai, cuéntame si realmente soy un inútil o si el juego aprieta de verdad desde el primer combate.
