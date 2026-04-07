@@ -32,4 +32,3 @@ exclude:
   - package-lock.json
   - build-tailwind.sh
   - build-tailwind.bat
-  - cloudcannon.config.yml
