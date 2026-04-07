@@ -65,7 +65,7 @@ Ahora bien.
 
 ## El Spiderman de los 90 vs el de ahora: un ejemplo que lo dice todo
 
-Este ejemplo me parece especialmente claro porque es demostrable con imágenes.
+Este ejemplo me parece especialmente claro.
 
 El Spiderman de los años 90 era atlético, musculado, con una definición física que encajaba perfectamente en el universo de superhéroes donde habitaba. Imponía respeto. Daba la sensación de que ese tipo podía aguantar lo que le echaran.
 
