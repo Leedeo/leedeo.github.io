@@ -179,11 +179,3 @@ Un juego es bueno o malo. Un personaje funciona o no funciona dentro de su unive
 La fantasía no necesita defenderse ante la realidad.
 
 Llevan coexistiendo desde que el ser humano aprendió a imaginar.
-
-## Juegos y referencias mencionados
-
-- [Dead or Alive 5 en Steam](https://store.steampowered.com/app/311730/DEAD_OR_ALIVE_5_Last_Round/)
-- [Stellar Blade en PlayStation Store](https://store.playstation.com/es-es/product/EP2064-PPSA19864_00-STELLARBLADE00001)
-- [Tomb Raider en Steam](https://store.steampowered.com/app/203160/Tomb_Raider/)
-- [Horizon Zero Dawn en Steam](https://store.steampowered.com/app/1151640/Horizon_Zero_Dawn/)
-- [Declaraciones de Itagaki sobre el diseño de DOA - Kikizo, 2005](https://web.archive.org/web/20060219063819/http://xbox.kikizo.com/features/doa4_itagaki_dec05_p1.asp)
