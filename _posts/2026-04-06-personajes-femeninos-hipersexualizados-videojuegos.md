@@ -53,7 +53,7 @@ Alto. Musculado. Mandíbula cuadrada. Pómulos marcados. Hombros imposiblemente 
 
 He-Man. Goku. Ryu de Street Fighter. Kratos. Master Chief.
 
-Nadie ha presentado una demanda colectiva porque esos personajes generen inseguridades en los hombres que los ven. Nadie ha pedido que Goku engorde diez kilos y tenga una postura más realista. Nadie exige que Kratos tenga barriga y dolor de rodillas, aunque sería mucho más representativo del hombre medio.
+Nadie ha presentado una demanda colectiva porque esos personajes generen inseguridades en los hombres que los ven. Nadie ha pedido que Goku engorde diez kilos y tenga una postura más realista. Nadie exige que Kratos tenga barriga y dolor de rodillas, aunque sería mucho más representativo del hombre promedio.
 
 ¿Por qué? Porque entendemos que es ficción. Entendemos que esos cuerpos son parte del lenguaje visual de esos universos. Entendemos que el ideal y la realidad son cosas distintas, y que confundirlos dice más del espectador que del creador.
 
