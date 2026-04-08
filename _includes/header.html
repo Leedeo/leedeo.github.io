@@ -1,19 +1,19 @@
-<!-- barra de navegación fija -->
+<!-- Barra de navegación principal -->
 <nav class="fixed top-0 w-full z-50 bg-[#0f0a1d]/90 backdrop-blur-lg border-b border-white/10">
     <div class="max-w-7xl mx-auto px-6 h-20 flex items-center justify-between">
 
-        <!-- logo -->
+        <!-- Logo del sitio -->
         <a href="{{ '/' | relative_url }}" class="flex items-center gap-2 z-50">
             <span class="font-pacifico text-violet-500 text-[40px] lowercase tracking-normal -rotate-2 mr-1">Leedeo</span>
             <span class="text-2xl font-thin tracking-[0.15em] text-slate-200 uppercase">Studio</span>
         </a>
 
-        <!-- menú de escritorio -->
+        <!-- Menú para pantallas grandes (Desktop) -->
         <div class="hidden lg:flex space-x-10 text-xs font-bold uppercase tracking-widest items-center">
             <a href="{{ '/' | relative_url }}" class="hover:text-violet-400 transition-colors {% if page.url == '/' or page.url == '/index.html' %}text-violet-400{% else %}text-slate-400{% endif %}">Inicio</a>
             <a href="{{ '/about/' | relative_url }}" class="hover:text-violet-400 transition-colors {% if page.url contains '/about' %}text-violet-400{% else %}text-slate-400{% endif %}">Sobre mí</a>
 
-            <!-- desplegable: proyectos -->
+            <!-- Menú desplegable: Proyectos -->
             <div class="relative group h-full flex items-center" data-dropdown>
                 <button class="flex items-center gap-1 hover:text-violet-400 transition-colors {% if page.url contains '/projects/' %}text-violet-400{% else %}text-slate-400{% endif %} uppercase font-bold tracking-widest py-8" aria-expanded="false" aria-haspopup="true">
                     Proyectos <i class="fas fa-chevron-down text-[10px] transition-transform group-hover:rotate-180" aria-hidden="true"></i>
@@ -28,7 +28,7 @@
                 </div>
             </div>
 
-            <!-- desplegable: cursos -->
+            <!-- Menú desplegable: Cursos -->
             <div class="relative group h-full flex items-center" data-dropdown>
                 <button class="flex items-center gap-1 hover:text-violet-400 transition-colors {% if page.url contains '/courses/' %}text-violet-400{% else %}text-slate-400{% endif %} uppercase font-bold tracking-widest py-8" aria-expanded="false" aria-haspopup="true">
                     Mis Cursos <i class="fas fa-chevron-down text-[10px] transition-transform group-hover:rotate-180" aria-hidden="true"></i>
@@ -47,7 +47,7 @@
             <a href="{{ '/contact/' | relative_url }}" class="hover:text-violet-400 transition-colors {% if page.url contains '/contact/' %}text-violet-400{% else %}text-slate-400{% endif %}">Contacto</a>
         </div>
 
-        <!-- botón ko-fi + hamburguesa móvil -->
+        <!-- Acciones rápidas y botón móvil -->
         <div class="flex items-center gap-4 z-50">
             <a href="https://ko-fi.com/leedeo" target="_blank" rel="noopener"
                 class="hidden sm:flex bg-rose-600 hover:bg-rose-500 text-white px-5 py-2.5 rounded-xl text-sm font-bold transition-all duration-300 ease-out items-center gap-2">
@@ -61,7 +61,7 @@
         </div>
     </div>
 
-    <!-- menú móvil desplegable -->
+    <!-- Menú desplegable para móviles -->
     <div id="mobile-menu"
         class="hidden lg:hidden bg-[#0f0a1d]/95 backdrop-blur-3xl border-b border-white/10 absolute w-full left-0 top-20 flex-col shadow-2xl overflow-y-auto max-h-[calc(100vh-5rem)] transition-all duration-300 transform origin-top">
         <div class="flex flex-col px-6 py-6 space-y-4 text-sm font-bold uppercase tracking-widest text-slate-400 text-center">
