@@ -8,17 +8,17 @@ permalink: "/about/"
 <!-- Metadatos de persona para SEO estructurado -->
 {% include schema-person.html %}
 
-<div class="relative min-h-screen pt-32 pb-24 px-6 hero-gradient overflow-x-hidden">
+<div class="relative min-h-screen pt-32 pb-24 px-6 hero-gradient overflow-x-hidden" itemscope itemtype="https://schema.org/Person">
 
     <!-- Cabecera de presentación -->
     <header class="max-w-4xl mx-auto text-center mb-12 reveal">
         <p class="text-violet-400 font-bold tracking-[0.35em] uppercase text-xs mb-6">Tu mentor en desarrollo de videojuegos</p>
-        <h1 class="text-4xl md:text-6xl font-black tracking-tight leading-[1.2] mb-6 uppercase">
+        <h1 class="text-4xl md:text-6xl font-black tracking-tight leading-[1.2] mb-6 uppercase" itemprop="name">
             Hola, soy <span class="gradient-text italic">Javo</span>
         </h1>
-        <p class="text-slate-400 text-lg max-w-2xl mx-auto font-light">
-            Te ayudo a navegar el desarrollo de videojuegos sin filtros: con rigor técnico, software libre y el conocimiento de quien traduce el propio motor de Godot al español.
-        </p>
+    <p class="text-slate-400 text-lg max-w-2xl mx-auto font-light" itemprop="description">
+        Te ayudo a navegar el desarrollo de videojuegos sin filtros: con rigor técnico, software libre y el conocimiento de quien traduce el propio motor de Godot al español.
+    </p>
         <div class="h-1.5 w-24 bg-violet-500 mx-auto rounded-full mt-8"></div>
     </header>
 

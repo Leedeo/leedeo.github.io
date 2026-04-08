@@ -1,6 +1,7 @@
 <!-- Barra de navegación principal -->
 <nav class="fixed top-0 w-full z-50 bg-[#0f0a1d]/90 backdrop-blur-lg border-b border-white/10">
     <div class="max-w-7xl mx-auto px-6 h-20 flex items-center justify-between">
+      <a href="#main-content" class="skip-link">Saltar al contenido principal</a>
 
         <!-- Logo del sitio -->
         <a href="{{ '/' | relative_url }}" class="flex items-center gap-2 z-50">
@@ -9,7 +10,7 @@
         </a>
 
         <!-- Menú para pantallas grandes (Desktop) -->
-        <div class="hidden lg:flex space-x-10 text-xs font-bold uppercase tracking-widest items-center">
+        <div class="hidden lg:flex space-x-4 xl:space-x-10 text-xs font-bold uppercase tracking-widest items-center">
             <a href="{{ '/' | relative_url }}" class="hover:text-violet-400 transition-colors {% if page.url == '/' or page.url == '/index.html' %}text-violet-400{% else %}text-slate-400{% endif %}">Inicio</a>
             <a href="{{ '/about/' | relative_url }}" class="hover:text-violet-400 transition-colors {% if page.url contains '/about' %}text-violet-400{% else %}text-slate-400{% endif %}">Sobre mí</a>
 

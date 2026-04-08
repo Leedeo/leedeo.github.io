@@ -2,7 +2,53 @@
 <html lang="es" class="scroll-smooth">
 <head>
     {% include head.html %}
+    
+    <!-- Breadcrumbs mejorados con schema.org -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Inicio",
+          "item": "{{ site.url }}"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "{{ page.title }}"
+        }
+      ]
+    }
+    </script>
 
+    <!-- JSON-LD para marca personal -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "Person",
+      "name": "Javo",
+      "url": "{{ site.url }}",
+      "sameAs": [
+        "https://www.youtube.com/@Leedeo",
+        "https://x.com/leedeostudio",
+        "https://bsky.app/profile/leedeo.bsky.social",
+        "https://github.com/leedeo"
+      ],
+      "brand": {
+        "@type": "Brand",
+        "name": "Leedeo Studio",
+        "logo": "{{ '/favicon.ico' | absolute_url }}"
+      },
+      "hasOccupation": {
+        "@type": "Occupation",
+        "name": "Desarrollador de Videojuegos"
+      }
+    }
+    </script>
+    
     {% if page.video %}
     <!-- esquema: vídeo -->
     <script type="application/ld+json">

@@ -18,6 +18,61 @@
 .rounded-custom-32 { border-radius: 2rem; }
 .rounded-custom-48 { border-radius: 3rem; }
 
+/* skip link para accesibilidad */
+.skip-link {
+  position: absolute;
+  top: -40px;
+  left: 0;
+  background: var(--bg-dark);
+  color: white;
+  padding: 8px;
+  z-index: 100;
+  transition: top 0.3s;
+}
+
+.skip-link:focus {
+  top: 0;
+}
+
+/* ajuste de espaciado para badge en móvil y tablet */
+@media (max-width: 1024px) {
+  .hero-gradient .inline-flex[class*="bg-violet"] {
+    margin-top: 1.5rem !important;
+  }
+}
+
+/* ajuste específico para tablet en modo horizontal */
+@media (min-width: 768px) and (max-width: 1024px) {
+  .hero-gradient .inline-flex[class*="bg-violet"] {
+    margin-top: 2rem !important;
+  }
+}
+
+/* mejoras de contraste para WCAG AAA */
+.btn-primary {
+  background: linear-gradient(135deg, var(--violet-primary) 0%, #a855f7 100%);
+  color: white;
+  box-shadow: 0 10px 20px -5px rgba(124, 58, 237, 0.4);
+}
+
+.btn-primary:hover {
+  filter: brightness(1.15);
+}
+
+.text-violet-400 {
+  color: #a78bfa;
+}
+
+/* animaciones para prefers-reduced-motion */
+@media (prefers-reduced-motion: reduce) {
+  .blob {
+    animation: none !important;
+  }
+  .reveal {
+    transition: none !important;
+  }
+}
+
 /* ── base ────────────────────────────────────────────── */
 body {
   font-family: 'Plus Jakarta Sans', sans-serif;
