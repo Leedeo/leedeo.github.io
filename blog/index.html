@@ -68,10 +68,10 @@ description: "Artículos sobre desarrollo de videojuegos, industria indie, tutor
             {% if paginator.page == 1 %}
                 {% assign first_page_posts = site.posts | slice: 0, 14 %}
                 <!-- Layout especial para la primera página -->
-                <div class="grid grid-cols-1 md:grid-cols-2 gap-8 mb-8 w-full" style="display: grid; grid-template-rows: auto auto auto;">
+                <div class="grid grid-cols-1 md:grid-cols-2 gap-8 mb-8 w-full">
                     {% for post in first_page_posts %}
                         {% if forloop.index == 1 %}
-                            <div class="row-span-2 reveal w-full" style="--reveal-delay: 0ms;">
+                            <div class="md:row-span-2 reveal w-full" style="--reveal-delay: 0ms;">
                                 <article class="group relative overflow-hidden rounded-[2rem] aspect-square md:aspect-[4/5] h-full w-full">
                                     <a href="{{ post.url | relative_url }}" class="block w-full h-full">
                                         <img src="{{ post.thumbnail | relative_url }}" alt="{{ post.title }}" loading="lazy"
