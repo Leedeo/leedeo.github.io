@@ -38,8 +38,8 @@
 
     <!-- hojas de estilo -->
     <link href="https://fonts.googleapis.com/css2?family=Pacifico&family=Plus+Jakarta+Sans:ital,wght@0,200..800;1,200..800&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="{{ '/assets/css/tailwind.min.css?v=2' | relative_url }}">
-    <link rel="stylesheet" href="{{ '/assets/css/style.css?v=2' | relative_url }}">
+    <link rel="stylesheet" href="{{ '/assets/css/tailwind.min.css?v=now' | relative_url | replace: 'now', site.time | date: '%Y%m%d%H%M' }}">
+    <link rel="stylesheet" href="{{ '/assets/css/style.css?v=now' | relative_url | replace: 'now', site.time | date: '%Y%m%d%H%M' }}">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css">
 
     <!-- scripts de inicialización y lógica del sitio -->
