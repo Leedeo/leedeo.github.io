@@ -215,7 +215,7 @@ El desarrollo de videojuegos en 2026 ya no es igual que hace tres o cuatro años
 
 Eso no significa que la IA esté haciendo juegazos sola. Pero sí significa que ya forma parte del día a día de muchísimos equipos.
 
-Y esto conecta con otra realidad incómoda: la industria vive una época de despidos masivos. Empresas como [Epic Games](https://www.epicgames.com/site/en-US/news/epic-layoffs-september-2023) han despedido a centenares o miles de trabajadores. ¿Es solo una cuestión de dinero? Quizá. ¿Influye también la automatización de procesos? Sería ingenuo fingir que no puede influir.
+Y esto conecta con otra realidad incómoda: la industria vive una época de despidos masivos. Empresas como Epic Games han despedido a centenares o miles de trabajadores. ¿Es solo una cuestión de dinero? Quizá. ¿Influye también la automatización de procesos? Sería ingenuo fingir que no puede influir.
 
 No hace falta ponerse conspiranoico ni vender humo. Basta con mirar el contexto: herramientas más capaces, automatización creciente, tareas repetitivas cada vez más reducibles y estudios buscando ahorrar costes. La relación es demasiado evidente como para no mencionarla.
 
@@ -246,5 +246,4 @@ Porque el desarrollo de videojuegos sigue siendo arte, técnica y producción. P
 *   [Notion](https://www.notion.so/)
 *   [Trello](https://trello.com/)
 *   [Jira](https://www.atlassian.com/software/jira)
-*   [Epic Games confirma despidos en 2023](https://www.epicgames.com/site/en-US/news/epic-layoffs-september-2023)
 *   [Unity y la polémica del Runtime Fee](https://blog.unity.com/news/open-letter-on-runtime-fee)

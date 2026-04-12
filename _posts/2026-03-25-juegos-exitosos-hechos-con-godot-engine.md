@@ -208,7 +208,7 @@ A veces, tan revelador como mirar lo que ya ha triunfado es observar quién est�
 
 [Slay the Spire 2](https://store.steampowered.com/app/2868840/Slay_the_Spire_2/) es probablemente el caso más significativo. La primera entrega definió un subgénero entero y vendió millones de copias. Que su secuela se desarrolle en Godot no es un capricho ni un experimento: es una decisión de producción tomada por un estudio que podría haber elegido cualquier motor del mercado.
 
-[Road to Vostok](https://store.steampowered.com/app/1963270/Road_to_Vostok/) es otro proyecto que llama la atención, en este caso por lo que demuestra sobre las capacidades 3D de Godot. Un juego de supervivencia en primera persona con ambición visual seria, construido sobre un motor que hace pocos años muchos descartaban para cualquier cosa tridimensional.
+[Road to Vostok](https://store.steampowered.com/app/1963610/) es otro proyecto que llama la atención, en este caso por lo que demuestra sobre las capacidades 3D de Godot. Un juego de supervivencia en primera persona con ambición visual seria, construido sobre un motor que hace pocos años muchos descartaban para cualquier cosa tridimensional.
 
 Ninguno de los dos ha salido todavía. Pero que existan y que hayan elegido Godot ya es un dato relevante sobre hacia dónde se mueve la industria.
 
