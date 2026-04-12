@@ -66,7 +66,7 @@ description: "Artículos sobre desarrollo de videojuegos, industria indie, tutor
         <!-- artículos paginados -->
         <div id="paginated-posts">
             {% if paginator.page == 1 %}
-                {% assign first_page_posts = site.posts | slice: 0, 14 %}
+                {% assign first_page_posts = paginator.posts %}
                 <!-- Layout especial para la primera página -->
                 <div class="grid grid-cols-1 md:grid-cols-2 gap-8 mb-8 w-full">
                     {% for post in first_page_posts %}
@@ -94,13 +94,64 @@ description: "Artículos sobre desarrollo de videojuegos, industria indie, tutor
                             </div>
                         {% elsif forloop.index == 2 or forloop.index == 3 %}
                             <div class="reveal w-full" style="--reveal-delay: {{ forloop.index | times: 100 }}ms;">
-                                <article class="group relative overflow-hidden rounded-[2rem] aspect-video h-full w-full">
+                                 <article class="group relative overflow-hidden rounded-[2rem] aspect-[4/3] lg:aspect-video h-full w-full">
+                                     <a href="{{ post.url | relative_url }}" class="block w-full h-full">
+                                         <img src="{{ post.thumbnail | relative_url }}" alt="{{ post.title }}" loading="lazy"
+                                              class="absolute inset-0 w-full h-full object-cover transition-transform duration-700 group-hover:scale-110">
+                                         <div class="absolute inset-0 bg-gradient-to-t from-[#05010d] via-[#05010d]/60 to-transparent opacity-90"></div>
+                                         <div class="absolute bottom-0 p-6 w-full">
+                                             <div class="flex items-center gap-2 mb-2">
+                                                 {% assign post_author = site.data.authors[post.author] | default: site.data.authors['javo'] %}
+                                                 <img src="{{ post_author.avatar }}" alt="{{ post_author.name }}" class="w-4 h-4 rounded-full object-cover border border-violet-300/70" width="16" height="16" loading="lazy">
+                                                 <span class="text-violet-400 text-[10px] font-bold uppercase tracking-widest">
+                                                     {% include date_es.html date=post.date %}
+                                                 </span>
+                                             </div>
+                                             <h2 class="text-lg md:text-xl font-bold text-white leading-tight group-hover:text-violet-300 transition-colors">
+                                                 {{ post.title }}
+                                             </h2>
+                                         </div>
+                                     </a>
+                                 </article>
+                            </div>
+                        {% elsif forloop.index == 4 or forloop.index == 5 %}
+                            <div class="reveal w-full" style="--reveal-delay: {{ forloop.index | times: 100 }}ms;">
+                                 <article class="group relative overflow-hidden rounded-[2rem] aspect-[4/3] lg:aspect-[21/9] h-full w-full">
+                                     <a href="{{ post.url | relative_url }}" class="block w-full h-full">
+                                         <img src="{{ post.thumbnail | relative_url }}" alt="{{ post.title }}" loading="lazy"
+                                              class="absolute inset-0 w-full h-full object-cover transition-transform duration-700 group-hover:scale-110">
+                                         <div class="absolute inset-0 bg-gradient-to-t from-[#05010d] via-[#05010d]/60 to-transparent opacity-90"></div>
+                                         <div class="absolute bottom-0 p-6 w-full">
+                                             <div class="flex items-center gap-2 mb-1">
+                                                 {% assign post_author = site.data.authors[post.author] | default: site.data.authors['javo'] %}
+                                                 <img src="{{ post_author.avatar }}" alt="{{ post_author.name }}" class="w-4 h-4 rounded-full object-cover border border-violet-300/70" width="16" height="16" loading="lazy">
+                                                 <span class="text-violet-400 text-[10px] font-bold uppercase tracking-widest">
+                                                     {% include date_es.html date=post.date %}
+                                                 </span>
+                                             </div>
+                                             <h2 class="text-lg md:text-xl font-bold text-white leading-tight group-hover:text-violet-300 transition-colors">
+                                                 {{ post.title }}
+                                             </h2>
+                                         </div>
+                                     </a>
+                                 </article>
+                            </div>
+                        {% endif %}
+                    {% endfor %}
+                </div>
+
+                <!-- Nueva fila de 4 columnas para posts 6-9 -->
+                <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-4 mb-12 w-full">
+                    {% for post in first_page_posts %}
+                        {% if forloop.index >= 6 and forloop.index <= 9 %}
+                            <div class="reveal w-full" style="--reveal-delay: {{ forloop.index | times: 50 }}ms;">
+                                <article class="group relative overflow-hidden rounded-[1.5rem] aspect-[4/3] lg:aspect-square h-full w-full">
                                     <a href="{{ post.url | relative_url }}" class="block w-full h-full">
                                         <img src="{{ post.thumbnail | relative_url }}" alt="{{ post.title }}" loading="lazy"
                                              class="absolute inset-0 w-full h-full object-cover transition-transform duration-700 group-hover:scale-110">
                                         <div class="absolute inset-0 bg-gradient-to-t from-[#05010d] via-[#05010d]/60 to-transparent opacity-90"></div>
-                                        <div class="absolute bottom-0 p-6 w-full">
-                                            <div class="flex items-center gap-2 mb-2">
+                                        <div class="absolute bottom-0 p-4 w-full">
+                                            <div class="flex items-center gap-2 mb-1">
                                                 {% assign post_author = site.data.authors[post.author] | default: site.data.authors['javo'] %}
                                                 <img src="{{ post_author.avatar }}" alt="{{ post_author.name }}" class="w-4 h-4 rounded-full object-cover border border-violet-300/70" width="16" height="16" loading="lazy">
                                                 <span class="text-violet-400 text-[10px] font-bold uppercase tracking-widest">
@@ -114,42 +165,20 @@ description: "Artículos sobre desarrollo de videojuegos, industria indie, tutor
                                     </a>
                                 </article>
                             </div>
-                        {% elsif forloop.index == 4 or forloop.index == 5 %}
-                            <div class="reveal w-full" style="--reveal-delay: {{ forloop.index | times: 100 }}ms;">
-                                <article class="group relative overflow-hidden rounded-[2rem] aspect-[21/9] h-full w-full">
-                                    <a href="{{ post.url | relative_url }}" class="block w-full h-full">
-                                        <img src="{{ post.thumbnail | relative_url }}" alt="{{ post.title }}" loading="lazy"
-                                             class="absolute inset-0 w-full h-full object-cover transition-transform duration-700 group-hover:scale-110">
-                                        <div class="absolute inset-0 bg-gradient-to-t from-[#05010d] via-[#05010d]/60 to-transparent opacity-90"></div>
-                                        <div class="absolute bottom-0 p-6 w-full">
-                                            <div class="flex items-center gap-2 mb-1">
-                                                {% assign post_author = site.data.authors[post.author] | default: site.data.authors['javo'] %}
-                                                <img src="{{ post_author.avatar }}" alt="{{ post_author.name }}" class="w-4 h-4 rounded-full object-cover border border-violet-300/70" width="16" height="16" loading="lazy">
-                                                <span class="text-violet-400 text-[10px] font-bold uppercase tracking-widest">
-                                                    {% include date_es.html date=post.date %}
-                                                </span>
-                                            </div>
-                                            <h2 class="text-base md:text-lg font-bold text-white leading-tight group-hover:text-violet-300 transition-colors">
-                                                {{ post.title }}
-                                            </h2>
-                                        </div>
-                                    </a>
-                                </article>
-                            </div>
                         {% endif %}
                     {% endfor %}
                 </div>
 
-                <div id="paginated-grid" class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 mb-16 w-full">
+                 <div id="paginated-grid" class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 mb-16 w-full">
                     {% for post in first_page_posts %}
-                        {% if forloop.index > 5 %}
+                        {% if forloop.index > 9 %}
                             {% assign mod_index = forloop.index0 | modulo: 3 %}
                             {% assign reveal_delay = mod_index | times: 100 %}
                             <article class="glass-card rounded-[2rem] overflow-hidden flex flex-col reveal w-full" style="--reveal-delay: {{ reveal_delay }}ms;">
                                 <a href="{{ post.url | relative_url }}" class="aspect-video overflow-hidden relative group block">
                                     <img src="{{ post.thumbnail | relative_url }}" alt="{{ post.title }}" loading="lazy" width="600" height="340"
                                         class="w-full h-full object-cover transition-transform duration-500 group-hover:scale-110">
-                                    <div class="absolute inset-0 bg-gradient-to-t from-[#05010d] to-transparent opacity-60"></div>
+                                    <div class="absolute inset-0 bg-gradient-to-t from-[#0f0a1d] to-transparent opacity-60"></div>
                                 </a>
                                 <div class="p-8 flex flex-col flex-grow">
                                     <div class="flex items-center gap-2 mb-3">
