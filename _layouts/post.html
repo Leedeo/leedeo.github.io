@@ -4,7 +4,7 @@ layout: "default"
 {% assign post_author = site.data.authors[page.author] %}
 {% unless post_author %}{% assign post_author = site.data.authors['javo'] %}{% endunless %}
 
-<!-- esquema: artículo del blog -->
+<!-- esquema: artículo -->
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -47,7 +47,6 @@ layout: "default"
 </script>
 
 {% if page.faq %}
-<!-- esquema: preguntas frecuentes -->
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -68,90 +67,110 @@ layout: "default"
 </script>
 {% endif %}
 
-<div class="relative min-h-screen pt-32 pb-24 px-6 hero-gradient">
-    <div class="max-w-7xl mx-auto">
+<!-- Barra de progreso de lectura -->
+<div class="reading-progress" aria-hidden="true">
+    <div class="reading-progress-bar" id="reading-progress-bar"></div>
+</div>
 
-        <!-- cabecera del artículo -->
-        <header class="mb-12 text-center">
+<div class="relative min-h-screen pt-28 pb-24 px-4 sm:px-6 hero-gradient">
+    <div class="max-w-4xl mx-auto">
+
+        <!-- Cabecera del artículo -->
+        <header class="mb-10 text-center">
+
+            <!-- Categorías -->
             {% if page.categories.size > 0 %}
-            <div class="flex justify-center flex-wrap gap-2 mb-4">
+            <div class="flex justify-center flex-wrap gap-2 mb-5">
                 {% for category in page.categories %}
                 {% assign category_slug = category | slugify %}
-                <a href="{{ '/categories/' | append: category_slug | append: '/' | relative_url }}" class="bg-violet-600/20 text-violet-400 border border-violet-500/30 px-3 py-1 rounded-full text-xs font-bold uppercase tracking-widest hover:bg-violet-600/40 hover:text-white transition-colors">
+                <a href="{{ '/categories/' | append: category_slug | append: '/' | relative_url }}"
+                   class="px-3 py-1 bg-violet-600/15 text-violet-400 border border-violet-500/25 rounded-lg text-[0.6rem] font-bold uppercase tracking-widest hover:bg-violet-600/30 hover:text-white transition-all duration-200">
                     {{ category }}
                 </a>
                 {% endfor %}
             </div>
             {% endif %}
 
-            <div class="text-slate-400 text-sm font-bold uppercase tracking-widest mb-4">
+            <!-- Metadatos del autor -->
+            <div class="flex items-center justify-center gap-2 text-slate-500 text-xs font-bold uppercase tracking-widest mb-5">
+                <img src="{{ post_author.avatar }}" alt="{{ post_author.name }}"
+                     class="w-5 h-5 rounded-full border border-violet-300/60 object-cover"
+                     width="20" height="20">
+                <span class="text-slate-400">{{ post_author.name }}</span>
+                <span class="text-slate-700">·</span>
                 {% assign months = "enero,febrero,marzo,abril,mayo,junio,julio,agosto,septiembre,octubre,noviembre,diciembre" | split: "," %}
                 {% assign month_index = page.date | date: "%m" | plus: 0 | minus: 1 %}
-                <img src="{{ post_author.avatar }}" alt="{{ post_author.name }}" class="inline-block w-5 h-5 rounded-full border border-violet-300/70 object-cover align-middle mr-1" width="20" height="20">
-                <span class="text-white">{{ post_author.name }}</span>
-                <i class="fas fa-calendar-alt ml-3 mr-1"></i>
-                {{ page.date | date: "%-d" }} de {{ months[month_index] }} de {{ page.date | date: "%Y" }}
-                <i class="fas fa-clock ml-3 mr-1"></i>
-                {{ page.date | date: "%H:%M" }} h
+                <span>{{ page.date | date: "%-d" }} de {{ months[month_index] }} de {{ page.date | date: "%Y" }}</span>
+                <span class="text-slate-700">·</span>
+                <i class="fas fa-clock text-slate-600"></i>
+                <span>{{ page.date | date: "%H:%M" }} h</span>
             </div>
 
-            <h1 class="text-4xl md:text-6xl font-black mb-8 tracking-tight uppercase leading-tight">
+            <h1 class="text-3xl md:text-5xl font-black mb-6 tracking-tight uppercase leading-tight">
                 {{ page.title }}
             </h1>
 
-            <div class="h-1.5 w-24 bg-violet-500 mx-auto rounded-full"></div>
+            <div class="h-px w-20 mx-auto" style="background: linear-gradient(90deg, transparent, rgba(139,92,246,0.7), transparent);"></div>
         </header>
 
+        <!-- Imagen destacada -->
         {% if page.thumbnail %}
-        <div class="aspect-video rounded-[3rem] overflow-hidden mb-16 border border-white/10 shadow-2xl">
-            <img src="{{ page.thumbnail | relative_url }}" alt="{{ page.title }}" class="w-full h-full object-cover"
-                width="1280" height="720" fetchpriority="high">
+        <div class="rounded-3xl overflow-hidden mb-12 border border-white/[0.07] shadow-2xl relative">
+            <img src="{{ page.thumbnail | relative_url }}" alt="{{ page.title }}"
+                 class="w-full h-auto object-cover"
+                 width="1280" height="720" fetchpriority="high">
+            <div class="absolute inset-0 bg-gradient-to-t from-[#0f0a1d]/30 to-transparent pointer-events-none"></div>
         </div>
         {% endif %}
 
-        <!-- contenido del artículo -->
-        <article class="static-glass-card rounded-[3rem] p-8 md:py-16 md:px-24 lg:px-32 rich-content shadow-2xl border border-white/5 text-slate-300 leading-relaxed text-lg">
+        <!-- Contenido del artículo -->
+        <article class="static-glass-card rounded-[2.5rem] p-7 sm:p-12 md:p-16 rich-content shadow-2xl">
 
-            <!-- migas de pan visuales -->
-            <nav aria-label="Ruta de navegación" class="not-prose flex items-center gap-2 text-[10px] font-bold uppercase tracking-widest mb-6">
-                <a href="{{ '/' | relative_url }}" class="text-slate-400 hover:text-violet-400 transition-colors">Inicio</a>
-                <i class="fas fa-chevron-right text-slate-500" style="font-size:8px"></i>
-                <a href="{{ '/blog/' | relative_url }}" class="text-slate-400 hover:text-violet-400 transition-colors">Blog</a>
+            <!-- Migas de pan -->
+            <nav aria-label="Ruta de navegación"
+                 class="not-prose flex items-center gap-1.5 text-[0.6rem] font-bold uppercase tracking-widest mb-8 pb-6 border-b border-white/[0.06]">
+                <a href="{{ '/' | relative_url }}" class="text-slate-500 hover:text-violet-400 transition-colors">Inicio</a>
+                <i class="fas fa-chevron-right text-slate-700" style="font-size:7px"></i>
+                <a href="{{ '/blog/' | relative_url }}" class="text-slate-500 hover:text-violet-400 transition-colors">Blog</a>
                 {% if page.categories.size > 0 %}
-                <i class="fas fa-chevron-right text-slate-500" style="font-size:8px"></i>
-                {% assign first_category = page.categories.first %}
-                {% assign first_category_slug = first_category | slugify %}
-                <a href="{{ '/categories/' | append: first_category_slug | append: '/' | relative_url }}" class="text-violet-400 hover:text-white transition-colors">{{ first_category }}</a>
+                <i class="fas fa-chevron-right text-slate-700" style="font-size:7px"></i>
+                {% assign first_cat = page.categories.first %}
+                {% assign first_cat_slug = first_cat | slugify %}
+                <a href="{{ '/categories/' | append: first_cat_slug | append: '/' | relative_url }}"
+                   class="text-violet-400/80 hover:text-violet-300 transition-colors">{{ first_cat }}</a>
                 {% endif %}
+                <i class="fas fa-chevron-right text-slate-700" style="font-size:7px"></i>
+                <span class="text-slate-600 truncate max-w-[160px] md:max-w-xs">{{ page.title }}</span>
             </nav>
 
             {{ content | replace: '<img ', '<img loading="lazy" ' }}
 
-            <!-- artículos relacionados -->
+            <!-- Artículos relacionados -->
             {% assign related_posts = "" | split: "" %}
             {% for pub in site.posts %}
                 {% if pub.url != page.url %}
-                    {% assign has_shared_category = false %}
+                    {% assign has_shared = false %}
                     {% for cat in pub.categories %}
-                        {% if page.categories contains cat %}{% assign has_shared_category = true %}{% endif %}
+                        {% if page.categories contains cat %}{% assign has_shared = true %}{% endif %}
                     {% endfor %}
-                    {% if has_shared_category %}{% assign related_posts = related_posts | push: pub %}{% endif %}
+                    {% if has_shared %}{% assign related_posts = related_posts | push: pub %}{% endif %}
                 {% endif %}
             {% endfor %}
+
             {% if related_posts.size > 0 %}
-            <div class="not-prose border-t border-white/5 mt-12 pt-10">
-                <p class="text-base font-black uppercase tracking-widest text-white mb-4">También te puede interesar</p>
+            <div class="not-prose border-t border-white/[0.06] mt-14 pt-10">
+                <p class="text-[0.65rem] font-black uppercase tracking-[0.25em] text-slate-500 mb-5">También te puede interesar</p>
                 <div class="grid grid-cols-2 md:grid-cols-4 gap-3">
                     {% assign counter = 0 %}
                     {% for pub in related_posts %}
                         {% if counter < 4 %}
-                        <a href="{{ pub.url | relative_url }}" class="group block reveal"
-                           style="--reveal-delay: {{ counter | modulo: 4 | times: 100 }}ms;">
-                            <div class="aspect-video rounded-xl overflow-hidden" style="margin-bottom:0.5rem">
-                                <img src="{{ pub.thumbnail | relative_url }}" alt="{{ pub.title }}" loading="lazy"
-                                     class="w-full h-full object-cover transition-transform duration-500 group-hover:scale-105">
+                        <a href="{{ pub.url | relative_url }}" class="group block"
+                           style="--reveal-delay: {{ counter | modulo: 4 | times: 80 }}ms;">
+                            <div class="aspect-video rounded-xl overflow-hidden mb-2 border border-white/[0.05]">
+                                <img src="{{ pub.thumbnail | relative_url }}" alt="{{ pub.title }}"
+                                     loading="lazy" class="w-full h-full object-cover transition-transform duration-500 group-hover:scale-105">
                             </div>
-                            <h4 class="text-slate-300 group-hover:text-violet-400 transition-colors font-bold leading-snug" style="font-size:1rem;margin:0;">{{ pub.title }}</h4>
+                            <p class="text-slate-400 group-hover:text-violet-400 transition-colors font-bold leading-snug text-xs">{{ pub.title }}</p>
                         </a>
                         {% assign counter = counter | plus: 1 %}
                         {% endif %}
@@ -160,23 +179,24 @@ layout: "default"
             </div>
             {% endif %}
 
-            {% if page.comments != false %}
-            <div class="border-t border-white/5 mt-12 pt-12 not-prose">
+            <!-- Autor -->
+            <div class="border-t border-white/[0.06] mt-12 pt-10 not-prose">
                 {% include author-card.html %}
             </div>
-            <div class="border-t border-white/5 mt-12 pt-12 not-prose">
+
+            <!-- Comentarios -->
+            {% if page.comments != false %}
+            <div class="border-t border-white/[0.06] mt-10 pt-10 not-prose">
                 {% include disqus.html %}
             </div>
-            {% else %}
-            <div class="border-t border-white/5 mt-12 pt-12 not-prose">
-                {% include author-card.html %}
-            </div>
             {% endif %}
+
         </article>
 
-        <div class="mt-16 text-center">
-            <a href="{{ '/blog/' | relative_url }}" class="btn-secondary">
-                <i class="fas fa-arrow-left text-xs"></i> Volver al Blog
+        <!-- Volver al blog -->
+        <div class="mt-12 text-center">
+            <a href="{{ '/blog/' | relative_url }}" class="btn-secondary inline-flex items-center gap-2">
+                <i class="fas fa-arrow-left text-[10px]"></i> Volver al Blog
             </a>
         </div>
     </div>

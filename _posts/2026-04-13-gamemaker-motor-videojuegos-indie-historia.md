@@ -21,7 +21,7 @@ faq:
   - question: "¿Es GameMaker gratuito o requiere suscripción?"
     answer: "GameMaker ofrece una versión de prueba gratuita con limitaciones, pero para publicar juegos comerciales se necesita una licencia. En 2023 volvió al modelo de licencia única tras el intento de suscripción en 2021."
   - question: "¿Con qué motor se hizo Undertale?"
-    answer: "Undertale fue creado íntegramente con GameMaker por Toby Fox. El juego se pubblicó en 2015 y se convirtió en un fenómeno cultural, demostrando que el motor es válido para proyectos comerciales exitosos."
+    answer: "Undertale fue creado íntegramente con GameMaker por Toby Fox. El juego se publicó en 2015 y se convirtió en un fenómeno cultural, demostrando que el motor es válido para proyectos comerciales exitosos."
   - question: "¿Qué juegos famosos se han hecho con GameMaker?"
     answer: "Algunos de los juegos indie más importantes de la historia: Hotline Miami, Undertale, Spelunky, Nuclear Throne, Risk of Rain, Hyper Light Drifter y Deltarune. Todos compiten comercialmente con producciones de mayor presupuesto."
   - question: "¿GameMaker es bueno para principiantes?"
@@ -41,7 +41,7 @@ Y con razón.
 
 {% include youtube-embed.html id="CkoZNKxxEVs" title="Historia de GameMaker: El motor de Undertale y Hotline Miami" %}
 
-Si quieres la historia completa del motor, desde sus inicios en los Países Bajos hasta su presente bajo Opera Gaming, el documental del canal lo cubre en profundidad. Este artículo va por otro camino: hablar de lo que GameMaker representa dentro de la industria del desarrollo indie, y por qué sigue siendo relevante cuando parece que todo el mundo se ha passado a Unity, Godot o Unreal.
+Si quieres la historia completa del motor, desde sus inicios en los Países Bajos hasta su presente bajo Opera Gaming, el documental del canal lo cubre en profundidad. Este artículo va por otro camino: hablar de lo que GameMaker representa dentro de la industria del desarrollo indie, y por qué sigue siendo relevante cuando parece que todo el mundo se ha pasado a Unity, Godot o Unreal.
 
 ## El motor que nació como experimento educativo
 
@@ -49,11 +49,11 @@ Pocas herramientas de desarrollo tienen un origen tan inusual como GameMaker.
 
 No nació de una empresa buscando rentabilidad. No salió de un estudio frustrado con las herramientas disponibles. Nació porque **un profesor universitario quería que sus hijos pudieran hacer juegos sin aprender a programar**.
 
-> *Mark Overmars, de la Universidad de Utrecht, no buscaba crear un motor comercial. Buscaba democratizar algo que en los 90 todavía parecía reservado a quienen tienen conocimientos técnicos profundos.*
+> *Mark Overmars, de la Universidad de Utrecht, no buscaba crear un motor comercial. Buscaba democratizar algo que en los 90 todavía parecía reservado a quienes tienen conocimientos técnicos profundos.*
 
-Lo lanzó gratuitamente en 1999, cuando internet todavía era lento, ruidoso y las descargas tardaban horas. Ese origen marca todo lo que vine después.
+Lo lanzó gratuitamente en 1999, cuando internet todavía era lento, ruidoso y las descargas tardaban horas. Ese origen marca todo lo que vino después.
 
-GameMaker nunca ha intentado competir con Unreal Engine en spectacularidad gráfica. Nunca ha promiseado reemplazar a Unity en versatilidad. Lo que ha hecho, desde el principio, es cumplir una promesa muy específica: **permitir que alguien sin experiencia técnica pueda hacer un videogame jugable en poco tiempo**.
+GameMaker nunca ha intentado competir con Unreal Engine en spectacularidad gráfica. Nunca ha prometido reemplazar a Unity en versatilidad. Lo que ha hecho, desde el principio, es cumplir una promesa muy específica: **permitir que alguien sin experiencia técnica pueda hacer un videojuegos jugable en poco tiempo**.
 
 Y eso, para muchísima gente, sigue siendo suficiente.
 
@@ -65,7 +65,7 @@ GameMaker tiene una lista de títulos detrás que muchos motores comerciales env
 
 **[Undertale](https://store.steampowered.com/app/391540/Undertale/)** (2015) ya es historia del videojuego. Toby Fox, prácticamente solo, creó con GameMaker un RPG que se convirtió en fenómeno cultural global. No solo vendió millones. Cambió cómo mucha gente entiende lo que puede ser una historia interactiva. Y lo hizo sin gráficos de última generación, sin cinemáticas espectaculares, sin presupuesto millonario. Solo escritura, música y una comprensión profunda de cómo hacer que el jugador se involucre emocionalmente.
 
-**[Spelunky](https://store.steampowered.com/app/239350/)** (2008) redefinió el roguelike de plataformas y estableció patrones de diseño que todavía se usan hoy. **[Nuclear Throne](https://store.steampowered.com/app/242680/)** y **[Risk of Rain](https://store.steampowered.com/app/248820/)** demostróron que GameMaker podía manejar acción caótica sin caerse a pedazos. **[Hyper Light Drifter](https://store.steampowered.com/app/257850/)** mostró que la estética visual más cuidada también tenía cabida en el motor.
+**[Spelunky](https://store.steampowered.com/app/239350/)** (2008) redefinió el roguelike de plataformas y estableció patrones de diseño que todavía se usan hoy. **[Nuclear Throne](https://store.steampowered.com/app/242680/)** y **[Risk of Rain](https://store.steampowered.com/app/248820/)** demostraron que GameMaker podía manejar acción caótica sin caerse a pedazos. **[Hyper Light Drifter](https://store.steampowered.com/app/257850/)** mostró que la estética visual más cuidada también tenía cabida en el motor.
 
 Estos no son proyectos modestos que "salieron bien considerando la herramienta". Son juegos que funcionan, punto. Y que compiten en igualdad de condiciones con cualquier otro indie del mercado, independientemente del motor usado.
 

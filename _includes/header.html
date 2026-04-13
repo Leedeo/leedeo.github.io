@@ -1,89 +1,118 @@
 <!-- Barra de navegación principal -->
-<nav class="fixed top-0 w-full z-50 bg-[#0f0a1d]/90 backdrop-blur-lg border-b border-white/10">
+<nav class="fixed top-0 w-full z-50 bg-[#0f0a1d]/90 backdrop-blur-lg border-b border-white/[0.06]">
     <div class="max-w-7xl mx-auto px-6 h-20 flex items-center justify-between">
       <a href="#main-content" class="skip-link">Saltar al contenido principal</a>
 
-        <!-- Logo del sitio -->
-        <a href="{{ '/' | relative_url }}" class="flex items-center gap-2 z-50">
-            <span class="font-pacifico text-violet-500 text-[40px] lowercase tracking-normal -rotate-2 mr-1">Leedeo</span>
-            <span class="text-2xl font-thin tracking-[0.15em] text-slate-200 uppercase">Studio</span>
+        <!-- Logo -->
+        <a href="{{ '/' | relative_url }}" class="flex items-center gap-2 z-50 group">
+            <span class="font-pacifico text-violet-500 text-[38px] lowercase tracking-normal -rotate-2 mr-1 transition-colors group-hover:text-violet-400">Leedeo</span>
+            <span class="text-xl font-thin tracking-[0.18em] text-slate-300 uppercase">Studio</span>
         </a>
 
-        <!-- Menú para pantallas grandes (Desktop) -->
-        <div class="hidden lg:flex space-x-4 xl:space-x-10 text-xs font-bold uppercase tracking-widest items-center">
-            <a href="{{ '/' | relative_url }}" class="hover:text-violet-400 transition-colors {% if page.url == '/' or page.url == '/index.html' %}text-violet-400{% else %}text-slate-400{% endif %}">Inicio</a>
-            <a href="{{ '/about/' | relative_url }}" class="hover:text-violet-400 transition-colors {% if page.url contains '/about' %}text-violet-400{% else %}text-slate-400{% endif %}">Sobre mí</a>
+        <!-- Menú desktop -->
+        <div class="hidden lg:flex space-x-1 xl:space-x-2 text-[0.65rem] font-bold uppercase tracking-widest items-center">
 
-            <!-- Menú desplegable: Proyectos -->
+            <a href="{{ '/' | relative_url }}"
+               class="px-4 py-2 rounded-lg transition-all duration-200 {% if page.url == '/' or page.url == '/index.html' %}text-violet-400 bg-violet-500/10{% else %}text-slate-400 hover:text-slate-100 hover:bg-white/5{% endif %}">
+               Inicio
+            </a>
+
+            <a href="{{ '/about/' | relative_url }}"
+               class="px-4 py-2 rounded-lg transition-all duration-200 {% if page.url contains '/about' %}text-violet-400 bg-violet-500/10{% else %}text-slate-400 hover:text-slate-100 hover:bg-white/5{% endif %}">
+               Sobre mí
+            </a>
+
+            <!-- Dropdown: Proyectos -->
             <div class="relative group h-full flex items-center" data-dropdown>
-                <button class="flex items-center gap-1 hover:text-violet-400 transition-colors {% if page.url contains '/projects/' %}text-violet-400{% else %}text-slate-400{% endif %} uppercase font-bold tracking-widest py-8" aria-expanded="false" aria-haspopup="true">
-                    Proyectos <i class="fas fa-chevron-down text-[10px] transition-transform group-hover:rotate-180" aria-hidden="true"></i>
+                <button class="flex items-center gap-1.5 px-4 py-2 rounded-lg transition-all duration-200 {% if page.url contains '/projects/' %}text-violet-400 bg-violet-500/10{% else %}text-slate-400 hover:text-slate-100 hover:bg-white/5{% endif %} uppercase font-bold tracking-widest"
+                        aria-expanded="false" aria-haspopup="true">
+                    Proyectos
+                    <i class="fas fa-chevron-down text-[8px] transition-transform duration-300 group-hover:rotate-180 opacity-60" aria-hidden="true"></i>
                 </button>
-                <div class="absolute top-full left-0 min-w-[240px] bg-white shadow-2xl transition-all duration-300 transform translate-y-4 opacity-0 pointer-events-none group-hover:translate-y-0 group-hover:opacity-100 group-hover:pointer-events-auto border-t-4 border-violet-600 dropdown-menu" role="menu">
-                    <a href="{{ '/projects/halls-of-delirium/' | relative_url }}" class="block px-6 py-4 text-xs text-[#0f0a1d] hover:bg-slate-50 hover:text-violet-600 transition-colors uppercase tracking-widest font-bold border-b border-slate-100" role="menuitem">
-                        <i class="fas fa-gamepad mr-2 text-violet-600"></i> Halls of Delirium
+                <div class="nav-dropdown absolute top-full left-0 transition-all duration-250 transform translate-y-1.5 opacity-0 pointer-events-none group-hover:translate-y-0 group-hover:opacity-100 group-hover:pointer-events-auto dropdown-menu" style="min-width:230px;" role="menu">
+                    <a href="{{ '/projects/halls-of-delirium/' | relative_url }}"
+                       class="block px-5 py-3.5 text-[0.65rem] font-bold uppercase tracking-widest border-b border-white/[0.04]" role="menuitem">
+                        <i class="fas fa-gamepad mr-2 text-violet-500"></i> Halls of Delirium
                     </a>
-                    <a href="{{ '/projects/leedeo-cleaner/' | relative_url }}" class="block px-6 py-4 text-xs text-[#0f0a1d] hover:bg-slate-50 hover:text-violet-600 transition-colors uppercase tracking-widest font-bold border-b border-slate-100 last:border-0" role="menuitem">
-                        <i class="fas fa-broom mr-2 text-violet-600"></i> Leedeo Cleaner
+                    <a href="{{ '/projects/leedeo-cleaner/' | relative_url }}"
+                       class="block px-5 py-3.5 text-[0.65rem] font-bold uppercase tracking-widest" role="menuitem">
+                        <i class="fas fa-broom mr-2 text-violet-500"></i> Leedeo Cleaner
                     </a>
                 </div>
             </div>
 
-            <!-- Menú desplegable: Cursos -->
+            <!-- Dropdown: Cursos -->
             <div class="relative group h-full flex items-center" data-dropdown>
-                <button class="flex items-center gap-1 hover:text-violet-400 transition-colors {% if page.url contains '/courses/' %}text-violet-400{% else %}text-slate-400{% endif %} uppercase font-bold tracking-widest py-8" aria-expanded="false" aria-haspopup="true">
-                    Mis Cursos <i class="fas fa-chevron-down text-[10px] transition-transform group-hover:rotate-180" aria-hidden="true"></i>
+                <button class="flex items-center gap-1.5 px-4 py-2 rounded-lg transition-all duration-200 {% if page.url contains '/courses/' %}text-violet-400 bg-violet-500/10{% else %}text-slate-400 hover:text-slate-100 hover:bg-white/5{% endif %} uppercase font-bold tracking-widest"
+                        aria-expanded="false" aria-haspopup="true">
+                    Mis Cursos
+                    <i class="fas fa-chevron-down text-[8px] transition-transform duration-300 group-hover:rotate-180 opacity-60" aria-hidden="true"></i>
                 </button>
-                <div class="absolute top-full left-0 min-w-[250px] bg-white shadow-2xl transition-all duration-300 transform translate-y-4 opacity-0 pointer-events-none group-hover:translate-y-0 group-hover:opacity-100 group-hover:pointer-events-auto border-t-4 border-violet-600 dropdown-menu" role="menu">
-                    <a href="{{ '/courses/godot/' | relative_url }}" class="block px-6 py-4 text-xs text-[#0f0a1d] hover:bg-slate-50 hover:text-violet-600 transition-colors uppercase tracking-widest font-bold border-b border-slate-100" role="menuitem">
-                        <i class="fas fa-gamepad mr-2 text-violet-600"></i> Godot Engine
+                <div class="nav-dropdown absolute top-full left-0 transition-all duration-250 transform translate-y-1.5 opacity-0 pointer-events-none group-hover:translate-y-0 group-hover:opacity-100 group-hover:pointer-events-auto dropdown-menu" style="min-width:230px;" role="menu">
+                    <a href="{{ '/courses/godot/' | relative_url }}"
+                       class="block px-5 py-3.5 text-[0.65rem] font-bold uppercase tracking-widest border-b border-white/[0.04]" role="menuitem">
+                        <i class="fas fa-gamepad mr-2 text-violet-500"></i> Godot Engine
                     </a>
-                    <a href="{{ '/courses/gaming-marketing/' | relative_url }}" class="block px-6 py-4 text-xs text-[#0f0a1d] hover:bg-slate-50 hover:text-violet-600 transition-colors uppercase tracking-widest font-bold border-b border-slate-100 last:border-0" role="menuitem">
-                        <i class="fas fa-bullhorn mr-2 text-violet-600"></i> Gaming Marketing
+                    <a href="{{ '/courses/gaming-marketing/' | relative_url }}"
+                       class="block px-5 py-3.5 text-[0.65rem] font-bold uppercase tracking-widest" role="menuitem">
+                        <i class="fas fa-bullhorn mr-2 text-violet-500"></i> Gaming Marketing
                     </a>
                 </div>
             </div>
 
-            <a href="{{ '/blog/' | relative_url }}" class="hover:text-violet-400 transition-colors {% if page.url contains '/blog/' %}text-violet-400{% else %}text-slate-400{% endif %}">Blog</a>
-            <a href="{{ '/contact/' | relative_url }}" class="hover:text-violet-400 transition-colors {% if page.url contains '/contact/' %}text-violet-400{% else %}text-slate-400{% endif %}">Contacto</a>
+            <a href="{{ '/blog/' | relative_url }}"
+               class="px-4 py-2 rounded-lg transition-all duration-200 {% if page.url contains '/blog/' %}text-violet-400 bg-violet-500/10{% else %}text-slate-400 hover:text-slate-100 hover:bg-white/5{% endif %}">
+               Blog
+            </a>
+
+            <a href="{{ '/contact/' | relative_url }}"
+               class="px-4 py-2 rounded-lg transition-all duration-200 {% if page.url contains '/contact/' %}text-violet-400 bg-violet-500/10{% else %}text-slate-400 hover:text-slate-100 hover:bg-white/5{% endif %}">
+               Contacto
+            </a>
         </div>
 
-        <!-- Acciones rápidas y botón móvil -->
-        <div class="flex items-center gap-4 z-50">
+        <!-- Acciones rápidas -->
+        <div class="flex items-center gap-3 z-50">
             <a href="https://ko-fi.com/leedeo" target="_blank" rel="noopener"
-                class="hidden sm:flex bg-rose-600 hover:bg-rose-500 text-white px-5 py-2.5 rounded-xl text-sm font-bold transition-all duration-300 ease-out items-center gap-2">
-                <i class="fas fa-heart"></i> <span>Apoyar en Ko-fi</span>
+               class="hidden sm:flex items-center gap-2 bg-rose-600/90 hover:bg-rose-500 text-white px-4 py-2 rounded-xl text-xs font-bold transition-all duration-200 border border-rose-500/30 hover:border-rose-400/50 hover:shadow-lg hover:shadow-rose-900/30">
+               <i class="fas fa-heart text-rose-300"></i> <span>Ko-fi</span>
             </a>
             <button id="mobile-menu-btn"
-                class="lg:hidden text-slate-200 hover:text-violet-400 p-2 focus:outline-none transition-colors"
+                class="lg:hidden text-slate-300 hover:text-violet-400 p-2 rounded-lg hover:bg-white/5 focus:outline-none transition-all"
                 aria-label="Abrir menú de navegación" aria-expanded="false">
-                <i class="fas fa-bars text-2xl"></i>
+                <i class="fas fa-bars text-xl"></i>
             </button>
         </div>
     </div>
 
-    <!-- Menú desplegable para móviles -->
+    <!-- Menú móvil -->
     <div id="mobile-menu"
-        class="hidden lg:hidden bg-[#0f0a1d]/95 backdrop-blur-3xl border-b border-white/10 absolute w-full left-0 top-20 flex-col shadow-2xl overflow-y-auto max-h-[calc(100vh-5rem)] transition-all duration-300 transform origin-top">
-        <div class="flex flex-col px-6 py-6 space-y-4 text-sm font-bold uppercase tracking-widest text-slate-400 text-center">
-            <a href="{{ '/' | relative_url }}" class="mobile-link hover:text-white transition-colors block p-2">Inicio</a>
-            <a href="{{ '/about/' | relative_url }}" class="mobile-link hover:text-white transition-colors block p-2">Sobre mí</a>
-            <div class="py-1">
-                <div class="text-[10px] text-violet-500 mb-2 opacity-50">— Proyectos —</div>
-                <a href="{{ '/projects/halls-of-delirium/' | relative_url }}" class="mobile-link hover:text-white transition-colors block p-2">Halls of Delirium</a>
-                <a href="{{ '/projects/leedeo-cleaner/' | relative_url }}" class="mobile-link hover:text-white transition-colors block p-2">Leedeo Cleaner</a>
+        class="hidden lg:hidden bg-[#0a0618]/98 backdrop-blur-3xl border-b border-white/[0.06] absolute w-full left-0 top-20 flex-col shadow-2xl overflow-y-auto max-h-[calc(100vh-5rem)]">
+        <div class="flex flex-col px-6 py-8 gap-1 text-[0.7rem] font-bold uppercase tracking-widest text-slate-400">
+            <a href="{{ '/' | relative_url }}" class="mobile-link hover:text-white hover:bg-white/5 transition-all rounded-xl block px-4 py-3 text-center">Inicio</a>
+            <a href="{{ '/about/' | relative_url }}" class="mobile-link hover:text-white hover:bg-white/5 transition-all rounded-xl block px-4 py-3 text-center">Sobre mí</a>
+
+            <div class="border-t border-white/[0.06] my-3 pt-3">
+                <div class="text-[0.55rem] text-violet-500/60 mb-3 text-center tracking-[0.3em]">✦ Proyectos ✦</div>
+                <a href="{{ '/projects/halls-of-delirium/' | relative_url }}" class="mobile-link hover:text-white hover:bg-white/5 transition-all rounded-xl block px-4 py-3 text-center">Halls of Delirium</a>
+                <a href="{{ '/projects/leedeo-cleaner/' | relative_url }}" class="mobile-link hover:text-white hover:bg-white/5 transition-all rounded-xl block px-4 py-3 text-center">Leedeo Cleaner</a>
             </div>
-            <div class="py-1">
-                <div class="text-[10px] text-violet-500 mb-2 opacity-50">— Mis Cursos —</div>
-                <a href="{{ '/courses/godot/' | relative_url }}" class="mobile-link hover:text-white transition-colors block p-2">Godot Engine</a>
-                <a href="{{ '/courses/gaming-marketing/' | relative_url }}" class="mobile-link hover:text-white transition-colors block p-2">Gaming Marketing</a>
+
+            <div class="border-t border-white/[0.06] pt-3">
+                <div class="text-[0.55rem] text-violet-500/60 mb-3 text-center tracking-[0.3em]">✦ Mis Cursos ✦</div>
+                <a href="{{ '/courses/godot/' | relative_url }}" class="mobile-link hover:text-white hover:bg-white/5 transition-all rounded-xl block px-4 py-3 text-center">Godot Engine</a>
+                <a href="{{ '/courses/gaming-marketing/' | relative_url }}" class="mobile-link hover:text-white hover:bg-white/5 transition-all rounded-xl block px-4 py-3 text-center">Gaming Marketing</a>
             </div>
-            <a href="{{ '/blog/' | relative_url }}" class="mobile-link hover:text-white transition-colors block p-2">Blog</a>
-            <a href="{{ '/contact/' | relative_url }}" class="mobile-link hover:text-white transition-colors block p-2">Contacto</a>
-            <div class="pt-4 pb-6 border-t border-white/10 sm:hidden">
+
+            <div class="border-t border-white/[0.06] my-3 pt-3">
+                <a href="{{ '/blog/' | relative_url }}" class="mobile-link hover:text-white hover:bg-white/5 transition-all rounded-xl block px-4 py-3 text-center">Blog</a>
+                <a href="{{ '/contact/' | relative_url }}" class="mobile-link hover:text-white hover:bg-white/5 transition-all rounded-xl block px-4 py-3 text-center">Contacto</a>
+            </div>
+
+            <div class="border-t border-white/[0.06] pt-6 pb-2 sm:hidden">
                 <a href="https://ko-fi.com/leedeo" target="_blank" rel="noopener"
-                    class="bg-rose-600 hover:bg-rose-500 text-white px-5 py-3 rounded-xl text-sm font-bold transition-all duration-300 ease-out flex items-center justify-center gap-3">
-                    <i class="fas fa-heart"></i> <span>Apoyar el proyecto</span>
+                   class="bg-rose-600 hover:bg-rose-500 text-white px-5 py-3 rounded-xl font-bold transition-all flex items-center justify-center gap-3 w-full">
+                    <i class="fas fa-heart"></i> Apoyar el proyecto
                 </a>
             </div>
         </div>

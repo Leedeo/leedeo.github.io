@@ -77,6 +77,13 @@ description: "Artículos sobre desarrollo de videojuegos, industria indie, tutor
                                         <img src="{{ post.thumbnail | relative_url }}" alt="{{ post.title }}" loading="lazy"
                                              class="absolute inset-0 w-full h-full object-cover transition-transform duration-700 group-hover:scale-110">
                                         <div class="absolute inset-0 bg-gradient-to-t from-[#05010d] via-[#05010d]/60 to-transparent opacity-90"></div>
+                                        {% if post.categories.size > 0 %}
+                                        <div class="absolute top-4 left-4">
+                                            <span class="px-2.5 py-1 bg-violet-600/80 backdrop-blur-sm text-white text-[0.55rem] font-bold uppercase tracking-widest rounded-lg border border-violet-500/40">
+                                                {{ post.categories.first }}
+                                            </span>
+                                        </div>
+                                        {% endif %}
                                         <div class="absolute bottom-0 p-6 md:p-8 w-full">
                                             <div class="flex items-center gap-2 mb-3">
                                                 {% assign post_author = site.data.authors[post.author] | default: site.data.authors['javo'] %}
@@ -99,6 +106,11 @@ description: "Artículos sobre desarrollo de videojuegos, industria indie, tutor
                                          <img src="{{ post.thumbnail | relative_url }}" alt="{{ post.title }}" loading="lazy"
                                               class="absolute inset-0 w-full h-full object-cover transition-transform duration-700 group-hover:scale-110">
                                          <div class="absolute inset-0 bg-gradient-to-t from-[#05010d] via-[#05010d]/60 to-transparent opacity-90"></div>
+                                         {% if post.categories.size > 0 %}
+                                         <div class="absolute top-3 left-3">
+                                             <span class="px-2.5 py-1 bg-violet-600/80 backdrop-blur-sm text-white text-[0.55rem] font-bold uppercase tracking-widest rounded-lg border border-violet-500/40">{{ post.categories.first }}</span>
+                                         </div>
+                                         {% endif %}
                                          <div class="absolute bottom-0 p-6 w-full">
                                              <div class="flex items-center gap-2 mb-2">
                                                  {% assign post_author = site.data.authors[post.author] | default: site.data.authors['javo'] %}
@@ -121,6 +133,11 @@ description: "Artículos sobre desarrollo de videojuegos, industria indie, tutor
                                          <img src="{{ post.thumbnail | relative_url }}" alt="{{ post.title }}" loading="lazy"
                                               class="absolute inset-0 w-full h-full object-cover transition-transform duration-700 group-hover:scale-110">
                                          <div class="absolute inset-0 bg-gradient-to-t from-[#05010d] via-[#05010d]/60 to-transparent opacity-90"></div>
+                                         {% if post.categories.size > 0 %}
+                                         <div class="absolute top-3 left-3">
+                                             <span class="px-2.5 py-1 bg-violet-600/80 backdrop-blur-sm text-white text-[0.55rem] font-bold uppercase tracking-widest rounded-lg border border-violet-500/40">{{ post.categories.first }}</span>
+                                         </div>
+                                         {% endif %}
                                          <div class="absolute bottom-0 p-6 w-full">
                                              <div class="flex items-center gap-2 mb-1">
                                                  {% assign post_author = site.data.authors[post.author] | default: site.data.authors['javo'] %}
@@ -151,6 +168,11 @@ description: "Artículos sobre desarrollo de videojuegos, industria indie, tutor
                                     <img src="{{ post.thumbnail | relative_url }}" alt="{{ post.title }}" loading="lazy" width="600" height="340"
                                         class="w-full h-full object-cover transition-transform duration-500 group-hover:scale-110">
                                     <div class="absolute inset-0 bg-gradient-to-t from-[#0f0a1d] to-transparent opacity-60"></div>
+                                    {% if post.categories.size > 0 %}
+                                    <div class="absolute top-3 left-3">
+                                        <span class="px-2.5 py-1 bg-violet-600/80 backdrop-blur-sm text-white text-[0.55rem] font-bold uppercase tracking-widest rounded-lg border border-violet-500/40">{{ post.categories.first }}</span>
+                                    </div>
+                                    {% endif %}
                                 </a>
                                 <div class="p-8 flex flex-col flex-grow">
                                     <div class="flex items-center gap-2 mb-3">
@@ -189,6 +211,11 @@ description: "Artículos sobre desarrollo de videojuegos, industria indie, tutor
                                         <img src="{{ post.thumbnail | relative_url }}" alt="{{ post.title }}" loading="lazy"
                                              class="absolute inset-0 w-full h-full object-cover transition-transform duration-700 group-hover:scale-110">
                                         <div class="absolute inset-0 bg-gradient-to-t from-[#05010d] via-[#05010d]/60 to-transparent opacity-90"></div>
+                                        {% if post.categories.size > 0 %}
+                                        <div class="absolute top-3 left-3">
+                                            <span class="px-2.5 py-1 bg-violet-600/80 backdrop-blur-sm text-white text-[0.55rem] font-bold uppercase tracking-widest rounded-lg border border-violet-500/40">{{ post.categories.first }}</span>
+                                        </div>
+                                        {% endif %}
                                         <div class="absolute bottom-0 p-4 w-full">
                                             <div class="flex items-center gap-2 mb-1">
                                                 {% assign post_author = site.data.authors[post.author] | default: site.data.authors['javo'] %}
@@ -217,6 +244,11 @@ description: "Artículos sobre desarrollo de videojuegos, industria indie, tutor
                                 <img src="{{ post.thumbnail | relative_url }}" alt="{{ post.title }}" loading="lazy" width="600" height="340"
                                     class="w-full h-full object-cover transition-transform duration-500 group-hover:scale-110">
                                 <div class="absolute inset-0 bg-gradient-to-t from-[#05010d] to-transparent opacity-60"></div>
+                                {% if post.categories.size > 0 %}
+                                <div class="absolute top-3 left-3">
+                                    <span class="px-2.5 py-1 bg-violet-600/80 backdrop-blur-sm text-white text-[0.55rem] font-bold uppercase tracking-widest rounded-lg border border-violet-500/40">{{ post.categories.first }}</span>
+                                </div>
+                                {% endif %}
                             </a>
                             <div class="p-8 flex flex-col flex-grow">
                                 <div class="flex items-center gap-2 mb-3">
