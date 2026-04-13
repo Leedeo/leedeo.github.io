@@ -359,7 +359,7 @@ strong { font-weight: 700; color: #fff; }
 .lc-download-btn:hover { background: #6d28d9; transform: scale(1.05); }
 
 /* ── contenido enriquecido (markdown renderizado) ────── */
-.rich-content { color: var(--text-dim); line-height: 1.6; font-size: 1.15rem; }
+.rich-content { color: var(--text-dim); line-height: 1.6; font-size: 1rem; }
 
 .rich-content h2, .rich-content h3 {
   color: #fff; font-weight: 800; letter-spacing: -0.02em;
