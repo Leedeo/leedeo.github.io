@@ -170,7 +170,7 @@ layout: "default"
                                 <img src="{{ pub.thumbnail | relative_url }}" alt="{{ pub.title }}"
                                      loading="lazy" class="w-full h-full object-cover transition-transform duration-500 group-hover:scale-105">
                             </div>
-                            <p class="text-slate-400 group-hover:text-violet-400 transition-colors font-bold leading-snug text-xs">{{ pub.title }}</p>
+                            <p class="text-slate-400 group-hover:text-violet-400 transition-colors font-bold leading-snug text-sm">{{ pub.title }}</p>
                         </a>
                         {% assign counter = counter | plus: 1 %}
                         {% endif %}
