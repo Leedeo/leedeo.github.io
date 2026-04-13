@@ -416,7 +416,7 @@ strong { font-weight: 700; color: #fff; }
   color: rgba(192, 132, 252, 0.15); font-family: Georgia, 'Times New Roman', serif;
   pointer-events: none; user-select: none;
 }
-.rich-content > blockquote p { color: #d4c9f0; font-style: italic; font-size: 1.1rem; line-height: 1.9; margin-bottom: 0; }
+.rich-content > blockquote p { color: #d4c9f0; font-style: italic; font-size: 1rem; line-height: 1.9; margin-bottom: 0; }
 .rich-content > blockquote cite,
 .rich-content > blockquote footer {
   display: block; margin-top: 0.75rem; font-size: 0.8rem; font-style: normal;
