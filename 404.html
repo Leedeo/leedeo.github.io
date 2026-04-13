@@ -7,27 +7,30 @@ permalink: /404.html
     <div class="hero-bg-anim">
         <div class="blob blob-1"></div>
         <div class="blob blob-2"></div>
+        <div class="absolute inset-0 opacity-[0.035] pointer-events-none"
+             style="background-image: radial-gradient(rgba(139,92,246,0.8) 1px, transparent 1px); background-size: 40px 40px;"></div>
+        <div class="absolute inset-0 bg-gradient-to-b from-transparent via-transparent to-[#0f0a1d]"></div>
     </div>
 
     <div class="relative z-10 max-w-2xl mx-auto px-6 text-center">
         <div class="text-[10rem] md:text-[14rem] font-black gradient-text leading-none select-none">404</div>
 
-        <h1 class="text-3xl md:text-5xl font-extrabold mb-6 tracking-tight uppercase">
+        <h1 class="text-3xl md:text-5xl font-extrabold mb-5 tracking-tight uppercase">
             Página no encontrada
         </h1>
 
-        <p class="text-xl text-slate-400 mb-12 leading-relaxed max-w-lg mx-auto font-light">
+        <p class="text-lg text-slate-400 mb-12 leading-relaxed max-w-lg mx-auto font-light">
             La página que buscas no existe o ha sido movida. Pero no te preocupes, aquí tienes otras opciones.
         </p>
 
-        <div class="flex flex-wrap justify-center gap-6">
+        <div class="flex flex-wrap justify-center gap-4">
             <a href="{{ '/' | relative_url }}"
-                class="btn-primary px-10 py-4 text-white font-bold rounded-2xl transition-all duration-300 ease-out hover:scale-105 flex items-center gap-3">
-                <i class="fas fa-home"></i> Ir al inicio
+               class="btn-primary px-8 py-4 rounded-2xl flex items-center gap-3">
+                <i class="fas fa-home text-xs"></i> Ir al inicio
             </a>
             <a href="{{ '/blog/' | relative_url }}"
-                class="btn-secondary">
-                <i class="fas fa-newspaper"></i> Ver el blog
+               class="btn-secondary px-8 py-4 rounded-2xl flex items-center gap-3">
+                <i class="fas fa-newspaper text-xs"></i> Ver el blog
             </a>
         </div>
     </div>
