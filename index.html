@@ -283,7 +283,7 @@ description: "Aprende a crear videojuegos desde cero con tutoriales prácticos, 
 
         <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
             {% for post in site.posts limit:3 %}
-            <article class="glass-card rounded-custom-32 overflow-hidden flex flex-col reveal" style="--reveal-delay: {{ forloop.index0 | times: 80 }}ms;">
+            <article class="glass-card rounded-[2rem] overflow-hidden flex flex-col reveal w-full" style="--reveal-delay: {{ reveal_delay }}ms;">
                 <a href="{{ post.url | relative_url }}" class="aspect-video overflow-hidden relative block group/thumb">
                     <img src="{{ post.thumbnail | relative_url }}" alt="{{ post.title }}"
                          loading="lazy" width="600" height="340"
@@ -301,18 +301,20 @@ description: "Aprende a crear videojuegos desde cero con tutoriales prácticos, 
                 <div class="p-7 flex flex-col flex-grow">
                     <div class="flex items-center gap-2 mb-3">
                         {% assign post_author = site.data.authors[post.author] | default: site.data.authors['javo'] %}
-                        <img src="{{ post_author.avatar }}" alt="{{ post_author.name }}"
-                             class="w-5 h-5 rounded-full object-cover border border-violet-300/60 flex-shrink-0"
-                             width="20" height="20" loading="lazy">
-                        <span class="text-slate-500 text-[0.6rem] font-bold uppercase tracking-widest">{{ post_author.name }}</span>
-                        <span class="text-slate-600 text-[0.6rem]">·</span>
-                        <span class="text-violet-500/80 text-[0.6rem] font-bold uppercase tracking-widest">
-                            {% include date_es.html date=post.date %}
-                        </span>
+                        <img src="{{ post_author.avatar }}" alt="{{ post_author.name }}" class="w-6 h-6 rounded-full object-cover border border-violet-300/70 flex-shrink-0" width="24" height="24" loading="lazy">
+                        <div>
+                            <div class="text-slate-400 text-[10px] font-bold uppercase tracking-widest leading-none">{{ post_author.name }}</div>
+                            <div class="text-violet-400 text-[10px] font-bold uppercase tracking-widest leading-none mt-0.5">
+                                {% include date_es.html date=post.date %}
+                            </div>
+                        </div>
                     </div>
                     <h3 class="text-base font-bold mb-3 text-white hover:text-violet-400 transition-colors leading-snug flex-grow">
                         <a href="{{ post.url | relative_url }}">{{ post.title }}</a>
                     </h3>
+                    <p class="text-slate-400 text-sm leading-relaxed mb-6 flex-grow">
+                        {{ post.excerpt | strip_html | truncate: 155 }}
+                    </p>
                     <a href="{{ post.url | relative_url }}"
                        class="text-[0.65rem] font-black uppercase tracking-[0.2em] text-slate-500 flex items-center gap-2 hover:text-violet-400 transition-colors group/link mt-auto">
                         Leer más <i class="fas fa-arrow-right text-violet-500 transition-transform group-hover/link:translate-x-1"></i>

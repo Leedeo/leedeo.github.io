@@ -95,6 +95,9 @@ description: "Artículos sobre desarrollo de videojuegos, industria indie, tutor
                                             <h2 class="text-2xl md:text-3xl font-bold text-white leading-tight group-hover:text-violet-300 transition-colors">
                                                 {{ post.title }}
                                             </h2>
+                                            <p class="text-slate-400 text-sm leading-relaxed mb-6 flex-grow">
+                                                {{ post.excerpt | strip_html | truncate: 155 }}
+                                            </p>
                                         </div>
                                     </a>
                                 </article>
@@ -104,24 +107,27 @@ description: "Artículos sobre desarrollo de videojuegos, industria indie, tutor
                                  <article class="group relative overflow-hidden rounded-[2rem] aspect-[4/3] lg:aspect-video h-full w-full">
                                      <a href="{{ post.url | relative_url }}" class="block w-full h-full">
                                          <img src="{{ post.thumbnail | relative_url }}" alt="{{ post.title }}" loading="lazy"
-                                              class="absolute inset-0 w-full h-full object-cover transition-transform duration-700 group-hover:scale-110">
+                                            class="absolute inset-0 w-full h-full object-cover transition-transform duration-700 group-hover:scale-110">
                                          <div class="absolute inset-0 bg-gradient-to-t from-[#05010d] via-[#05010d]/60 to-transparent opacity-90"></div>
                                          {% if post.categories.size > 0 %}
                                          <div class="absolute top-3 left-3">
-                                             <span class="px-2.5 py-1 bg-violet-600/80 backdrop-blur-sm text-white text-[0.55rem] font-bold uppercase tracking-widest rounded-lg border border-violet-500/40">{{ post.categories.first }}</span>
+                                            <span class="px-2.5 py-1 bg-violet-600/80 backdrop-blur-sm text-white text-[0.55rem] font-bold uppercase tracking-widest rounded-lg border border-violet-500/40">{{ post.categories.first }}</span>
                                          </div>
                                          {% endif %}
                                          <div class="absolute bottom-0 p-6 w-full">
-                                             <div class="flex items-center gap-2 mb-2">
-                                                 {% assign post_author = site.data.authors[post.author] | default: site.data.authors['javo'] %}
-                                                 <img src="{{ post_author.avatar }}" alt="{{ post_author.name }}" class="w-4 h-4 rounded-full object-cover border border-violet-300/70" width="16" height="16" loading="lazy">
-                                                 <span class="text-violet-400 text-[10px] font-bold uppercase tracking-widest">
-                                                     {% include date_es.html date=post.date %}
-                                                 </span>
-                                             </div>
-                                             <h2 class="text-lg md:text-xl font-bold text-white leading-tight group-hover:text-violet-300 transition-colors">
-                                                 {{ post.title }}
-                                             </h2>
+                                            <div class="flex items-center gap-2 mb-2">
+                                                {% assign post_author = site.data.authors[post.author] | default: site.data.authors['javo'] %}
+                                                <img src="{{ post_author.avatar }}" alt="{{ post_author.name }}" class="w-4 h-4 rounded-full object-cover border border-violet-300/70" width="16" height="16" loading="lazy">
+                                                <span class="text-violet-400 text-[10px] font-bold uppercase tracking-widest">
+                                                    {% include date_es.html date=post.date %}
+                                                </span>
+                                            </div>
+                                            <h2 class="text-lg md:text-xl font-bold text-white leading-tight group-hover:text-violet-300 transition-colors">
+                                                {{ post.title }}
+                                            </h2>
+                                            <p class="text-slate-400 text-sm leading-relaxed mb-6 flex-grow">
+                                                {{ post.excerpt | strip_html | truncate: 155 }}
+                                            </p>
                                          </div>
                                      </a>
                                  </article>
@@ -131,23 +137,23 @@ description: "Artículos sobre desarrollo de videojuegos, industria indie, tutor
                                  <article class="group relative overflow-hidden rounded-[2rem] aspect-[4/3] lg:aspect-[21/9] h-full w-full">
                                      <a href="{{ post.url | relative_url }}" class="block w-full h-full">
                                          <img src="{{ post.thumbnail | relative_url }}" alt="{{ post.title }}" loading="lazy"
-                                              class="absolute inset-0 w-full h-full object-cover transition-transform duration-700 group-hover:scale-110">
+                                            class="absolute inset-0 w-full h-full object-cover transition-transform duration-700 group-hover:scale-110">
                                          <div class="absolute inset-0 bg-gradient-to-t from-[#05010d] via-[#05010d]/60 to-transparent opacity-90"></div>
                                          {% if post.categories.size > 0 %}
                                          <div class="absolute top-3 left-3">
-                                             <span class="px-2.5 py-1 bg-violet-600/80 backdrop-blur-sm text-white text-[0.55rem] font-bold uppercase tracking-widest rounded-lg border border-violet-500/40">{{ post.categories.first }}</span>
+                                            <span class="px-2.5 py-1 bg-violet-600/80 backdrop-blur-sm text-white text-[0.55rem] font-bold uppercase tracking-widest rounded-lg border border-violet-500/40">{{ post.categories.first }}</span>
                                          </div>
                                          {% endif %}
                                          <div class="absolute bottom-0 p-6 w-full">
                                              <div class="flex items-center gap-2 mb-1">
-                                                 {% assign post_author = site.data.authors[post.author] | default: site.data.authors['javo'] %}
-                                                 <img src="{{ post_author.avatar }}" alt="{{ post_author.name }}" class="w-4 h-4 rounded-full object-cover border border-violet-300/70" width="16" height="16" loading="lazy">
-                                                 <span class="text-violet-400 text-[10px] font-bold uppercase tracking-widest">
+                                                {% assign post_author = site.data.authors[post.author] | default: site.data.authors['javo'] %}
+                                                <img src="{{ post_author.avatar }}" alt="{{ post_author.name }}" class="w-4 h-4 rounded-full object-cover border border-violet-300/70" width="16" height="16" loading="lazy">
+                                                <span class="text-violet-400 text-[10px] font-bold uppercase tracking-widest">
                                                      {% include date_es.html date=post.date %}
-                                                 </span>
+                                                </span>
                                              </div>
                                              <h2 class="text-lg md:text-xl font-bold text-white leading-tight group-hover:text-violet-300 transition-colors">
-                                                 {{ post.title }}
+                                                {{ post.title }}
                                              </h2>
                                          </div>
                                      </a>
@@ -174,7 +180,7 @@ description: "Artículos sobre desarrollo de videojuegos, industria indie, tutor
                                     </div>
                                     {% endif %}
                                 </a>
-                                <div class="p-8 flex flex-col flex-grow">
+                                <div class="p-7 flex flex-col flex-grow">
                                     <div class="flex items-center gap-2 mb-3">
                                         {% assign post_author = site.data.authors[post.author] | default: site.data.authors['javo'] %}
                                         <img src="{{ post_author.avatar }}" alt="{{ post_author.name }}" class="w-6 h-6 rounded-full object-cover border border-violet-300/70 flex-shrink-0" width="24" height="24" loading="lazy">
@@ -185,14 +191,14 @@ description: "Artículos sobre desarrollo de videojuegos, industria indie, tutor
                                             </div>
                                         </div>
                                     </div>
-                                    <h2 class="text-xl font-bold mb-4 text-white hover:text-violet-400 transition-colors">
+                                    <h2 class="text-base font-bold mb-3 text-white hover:text-violet-400 transition-colors leading-snug flex-grow">
                                         <a href="{{ post.url | relative_url }}">{{ post.title }}</a>
                                     </h2>
                                     <p class="text-slate-400 text-sm leading-relaxed mb-6 flex-grow">
                                         {{ post.excerpt | strip_html | truncate: 155 }}
                                     </p>
                                     <a href="{{ post.url | relative_url }}"
-                                        class="text-xs font-black uppercase tracking-[0.2em] text-white flex items-center gap-2 group/link">
+                                    class="text-[0.65rem] font-black uppercase tracking-[0.2em] text-slate-500 flex items-center gap-2 hover:text-violet-400 transition-colors group/link mt-auto">
                                         Leer más <i class="fas fa-arrow-right text-violet-500 transition-transform group-hover/link:translate-x-1"></i>
                                     </a>
                                 </div>
@@ -250,7 +256,7 @@ description: "Artículos sobre desarrollo de videojuegos, industria indie, tutor
                                 </div>
                                 {% endif %}
                             </a>
-                            <div class="p-8 flex flex-col flex-grow">
+                            <div class="p-7 flex flex-col flex-grow">
                                 <div class="flex items-center gap-2 mb-3">
                                     {% assign post_author = site.data.authors[post.author] | default: site.data.authors['javo'] %}
                                     <img src="{{ post_author.avatar }}" alt="{{ post_author.name }}" class="w-6 h-6 rounded-full object-cover border border-violet-300/70 flex-shrink-0" width="24" height="24" loading="lazy">
@@ -261,14 +267,14 @@ description: "Artículos sobre desarrollo de videojuegos, industria indie, tutor
                                         </div>
                                     </div>
                                 </div>
-                                <h2 class="text-xl font-bold mb-4 text-white hover:text-violet-400 transition-colors">
+                                <h2 class="text-base font-bold mb-3 text-white hover:text-violet-400 transition-colors leading-snug flex-grow">
                                     <a href="{{ post.url | relative_url }}">{{ post.title }}</a>
                                 </h2>
                                 <p class="text-slate-400 text-sm leading-relaxed mb-6 flex-grow">
                                     {{ post.excerpt | strip_html | truncate: 155 }}
                                 </p>
                                 <a href="{{ post.url | relative_url }}"
-                                    class="text-xs font-black uppercase tracking-[0.2em] text-white flex items-center gap-2 group/link">
+                                class="text-[0.65rem] font-black uppercase tracking-[0.2em] text-slate-500 flex items-center gap-2 hover:text-violet-400 transition-colors group/link mt-auto">
                                     Leer más <i class="fas fa-arrow-right text-violet-500 transition-transform group-hover/link:translate-x-1"></i>
                                 </a>
                             </div>
