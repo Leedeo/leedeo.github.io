@@ -138,7 +138,7 @@ Un juego de acción donde el jugador controla a una patata armada con hasta seis
 
 Una ruleta rusa, pero con escopeta, frente a un personaje inquietante en un sótano oscuro. **Buckshot Roulette** se hizo viral gracias a un concepto simple y una atmósfera opresiva. Lo desarrolló básicamente una sola persona y se convirtió en un fenómeno que los creadores de contenido se peleaban por cubrir.
 
-👉 [Buckshot Roulette en Steam](https://store.steampowered.com/app/2835910/Buckshot_Roulette/)
+👉 [Buckshot Roulette en Steam](https://store.steampowered.com/app/2835570/)
 
 ### Cassette Beasts
 
@@ -184,6 +184,6 @@ Un juego de supervivencia y exploración en primera persona, ambientado en la fr
 
 Lo que llama la atención es el nivel técnico y gráfico que está alcanzando, algo que hace pocos años habría parecido fuera del alcance de este motor. Es probablemente el proyecto más ambicioso que se está desarrollando con Godot ahora mismo, y el que mejor demuestra hasta dónde ha llegado el motor.
 
-👉 [Road to Vostok en Steam](https://store.steampowered.com/app/1963270/Road_to_Vostok/)
+👉 [Road to Vostok en Steam](https://store.steampowered.com/app/1963610/)
 
 **[Godot Engine](https://godotengine.org/)** es gratuito, abierto, ligero y cada vez más capaz. No pertenece a ninguna empresa, sino a la comunidad que lo construye día a día. Para quien tenga curiosidad, está a una descarga de distancia desde su **[página oficial](https://godotengine.org/)**.

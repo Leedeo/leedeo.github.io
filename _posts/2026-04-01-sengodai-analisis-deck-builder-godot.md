@@ -72,6 +72,6 @@ Desde el primer combate deja claro que no va a perdonarte. Prefiero un juego que
 
 No es un juego para todo el mundo. Si los deck builders no son tu terreno, el inicio va a ser áspero y puede que más de uno se rinda antes de que haga clic. Pero si le das la oportunidad que merece, hay un sistema bien pensado debajo, con una identidad visual muy cuidada y ese ciclo de "una partida más" que es la señal de que algo está funcionando bien.
 
-Puedes echarle un vistazo en su [página de Steam](https://store.steampowered.com/app/4090730/ y conocer más sobre el estudio en la [web oficial de Tsunoa Games](https://tsunoagames.com/).
+Puedes echarle un vistazo en su [página de Steam](https://store.steampowered.com/app/4090730/) y conocer más sobre el estudio en la [web oficial de Tsunoa Games](https://tsunoagames.com/).
 
 Y ahora te toca a ti. ¿Te manejas bien con los deck builders o te pasa como a mí, que ves cartas y el cerebro entra en huelga? Déjame tu opinión en los comentarios. Y si ya jugaste a Sengodai, cuéntame si realmente soy un inútil o si el juego aprieta de verdad desde el primer combate.

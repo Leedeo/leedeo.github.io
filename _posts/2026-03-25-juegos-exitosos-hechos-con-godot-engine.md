@@ -74,7 +74,7 @@ No fue un accidente. Fue un juego extremadamente bien diseñado en su bucle juga
 | **Ventas estimadas (PC)** | 3 – 5 millones de copias |
 | **Ingresos brutos estimados (PC)** | 7 – 12 millones USD |
 
-👉 [Buckshot Roulette en Steam](https://store.steampowered.com/app/2835570/Buckshot_Roulette/)
+👉 [Buckshot Roulette en Steam](https://store.steampowered.com/app/2835570/)
 
 Ruleta rusa con escopeta. En un sótano. Frente a un personaje inquietante. La premisa cabe en una frase y esa frase ya genera curiosidad. Eso es lo que se llama un concepto que se vende solo.
 
