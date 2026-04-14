@@ -226,6 +226,8 @@ Ninguno de los dos ha salido todavía. Pero que existan y que hayan elegido Godo
 
 *Estimaciones basadas en número de reseñas de Steam, precio base y rangos habituales de conversión reseña/venta. Son aproximaciones, no datos oficiales.*
 
+---
+
 ## Fuentes y referencias
 
 - [Godot Engine – sitio oficial](https://godotengine.org/)

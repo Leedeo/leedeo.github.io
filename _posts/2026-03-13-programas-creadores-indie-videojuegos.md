@@ -82,4 +82,13 @@ No necesitas veinte millones de dólares en *Earned Media Value* para que esto v
 
 Ignorar las relaciones con creadores porque \"no hay presupuesto para marketing\" es dejar una de las pocas herramientas accesible para estudios pequeños completamente sin utilizar.
 
-*Fuentes utilizadas en este artículo: [Gamesight — Quantifying the impact of creator programs](https://www.gamesindustry.biz/quantifying-the-impact-of-creator-programs){:target="_blank"}, [Business of Apps — Mobile gaming influencer marketing trends 2025](https://www.businessofapps.com/insights/mobile-gaming-influencer-marketing-trends-2025){:target="_blank"}, [Go Viral Global — Influencer marketing statistics 2025](https://www.goviralglobal.com/post/influencer-marketing-facts-and-statistics-updated-september-2025){:target="_blank"}, [Porter Wills — Esports influencer marketing ROI data 2025](https://porterwills.co/thoughts/the-rising-star-of-influencers-in-gaming-and-esports-marketing){:target="_blank"}, [Archive — Influencer marketing growth statistics 2026](https://archive.com/blog/influencer-marketing-growth-statistics){:target="_blank"}, [Influencer Marketing Hub — 2025 benchmark report](https://iqfluence.io/public/blog/influencer-marketing-statistics){:target="_blank"}.*
+---
+
+## Fuentes utilizadas en este artículo:
+
+- [Gamesight — Quantifying the impact of creator programs](https://www.gamesindustry.biz/quantifying-the-impact-of-creator-programs){:target="_blank"}
+- [Business of Apps — Mobile gaming influencer marketing trends 2025](https://www.businessofapps.com/insights/mobile-gaming-influencer-marketing-trends-2025){:target="_blank"}
+- [Go Viral Global — Influencer marketing statistics 2025](https://www.goviralglobal.com/post/influencer-marketing-facts-and-statistics-updated-september-2025){:target="_blank"}
+- [Porter Wills — Esports influencer marketing ROI data 2025](https://porterwills.co/thoughts/the-rising-star-of-influencers-in-gaming-and-esports-marketing){:target="_blank"}
+- [Archive — Influencer marketing growth statistics 2026](https://archive.com/blog/influencer-marketing-growth-statistics){:target="_blank"}
+- [Influencer Marketing Hub — 2025 benchmark report](https://iqfluence.io/public/blog/influencer-marketing-statistics){:target="_blank"}

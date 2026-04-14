@@ -106,4 +106,15 @@ Lo que no tiene ningún sentido es esperar resultados de cualquiera de estos cam
 
 El sector del videojuego es enorme y seguirá creciendo. Pero enorme no significa fácil. Significa competitivo.
 
-*Fuentes utilizadas en este artículo: [Wikipedia — 2022-2025 Video Game Industry Layoffs](https://en.wikipedia.org/wiki/2022%E2%80%932025_video_game_industry_layoffs){:target="_blank"}, [PC Gamer — GDC State of the Game Industry 2026](https://www.pcgamer.com/gaming-industry/one-third-of-us-games-industry-workers-were-laid-off-in-the-last-2-years-gdc-survey-says/){:target="_blank"}, [PocketGamer — Amir Satvat hiring velocity analysis](https://www.pocketgamer.biz/games-industry-hiring-matches-layoffs-for-the-first-time-in-years/){:target="_blank"}, [Variety — GDC State of the Game Industry 2025](https://variety.com/2025/gaming/news/video-game-layoffs-2024-report-gdc-1236277739/){:target="_blank"}, [Statista — Gaming industry layoffs 2022-2024](https://www.statista.com/statistics/1458214/worldwide-gaming-industry-layoffs/){:target="_blank"}, [MakeUseOf — Indie game developer salary](https://www.makeuseof.com/what-is-typical-indie-game-developer-salary/){:target="_blank"}, [Wayline — Realistic indie dev income](https://www.wayline.io/blog/realistically-how-much-does-an-indie-game-dev-make-per-year){:target="_blank"}, [Combine — 2025 Global Gaming Employment Outlook](https://combinegr.com/2025-global-gaming-employment-outlook-trends-talent-strategy/){:target="_blank"}.*
+---
+
+## Fuentes utilizadas en este artículo:
+
+- [Wikipedia — 2022-2025 Video Game Industry Layoffs](https://en.wikipedia.org/wiki/2022%E2%80%932025_video_game_industry_layoffs){:target="_blank"}
+- [PC Gamer — GDC State of the Game Industry 2026](https://www.pcgamer.com/gaming-industry/one-third-of-us-games-industry-workers-were-laid-off-in-the-last-2-years-gdc-survey-says/){:target="_blank"}
+- [PocketGamer — Amir Satvat hiring velocity analysis](https://www.pocketgamer.biz/games-industry-hiring-matches-layoffs-for-the-first-time-in-years/){:target="_blank"}
+- [Variety — GDC State of the Game Industry 2025](https://variety.com/2025/gaming/news/video-game-layoffs-2024-report-gdc-1236277739/){:target="_blank"}
+- [Statista — Gaming industry layoffs 2022-2024](https://www.statista.com/statistics/1458214/worldwide-gaming-industry-layoffs/){:target="_blank"}
+- [MakeUseOf — Indie game developer salary](https://www.makeuseof.com/what-is-typical-indie-game-developer-salary/){:target="_blank"}
+- [Wayline — Realistic indie dev income](https://www.wayline.io/blog/realistically-how-much-does-an-indie-game-dev-make-per-year){:target="_blank"}
+- [Combine — 2025 Global Gaming Employment Outlook](https://combinegr.com/2025-global-gaming-employment-outlook-trends-talent-strategy/){:target="_blank"}

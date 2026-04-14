@@ -74,7 +74,7 @@ Herramientas como **Godot Engine** han democratizado este proceso, eliminando la
   </a>
 </div>
 
-## Conclusión: Curar la calidad de la interacción
+## Curar la calidad de la interacción
 
 No debemos preguntar cuánto tiempo pasan frente a la pantalla, sino **qué están haciendo con ella**. Fomentar la curiosidad sobre el \"cómo está hecho\" es la mejor forma de convertir una actividad lúdica en una formación técnica y humana de valor incalculable.
 

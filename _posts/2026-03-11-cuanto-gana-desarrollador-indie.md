@@ -145,4 +145,11 @@ La conclusión práctica de todo esto no es desalentadora si se lee bien: **crea
 
 El mercado está ahí. Los datos muestran que hay espacio para más desarrolladores indie con proyectos bien ejecutados. Lo que no hay es atajos.
 
-*Fuentes utilizadas en este artículo: [VG Insights / Game World Observer (2024)](https://gameworldobserver.com/2024/10/16/indie-games-revenue-steam-vs-aaa-titles-vg-insights), [How To Market A Game - Chris Zukowski](https://howtomarketagame.com/2022/11/28/the-median-indie-game-does-not-earn-a-whole-lot/), [Game Developer - Top Indie Developers on Steam](https://www.gamedeveloper.com/game-platforms/what-can-we-learn-from-the-1-600-highest-earning-indie-developers-on-steam-), [Sensor Tower State of Gaming 2026](https://9to5mac.com/2026/02/25/app-store-gaming-revenue-hit-52-5b-in-2025-topping-google-play-and-steam-combined-report/).*
+---
+
+Fuentes utilizadas en este artículo:
+
+- [VG Insights / Game World Observer (2024)](https://gameworldobserver.com/2024/10/16/indie-games-revenue-steam-vs-aaa-titles-vg-insights)
+- [How To Market A Game - Chris Zukowski](https://howtomarketagame.com/2022/11/28/the-median-indie-game-does-not-earn-a-whole-lot/)
+- [Game Developer - Top Indie Developers on Steam](https://www.gamedeveloper.com/game-platforms/what-can-we-learn-from-the-1-600-highest-earning-indie-developers-on-steam-)
+- [Sensor Tower State of Gaming 2026](https://9to5mac.com/2026/02/25/app-store-gaming-revenue-hit-52-5b-in-2025-topping-google-play-and-steam-combined-report/)

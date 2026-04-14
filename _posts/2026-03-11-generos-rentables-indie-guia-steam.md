@@ -107,4 +107,11 @@ Otro dato lapidario para cerrar: **si tu juego no vende en el primer mes, casi s
 
 No hay fórmulas mágicas, pero elegir un género base con una matemática favorable (o hibridarlo inteligentemente) es darle a tu juego, a tu esfuerzo y a tu equipo una ventaja injusta desde el día uno.
 
-*Fuentes utilizadas en este artículo: [VG Insights / Game World Observer — Indie vs. AAA revenue 2024](https://gameworldobserver.com/2024/10/16/indie-games-revenue-steam-vs-aaa-titles-vg-insights), [Game World Observer — Most successful indie genres H1 2024](https://gameworldobserver.com/2024/08/19/most-successful-game-genres-on-steam-h1-2024-survival-city-builder-horror), [GameDiscoverCo — Deckbuilder genre fatigue 2024](https://newsletter.gamediscover.co), [SteamDB — Steam releases 2024](https://steamdb.info/stats/releases/), [How To Market A Game — Chris Zukowski](https://howtomarketagame.com).*
+---
+
+## Fuentes utilizadas en este artículo:
+
+- [VG Insights / Game World Observer — Indie vs. AAA revenue 2024](https://gameworldobserver.com/2024/10/16/indie-games-revenue-steam-vs-aaa-titles-vg-insights)
+- [Game World Observer — Most successful indie genres H1 2024](https://gameworldobserver.com/2024/08/19/most-successful-game-genres-on-steam-h1-2024-survival-city-builder-horror)
+- [GameDiscoverCo — Deckbuilder genre fatigue 2024](https://newsletter.gamediscover.co), [SteamDB — Steam releases 2024](https://steamdb.info/stats/releases/)
+- [How To Market A Game — Chris Zukowski](https://howtomarketagame.com)

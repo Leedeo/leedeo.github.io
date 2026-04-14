@@ -134,6 +134,8 @@ Y fue, sobre todo, la prueba de que cuando le das a la gente suficiente libertad
 
 Si quieres la historia completa, con toda la parte técnica, comunitaria, polémica y evolutiva del motor, el video del canal es donde de verdad está el plato fuerte.
 
+---
+
 ## Enlaces y referencias
 
 - [MUGEN en Wikipedia](https://en.wikipedia.org/wiki/M.U.G.E.N)

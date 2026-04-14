@@ -222,6 +222,8 @@ Puedes contarle a alguien en dos minutos todo lo que pasa en un juego. Pero eso 
 
 Y esa distancia entre saber lo que pasó y haberlo experimentado es exactamente donde vive la narrativa.
 
+---
+
 ## Fuentes y referencias
 
 - [Artículo original en Game Developer sobre Dispatch](https://www.gamedeveloper.com/production/dispatch-developer-adhoc-says-don-t-confuse-your-plot-for-narrative)

@@ -139,15 +139,3 @@ GameMaker sigue vivo porque cumple una función específica que ningún otro mot
 | **Unreal Engine** | Gráficos superiores | Excesivo para la mayoría de proyectos 2D |
 
 GameMaker ocupa un nicho claro: el desarrollador que quiere hacer un juego 2D sin complicarse la vida. Y mientras ese perfil exista, GameMaker tendrá su espacio.
-
-## Juegos mencionados
-
-- [Hotline Miami en Steam](https://store.steampowered.com/app/219150/)
-- [Undertale en Steam](https://store.steampowered.com/app/391540/)
-- [Spelunky en Steam](https://store.steampowered.com/app/239350/)
-- [Nuclear Throne en Steam](https://store.steampowered.com/app/242680/)
-- [Risk of Rain en Steam](https://store.steampowered.com/app/248820/)
-- [Hyper Light Drifter en Steam](https://store.steampowered.com/app/257850/)
-- [Deltarune en Steam](https://store.steampowered.com/app/1671210/)
-- [Katana ZERO en Steam](https://store.steampowered.com/app/460950/)
-- [Página oficial de GameMaker](https://gamemaker.io/)

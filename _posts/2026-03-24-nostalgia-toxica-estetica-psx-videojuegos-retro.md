@@ -163,6 +163,8 @@ Y quizá esa sea la pregunta más útil para cualquiera que quiera rescatar el p
 
 Si la respuesta es buena, el resultado puede ser memorable. Si no, solo estaremos viendo otra vez el mismo polígono torcido, esta vez con un poco menos de magia.
 
+---
+
 ## Fuentes y lecturas recomendadas
 
 - [PlayStation (PS1) en Wikipedia](https://en.wikipedia.org/wiki/PlayStation_(console))

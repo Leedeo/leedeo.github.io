@@ -235,6 +235,8 @@ Ya no basta con saber programar un personaje que salte. Tampoco basta con elegir
 
 Porque el desarrollo de videojuegos sigue siendo arte, técnica y producción. Pero en 2026 también es adaptación.
 
+---
+
 ## Fuentes y referencias
 
 *   [Godot Engine – sitio oficial](https://godotengine.org/)

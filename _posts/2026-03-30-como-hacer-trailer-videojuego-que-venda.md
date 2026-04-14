@@ -244,6 +244,8 @@ No son un detalle decorativo del marketing. Son una parte central de cómo el p�
 
 Si quieres profundizar más en este tema, aquí es donde encaja perfectamente el video original del canal, porque complementa todo lo que acabas de leer con una explicación directa y práctica sobre cómo plantear un teaser y un tráiler para tu videojuego.
 
+---
+
 ## Fuentes y recursos recomendados
 
 - [CapCut](https://www.capcut.com/)

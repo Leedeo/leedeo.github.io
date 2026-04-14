@@ -104,11 +104,3 @@ Porque hace una cosa específica muy bien: permite que alguien con una historia 
 Y mientras haya personas con historias que contar y sin los conocimientos técnicos para usar herramientas más complejas, RPG Maker va a tener su lugar.
 
 Treinta y pico años después de sus inicios, eso no es poca cosa.
-
-## Juegos mencionados
-
-- [To the Moon en Steam](https://store.steampowered.com/app/206440/)
-- [OMORI en Steam](https://store.steampowered.com/app/1150690/)
-- [Corpse Party en Steam](https://store.steampowered.com/app/251270/)
-- [LISA: The Painful en Steam](https://store.steampowered.com/app/335670/)
-- [RPG Maker MZ en Steam](https://store.steampowered.com/app/1096900/)

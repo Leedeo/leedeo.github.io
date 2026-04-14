@@ -98,4 +98,13 @@ Un juego a 4,99 euros envía un mensaje. Un juego a 24,99 euros envía otro. No 
 
 El precio no existe en el vacío. Es una parte más de la página de tienda, del posicionamiento, de la imagen general del proyecto. Y como el resto de esas decisiones, merece pensarse con cuidado antes del lanzamiento, no en el último momento porque hay que rellenar el campo en Steamworks.
 
-*Fuentes utilizadas en este artículo: [IndieBI — How to price your game in 2025 and beyond](https://sellmoregames.medium.com/how-to-price-your-game-in-2025-and-beyond-9a44d32f3682){:target="_blank"}, [Indie Launch Lab — Pricing Psychology Traps](https://indielaunchlab.com/blog/pricing-psychology-traps-how-indie-developers-price-themselves-out-of-success){:target="_blank"}, [Kotaku — Peak pricing psychology](https://kotaku.com/game-pricing-indie-steam-peak-content-warning-2000658886){:target="_blank"}, [Practical Media — Pricing psychology for indie games](https://practicalmedia.io/article/how-can-indie-developers-use-pricing-psychology-to-boost-game-sales){:target="_blank"}, [Callin — Marketing strategies for indie games 2025](https://callin.io/marketing-strategies-for-indie-video-games/){:target="_blank"}, [GamesIndustry.biz — Chris Charla on indie game pricing](https://www.gamesindustry.biz/i-think-people-undervalue-their-own-work-idxbox-head-chris-charla-on-the-tricky-problem-of-indie-game-pricing){:target="_blank"}.*
+---
+
+## Fuentes utilizadas en este artículo:
+
+- [IndieBI — How to price your game in 2025 and beyond](https://sellmoregames.medium.com/how-to-price-your-game-in-2025-and-beyond-9a44d32f3682){:target="_blank"}
+- [Indie Launch Lab — Pricing Psychology Traps](https://indielaunchlab.com/blog/pricing-psychology-traps-how-indie-developers-price-themselves-out-of-success){:target="_blank"}
+- [Kotaku — Peak pricing psychology](https://kotaku.com/game-pricing-indie-steam-peak-content-warning-2000658886){:target="_blank"}
+- [Practical Media — Pricing psychology for indie games](https://practicalmedia.io/article/how-can-indie-developers-use-pricing-psychology-to-boost-game-sales){:target="_blank"}
+- [Callin — Marketing strategies for indie games 2025](https://callin.io/marketing-strategies-for-indie-video-games/){:target="_blank"}
+- [GamesIndustry.biz — Chris Charla on indie game pricing](https://www.gamesindustry.biz/i-think-people-undervalue-their-own-work-idxbox-head-chris-charla-on-the-tricky-problem-of-indie-game-pricing){:target="_blank"}
