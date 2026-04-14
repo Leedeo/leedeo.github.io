@@ -33,7 +33,7 @@ comments: true
 
 Hay una queja que se repite como un mantra cada vez que sale un juego importante con problemas técnicos:
 
-*"Antes esto no pasaba. Antes los juegos salían bien."*
+> Antes esto no pasaba. Antes los juegos salían bien.
 
 Y entiendo perfectamente de dónde viene esa frustración. Pagar por un título completo y encontrarte con errores que impiden disfrutarlo es una experiencia horrible. Nadie debería tener que aguantar eso después de pasar por caja. Pero la idea de que «antes los juegos eran perfectos» es, sencillamente, **una distorsión de la realidad**.
 
