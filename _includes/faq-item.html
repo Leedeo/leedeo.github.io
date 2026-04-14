@@ -1,0 +1,9 @@
+<details class="static-glass-card rounded-2xl border border-white/5 group">
+  <summary class="p-6 cursor-pointer text-white font-bold text-lg flex items-center justify-between gap-4 select-none hover:text-violet-400 transition-colors">
+    <span><i class="fa-solid fa-circle-question"></i> {{ include.question }}</span>
+    <i class="fas fa-chevron-down text-violet-400 transition-transform group-open:rotate-180 shrink-0"></i>
+  </summary>
+  <div class="px-6 pb-6 text-slate-400 leading-relaxed">
+    {{ include.answer }}
+  </div>
+</details>

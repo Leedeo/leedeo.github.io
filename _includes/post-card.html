@@ -1,0 +1,36 @@
+{% assign reveal_delay = include.reveal_delay | default: 0 %}
+{% assign post_author = site.data.authors[include.post.author] | default: site.data.authors['javo'] %}
+
+<article class="glass-card rounded-custom-32 overflow-hidden flex flex-col reveal" style="--reveal-delay: {{ reveal_delay }}ms;">
+  <a href="{{ include.post.url | relative_url }}" class="aspect-video overflow-hidden relative block group/thumb">
+    <img
+      src="{{ include.post.thumbnail | relative_url }}"
+      alt="{{ include.post.title }}"
+      loading="lazy"
+      width="600"
+      height="340"
+      class="w-full h-full object-cover transition-transform duration-500 group-hover/thumb:scale-110"
+    >
+    <div class="absolute inset-0 bg-gradient-to-t from-[#0f0a1d] to-transparent opacity-60"></div>
+    {% if include.post.categories.size > 0 %}
+      <div class="absolute top-3 left-3">
+        {% include category-badge.html category=include.post.categories.first %}
+      </div>
+    {% endif %}
+  </a>
+  <div class="p-7 flex flex-col flex-grow">
+    {% include author-date.html author=include.post.author date=include.post.date %}
+    <h3 class="text-base font-bold mb-3 text-white hover:text-violet-400 transition-colors leading-snug flex-grow">
+      <a href="{{ include.post.url | relative_url }}">{{ include.post.title }}</a>
+    </h3>
+    <p class="text-slate-400 text-sm leading-relaxed mb-6 flex-grow">
+      {{ include.post.excerpt | strip_html | truncate: 155 }}
+    </p>
+    <a
+      href="{{ include.post.url | relative_url }}"
+      class="text-[0.65rem] font-black uppercase tracking-[0.2em] text-slate-500 flex items-center gap-2 hover:text-violet-400 transition-colors group/link mt-auto"
+    >
+      Leer más <i class="fas fa-arrow-right text-violet-500 transition-transform group-hover/link:translate-x-1"></i>
+    </a>
+  </div>
+</article>

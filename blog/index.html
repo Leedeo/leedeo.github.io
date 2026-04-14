@@ -5,311 +5,163 @@ description: "Artículos sobre desarrollo de videojuegos, industria indie, tutor
 ---
 
 <div class="relative min-h-screen pt-32 pb-24 px-6 hero-gradient">
-    <div class="max-w-7xl mx-auto">
+  <div class="max-w-7xl mx-auto">
 
-        <!-- cabecera del blog -->
-        <header class="mb-12 text-center reveal">
-            <h1 class="text-4xl md:text-6xl font-extrabold mb-6 tracking-tight uppercase leading-[1.2]">
-                Mi <span class="gradient-text italic">Blog</span>
-            </h1>
-            <p class="text-slate-400 text-lg max-w-2xl mx-auto font-light">
-                Tutoriales, noticias y reflexiones sobre el desarrollo de videojuegos y software independiente.
-            </p>
-            <div class="h-1.5 w-24 bg-violet-500 mx-auto rounded-full mt-8"></div>
-        </header>
+    <!-- cabecera del blog -->
+    <header class="mb-12 text-center reveal">
+      <h1 class="text-4xl md:text-6xl font-extrabold mb-6 tracking-tight uppercase leading-[1.2]">
+        Mi <span class="gradient-text italic">Blog</span>
+      </h1>
+      <p class="text-slate-400 text-lg max-w-2xl mx-auto font-light">
+        Tutoriales, noticias y reflexiones sobre el desarrollo de videojuegos y software independiente.
+      </p>
+      <div class="h-1.5 w-24 bg-violet-500 mx-auto rounded-full mt-8"></div>
+    </header>
 
-        <!-- navegación por categorías -->
-        <nav aria-label="Categorías del blog" class="flex flex-wrap justify-center gap-2 mb-12 reveal" style="--reveal-delay: 50ms;">
-            <a href="{{ '/blog/' | relative_url }}"
-                class="px-4 py-2 rounded-xl text-xs font-bold uppercase tracking-widest transition-all duration-300 bg-violet-600 text-white border border-violet-500">
-                Todos
-            </a>
-            <a href="{{ '/categories/game-dev/' | relative_url }}"
-                class="px-4 py-2 rounded-xl text-xs font-bold uppercase tracking-widest transition-all duration-300 bg-white/5 text-slate-400 border border-white/10 hover:bg-violet-600/20 hover:text-violet-400 hover:border-violet-500/30">
-                Game Dev
-            </a>
-            <a href="{{ '/categories/gaming/' | relative_url }}"
-                class="px-4 py-2 rounded-xl text-xs font-bold uppercase tracking-widest transition-all duration-300 bg-white/5 text-slate-400 border border-white/10 hover:bg-violet-600/20 hover:text-violet-400 hover:border-violet-500/30">
-                Gaming
-            </a>
-            <a href="{{ '/categories/godot/' | relative_url }}"
-                class="px-4 py-2 rounded-xl text-xs font-bold uppercase tracking-widest transition-all duration-300 bg-white/5 text-slate-400 border border-white/10 hover:bg-violet-600/20 hover:text-violet-400 hover:border-violet-500/30">
-                Godot
-            </a>
-            <a href="{{ '/categories/herramientas/' | relative_url }}"
-                class="px-4 py-2 rounded-xl text-xs font-bold uppercase tracking-widest transition-all duration-300 bg-white/5 text-slate-400 border border-white/10 hover:bg-violet-600/20 hover:text-violet-400 hover:border-violet-500/30">
-                Herramientas
-            </a>
-        </nav>
+    <!-- navegación por categorías -->
+    {% include category-nav.html current='' %}
 
-        <!-- buscador -->
-        <div class="max-w-2xl mx-auto mb-14 reveal">
-            <div class="relative group">
-                <span class="absolute left-5 top-1/2 -translate-y-1/2 text-violet-400 pointer-events-none transition-colors group-focus-within:text-violet-300">
-                    <i class="fas fa-search text-sm"></i>
-                </span>
-                <input type="text" id="blog-search"
-                    data-blog-url="{{ '/blog/' | relative_url }}"
-                    placeholder="Buscar artículos por título o tema..."
-                    autocomplete="off"
-                    class="w-full bg-[#1a1130]/80 border border-violet-300/70 focus:border-violet-400/80 text-slate-200 placeholder-slate-500 rounded-2xl pl-12 pr-12 py-4 outline-none transition-all duration-300 focus:bg-[#1d1338]/90 focus:shadow-lg focus:shadow-violet-900/20 text-sm font-medium">
-                <button id="search-clear" aria-label="Limpiar búsqueda"
-                    class="absolute right-4 top-1/2 -translate-y-1/2 text-slate-400 hover:text-violet-400 transition-colors hidden">
-                    <i class="fas fa-times text-sm"></i>
-                </button>
-            </div>
-            <p id="no-results" class="hidden text-center text-slate-400 italic mt-8 text-sm">
-                No se encontraron artículos para "<span id="search-term-display" class="text-violet-400 not-italic font-semibold"></span>".
-            </p>
-        </div>
-
-        <!-- artículos paginados -->
-        <div id="paginated-posts">
-            {% if paginator.page == 1 %}
-                {% assign first_page_posts = paginator.posts %}
-                <!-- Layout especial para la primera página -->
-                <div class="grid grid-cols-1 md:grid-cols-2 gap-8 mb-8 w-full">
-                    {% for post in first_page_posts %}
-                        {% if forloop.index == 1 %}
-                            <div class="md:row-span-2 reveal w-full" style="--reveal-delay: 0ms;">
-                                <article class="group relative overflow-hidden rounded-[2rem] aspect-square md:aspect-[4/5] h-full w-full">
-                                    <a href="{{ post.url | relative_url }}" class="block w-full h-full">
-                                        <img src="{{ post.thumbnail | relative_url }}" alt="{{ post.title }}" loading="lazy"
-                                             class="absolute inset-0 w-full h-full object-cover transition-transform duration-700 group-hover:scale-110">
-                                        <div class="absolute inset-0 bg-gradient-to-t from-[#05010d] via-[#05010d]/60 to-transparent opacity-90"></div>
-                                        {% if post.categories.size > 0 %}
-                                        <div class="absolute top-4 left-4">
-                                            <span class="px-2.5 py-1 bg-violet-600/80 backdrop-blur-sm text-white text-[0.55rem] font-bold uppercase tracking-widest rounded-lg border border-violet-500/40">
-                                                {{ post.categories.first }}
-                                            </span>
-                                        </div>
-                                        {% endif %}
-                                        <div class="absolute bottom-0 p-6 md:p-8 w-full">
-                                            <div class="flex items-center gap-2 mb-3">
-                                                {% assign post_author = site.data.authors[post.author] | default: site.data.authors['javo'] %}
-                                                <img src="{{ post_author.avatar }}" alt="{{ post_author.name }}" class="w-5 h-5 rounded-full object-cover border border-violet-300/70" width="20" height="20" loading="lazy">
-                                                <span class="text-violet-400 text-[10px] font-bold uppercase tracking-widest">
-                                                    {% include date_es.html date=post.date %}
-                                                </span>
-                                            </div>
-                                            <h2 class="text-2xl md:text-3xl font-bold text-white leading-tight group-hover:text-violet-300 transition-colors">
-                                                {{ post.title }}
-                                            </h2>
-                                            <p class="text-slate-400 text-sm leading-relaxed mb-6 flex-grow">
-                                                {{ post.excerpt | strip_html | truncate: 155 }}
-                                            </p>
-                                        </div>
-                                    </a>
-                                </article>
-                            </div>
-                        {% elsif forloop.index == 2 or forloop.index == 3 %}
-                            <div class="reveal w-full" style="--reveal-delay: {{ forloop.index | times: 100 }}ms;">
-                                 <article class="group relative overflow-hidden rounded-[2rem] aspect-[4/3] lg:aspect-video h-full w-full">
-                                     <a href="{{ post.url | relative_url }}" class="block w-full h-full">
-                                         <img src="{{ post.thumbnail | relative_url }}" alt="{{ post.title }}" loading="lazy"
-                                            class="absolute inset-0 w-full h-full object-cover transition-transform duration-700 group-hover:scale-110">
-                                         <div class="absolute inset-0 bg-gradient-to-t from-[#05010d] via-[#05010d]/60 to-transparent opacity-90"></div>
-                                         {% if post.categories.size > 0 %}
-                                         <div class="absolute top-3 left-3">
-                                            <span class="px-2.5 py-1 bg-violet-600/80 backdrop-blur-sm text-white text-[0.55rem] font-bold uppercase tracking-widest rounded-lg border border-violet-500/40">{{ post.categories.first }}</span>
-                                         </div>
-                                         {% endif %}
-                                         <div class="absolute bottom-0 p-6 w-full">
-                                            <div class="flex items-center gap-2 mb-2">
-                                                {% assign post_author = site.data.authors[post.author] | default: site.data.authors['javo'] %}
-                                                <img src="{{ post_author.avatar }}" alt="{{ post_author.name }}" class="w-4 h-4 rounded-full object-cover border border-violet-300/70" width="16" height="16" loading="lazy">
-                                                <span class="text-violet-400 text-[10px] font-bold uppercase tracking-widest">
-                                                    {% include date_es.html date=post.date %}
-                                                </span>
-                                            </div>
-                                            <h2 class="text-lg md:text-xl font-bold text-white leading-tight group-hover:text-violet-300 transition-colors">
-                                                {{ post.title }}
-                                            </h2>
-                                            <p class="text-slate-400 text-sm leading-relaxed mb-6 flex-grow">
-                                                {{ post.excerpt | strip_html | truncate: 155 }}
-                                            </p>
-                                         </div>
-                                     </a>
-                                 </article>
-                            </div>
-                        {% elsif forloop.index == 4 or forloop.index == 5 %}
-                            <div class="reveal w-full" style="--reveal-delay: {{ forloop.index | times: 100 }}ms;">
-                                 <article class="group relative overflow-hidden rounded-[2rem] aspect-[4/3] lg:aspect-[21/9] h-full w-full">
-                                     <a href="{{ post.url | relative_url }}" class="block w-full h-full">
-                                         <img src="{{ post.thumbnail | relative_url }}" alt="{{ post.title }}" loading="lazy"
-                                            class="absolute inset-0 w-full h-full object-cover transition-transform duration-700 group-hover:scale-110">
-                                         <div class="absolute inset-0 bg-gradient-to-t from-[#05010d] via-[#05010d]/60 to-transparent opacity-90"></div>
-                                         {% if post.categories.size > 0 %}
-                                         <div class="absolute top-3 left-3">
-                                            <span class="px-2.5 py-1 bg-violet-600/80 backdrop-blur-sm text-white text-[0.55rem] font-bold uppercase tracking-widest rounded-lg border border-violet-500/40">{{ post.categories.first }}</span>
-                                         </div>
-                                         {% endif %}
-                                         <div class="absolute bottom-0 p-6 w-full">
-                                             <div class="flex items-center gap-2 mb-1">
-                                                {% assign post_author = site.data.authors[post.author] | default: site.data.authors['javo'] %}
-                                                <img src="{{ post_author.avatar }}" alt="{{ post_author.name }}" class="w-4 h-4 rounded-full object-cover border border-violet-300/70" width="16" height="16" loading="lazy">
-                                                <span class="text-violet-400 text-[10px] font-bold uppercase tracking-widest">
-                                                     {% include date_es.html date=post.date %}
-                                                </span>
-                                             </div>
-                                             <h2 class="text-lg md:text-xl font-bold text-white leading-tight group-hover:text-violet-300 transition-colors">
-                                                {{ post.title }}
-                                             </h2>
-                                         </div>
-                                     </a>
-                                 </article>
-                            </div>
-                        {% endif %}
-                    {% endfor %}
-                </div>
-
-                <!-- Nueva fila de 3 columnas para posts 6-8 -->
-                <div id="paginated-grid" class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 mb-12 w-full">
-                    {% for post in first_page_posts %}
-                        {% if forloop.index >= 6 and forloop.index <= 8 %}
-                            {% assign mod_index = forloop.index0 | modulo: 3 %}
-                            {% assign reveal_delay = mod_index | times: 100 %}
-                            <article class="glass-card rounded-[2rem] overflow-hidden flex flex-col reveal w-full" style="--reveal-delay: {{ reveal_delay }}ms;">
-                                <a href="{{ post.url | relative_url }}" class="aspect-video overflow-hidden relative group block">
-                                    <img src="{{ post.thumbnail | relative_url }}" alt="{{ post.title }}" loading="lazy" width="600" height="340"
-                                        class="w-full h-full object-cover transition-transform duration-500 group-hover:scale-110">
-                                    <div class="absolute inset-0 bg-gradient-to-t from-[#0f0a1d] to-transparent opacity-60"></div>
-                                    {% if post.categories.size > 0 %}
-                                    <div class="absolute top-3 left-3">
-                                        <span class="px-2.5 py-1 bg-violet-600/80 backdrop-blur-sm text-white text-[0.55rem] font-bold uppercase tracking-widest rounded-lg border border-violet-500/40">{{ post.categories.first }}</span>
-                                    </div>
-                                    {% endif %}
-                                </a>
-                                <div class="p-7 flex flex-col flex-grow">
-                                    <div class="flex items-center gap-2 mb-3">
-                                        {% assign post_author = site.data.authors[post.author] | default: site.data.authors['javo'] %}
-                                        <img src="{{ post_author.avatar }}" alt="{{ post_author.name }}" class="w-6 h-6 rounded-full object-cover border border-violet-300/70 flex-shrink-0" width="24" height="24" loading="lazy">
-                                        <div>
-                                            <div class="text-slate-400 text-[10px] font-bold uppercase tracking-widest leading-none">{{ post_author.name }}</div>
-                                            <div class="text-violet-400 text-[10px] font-bold uppercase tracking-widest leading-none mt-0.5">
-                                                {% include date_es.html date=post.date %}
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <h2 class="text-base font-bold mb-3 text-white hover:text-violet-400 transition-colors leading-snug flex-grow">
-                                        <a href="{{ post.url | relative_url }}">{{ post.title }}</a>
-                                    </h2>
-                                    <p class="text-slate-400 text-sm leading-relaxed mb-6 flex-grow">
-                                        {{ post.excerpt | strip_html | truncate: 155 }}
-                                    </p>
-                                    <a href="{{ post.url | relative_url }}"
-                                    class="text-[0.65rem] font-black uppercase tracking-[0.2em] text-slate-500 flex items-center gap-2 hover:text-violet-400 transition-colors group/link mt-auto">
-                                        Leer más <i class="fas fa-arrow-right text-violet-500 transition-transform group-hover/link:translate-x-1"></i>
-                                    </a>
-                                </div>
-                            </article>
-                        {% endif %}
-                    {% endfor %}
-                </div>
-
-                <!-- Nueva fila de 4 columnas para posts 9-12 -->
-                <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-4 mb-16 w-full">
-                    {% for post in first_page_posts %}
-                        {% if forloop.index >= 9 and forloop.index <= 12 %}
-                            <div class="reveal w-full" style="--reveal-delay: {{ forloop.index | times: 50 }}ms;">
-                                <article class="group relative overflow-hidden rounded-[1.5rem] aspect-[4/3] lg:aspect-square h-full w-full">
-                                    <a href="{{ post.url | relative_url }}" class="block w-full h-full">
-                                        <img src="{{ post.thumbnail | relative_url }}" alt="{{ post.title }}" loading="lazy"
-                                             class="absolute inset-0 w-full h-full object-cover transition-transform duration-700 group-hover:scale-110">
-                                        <div class="absolute inset-0 bg-gradient-to-t from-[#05010d] via-[#05010d]/60 to-transparent opacity-90"></div>
-                                        {% if post.categories.size > 0 %}
-                                        <div class="absolute top-3 left-3">
-                                            <span class="px-2.5 py-1 bg-violet-600/80 backdrop-blur-sm text-white text-[0.55rem] font-bold uppercase tracking-widest rounded-lg border border-violet-500/40">{{ post.categories.first }}</span>
-                                        </div>
-                                        {% endif %}
-                                        <div class="absolute bottom-0 p-4 w-full">
-                                            <div class="flex items-center gap-2 mb-1">
-                                                {% assign post_author = site.data.authors[post.author] | default: site.data.authors['javo'] %}
-                                                <img src="{{ post_author.avatar }}" alt="{{ post_author.name }}" class="w-4 h-4 rounded-full object-cover border border-violet-300/70" width="16" height="16" loading="lazy">
-                                                <span class="text-violet-400 text-[10px] font-bold uppercase tracking-widest">
-                                                    {% include date_es.html date=post.date %}
-                                                </span>
-                                            </div>
-                                            <h2 class="text-lg md:text-xl font-bold text-white leading-tight group-hover:text-violet-300 transition-colors">
-                                                {{ post.title }}
-                                            </h2>
-                                        </div>
-                                    </a>
-                                </article>
-                            </div>
-                        {% endif %}
-                    {% endfor %}
-                </div>
-            {% else %}
-                <div id="paginated-grid" class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 mb-16 w-full">
-                    {% for post in paginator.posts %}
-                        {% assign mod_index = forloop.index0 | modulo: 3 %}
-                        {% assign reveal_delay = mod_index | times: 100 %}
-                        <article class="glass-card rounded-[2rem] overflow-hidden flex flex-col reveal w-full" style="--reveal-delay: {{ reveal_delay }}ms;">
-                            <a href="{{ post.url | relative_url }}" class="aspect-video overflow-hidden relative group block">
-                                <img src="{{ post.thumbnail | relative_url }}" alt="{{ post.title }}" loading="lazy" width="600" height="340"
-                                    class="w-full h-full object-cover transition-transform duration-500 group-hover:scale-110">
-                                <div class="absolute inset-0 bg-gradient-to-t from-[#05010d] to-transparent opacity-60"></div>
-                                {% if post.categories.size > 0 %}
-                                <div class="absolute top-3 left-3">
-                                    <span class="px-2.5 py-1 bg-violet-600/80 backdrop-blur-sm text-white text-[0.55rem] font-bold uppercase tracking-widest rounded-lg border border-violet-500/40">{{ post.categories.first }}</span>
-                                </div>
-                                {% endif %}
-                            </a>
-                            <div class="p-7 flex flex-col flex-grow">
-                                <div class="flex items-center gap-2 mb-3">
-                                    {% assign post_author = site.data.authors[post.author] | default: site.data.authors['javo'] %}
-                                    <img src="{{ post_author.avatar }}" alt="{{ post_author.name }}" class="w-6 h-6 rounded-full object-cover border border-violet-300/70 flex-shrink-0" width="24" height="24" loading="lazy">
-                                    <div>
-                                        <div class="text-slate-400 text-[10px] font-bold uppercase tracking-widest leading-none">{{ post_author.name }}</div>
-                                        <div class="text-violet-400 text-[10px] font-bold uppercase tracking-widest leading-none mt-0.5">
-                                            {% include date_es.html date=post.date %}
-                                        </div>
-                                    </div>
-                                </div>
-                                <h2 class="text-base font-bold mb-3 text-white hover:text-violet-400 transition-colors leading-snug flex-grow">
-                                    <a href="{{ post.url | relative_url }}">{{ post.title }}</a>
-                                </h2>
-                                <p class="text-slate-400 text-sm leading-relaxed mb-6 flex-grow">
-                                    {{ post.excerpt | strip_html | truncate: 155 }}
-                                </p>
-                                <a href="{{ post.url | relative_url }}"
-                                class="text-[0.65rem] font-black uppercase tracking-[0.2em] text-slate-500 flex items-center gap-2 hover:text-violet-400 transition-colors group/link mt-auto">
-                                    Leer más <i class="fas fa-arrow-right text-violet-500 transition-transform group-hover/link:translate-x-1"></i>
-                                </a>
-                            </div>
-                        </article>
-                    {% endfor %}
-                </div>
-            {% endif %}
-
-            <!-- paginación -->
-            {% if paginator.total_pages > 1 %}
-                <nav id="pagination-nav" class="flex justify-center items-center gap-4 reveal" aria-label="Navegación de páginas">
-                    {% if paginator.previous_page %}
-                        <a href="{{ paginator.previous_page_path | relative_url }}"
-                            class="w-12 h-12 flex items-center justify-center rounded-xl bg-violet-600/20 border border-violet-300/70 text-violet-300 hover:bg-violet-600/40 hover:text-white hover:border-violet-400/60 transition-all duration-300 ease-out">
-                            <i class="fas fa-chevron-left"></i>
-                        </a>
-                    {% endif %}
-                    <span class="text-slate-400 font-bold tracking-widest text-xs uppercase">
-                        Página {{ paginator.page }} de {{ paginator.total_pages }}
-                    </span>
-                    {% if paginator.next_page %}
-                        <a href="{{ paginator.next_page_path | relative_url }}"
-                            class="w-12 h-12 flex items-center justify-center rounded-xl bg-violet-600/20 border border-violet-300/70 text-violet-300 hover:bg-violet-600/40 hover:text-white hover:border-violet-400/60 transition-all duration-300 ease-out">
-                            <i class="fas fa-chevron-right"></i>
-                        </a>
-                    {% endif %}
-                </nav>
-            {% endif %}
-        </div>
-
-        <!-- contenedor de resultados de búsqueda (oculto por defecto) -->
-        <div id="search-results-container" class="hidden">
-            <div id="search-results-grid" class="grid lg:grid-cols-2 gap-4"></div>
-        </div>
+    <!-- buscador -->
+    <div class="max-w-2xl mx-auto mb-14 reveal">
+      <div class="relative group">
+        <span class="absolute left-5 top-1/2 -translate-y-1/2 text-violet-400 pointer-events-none transition-colors group-focus-within:text-violet-300">
+          <i class="fas fa-search text-sm"></i>
+        </span>
+        <input
+          type="text"
+          id="blog-search"
+          data-blog-url="{{ '/blog/' | relative_url }}"
+          placeholder="Buscar artículos por título o tema..."
+          autocomplete="off"
+          class="w-full bg-[#1a1130]/80 border border-violet-300/70 focus:border-violet-400/80 text-slate-200 placeholder-slate-500 rounded-2xl pl-12 pr-12 py-4 outline-none transition-all duration-300 focus:bg-[#1d1338]/90 focus:shadow-lg focus:shadow-violet-900/20 text-sm font-medium"
+        >
+        <button
+          id="search-clear"
+          aria-label="Limpiar búsqueda"
+          class="absolute right-4 top-1/2 -translate-y-1/2 text-slate-400 hover:text-violet-400 transition-colors hidden"
+        >
+          <i class="fas fa-times text-sm"></i>
+        </button>
+      </div>
+      <p id="no-results" class="hidden text-center text-slate-400 italic mt-8 text-sm">
+        No se encontraron artículos para "<span id="search-term-display" class="text-violet-400 not-italic font-semibold"></span>".
+      </p>
     </div>
+
+    <!-- artículos paginados -->
+    <div id="paginated-posts">
+      {% if paginator.page == 1 %}
+        {% assign first_page_posts = paginator.posts %}
+
+        <!-- Layout especial para la primera página -->
+        <div class="grid grid-cols-1 md:grid-cols-2 gap-8 mb-8 w-full">
+          {% for post in first_page_posts %}
+            {% if forloop.index == 1 %}
+              <div class="md:row-span-2 reveal w-full" style="--reveal-delay: 0ms;">
+                <article class="group relative overflow-hidden rounded-[2rem] aspect-square md:aspect-[4/5] h-full w-full">
+                  <a href="{{ post.url | relative_url }}" class="block w-full h-full">
+                    <img
+                      src="{{ post.thumbnail | relative_url }}"
+                      alt="{{ post.title }}"
+                      loading="lazy"
+                      class="absolute inset-0 w-full h-full object-cover transition-transform duration-700 group-hover:scale-110"
+                    >
+                    <div class="absolute inset-0 bg-gradient-to-t from-[#05010d] via-[#05010d]/60 to-transparent opacity-90"></div>
+                    {% if post.categories.size > 0 %}
+                      <div class="absolute top-4 left-4">
+                        {% include category-badge.html category=post.categories.first %}
+                      </div>
+                    {% endif %}
+                    <div class="absolute bottom-0 p-6 md:p-8 w-full">
+                      {% include author-date.html author=post.author date=post.date show_name=false img_size=5 mb=3 %}
+                      <h2 class="text-2xl md:text-3xl font-bold text-white leading-tight group-hover:text-violet-300 transition-colors">
+                        {{ post.title }}
+                      </h2>
+                      <p class="text-slate-400 text-sm leading-relaxed mt-3 line-clamp-2">
+                        {{ post.excerpt | strip_html | truncate: 155 }}
+                      </p>
+                    </div>
+                  </a>
+                </article>
+              </div>
+            {% elsif forloop.index == 2 or forloop.index == 3 %}
+              {% assign delay = forloop.index | times: 100 %}
+              <div class="reveal w-full" style="--reveal-delay: {{ delay }}ms;">
+                {% include featured-post.html post=post aspect='aspect-[4/3] lg:aspect-video' excerpt=true %}
+              </div>
+            {% elsif forloop.index == 4 or forloop.index == 5 %}
+              {% assign delay = forloop.index | times: 100 %}
+              <div class="reveal w-full" style="--reveal-delay: {{ delay }}ms;">
+                {% include featured-post.html post=post aspect='aspect-[4/3] lg:aspect-[21/9]' excerpt=false %}
+              </div>
+            {% endif %}
+          {% endfor %}
+        </div>
+
+        <!-- Nueva fila de 3 columnas para posts 6-8 -->
+        <div id="paginated-grid" class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 mb-12 w-full">
+          {% for post in first_page_posts %}
+            {% if forloop.index >= 6 and forloop.index <= 8 %}
+              {% assign mod_index = forloop.index0 | modulo: 3 %}
+              {% assign reveal_delay = mod_index | times: 100 %}
+              {% include post-card.html post=post reveal_delay=reveal_delay %}
+            {% endif %}
+          {% endfor %}
+        </div>
+
+        <!-- Nueva fila de 4 columnas para posts 9-12 -->
+        <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-4 mb-16 w-full">
+          {% for post in first_page_posts %}
+            {% if forloop.index >= 9 and forloop.index <= 12 %}
+              {% assign delay = forloop.index | times: 50 %}
+              <div class="reveal w-full" style="--reveal-delay: {{ delay }}ms;">
+                {% include featured-post.html post=post aspect='aspect-[4/3] lg:aspect-square' img_size=4 padding='p-4' excerpt=false %}
+              </div>
+            {% endif %}
+          {% endfor %}
+        </div>
+
+      {% else %}
+        <div id="paginated-grid" class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 mb-16 w-full">
+          {% for post in paginator.posts %}
+            {% assign mod_index = forloop.index0 | modulo: 3 %}
+            {% assign reveal_delay = mod_index | times: 100 %}
+            {% include post-card.html post=post reveal_delay=reveal_delay %}
+          {% endfor %}
+        </div>
+      {% endif %}
+
+      <!-- paginación -->
+      {% if paginator.total_pages > 1 %}
+        <nav id="pagination-nav" class="flex justify-center items-center gap-4 reveal" aria-label="Navegación de páginas">
+          {% if paginator.previous_page %}
+            <a
+              href="{{ paginator.previous_page_path | relative_url }}"
+              class="w-12 h-12 flex items-center justify-center rounded-xl bg-violet-600/20 border border-violet-300/70 text-violet-300 hover:bg-violet-600/40 hover:text-white hover:border-violet-400/60 transition-all duration-300 ease-out"
+            >
+              <i class="fas fa-chevron-left"></i>
+            </a>
+          {% endif %}
+          <span class="text-slate-400 font-bold tracking-widest text-xs uppercase">
+            Página {{ paginator.page }} de {{ paginator.total_pages }}
+          </span>
+          {% if paginator.next_page %}
+            <a
+              href="{{ paginator.next_page_path | relative_url }}"
+              class="w-12 h-12 flex items-center justify-center rounded-xl bg-violet-600/20 border border-violet-300/70 text-violet-300 hover:bg-violet-600/40 hover:text-white hover:border-violet-400/60 transition-all duration-300 ease-out"
+            >
+              <i class="fas fa-chevron-right"></i>
+            </a>
+          {% endif %}
+        </nav>
+      {% endif %}
+    </div>
+
+    <!-- contenedor de resultados de búsqueda (oculto por defecto) -->
+    <div id="search-results-container" class="hidden">
+      <div id="search-results-grid" class="grid lg:grid-cols-2 gap-4"></div>
+    </div>
+  </div>
 </div>
 
 <script src="{{ '/assets/js/search.js' | relative_url }}" defer></script>

@@ -1,0 +1,46 @@
+{% assign author = site.data.authors[include.post.author] | default: site.data.authors['javo'] %}
+{% assign img_size = include.img_size | default: 4 %}
+{% assign title_size = include.title_size | default: 'text-lg md:text-xl' %}
+{% assign padding = include.padding | default: 'p-6' %}
+{% assign aspect = include.aspect | default: 'aspect-[4/3] lg:aspect-video' %}
+{% assign excerpt = include.excerpt | default: false %}
+
+<article class="group relative overflow-hidden rounded-[2rem] {{ aspect }} h-full w-full">
+  <a href="{{ include.post.url | relative_url }}" class="block w-full h-full">
+    <img
+      src="{{ include.post.thumbnail | relative_url }}"
+      alt="{{ include.post.title }}"
+      loading="lazy"
+      class="absolute inset-0 w-full h-full object-cover transition-transform duration-700 group-hover:scale-110"
+    >
+    <div class="absolute inset-0 bg-gradient-to-t from-[#05010d] via-[#05010d]/60 to-transparent opacity-90"></div>
+    {% if include.post.categories.size > 0 %}
+    <div class="absolute top-3 left-3">
+      {% include category-badge.html category=include.post.categories.first %}
+    </div>
+    {% endif %}
+    <div class="absolute bottom-0 {{ padding }} w-full">
+      <div class="flex items-center gap-2 mb-2">
+        <img
+          src="{{ author.avatar }}"
+          alt="{{ author.name }}"
+          class="w-{{ img_size }} h-{{ img_size }} rounded-full object-cover border border-violet-300/70"
+          width="{{ img_size }}"
+          height="{{ img_size }}"
+          loading="lazy"
+        >
+        <span class="text-violet-400 text-[10px] font-bold uppercase tracking-widest">
+          {% include date_es.html date=include.post.date %}
+        </span>
+      </div>
+      <h2 class="{{ title_size }} font-bold text-white leading-tight group-hover:text-violet-300 transition-colors">
+        {{ include.post.title }}
+      </h2>
+      {% if excerpt %}
+      <p class="text-slate-400 text-sm leading-relaxed mt-2 line-clamp-2">
+        {{ include.post.excerpt | strip_html | truncate: 155 }}
+      </p>
+      {% endif %}
+    </div>
+  </a>
+</article>
