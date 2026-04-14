@@ -138,7 +138,8 @@ description: "Aprende a crear videojuegos desde cero con tutoriales prácticos, 
             Ya somos <span class="gradient-text">más de 42.000</span><br class="hidden sm:block"> aprendiendo Godot en español.
         </p>
         <p class="text-slate-500 text-sm max-w-md mx-auto">
-            La mayor comunidad de Godot Engine en Español. ¡Únete y aprende con miles de creadores más!
+            La mayor comunidad de Godot Engine en Español.<br>
+            ¡Únete y aprende con miles de creadores más!
         </p>
     </div>
 </div>
@@ -322,14 +323,13 @@ description: "Aprende a crear videojuegos desde cero con tutoriales prácticos, 
                 <div class="p-7 flex flex-col flex-grow">
                     <div class="flex items-center gap-2 mb-3">
                         {% assign post_author = site.data.authors[post.author] | default: site.data.authors['javo'] %}
-                        <img src="{{ post_author.avatar }}" alt="{{ post_author.name }}"
-                             class="w-5 h-5 rounded-full object-cover border border-violet-300/60 flex-shrink-0"
-                             width="20" height="20" loading="lazy">
-                        <span class="text-slate-500 text-[0.6rem] font-bold uppercase tracking-widest">{{ post_author.name }}</span>
-                        <span class="text-slate-600 text-[0.6rem]">·</span>
-                        <span class="text-violet-500/80 text-[0.6rem] font-bold uppercase tracking-widest">
-                            {% include date_es.html date=post.date %}
-                        </span>
+                        <img src="{{ post_author.avatar }}" alt="{{ post_author.name }}" class="w-6 h-6 rounded-full object-cover border border-violet-300/70 flex-shrink-0" width="24" height="24" loading="lazy">
+                        <div>
+                            <div class="text-slate-400 text-[10px] font-bold uppercase tracking-widest leading-none">{{ post_author.name }}</div>
+                            <div class="text-violet-400 text-[10px] font-bold uppercase tracking-widest leading-none mt-0.5">
+                                {% include date_es.html date=post.date %}
+                            </div>
+                        </div>
                     </div>
                     <h3 class="text-base font-bold mb-3 text-white hover:text-violet-400 transition-colors leading-snug flex-grow">
                         <a href="{{ post.url | relative_url }}">{{ post.title }}</a>
