@@ -277,6 +277,12 @@ strong { font-weight: 700; color: #fff; }
 .nav-dropdown .fa-gamepad,
 .nav-dropdown .fa-broom,
 .nav-dropdown .fa-bullhorn { color: var(--violet-primary) !important; }
+[data-dropdown]:focus-within .dropdown-menu,
+[data-dropdown] > button[aria-expanded="true"] + .dropdown-menu {
+  transform: translateY(0) !important;
+  opacity: 1 !important;
+  pointer-events: auto !important;
+}
 
 /* ── marquee de testimonios ──────────────────────────── */
 .marquee-container {
