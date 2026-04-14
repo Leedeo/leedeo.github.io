@@ -25,10 +25,10 @@
 
   // construye el html de una tarjeta de resultado
   function buildCard(post) {
-    var thumb = post.thumbnail || '/assets/img/ui/favicon.png';
+    var thumb = post.thumbnail || '/assets/img/ui/thumb-youtube.webp';
     return '<article class="reveal group flex items-start gap-5 p-4 rounded-2xl border border-white/5 hover:border-violet-500/30 hover:bg-white/[0.02] transition-all duration-300">' +
       '<a href="' + post.url + '" class="flex-shrink-0 w-32 h-24 md:w-48 md:h-32 rounded-xl overflow-hidden block">' +
-      '<img src="' + thumb + '" alt="' + escapeHtml(post.title) + '" loading="lazy" width="112" height="80" class="w-full h-full object-cover transition-transform duration-500 group-hover:scale-110">' +
+        '<img src="' + thumb + '" alt="' + escapeHtml(post.title) + '" loading="lazy" width="112" height="80" class="w-full h-full object-cover transition-transform duration-500 group-hover:scale-110">' +
       '</a>' +
       '<div class="flex flex-col flex-grow min-w-0">' +
       '<div class="flex items-center gap-2 mb-1.5">' +
