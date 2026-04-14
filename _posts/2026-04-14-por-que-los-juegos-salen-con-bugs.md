@@ -41,7 +41,9 @@ Entender por qué ocurren estos fallos requiere mirar más allá del código. Co
 
 {% include youtube-embed.html id="tZK-9twXUhY" title="La cruda realidad de ser Desarrollador Indie: Lo que nadie te dice" %}
 
-Como habrás visto en el vídeo, el desarrollo de videojuegos requiere años de persistencia y disciplina. Muchas veces, lo que el usuario percibe como "pereza" del estudio en el lanzamiento es en realidad el agotamiento de un pequeño equipo que lleva años luchando contra limitaciones técnicas, financieras y de tiempo. Si quieres entender mejor cómo sobrevivir a estos obstáculos y por qué la planificación es más importante que los sueños, te recomiendo ver el análisis completo arriba.
+Por eso, muchas veces lo que el usuario indignado percibe como "pereza" del estudio en el día de lanzamiento es, en realidad, el agotamiento de un pequeño equipo que lleva años luchando contra limitaciones técnicas, financieras y de tiempo. Cuando entiendes esto, la perspectiva sobre los errores de desarrollo cambia por completo.
+
+Y para entender cómo hemos llegado a este punto de normalizar el parche, vale la pena echar la vista atrás de forma honesta.
 
 ## Los juegos siempre tuvieron bugs. Siempre.
 
