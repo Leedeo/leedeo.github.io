@@ -118,13 +118,18 @@ layout: "default"
             <!-- Artículos relacionados -->
             {% assign related_posts = "" | split: "" %}
             {% for pub in site.posts %}
-                {% if pub.url != page.url %}
-                    {% assign has_shared = false %}
-                    {% for cat in pub.categories %}
-                        {% if page.categories contains cat %}{% assign has_shared = true %}{% endif %}
-                    {% endfor %}
-                    {% if has_shared %}{% assign related_posts = related_posts | push: pub %}{% endif %}
+            {% if pub.url != page.url %}
+                {% assign match = nil %}
+                {% for cat in pub.categories %}
+                {% if page.categories contains cat %}
+                    {% assign match = true %}
+                    {% break %}
                 {% endif %}
+                {% endfor %}
+                {% if match %}
+                    {% assign related_posts = related_posts | push: pub %}
+                {% endif %}
+            {% endif %}
             {% endfor %}
 
             {% if related_posts.size > 0 %}
