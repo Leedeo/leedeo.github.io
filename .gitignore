@@ -13,8 +13,6 @@ _herramientas/
 build-tailwind.bat
 build-tailwind.sh
 
-
-
 # Archivos del sistema
 .DS_Store
 Thumbs.db

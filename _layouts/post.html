@@ -1,8 +1,7 @@
 ---
 layout: "default"
 ---
-{% assign post_author = site.data.authors[page.author] %}
-{% unless post_author %}{% assign post_author = site.data.authors['javo'] %}{% endunless %}
+{% assign post_author = site.data.authors[page.author] | default: site.data.authors['javo'] %}
 
 <!-- esquema: artículo -->
 <script type="application/ld+json">
@@ -98,13 +97,13 @@ layout: "default"
                      width="20" height="20">
                 <span class="text-slate-400">{{ post_author.name }}</span>
                 <span class="text-slate-700">·</span>
-                {% assign months = "enero,febrero,marzo,abril,mayo,junio,julio,agosto,septiembre,octubre,noviembre,diciembre" | split: "," %}
-                {% assign month_index = page.date | date: "%m" | plus: 0 | minus: 1 %}
-                <span>{{ page.date | date: "%-d" }} de {{ months[month_index] }} de {{ page.date | date: "%Y" }}</span>
+                <!-- la fecha localizada al español se delega al include específico para ello -->
+                <span>{% include date_es.html date=page.date %}</span>
                 <span class="text-slate-700">·</span>
                 <i class="fas fa-clock text-slate-600"></i>
                 <span>{{ page.date | date: "%H:%M" }} h</span>
             </div>
+
 
             <h1 class="text-3xl md:text-5xl font-black mb-6 tracking-tight uppercase leading-tight">
                 {{ page.title }}
@@ -161,19 +160,15 @@ layout: "default"
             <div class="not-prose border-t border-white/[0.06] mt-14 pt-10">
                 <p class="text-[0.65rem] font-black uppercase tracking-[0.25em] text-slate-500 mb-5">También te puede interesar</p>
                 <div class="grid grid-cols-2 md:grid-cols-4 gap-3">
-                    {% assign counter = 0 %}
-                    {% for pub in related_posts %}
-                        {% if counter < 4 %}
-                        <a href="{{ pub.url | relative_url }}" class="group block"
-                           style="--reveal-delay: {{ counter | modulo: 4 | times: 80 }}ms;">
-                            <div class="aspect-video rounded-xl overflow-hidden mb-2 border border-white/[0.05]">
-                                <img src="{{ pub.thumbnail | relative_url }}" alt="{{ pub.title }}"
-                                     loading="lazy" class="w-full h-full object-cover transition-transform duration-500 group-hover:scale-105">
-                            </div>
-                            <p class="text-slate-400 group-hover:text-violet-400 transition-colors font-bold leading-snug text-sm">{{ pub.title }}</p>
-                        </a>
-                        {% assign counter = counter | plus: 1 %}
-                        {% endif %}
+                    {% for pub in related_posts limit:4 %}
+                    <a href="{{ pub.url | relative_url }}" class="group block"
+                       style="--reveal-delay: {{ forloop.index0 | times: 80 }}ms;">
+                        <div class="aspect-video rounded-xl overflow-hidden mb-2 border border-white/[0.05]">
+                            <img src="{{ pub.thumbnail | relative_url }}" alt="{{ pub.title }}"
+                                 loading="lazy" class="w-full h-full object-cover transition-transform duration-500 group-hover:scale-105">
+                        </div>
+                        <p class="text-slate-400 group-hover:text-violet-400 transition-colors font-bold leading-snug text-sm">{{ pub.title }}</p>
+                    </a>
                     {% endfor %}
                 </div>
             </div>

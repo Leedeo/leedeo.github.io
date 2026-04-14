@@ -1,6 +1,8 @@
 {% comment %}
   schema-person.html
-  Marcado de persona (Javo) para Schema.org
+  Marcado Person (Javo) para Schema.org. Versión completa con jobTitle,
+  image, description y sameAs. Se incluye desde default.html (todas las
+  páginas) y también desde about.html para no duplicar el bloque.
 {% endcomment %}
 <script type="application/ld+json">
 {
@@ -8,6 +10,7 @@
   "@type": "Person",
   "name": "Javo",
   "url": "{{ site.url }}/about/",
+  "@id": "{{ site.url }}/about/#javo",
   "image": "{{ '/assets/img/ui/author-javo.webp' | absolute_url }}",
   "jobTitle": "Desarrollador de Videojuegos Independiente",
   "description": "{{ site.data.authors.javo.bio | escape }}",
@@ -19,6 +22,15 @@
     "https://www.tiktok.com/@leedeostudio",
     "https://www.instagram.com/leedeostudio/"
   ],
+  "brand": {
+    "@type": "Brand",
+    "name": "Leedeo Studio",
+    "logo": "{{ '/favicon.ico' | absolute_url }}"
+  },
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "Desarrollador de Videojuegos"
+  },
   "mainEntityOfPage": {
     "@type": "WebPage",
     "@id": "{{ site.url }}/about/"

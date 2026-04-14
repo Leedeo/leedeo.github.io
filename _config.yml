@@ -19,6 +19,10 @@ paginate_path: "/blog/page:num/"
 future: true
 timezone: Europe/Madrid
 
+# Cuenta de Twitter/X para que jekyll-seo-tag genere la meta twitter:creator
+twitter:
+  username: leedeostudio
+
 # Disqus Comments
 disqus_shortname: "leedeo"
 

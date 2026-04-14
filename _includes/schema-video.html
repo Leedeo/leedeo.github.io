@@ -1,0 +1,30 @@
+{% comment %}
+  schema-video.html
+  Marcado VideoObject para Schema.org. Solo se emite cuando el post
+  incluye un campo `video` en el front matter con las propiedades:
+    video.id          — ID del vídeo en YouTube
+    video.title       — título del vídeo
+    video.description — descripción breve
+    video.upload_date — fecha de subida (YYYY-MM-DD)
+    video.duration    — duración en formato ISO 8601 (ej: PT8M30S)
+{% endcomment %}
+{% if page.video %}
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "VideoObject",
+  "name": "{{ page.video.title | escape }}",
+  "description": "{{ page.video.description | escape }}",
+  "thumbnailUrl": "https://i.ytimg.com/vi/{{ page.video.id }}/maxresdefault.jpg",
+  "uploadDate": "{{ page.video.upload_date }}T12:00:00+00:00",
+  "duration": "{{ page.video.duration }}",
+  "contentUrl": "https://www.youtube.com/watch?v={{ page.video.id }}",
+  "embedUrl": "https://www.youtube.com/embed/{{ page.video.id }}",
+  "publisher": {
+    "@type": "Person",
+    "name": "Javo",
+    "url": "{{ site.url }}/about/"
+  }
+}
+</script>
+{% endif %}

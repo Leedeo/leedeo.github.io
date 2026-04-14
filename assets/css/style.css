@@ -533,6 +533,13 @@ strong { font-weight: 700; color: #fff; }
   transform: translateY(-2px);
 }
 
+/* variante de tamaño reducido para la tarjeta de autor en posts */
+.author-social-link {
+  width: 1.75rem;
+  height: 1.75rem;
+  font-size: 0.75rem;
+}
+
 /* ── prefers-reduced-motion ──────────────────────────── */
 @media (prefers-reduced-motion: reduce) {
   .blob { animation: none !important; }
