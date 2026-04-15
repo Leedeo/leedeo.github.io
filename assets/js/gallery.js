@@ -1,3 +1,4 @@
+/* Galería modal con lightbox para imágenes */
 (function () {
   var modal = document.getElementById('galleryModal');
   if (!modal) {

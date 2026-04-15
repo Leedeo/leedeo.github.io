@@ -1,3 +1,4 @@
+/* Carga lazy de comentarios Disqus bajo demanda */
 (function () {
   var triggerContainer = document.getElementById('disqus_trigger_container');
   if (!triggerContainer) {

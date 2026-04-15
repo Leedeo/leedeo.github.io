@@ -4,7 +4,7 @@
     return;
   }
 
-  // Calcula el progreso de lectura sobre toda la altura útil del documento.
+  /* Calcula el progreso de lectura sobre toda la altura útil del documento */
   window.addEventListener('scroll', function () {
     var top = window.scrollY;
     var h = document.documentElement.scrollHeight - window.innerHeight;

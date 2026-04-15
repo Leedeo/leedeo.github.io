@@ -1,3 +1,4 @@
+/* Botón para volver arriba - creado dinámicamente */
 (function () {
   var btn = document.createElement('button');
   btn.className = 'scroll-top-btn';

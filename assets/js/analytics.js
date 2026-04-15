@@ -1,3 +1,4 @@
+/* Carga Google Analytics bajo demanda y solo tras consentimiento */
 window.dataLayer = window.dataLayer || [];
 
 function gtag() {
@@ -5,6 +6,7 @@ function gtag() {
 }
 
 function loadGA() {
+  /* Implementación lazy: carga GA solo una vez */
   if (window._gaLoaded) {
     return;
   }
@@ -24,7 +26,7 @@ function loadGA() {
 }
 
 document.addEventListener('DOMContentLoaded', function () {
-  // Rehidrata analítica si el usuario ya había aceptado en una visita anterior.
+  /* Rehidrata analítica: carga GA si el usuario ya había aceptado previamente */
   if (localStorage.getItem('cookie_consent') === 'accepted') {
     loadGA();
   }

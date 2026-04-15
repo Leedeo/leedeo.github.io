@@ -16,6 +16,7 @@
   var dataLoaded = false;
   // El buscador construye tarjetas con strings, así que el texto se escapa antes de inyectarlo.
   function escapeHtml(str) {
+    /* Prevención XSS: escapa caracteres HTML peligrosos (&, <, >, ") */
     if (!str) {
       return '';
     }
@@ -39,6 +40,8 @@
   }
   // Si no hay término, se restaura el listado paginado original del blog.
   function performSearch(query) {
+    /* Algoritmo de búsqueda: filtra por título, extracto y categorías
+       con prioridad: título > extracto > categorías */
     var q = query.trim().toLowerCase();
     if (!q) {
       paginatedPosts.classList.remove('hidden');
@@ -82,6 +85,7 @@
       return Promise.resolve();
     }
     // search.json se descarga una vez y luego se reutiliza en memoria.
+    /* Estrategia de caché: datos se cargan una vez por sesión */
     return fetch('/search.json')
       .then(function (res) { return res.json(); })
       .then(function (data) {
@@ -95,6 +99,7 @@
   searchInput.addEventListener('focus', loadData);
 
   var debounceTimer;
+  /* Debouncing: evita peticiones excesivas durante escritura rápida */
   searchInput.addEventListener('input', function () {
     clearTimeout(debounceTimer);
     var q = this.value;
@@ -108,7 +113,7 @@
       loadData().then(function () {
         performSearch(q);
       });
-    }, 220);
+    }, 220); // 220ms: equilibrio entre respuesta y rendimiento
   });
 
   searchInput.addEventListener('keydown', function (e) {

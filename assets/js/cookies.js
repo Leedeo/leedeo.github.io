@@ -6,7 +6,7 @@
     return;
   }
   var oldConsent = localStorage.getItem('cookies-accepted');
-  // Migra el nombre antiguo de consentimiento para no perder preferencias previas.
+  /* Migra el nombre antiguo de consentimiento para mantener preferencias previas */
   if (oldConsent && !localStorage.getItem('cookie_consent')) {
     localStorage.setItem('cookie_consent', oldConsent === 'true' ? 'accepted' : 'rejected');
     localStorage.removeItem('cookies-accepted');

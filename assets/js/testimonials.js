@@ -17,12 +17,14 @@
   ];
   // Escapa texto dinámico antes de insertarlo en las tarjetas renderizadas por JS.
   function escapeHtml(str) {
+    /* Prevención XSS: escapa caracteres HTML peligrosos */
     if (!str) {
       return '';
     }
     return str.replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;').replace(/"/g, '&quot;');
   }
   // Duplica el carrusel para mantener el efecto continuo sin saltos visibles.
+  /* Técnica de marquee duplication: duplicar contenido para efecto scroll infinito */
   function createCard(t, isDuplicate) {
     var isSuper = t.type === 'super';
     return '<div class="testimonial-card glass-card rounded-3xl p-8 flex flex-col justify-between ' + (isSuper ? 'border-amber-500/30 ring-1 ring-amber-500/10' : '') + '" ' + (isDuplicate ? 'aria-hidden="true"' : '') + '>' +
@@ -44,5 +46,6 @@
   }
   var content = testimonials.map(function (t) { return createCard(t, false); }).join('');
   var duplicate = testimonials.map(function (t) { return createCard(t, true); }).join('');
+  /* Marquee duplication technique: contenido original + duplicado para scroll infinito */
   marqueeInner.innerHTML = content + duplicate;
 })();

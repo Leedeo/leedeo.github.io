@@ -1,3 +1,4 @@
+/* Menú móvil y dropdowns con accesibilidad completa */
 (function () {
   var btn = document.getElementById('mobile-menu-btn');
   var menu = document.getElementById('mobile-menu');
@@ -29,6 +30,7 @@
     link.addEventListener('click', toggleMenu);
   });
   // Añade navegación por teclado a los dropdowns del menú de escritorio.
+  /* Keyboard navigation: ArrowUp/ArrowDown/Escape para dropdowns accesibles */
   var dropdowns = document.querySelectorAll('[data-dropdown]');
   dropdowns.forEach(function (dropdown) {
     var trigger = dropdown.querySelector('button');

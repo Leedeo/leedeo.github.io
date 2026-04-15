@@ -3,6 +3,7 @@ if (yearEl) {
   yearEl.textContent = new Date().getFullYear();
 }
 // Activa animaciones de entrada una sola vez por bloque visible.
+/* Observer para animaciones reveal cuando elementos entran en viewport */
 var revealObserver = new IntersectionObserver(function (entries) {
   entries.forEach(function (entry) {
     if (entry.isIntersecting) {
@@ -15,12 +16,13 @@ var revealObserver = new IntersectionObserver(function (entries) {
       }, 700 + delayMs);
     }
   });
-}, { rootMargin: '0px 0px 50px 0px', threshold: 0.1 });
+}, { rootMargin: '0px 0px 50px 0px', threshold: 0.1 }); // 50px bottom margin para activación anticipada
 
 document.querySelectorAll('.reveal').forEach(function (el) {
   revealObserver.observe(el);
 });
 // Envuelve tablas Markdown para mantener scroll horizontal en móvil.
+/* Wrapper dinámico para tablas amplias en dispositivos móviles */
 document.querySelectorAll('.rich-content table').forEach(function (table) {
   if (table.parentElement.classList.contains('table-wrapper')) {
     return;
@@ -31,6 +33,7 @@ document.querySelectorAll('.rich-content table').forEach(function (table) {
   wrapper.appendChild(table);
 });
 // Sustituye la miniatura de YouTube por el iframe solo tras clic explícito.
+/* Lazy loading de videos YouTube: carga iframe solo tras interacción */
 document.querySelectorAll('.js-youtube-facade').forEach(function (el) {
   el.addEventListener('click', function () {
     var id = this.getAttribute('data-id');
