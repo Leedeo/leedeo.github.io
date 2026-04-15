@@ -279,7 +279,7 @@ PLATFORMS
 
 DEPENDENCIES
   csv
-  github-pages (~> 228)
+  github-pages (>= 228, < 231)
   tzinfo-data
   webrick (~> 1.8)
 
