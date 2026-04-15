@@ -32,7 +32,7 @@
       '</a>' +
       '<div class="flex flex-col flex-grow min-w-0">' +
       '<div class="flex items-center gap-2 mb-1.5">' +
-      '<img src="' + post.authorAvatar + '" alt="' + escapeHtml(post.authorName) + '" class="w-4 h-4 rounded-full object-cover border border-violet-300/70 flex-shrink-0" width="16" height="16" loading="lazy">' +
+      '<img src="' + (post.authorAvatar || '/assets/img/ui/author-javo.webp') + '" alt="' + escapeHtml(post.authorName) + '" class="w-4 h-4 rounded-full object-cover border border-violet-300/70 flex-shrink-0" width="16" height="16" loading="lazy">' +
       '<span class="text-slate-400 text-[10px] font-bold uppercase tracking-widest">' + escapeHtml(post.authorName) + '</span>' +
       '<span class="text-violet-400 text-[10px] font-bold uppercase tracking-widest">' + post.date + '</span>' +
       '</div>' +
