@@ -1,4 +1,3 @@
-// google analytics con consentimiento: solo se carga si el usuario aceptó
 window.dataLayer = window.dataLayer || [];
 
 function gtag() {
@@ -9,9 +8,8 @@ function loadGA() {
   if (window._gaLoaded) {
     return;
   }
+  // Carga Google Analytics solo una vez y solo tras consentimiento explícito.
   window._gaLoaded = true;
-
-  // preconnect dinámico para que lighthouse no se queje sin conectar si el usuario rechaza
   var p = document.createElement('link');
   p.rel = 'preconnect';
   p.href = 'https://www.googletagmanager.com';
@@ -26,6 +24,7 @@ function loadGA() {
 }
 
 document.addEventListener('DOMContentLoaded', function () {
+  // Rehidrata analítica si el usuario ya había aceptado en una visita anterior.
   if (localStorage.getItem('cookie_consent') === 'accepted') {
     loadGA();
   }

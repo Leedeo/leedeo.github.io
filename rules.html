@@ -5,9 +5,9 @@ title: "Normas de la Comunidad"
 description: "Normas de convivencia y participación en los espacios de Leedeo Studio. Respeto, crítica constructiva y colaboración entre creadores."
 permalink: "/rules/"
 ---
-<!-- Contenedor principal con estilo de fondo y espaciado -->
+{% comment %}Normas agrupadas por objetivo para que el documento sea fácil de mantener.{% endcomment %}
 <div class="relative min-h-screen pt-32 pb-24 px-6 hero-gradient overflow-x-hidden">
-    <!-- Título y fecha de actualización -->
+    {% comment %}Cabecera legal con fecha visible de la versión vigente.{% endcomment %}
     <header class="max-w-4xl mx-auto text-center mb-12 reveal">
         <span class="section-eyebrow">Leedeo Studio</span>
         <h1 class="text-4xl md:text-6xl font-black mb-6 tracking-tight leading-[1.2] px-2 uppercase">
@@ -17,11 +17,10 @@ permalink: "/rules/"
         <div class="h-px w-24 mx-auto mt-8" style="background: linear-gradient(90deg, transparent, rgba(139,92,246,0.65), transparent);"></div>
     </header>
 
-    <!-- Documento de normas -->
     <div class="max-w-3xl mx-auto reveal">
         <div class="static-glass-card rounded-[2.5rem] p-8 md:p-12 rich-content border border-white/5 shadow-2xl">
 
-            <!-- Bienvenida y propósito -->
+            {% comment %}Marco general antes de enumerar reglas concretas.{% endcomment %}
             <section aria-labelledby="rules-sec-1" class="mb-10">
                 <h2 id="rules-sec-1" class="text-2xl font-bold mb-4 text-white"><i class="fas fa-users mr-2 text-violet-400"></i> Bienvenida</h2>
                 <p class="text-slate-300 leading-relaxed">
@@ -31,7 +30,7 @@ permalink: "/rules/"
                 </p>
             </section>
 
-            <!-- Regla 1: Respeto -->
+            {% comment %}Norma base de convivencia para todos los canales del proyecto.{% endcomment %}
             <section aria-labelledby="rules-sec-2" class="mb-10">
               <h2 id="rules-sec-2" class="text-2xl font-bold mb-4 text-white"><i class="fas fa-heart mr-2 text-violet-400"></i> 1. Respeto y Educación</h2>
               <div class="text-slate-300 space-y-4">
@@ -44,7 +43,7 @@ permalink: "/rules/"
               </div>
             </section>
 
-            <!-- Regla 2: Spam -->
+            {% comment %}Criterios para mantener comentarios y espacios útiles.{% endcomment %}
             <section aria-labelledby="rules-sec-3" class="mb-10">
               <h2 id="rules-sec-3" class="text-2xl font-bold mb-4 text-white"><i class="fas fa-ban mr-2 text-violet-400"></i> 2. No al Spam ni contenido Irrelevante</h2>
               <div class="text-slate-300 space-y-4">
@@ -58,7 +57,7 @@ permalink: "/rules/"
               </div>
             </section>
 
-            <!-- Regla 3: Crítica -->
+            {% comment %}Separación entre crítica técnica válida y comportamiento destructivo.{% endcomment %}
             <section aria-labelledby="rules-sec-4" class="mb-10">
               <h2 id="rules-sec-4" class="text-2xl font-bold mb-4 text-white"><i class="fas fa-lightbulb mr-2 text-violet-400"></i> 3. Crítica Constructiva</h2>
               <p class="text-slate-300 leading-relaxed">
@@ -68,7 +67,7 @@ permalink: "/rules/"
               </p>
             </section>
 
-            <!-- Regla 4: Privacidad -->
+            {% comment %}Protección mínima de datos personales de terceros.{% endcomment %}
             <section aria-labelledby="rules-sec-5" class="mb-10">
               <h2 id="rules-sec-5" class="text-2xl font-bold mb-4 text-white"><i class="fas fa-user-shield mr-2 text-violet-400"></i> 4. Privacidad (No Doxxing)</h2>
               <p class="text-slate-300 leading-relaxed">
@@ -77,7 +76,7 @@ permalink: "/rules/"
               </p>
             </section>
 
-            <!-- Regla 5: Contenido -->
+            {% comment %}Límites de contenido para conservar el carácter educativo del espacio.{% endcomment %}
             <section aria-labelledby="rules-sec-6" class="mb-10">
               <h2 id="rules-sec-6" class="text-2xl font-bold mb-4 text-white"><i class="fas fa-exclamation-triangle mr-2 text-violet-400"></i> 5. Contenido Apropiado</h2>
               <p class="text-slate-300 leading-relaxed">
@@ -86,7 +85,7 @@ permalink: "/rules/"
               </p>
             </section>
 
-            <!-- Gestión de moderación -->
+            {% comment %}Cierre con el criterio de moderación aplicado por el responsable del sitio.{% endcomment %}
             <section aria-labelledby="rules-sec-7">
                 <h2 id="rules-sec-7" class="text-2xl font-bold mb-4 text-white"><i class="fas fa-gavel mr-2 text-violet-400"></i> Moderación</h2>
                 <p class="text-slate-300 leading-relaxed">

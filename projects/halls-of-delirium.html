@@ -14,6 +14,7 @@ video:
 ---
 <div class="relative min-h-screen pt-32 pb-24 px-6 hero-gradient overflow-x-hidden">
 
+    {% comment %}Hero de proyecto con imagen de portada independiente del contenido principal.{% endcomment %}
     <header class="mb-20 reveal -mx-6 -mt-32">
         <div class="relative w-full overflow-hidden" style="min-height: 480px;">
             <img src="{{ '/assets/img/projects/hero-halls-of-delirium.webp' | relative_url }}" alt="Hero image de Halls of Delirium" aria-hidden="true"
@@ -133,7 +134,7 @@ video:
 
 </div>
 
-<!-- Lightbox Modal -->
+{% comment %}Modal de galería reutilizado por el script local para ampliar capturas.{% endcomment %}
 <dialog id="galleryModal" class="bg-transparent m-0 p-0 w-screen h-screen max-w-none max-h-none backdrop:bg-black/90 backdrop:backdrop-blur-sm focus:outline-none overflow-hidden">
     <div class="relative w-full h-full flex flex-col items-center justify-center p-4 md:p-12">
         <button id="gallery-close" class="absolute top-6 right-6 lg:top-10 lg:right-10 text-white/50 hover:text-white transition-colors p-4 rounded-full bg-black/50 hover:bg-violet-600/50 backdrop-blur-md z-50 flex items-center justify-center border border-white/10" aria-label="Cerrar galería">

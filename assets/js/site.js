@@ -1,10 +1,8 @@
-// año actual en el pie de página
 var yearEl = document.getElementById('auto-year');
 if (yearEl) {
   yearEl.textContent = new Date().getFullYear();
 }
-
-// animación de aparición al hacer scroll
+// Activa animaciones de entrada una sola vez por bloque visible.
 var revealObserver = new IntersectionObserver(function (entries) {
   entries.forEach(function (entry) {
     if (entry.isIntersecting) {
@@ -22,8 +20,7 @@ var revealObserver = new IntersectionObserver(function (entries) {
 document.querySelectorAll('.reveal').forEach(function (el) {
   revealObserver.observe(el);
 });
-
-// envolver tablas en contenedor con scroll horizontal
+// Envuelve tablas Markdown para mantener scroll horizontal en móvil.
 document.querySelectorAll('.rich-content table').forEach(function (table) {
   if (table.parentElement.classList.contains('table-wrapper')) {
     return;
@@ -33,8 +30,7 @@ document.querySelectorAll('.rich-content table').forEach(function (table) {
   table.parentNode.insertBefore(wrapper, table);
   wrapper.appendChild(table);
 });
-
-// fachada de youtube: solo carga el iframe al hacer clic
+// Sustituye la miniatura de YouTube por el iframe solo tras clic explícito.
 document.querySelectorAll('.js-youtube-facade').forEach(function (el) {
   el.addEventListener('click', function () {
     var id = this.getAttribute('data-id');

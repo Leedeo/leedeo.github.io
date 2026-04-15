@@ -4,7 +4,7 @@ title: "Contacto"
 description: "Ponte en contacto con Javo, creador de Leedeo Studio, para colaboraciones, patrocinios y oportunidades de trabajo conjunto."
 permalink: "/contact/"
 ---
-<!-- datos estructurados para la página de contacto -->
+{% comment %}Schema específico de la página de contacto.{% endcomment %}
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -23,7 +23,7 @@ permalink: "/contact/"
 
 <div class="relative min-h-screen pt-32 pb-24 px-6 hero-gradient overflow-x-hidden">
 
-  <!-- Cabecera de la página de contacto -->
+  {% comment %}Presentación breve y contexto profesional antes de mostrar canales de contacto.{% endcomment %}
   <header class="max-w-4xl mx-auto text-center mb-12 reveal">
     <span class="section-eyebrow">Creador de Leedeo Studio</span>
     <h1 class="text-4xl md:text-6xl font-black mb-6 tracking-tight leading-[1.2] px-2 uppercase">
@@ -35,7 +35,7 @@ permalink: "/contact/"
     <div class="h-px w-24 mx-auto mt-8" style="background: linear-gradient(90deg, transparent, rgba(139,92,246,0.65), transparent);"></div>
   </header>
 
-  <!-- Sección: Método de contacto principal -->
+  {% comment %}Canal principal para mensajes válidos y colaboraciones.{% endcomment %}
   <section aria-labelledby="contact-sec-1" class="max-w-3xl mx-auto reveal mb-16">
     <div class="static-glass-card rounded-[2.5rem] p-8 md:p-10 rich-content border border-white/5 shadow-2xl">
       <h2 id="contact-sec-1" class="text-xl font-bold mb-4"><i class="fas fa-envelope mr-2 text-violet-400"></i> Correo Electrónico</h2>
@@ -50,20 +50,18 @@ permalink: "/contact/"
     </div>
   </section>
 
-  <!-- Sección: Filtro de mensajes aceptados -->
+  {% comment %}Filtro editorial para reducir expectativas y clasificar solicitudes.{% endcomment %}
   <section aria-labelledby="contact-sec-2" class="max-w-4xl mx-auto mb-16">
     <h2 id="contact-sec-2" class="text-3xl md:text-4xl font-black tracking-tight uppercase mb-12 text-center reveal">
       ¿Qué tipo de mensajes <span class="text-violet-500 italic">acepto</span>?
     </h2>
     <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
-      <!-- Aceptados -->
       <article class="bg-emerald-500/10 border border-emerald-500/20 rounded-2xl text-center reveal p-8">
         <p class="text-emerald-400 font-bold uppercase mb-2"><i class="fas fa-check-circle"></i> SÍ acepto</p>
         <p class="text-slate-300">
           <strong>Colaboraciones y Patrocinios:</strong> Estoy abierto a oportunidades de colaboración, patrocinios y partnerships.
         </p>
       </article>
-      <!-- Rechazados -->
       <article class="bg-red-500/10 border border-red-500/20 rounded-2xl text-center reveal p-8">
         <p class="text-red-400 font-bold uppercase mb-2"><i class="fas fa-times-circle"></i> No acepto</p>
         <p class="text-slate-300">
@@ -73,7 +71,7 @@ permalink: "/contact/"
     </div>
   </section>
 
-  <!-- Sección: Colaboraciones previas -->
+  {% comment %}Marcas previas para aportar contexto comercial sin duplicar la página About.{% endcomment %}
   <section aria-labelledby="contact-sec-3" class="max-w-3xl mx-auto reveal">
     <div class="static-glass-card rounded-[2.5rem] p-8 md:p-10 rich-content border border-white/5 shadow-2xl">
       <h2 id="contact-sec-3" class="text-xl font-bold mb-4"><i class="fas fa-history mr-2 text-violet-400"></i> Marcas con las que he colaborado</h2>

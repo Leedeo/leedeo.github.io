@@ -14,16 +14,13 @@
 
   var posts = [];
   var dataLoaded = false;
-
-  // escapa caracteres html para inyectar texto de forma segura
+  // El buscador construye tarjetas con strings, así que el texto se escapa antes de inyectarlo.
   function escapeHtml(str) {
     if (!str) {
       return '';
     }
     return str.replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;').replace(/"/g, '&quot;');
   }
-
-  // construye el html de una tarjeta de resultado
   function buildCard(post) {
     var thumb = post.thumbnail || '/assets/img/ui/thumb-youtube.webp';
     return '<article class="reveal group flex items-start gap-5 p-4 rounded-2xl border border-white/5 hover:border-violet-500/30 hover:bg-white/[0.02] transition-all duration-300">' +
@@ -40,8 +37,7 @@
       '<p class="text-slate-500 text-xs leading-relaxed line-clamp-2">' + escapeHtml(post.excerpt) + '</p>' +
       '</div></article>';
   }
-
-  // filtra y muestra resultados
+  // Si no hay término, se restaura el listado paginado original del blog.
   function performSearch(query) {
     var q = query.trim().toLowerCase();
     if (!q) {
@@ -72,8 +68,7 @@
     } else {
       noResults.classList.add('hidden');
       searchGrid.innerHTML = filtered.map(buildCard).join('');
-
-      // reactivar animaciones de aparición para las tarjetas nuevas
+      // Las tarjetas nuevas se conectan al observer global para mantener las animaciones.
       if (window.revealObserver) {
         searchGrid.querySelectorAll('.reveal').forEach(function (el, idx) {
           el.style.setProperty('--reveal-delay', (idx * 50) + 'ms');
@@ -82,12 +77,11 @@
       }
     }
   }
-
-  // carga search.json una sola vez
   function loadData() {
     if (dataLoaded) {
       return Promise.resolve();
     }
+    // search.json se descarga una vez y luego se reutiliza en memoria.
     return fetch('/search.json')
       .then(function (res) { return res.json(); })
       .then(function (data) {
@@ -98,8 +92,6 @@
         console.warn('no se pudo cargar search.json', err);
       });
   }
-
-  // cargar datos al enfocar el buscador
   searchInput.addEventListener('focus', loadData);
 
   var debounceTimer;
@@ -134,8 +126,6 @@
       searchInput.focus();
     });
   }
-
-  // si viene un término de búsqueda por url, ejecutar la búsqueda
   var urlParams = new URLSearchParams(window.location.search);
   var searchParam = urlParams.get('search');
   if (searchParam) {

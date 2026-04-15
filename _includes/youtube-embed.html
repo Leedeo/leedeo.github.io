@@ -1,10 +1,9 @@
-<!-- vídeo de youtube con carga diferida: solo carga el iframe al hacer clic -->
 <div class="my-8">
     <div class="relative w-full aspect-video rounded-2xl overflow-hidden shadow-2xl bg-[#0f0a1d] group cursor-pointer js-youtube-facade"
         data-id="{{ include.id }}"
         data-title="{{ include.title | default: 'Vídeo de YouTube' | escape }}">
         <img src="https://i.ytimg.com/vi/{{ include.id }}/maxresdefault.jpg"
-            alt="{{ include.title | default: 'Haz clic para reproducir el vídeo' }}"
+            alt="{{ include.title | default: 'Haz clic para reproducir el vídeo' | escape }}"
             class="absolute inset-0 w-full h-full object-cover transition-transform duration-500 group-hover:scale-105"
             loading="lazy">
         <div class="absolute inset-0 flex items-center justify-center bg-black/20 group-hover:bg-transparent transition-colors duration-300">

@@ -4,6 +4,7 @@ title: "Formación y Desarrollo de Videojuegos Indie"
 description: "Aprende a crear videojuegos desde cero con tutoriales prácticos, cursos gratuitos de Godot Engine y análisis honestos de la industria. Contenido en español por Javo."
 ---
 
+{% comment %}Schema específico de la portada: buscador del sitio y entidad principal de la marca.{% endcomment %}
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -16,7 +17,7 @@ description: "Aprende a crear videojuegos desde cero con tutoriales prácticos, 
     "@type": "SearchAction",
     "target": {
       "@type": "EntryPoint",
-      "urlTemplate": "{{ site.url }}/blog/?q={search_term_string}"
+      "urlTemplate": "{{ site.url }}/blog/?search={search_term_string}"
     },
     "query-input": "required name=search_term_string"
   }
@@ -46,29 +47,22 @@ description: "Aprende a crear videojuegos desde cero con tutoriales prácticos, 
 }
 </script>
 
-<!-- ═══════════════════════════════════════════════════════════
-     HERO
-     ═══════════════════════════════════════════════════════════ -->
+{% comment %}Hero principal con propuesta editorial y accesos directos prioritarios.{% endcomment %}
 <header id="home" class="relative min-h-screen flex flex-col items-center justify-center pt-20 hero-gradient">
 
-  <!-- Fondo animado -->
+  {% comment %}Fondo decorativo aislado del contenido para no afectar accesibilidad ni layout.{% endcomment %}
   <div class="hero-bg-anim">
     <div class="blob blob-1"></div>
     <div class="blob blob-2"></div>
     <div class="blob blob-3"></div>
-    <!-- Grid de puntos -->
     <div
       class="absolute inset-0 opacity-[0.035] pointer-events-none"
       style="background-image: radial-gradient(rgba(139,92,246,0.8) 1px, transparent 1px); background-size: 40px 40px;"
     ></div>
-    <!-- Fade al fondo -->
     <div class="absolute inset-0 bg-gradient-to-b from-transparent via-transparent to-[#0f0a1d]"></div>
   </div>
 
-  <!-- Contenido central -->
   <div class="relative z-10 max-w-5xl mx-auto px-6 text-center flex-1 flex flex-col items-center justify-center py-20">
-
-    <!-- Badge -->
     <div class="inline-flex items-center gap-2.5 px-5 py-2 mb-10 text-[0.6rem] font-bold tracking-[0.22em] text-violet-300 uppercase bg-violet-400/8 rounded-full border border-violet-400/18 backdrop-blur-sm">
       <span class="w-1.5 h-1.5 rounded-full bg-violet-400 animate-pulse flex-shrink-0"></span>
       Javo · Game Dev y Creación de Contenido
@@ -84,7 +78,6 @@ description: "Aprende a crear videojuegos desde cero con tutoriales prácticos, 
       Un sitio para aprender a <strong class="text-white font-bold">crear videojuegos desde cero</strong>, descubrir noticias de la industria y conocer el desarrollo por dentro con tutoriales prácticos.
     </p>
 
-    <!-- CTAs -->
     <div class="flex flex-wrap justify-center gap-4">
       <a href="{{ '/courses/godot/' | relative_url }}" class="btn-primary px-8 py-4 text-sm rounded-2xl flex items-center gap-3">
         <i class="fas fa-rocket text-xs"></i> Empezar a aprender
@@ -94,7 +87,6 @@ description: "Aprende a crear videojuegos desde cero con tutoriales prácticos, 
       </a>
     </div>
 
-    <!-- Stats rápidas -->
     <div class="mt-16 flex flex-wrap justify-center gap-8 text-center">
       <div>
         <div class="text-4xl font-black text-white">+8</div>
@@ -114,27 +106,21 @@ description: "Aprende a crear videojuegos desde cero con tutoriales prácticos, 
   </div>
 </header>
 
-<!-- ═══════════════════════════════════════════════════════════
-     FRANJA COMUNIDAD
-     ═══════════════════════════════════════════════════════════ -->
+{% comment %}Prueba social del canal principal separada del hero para mantener jerarquía clara.{% endcomment %}
 <div class="relative overflow-hidden bg-[#0a0618] border-y border-amber-500/15 py-16 px-6">
-  <!-- Glow dorado de fondo -->
   <div class="absolute inset-0 pointer-events-none"
        style="background: radial-gradient(ellipse at 50% 60%, rgba(245,158,11,0.07) 0%, rgba(139,92,246,0.05) 40%, transparent 70%);"></div>
 
   <div class="relative max-w-3xl mx-auto text-center">
-    <!-- Eyebrow -->
     <p class="text-[0.6rem] font-bold uppercase tracking-[0.3em] text-amber-500/70 mb-5 flex items-center justify-center gap-2">
       <i class="fab fa-youtube text-red-500/60"></i> Comunidad · YouTube
     </p>
 
-    <!-- Número protagonista -->
     <div class="text-[5.5rem] md:text-[8rem] font-black leading-none mb-3 tracking-tighter"
          style="color: #f59e0b; text-shadow: 0 0 60px rgba(245,158,11,0.35), 0 0 120px rgba(245,158,11,0.15);">
       +42.000
     </div>
 
-    <!-- Contexto -->
     <p class="text-xl md:text-2xl font-bold text-white mb-3 tracking-tight">
       Ya somos más de 42.000 aprendiendo Godot en español.
     </p>
@@ -144,9 +130,7 @@ description: "Aprende a crear videojuegos desde cero con tutoriales prácticos, 
   </div>
 </div>
 
-<!-- ═══════════════════════════════════════════════════════════
-     FORMACIÓN
-     ═══════════════════════════════════════════════════════════ -->
+{% comment %}Bloque de formación con propuesta de valor y acceso visual al canal.{% endcomment %}
 <section id="training" aria-labelledby="training-title" class="py-28 px-6 relative">
   <div class="max-w-7xl mx-auto grid lg:grid-cols-2 gap-16 items-center">
 
@@ -189,7 +173,6 @@ description: "Aprende a crear videojuegos desde cero con tutoriales prácticos, 
         </li>
       </ul>
 
-      <!-- Tech chips -->
       <div class="flex flex-wrap gap-2">
         <span class="chip">Godot Engine</span>
         <span class="chip">GDScript</span>
@@ -199,7 +182,6 @@ description: "Aprende a crear videojuegos desde cero con tutoriales prácticos, 
       </div>
     </div>
 
-    <!-- Vista previa YouTube -->
     <div class="relative reveal">
       <div class="aspect-video bg-slate-900 rounded-custom-40 border border-white/8 overflow-hidden shadow-2xl relative group">
         <img
@@ -222,18 +204,13 @@ description: "Aprende a crear videojuegos desde cero con tutoriales prácticos, 
           </a>
         </div>
       </div>
-      <!-- Glow decorativo -->
       <div class="absolute -inset-4 bg-violet-600/10 rounded-custom-48 blur-2xl -z-10 pointer-events-none"></div>
     </div>
   </div>
 </section>
 
-<!-- ═══════════════════════════════════════════════════════════
-     PROYECTOS
-     ═══════════════════════════════════════════════════════════ -->
+{% comment %}Resumen de productos y proyectos propios destacados.{% endcomment %}
 <section id="projects" aria-labelledby="projects-title" class="py-28 px-6 bg-[#0c0820] relative overflow-hidden">
-
-  <!-- Decoración de fondo -->
   <div class="absolute top-0 left-0 right-0 h-px bg-gradient-to-r from-transparent via-violet-600/20 to-transparent"></div>
   <div class="absolute bottom-0 left-0 right-0 h-px bg-gradient-to-r from-transparent via-violet-600/20 to-transparent"></div>
 
@@ -285,9 +262,7 @@ description: "Aprende a crear videojuegos desde cero con tutoriales prácticos, 
   </div>
 </section>
 
-<!-- ═══════════════════════════════════════════════════════════
-     BLOG — ÚLTIMAS PUBLICACIONES
-     ═══════════════════════════════════════════════════════════ -->
+{% comment %}Últimos artículos desde Jekyll, limitados a tres para no duplicar el índice del blog.{% endcomment %}
 <section id="news" aria-labelledby="news-title" class="py-28 px-6 relative bg-[#0f0a1d]">
   <div class="max-w-7xl mx-auto">
     <div class="flex flex-col md:flex-row items-start md:items-center justify-between gap-6 mb-14 reveal">
@@ -312,20 +287,16 @@ description: "Aprende a crear videojuegos desde cero con tutoriales prácticos, 
   </div>
 </section>
 
-<!-- ═══════════════════════════════════════════════════════════
-     COMUNIDAD — WHATSAPP
-     ═══════════════════════════════════════════════════════════ -->
+{% comment %}Canal directo de comunidad y novedades fuera de redes algorítmicas.{% endcomment %}
 <section id="community" aria-labelledby="community-title" class="py-10 px-6">
   <div class="max-w-7xl mx-auto">
     <div class="relative rounded-custom-48 overflow-hidden border border-white/[0.05]" style="background: linear-gradient(135deg, #0d1117 0%, #0a0618 60%, #06040f 100%);">
 
-      <!-- Textura de fondo -->
       <div
         class="absolute inset-0 opacity-[0.025] pointer-events-none"
         style="background-image: radial-gradient(rgba(34,197,94,0.6) 1px, transparent 1px); background-size: 30px 30px;"
       ></div>
 
-      <!-- Icono decorativo -->
       <div class="absolute top-0 right-0 p-12 opacity-[0.07] hidden lg:block pointer-events-none">
         <i class="fab fa-whatsapp text-[14rem] text-green-400 rotate-12"></i>
       </div>
@@ -341,7 +312,6 @@ description: "Aprende a crear videojuegos desde cero con tutoriales prácticos, 
           Recibe actualizaciones técnicas, análisis y contenido en primicia antes que nadie.
         </p>
 
-        <!-- Contadores -->
         <div class="flex flex-wrap gap-6 mb-8">
           <div class="flex items-center gap-2.5">
             <div class="w-8 h-8 rounded-lg bg-red-500/10 border border-red-500/20 flex items-center justify-center flex-shrink-0">
@@ -371,9 +341,7 @@ description: "Aprende a crear videojuegos desde cero con tutoriales prácticos, 
   </div>
 </section>
 
-<!-- ═══════════════════════════════════════════════════════════
-     TESTIMONIOS
-     ═══════════════════════════════════════════════════════════ -->
+{% comment %}Testimonios renderizados por JS desde una lista controlada en local.{% endcomment %}
 <section aria-labelledby="testimonials-title" class="py-24 border-y border-white/[0.05] bg-[#070212]/40 mt-10">
   <div class="max-w-7xl mx-auto px-6 mb-12 flex flex-col md:flex-row items-center justify-between gap-6 reveal">
     <div class="text-center md:text-left">
@@ -392,14 +360,11 @@ description: "Aprende a crear videojuegos desde cero con tutoriales prácticos, 
   </div>
 </section>
 
-<!-- ═══════════════════════════════════════════════════════════
-     APOYO — KO-FI
-     ═══════════════════════════════════════════════════════════ -->
+{% comment %}Bloque de soporte económico sin interferir con la navegación principal.{% endcomment %}
 <section id="support" aria-labelledby="support-title" class="py-28 px-6">
   <div class="max-w-3xl mx-auto reveal">
     <div class="relative rounded-custom-48 overflow-hidden border border-rose-500/15 text-center p-14 md:p-20" style="background: linear-gradient(135deg, rgba(17,10,30,1) 0%, rgba(30,10,20,0.9) 100%);">
 
-      <!-- Glow de fondo -->
       <div class="absolute inset-0 bg-gradient-to-br from-rose-600/8 via-transparent to-violet-600/8 pointer-events-none"></div>
 
       <div class="relative z-10">

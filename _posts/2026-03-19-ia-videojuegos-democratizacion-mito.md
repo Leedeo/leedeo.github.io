@@ -26,7 +26,7 @@ faq:
 comments: true
 ---
 
-En el [artículo anterior](/blog/2026/03/18/ia-desarrollo-videojuegos-creatividad/) hablamos sobre la IA como herramienta creativa en el desarrollo de videojuegos. Sobre cómo la cámara de fotos, el tractor y la imprenta generaron las mismas resistencias en su momento. Sobre cómo la herramienta no define el resultado, sino la persona que la usa. Todo eso sigue siendo cierto.
+En el [artículo anterior](/blog/ia-desarrollo-videojuegos-creatividad/) hablamos sobre la IA como herramienta creativa en el desarrollo de videojuegos. Sobre cómo la cámara de fotos, el tractor y la imprenta generaron las mismas resistencias en su momento. Sobre cómo la herramienta no define el resultado, sino la persona que la usa. Todo eso sigue siendo cierto.
 
 Pero hay una segunda parte de esta conversación que merece un artículo propio, porque tiene implicaciones distintas y porque ignorarla sería deshonesto.
 

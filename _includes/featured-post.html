@@ -4,6 +4,8 @@
 {% assign padding = include.padding | default: 'p-6' %}
 {% assign aspect = include.aspect | default: 'aspect-[4/3] lg:aspect-video' %}
 {% assign excerpt = include.excerpt | default: false %}
+{% comment %}Convierte la escala de Tailwind (`w-4`, `w-5`, etc.) a píxeles reales para los atributos width/height.{% endcomment %}
+{% assign image_size = img_size | times: 4 %}
 
 <article class="group relative overflow-hidden rounded-[2rem] {{ aspect }} h-full w-full">
   <a href="{{ include.post.url | relative_url }}" class="block w-full h-full">
@@ -25,8 +27,8 @@
           src="{{ author.avatar }}"
           alt="{{ author.name }}"
           class="w-{{ img_size }} h-{{ img_size }} rounded-full object-cover border border-violet-300/70"
-          width="{{ img_size }}"
-          height="{{ img_size }}"
+          width="{{ image_size }}"
+          height="{{ image_size }}"
           loading="lazy"
         >
         <span class="text-violet-400 text-[10px] font-bold uppercase tracking-widest">

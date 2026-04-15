@@ -1,10 +1,4 @@
-/**
- * Tailwind CSS v4 — Leedeo Studio
- */
-
 @import "tailwindcss";
-
-/* ── Fuentes de contenido (rutas relativas a assets/css/) ─────────────────── */
 
 @source "../../_layouts";
 @source "../../_includes";

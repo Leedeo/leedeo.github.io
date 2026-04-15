@@ -5,15 +5,12 @@
   if (!banner) {
     return;
   }
-
-  // migrar consentimiento antiguo al formato nuevo
   var oldConsent = localStorage.getItem('cookies-accepted');
+  // Migra el nombre antiguo de consentimiento para no perder preferencias previas.
   if (oldConsent && !localStorage.getItem('cookie_consent')) {
     localStorage.setItem('cookie_consent', oldConsent === 'true' ? 'accepted' : 'rejected');
     localStorage.removeItem('cookies-accepted');
   }
-
-  // mostrar banner si el usuario no eligió nada
   if (!localStorage.getItem('cookie_consent')) {
     setTimeout(function () {
       banner.classList.remove('translate-y-full');

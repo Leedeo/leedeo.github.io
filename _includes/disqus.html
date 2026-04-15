@@ -1,4 +1,5 @@
 {% if site.disqus_shortname %}
+{% comment %}Disqus solo se carga tras la interacción del usuario para evitar scripts de terceros al inicio.{% endcomment %}
 <div id="disqus_trigger_container"
      data-shortname="{{ site.disqus_shortname }}"
      data-page-url="{{ page.url | absolute_url }}"

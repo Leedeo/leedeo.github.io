@@ -1,13 +1,3 @@
-{% comment %}
-  schema-video.html
-  Marcado VideoObject para Schema.org. Solo se emite cuando el post
-  incluye un campo `video` en el front matter con las propiedades:
-    video.id          — ID del vídeo en YouTube
-    video.title       — título del vídeo
-    video.description — descripción breve
-    video.upload_date — fecha de subida (YYYY-MM-DD)
-    video.duration    — duración en formato ISO 8601 (ej: PT8M30S)
-{% endcomment %}
 {% if page.video %}
 <script type="application/ld+json">
 {

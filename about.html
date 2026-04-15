@@ -5,10 +5,10 @@ description: "Desarrollador de videojuegos independiente, colaborador en la trad
 permalink: "/about/"
 ---
 
-<!-- el esquema Person se emite globalmente desde _layouts/default.html -->
+{% comment %}El schema Person ya se emite de forma global desde el layout principal.{% endcomment %}
 <div class="relative min-h-screen pt-32 pb-24 px-6 hero-gradient overflow-x-hidden" itemscope itemtype="https://schema.org/Person">
 
-    <!-- Cabecera de presentación -->
+    {% comment %}Presentación editorial y contexto público del autor.{% endcomment %}
     <header class="max-w-4xl mx-auto text-center mb-12 reveal">
         <span class="section-eyebrow">Desarrollador de videojuegos</span>
         <h1 class="text-4xl md:text-6xl font-black tracking-tight leading-[1.2] mb-6 uppercase" itemprop="name">
@@ -20,7 +20,7 @@ permalink: "/about/"
         <div class="h-px w-24 mx-auto mt-8" style="background: linear-gradient(90deg, transparent, rgba(139,92,246,0.65), transparent);"></div>
     </header>
 
-    <!-- Sección Historia: Narrativa personal -->
+    {% comment %}Bloque narrativo con el recorrido personal y el enfoque del proyecto.{% endcomment %}
     <section aria-labelledby="about-history-title" class="max-w-3xl mx-auto mb-16 reveal">
         <div class="static-glass-card rounded-[2.5rem] p-8 md:p-12 border border-white/5 shadow-2xl">
             <h2 id="about-history-title" class="sr-only">Mi Historia</h2>
@@ -36,18 +36,16 @@ permalink: "/about/"
         </div>
     </section>
 
-    <!-- Sección Trayectoria: Hitos y experiencia -->
+    {% comment %}Hitos principales para resumir experiencia, comunidad y trabajo público.{% endcomment %}
     <section aria-labelledby="about-trajectory-title" class="max-w-4xl mx-auto mb-16">
         <h2 id="about-trajectory-title" class="sr-only">Trayectoria Profesional</h2>
         <div class="grid grid-cols-1 md:grid-cols-3 gap-6">
-            <!-- Hito: Experiencia con Godot -->
             <article class="static-glass-card rounded-3xl p-8 border border-white/5 text-center reveal group hover:border-violet-500/30 transition-all duration-500">
                 <div class="text-5xl font-black gradient-text mb-3">+8</div>
                 <div class="text-white font-bold mb-2">Años con Godot Engine</div>
                 <p class="text-slate-400 text-sm leading-relaxed">Trabajando con Godot desde mucho antes de que se pusiera de moda. También 4 años con Unity, aunque ese camino ya quedó atrás.</p>
             </article>
 
-            <!-- Hito: Presencia en YouTube -->
             <article class="static-glass-card rounded-3xl p-8 border border-amber-500/20 text-center reveal group hover:border-amber-500/40 transition-all duration-500">
                 <div class="font-black mb-3 leading-none"
                      style="font-size:3.5rem; color:#f59e0b; text-shadow: 0 0 40px rgba(245,158,11,0.4), 0 0 80px rgba(245,158,11,0.15);">
@@ -61,7 +59,6 @@ permalink: "/about/"
                 </a>
             </article>
 
-            <!-- Hito: Traducción oficial -->
             <article class="static-glass-card rounded-3xl p-8 border border-white/5 text-center reveal group hover:border-violet-500/30 transition-all duration-500">
                 <div class="text-4xl mb-3">
                     <img src="{{ '/assets/img/ui/godot_logo.webp' | relative_url }}" alt="Logotipo oficial de Godot Engine" class="w-12 h-12 mx-auto" loading="lazy">
@@ -76,7 +73,7 @@ permalink: "/about/"
         </div>
     </section>
 
-    <!-- Sección Proyecto: Propósito de Leedeo Studio -->
+    {% comment %}Pilares del proyecto más allá del perfil personal del autor.{% endcomment %}
     <section aria-labelledby="leedeo-studio-title" class="max-w-3xl mx-auto mb-16 reveal">
         <div class="text-center mb-12">
             <h2 class="text-3xl md:text-4xl font-black tracking-tight uppercase mb-4">
@@ -86,7 +83,6 @@ permalink: "/about/"
         </div>
 
         <div class="space-y-6">
-            <!-- Pilar 1: Formación -->
             <article class="flex items-start gap-6 static-glass-card rounded-3xl p-7 border border-white/5 reveal">
                 <div class="flex-shrink-0 w-12 h-12 rounded-2xl bg-violet-600/20 border border-violet-500/30 flex items-center justify-center">
                     <i class="fas fa-graduation-cap text-violet-400 text-lg"></i>
@@ -97,7 +93,6 @@ permalink: "/about/"
                 </div>
             </article>
 
-            <!-- Pilar 2: Herramientas -->
             <article class="flex items-start gap-6 static-glass-card rounded-3xl p-7 border border-white/5 reveal">
                 <div class="flex-shrink-0 w-12 h-12 rounded-2xl bg-violet-600/20 border border-violet-500/30 flex items-center justify-center">
                     <i class="fas fa-wrench text-violet-400 text-lg"></i>
@@ -108,7 +103,6 @@ permalink: "/about/"
                 </div>
             </article>
 
-            <!-- Pilar 3: Análisis -->
             <article class="flex items-start gap-6 static-glass-card rounded-3xl p-7 border border-white/5 reveal">
                 <div class="flex-shrink-0 w-12 h-12 rounded-2xl bg-violet-600/20 border border-violet-500/30 flex items-center justify-center">
                     <i class="fas fa-newspaper text-violet-400 text-lg"></i>
@@ -121,7 +115,7 @@ permalink: "/about/"
         </div>
     </section>
 
-    <!-- Llamada a la acción final -->
+    {% comment %}Cierre con accesos directos a las dos áreas principales del sitio.{% endcomment %}
     <section aria-label="Llamada a la acción" class="max-w-2xl mx-auto text-center reveal">
         <div class="static-glass-card rounded-[2.5rem] p-10 md:p-14 border border-violet-500/20 shadow-2xl shadow-violet-900/20">
             <p class="text-2xl font-bold text-white mb-4 leading-snug">

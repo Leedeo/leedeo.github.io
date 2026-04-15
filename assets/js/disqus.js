@@ -17,6 +17,7 @@
     this.page.identifier = pageId;
   };
 
+  // Inyecta Disqus bajo demanda y muestra el hilo solo cuando el script termina de cargar.
   function loadDisqus() {
     if (!btn) {
       return;

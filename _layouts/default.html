@@ -1,16 +1,11 @@
 <!DOCTYPE html>
 <html lang="es" class="scroll-smooth">
 <head>
+    {% comment %}Metadatos compartidos y schema base reutilizado por todas las páginas.{% endcomment %}
     {% include head.html %}
-
-    <!-- datos estructurados: persona (Javo / Leedeo Studio) -->
     {% include schema-person.html %}
-
-    <!-- datos estructurados: vídeo (solo si el post declara `video` en el front matter) -->
     {% include schema-video.html %}
-
-    <!-- migas de pan genéricas para páginas que no son posts -->
-    <!-- los posts usan su propio BreadcrumbList de 3 niveles en _layouts/post.html -->
+    {% comment %}Los posts ya generan sus propias migas para evitar duplicar BreadcrumbList.{% endcomment %}
     {% unless page.layout == 'post' %}
     <script type="application/ld+json">
     {
@@ -36,6 +31,7 @@
 </head>
 
 <body class="selection:bg-violet-500/30">
+    {% comment %}Estructura global del sitio: navegación, contenido principal y pie.{% endcomment %}
     {% include header.html %}
 
     <main id="main-content">
@@ -45,6 +41,7 @@
     {% include footer.html %}
     {% include cookie-banner.html %}
 
+    {% comment %}Script global mínimo para el botón de volver arriba.{% endcomment %}
     <script src="{{ '/assets/js/scroll-top.js' | relative_url }}" defer></script>
 </body>
 </html>

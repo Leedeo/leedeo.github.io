@@ -2,8 +2,7 @@
 layout: "default"
 ---
 {% assign post_author = site.data.authors[page.author] | default: site.data.authors['javo'] %}
-
-<!-- esquema: migas de pan -->
+{% comment %}Schema específico del artículo: migas y FAQ cuando existen datos en front matter.{% endcomment %}
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -31,24 +30,20 @@ layout: "default"
         "text": "{{ item.answer | strip_html | escape }}"
       }
     }{% unless forloop.last %},{% endunless %}
-    {% endfor %}
+{% endfor %}
   ]
 }
 </script>
 {% endif %}
-
-<!-- Barra de progreso de lectura -->
+{% comment %}La barra existe en el HTML; el script solo actualiza su progreso al hacer scroll.{% endcomment %}
 <div class="reading-progress" aria-hidden="true">
     <div class="reading-progress-bar" id="reading-progress-bar"></div>
 </div>
 
 <div class="relative min-h-screen pt-28 pb-24 px-4 sm:px-6 hero-gradient">
     <div class="max-w-5xl mx-auto">
-
-        <!-- Cabecera del artículo -->
+        {% comment %}Cabecera editorial con categorías, autor y fecha localizadas.{% endcomment %}
         <header class="mb-10 text-center">
-
-            <!-- Categorías -->
             {% if page.categories.size > 0 %}
             <div class="flex justify-center flex-wrap gap-2 mb-5">
                 {% for category in page.categories %}
@@ -60,15 +55,12 @@ layout: "default"
                 {% endfor %}
             </div>
             {% endif %}
-
-            <!-- Metadatos del autor -->
             <div class="flex items-center justify-center gap-2 text-slate-500 text-xs font-bold uppercase tracking-widest mb-5">
                 <img src="{{ post_author.avatar }}" alt="{{ post_author.name }}"
                      class="w-5 h-5 rounded-full border border-violet-300/60 object-cover"
                      width="20" height="20">
                 <span class="text-slate-400">{{ post_author.name }}</span>
                 <span class="text-slate-700">·</span>
-                <!-- la fecha localizada al español se delega al include específico para ello -->
                 <span>{% include date_es.html date=page.date %}</span>
                 <span class="text-slate-700">·</span>
                 <i class="fas fa-clock text-slate-600"></i>
@@ -82,8 +74,6 @@ layout: "default"
 
             <div class="h-px w-20 mx-auto" style="background: linear-gradient(90deg, transparent, rgba(139,92,246,0.7), transparent);"></div>
         </header>
-
-        <!-- Imagen destacada -->
         {% if page.thumbnail %}
         <div class="rounded-3xl overflow-hidden mb-12 border border-white/[0.07] shadow-2xl relative">
             <img src="{{ page.thumbnail | relative_url }}" alt="{{ page.title }}"
@@ -92,11 +82,8 @@ layout: "default"
             <div class="absolute inset-0 bg-gradient-to-t from-[#0f0a1d]/30 to-transparent pointer-events-none"></div>
         </div>
         {% endif %}
-
-        <!-- Contenido del artículo -->
+        {% comment %}El contenido normaliza `loading="lazy"` para evitar duplicados en imágenes incrustadas desde Markdown.{% endcomment %}
         <article class="static-glass-card rounded-[2.5rem] p-7 sm:p-12 md:p-16 rich-content shadow-2xl">
-
-            <!-- Migas de pan -->
             <nav aria-label="Ruta de navegación"
                  class="not-prose flex items-center gap-1.5 text-[0.6rem] font-bold uppercase tracking-widest mb-8 pb-6 border-b border-white/[0.06]">
                 <a href="{{ '/' | relative_url }}" class="text-slate-500 hover:text-violet-400 transition-colors">Inicio</a>
@@ -113,9 +100,9 @@ layout: "default"
                 <span class="text-slate-600 truncate max-w-[160px] md:max-w-xs">{{ page.title }}</span>
             </nav>
 
+            {% comment %}Normaliza el lazy loading en imágenes del contenido sin duplicar el atributo si ya viene definido.{% endcomment %}
             {{ content | replace: 'loading="lazy"', '' | replace: '<img ', '<img loading="lazy" ' }}
-
-            <!-- Artículos relacionados -->
+            {% comment %}Relacionados por categorías compartidas, excluyendo el artículo actual.{% endcomment %}
             {% assign related_posts = "" | split: "" %}
             {% for pub in site.posts %}
             {% if pub.url != page.url %}
@@ -149,13 +136,10 @@ layout: "default"
                 </div>
             </div>
             {% endif %}
-
-            <!-- Autor -->
+            {% comment %}Bloques de cierre reutilizados en todos los posts.{% endcomment %}
             <div class="border-t border-white/[0.06] mt-12 pt-10 not-prose">
                 {% include author-card.html %}
             </div>
-
-            <!-- Comentarios -->
             {% if page.comments != false %}
             <div class="border-t border-white/[0.06] mt-10 pt-10 not-prose">
                 {% include disqus.html %}
@@ -163,8 +147,6 @@ layout: "default"
             {% endif %}
 
         </article>
-
-        <!-- Volver al blog -->
         <div class="mt-12 text-center">
             <a href="{{ '/blog/' | relative_url }}" class="btn-secondary inline-flex items-center gap-2">
                 <i class="fas fa-arrow-left text-[10px]"></i> Volver al Blog

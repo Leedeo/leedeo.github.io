@@ -1,5 +1,3 @@
-// menú móvil: abrir, cerrar y cerrar al tocar un enlace
-// soporte de teclado para dropdowns de escritorio
 (function () {
   var btn = document.getElementById('mobile-menu-btn');
   var menu = document.getElementById('mobile-menu');
@@ -10,6 +8,7 @@
   var icon = btn.querySelector('i');
   var links = document.querySelectorAll('.mobile-link');
 
+  // Sincroniza estado visual y aria-expanded del menú móvil.
   function toggleMenu() {
     var isOpen = !menu.classList.contains('hidden');
     menu.classList.toggle('hidden');
@@ -29,8 +28,7 @@
   links.forEach(function (link) {
     link.addEventListener('click', toggleMenu);
   });
-
-  // dropdowns de escritorio: soporte de teclado
+  // Añade navegación por teclado a los dropdowns del menú de escritorio.
   var dropdowns = document.querySelectorAll('[data-dropdown]');
   dropdowns.forEach(function (dropdown) {
     var trigger = dropdown.querySelector('button');

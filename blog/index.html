@@ -3,11 +3,10 @@ layout: "default"
 title: "Blog de Desarrollo de Videojuegos"
 description: "Artículos sobre desarrollo de videojuegos, industria indie, tutoriales de Godot Engine y análisis del mercado. Contenido original de Leedeo Studio."
 ---
+{% comment %}Archivo principal del blog: portada especial en la primera página y grid estándar en el resto.{% endcomment %}
 
 <div class="relative min-h-screen pt-32 pb-24 px-6 hero-gradient">
   <div class="max-w-7xl mx-auto">
-
-    <!-- cabecera del blog -->
     <header class="mb-12 text-center reveal">
       <h1 class="text-4xl md:text-6xl font-extrabold mb-6 tracking-tight uppercase leading-[1.2]">
         Mi <span class="gradient-text italic">Blog</span>
@@ -17,11 +16,8 @@ description: "Artículos sobre desarrollo de videojuegos, industria indie, tutor
       </p>
       <div class="h-1.5 w-24 bg-violet-500 mx-auto rounded-full mt-8"></div>
     </header>
-
-    <!-- navegación por categorías -->
+    {% comment %}Filtros editoriales y buscador del índice del blog.{% endcomment %}
     {% include category-nav.html current='' %}
-
-    <!-- buscador -->
     <div class="max-w-2xl mx-auto mb-14 reveal">
       <div class="relative group">
         <span class="absolute left-5 top-1/2 -translate-y-1/2 text-violet-400 pointer-events-none transition-colors group-focus-within:text-violet-300">
@@ -47,13 +43,10 @@ description: "Artículos sobre desarrollo de videojuegos, industria indie, tutor
         No se encontraron artículos para "<span id="search-term-display" class="text-violet-400 not-italic font-semibold"></span>".
       </p>
     </div>
-
-    <!-- artículos paginados -->
     <div id="paginated-posts">
       {% if paginator.page == 1 %}
         {% assign first_page_posts = paginator.posts %}
-
-        <!-- Layout especial para la primera página -->
+        {% comment %}La primera página prioriza jerarquía visual antes del grid repetitivo.{% endcomment %}
         <div class="grid grid-cols-1 md:grid-cols-2 gap-8 mb-8 w-full">
           {% for post in first_page_posts %}
             {% if forloop.index == 1 %}
@@ -97,8 +90,6 @@ description: "Artículos sobre desarrollo de videojuegos, industria indie, tutor
             {% endif %}
           {% endfor %}
         </div>
-
-        <!-- Nueva fila de 3 columnas para posts 6-8 -->
         <div id="paginated-grid" class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 mb-12 w-full">
           {% for post in first_page_posts %}
             {% if forloop.index >= 6 and forloop.index <= 8 %}
@@ -108,8 +99,6 @@ description: "Artículos sobre desarrollo de videojuegos, industria indie, tutor
             {% endif %}
           {% endfor %}
         </div>
-
-        <!-- Nueva fila de 4 columnas para posts 9-12 -->
         <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-4 mb-16 w-full">
           {% for post in first_page_posts %}
             {% if forloop.index >= 9 and forloop.index <= 12 %}
@@ -130,8 +119,7 @@ description: "Artículos sobre desarrollo de videojuegos, industria indie, tutor
           {% endfor %}
         </div>
       {% endif %}
-
-      <!-- paginación -->
+      {% comment %}La paginación solo aparece cuando Jekyll genera más de una página de índice.{% endcomment %}
       {% if paginator.total_pages > 1 %}
         <nav id="pagination-nav" class="flex justify-center items-center gap-4 reveal" aria-label="Navegación de páginas">
           {% if paginator.previous_page %}
@@ -156,8 +144,7 @@ description: "Artículos sobre desarrollo de videojuegos, industria indie, tutor
         </nav>
       {% endif %}
     </div>
-
-    <!-- contenedor de resultados de búsqueda (oculto por defecto) -->
+    {% comment %}Este contenedor se activa por JS cuando el usuario filtra resultados.{% endcomment %}
     <div id="search-results-container" class="hidden">
       <div id="search-results-grid" class="grid lg:grid-cols-2 gap-4"></div>
     </div>

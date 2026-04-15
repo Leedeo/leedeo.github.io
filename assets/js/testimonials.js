@@ -3,8 +3,6 @@
   if (!marqueeInner) {
     return;
   }
-
-  // testimonios extraídos de comentarios reales de youtube
   var testimonials = [
     { user: "@Ferchulandia", msg: "Tutorial rápido y más informativo que cualquier otro video que vi, la verdad te felicito y gracias sos un crack", link: "https://youtu.be/b7xs_ngdjx0", type: "yt", color: "from-violet-500 to-indigo-600" },
     { user: "@Jorfajard", msg: "Bro soy nuevo y me haz simplificado el tema de las colisiones como deseaba muchas gracias 🫂", link: "https://youtu.be/akovXcLp1qE", type: "yt", color: "from-fuchsia-500 to-pink-600" },
@@ -17,16 +15,14 @@
     { user: "@cgm1227", msg: "Es genial el contenido que brindas... Gracias por todo tu esfuerzo para hacer esta joya 💎💎💎💎", link: "https://youtu.be/akovXcLp1qE", type: "yt", color: "from-cyan-500 to-blue-600" },
     { user: "@futublock", msg: "genial el tutorial, bien hecho en condiciones y recomendando a antiguos tutoriales para recordar y aprender, me encanta", link: "https://youtu.be/FORvIiwBXEg", type: "yt", color: "from-slate-500 to-slate-700" }
   ];
-
-  // escapa html para inyectar texto sin riesgo
+  // Escapa texto dinámico antes de insertarlo en las tarjetas renderizadas por JS.
   function escapeHtml(str) {
     if (!str) {
       return '';
     }
     return str.replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;').replace(/"/g, '&quot;');
   }
-
-  // genera el html de una tarjeta de testimonio
+  // Duplica el carrusel para mantener el efecto continuo sin saltos visibles.
   function createCard(t, isDuplicate) {
     var isSuper = t.type === 'super';
     return '<div class="testimonial-card glass-card rounded-3xl p-8 flex flex-col justify-between ' + (isSuper ? 'border-amber-500/30 ring-1 ring-amber-500/10' : '') + '" ' + (isDuplicate ? 'aria-hidden="true"' : '') + '>' +
@@ -46,8 +42,6 @@
       '</div>' +
       '</div>';
   }
-
-  // contenido original + duplicado para efecto de bucle infinito
   var content = testimonials.map(function (t) { return createCard(t, false); }).join('');
   var duplicate = testimonials.map(function (t) { return createCard(t, true); }).join('');
   marqueeInner.innerHTML = content + duplicate;

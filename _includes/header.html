@@ -1,15 +1,10 @@
-<!-- Barra de navegación principal -->
 <nav class="fixed top-0 w-full z-50 bg-[#0f0a1d]/90 backdrop-blur-lg border-b border-white/[0.06]">
     <div class="max-w-7xl mx-auto px-6 h-20 flex items-center justify-between">
       <a href="#main-content" class="skip-link">Saltar al contenido principal</a>
-
-        <!-- Logo -->
         <a href="{{ '/' | relative_url }}" class="flex items-center gap-2 z-50 group">
             <span class="font-pacifico text-violet-500 text-[38px] lowercase tracking-normal -rotate-2 mr-1 transition-colors group-hover:text-violet-400">Leedeo</span>
             <span class="text-xl font-thin tracking-[0.18em] text-slate-300 uppercase">Studio</span>
         </a>
-
-        <!-- Menú desktop -->
         <div class="hidden lg:flex space-x-1 xl:space-x-2 text-[0.65rem] font-bold uppercase tracking-widest items-center">
 
             <a href="{{ '/' | relative_url }}"
@@ -21,8 +16,6 @@
                class="px-4 py-2 rounded-lg transition-all duration-200 {% if page.url contains '/about' %}text-violet-400 bg-violet-500/10{% else %}text-slate-400 hover:text-slate-100 hover:bg-white/5{% endif %}">
                Sobre mí
             </a>
-
-            <!-- Dropdown: Proyectos -->
             <div class="relative group h-full flex items-center" data-dropdown>
                 <button class="flex items-center gap-1.5 px-4 py-2 rounded-lg transition-all duration-200 {% if page.url contains '/projects/' %}text-violet-400 bg-violet-500/10{% else %}text-slate-400 hover:text-slate-100 hover:bg-white/5{% endif %} uppercase font-bold tracking-widest"
                         aria-expanded="false" aria-haspopup="true">
@@ -40,8 +33,6 @@
                     </a>
                 </div>
             </div>
-
-            <!-- Dropdown: Cursos -->
             <div class="relative group h-full flex items-center" data-dropdown>
                 <button class="flex items-center gap-1.5 px-4 py-2 rounded-lg transition-all duration-200 {% if page.url contains '/courses/' %}text-violet-400 bg-violet-500/10{% else %}text-slate-400 hover:text-slate-100 hover:bg-white/5{% endif %} uppercase font-bold tracking-widest"
                         aria-expanded="false" aria-haspopup="true">
@@ -70,8 +61,6 @@
                Contacto
             </a>
         </div>
-
-        <!-- Acciones rápidas -->
         <div class="flex items-center gap-3 z-50">
             <a href="https://ko-fi.com/leedeo" target="_blank" rel="noopener"
                class="hidden sm:flex items-center gap-2 bg-rose-600/90 hover:bg-rose-500 text-white px-4 py-2 rounded-xl text-xs font-bold transition-all duration-200 border border-rose-500/30 hover:border-rose-400/50 hover:shadow-lg hover:shadow-rose-900/30">
@@ -84,8 +73,7 @@
             </button>
         </div>
     </div>
-
-    <!-- Menú móvil -->
+    {% comment %}El menú móvil replica la navegación principal sin depender de dropdowns hover.{% endcomment %}
     <div id="mobile-menu"
         class="hidden lg:hidden bg-[#0a0618]/98 backdrop-blur-3xl border-b border-white/[0.06] absolute w-full left-0 top-20 flex-col shadow-2xl overflow-y-auto max-h-[calc(100vh-5rem)]">
         <div class="flex flex-col px-6 py-8 gap-1 text-[0.7rem] font-bold uppercase tracking-widest text-slate-400">
@@ -119,4 +107,5 @@
     </div>
 </nav>
 
+{% comment %}La navegación principal controla menú móvil y accesibilidad por teclado de los dropdowns.{% endcomment %}
 <script src="{{ '/assets/js/menu.js' | relative_url }}" defer></script>
