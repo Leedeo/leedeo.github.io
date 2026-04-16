@@ -1,0 +1,327 @@
+---
+layout: "default"
+author: "javo"
+thumbnail: "/assets/img/ui/thumb-youtube.webp"
+title: "Calculadora de Viabilidad para tu Juego Indie — ROI y Break-Even Steam"
+description: "Descubre cuántas copias necesitas vender para recuperar tu inversión. Calculadora gratuita de ROI para juegos indie en Steam: comisiones, impuestos, tiempo de desarrollo y beneficio real."
+permalink: "/projects/roi-calculator/"
+---
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "SoftwareApplication",
+  "name": "Calculadora de Viabilidad para tu Juego Indie",
+  "description": "Herramienta gratuita para calcular el ROI, break-even y beneficio real de un videojuego indie en Steam. Contempla comisiones de plataforma, impuestos, tiempo de desarrollo y gastos externos.",
+  "url": "{{ site.url }}/projects/calculadora-roi/",
+  "author": {
+    "@type": "Person",
+    "name": "Javo",
+    "url": "{{ site.url }}"
+  },
+  "publisher": {
+    "@type": "Organization",
+    "name": "Leedeo Studio",
+    "url": "{{ site.url }}"
+  },
+  "applicationCategory": "BusinessApplication",
+  "offers": {
+    "@type": "Offer",
+    "price": "0",
+    "priceCurrency": "USD"
+  },
+  "keywords": "calculadora ROI Steam, calculadora beneficios juego indie, cuanto se queda Steam, break-even videojuego, viabilidad juego indie"
+}
+</script>
+
+<link rel="stylesheet" href="{{ '/assets/css/roi-calculator.css' | relative_url }}">
+
+<div class="relative min-h-screen pt-32 pb-24 px-6 hero-gradient overflow-x-hidden">
+
+  <!-- Hero -->
+  <header class="max-w-3xl mx-auto text-center mb-14 reveal">
+    <span class="section-eyebrow">Herramienta Gratuita</span>
+    <h1 class="text-4xl md:text-5xl font-black tracking-tight mb-5 uppercase leading-[1.15]">
+      Calculadora de <span class="gradient-text italic">Viabilidad</span><br>para tu Juego
+    </h1>
+    <p class="text-slate-400 text-lg max-w-xl mx-auto leading-relaxed font-light">
+      Descubre cuántas copias necesitas vender para recuperar lo que has invertido — y cuánto dinero real te queda en el bolsillo después de que <strong>Steam, Hacienda y tus proveedores</strong> se lleven su parte.
+    </p>
+  </header>
+
+  <!-- Calculator Shell -->
+  <div class="max-w-2xl mx-auto reveal delay-100 mb-20">
+    <div class="static-glass-card p-8 md:p-10">
+
+      <!-- Step Indicators -->
+      <div class="flex items-center justify-between mb-10 px-2" id="step-dots">
+        <div class="step-indicator-dot current" id="dot-1"></div>
+        <div class="flex-1 h-px mx-2" style="background:rgba(139,92,246,0.15)"></div>
+        <div class="step-indicator-dot" id="dot-2"></div>
+        <div class="flex-1 h-px mx-2" style="background:rgba(139,92,246,0.15)"></div>
+        <div class="step-indicator-dot" id="dot-3"></div>
+        <div class="flex-1 h-px mx-2" style="background:rgba(139,92,246,0.15)"></div>
+        <div class="step-indicator-dot" id="dot-4"></div>
+        <div class="flex-1 h-px mx-2" style="background:rgba(139,92,246,0.15)"></div>
+        <div class="step-indicator-dot" id="dot-5"></div>
+      </div>
+
+      <!-- STEP 1: El juego -->
+      <div class="calc-step active" id="step-1">
+        <p class="text-xs font-bold uppercase tracking-widest text-violet-400 mb-1">Paso 1 de 5</p>
+        <h2 class="text-2xl font-black text-white mb-2 uppercase tracking-tight">El juego</h2>
+        <p class="text-slate-400 text-sm mb-8 leading-relaxed">Lo básico: el precio y dónde lo vas a vender. No necesitas que sea definitivo, puedes cambiarlo después.</p>
+
+        <div class="space-y-6">
+          <div>
+            <label class="calc-label" for="precio">Precio de venta (USD / $)</label>
+            <input class="calc-input" type="number" id="precio" placeholder="14.99" min="0.99" step="0.01" value="14.99">
+            <p class="calc-hint">El precio que pondrás en la tienda. Steam recomienda acabar en <strong>.99</strong>. Si no lo tienes claro, $14.99 USD es un punto de partida habitual para juegos indie medianos.</p>
+          </div>
+
+          <div>
+            <label class="calc-label">¿Dónde lo publicas?</label>
+            <div class="flex flex-wrap gap-2 mt-1" id="platforms">
+              <button type="button" class="tag-platform selected" data-fee="0.30"><i class="fab fa-steam"></i> Steam (30%)</button>
+              <button type="button" class="tag-platform" data-fee="0.12"><i class="fas fa-gamepad"></i> Epic (12%)</button>
+              <button type="button" class="tag-platform" data-fee="0.30"><i class="fas fa-store"></i> Itch.io (30%)</button>
+              <button type="button" class="tag-platform" data-fee="0.30"><i class="fas fa-mobile-alt"></i> Google Play (30%)</button>
+              <button type="button" class="tag-platform" data-fee="0.30"><i class="fab fa-apple"></i> App Store (30%)</button>
+            </div>
+            <p class="calc-hint">Steam se queda el <strong>30%</strong> de cada venta. Epic Games solo el <strong>12%</strong>. Eso importa mucho al final.</p>
+          </div>
+
+          <div>
+            <label class="calc-label">Cuota para publicar el juego (Steam Direct)</label>
+            <div class="flex items-center gap-3">
+              <input type="checkbox" id="steam-direct" checked style="width:18px;height:18px;accent-color:#8b5cf6;cursor:pointer;">
+              <label for="steam-direct" class="text-slate-300 text-sm font-medium cursor-pointer">Sí, voy a publicar en Steam</label>
+            </div>
+            <p class="calc-hint mt-2">Steam cobra una tarifa única de <strong>100 $</strong> para que subas tu juego. Se te devuelve cuando llegas a los 1.000 $ de ventas. La incluimos en tus costes iniciales.</p>
+          </div>
+        </div>
+
+        <div class="flex justify-end mt-10">
+          <button class="btn-calc-primary" data-step="2">Siguiente <i class="fas fa-arrow-right ml-1"></i></button>
+        </div>
+      </div>
+
+      <!-- STEP 2: Lo que has invertido -->
+      <div class="calc-step" id="step-2">
+        <p class="text-xs font-bold uppercase tracking-widest text-violet-400 mb-1">Paso 2 de 5</p>
+        <h2 class="text-2xl font-black text-white mb-2 uppercase tracking-tight">Tu tiempo</h2>
+        <p class="text-slate-400 text-sm mb-8 leading-relaxed">Tu tiempo tiene valor aunque lo hayas "puesto de tu bolsillo". Si no lo contabilizas, nunca sabrás si realmente fue rentable.</p>
+
+        <div class="space-y-6">
+          <div>
+            <label class="calc-label" for="horas">Horas totales que llevas trabajando en el juego</label>
+            <input class="calc-input" type="number" id="horas" placeholder="500" min="0" step="10" value="500">
+            <p class="calc-hint">Suma todo: código, arte, música, testing, marketing... Si llevas 6 meses a media jornada, son unas <strong>480 horas</strong>.</p>
+          </div>
+
+          <div>
+            <label class="calc-label" for="tarifa">¿Cuánto vale tu hora? (USD / $)</label>
+            <div class="flex items-center gap-3">
+              <input class="range-slider" type="range" id="tarifa-range" min="5" max="100" value="20">
+              <input class="calc-input" type="number" id="tarifa" style="width:100px;flex-shrink:0" placeholder="20" min="1" step="1" value="20">
+            </div>
+            <p class="calc-hint">Si no sabes qué poner: un freelancer junior ronda los <strong>$15-25 USD/hora</strong>. Un desarrollador senior, $40-60 USD. Pon lo que crees que vale tu trabajo.</p>
+          </div>
+
+          <div class="result-card">
+            <p class="result-label">Tu inversión de tiempo valorada</p>
+            <p class="result-value" id="coste-tiempo-display">$10,000 USD</p>
+            <p class="result-sub">= <span id="horas-display">500</span> h × <span id="tarifa-display">20</span> $/h</p>
+          </div>
+        </div>
+
+        <div class="flex justify-between mt-10">
+          <button class="btn-calc-secondary" data-step="1"><i class="fas fa-arrow-left mr-1"></i> Atrás</button>
+          <button class="btn-calc-primary" data-step="3">Siguiente <i class="fas fa-arrow-right ml-1"></i></button>
+        </div>
+      </div>
+
+      <!-- STEP 3: Gastos externos -->
+      <div class="calc-step" id="step-3">
+        <p class="text-xs font-bold uppercase tracking-widest text-violet-400 mb-1">Paso 3 de 5</p>
+        <h2 class="text-2xl font-black text-white mb-2 uppercase tracking-tight">Gastos externos</h2>
+        <p class="text-slate-400 text-sm mb-8 leading-relaxed">Todo lo que has pagado a terceros: músicos, artistas, programadores, assets de tiendas, licencias de software...</p>
+
+        <div class="space-y-5">
+          <div>
+            <label class="calc-label" for="assets">Música, sonidos y assets comprados (USD / $)</label>
+            <input class="calc-input" type="number" id="assets" placeholder="0" min="0" step="10" value="0">
+            <p class="calc-hint">Assets de Unity Asset Store, música de Artlist, efectos de sonido de Freesound con licencia de pago... todo cuenta.</p>
+          </div>
+          <div>
+            <label class="calc-label" for="freelancers">Lo que has pagado a freelancers o colaboradores (USD / $)</label>
+            <input class="calc-input" type="number" id="freelancers" placeholder="0" min="0" step="50" value="0">
+            <p class="calc-hint">Diseñadores, traductores, músicos contratados, alguien que te hizo el tráiler...</p>
+          </div>
+          <div>
+            <label class="calc-label" for="software">Licencias de software, hardware u otros costes (USD / $)</label>
+            <input class="calc-input" type="number" id="software" placeholder="0" min="0" step="10" value="0">
+            <p class="calc-hint">Suscripción de motor, Adobe, un ordenador nuevo que compraste para el proyecto, hosting...</p>
+          </div>
+          <div>
+            <label class="calc-label" for="marketing">¿Cuánto piensas gastar en publicidad y marketing? (USD / $)</label>
+            <input class="calc-input" type="number" id="marketing" placeholder="0" min="0" step="50" value="0">
+            <p class="calc-hint">Anuncios en redes, envío de claves a streamers, Press Kit, festivales de juegos indie... Si no tienes presupuesto, pon 0. Pero ten en cuenta que <strong>sin visibilidad, las ventas serán bajas</strong>.</p>
+          </div>
+        </div>
+
+        <div class="flex justify-between mt-10">
+          <button class="btn-calc-secondary" data-step="2"><i class="fas fa-arrow-left mr-1"></i> Atrás</button>
+          <button class="btn-calc-primary" data-step="4">Siguiente <i class="fas fa-arrow-right ml-1"></i></button>
+        </div>
+      </div>
+
+      <!-- STEP 4: Impuestos y reembolsos -->
+      <div class="calc-step" id="step-4">
+        <p class="text-xs font-bold uppercase tracking-widest text-violet-400 mb-1">Paso 4 de 5</p>
+        <h2 class="text-2xl font-black text-white mb-2 uppercase tracking-tight">La realidad fiscal</h2>
+        <p class="text-slate-400 text-sm mb-8 leading-relaxed">Esto es lo que la mayoría ignora hasta que llega la declaración. No es opcional, es matemática.</p>
+
+        <div class="space-y-6">
+          <div>
+            <label class="calc-label" for="impuestos">¿Qué porcentaje te lleva Hacienda? (%)</label>
+            <div class="flex items-center gap-3">
+              <input class="range-slider" type="range" id="impuesto-range" min="0" max="50" value="21">
+              <input class="calc-input" type="number" id="impuestos" style="width:100px;flex-shrink:0" placeholder="21" min="0" max="100" step="1" value="21">
+            </div>
+            <p class="calc-hint">En España, si eres autónomo o empresa, el IVA ya lo gestiona Steam, pero el <strong>IRPF o Impuesto de Sociedades</strong> va aparte. Como estimación conservadora: <strong>20-25%</strong> para España, 15-20% para México.</p>
+          </div>
+
+          <div class="result-card" style="border-color:rgba(251,191,36,0.2);background:rgba(251,191,36,0.05);">
+            <div class="flex items-start gap-3">
+              <i class="fas fa-undo text-yellow-400 mt-1"></i>
+              <div>
+                <p class="text-xs font-bold uppercase tracking-widest text-yellow-400 mb-1">Reserva automática para reembolsos</p>
+                <p class="text-slate-300 text-sm leading-relaxed">Guardamos automáticamente el <strong>3% de tus ingresos brutos</strong> para cubrir reembolsos. Steam permite a los jugadores pedir la devolución en las primeras 2 horas. En la mayoría de juegos indie, los reembolsos rondan el <strong>2-5%</strong>. No es un gasto que controles, pero existe.</p>
+              </div>
+            </div>
+          </div>
+
+          <div>
+            <label class="calc-label" for="copias-estimadas">¿Cuántas copias esperas vender? (estimación)</label>
+            <input class="calc-input" type="number" id="copias-estimadas" placeholder="500" min="1" step="50" value="500">
+            <p class="calc-hint">Esto es solo para calcular el escenario. La media de un juego indie en Steam, <strong>sin marketing</strong>, ronda las 200-500 copias en el primer año. Con una comunidad activa y visibilidad, los mejores rondan 1.000-5.000.</p>
+          </div>
+        </div>
+
+        <div class="flex justify-between mt-10">
+          <button class="btn-calc-secondary" data-step="3"><i class="fas fa-arrow-left mr-1"></i> Atrás</button>
+          <button class="btn-calc-primary" id="btn-calcular">Calcular <i class="fas fa-calculator ml-1"></i></button>
+        </div>
+      </div>
+
+      <!-- STEP 5: Resultados -->
+      <div class="calc-step" id="step-5">
+        <p class="text-xs font-bold uppercase tracking-widest text-violet-400 mb-1">Informe Final</p>
+        <h2 class="text-2xl font-black text-white mb-2 uppercase tracking-tight">Tu viabilidad real</h2>
+        <p class="text-slate-400 text-sm mb-8 leading-relaxed">Aquí están los números sin adornos. Lo que entra, lo que sale, y lo que te queda.</p>
+
+        <!-- Verdict -->
+        <div class="verdict-box mb-8" id="verdict-box">
+          <p class="text-2xl font-black uppercase tracking-tight" id="verdict-emoji"></p>
+          <p class="text-lg font-black text-white mt-1" id="verdict-title"></p>
+          <p class="text-sm text-slate-400 mt-2" id="verdict-desc"></p>
+        </div>
+
+        <!-- Break-Even Progress -->
+        <div class="result-card mb-6">
+          <div class="flex justify-between items-end mb-3">
+            <div>
+              <p class="result-label">Punto de equilibrio (break-even)</p>
+              <p class="text-slate-300 text-sm mt-1">Copias necesarias para no perder dinero</p>
+            </div>
+            <div class="text-right">
+              <span class="text-2xl font-black text-white" id="be-copias">0</span>
+              <span class="text-slate-400 text-sm ml-1">copias</span>
+            </div>
+          </div>
+          <div class="progress-track">
+            <div class="progress-fill" id="progress-bar" style="width:0%"></div>
+          </div>
+          <div class="flex justify-between mt-2">
+            <span class="text-xs text-slate-500 font-bold">0</span>
+            <span class="text-xs text-slate-400 font-bold" id="progress-label"></span>
+          </div>
+        </div>
+
+        <!-- Breakdown -->
+        <div class="result-card mb-6">
+          <h3 class="text-xs font-black uppercase tracking-widest text-violet-400 mb-4">Desglose con <span id="be-copias-2">0</span> copias vendidas</h3>
+          <div id="breakdown-rows"></div>
+          <div class="mt-4 pt-4 border-t border-white/10 flex justify-between items-center">
+            <span class="text-sm font-black uppercase text-slate-300">Resultado neto</span>
+            <span class="text-xl font-black" id="resultado-neto-val">$0 USD</span>
+          </div>
+        </div>
+
+        <!-- Key Numbers -->
+        <div class="grid grid-cols-2 gap-4 mb-8">
+          <div class="result-card">
+            <p class="result-label">Ingreso neto por copia</p>
+            <p class="result-value text-2xl" id="ingreso-copia">$0 USD</p>
+            <p class="result-sub">Después de la tienda, impuestos y reembolsos</p>
+          </div>
+          <div class="result-card">
+            <p class="result-label">Inversión total</p>
+            <p class="result-value text-2xl" id="inversion-total-display">$0 USD</p>
+            <p class="result-sub">Tu tiempo + gastos + publicación</p>
+          </div>
+        </div>
+
+        <!-- SEO / Educational Block -->
+        <div class="mt-8 p-8 rounded-xl" style="background:rgba(15,10,29,0.6);border:1px solid rgba(255,255,255,0.06);">
+          <h3 class="text-sm font-black uppercase tracking-wide text-slate-300 mb-3"><i class="fas fa-lightbulb text-yellow-400 mr-2"></i>¿Qué significan estos números?</h3>
+          <div class="space-y-2 text-xs text-slate-400 leading-relaxed" id="educational-text">
+          </div>
+        </div>
+
+        <div class="flex flex-col sm:flex-row justify-between gap-3 mt-10">
+          <button class="btn-calc-secondary" id="btn-reset"><i class="fas fa-redo mr-1"></i> Reiniciar</button>
+          <button class="btn-calc-secondary" data-step="4"><i class="fas fa-arrow-left mr-1"></i> Ajustar datos</button>
+        </div>
+      </div>
+
+    </div>
+  </div>
+
+  <!-- SEO Content Block -->
+  <section class="max-w-3xl mx-auto mt-20 mb-10 reveal">
+    <div class="text-center mb-10">
+      <h2 class="text-2xl md:text-3xl font-black tracking-tight mb-4 uppercase">
+        ¿Por qué calcular el <span class="text-violet-500 italic">ROI de tu juego</span> antes de lanzarlo?
+      </h2>
+      <div class="h-px w-20 mx-auto mt-6" style="background:linear-gradient(90deg,transparent,rgba(139,92,246,0.65),transparent);"></div>
+    </div>
+    <div class="grid grid-cols-1 md:grid-cols-3 gap-6">
+      <div class="static-glass-card rounded-2xl p-6 border border-white/5">
+        <div class="w-10 h-10 rounded-xl flex items-center justify-center mb-4" style="background:rgba(139,92,246,0.12);border:1px solid rgba(139,92,246,0.2);">
+          <i class="fas fa-percentage text-violet-400"></i>
+        </div>
+        <h3 class="font-black text-white text-base uppercase tracking-tight mb-2">Steam se queda el 30%</h3>
+        <p class="text-slate-400 text-sm leading-relaxed">Cada euro que el jugador paga, 30 céntimos se los queda Steam. Eso es antes de impuestos. La calculadora lo descuenta automáticamente.</p>
+      </div>
+      <div class="static-glass-card rounded-2xl p-6 border border-white/5">
+        <div class="w-10 h-10 rounded-xl flex items-center justify-center mb-4" style="background:rgba(244,114,182,0.12);border:1px solid rgba(244,114,182,0.2);">
+          <i class="fas fa-undo text-pink-400"></i>
+        </div>
+        <h3 class="font-black text-white text-base uppercase tracking-tight mb-2">Los reembolsos existen</h3>
+        <p class="text-slate-400 text-sm leading-relaxed">Steam permite devoluciones en las primeras 2 horas. En juegos cortos o polémicos puede llegar al 10-15%. Aquí usamos un 3% conservador.</p>
+      </div>
+      <div class="static-glass-card rounded-2xl p-6 border border-white/5">
+        <div class="w-10 h-10 rounded-xl flex items-center justify-center mb-4" style="background:rgba(34,197,94,0.12);border:1px solid rgba(34,197,94,0.2);">
+          <i class="fas fa-balance-scale text-green-400"></i>
+        </div>
+        <h3 class="font-black text-white text-base uppercase tracking-tight mb-2">El break-even es la clave</h3>
+        <p class="text-slate-400 text-sm leading-relaxed">Muchos indie lanzan sin saber cuántas copias necesitan para "salir en verde". El break-even es ese número mágico. Si es inalcanzable, hay que ajustar precio o costes.</p>
+      </div>
+    </div>
+  </section>
+
+</div>
+
+<script src="{{ '/assets/js/roi-calculator.js' | relative_url }}" defer></script>
