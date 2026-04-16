@@ -152,9 +152,9 @@ document.addEventListener('DOMContentLoaded', () => {
     const inversion     = costeTiempo + gastosExt;
 
     const bruto         = precio;
-    const despTienda    = bruto * (1 - platformFee);
-    const despReembolso = despTienda * (1 - refundRate);
-    const despImpuestos = despReembolso * (1 - taxRate);
+    const despReembolso = bruto * (1 - refundRate);
+    const despTienda    = despReembolso * (1 - platformFee);
+    const despImpuestos = despTienda * (1 - taxRate);
     const netoCopia     = despImpuestos;
 
     const breakEven     = netoCopia > 0 ? Math.ceil(inversion / netoCopia) : Infinity;
@@ -171,11 +171,18 @@ document.addEventListener('DOMContentLoaded', () => {
     document.getElementById('ingreso-copia').textContent = fmt(netoCopia);
     document.getElementById('inversion-total-display').textContent = fmt(inversion);
 
+    const brutoTotal = precio * copias;
+    const reembolsosTotal = brutoTotal * refundRate;
+    const brutoFinal = brutoTotal - reembolsosTotal;
+    const comisionTotal = brutoFinal * platformFee;
+    const ingresosDev = brutoFinal - comisionTotal;
+    const impuestosTotal = ingresosDev * taxRate;
+
     const rows = [
-      { name: 'Precio de venta (x' + copias + ' copias)', val: fmt(precio * copias), cls: '' },
-      { name: 'Comisión tienda (' + Math.round(platformFee*100) + '%)', val: '-' + fmt(precio * platformFee * copias), cls: 'neg' },
-      { name: 'Reserva reembolsos (3%)', val: '-' + fmt(precio * (1-platformFee) * refundRate * copias), cls: 'neg' },
-      { name: 'Impuestos (' + Math.round(taxRate*100) + '%)', val: '-' + fmt(precio * (1-platformFee) * (1-refundRate) * taxRate * copias), cls: 'neg' },
+      { name: 'Precio de venta (x' + copias + ' copias) bruto', val: fmt(brutoTotal), cls: '' },
+      { name: 'Reserva reembolsos (3%)', val: '-' + fmt(reembolsosTotal), cls: 'neg' },
+      { name: 'Comisión tienda (' + Math.round(platformFee*100) + '%)', val: '-' + fmt(comisionTotal), cls: 'neg' },
+      { name: 'Impuestos (' + Math.round(taxRate*100) + '%)', val: '-' + fmt(impuestosTotal), cls: 'neg' },
       { name: 'Ingresos netos', val: fmt(ingresosEst), cls: 'pos' },
       { name: 'Tu tiempo', val: '-' + fmt(costeTiempo), cls: 'neg' },
       { name: 'Gastos externos', val: '-' + fmt(gastosExt), cls: 'neg' },
