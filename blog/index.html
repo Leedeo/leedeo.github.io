@@ -4,15 +4,20 @@ title: "Blog de Desarrollo de Videojuegos"
 description: "Artículos sobre desarrollo de videojuegos, industria indie, tutoriales de Godot Engine y análisis del mercado. Contenido original de Leedeo Studio."
 ---
 
+<link rel="stylesheet" href="{{ '/assets/css/blog-list.css' | relative_url }}">
+
 <div class="relative min-h-screen pt-32 pb-24 px-6 hero-gradient">
   <div class="max-w-7xl mx-auto">
+
     <header class="mb-12 text-center reveal">
       <h1 class="text-4xl md:text-6xl font-extrabold mb-6 tracking-tight uppercase leading-[1.2]">
         Mi <span class="gradient-text italic">Blog</span>
       </h1>
+
       <p class="text-slate-400 text-lg max-w-2xl mx-auto font-light">
         Tutoriales, noticias y reflexiones sobre el desarrollo de videojuegos y software independiente.
       </p>
+
       <div class="h-1.5 w-24 bg-violet-500 mx-auto rounded-full mt-8"></div>
     </header>
 
@@ -25,6 +30,7 @@ description: "Artículos sobre desarrollo de videojuegos, industria indie, tutor
         >
           <i class="fas fa-search text-sm"></i>
         </span>
+
         <input
           type="text"
           id="blog-search"
@@ -33,6 +39,7 @@ description: "Artículos sobre desarrollo de videojuegos, industria indie, tutor
           autocomplete="off"
           class="w-full bg-[#1a1130]/80 border border-violet-300/70 focus:border-violet-400/80 text-slate-200 placeholder-slate-500 rounded-2xl pl-12 pr-12 py-4 outline-none transition-all duration-300 focus:bg-[#1d1338]/90 focus:shadow-lg focus:shadow-violet-900/20 text-sm font-medium"
         />
+
         <button
           id="search-clear"
           aria-label="Limpiar búsqueda"
@@ -41,6 +48,7 @@ description: "Artículos sobre desarrollo de videojuegos, industria indie, tutor
           <i class="fas fa-times text-sm"></i>
         </button>
       </div>
+
       <p
         id="no-results"
         class="hidden text-center text-slate-400 italic mt-8 text-sm"
@@ -48,8 +56,7 @@ description: "Artículos sobre desarrollo de videojuegos, industria indie, tutor
         No se encontraron artículos para "<span
           id="search-term-display"
           class="text-violet-400 not-italic font-semibold"
-        ></span
-        >".
+        ></span>".
       </p>
     </div>
 
@@ -75,19 +82,24 @@ description: "Artículos sobre desarrollo de videojuegos, industria indie, tutor
                 loading="lazy"
                 class="absolute inset-0 w-full h-full object-cover transition-transform duration-700 group-hover:scale-110"
               />
+
               <div
                 class="absolute inset-0 bg-gradient-to-t from-[#05001d] via-[#05001d]/60 to-transparent opacity-90"
               ></div>
+
               {% if post.categories.size > 0 %}
               <div class="absolute top-4 left-4">
                 {% include category-badge.html category=post.categories.first %}
               </div>
               {% endif %}
+
               <div class="absolute bottom-0 p-6 md:p-8 w-full">
                 {% include author-date.html author=post.author date=post.date show_name=false img_size=5 %}
+
                 <h2 class="text-2xl md:text-3xl font-bold text-white leading-tight group-hover:text-violet-300 transition-colors">
                   {{ post.title }}
                 </h2>
+
                 <p class="text-slate-400 text-lg leading-relaxed mt-3 line-clamp-2">
                   {{ post.excerpt | strip_html | truncate: 155 }}
                 </p>
@@ -140,7 +152,9 @@ description: "Artículos sobre desarrollo de videojuegos, industria indie, tutor
         {% include post-card.html post=post reveal_delay=reveal_delay %}
         {% endfor %}
       </div>
-      {% endif %} {% if paginator.total_pages > 1 %}
+      {% endif %}
+
+      {% if paginator.total_pages > 1 %}
       <nav
         id="pagination-nav"
         class="flex justify-center items-center gap-4 reveal"
@@ -154,11 +168,13 @@ description: "Artículos sobre desarrollo de videojuegos, industria indie, tutor
           <i class="fas fa-chevron-left"></i>
         </a>
         {% endif %}
+
         <span
           class="text-slate-400 font-bold tracking-widest text-xs uppercase"
         >
           Página {{ paginator.page }} de {{ paginator.total_pages }}
         </span>
+
         {% if paginator.next_page %}
         <a
           href="{{ paginator.next_page_path | relative_url }}"

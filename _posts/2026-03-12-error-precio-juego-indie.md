@@ -98,6 +98,8 @@ Un juego a 4,99 euros envía un mensaje. Un juego a 24,99 euros envía otro. No 
 
 El precio no existe en el vacío. Es una parte más de la página de tienda, del posicionamiento, de la imagen general del proyecto. Y como el resto de esas decisiones, merece pensarse con cuidado antes del lanzamiento, no en el último momento porque hay que rellenar el campo en Steamworks.
 
+{% include roi-callout.html %}
+
 ---
 
 ## Fuentes utilizadas en este artículo:

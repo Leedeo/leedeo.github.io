@@ -105,6 +105,8 @@ Los grandes éxitos recientes rara vez son puros. *Stardew Valley* es Sim + RPG 
 
 Otro dato lapidario para cerrar: **si tu juego no vende en el primer mes, casi seguro no venderá jamás**. Las resurrecciones milagrosas a largo plazo son anomalías estadísticas extremas. Steam premia el *engagement* explosivo (de ahí la enorme importancia de las Wishlists y la comunidad previa).
 
+{% include roi-callout.html %}
+
 No hay fórmulas mágicas, pero elegir un género base con una matemática favorable (o hibridarlo inteligentemente) es darle a tu juego, a tu esfuerzo y a tu equipo una ventaja injusta desde el día uno.
 
 ---

@@ -1,0 +1,71 @@
+/* ROI Calculator Callout (Internal Ads) */
+.roi-callout-container {
+  margin: 3rem 0;
+  background: linear-gradient(135deg, rgba(139, 92, 246, 0.12) 0%, rgba(30, 20, 50, 0.4) 100%);
+  border: 1px solid rgba(139, 92, 246, 0.3);
+  border-radius: 1.5rem;
+  overflow: hidden;
+  position: relative;
+}
+.roi-callout-content {
+  padding: 2rem;
+  display: flex;
+  align-items: center;
+  gap: 1.5rem;
+}
+.roi-callout-icon {
+  width: 50px;
+  height: 50px;
+  background: var(--violet-primary);
+  color: white;
+  border-radius: 1rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 1.25rem;
+  flex-shrink: 0;
+  box-shadow: 0 8px 16px rgba(139, 92, 246, 0.3);
+}
+.roi-callout-text {
+  flex: 1;
+}
+.roi-callout-text h4 {
+  margin: 0 0 0.25rem 0 !important;
+  color: #fff !important;
+  font-size: 1.15rem !important;
+  font-weight: 800 !important;
+}
+.roi-callout-text p {
+  margin: 0 !important;
+  font-size: 0.9rem !important;
+  color: var(--text-dim) !important;
+  line-height: 1.4 !important;
+}
+.roi-callout-btn {
+  background: rgba(255, 255, 255, 0.05);
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  color: #fff;
+  padding: 0.75rem 1.25rem;
+  border-radius: 0.75rem;
+  font-size: 0.85rem;
+  font-weight: 700;
+  text-decoration: none !important;
+  transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+  white-space: nowrap;
+}
+.roi-callout-btn:hover {
+  background: var(--violet-primary);
+  border-color: var(--violet-light);
+  transform: translateX(4px);
+}
+
+@media (max-width: 640px) {
+  .roi-callout-content {
+    flex-direction: column;
+    text-align: center;
+    padding: 1.5rem;
+  }
+  .roi-callout-btn {
+    width: 100%;
+  }
+}

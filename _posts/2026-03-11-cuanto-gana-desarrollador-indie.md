@@ -145,6 +145,8 @@ La conclusión práctica de todo esto no es desalentadora si se lee bien: **crea
 
 El mercado está ahí. Los datos muestran que hay espacio para más desarrolladores indie con proyectos bien ejecutados. Lo que no hay es atajos.
 
+{% include roi-callout.html %}
+
 ---
 
 Fuentes utilizadas en este artículo:

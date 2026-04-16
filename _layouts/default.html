@@ -4,9 +4,11 @@
     {% comment %}Metadatos compartidos y schema base reutilizado por todas las páginas.{% endcomment %}
     {% include head.html %}
     {% include schema-person.html %}
+
     {% if page.video %}
     {% include schema-video.html %}
     {% endif %}
+
     {% include schema-breadcrumbs.html %}
 </head>
 
@@ -19,6 +21,7 @@
     </main>
 
     {% include footer.html %}
+
     {% include cookie-banner.html %}
 
     {% comment %}Script global mínimo para el botón de volver arriba.{% endcomment %}

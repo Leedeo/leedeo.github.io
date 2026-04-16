@@ -236,3 +236,66 @@
   to   { opacity: 1; transform: translateY(0); }
 }
 .calc-step.active { animation: fadeInUp 0.35s ease; }
+
+/* Nuevas Secciones SEO */
+.seo-content-extra {
+  margin-top: 4rem;
+  border-top: 1px solid rgba(139, 92, 246, 0.1);
+  padding-top: 4rem;
+}
+.seo-section-title {
+  font-size: 1.75rem;
+  font-weight: 900;
+  text-transform: uppercase;
+  letter-spacing: -0.02em;
+  margin-bottom: 2rem;
+  color: #fff;
+  text-align: center;
+}
+.seo-section-title span {
+  color: var(--violet-light);
+}
+
+/* Course CTA Banner Styles (Restored from Leedeo Cleaner) */
+.lc-cta-box {
+  position: relative;
+  border-radius: 2rem;
+  padding: 3rem 2.5rem;
+  border: 1px solid rgba(139, 92, 246, 0.2);
+  box-shadow: 0 25px 50px -12px rgba(139, 92, 246, 0.15);
+  overflow: hidden;
+}
+@media (min-width: 768px) {
+  .lc-cta-box {
+    padding: 4rem;
+  }
+}
+.lc-cta-bg-icon {
+  position: absolute;
+  right: -2rem;
+  bottom: -2rem;
+  font-size: 12rem;
+  color: rgba(139, 92, 246, 0.05);
+  transform: rotate(-12deg);
+  pointer-events: none;
+}
+.lc-download-btn {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.75rem;
+  background: #7c3aed;
+  color: #ffffff;
+  padding: 1.25rem 2.5rem;
+  border-radius: 1rem;
+  font-size: 1.125rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.15em;
+  transition: all 0.3s ease;
+  box-shadow: 0 20px 25px -5px rgba(139, 92, 246, 0.25);
+  text-decoration: none;
+}
+.lc-download-btn:hover {
+  background: #6d28d9;
+  transform: scale(1.05);
+}

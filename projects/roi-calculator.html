@@ -41,16 +41,20 @@ permalink: "/projects/roi-calculator/"
   <!-- Hero -->
   <header class="max-w-3xl mx-auto text-center mb-14 reveal">
     <span class="section-eyebrow">Herramienta Gratuita</span>
+
     <h1 class="text-4xl md:text-5xl font-black tracking-tight mb-5 uppercase leading-[1.15]">
       Calculadora de <span class="gradient-text italic">Viabilidad</span><br>para tu Juego
     </h1>
+
     <p class="text-slate-400 text-lg max-w-xl mx-auto leading-relaxed font-light">
       Descubre cuántas copias necesitas vender para recuperar lo que has invertido — y cuánto dinero real te queda en el bolsillo después de que <strong>Steam, Hacienda y tus proveedores</strong> se lleven su parte.
     </p>
+
+    <div class="h-px w-24 mx-auto mt-8" style="background: linear-gradient(90deg, transparent, rgba(139,92,246,0.65), transparent);"></div>
   </header>
 
-  <!-- Calculator Shell -->
-  <div class="max-w-4xl mx-auto reveal delay-100 mb-20">
+  <!-- Calculator Section -->
+  <main class="max-w-4xl mx-auto reveal delay-100 mb-28">
     <div class="static-glass-card p-8 md:p-10">
 
       <!-- Step Indicators -->
@@ -131,6 +135,7 @@ permalink: "/projects/roi-calculator/"
           <div class="result-card">
             <p class="result-label">Tu inversión de tiempo valorada</p>
             <p class="result-value" id="coste-tiempo-display">$10,000 USD</p>
+
             <p class="result-sub">= <span id="horas-display">500</span> h × <span id="tarifa-display">20</span> $/h</p>
           </div>
         </div>
@@ -153,16 +158,19 @@ permalink: "/projects/roi-calculator/"
             <input class="calc-input" type="number" id="assets" placeholder="0" min="0" step="10" value="0">
             <p class="calc-hint">Assets de Unity Asset Store, música de Artlist, efectos de sonido de Freesound con licencia de pago... todo cuenta.</p>
           </div>
+
           <div>
             <label class="calc-label" for="freelancers">Lo que has pagado a freelancers o colaboradores (USD / $)</label>
             <input class="calc-input" type="number" id="freelancers" placeholder="0" min="0" step="50" value="0">
             <p class="calc-hint">Diseñadores, traductores, músicos contratados, alguien que te hizo el tráiler...</p>
           </div>
+
           <div>
             <label class="calc-label" for="software">Licencias de software, hardware u otros costes (USD / $)</label>
             <input class="calc-input" type="number" id="software" placeholder="0" min="0" step="10" value="0">
             <p class="calc-hint">Suscripción de motor, Adobe, un ordenador nuevo que compraste para el proyecto, hosting...</p>
           </div>
+
           <div>
             <label class="calc-label" for="marketing">¿Cuánto piensas gastar en publicidad y marketing? (USD / $)</label>
             <input class="calc-input" type="number" id="marketing" placeholder="0" min="0" step="50" value="0">
@@ -195,15 +203,17 @@ permalink: "/projects/roi-calculator/"
           <div class="result-card" style="border-color:rgba(251,191,36,0.2);background:rgba(251,191,36,0.05);">
             <div class="flex items-start gap-3">
               <i class="fas fa-undo text-yellow-400 mt-1"></i>
+
               <div>
                 <p class="text-xs font-bold uppercase tracking-widest text-yellow-400 mb-1">Reserva automática para reembolsos</p>
+
                 <p class="text-slate-300 text-sm leading-relaxed">Guardamos automáticamente el <strong>3% de tus ingresos brutos</strong> para cubrir reembolsos. Steam permite a los jugadores pedir la devolución en las primeras 2 horas. En la mayoría de juegos indie, los reembolsos rondan el <strong>2-5%</strong>. No es un gasto que controles, pero existe.</p>
               </div>
             </div>
           </div>
 
           <div>
-            <label class="calc-label" for="copias-estimadas">¿Cuántas copias esperas vender? (estimación)</label>
+            <label class="calc-label" for="copias-estimadas">¿Cuántas copias piensas vender? (estimación)</label>
             <input class="calc-input" type="number" id="copias-estimadas" placeholder="500" min="1" step="50" value="500">
             <p class="calc-hint">Esto es solo para calcular el escenario. La media de un juego indie en Steam, <strong>sin marketing</strong>, ronda las 200-500 copias en el primer año. Con una comunidad activa y visibilidad, los mejores rondan 1.000-5.000.</p>
           </div>
@@ -235,14 +245,17 @@ permalink: "/projects/roi-calculator/"
               <p class="result-label">Punto de equilibrio (break-even)</p>
               <p class="text-slate-300 text-sm mt-1">Copias necesarias para no perder dinero</p>
             </div>
+
             <div class="text-right">
               <span class="text-2xl font-black text-white" id="be-copias">0</span>
               <span class="text-slate-400 text-sm ml-1">copias</span>
             </div>
           </div>
+
           <div class="progress-track">
             <div class="progress-fill" id="progress-bar" style="width:0%"></div>
           </div>
+
           <div class="flex justify-between mt-2">
             <span class="text-xs text-slate-500 font-bold">0</span>
             <span class="text-xs text-slate-400 font-bold" id="progress-label"></span>
@@ -252,7 +265,9 @@ permalink: "/projects/roi-calculator/"
         <!-- Breakdown -->
         <div class="result-card mb-6">
           <h3 class="text-xs font-black uppercase tracking-widest text-violet-400 mb-4">Desglose con <span id="be-copias-2">0</span> copias vendidas</h3>
+
           <div id="breakdown-rows"></div>
+
           <div class="mt-4 pt-4 border-t border-white/10 flex justify-between items-center">
             <span class="text-sm font-black uppercase text-slate-300">Resultado neto</span>
             <span class="text-xl font-black" id="resultado-neto-val">$0 USD</span>
@@ -266,6 +281,7 @@ permalink: "/projects/roi-calculator/"
             <p class="result-value text-2xl" id="ingreso-copia">$0 USD</p>
             <p class="result-sub">Después de la tienda, impuestos y reembolsos</p>
           </div>
+
           <div class="result-card">
             <p class="result-label">Inversión total</p>
             <p class="result-value text-2xl" id="inversion-total-display">$0 USD</p>
@@ -276,8 +292,7 @@ permalink: "/projects/roi-calculator/"
         <!-- SEO / Educational Block -->
         <div class="mt-8 p-8 rounded-xl" style="background:rgba(15,10,29,0.6);border:1px solid rgba(255,255,255,0.06);">
           <h3 class="text-sm font-black uppercase tracking-wide text-slate-300 mb-3"><i class="fas fa-lightbulb text-yellow-400 mr-2"></i>¿Qué significan estos números?</h3>
-          <div class="space-y-2 text-xs text-slate-400 leading-relaxed" id="educational-text">
-          </div>
+          <div class="space-y-2 text-xs text-slate-400 leading-relaxed" id="educational-text"></div>
         </div>
 
         <div class="flex flex-col sm:flex-row justify-between gap-3 mt-10">
@@ -285,40 +300,105 @@ permalink: "/projects/roi-calculator/"
           <button class="btn-calc-secondary" data-step="4"><i class="fas fa-arrow-left mr-1"></i> Ajustar datos</button>
         </div>
       </div>
-
     </div>
-  </div>
+  </main>
 
-  <!-- SEO Content Block -->
-  <section class="max-w-3xl mx-auto mt-20 mb-10 reveal">
+  <!-- Block: 3 Columns Section -->
+  <section class="max-w-3xl mx-auto mb-28 reveal">
     <div class="text-center mb-10">
       <h2 class="text-2xl md:text-3xl font-black tracking-tight mb-4 uppercase">
         ¿Por qué calcular el <span class="text-violet-500 italic">ROI de tu juego</span> antes de lanzarlo?
       </h2>
+
       <div class="h-px w-20 mx-auto mt-6" style="background:linear-gradient(90deg,transparent,rgba(139,92,246,0.65),transparent);"></div>
     </div>
+
     <div class="grid grid-cols-1 md:grid-cols-3 gap-6">
+
       <div class="static-glass-card rounded-2xl p-6 border border-white/5">
         <div class="w-10 h-10 rounded-xl flex items-center justify-center mb-4" style="background:rgba(139,92,246,0.12);border:1px solid rgba(139,92,246,0.2);">
           <i class="fas fa-percentage text-violet-400"></i>
         </div>
+
         <h3 class="font-black text-white text-base uppercase tracking-tight mb-2">Steam se queda el 30%</h3>
+
         <p class="text-slate-400 text-sm leading-relaxed">Cada dolar que el jugador paga, 30 centavos se los queda Steam. Eso es antes de impuestos. La calculadora lo descuenta automáticamente.</p>
       </div>
+
       <div class="static-glass-card rounded-2xl p-6 border border-white/5">
         <div class="w-10 h-10 rounded-xl flex items-center justify-center mb-4" style="background:rgba(244,114,182,0.12);border:1px solid rgba(244,114,182,0.2);">
           <i class="fas fa-undo text-pink-400"></i>
         </div>
+
         <h3 class="font-black text-white text-base uppercase tracking-tight mb-2">Los reembolsos existen</h3>
+
         <p class="text-slate-400 text-sm leading-relaxed">Steam permite devoluciones en las primeras 2 horas. En juegos cortos o polémicos puede llegar al 10-15%. Aquí usamos un 3% conservador.</p>
       </div>
+
       <div class="static-glass-card rounded-2xl p-6 border border-white/5">
         <div class="w-10 h-10 rounded-xl flex items-center justify-center mb-4" style="background:rgba(34,197,94,0.12);border:1px solid rgba(34,197,94,0.2);">
           <i class="fas fa-balance-scale text-green-400"></i>
         </div>
+
         <h3 class="font-black text-white text-base uppercase tracking-tight mb-2">El break-even es la clave</h3>
+
         <p class="text-slate-400 text-sm leading-relaxed">Muchos indie lanzan sin saber cuántas copias necesitan para "salir en verde". El break-even es ese número mágico. Si es inalcanzable, hay que ajustar precio o costes.</p>
       </div>
+
+    </div>
+  </section>
+
+  <!-- Course CTA Banner -->
+  <section aria-labelledby="cta-title" class="max-w-4xl mx-auto mb-16 text-center reveal relative z-10">
+    <div class="static-glass-card lc-cta-box">
+      <div class="absolute inset-0 bg-gradient-to-b from-violet-900/10 to-transparent pointer-events-none"></div>
+      <i class="fas fa-bullhorn lc-cta-bg-icon"></i>
+
+      <h2 id="cta-title" class="text-3xl md:text-5xl font-black text-white mb-6 uppercase tracking-tight relative z-10">Domina el Gaming Marketing</h2>
+
+      <p class="text-slate-300 mb-12 text-lg leading-relaxed font-light relative z-10">
+        Saber tus números es el primer paso. El segundo es conseguir que la gente compre tu juego. Aprende a crear Wishlists, contactar con prensa y entender el algoritmo de Steam con mi curso especializado.
+      </p>
+
+      <div class="relative z-10 flex flex-col items-center gap-4">
+        <a href="{{ '/courses/gaming-marketing/' | relative_url }}" class="lc-download-btn">
+          <i class="fas fa-play"></i> Ver Programa del Curso
+        </a>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- FAQ Section -->
+  <section class="max-w-3xl mx-auto reveal">
+    <div class="text-center mb-10">
+      <h2 class="text-2xl md:text-3xl font-black tracking-tight mb-4 uppercase">
+        Preguntas Frecuentes sobre <span class="text-violet-500 italic">ROI en Steam</span>
+      </h2>
+
+      <div class="h-px w-20 mx-auto mt-6" style="background:linear-gradient(90deg,transparent,rgba(139,92,246,0.65),transparent);"></div>
+    </div>
+
+    <div class="space-y-4" itemscope itemtype="https://schema.org/FAQPage">
+      {% include faq-item.html
+        question="¿Cuánto se queda realmente Steam de mis ventas?"
+        answer="Steam aplica una comisión estándar del 30% sobre el precio de venta bruto. Sin embargo, para juegos que superan los 10 millones de dólares en ventas, esta tasa baja al 25%, y al 20% si superan los 50 millones. Para la inmensa mayoría de indies, la cifra mágica siempre será el 30%."
+      %}
+
+      {% include faq-item.html
+        question="¿Qué impuestos debo pagar por vender mi juego?"
+        answer="Depende de tu residencia fiscal. En España, Steam recauda el IVA (VAT) por ti, pero tú debes tributar por el IRPF (si eres autónomo) o Impuesto de Sociedades (si eres empresa) sobre el beneficio neto. En países como México o Colombia, existen retenciones específicas que varían según los tratados de doble imposición con EE.UU."
+      %}
+
+      {% include faq-item.html
+        question="¿Cuál es una tasa de reembolsos normal en Steam?"
+        answer="La mediana en Steam suele rondar el 3% al 8%. Juegos muy cortos (menos de 2 horas) o con problemas técnicos graves pueden sufrir tasas de hasta el 20%. En esta calculadora usamos un 3% como base conservadora de seguridad."
+      %}
+
+      {% include faq-item.html
+        question="¿Qué es el 'Break-Even' y por qué es vital?"
+        answer="El punto de equilibrio o break-even es el número exacto de copias que necesitas vender para que tus ingresos netos igualen a tus costes totales (tiempo + dinero). Alcanzar este punto significa que dejas de perder dinero y cada venta adicional es beneficio real."
+      %}
     </div>
   </section>
 

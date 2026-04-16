@@ -1,9 +1,9 @@
 <footer class="bg-[#080411] border-t border-white/[0.06]">
-  <div
-    class="h-px bg-gradient-to-r from-transparent via-violet-600/30 to-transparent"
-  ></div>
+  <div class="h-px bg-gradient-to-r from-transparent via-violet-600/30 to-transparent"></div>
+
   <div class="max-w-7xl mx-auto px-6 py-20">
     <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-12 lg:gap-8">
+
       {% comment %}Presentación breve del proyecto y acceso al soporte directo.{% endcomment %}
       <div class="lg:col-span-1">
         <a
@@ -12,10 +12,12 @@
         >
           {% include logo-brand.html size='sm' rotate=true hover=true %}
         </a>
+
         <p class="text-slate-500 text-sm leading-relaxed mb-6">
           Recursos para aprender a crear videojuegos, entender la industria y
           construir proyectos propios. Contenido en español por Javo.
         </p>
+
         <a
           href="{{ site.data.social.other.kofi.url }}"
           target="_blank"
@@ -25,119 +27,116 @@
           <i class="fas fa-heart text-xs"></i> Apoyar en Ko-fi
         </a>
       </div>
+
       {% comment %}Bloques de enlaces internos agrupados por intención de navegación.{% endcomment %}
       <div>
         <h3 class="text-[0.6rem] font-bold uppercase tracking-[0.25em] text-violet-500/70 mb-5">
           Navegar
         </h3>
+
         <ul class="space-y-3">
           <li>
             <a
               href="{{ '/' | relative_url }}"
               class="text-slate-500 hover:text-slate-200 text-sm transition-colors duration-200 flex items-center gap-2 group"
             >
-              <span
-                class="w-3 h-px bg-violet-600/0 group-hover:bg-violet-500/60 transition-all duration-200 flex-shrink-0"
-              ></span
-              >Inicio
+              <span class="w-3 h-px bg-violet-600/0 group-hover:bg-violet-500/60 transition-all duration-200 flex-shrink-0"></span>
+              Inicio
             </a>
           </li>
+
           <li>
             <a
               href="{{ '/about/' | relative_url }}"
               class="text-slate-500 hover:text-slate-200 text-sm transition-colors duration-200 flex items-center gap-2 group"
             >
-              <span
-                class="w-3 h-px bg-violet-600/0 group-hover:bg-violet-500/60 transition-all duration-200 flex-shrink-0"
-              ></span
-              >Sobre mí
+              <span class="w-3 h-px bg-violet-600/0 group-hover:bg-violet-500/60 transition-all duration-200 flex-shrink-0"></span>
+              Sobre mí
             </a>
           </li>
+
           <li>
             <a
               href="{{ '/blog/' | relative_url }}"
               class="text-slate-500 hover:text-slate-200 text-sm transition-colors duration-200 flex items-center gap-2 group"
             >
-              <span
-                class="w-3 h-px bg-violet-600/0 group-hover:bg-violet-500/60 transition-all duration-200 flex-shrink-0"
-              ></span
-              >Blog
+              <span class="w-3 h-px bg-violet-600/0 group-hover:bg-violet-500/60 transition-all duration-200 flex-shrink-0"></span>
+              Blog
             </a>
           </li>
+
           <li>
             <a
               href="{{ '/contact/' | relative_url }}"
               class="text-slate-500 hover:text-slate-200 text-sm transition-colors duration-200 flex items-center gap-2 group"
             >
-              <span
-                class="w-3 h-px bg-violet-600/0 group-hover:bg-violet-500/60 transition-all duration-200 flex-shrink-0"
-              ></span
-              >Contacto
+              <span class="w-3 h-px bg-violet-600/0 group-hover:bg-violet-500/60 transition-all duration-200 flex-shrink-0"></span>
+              Contacto
             </a>
           </li>
         </ul>
       </div>
+
       <div>
         <h3 class="text-[0.6rem] font-bold uppercase tracking-[0.25em] text-violet-500/70 mb-5">
           Proyectos
         </h3>
+
         <ul class="space-y-3 mb-8">
           <li>
             <a
               href="{{ '/projects/halls-of-delirium/' | relative_url }}"
               class="text-slate-500 hover:text-slate-200 text-sm transition-colors duration-200 flex items-center gap-2 group"
             >
-              <span
-                class="w-3 h-px bg-violet-600/0 group-hover:bg-violet-500/60 transition-all duration-200 flex-shrink-0"
-              ></span
-              >Halls of Delirium
+              <span class="w-3 h-px bg-violet-600/0 group-hover:bg-violet-500/60 transition-all duration-200 flex-shrink-0"></span>
+              Halls of Delirium
             </a>
           </li>
+
           <li>
             <a
               href="{{ '/projects/leedeo-cleaner/' | relative_url }}"
               class="text-slate-500 hover:text-slate-200 text-sm transition-colors duration-200 flex items-center gap-2 group"
             >
-              <span
-                class="w-3 h-px bg-violet-600/0 group-hover:bg-violet-500/60 transition-all duration-200 flex-shrink-0"
-              ></span
-              >Leedeo Cleaner
+              <span class="w-3 h-px bg-violet-600/0 group-hover:bg-violet-500/60 transition-all duration-200 flex-shrink-0"></span>
+              Leedeo Cleaner
             </a>
           </li>
         </ul>
+
         <h3 class="text-[0.6rem] font-bold uppercase tracking-[0.25em] text-violet-500/70 mb-5">
           Cursos
         </h3>
+
         <ul class="space-y-3">
           <li>
             <a
               href="{{ '/courses/godot/' | relative_url }}"
               class="text-slate-500 hover:text-slate-200 text-sm transition-colors duration-200 flex items-center gap-2 group"
             >
-              <span
-                class="w-3 h-px bg-violet-600/0 group-hover:bg-violet-500/60 transition-all duration-200 flex-shrink-0"
-              ></span
-              >Godot Engine
+              <span class="w-3 h-px bg-violet-600/0 group-hover:bg-violet-500/60 transition-all duration-200 flex-shrink-0"></span>
+              Godot Engine
             </a>
           </li>
+
           <li>
             <a
               href="{{ '/courses/gaming-marketing/' | relative_url }}"
               class="text-slate-500 hover:text-slate-200 text-sm transition-colors duration-200 flex items-center gap-2 group"
             >
-              <span
-                class="w-3 h-px bg-violet-600/0 group-hover:bg-violet-500/60 transition-all duration-200 flex-shrink-0"
-              ></span
-              >Gaming Marketing
+              <span class="w-3 h-px bg-violet-600/0 group-hover:bg-violet-500/60 transition-all duration-200 flex-shrink-0"></span>
+              Gaming Marketing
             </a>
           </li>
         </ul>
       </div>
+
       {% comment %}Accesos a comunidad y canal principal fuera del contenido editorial.{% endcomment %}
       <div>
         <h3 class="text-[0.6rem] font-bold uppercase tracking-[0.25em] text-violet-500/70 mb-5">
           Comunidad
         </h3>
+
         <div class="grid grid-cols-6 gap-2 mb-6">
           {% for network in site.data.social.networks %}
           <a
@@ -152,9 +151,11 @@
           </a>
           {% endfor %}
         </div>
+
         <p class="text-slate-600 text-xs leading-relaxed">
           Únete al canal de WhatsApp para recibir contenido en primicia y novedades de la industria.
         </p>
+
         <a
           href="{{ site.data.social.other.whatsapp.url }}"
           target="_blank"
@@ -162,13 +163,12 @@
           class="mt-4 inline-flex items-center gap-2 text-green-500 hover:text-green-400 text-xs font-bold uppercase tracking-widest transition-colors duration-200 group"
         >
           Unirse al canal
-          <i
-            class="fas fa-arrow-right text-[10px] transition-transform group-hover:translate-x-1"
-          ></i>
+          <i class="fas fa-arrow-right text-[10px] transition-transform group-hover:translate-x-1"></i>
         </a>
       </div>
     </div>
   </div>
+
   <div class="border-t border-white/[0.05] bg-[#060310]">
     <div
       class="max-w-7xl mx-auto px-6 py-5 flex flex-col sm:flex-row items-center justify-between gap-4"
@@ -176,12 +176,14 @@
       <p class="text-slate-600 text-[0.6rem] font-bold tracking-[0.4em] uppercase">
         © <span id="auto-year"></span> {{ site.title }} · Javo · Game Dev y Creación de Contenido
       </p>
+
       <div class="flex items-center gap-6">
         <a
           href="{{ '/policy/' | relative_url }}"
           class="text-slate-600 hover:text-violet-400 text-[0.6rem] font-bold tracking-widest uppercase transition-colors"
           >Políticas de privacidad</a
         >
+
         <a
           href="{{ '/rules/' | relative_url }}"
           class="text-slate-600 hover:text-violet-400 text-[0.6rem] font-bold tracking-widest uppercase transition-colors"

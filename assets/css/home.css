@@ -1,0 +1,61 @@
+/* Home Specific Styles - Marquee & Testimonials */
+.marquee-container {
+  overflow: hidden;
+  white-space: nowrap;
+  position: relative;
+  width: 100%;
+  padding: 2rem 0;
+}
+.marquee-container::before,
+.marquee-container::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  width: 200px;
+  height: 100%;
+  z-index: 10;
+  pointer-events: none;
+}
+.marquee-container::before {
+  left: 0;
+  background: linear-gradient(to right, var(--bg-dark), transparent);
+}
+.marquee-container::after {
+  right: 0;
+  background: linear-gradient(to left, var(--bg-dark), transparent);
+}
+.marquee-content {
+  display: flex;
+  width: max-content;
+  animation: marquee-scroll 60s linear infinite;
+  will-change: transform;
+}
+.marquee-content:hover {
+  animation-play-state: paused;
+}
+.testimonial-card {
+  width: 380px;
+  margin-right: 2rem;
+  flex-shrink: 0;
+  white-space: normal;
+}
+@keyframes marquee-scroll {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(-50%);
+  }
+}
+
+@media (max-width: 768px) {
+  .testimonial-card {
+    width: 300px;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .marquee-content {
+    animation-play-state: paused !important;
+  }
+}

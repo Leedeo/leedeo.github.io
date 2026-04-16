@@ -2,6 +2,9 @@
 layout: "default"
 ---
 
+<link rel="stylesheet" href="{{ '/assets/css/rich-content.css' | relative_url }}">
+<link rel="stylesheet" href="{{ '/assets/css/roi-callout.css' | relative_url }}">
+
 {% assign post_author = site.data.authors[page.author] | default: site.data.authors['javo'] %}
 {% if page.faq %}
 <script type="application/ld+json">
@@ -22,13 +25,16 @@ layout: "default"
     ]
   }
 </script>
-{% endif %} {% comment %}La barra existe en el HTML; el script solo actualiza su progreso al hacer scroll.{% endcomment %}
+{% endif %}
+
+{% comment %}La barra existe en el HTML; el script solo actualiza su progreso al hacer scroll.{% endcomment %}
 <div class="reading-progress" aria-hidden="true">
   <div class="reading-progress-bar" id="reading-progress-bar"></div>
 </div>
 
 <div class="relative min-h-screen pt-28 pb-24 px-4 sm:px-6 hero-gradient">
   <div class="max-w-5xl mx-auto">
+
     {% comment %}Cabecera editorial con categorías, autor y fecha localizadas.{% endcomment %}
     <header class="mb-10 text-center">
       {% if page.categories.size > 0 %}
@@ -41,8 +47,24 @@ layout: "default"
         {% endfor %}
       </div>
       {% endif %}
+
       <div class="flex items-center justify-center gap-2 text-slate-500 text-xs font-bold uppercase tracking-widest mb-5">
-        {% include author-date.html author=page.author date=page.date show_time=true img_size=5 gap="gap-2" name_class="text-slate-400" date_class="text-slate-700" img_class="border-violet-300/60" %}
+        {% assign post_author = site.data.authors[page.author] %}
+        {% unless post_author %}{% assign post_author = site.data.authors['javo'] %}{% endunless %}
+        <span class="flex items-center">
+          <img src="{{ post_author.avatar }}" alt="{{ post_author.name }}" class="inline-block w-5 h-5 rounded-full border border-violet-300/70 object-cover align-middle mr-1.5" width="20" height="20">
+          <span class="text-white">{{ post_author.name }}</span>
+        </span>
+        <span class="text-slate-700">·</span>
+        <span class="flex items-center gap-1.5">
+          <i class="fas fa-calendar-alt opacity-70"></i>
+          {% include date_es.html date=page.date %}
+        </span>
+        <span class="text-slate-700">·</span>
+        <span class="flex items-center gap-1.5">
+          <i class="fas fa-clock opacity-70"></i>
+          {{ page.date | date: "%H:%M" }} h
+        </span>
       </div>
 
       <h1 class="text-3xl md:text-5xl font-black mb-6 tracking-tight uppercase leading-tight">
@@ -61,6 +83,7 @@ layout: "default"
         "
       ></div>
     </header>
+
     {% if page.thumbnail %}
     <div
       class="rounded-3xl overflow-hidden mb-12 border border-white/[0.07] shadow-2xl relative"
@@ -73,14 +96,15 @@ layout: "default"
         height="720"
         fetchpriority="high"
       />
+
       <div
         class="absolute inset-0 bg-gradient-to-t from-[#0f0a1d]/30 to-transparent pointer-events-none"
       ></div>
     </div>
-    {% endif %} {% comment %}El contenido normaliza `loading="lazy"` para evitar duplicados en imágenes incrustadas desde Markdown.{% endcomment %}
-    <article
-      class="static-glass-card rounded-[2.5rem] p-7 sm:p-12 md:p-16 rich-content shadow-2xl"
-    >
+    {% endif %}
+
+    {% comment %}El contenido normaliza `loading="lazy"` para evitar duplicados en imágenes incrustadas desde Markdown.{% endcomment %}
+    <article class="static-glass-card rounded-[2.5rem] p-8 sm:p-12 md:p-16 rich-content shadow-2xl">
       <nav aria-label="Ruta de navegación" class="not-prose flex items-center gap-1.5 text-[0.6rem] font-bold uppercase tracking-widest mb-8 pb-6 border-b border-white/[0.06]">
         <a href="{{ '/' | relative_url }}" class="text-slate-500 hover:text-violet-400 transition-colors">Inicio</a>
         <i class="fas fa-chevron-right text-slate-700" style="font-size: 7px"></i>
@@ -106,12 +130,14 @@ layout: "default"
       <div class="border-t border-white/[0.06] mt-12 pt-10 not-prose">
         {% include author-card.html %}
       </div>
+
       {% if page.comments != false %}
       <div class="border-t border-white/[0.06] mt-10 pt-10 not-prose">
         {% include disqus.html %}
       </div>
       {% endif %}
     </article>
+
     <div class="mt-12 text-center">
       <a
         href="{{ '/blog/' | relative_url }}"
