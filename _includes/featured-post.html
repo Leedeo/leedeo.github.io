@@ -39,7 +39,7 @@
         {{ include.post.title }}
       </h2>
       {% if excerpt %}
-      <p class="text-slate-400 text-sm leading-relaxed mt-2 line-clamp-2">
+      <p class="text-slate-400 text-base leading-relaxed mt-2 line-clamp-2">
         {{ include.post.excerpt | strip_html | truncate: 155 }}
       </p>
       {% endif %}

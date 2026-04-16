@@ -89,20 +89,22 @@ description: "Artículos sobre desarrollo de videojuegos, industria indie, tutor
                 <h2 class="text-2xl md:text-3xl font-bold text-white leading-tight group-hover:text-violet-300 transition-colors">
                   {{ post.title }}
                 </h2>
-                <p class="text-slate-400 text-sm leading-relaxed mt-3 line-clamp-2">
+                <p class="text-slate-400 text-lg leading-relaxed mt-3 line-clamp-2">
                   {{ post.excerpt | strip_html | truncate: 155 }}
                 </p>
               </div>
             </a>
           </article>
         </div>
-        {% endfor %} {% for post in posts_featured %} {% assign delay =
-        forloop.index | times: 100 %}
+        {% endfor %}
+
+        {% for post in posts_featured %} {% assign delay = forloop.index | times: 100 %}
         <div class="reveal w-full" style="--reveal-delay: {{ delay }}ms;">
           {% include featured-post.html post=post aspect='aspect-[4/3] lg:aspect-video' excerpt=true %}
         </div>
-        {% endfor %} {% for post in posts_wide %} {% assign delay =
-        forloop.index0 | plus: 3 | times: 100 %}
+        {% endfor %}
+
+        {% for post in posts_wide %} {% assign delay = forloop.index0 | plus: 3 | times: 100 %}
         <div class="reveal w-full" style="--reveal-delay: {{ delay }}ms;">
           {% include featured-post.html post=post aspect='aspect-[4/3] lg:aspect-[21/9]' excerpt=false %}
         </div>
@@ -122,8 +124,7 @@ description: "Artículos sobre desarrollo de videojuegos, industria indie, tutor
       <div
         class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-4 mb-16 w-full"
       >
-        {% for post in posts_small %} {% assign delay = forloop.index0 | times:
-        50 %}
+        {% for post in posts_small %} {% assign delay = forloop.index0 | times: 50 %}
         <div class="reveal w-full" style="--reveal-delay: {{ delay }}ms;">
           {% include featured-post.html post=post aspect='aspect-[4/3] lg:aspect-square' img_size=4 padding='p-4' excerpt=false %}
         </div>
