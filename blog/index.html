@@ -7,14 +7,11 @@ description: "Artículos sobre desarrollo de videojuegos, industria indie, tutor
 <div class="relative min-h-screen pt-32 pb-24 px-6 hero-gradient">
   <div class="max-w-7xl mx-auto">
     <header class="mb-12 text-center reveal">
-      <h1
-        class="text-4xl md:text-6xl font-extrabold mb-6 tracking-tight uppercase leading-[1.2]"
-      >
+      <h1 class="text-4xl md:text-6xl font-extrabold mb-6 tracking-tight uppercase leading-[1.2]">
         Mi <span class="gradient-text italic">Blog</span>
       </h1>
       <p class="text-slate-400 text-lg max-w-2xl mx-auto font-light">
-        Tutoriales, noticias y reflexiones sobre el desarrollo de videojuegos y
-        software independiente.
+        Tutoriales, noticias y reflexiones sobre el desarrollo de videojuegos y software independiente.
       </p>
       <div class="h-1.5 w-24 bg-violet-500 mx-auto rounded-full mt-8"></div>
     </header>
@@ -57,11 +54,13 @@ description: "Artículos sobre desarrollo de videojuegos, industria indie, tutor
     </div>
 
     <div id="paginated-posts">
-      {% if paginator.page == 1 %} {% assign first_page_posts = paginator.posts
-      %} {% assign post_hero = first_page_posts | slice: 0, 1 %} {% assign
-      posts_featured = first_page_posts | slice: 1, 2 %} {% assign posts_wide =
-      first_page_posts | slice: 3, 2 %} {% assign posts_grid = first_page_posts
-      | slice: 5, 3 %} {% assign posts_small = first_page_posts | slice: 8, 4 %}
+      {% if paginator.page == 1 %}
+      {% assign first_page_posts = paginator.posts %}
+      {% assign post_hero = first_page_posts | slice: 0, 1 %}
+      {% assign posts_featured = first_page_posts | slice: 1, 2 %}
+      {% assign posts_wide = first_page_posts | slice: 3, 2 %}
+      {% assign posts_grid = first_page_posts | slice: 5, 3 %}
+      {% assign posts_small = first_page_posts | slice: 8, 4 %}
 
       <div class="grid grid-cols-1 md:grid-cols-2 gap-8 mb-8 w-full">
         {% for post in post_hero %}
@@ -87,14 +86,10 @@ description: "Artículos sobre desarrollo de videojuegos, industria indie, tutor
               <div class="absolute bottom-0 p-6 md:p-8 w-full">
                 {% include author-date.html author=post.author date=post.date
                 show_name=false img_size=5 %}
-                <h2
-                  class="text-2xl md:text-3xl font-bold text-white leading-tight group-hover:text-violet-300 transition-colors"
-                >
+                <h2 class="text-2xl md:text-3xl font-bold text-white leading-tight group-hover:text-violet-300 transition-colors">
                   {{ post.title }}
                 </h2>
-                <p
-                  class="text-slate-400 text-sm leading-relaxed mt-3 line-clamp-2"
-                >
+                <p class="text-slate-400 text-sm leading-relaxed mt-3 line-clamp-2">
                   {{ post.excerpt | strip_html | truncate: 155 }}
                 </p>
               </div>
@@ -104,14 +99,12 @@ description: "Artículos sobre desarrollo de videojuegos, industria indie, tutor
         {% endfor %} {% for post in posts_featured %} {% assign delay =
         forloop.index | times: 100 %}
         <div class="reveal w-full" style="--reveal-delay: {{ delay }}ms;">
-          {% include featured-post.html post=post aspect='aspect-[4/3]
-          lg:aspect-video' excerpt=true %}
+          {% include featured-post.html post=post aspect='aspect-[4/3] lg:aspect-video' excerpt=true %}
         </div>
         {% endfor %} {% for post in posts_wide %} {% assign delay =
         forloop.index0 | plus: 3 | times: 100 %}
         <div class="reveal w-full" style="--reveal-delay: {{ delay }}ms;">
-          {% include featured-post.html post=post aspect='aspect-[4/3]
-          lg:aspect-[21/9]' excerpt=false %}
+          {% include featured-post.html post=post aspect='aspect-[4/3] lg:aspect-[21/9]' excerpt=false %}
         </div>
         {% endfor %}
       </div>
@@ -120,9 +113,10 @@ description: "Artículos sobre desarrollo de videojuegos, industria indie, tutor
         id="paginated-grid"
         class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 mb-12 w-full"
       >
-        {% for post in posts_grid %} {% assign reveal_delay = forloop.index0 |
-        times: 100 %} {% include post-card.html post=post
-        reveal_delay=reveal_delay %} {% endfor %}
+        {% for post in posts_grid %}
+        {% assign reveal_delay = forloop.index0 | times: 100 %}
+        {% include post-card.html post=post reveal_delay=reveal_delay %}
+        {% endfor %}
       </div>
 
       <div
@@ -131,8 +125,7 @@ description: "Artículos sobre desarrollo de videojuegos, industria indie, tutor
         {% for post in posts_small %} {% assign delay = forloop.index0 | times:
         50 %}
         <div class="reveal w-full" style="--reveal-delay: {{ delay }}ms;">
-          {% include featured-post.html post=post aspect='aspect-[4/3]
-          lg:aspect-square' img_size=4 padding='p-4' excerpt=false %}
+          {% include featured-post.html post=post aspect='aspect-[4/3] lg:aspect-square' img_size=4 padding='p-4' excerpt=false %}
         </div>
         {% endfor %}
       </div>
@@ -142,9 +135,10 @@ description: "Artículos sobre desarrollo de videojuegos, industria indie, tutor
         id="paginated-grid"
         class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 mb-16 w-full"
       >
-        {% for post in paginator.posts %} {% assign reveal_delay =
-        forloop.index0 | modulo: 3 | times: 100 %} {% include post-card.html
-        post=post reveal_delay=reveal_delay %} {% endfor %}
+        {% for post in paginator.posts %}
+        {% assign reveal_delay = forloop.index0 | modulo: 3 | times: 100 %}
+        {% include post-card.html post=post reveal_delay=reveal_delay %}
+        {% endfor %}
       </div>
       {% endif %} {% if paginator.total_pages > 1 %}
       <nav

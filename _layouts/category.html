@@ -6,9 +6,7 @@ layout: "default"
   <div class="max-w-7xl mx-auto">
     <header class="mb-12 text-center reveal">
       <span class="section-eyebrow">Categoría</span>
-      <h1
-        class="text-4xl md:text-6xl font-extrabold mb-6 tracking-tight uppercase leading-[1.2]"
-      >
+      <h1 class="text-4xl md:text-6xl font-extrabold mb-6 tracking-tight uppercase leading-[1.2]">
         {{ page.category_name | default: page.title }}
       </h1>
       {% if page.description %}
@@ -18,44 +16,26 @@ layout: "default"
       {% endif %}
       <div class="h-1.5 w-24 bg-violet-500 mx-auto rounded-full mt-8"></div>
     </header>
-    {% include category-nav.html current=page.category %} {% assign
-    category_posts = site.posts | where_exp: "pub", "pub.categories contains
-    page.category" %}
+    {% include category-nav.html current=page.category %}
+    {% assign category_posts = site.posts | where_exp: "pub", "pub.categories contains page.category" %}
 
     <div class="grid lg:grid-cols-2 gap-4 mb-8">
-      {% for pub in category_posts %} {% assign delay = forloop.index0 | modulo:
-      2 | times: 100 %}
-      <article
-        class="group flex items-start gap-5 p-4 rounded-2xl border border-white/5 hover:border-violet-500/30 hover:bg-white/[0.02] transition-all duration-300 reveal"
-        style="--reveal-delay: {{ delay }}ms;"
-      >
-        <a
-          href="{{ pub.url | relative_url }}"
-          class="flex-shrink-0 w-32 h-24 md:w-48 md:h-32 rounded-xl overflow-hidden block"
-        >
-          <img
-            src="{{ pub.thumbnail | relative_url }}"
-            alt="{{ pub.title }}"
-            loading="lazy"
-            width="112"
-            height="80"
-            class="w-full h-full object-cover transition-transform duration-500 group-hover:scale-110"
-          />
-        </a>
-        <div class="flex flex-col flex-grow min-w-0">
-          {% include author-date.html author=pub.author date=pub.date img_size=4
-          gap="gap-2" name_class="text-slate-400" date_class="text-violet-400"
-          %}
-          <h2
-            class="text-base font-bold text-white group-hover:text-violet-400 transition-colors mb-1 line-clamp-2"
-          >
-            <a href="{{ pub.url | relative_url }}">{{ pub.title }}</a>
-          </h2>
-          <p class="text-slate-400 text-xs leading-relaxed line-clamp-2">
-            {{ pub.excerpt | strip_html | truncate: 155 }}
-          </p>
-        </div>
-      </article>
+      {% for pub in category_posts %}
+        {% assign delay = forloop.index0 | modulo: 2 | times: 100 %}
+        <article class="group flex items-start gap-5 p-4 rounded-2xl border border-white/5 hover:border-violet-500/30 hover:bg-white/[0.02] transition-all duration-300 reveal" style="--reveal-delay: {{ delay }}ms;">
+          <a href="{{ pub.url | relative_url }}" class="flex-shrink-0 w-32 h-24 md:w-48 md:h-32 rounded-xl overflow-hidden block">
+            <img src="{{ pub.thumbnail | relative_url }}" alt="{{ pub.title }}" loading="lazy" width="112" height="80" class="w-full h-full object-cover transition-transform duration-500 group-hover:scale-110" />
+          </a>
+          <div class="flex flex-col flex-grow min-w-0">
+            {% include author-date.html author=pub.author date=pub.date img_size=4 gap="gap-2" name_class="text-slate-400" date_class="text-violet-400" %}
+            <h2 class="text-base font-bold text-white group-hover:text-violet-400 transition-colors mb-1 line-clamp-2">
+              <a href="{{ pub.url | relative_url }}">{{ pub.title }}</a>
+            </h2>
+            <p class="text-slate-400 text-xs leading-relaxed line-clamp-2">
+              {{ pub.excerpt | strip_html | truncate: 155 }}
+            </p>
+          </div>
+        </article>
       {% endfor %}
     </div>
 

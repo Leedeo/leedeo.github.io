@@ -1,0 +1,38 @@
+{% comment %}Artículos recomendados que comparten categorías con el post actual.{% endcomment %}
+
+{% assign related_posts = "" | split: "" %}
+{% for pub in site.posts %}
+  {% if pub.url != page.url %}
+    {% assign match = nil %}
+    {% for cat in pub.categories %}
+      {% if page.categories contains cat %}
+        {% assign match = true %}
+        {% break %}
+      {% endif %}
+    {% endfor %}
+    {% if match %}
+      {% assign related_posts = related_posts | push: pub %}
+    {% endif %}
+  {% endif %}
+{% endfor %}
+
+{% if related_posts.size > 0 %}
+<div class="not-prose border-t border-white/[0.06] mt-14 pt-10">
+  <p class="text-[0.65rem] font-black uppercase tracking-[0.25em] text-slate-500 mb-5">
+    También te puede interesar
+  </p>
+
+  <div class="grid grid-cols-2 md:grid-cols-4 gap-3">
+    {% for pub in related_posts limit:4 %}
+    <a href="{{ pub.url | relative_url }}" class="group block" style="--reveal-delay: {{ forloop.index0 | times: 80 }}ms;">
+      <div class="aspect-video rounded-xl overflow-hidden mb-2 border border-white/[0.05]">
+        <img src="{{ pub.thumbnail | relative_url }}" alt="{{ pub.title }}" loading="lazy" class="w-full h-full object-cover transition-transform duration-500 group-hover:scale-105" />
+      </div>
+      <p class="text-slate-400 group-hover:text-violet-400 transition-colors font-bold leading-snug text-sm">
+        {{ pub.title }}
+      </p>
+    </a>
+    {% endfor %}
+  </div>
+</div>
+{% endif %}

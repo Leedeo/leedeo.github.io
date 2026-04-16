@@ -4,8 +4,7 @@
   ></div>
   <div class="max-w-7xl mx-auto px-6 py-20">
     <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-12 lg:gap-8">
-      {% comment %}Presentación breve del proyecto y acceso al soporte
-      directo.{% endcomment %}
+      {% comment %}Presentación breve del proyecto y acceso al soporte directo.{% endcomment %}
       <div class="lg:col-span-1">
         <a
           href="{{ '/' | relative_url }}"
@@ -18,7 +17,7 @@
           construir proyectos propios. Contenido en español por Javo.
         </p>
         <a
-          href="https://ko-fi.com/leedeo"
+          href="{{ site.data.social.other.kofi.url }}"
           target="_blank"
           rel="noopener"
           class="inline-flex items-center gap-2 bg-rose-600/15 hover:bg-rose-600/25 border border-rose-500/25 hover:border-rose-400/40 text-rose-400 hover:text-rose-300 px-4 py-2.5 rounded-xl text-xs font-bold uppercase tracking-wider transition-all duration-200"
@@ -26,12 +25,9 @@
           <i class="fas fa-heart text-xs"></i> Apoyar en Ko-fi
         </a>
       </div>
-      {% comment %}Bloques de enlaces internos agrupados por intención de
-      navegación.{% endcomment %}
+      {% comment %}Bloques de enlaces internos agrupados por intención de navegación.{% endcomment %}
       <div>
-        <h3
-          class="text-[0.6rem] font-bold uppercase tracking-[0.25em] text-violet-500/70 mb-5"
-        >
+        <h3 class="text-[0.6rem] font-bold uppercase tracking-[0.25em] text-violet-500/70 mb-5">
           Navegar
         </h3>
         <ul class="space-y-3">
@@ -82,9 +78,7 @@
         </ul>
       </div>
       <div>
-        <h3
-          class="text-[0.6rem] font-bold uppercase tracking-[0.25em] text-violet-500/70 mb-5"
-        >
+        <h3 class="text-[0.6rem] font-bold uppercase tracking-[0.25em] text-violet-500/70 mb-5">
           Proyectos
         </h3>
         <ul class="space-y-3 mb-8">
@@ -111,9 +105,7 @@
             </a>
           </li>
         </ul>
-        <h3
-          class="text-[0.6rem] font-bold uppercase tracking-[0.25em] text-violet-500/70 mb-5"
-        >
+        <h3 class="text-[0.6rem] font-bold uppercase tracking-[0.25em] text-violet-500/70 mb-5">
           Cursos
         </h3>
         <ul class="space-y-3">
@@ -141,82 +133,30 @@
           </li>
         </ul>
       </div>
-      {% comment %}Accesos a comunidad y canal principal fuera del contenido
-      editorial.{% endcomment %}
+      {% comment %}Accesos a comunidad y canal principal fuera del contenido editorial.{% endcomment %}
       <div>
-        <h3
-          class="text-[0.6rem] font-bold uppercase tracking-[0.25em] text-violet-500/70 mb-5"
-        >
+        <h3 class="text-[0.6rem] font-bold uppercase tracking-[0.25em] text-violet-500/70 mb-5">
           Comunidad
         </h3>
         <div class="grid grid-cols-6 gap-2 mb-6">
+          {% for network in site.data.social.networks %}
           <a
-            href="https://www.youtube.com/@Leedeo"
+            href="{{ network.url }}"
             target="_blank"
             rel="noopener"
             class="footer-social-link"
-            title="YouTube"
-            aria-label="Canal de YouTube"
+            title="{{ network.name }}"
+            aria-label="{{ network.aria_label }}"
           >
-            <i class="fa-brands fa-youtube"></i>
+            <i class="{{ network.icon }}"></i>
           </a>
-          <a
-            href="https://bsky.app/profile/leedeo.bsky.social"
-            target="_blank"
-            rel="noopener"
-            class="footer-social-link"
-            title="Bluesky"
-            aria-label="Bluesky"
-          >
-            <i class="fa-brands fa-bluesky"></i>
-          </a>
-          <a
-            href="https://x.com/leedeostudio"
-            target="_blank"
-            rel="noopener"
-            class="footer-social-link"
-            title="X (Twitter)"
-            aria-label="X / Twitter"
-          >
-            <i class="fa-brands fa-x-twitter"></i>
-          </a>
-          <a
-            href="https://www.tiktok.com/@leedeostudio"
-            target="_blank"
-            rel="noopener"
-            class="footer-social-link"
-            title="TikTok"
-            aria-label="TikTok"
-          >
-            <i class="fa-brands fa-tiktok"></i>
-          </a>
-          <a
-            href="https://www.instagram.com/leedeostudio/"
-            target="_blank"
-            rel="noopener"
-            class="footer-social-link"
-            title="Instagram"
-            aria-label="Instagram"
-          >
-            <i class="fa-brands fa-instagram"></i>
-          </a>
-          <a
-            href="https://github.com/leedeo"
-            target="_blank"
-            rel="noopener"
-            class="footer-social-link"
-            title="GitHub"
-            aria-label="GitHub"
-          >
-            <i class="fa-brands fa-github"></i>
-          </a>
+          {% endfor %}
         </div>
         <p class="text-slate-600 text-xs leading-relaxed">
-          Únete al canal de WhatsApp para recibir contenido en primicia y
-          novedades de la industria.
+          Únete al canal de WhatsApp para recibir contenido en primicia y novedades de la industria.
         </p>
         <a
-          href="https://whatsapp.com/channel/0029VbCnHY0HrDZl9C2p2N0A"
+          href="{{ site.data.social.other.whatsapp.url }}"
           target="_blank"
           rel="noopener"
           class="mt-4 inline-flex items-center gap-2 text-green-500 hover:text-green-400 text-xs font-bold uppercase tracking-widest transition-colors duration-200 group"
@@ -233,11 +173,8 @@
     <div
       class="max-w-7xl mx-auto px-6 py-5 flex flex-col sm:flex-row items-center justify-between gap-4"
     >
-      <p
-        class="text-slate-600 text-[0.6rem] font-bold tracking-[0.4em] uppercase"
-      >
-        © <span id="auto-year"></span> Leedeo Studio · Javo · Game Dev y
-        Creación de Contenido
+      <p class="text-slate-600 text-[0.6rem] font-bold tracking-[0.4em] uppercase">
+        © <span id="auto-year"></span> {{ site.title }} · Javo · Game Dev y Creación de Contenido
       </p>
       <div class="flex items-center gap-6">
         <a

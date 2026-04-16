@@ -1,0 +1,33 @@
+networks:
+  - name: "YouTube"
+    url: "https://www.youtube.com/@Leedeo"
+    icon: "fa-brands fa-youtube"
+    aria_label: "Canal de YouTube"
+  - name: "Bluesky"
+    url: "https://bsky.app/profile/leedeo.bsky.social"
+    icon: "fa-brands fa-bluesky"
+    aria_label: "Bluesky"
+  - name: "X (Twitter)"
+    url: "https://x.com/leedeostudio"
+    icon: "fa-brands fa-x-twitter"
+    aria_label: "X / Twitter"
+  - name: "TikTok"
+    url: "https://www.tiktok.com/@leedeostudio"
+    icon: "fa-brands fa-tiktok"
+    aria_label: "TikTok"
+  - name: "Instagram"
+    url: "https://www.instagram.com/leedeostudio/"
+    icon: "fa-brands fa-instagram"
+    aria_label: "Instagram"
+  - name: "GitHub"
+    url: "https://github.com/leedeo"
+    icon: "fa-brands fa-github"
+    aria_label: "GitHub"
+
+other:
+  kofi:
+    name: "Ko-fi"
+    url: "https://ko-fi.com/leedeo"
+  whatsapp:
+    name: "WhatsApp"
+    url: "https://whatsapp.com/channel/0029VbCnHY0HrDZl9C2p2N0A"

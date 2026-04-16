@@ -4,30 +4,10 @@
     {% comment %}Metadatos compartidos y schema base reutilizado por todas las páginas.{% endcomment %}
     {% include head.html %}
     {% include schema-person.html %}
+    {% if page.video %}
     {% include schema-video.html %}
-    {% comment %}Los posts ya generan sus propias migas para evitar duplicar BreadcrumbList.{% endcomment %}
-    {% unless page.layout == 'post' %}
-    <script type="application/ld+json">
-    {
-      "@context": "https://schema.org",
-      "@type": "BreadcrumbList",
-      "itemListElement": [
-        {
-          "@type": "ListItem",
-          "position": 1,
-          "name": "Inicio",
-          "item": "{{ site.url }}"
-        },
-        {
-          "@type": "ListItem",
-          "position": 2,
-          "name": "{{ page.title }}",
-          "item": "{{ site.url }}{{ page.url }}"
-        }
-      ]
-    }
-    </script>
-    {% endunless %}
+    {% endif %}
+    {% include schema-breadcrumbs.html %}
 </head>
 
 <body class="selection:bg-violet-500/30">

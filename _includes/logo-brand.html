@@ -1,11 +1,7 @@
 {% assign logo_size = include.size | default: 'lg' %}
-<span
-  class="font-pacifico text-violet-500 {% if logo_size == 'lg' %}text-[38px]{% else %}text-3xl{% endif %} lowercase tracking-normal {% if include.rotate %} -rotate-2 mr-1{% endif %} transition-colors {% if include.hover %}group-hover:text-violet-400{% endif %}"
->
+<span class="font-pacifico text-violet-500 {% if logo_size == 'lg' %}text-[38px]{% else %}text-3xl{% endif %} lowercase tracking-normal {% if include.rotate %} -rotate-2 mr-1{% endif %} transition-colors {% if include.hover %}group-hover:text-violet-400{% endif %}">
   Leedeo
 </span>
-<span
-  class="text-{% if logo_size == 'lg' %}xl{% else %}sm{% endif %} font-thin tracking-[0.18em] text-slate-300 uppercase"
->
+<span class="text-{% if logo_size == 'lg' %}xl{% else %}sm{% endif %} font-thin tracking-[0.18em] text-slate-300 uppercase">
   Studio
 </span>
