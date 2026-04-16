@@ -1,158 +1,233 @@
 ---
 layout: "default"
 ---
-{% assign post_author = site.data.authors[page.author] | default: site.data.authors['javo'] %}
-{% comment %}Schema específico del artículo: migas y FAQ cuando existen datos en front matter.{% endcomment %}
+
+{% assign post_author = site.data.authors[page.author] | default:
+site.data.authors['javo'] %} {% comment %}Schema específico del artículo: migas
+y FAQ cuando existen datos en front matter.{% endcomment %}
 <script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "BreadcrumbList",
-  "itemListElement": [
-    { "@type": "ListItem", "position": 1, "name": "Inicio", "item": "{{ site.url }}" },
-    { "@type": "ListItem", "position": 2, "name": "Blog", "item": "{{ site.url }}/blog/" },
-    { "@type": "ListItem", "position": 3, "name": "{{ page.title | escape }}", "item": "{{ page.url | absolute_url }}" }
-  ]
-}
+  {
+    "@context": "https://schema.org",
+    "@type": "BreadcrumbList",
+    "itemListElement": [
+      {
+        "@type": "ListItem",
+        "position": 1,
+        "name": "Inicio",
+        "item": "{{ site.url }}"
+      },
+      {
+        "@type": "ListItem",
+        "position": 2,
+        "name": "Blog",
+        "item": "{{ site.url }}/blog/"
+      },
+      {
+        "@type": "ListItem",
+        "position": 3,
+        "name": "{{ page.title | escape }}",
+        "item": "{{ page.url | absolute_url }}"
+      }
+    ]
+  }
 </script>
 
 {% if page.faq %}
 <script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "mainEntity": [
-    {% for item in page.faq %}
-    {
-      "@type": "Question",
-      "name": "{{ item.question | escape }}",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "{{ item.answer | strip_html | escape }}"
-      }
-    }{% unless forloop.last %},{% endunless %}
-{% endfor %}
-  ]
-}
+  {
+    "@context": "https://schema.org",
+    "@type": "FAQPage",
+    "mainEntity": [
+      {% for item in page.faq %}
+      {
+        "@type": "Question",
+        "name": "{{ item.question | escape }}",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "{{ item.answer | strip_html | escape }}"
+        }
+      }{% unless forloop.last %},{% endunless %}
+  {% endfor %}
+    ]
+  }
 </script>
-{% endif %}
-{% comment %}La barra existe en el HTML; el script solo actualiza su progreso al hacer scroll.{% endcomment %}
+{% endif %} {% comment %}La barra existe en el HTML; el script solo actualiza su
+progreso al hacer scroll.{% endcomment %}
 <div class="reading-progress" aria-hidden="true">
-    <div class="reading-progress-bar" id="reading-progress-bar"></div>
+  <div class="reading-progress-bar" id="reading-progress-bar"></div>
 </div>
 
 <div class="relative min-h-screen pt-28 pb-24 px-4 sm:px-6 hero-gradient">
-    <div class="max-w-5xl mx-auto">
-        {% comment %}Cabecera editorial con categorías, autor y fecha localizadas.{% endcomment %}
-        <header class="mb-10 text-center">
-            {% if page.categories.size > 0 %}
-            <div class="flex justify-center flex-wrap gap-2 mb-5">
-                {% for category in page.categories %}
-                {% assign category_slug = category | slugify %}
-                <a href="{{ '/categories/' | append: category_slug | append: '/' | relative_url }}"
-                   class="px-3 py-1 bg-violet-600/15 text-violet-400 border border-violet-500/25 rounded-lg text-[0.6rem] font-bold uppercase tracking-widest hover:bg-violet-600/30 hover:text-white transition-all duration-200">
-                    {{ category }}
-                </a>
-                {% endfor %}
-            </div>
-            {% endif %}
-            <div class="flex items-center justify-center gap-2 text-slate-500 text-xs font-bold uppercase tracking-widest mb-5">
-                <img src="{{ post_author.avatar }}" alt="{{ post_author.name }}"
-                     class="w-5 h-5 rounded-full border border-violet-300/60 object-cover"
-                     width="20" height="20">
-                <span class="text-slate-400">{{ post_author.name }}</span>
-                <span class="text-slate-700">·</span>
-                <span>{% include date_es.html date=page.date %}</span>
-                <span class="text-slate-700">·</span>
-                <i class="fas fa-clock text-slate-600"></i>
-                <span>{{ page.date | date: "%H:%M" }} h</span>
-            </div>
+  <div class="max-w-5xl mx-auto">
+    {% comment %}Cabecera editorial con categorías, autor y fecha localizadas.{%
+    endcomment %}
+    <header class="mb-10 text-center">
+      {% if page.categories.size > 0 %}
+      <div class="flex justify-center flex-wrap gap-2 mb-5">
+        {% for category in page.categories %} {% assign category_slug = category
+        | slugify %}
+        <a
+          href="{{ '/categories/' | append: category_slug | append: '/' | relative_url }}"
+          class="px-3 py-1 bg-violet-600/15 text-violet-400 border border-violet-500/25 rounded-lg text-[0.6rem] font-bold uppercase tracking-widest hover:bg-violet-600/30 hover:text-white transition-all duration-200"
+        >
+          {{ category }}
+        </a>
+        {% endfor %}
+      </div>
+      {% endif %}
+      <div
+        class="flex items-center justify-center gap-2 text-slate-500 text-xs font-bold uppercase tracking-widest mb-5"
+      >
+        {% include author-date.html author=page.author date=page.date
+        show_time=true img_size=5 gap="gap-2" name_class="text-slate-400"
+        date_class="text-slate-700" img_class="border-violet-300/60" %}
+      </div>
 
+      <h1
+        class="text-3xl md:text-5xl font-black mb-6 tracking-tight uppercase leading-tight"
+      >
+        {{ page.title }}
+      </h1>
 
-            <h1 class="text-3xl md:text-5xl font-black mb-6 tracking-tight uppercase leading-tight">
-                {{ page.title }}
-            </h1>
-
-            <div class="h-px w-20 mx-auto" style="background: linear-gradient(90deg, transparent, rgba(139,92,246,0.7), transparent);"></div>
-        </header>
-        {% if page.thumbnail %}
-        <div class="rounded-3xl overflow-hidden mb-12 border border-white/[0.07] shadow-2xl relative">
-            <img src="{{ page.thumbnail | relative_url }}" alt="{{ page.title }}"
-                 class="w-full h-auto object-cover"
-                 width="1280" height="720" fetchpriority="high">
-            <div class="absolute inset-0 bg-gradient-to-t from-[#0f0a1d]/30 to-transparent pointer-events-none"></div>
-        </div>
-        {% endif %}
-        {% comment %}El contenido normaliza `loading="lazy"` para evitar duplicados en imágenes incrustadas desde Markdown.{% endcomment %}
-        <article class="static-glass-card rounded-[2.5rem] p-7 sm:p-12 md:p-16 rich-content shadow-2xl">
-            <nav aria-label="Ruta de navegación"
-                 class="not-prose flex items-center gap-1.5 text-[0.6rem] font-bold uppercase tracking-widest mb-8 pb-6 border-b border-white/[0.06]">
-                <a href="{{ '/' | relative_url }}" class="text-slate-500 hover:text-violet-400 transition-colors">Inicio</a>
-                <i class="fas fa-chevron-right text-slate-700" style="font-size:7px"></i>
-                <a href="{{ '/blog/' | relative_url }}" class="text-slate-500 hover:text-violet-400 transition-colors">Blog</a>
-                {% if page.categories.size > 0 %}
-                <i class="fas fa-chevron-right text-slate-700" style="font-size:7px"></i>
-                {% assign first_cat = page.categories.first %}
-                {% assign first_cat_slug = first_cat | slugify %}
-                <a href="{{ '/categories/' | append: first_cat_slug | append: '/' | relative_url }}"
-                   class="text-violet-400/80 hover:text-violet-300 transition-colors">{{ first_cat }}</a>
-                {% endif %}
-                <i class="fas fa-chevron-right text-slate-700" style="font-size:7px"></i>
-                <span class="text-slate-600 truncate max-w-[160px] md:max-w-xs">{{ page.title }}</span>
-            </nav>
-
-            {% comment %}Normaliza el lazy loading en imágenes del contenido sin duplicar el atributo si ya viene definido.{% endcomment %}
-            {{ content | replace: 'loading="lazy"', '' | replace: '<img ', '<img loading="lazy" ' }}
-            {% comment %}Relacionados por categorías compartidas, excluyendo el artículo actual.{% endcomment %}
-            {% assign related_posts = "" | split: "" %}
-            {% for pub in site.posts %}
-            {% if pub.url != page.url %}
-                {% assign match = nil %}
-                {% for cat in pub.categories %}
-                {% if page.categories contains cat %}
-                    {% assign match = true %}
-                    {% break %}
-                {% endif %}
-                {% endfor %}
-                {% if match %}
-                    {% assign related_posts = related_posts | push: pub %}
-                {% endif %}
-            {% endif %}
-            {% endfor %}
-
-            {% if related_posts.size > 0 %}
-            <div class="not-prose border-t border-white/[0.06] mt-14 pt-10">
-                <p class="text-[0.65rem] font-black uppercase tracking-[0.25em] text-slate-500 mb-5">También te puede interesar</p>
-                <div class="grid grid-cols-2 md:grid-cols-4 gap-3">
-                    {% for pub in related_posts limit:4 %}
-                    <a href="{{ pub.url | relative_url }}" class="group block"
-                       style="--reveal-delay: {{ forloop.index0 | times: 80 }}ms;">
-                        <div class="aspect-video rounded-xl overflow-hidden mb-2 border border-white/[0.05]">
-                            <img src="{{ pub.thumbnail | relative_url }}" alt="{{ pub.title }}"
-                                 loading="lazy" class="w-full h-full object-cover transition-transform duration-500 group-hover:scale-105">
-                        </div>
-                        <p class="text-slate-400 group-hover:text-violet-400 transition-colors font-bold leading-snug text-sm">{{ pub.title }}</p>
-                    </a>
-                    {% endfor %}
-                </div>
-            </div>
-            {% endif %}
-            {% comment %}Bloques de cierre reutilizados en todos los posts.{% endcomment %}
-            <div class="border-t border-white/[0.06] mt-12 pt-10 not-prose">
-                {% include author-card.html %}
-            </div>
-            {% if page.comments != false %}
-            <div class="border-t border-white/[0.06] mt-10 pt-10 not-prose">
-                {% include disqus.html %}
-            </div>
-            {% endif %}
-
-        </article>
-        <div class="mt-12 text-center">
-            <a href="{{ '/blog/' | relative_url }}" class="btn-secondary inline-flex items-center gap-2">
-                <i class="fas fa-arrow-left text-[10px]"></i> Volver al Blog
-            </a>
-        </div>
+      <div
+        class="h-px w-20 mx-auto"
+        style="
+          background: linear-gradient(
+            90deg,
+            transparent,
+            rgba(139, 92, 246, 0.7),
+            transparent
+          );
+        "
+      ></div>
+    </header>
+    {% if page.thumbnail %}
+    <div
+      class="rounded-3xl overflow-hidden mb-12 border border-white/[0.07] shadow-2xl relative"
+    >
+      <img
+        src="{{ page.thumbnail | relative_url }}"
+        alt="{{ page.title }}"
+        class="w-full h-auto object-cover"
+        width="1280"
+        height="720"
+        fetchpriority="high"
+      />
+      <div
+        class="absolute inset-0 bg-gradient-to-t from-[#0f0a1d]/30 to-transparent pointer-events-none"
+      ></div>
     </div>
+    {% endif %} {% comment %}El contenido normaliza `loading="lazy"` para evitar
+    duplicados en imágenes incrustadas desde Markdown.{% endcomment %}
+    <article
+      class="static-glass-card rounded-[2.5rem] p-7 sm:p-12 md:p-16 rich-content shadow-2xl"
+    >
+      <nav
+        aria-label="Ruta de navegación"
+        class="not-prose flex items-center gap-1.5 text-[0.6rem] font-bold uppercase tracking-widest mb-8 pb-6 border-b border-white/[0.06]"
+      >
+        <a
+          href="{{ '/' | relative_url }}"
+          class="text-slate-500 hover:text-violet-400 transition-colors"
+          >Inicio</a
+        >
+        <i
+          class="fas fa-chevron-right text-slate-700"
+          style="font-size: 7px"
+        ></i>
+        <a
+          href="{{ '/blog/' | relative_url }}"
+          class="text-slate-500 hover:text-violet-400 transition-colors"
+          >Blog</a
+        >
+        {% if page.categories.size > 0 %}
+        <i
+          class="fas fa-chevron-right text-slate-700"
+          style="font-size: 7px"
+        ></i>
+        {% assign first_cat = page.categories.first %} {% assign first_cat_slug
+        = first_cat | slugify %}
+        <a
+          href="{{ '/categories/' | append: first_cat_slug | append: '/' | relative_url }}"
+          class="text-violet-400/80 hover:text-violet-300 transition-colors"
+          >{{ first_cat }}</a
+        >
+        {% endif %}
+        <i
+          class="fas fa-chevron-right text-slate-700"
+          style="font-size: 7px"
+        ></i>
+        <span class="text-slate-600 truncate max-w-[160px] md:max-w-xs"
+          >{{ page.title }}</span
+        >
+      </nav>
+
+      {% comment %}Normaliza el lazy loading en imágenes del contenido sin
+      duplicar el atributo si ya viene definido.{% endcomment %} {{ content |
+      replace: 'loading="lazy"', '' | replace: '<img ',
+      '<img loading="lazy" ' }} {% comment %}Relacionados por categorías
+      compartidas, excluyendo el artículo actual.{% endcomment %} {% assign
+      related_posts = "" | split: "" %} {% for pub in site.posts %} {% if
+      pub.url != page.url %} {% assign match = nil %} {% for cat in
+      pub.categories %} {% if page.categories contains cat %} {% assign match =
+      true %} {% break %} {% endif %} {% endfor %} {% if match %} {% assign
+      related_posts = related_posts | push: pub %} {% endif %} {% endif %} {%
+      endfor %} {% if related_posts.size > 0 %}
+      <div class="not-prose border-t border-white/[0.06] mt-14 pt-10">
+        <p
+          class="text-[0.65rem] font-black uppercase tracking-[0.25em] text-slate-500 mb-5"
+        >
+          También te puede interesar
+        </p>
+        <div class="grid grid-cols-2 md:grid-cols-4 gap-3">
+          {% for pub in related_posts limit:4 %}
+          <a
+            href="{{ pub.url | relative_url }}"
+            class="group block"
+            style="--reveal-delay: {{ forloop.index0 | times: 80 }}ms;"
+          >
+            <div
+              class="aspect-video rounded-xl overflow-hidden mb-2 border border-white/[0.05]"
+            >
+              <img
+                src="{{ pub.thumbnail | relative_url }}"
+                alt="{{ pub.title }}"
+                loading="lazy"
+                class="w-full h-full object-cover transition-transform duration-500 group-hover:scale-105"
+              />
+            </div>
+            <p
+              class="text-slate-400 group-hover:text-violet-400 transition-colors font-bold leading-snug text-sm"
+            >
+              {{ pub.title }}
+            </p>
+          </a>
+          {% endfor %}
+        </div>
+      </div>
+      {% endif %} {% comment %}Bloques de cierre reutilizados en todos los
+      posts.{% endcomment %}
+      <div class="border-t border-white/[0.06] mt-12 pt-10 not-prose">
+        {% include author-card.html %}
+      </div>
+      {% if page.comments != false %}
+      <div class="border-t border-white/[0.06] mt-10 pt-10 not-prose">
+        {% include disqus.html %}
+      </div>
+      {% endif %}
+    </article>
+    <div class="mt-12 text-center">
+      <a
+        href="{{ '/blog/' | relative_url }}"
+        class="btn-secondary inline-flex items-center gap-2"
+      >
+        <i class="fas fa-arrow-left text-[10px]"></i> Volver al Blog
+      </a>
+    </div>
+  </div>
 </div>
 
-<script src="{{ '/assets/js/reading-progress.js' | relative_url }}" defer></script>
+<script
+  src="{{ '/assets/js/reading-progress.js' | relative_url }}"
+  defer
+></script>

@@ -3,24 +3,29 @@ layout: "default"
 title: "Blog de Desarrollo de Videojuegos"
 description: "Artículos sobre desarrollo de videojuegos, industria indie, tutoriales de Godot Engine y análisis del mercado. Contenido original de Leedeo Studio."
 ---
-{% comment %}Archivo principal del blog: portada especial en la primera página y grid estándar en el resto.{% endcomment %}
 
 <div class="relative min-h-screen pt-32 pb-24 px-6 hero-gradient">
   <div class="max-w-7xl mx-auto">
     <header class="mb-12 text-center reveal">
-      <h1 class="text-4xl md:text-6xl font-extrabold mb-6 tracking-tight uppercase leading-[1.2]">
+      <h1
+        class="text-4xl md:text-6xl font-extrabold mb-6 tracking-tight uppercase leading-[1.2]"
+      >
         Mi <span class="gradient-text italic">Blog</span>
       </h1>
       <p class="text-slate-400 text-lg max-w-2xl mx-auto font-light">
-        Tutoriales, noticias y reflexiones sobre el desarrollo de videojuegos y software independiente.
+        Tutoriales, noticias y reflexiones sobre el desarrollo de videojuegos y
+        software independiente.
       </p>
       <div class="h-1.5 w-24 bg-violet-500 mx-auto rounded-full mt-8"></div>
     </header>
-    {% comment %}Filtros editoriales y buscador del índice del blog.{% endcomment %}
+
     {% include category-nav.html current='' %}
+
     <div class="max-w-2xl mx-auto mb-14 reveal">
       <div class="relative group">
-        <span class="absolute left-5 top-1/2 -translate-y-1/2 text-violet-400 pointer-events-none transition-colors group-focus-within:text-violet-300">
+        <span
+          class="absolute left-5 top-1/2 -translate-y-1/2 text-violet-400 pointer-events-none transition-colors group-focus-within:text-violet-300"
+        >
           <i class="fas fa-search text-sm"></i>
         </span>
         <input
@@ -30,7 +35,7 @@ description: "Artículos sobre desarrollo de videojuegos, industria indie, tutor
           placeholder="Buscar artículos por título o tema..."
           autocomplete="off"
           class="w-full bg-[#1a1130]/80 border border-violet-300/70 focus:border-violet-400/80 text-slate-200 placeholder-slate-500 rounded-2xl pl-12 pr-12 py-4 outline-none transition-all duration-300 focus:bg-[#1d1338]/90 focus:shadow-lg focus:shadow-violet-900/20 text-sm font-medium"
-        >
+        />
         <button
           id="search-clear"
           aria-label="Limpiar búsqueda"
@@ -39,112 +44,139 @@ description: "Artículos sobre desarrollo de videojuegos, industria indie, tutor
           <i class="fas fa-times text-sm"></i>
         </button>
       </div>
-      <p id="no-results" class="hidden text-center text-slate-400 italic mt-8 text-sm">
-        No se encontraron artículos para "<span id="search-term-display" class="text-violet-400 not-italic font-semibold"></span>".
+      <p
+        id="no-results"
+        class="hidden text-center text-slate-400 italic mt-8 text-sm"
+      >
+        No se encontraron artículos para "<span
+          id="search-term-display"
+          class="text-violet-400 not-italic font-semibold"
+        ></span
+        >".
       </p>
     </div>
+
     <div id="paginated-posts">
-      {% if paginator.page == 1 %}
-        {% assign first_page_posts = paginator.posts %}
-        {% comment %}La primera página prioriza jerarquía visual antes del grid repetitivo.{% endcomment %}
-        <div class="grid grid-cols-1 md:grid-cols-2 gap-8 mb-8 w-full">
-          {% for post in first_page_posts %}
-            {% if forloop.index == 1 %}
-              <div class="md:row-span-2 reveal w-full" style="--reveal-delay: 0ms;">
-                <article class="group relative overflow-hidden rounded-[2rem] aspect-square md:aspect-[4/5] h-full w-full">
-                  <a href="{{ post.url | relative_url }}" class="block w-full h-full">
-                    <img
-                      src="{{ post.thumbnail | relative_url }}"
-                      alt="{{ post.title }}"
-                      loading="lazy"
-                      class="absolute inset-0 w-full h-full object-cover transition-transform duration-700 group-hover:scale-110"
-                    >
-                    <div class="absolute inset-0 bg-gradient-to-t from-[#05010d] via-[#05010d]/60 to-transparent opacity-90"></div>
-                    {% if post.categories.size > 0 %}
-                      <div class="absolute top-4 left-4">
-                        {% include category-badge.html category=post.categories.first %}
-                      </div>
-                    {% endif %}
-                    <div class="absolute bottom-0 p-6 md:p-8 w-full">
-                      {% include author-date.html author=post.author date=post.date show_name=false img_size=5 mb=3 %}
-                      <h2 class="text-2xl md:text-3xl font-bold text-white leading-tight group-hover:text-violet-300 transition-colors">
-                        {{ post.title }}
-                      </h2>
-                      <p class="text-slate-400 text-sm leading-relaxed mt-3 line-clamp-2">
-                        {{ post.excerpt | strip_html | truncate: 155 }}
-                      </p>
-                    </div>
-                  </a>
-                </article>
+      {% if paginator.page == 1 %} {% assign first_page_posts = paginator.posts
+      %} {% assign post_hero = first_page_posts | slice: 0, 1 %} {% assign
+      posts_featured = first_page_posts | slice: 1, 2 %} {% assign posts_wide =
+      first_page_posts | slice: 3, 2 %} {% assign posts_grid = first_page_posts
+      | slice: 5, 3 %} {% assign posts_small = first_page_posts | slice: 8, 4 %}
+
+      <div class="grid grid-cols-1 md:grid-cols-2 gap-8 mb-8 w-full">
+        {% for post in post_hero %}
+        <div class="md:row-span-2 reveal w-full" style="--reveal-delay: 0ms">
+          <article
+            class="group relative overflow-hidden rounded-[2rem] aspect-square md:aspect-[4/5] h-full w-full"
+          >
+            <a href="{{ post.url | relative_url }}" class="block w-full h-full">
+              <img
+                src="{{ post.thumbnail | relative_url }}"
+                alt="{{ post.title }}"
+                loading="lazy"
+                class="absolute inset-0 w-full h-full object-cover transition-transform duration-700 group-hover:scale-110"
+              />
+              <div
+                class="absolute inset-0 bg-gradient-to-t from-[#05001d] via-[#05001d]/60 to-transparent opacity-90"
+              ></div>
+              {% if post.categories.size > 0 %}
+              <div class="absolute top-4 left-4">
+                {% include category-badge.html category=post.categories.first %}
               </div>
-            {% elsif forloop.index == 2 or forloop.index == 3 %}
-              {% assign delay = forloop.index | times: 100 %}
-              <div class="reveal w-full" style="--reveal-delay: {{ delay }}ms;">
-                {% include featured-post.html post=post aspect='aspect-[4/3] lg:aspect-video' excerpt=true %}
+              {% endif %}
+              <div class="absolute bottom-0 p-6 md:p-8 w-full">
+                {% include author-date.html author=post.author date=post.date
+                show_name=false img_size=5 %}
+                <h2
+                  class="text-2xl md:text-3xl font-bold text-white leading-tight group-hover:text-violet-300 transition-colors"
+                >
+                  {{ post.title }}
+                </h2>
+                <p
+                  class="text-slate-400 text-sm leading-relaxed mt-3 line-clamp-2"
+                >
+                  {{ post.excerpt | strip_html | truncate: 155 }}
+                </p>
               </div>
-            {% elsif forloop.index == 4 or forloop.index == 5 %}
-              {% assign delay = forloop.index | times: 100 %}
-              <div class="reveal w-full" style="--reveal-delay: {{ delay }}ms;">
-                {% include featured-post.html post=post aspect='aspect-[4/3] lg:aspect-[21/9]' excerpt=false %}
-              </div>
-            {% endif %}
-          {% endfor %}
+            </a>
+          </article>
         </div>
-        <div id="paginated-grid" class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 mb-12 w-full">
-          {% for post in first_page_posts %}
-            {% if forloop.index >= 6 and forloop.index <= 8 %}
-              {% assign mod_index = forloop.index0 | modulo: 3 %}
-              {% assign reveal_delay = mod_index | times: 100 %}
-              {% include post-card.html post=post reveal_delay=reveal_delay %}
-            {% endif %}
-          {% endfor %}
+        {% endfor %} {% for post in posts_featured %} {% assign delay =
+        forloop.index | times: 100 %}
+        <div class="reveal w-full" style="--reveal-delay: {{ delay }}ms;">
+          {% include featured-post.html post=post aspect='aspect-[4/3]
+          lg:aspect-video' excerpt=true %}
         </div>
-        <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-4 mb-16 w-full">
-          {% for post in first_page_posts %}
-            {% if forloop.index >= 9 and forloop.index <= 12 %}
-              {% assign delay = forloop.index | times: 50 %}
-              <div class="reveal w-full" style="--reveal-delay: {{ delay }}ms;">
-                {% include featured-post.html post=post aspect='aspect-[4/3] lg:aspect-square' img_size=4 padding='p-4' excerpt=false %}
-              </div>
-            {% endif %}
-          {% endfor %}
+        {% endfor %} {% for post in posts_wide %} {% assign delay =
+        forloop.index0 | plus: 3 | times: 100 %}
+        <div class="reveal w-full" style="--reveal-delay: {{ delay }}ms;">
+          {% include featured-post.html post=post aspect='aspect-[4/3]
+          lg:aspect-[21/9]' excerpt=false %}
         </div>
+        {% endfor %}
+      </div>
+
+      <div
+        id="paginated-grid"
+        class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 mb-12 w-full"
+      >
+        {% for post in posts_grid %} {% assign reveal_delay = forloop.index0 |
+        times: 100 %} {% include post-card.html post=post
+        reveal_delay=reveal_delay %} {% endfor %}
+      </div>
+
+      <div
+        class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-4 mb-16 w-full"
+      >
+        {% for post in posts_small %} {% assign delay = forloop.index0 | times:
+        50 %}
+        <div class="reveal w-full" style="--reveal-delay: {{ delay }}ms;">
+          {% include featured-post.html post=post aspect='aspect-[4/3]
+          lg:aspect-square' img_size=4 padding='p-4' excerpt=false %}
+        </div>
+        {% endfor %}
+      </div>
 
       {% else %}
-        <div id="paginated-grid" class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 mb-16 w-full">
-          {% for post in paginator.posts %}
-            {% assign mod_index = forloop.index0 | modulo: 3 %}
-            {% assign reveal_delay = mod_index | times: 100 %}
-            {% include post-card.html post=post reveal_delay=reveal_delay %}
-          {% endfor %}
-        </div>
-      {% endif %}
-      {% comment %}La paginación solo aparece cuando Jekyll genera más de una página de índice.{% endcomment %}
-      {% if paginator.total_pages > 1 %}
-        <nav id="pagination-nav" class="flex justify-center items-center gap-4 reveal" aria-label="Navegación de páginas">
-          {% if paginator.previous_page %}
-            <a
-              href="{{ paginator.previous_page_path | relative_url }}"
-              class="w-12 h-12 flex items-center justify-center rounded-xl bg-violet-600/20 border border-violet-300/70 text-violet-300 hover:bg-violet-600/40 hover:text-white hover:border-violet-400/60 transition-all duration-300 ease-out"
-            >
-              <i class="fas fa-chevron-left"></i>
-            </a>
-          {% endif %}
-          <span class="text-slate-400 font-bold tracking-widest text-xs uppercase">
-            Página {{ paginator.page }} de {{ paginator.total_pages }}
-          </span>
-          {% if paginator.next_page %}
-            <a
-              href="{{ paginator.next_page_path | relative_url }}"
-              class="w-12 h-12 flex items-center justify-center rounded-xl bg-violet-600/20 border border-violet-300/70 text-violet-300 hover:bg-violet-600/40 hover:text-white hover:border-violet-400/60 transition-all duration-300 ease-out"
-            >
-              <i class="fas fa-chevron-right"></i>
-            </a>
-          {% endif %}
-        </nav>
+      <div
+        id="paginated-grid"
+        class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 mb-16 w-full"
+      >
+        {% for post in paginator.posts %} {% assign reveal_delay =
+        forloop.index0 | modulo: 3 | times: 100 %} {% include post-card.html
+        post=post reveal_delay=reveal_delay %} {% endfor %}
+      </div>
+      {% endif %} {% if paginator.total_pages > 1 %}
+      <nav
+        id="pagination-nav"
+        class="flex justify-center items-center gap-4 reveal"
+        aria-label="Navegación de páginas"
+      >
+        {% if paginator.previous_page %}
+        <a
+          href="{{ paginator.previous_page_path | relative_url }}"
+          class="w-12 h-12 flex items-center justify-center rounded-xl bg-violet-600/20 border border-violet-300/70 text-violet-300 hover:bg-violet-600/40 hover:text-white hover:border-violet-400/60 transition-all duration-300 ease-out"
+        >
+          <i class="fas fa-chevron-left"></i>
+        </a>
+        {% endif %}
+        <span
+          class="text-slate-400 font-bold tracking-widest text-xs uppercase"
+        >
+          Página {{ paginator.page }} de {{ paginator.total_pages }}
+        </span>
+        {% if paginator.next_page %}
+        <a
+          href="{{ paginator.next_page_path | relative_url }}"
+          class="w-12 h-12 flex items-center justify-center rounded-xl bg-violet-600/20 border border-violet-300/70 text-violet-300 hover:bg-violet-600/40 hover:text-white hover:border-violet-400/60 transition-all duration-300 ease-out"
+        >
+          <i class="fas fa-chevron-right"></i>
+        </a>
+        {% endif %}
+      </nav>
       {% endif %}
     </div>
-    {% comment %}Este contenedor se activa por JS cuando el usuario filtra resultados.{% endcomment %}
+
     <div id="search-results-container" class="hidden">
       <div id="search-results-grid" class="grid lg:grid-cols-2 gap-4"></div>
     </div>

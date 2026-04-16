@@ -1,31 +1,42 @@
-{% assign author = site.data.authors[include.author] | default: site.data.authors['javo'] %}
-{% assign show_name = include.show_name | default: true %}
-{% assign img_size = include.img_size | default: 6 %}
-{% assign gap = include.gap | default: 'gap-2' %}
-{% assign extra_classes = include.extra_classes | default: '' %}
-{% assign px_size = img_size | times: 4 %}
+{% assign author = site.data.authors[include.author] | default:
+site.data.authors['javo'] %} {% assign show_name = include.show_name | default:
+true %} {% assign show_time = include.show_time | default: false %} {% assign
+img_size = include.img_size | default: 6 %} {% assign gap = include.gap |
+default: 'gap-2' %} {% assign img_class = include.img_class | default:
+'border-violet-300/70' %} {% assign name_class = include.name_class | default:
+'text-slate-400' %} {% assign date_class = include.date_class | default:
+'text-violet-400' %} {% assign extra_classes = include.extra_classes | default:
+'' %} {% assign px_size = img_size | times: 4 %}
 
-<div class="flex items-center {{ gap }} mb-{{ include.mb | default: 3 }} {{ extra_classes }}">
+<div class="flex items-center {{ gap }} {{ extra_classes }}">
   <img
     src="{{ author.avatar }}"
     alt="{{ author.name }}"
-    class="w-{{ img_size }} h-{{ img_size }} rounded-full object-cover border border-violet-300/70 flex-shrink-0"
+    class="w-{{ img_size }} h-{{ img_size }} rounded-full object-cover border {{ img_class }} flex-shrink-0"
     width="{{ px_size }}"
     height="{{ px_size }}"
     loading="lazy"
-  >
+  />
   {% if show_name %}
   <div>
-    <div class="text-slate-400 text-[10px] font-bold uppercase tracking-widest leading-none">
+    <div
+      class="{{ name_class }} text-[10px] font-bold uppercase tracking-widest leading-none"
+    >
       {{ author.name }}
     </div>
-    <div class="text-violet-400 text-[10px] font-bold uppercase tracking-widest leading-none mt-0.5">
-      {% include date_es.html date=include.date %}
+    <div
+      class="{{ date_class }} text-[10px] font-bold uppercase tracking-widest leading-none mt-0.5"
+    >
+      {% include date_es.html date=include.date %} {% if show_time %} · {{
+      include.date | date: "%H:%M" }} h {% endif %}
     </div>
   </div>
   {% else %}
-  <span class="text-violet-400 text-[10px] font-bold uppercase tracking-widest">
-    {% include date_es.html date=include.date %}
+  <span
+    class="{{ date_class }} text-[10px] font-bold uppercase tracking-widest"
+  >
+    {% include date_es.html date=include.date %} {% if show_time %} · {{
+    include.date | date: "%H:%M" }} h {% endif %}
   </span>
   {% endif %}
 </div>
