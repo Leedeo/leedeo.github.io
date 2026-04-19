@@ -1,7 +1,7 @@
 ---
 layout: "post"
 author: "javo"
-date: "2026-04-20 18:00:00"
+date: "2026-04-19 18:00:00"
 
 thumbnail: "/assets/img/posts/personajes-femeninos-hipersexualizados-videojuegos.webp"
 title: "Personajes Femeninos Hipersexualizados: ¿Problema Real o Fantasía mal entendida?"
