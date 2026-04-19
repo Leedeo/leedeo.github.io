@@ -1,7 +1,7 @@
 ---
 layout: "post"
 author: "javo"
-date: "2026-03-06 07:27:19 +0100"
+date: "2026-03-06 07:27:19"
 
 thumbnail: "/assets/img/posts/reparar-errores-windows.webp"
 title: "¿SFC /scannow no funciona? Guía completa para reparar archivos de Windows"

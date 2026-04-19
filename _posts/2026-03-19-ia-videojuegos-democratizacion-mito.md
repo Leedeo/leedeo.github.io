@@ -1,7 +1,7 @@
 ---
 layout: "post"
 author: "javo"
-date: "2026-03-19 07:38:51 +0100"
+date: "2026-03-19 07:38:51"
 
 thumbnail: "/assets/img/posts/ia-videojuegos-democratizacion.webp"
 title: "El mito de la democratización: cuando «cualquiera puede crear un juego» no es tan buena noticia como parece"

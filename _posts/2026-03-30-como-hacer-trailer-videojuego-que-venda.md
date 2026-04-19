@@ -1,7 +1,7 @@
 ---
 layout: "post"
 author: "javo"
-date: "2026-03-30 10:26:00 +0100"
+date: "2026-03-30 10:26:00"
 
 thumbnail: "/assets/img/posts/como-hacer-trailer-videojuego-que-venda.webp"
 title: "Cómo hacer un tráiler de videojuego que venda y no haga que tu juego pase desapercibido"

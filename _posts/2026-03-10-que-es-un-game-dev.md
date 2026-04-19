@@ -1,7 +1,7 @@
 ---
 layout: "post"
 author: "javo"
-date: "2026-03-10 08:13:32 +0100"
+date: "2026-03-10 08:13:32"
 
 thumbnail: "/assets/img/posts/que-es-un-game-dev.webp"
 title: "¿Qué es un Game Dev? Todo lo que necesitas saber para empezar a crear videojuegos"

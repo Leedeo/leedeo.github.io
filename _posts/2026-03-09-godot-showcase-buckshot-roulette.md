@@ -1,7 +1,7 @@
 ---
 layout: "post"
 author: "javo"
-date: "2026-03-09 07:34:17 +0100"
+date: "2026-03-09 07:34:17"
 
 thumbnail: "/assets/img/posts/buckshot-roulette-godot-showcase-thumbnail.webp"
 title: "Godot Showcase: Buckshot Roulette y la realidad del desarrollo indie"

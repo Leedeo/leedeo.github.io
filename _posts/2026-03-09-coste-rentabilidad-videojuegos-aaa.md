@@ -1,7 +1,7 @@
 ---
 layout: "post"
 author: "javo"
-date: "2026-03-09 07:11:49 +0100"
+date: "2026-03-09 07:11:49"
 
 thumbnail: "/assets/img/posts/coste-videojuegos-aaa.webp"
 title: "Hacer videojuegos cada vez cuesta más, y rentabilizarlos es otro problema"

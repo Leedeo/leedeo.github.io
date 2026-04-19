@@ -1,7 +1,7 @@
 ---
 layout: "post"
 author: "javo"
-date: "2026-03-10 08:33:25 +0100"
+date: "2026-03-10 08:33:25"
 
 thumbnail: "/assets/img/posts/nintendo-demanda-aranceles-usa.webp"
 title: "Nintendo demanda al gobierno de Estados Unidos por los aranceles de Trump"

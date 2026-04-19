@@ -1,7 +1,7 @@
 ---
 layout: "post"
 author: "javo"
-date: "2026-03-26 09:30:00 +0100"
+date: "2026-03-26 09:30:00"
 
 thumbnail: "/assets/img/posts/trama-vs-narrativa-videojuegos.webp"
 title: "Diferencia entre trama y narrativa en videojuegos: por qué no son lo mismo"

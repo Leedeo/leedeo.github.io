@@ -1,7 +1,7 @@
 ---
 layout: "post"
 author: "javo"
-date: "2026-04-04 11:59:00 +0100"
+date: "2026-04-04 11:59:00"
 
 thumbnail: "/assets/img/posts/juegos-doble-a-no-existen.webp"
 title: "Los juegos doble A no existen: otra etiqueta más para venderte la misma historia"

@@ -1,7 +1,7 @@
 ---
 layout: "post"
 author: "javo"
-date: "2026-03-13 08:20:20 +0100"
+date: "2026-03-13 08:20:20"
 
 thumbnail: "/assets/img/posts/programas-creadores-marketing-indie.webp"
 title: "Programas de creadores en videojuegos: qué son, por qué funcionan y cómo puede usarlos un indie"

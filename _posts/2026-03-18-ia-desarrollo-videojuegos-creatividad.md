@@ -1,7 +1,7 @@
 ---
 layout: "post"
 author: "javo"
-date: "2026-03-18 07:43:22 +0100"
+date: "2026-03-18 07:43:22"
 
 thumbnail: "/assets/img/posts/ia-desarrollo-videojuegos.webp"
 title: "La IA en el desarrollo de videojuegos: ¿amenaza para la creatividad o el siguiente paso tecnológico?"

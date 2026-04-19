@@ -1,7 +1,7 @@
 ---
 layout: "post"
 author: "javo"
-date: "2026-04-11 05:10:00 +0100"
+date: "2026-04-11 05:10:00"
 
 thumbnail: "/assets/img/posts/historia-rpg-maker-motor-omori-to-the-moon.webp"
 title: "RPG Maker: el motor que demostró que cualquiera puede contar una historia"

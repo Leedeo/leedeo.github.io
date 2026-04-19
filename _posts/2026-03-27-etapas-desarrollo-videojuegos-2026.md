@@ -1,7 +1,7 @@
 ---
 layout: "post"
 author: "javo"
-date: "2026-03-27 12:27:00 +0100"
+date: "2026-03-27 12:27:00"
 
 thumbnail: "/assets/img/posts/etapas-desarrollo-videojuegos-2026.webp"
 title: "Etapas del desarrollo de videojuegos en 2026: proceso, herramientas y cómo ha cambiado todo"

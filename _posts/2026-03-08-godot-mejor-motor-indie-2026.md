@@ -1,7 +1,7 @@
 ---
 layout: "post"
 author: "javo"
-date: "2026-03-08 07:31:26 +0100"
+date: "2026-03-08 07:31:26"
 
 thumbnail: "/assets/img/posts/godot-mejor-motor-indie.webp"
 title: "¿Por qué Godot es el mejor motor para indies en 2026? Realismo y eficiencia"

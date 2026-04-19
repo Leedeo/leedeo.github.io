@@ -1,7 +1,7 @@
 ---
 layout: "post"
 author: "javo"
-date: "2026-03-08 07:33:55 +0100"
+date: "2026-03-08 07:33:55"
 
 thumbnail: "/assets/img/posts/godot-vs-unity-realidad.webp"
 title: "Godot vs Unity en 2026: Por qué el motor no te va a dar el trabajo de tus sueños"

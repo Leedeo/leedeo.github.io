@@ -1,7 +1,7 @@
 ---
 layout: "post"
 author: "javo"
-date: "2026-04-01 14:41:00 +0100"
+date: "2026-04-01 14:41:00"
 
 thumbnail: "/assets/img/posts/sengodai-analisis-deck-builder-godot.webp"
 title: "Sengodai: Cartas, Dolor y una Partida Más"

@@ -1,7 +1,7 @@
 ---
 layout: "post"
 author: "javo"
-date: "2026-03-10 08:12:28 +0100"
+date: "2026-03-10 08:12:28"
 
 thumbnail: "/assets/img/posts/curso-godot-4-gratis.webp"
 title: "Curso gratuito para crear videojuegos con Godot Engine 4"

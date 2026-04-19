@@ -1,7 +1,7 @@
 ---
 layout: "post"
 author: "javo"
-date: "2026-04-13 09:54:00 +0100"
+date: "2026-04-13 09:54:00"
 
 thumbnail: "/assets/img/posts/gamemaker-motor-videojuegos-indie-revolucion.webp"
 title: "GameMaker: el motor que hizo Undertale sin que nadie esperara que pudiera"

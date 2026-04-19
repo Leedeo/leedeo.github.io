@@ -1,7 +1,7 @@
 ---
 layout: "post"
 author: "javo"
-date: "2026-03-17 08:52:16 +0100"
+date: "2026-03-17 08:52:16"
 
 thumbnail: "/assets/img/posts/gimp-3-2-edicion-no-destructiva.webp"
 title: "GIMP 3.2: la edición no destructiva llega (por fin) al editor de imagen libre más conocido del mundo"

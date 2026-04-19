@@ -1,7 +1,7 @@
 ---
 layout: "post"
 author: "javo"
-date: "2026-03-14 08:48:13 +0100"
+date: "2026-03-14 08:48:13"
 
 thumbnail: "/assets/img/posts/que-es-defold-engine-2026.webp"
 title: "¿Qué es Defold? El motor de videojuegos gratuito del que casi nadie habla"

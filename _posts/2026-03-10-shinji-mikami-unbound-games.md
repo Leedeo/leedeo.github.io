@@ -1,7 +1,7 @@
 ---
 layout: "post"
 author: "javo"
-date: "2026-03-10 07:12:15 +0100"
+date: "2026-03-10 07:12:15"
 
 thumbnail: "/assets/img/posts/shinji-mikami-unbound-games.webp"
 title: "Shinji Mikami lleva dos años construyendo en silencio su nuevo estudio AAA, y acaba de salir a la luz"

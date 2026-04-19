@@ -1,7 +1,7 @@
 ---
 layout: "post"
 author: "javo"
-date: "2026-03-11 07:27:14 +0100"
+date: "2026-03-11 07:27:14"
 
 thumbnail: "/assets/img/posts/generos-videojuegos-rentables-indie.webp"
 title: "¿Qué géneros de videojuegos generan más dinero? Guía para el desarrollador indie"

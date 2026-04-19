@@ -1,7 +1,7 @@
 ---
 layout: "post"
 author: "javo"
-date: "2026-03-10 08:25:11 +0100"
+date: "2026-03-10 08:25:11"
 
 thumbnail: "/assets/img/posts/slay-the-spire-2-key-art.webp"
 title: "Slay the Spire 2 arrasa en Steam con casi 575.000 jugadores simultáneos, y lo ha hecho con Godot"

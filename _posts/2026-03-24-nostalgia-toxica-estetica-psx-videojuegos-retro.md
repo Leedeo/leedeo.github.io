@@ -1,7 +1,7 @@
 ---
 layout: "post"
 author: "javo"
-date: "2026-03-24 05:50:00 +0100"
+date: "2026-03-24 05:50:00"
 
 thumbnail: "/assets/img/posts/nostalgia-toxica-estetica-psx-videojuegos-retro.webp"
 title: "El efecto nostalgia tóxica: por qué nos obsesiona la estética PSX"

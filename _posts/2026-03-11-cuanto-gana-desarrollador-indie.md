@@ -1,7 +1,7 @@
 ---
 layout: "post"
 author: "javo"
-date: "2026-03-11 08:06:48 +0100"
+date: "2026-03-11 08:06:48"
 
 thumbnail: "/assets/img/posts/cuanto-gana-un-desarrollador-de-videojuegos-indie.webp"
 title: "¿Cuánto gana un desarrollador de videojuegos indie? La verdad que nadie te cuenta"

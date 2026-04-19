@@ -1,7 +1,7 @@
 ---
 layout: "post"
 author: "javo"
-date: "2026-03-16 08:47:37 +0100"
+date: "2026-03-16 08:47:37"
 
 thumbnail: "/assets/img/posts/cine-videojuegos-influencia.webp"
 title: "Cine y videojuegos: la historia de una influencia mutua que transformó ambas industrias"

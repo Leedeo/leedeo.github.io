@@ -1,7 +1,7 @@
 ---
 layout: "post"
 author: "javo"
-date: "2026-03-09 08:39:32 +0100"
+date: "2026-03-09 08:39:32"
 
 thumbnail: "/assets/img/posts/videojuegos-creatividad-infantil.webp"
 title: "¿Fomentan los videojuegos la creatividad? La ciencia detrás del pensamiento interactivo"

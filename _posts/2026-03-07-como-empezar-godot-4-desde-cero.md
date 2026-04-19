@@ -1,7 +1,7 @@
 ---
 layout: "post"
 author: "javo"
-date: "2026-03-07 07:24:24 +0100"
+date: "2026-03-07 07:24:24"
 
 thumbnail: "/assets/img/courses/aprender-godot-4.webp"
 title: "¿Cómo aprender Godot 4 desde cero en 2026? Guía paso a paso para principiantes"

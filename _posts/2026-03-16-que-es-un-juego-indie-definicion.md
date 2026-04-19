@@ -1,7 +1,7 @@
 ---
 layout: "post"
 author: "javo"
-date: "2026-03-16 07:51:03 +0100"
+date: "2026-03-16 07:51:03"
 
 thumbnail: "/assets/img/posts/que-es-un-juego-indie.webp"
 title: "¿Qué es un juego indie? La pregunta que la industria del videojuego no sabe responder"

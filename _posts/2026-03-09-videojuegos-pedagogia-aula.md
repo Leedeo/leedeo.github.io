@@ -1,7 +1,7 @@
 ---
 layout: "post"
 author: "javo"
-date: "2026-03-09 07:52:18 +0100"
+date: "2026-03-09 07:52:18"
 
 thumbnail: "/assets/img/posts/videojuegos-pedagogia-aula.webp"
 title: "Videojuegos como aliados pedagógicos: Más allá del aula y hacia la soberanía técnica"

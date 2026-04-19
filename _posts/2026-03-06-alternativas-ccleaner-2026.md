@@ -1,7 +1,7 @@
 ---
 layout: "post"
 author: "javo"
-date: "2026-03-06 07:55:09 +0100"
+date: "2026-03-06 07:55:09"
 
 thumbnail: "/assets/img/posts/alternativas-ccleaner-26.webp"
 title: "Las mejores alternativas a CCleaner en 2026: guía técnica para elegir bien"

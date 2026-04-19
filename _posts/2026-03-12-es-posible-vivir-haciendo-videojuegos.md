@@ -1,7 +1,7 @@
 ---
 layout: "post"
 author: "javo"
-date: "2026-03-12 08:23:43 +0100"
+date: "2026-03-12 08:23:43"
 
 thumbnail: "/assets/img/posts/vivir-de-hacer-videojuegos.webp"
 title: "¿Es posible vivir de los videojuegos en 2026? La respuesta que nadie quiere escuchar"

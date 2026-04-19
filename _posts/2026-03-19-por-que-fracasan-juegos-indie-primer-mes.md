@@ -1,7 +1,7 @@
 ---
 layout: "post"
 author: "javo"
-date: "2026-03-19 08:54:17 +0100"
+date: "2026-03-19 08:54:17"
 
 thumbnail: "/assets/img/posts/por-que-fracasan-juegos-indie.webp"
 title: "¿Por qué el 90% de los juegos indie fracasan en el primer mes?"

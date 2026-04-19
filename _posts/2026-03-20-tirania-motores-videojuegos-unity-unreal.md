@@ -1,7 +1,7 @@
 ---
 layout: "post"
 author: "javo"
-date: "2026-03-20 09:31:08 +0100"
+date: "2026-03-20 09:31:08"
 
 thumbnail: "/assets/img/posts/tirania-motores-videojuegos-unity-unreal.webp"
 title: "La tiranía de los motores: ¿eres desarrollador de videojuegos o usuario de una herramienta?"

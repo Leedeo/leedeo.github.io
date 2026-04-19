@@ -1,7 +1,7 @@
 ---
 layout: "post"
 author: "javo"
-date: "2026-03-25 09:28:00 +0100"
+date: "2026-03-25 09:28:00"
 
 thumbnail: "/assets/img/posts/juegos-godot-exitosos-ventas-ingresos.webp"
 title: "Juegos exitosos creados con Godot Engine en 2026: ventas, ingresos y el fin de un estigma"

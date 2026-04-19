@@ -1,7 +1,7 @@
 ---
 layout: "post"
 author: "javo"
-date: "2026-03-11 07:57:34 +0100"
+date: "2026-03-11 07:57:34"
 
 thumbnail: "/assets/img/posts/jugadores-no-terminan-juegos.webp"
 title: "¿Por qué la mayoría de jugadores nunca termina los videojuegos? La respuesta es más compleja de lo que parece"

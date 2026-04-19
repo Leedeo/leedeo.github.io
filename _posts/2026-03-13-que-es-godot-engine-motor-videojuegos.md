@@ -1,7 +1,7 @@
 ---
 layout: "post"
 author: "javo"
-date: "2026-03-13 07:29:35 +0100"
+date: "2026-03-13 07:29:35"
 
 thumbnail: "/assets/img/posts/que-es-godot-engine-2026.webp"
 title: "¿Qué es Godot Engine? El motor de videojuegos gratuito que desafía a Unity"

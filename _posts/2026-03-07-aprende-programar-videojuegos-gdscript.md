@@ -1,7 +1,7 @@
 ---
 layout: "post"
 author: "javo"
-date: "2026-03-07 08:21:50 +0100"
+date: "2026-03-07 08:21:50"
 
 thumbnail: "/assets/img/posts/aprender-programar-gdscript.webp"
 title: "¿Cómo aprender a programar videojuegos? Por qué GDScript es el mejor lenguaje para empezar"

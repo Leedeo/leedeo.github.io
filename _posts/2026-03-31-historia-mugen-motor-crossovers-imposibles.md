@@ -1,7 +1,7 @@
 ---
 layout: "post"
 author: "javo"
-date: "2026-03-31 11:01:00 +0100"
+date: "2026-03-31 11:01:00"
 
 thumbnail: "/assets/img/posts/historia-mugen-motor-crossovers-imposibles.webp"
 title: "Qué es MUGEN y por qué su historia sigue importando más de 20 años después"

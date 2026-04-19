@@ -1,7 +1,7 @@
 ---
 layout: "post"
 author: "javo"
-date: "2026-04-05 10:28:00 +0100"
+date: "2026-04-05 10:28:00"
 
 thumbnail: "/assets/img/posts/wishlists-steam-desarrollo-indie.webp"
 title: "Cuántas wishlists necesitas en Steam para vender tu juego (y por qué esa cifra puede arruinarte)"

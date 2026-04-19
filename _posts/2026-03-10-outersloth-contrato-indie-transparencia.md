@@ -1,7 +1,7 @@
 ---
 layout: "post"
 author: "javo"
-date: "2026-03-10 08:35:38 +0100"
+date: "2026-03-10 08:35:38"
 
 thumbnail: "/assets/img/posts/outersloth-transparencia-indie.webp"
 title: "Outersloth publica su contrato con desarrolladores indie, y el gesto importa más de lo que parece"

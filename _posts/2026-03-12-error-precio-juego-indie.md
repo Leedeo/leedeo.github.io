@@ -1,7 +1,7 @@
 ---
 layout: "post"
 author: "javo"
-date: "2026-03-12 08:38:36 +0100"
+date: "2026-03-12 08:38:36"
 
 thumbnail: "/assets/img/posts/error-precio-videojuego-indie.webp"
 title: "El error que comete casi todo desarrollador indie al poner precio a su juego"

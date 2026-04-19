@@ -1,7 +1,7 @@
 ---
 layout: "post"
 author: "javo"
-date: "2026-03-08 07:18:11 +0100"
+date: "2026-03-08 07:18:11"
 
 thumbnail: "/assets/img/posts/guia-crear-videojuegos.webp"
 title: "¿Cómo empezar a crear videojuegos desde cero? Guía técnica y mental"
