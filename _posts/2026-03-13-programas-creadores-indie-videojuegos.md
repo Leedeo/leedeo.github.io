@@ -26,9 +26,9 @@ faq:
 comments: true
 ---
 
-Cuando escuchas \"marketing con influencers para videojuegos\", probablemente imaginas un contrato con un streamer de medio millón de seguidores para que juegue a tu juego durante dos horas a cambio de varios miles de euros. Eso existe, funciona en ciertos contextos, y está completamente fuera del alcance de la mayoría de estudios independientes.
+Al oír "marketing con influencers", lo habitual es imaginar un contrato con un streamer de medio millón de seguidores para que juegue a tu título durante dos horas. Eso existe y funciona, pero está fuera del alcance de la mayoría de estudios independientes.
 
-Pero hay otro modelo que lleva años creciendo en silencio y que tiene unas métricas de rendimiento bastante más interesantes: los programas de creadores. No son lo mismo que una campaña de influencer marketing puntual. Son una estrategia diferente, con una lógica diferente, y los datos que empiezan a publicarse sobre ellos merecen atención aunque tu equipo sea de dos personas y tu presupuesto de marketing sea casi inexistente.
+Afortunadamente, hay otro modelo que crece en silencio y con métricas mucho más interesantes: los programas de creadores. No son lo mismo que una campaña puntual: son una estrategia con una lógica propia. Los datos demuestran que merecen atención incluso si tu equipo es de dos personas y tu presupuesto es casi inexistente.
 
 ## Por dónde empezar: El video que conecta los conceptos
 

@@ -26,9 +26,9 @@ faq:
 comments: true
 ---
 
-En el [artículo anterior](/blog/ia-desarrollo-videojuegos-creatividad/) hablamos sobre la IA como herramienta creativa en el desarrollo de videojuegos. Sobre cómo la cámara de fotos, el tractor y la imprenta generaron las mismas resistencias en su momento. Sobre cómo la herramienta no define el resultado, sino la persona que la usa. Todo eso sigue siendo cierto.
+En el [artículo anterior](/blog/ia-desarrollo-videojuegos-creatividad/) hablamos de la IA como herramienta creativa: de cómo la cámara o el tractor generaron resistencias similares. Todo eso se mantiene.
 
-Pero hay una segunda parte de esta conversación que merece un artículo propio, porque tiene implicaciones distintas y porque ignorarla sería deshonesto.
+Pero hay otra cara de la moneda que merece un análisis propio por sus implicaciones y porque ignorarla sería deshonesto.
 
 La palabra que más se repite cuando se habla de IA y creación es **"democratización"**. La idea suena bien: ahora cualquier persona puede crear un videojuego sin saber programar, sin saber dibujar, sin saber componer música. Tres instrucciones a una IA, unos cuantos clics y el resultado es algo que se parece a un juego. Las barreras de entrada han desaparecido. El desarrollo de videojuegos se ha democratizado.
 

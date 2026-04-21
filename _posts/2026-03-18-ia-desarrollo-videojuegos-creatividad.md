@@ -26,11 +26,11 @@ faq:
 comments: true
 ---
 
-Cada vez que aparece una nueva tecnología capaz de automatizar algo que antes solo podían hacer las personas, se repite el mismo ciclo. Primero el asombro. Luego el miedo. Después los discursos encendidos. Y finalmente, con el tiempo, la normalización.
+Cada vez que aparece una tecnología capaz de automatizar tareas humanas, el ciclo se repite: asombro, miedo, discursos encendidos y, finalmente, normalización.
 
-Con la inteligencia artificial generativa está pasando exactamente eso. Y en pocos sectores el debate es tan intenso como en el de los videojuegos, donde la IA puede intervenir en prácticamente todas las fases de la creación: el arte, la música, la programación, el diseño de niveles, los diálogos, las animaciones.
+Con la IA generativa observamos exactamente ese ciclo. En el sector de los videojuegos el debate es total, ya que puede intervenir en arte, música, código, narrativa y animación.
 
-Las posturas más visibles tienden a ocupar los extremos. En un lado, quienes celebran la IA como la herramienta definitiva que va a democratizar la creación. En el otro, quienes la consideran una amenaza existencial para los profesionales creativos y un atajo que destruye la originalidad. Entre ambos extremos hay un espacio enorme, lleno de matices, donde la conversación real debería estar ocurriendo.
+Las posturas suelen polarizarse: entre quienes la ven como la democratización definitiva y quienes la consideran una amenaza destructiva para la originalidad. Entre ambos extremos hay un espacio lleno de matices donde debería estar ocurriendo la conversación real.
 
 Este artículo no pretende defender ni atacar la IA. Pretende observar lo que está pasando, ponerlo en contexto histórico y plantear preguntas que rara vez se hacen cuando el debate se reduce a eslóganes.
 

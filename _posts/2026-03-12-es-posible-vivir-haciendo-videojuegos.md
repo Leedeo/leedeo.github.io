@@ -26,11 +26,11 @@ faq:
 comments: true
 ---
 
-Voy a empezar con la respuesta corta: sí, es posible. Y ahora voy a dedicar el resto del artículo a explicar por qué esa respuesta, sin contexto, es casi completamente inútil.
+La respuesta corta es sí. Pero sin contexto, esa respuesta es casi inútil.
 
-Porque "es posible" también aplica a ganar la lotería. La pregunta que realmente importa no es si es posible, sino qué probabilidades tiene alguien concreto, con recursos concretos, en el mercado de 2026, de construir algo sostenible haciendo videojuegos. Y esa pregunta tiene una respuesta mucho más matizada, menos romántica, y bastante más útil.
+Porque "es posible" también aplica a ganar la lotería. La pregunta real no es si es posible, sino qué probabilidades hay de construir algo sostenible en el mercado de 2026 con recursos concretos. Es una respuesta menos romántica, pero mucho más útil.
 
-Pero antes de meternos de lleno en las duras realidades del mercado laboral mundial o de las ventas indie, hace falta una toma de consciencia: ninguna de las crudas realidades de este artículo te afecta si ni siquiera tienes la disciplina para dar los primeros pasos básicos en el desarrollo de videojuegos y terminar un proyecto sencillo. Si todo esto te pilla empezando y estás a punto de rendirte porque no sabes por dónde arrancar de verdad a hacer tu juego, echa el freno un momento y mira esto:
+Pero antes de meternos de lleno en las realidades del mercado, hace falta una reflexión: ninguna de estas crudas verdades te afecta si no tienes la disciplina para dar los primeros pasos y terminar un proyecto sencillo. Si estás en ese punto y no sabes por dónde arrancar, mira esto:
 
 {% include youtube-embed.html id="NWosjlLorEU" title="Por qué aprender Unity o Unreal no te dará trabajo" %}
 

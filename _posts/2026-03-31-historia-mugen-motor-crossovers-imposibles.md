@@ -32,11 +32,9 @@ faq:
     answer: "Sí. Para mucha gente, MUGEN fue una puerta de entrada al desarrollo. Editar personajes, ajustar animaciones y montar proyectos propios enseñaba lógica de sistemas, diseño de juego, ritmo y presentación visual de forma práctica y experimental."
 comments: true
 ---
-Si alguna vez viste un juego donde **Goku peleaba contra Mario**, **Homer Simpson se enfrentaba a Ryu** o un personaje sacado de cualquier anime aparecía en un torneo imposible junto a media cultura pop, hay muchas probabilidades de que detrás estuviera **MUGEN**.
+Si alguna vez viste a **Goku contra Mario** o a **Homer Simpson contra Ryu**, probablemente estuvieras ante **MUGEN**.
 
-Y si no sabes qué es MUGEN, la respuesta rápida sería esta: un motor de juegos de lucha 2D que permitió a miles de personas crear sus propios crossovers, personajes y proyectos fan-made cuando eso todavía no era algo tan normal como hoy.
-
-La respuesta buena, la interesante, es bastante más grande que eso.
+Este motor de lucha 2D permitió a miles de personas crear crossovers imposibles cuando la industria oficial ni siquiera lo soñaba. Pero MUGEN fue más que una curiosidad: fue una escuela accidental de desarrollo y una cultura propia en el internet antiguo.
 
 {% include youtube-embed.html id="1_33sLVzqlE" title="Historia de MUGEN, El Motor de los Crossovers Imposibles" %}
 

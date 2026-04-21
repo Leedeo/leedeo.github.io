@@ -26,7 +26,7 @@ faq:
 comments: true
 ---
 
-Hace apenas unas décadas, la imagen de la creatividad infantil estaba ligada indisolublemente a los bloques de construcción y los muñecos articulados. Los niños pasaban horas inventando mundos que se materializaban en el suelo de su habitación. Hoy, esa misma pulsión creativa ha encontrado un nuevo ecosistema: los **entornos digitales interactivos**. 
+Hace unas décadas, la imagen de la creatividad infantil estaba ligada a los bloques de construcción y los muñecos articulados. Los niños inventaban mundos que se materializaban en el suelo de su habitación. Hoy, esa misma pulsión creativa ha encontrado un nuevo espacio: los **entornos digitales interactivos**. 
 
 Sin embargo, en pleno 2026, el debate ha dejado de ser una cuestión de \"tiempo de pantalla\" para convertirse en un análisis profundo del **desarrollo cognitivo y emocional**. ¿Es el videojuego un sustituto del juego tradicional o su evolución lógica? La ciencia y la pedagogía moderna tienen una respuesta clara: el videojuego, bien dirigido, es uno de los laboratorios de experimentación más potentes que existen.
 

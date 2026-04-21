@@ -26,11 +26,9 @@ faq:
 comments: true
 ---
 
-Hay una imagen que se repite cada vez más en el videojuego independiente: texturas temblorosas, polígonos toscos, niebla espesa, animaciones rígidas, modelos que parecen tallados con una cuchara y una interfaz que podría haber salido de un televisor de tubo en 1998. La llamada **estética PSX** ya no es una rareza; es casi un subgénero visual con identidad propia.
+La **estética PSX** ya no es una rareza en el desarrollo indie; es casi un subgénero con identidad propia: polígonos toscos, texturas temblorosas y niebla espesa.
 
-Y la pregunta es inevitable: ¿por qué?
-
-¿Por amor genuino a una forma de arte? ¿Por una búsqueda deliberada de atmósfera? ¿O porque hemos convertido una limitación técnica del pasado en una decisión estética del presente? La respuesta corta es que hay un poco de todo. La larga merece desarrollarse, porque lo que está ocurriendo con la nostalgia por PlayStation 1 dice bastante sobre cómo recordamos los videojuegos... y sobre cómo preferimos olvidarlos también.
+¿Por qué ocurre esto? ¿Es amor al arte, ahorro de costes o nostalgia pura? La respuesta corta es que hay un poco de todo. La larga explica cómo recordamos los videojuegos y qué preferimos olvidar.
 
 ## La nostalgia nunca desaparece, solo cambia de década
 

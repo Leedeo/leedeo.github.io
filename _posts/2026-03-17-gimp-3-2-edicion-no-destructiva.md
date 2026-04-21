@@ -26,9 +26,9 @@ faq:
 comments: true
 ---
 
-**[GIMP](https://www.gimp.org/)** acaba de publicar su versión **3.2**, y aunque cada actualización trae su lista de mejoras y correcciones, esta vez hay un cambio que lleva décadas esperándose: la **edición no destructiva**.
+**[GIMP](https://www.gimp.org/)** acaba de publicar su versión **3.2**, y aunque cada actualización trae mejoras, esta vez hay un cambio histórico: la llegada (por fin) de la **edición no destructiva**.
 
-No es una exageración. Es una función que Photoshop tiene desde hace más de veinte años. Es algo que los usuarios de GIMP llevan pidiendo prácticamente desde que el programa existe. Y es, sin ninguna duda, la novedad más significativa que GIMP ha recibido en muchísimo tiempo.
+No es exagerado. Es una función que Photoshop incorporó hace más de veinte años y que los usuarios de GIMP demandábamos prácticamente desde el origen del programa. Es la novedad más relevante en décadas.
 
 ## Qué significa \"edición no destructiva\" y por qué importa tanto
 

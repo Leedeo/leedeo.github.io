@@ -31,19 +31,19 @@ comments: true
 
 Para entender qué es Godot Engine, primero hay que entender qué es un motor de videojuegos, y la buena noticia es que no hace falta ser ingeniero para comprenderlo.
 
-Cuando alguien crea un videojuego, necesita resolver un montón de problemas técnicos: que los personajes se muevan, que los objetos choquen entre sí, que se escuche la música, que los gráficos se vean en pantalla. Un motor de videojuegos es el programa que se encarga de todo eso. Es la base sobre la que se construye el juego, las herramientas con las que se arma pieza a pieza.
+Cuando alguien crea un videojuego, necesita resolver problemas técnicos: movimiento, colisiones, sonido, renderizado. Un motor de videojuegos es la infraestructura técnica y el conjunto de herramientas con las que se construye el juego pieza a pieza.
 
-Los dos motores más conocidos de la industria son **Unity** y **Unreal Engine**. Llevan años dominando el mercado. Pero hay un tercero que no para de crecer: **[Godot Engine](https://godotengine.org/)**.
+Los dos motores más conocidos son **Unity** y **Unreal Engine**. Pero hay un tercero que no para de crecer: **[Godot Engine](https://godotengine.org/)**.
 
-## ¿Y qué lo hace diferente?
+## ¿Qué lo hace diferente?
 
-**[Godot Engine](https://godotengine.org/)** es un motor de videojuegos **gratuito y de código abierto**.
+**[Godot Engine](https://godotengine.org/)** es un motor **gratuito y de código abierto**.
 
-Gratuito significa exactamente lo que parece: lo descargas, creas tu juego, lo vendes, y no le debes dinero a nadie. No hay cuotas mensuales, no hay porcentajes sobre las ventas, no hay versiones \"premium\" con las funciones importantes bloqueadas. Todo está disponible desde el primer momento.
+Gratis significa lo que parece: lo descargas, creas tu juego, lo vendes, y no le debes nada a nadie. No hay cuotas, porcentajes sobre ventas ni funciones bloqueadas. Todo está disponible desde el primer momento.
 
-Lo de \"código abierto\" significa que el código con el que está construido el motor es público. Cualquier persona puede leerlo, estudiarlo, modificarlo y contribuir a mejorarlo. Es un proyecto que pertenece a su comunidad, no a una empresa que pueda cambiar las reglas cuando le convenga.
+"Código abierto" significa que el código fuente es público. Cualquiera puede estudiarlo, modificarlo y contribuir. Es un proyecto de la comunidad, no de una empresa que pueda cambiar las reglas a su antojo.
 
-Y este último punto no es menor, porque tanto Unity como Unreal cobran regalías a partir de ciertos ingresos. Con Godot eso no existe.
+Este punto es clave: mientras Unity o Unreal cobran regalías a partir de ciertos ingresos, en Godot eso no existe.
 
 ## Iníciate en Godot desde Cero
 

@@ -54,7 +54,7 @@ Vale la pena aclarar esto porque genera confusión: Outersloth no es una publish
 
 El fondo nació con un presupuesto de 25 millones de dólares para invertir en proyectos durante cinco años, distribuidos por trimestres. Desde 2022 ha invertido algo más de 19 millones en 24 proyectos, con presupuestos que generalmente oscilan entre 50.000 y 2 millones de dólares por título. La mayoría de los proyectos están por debajo de los 500.000 dólares, y solo seis han superado el millón.
 
-Su tasa de firma es del 1,4%, que en términos absolutos parece baja pero en contexto es relevante: la tasa media de publishers del sector ronda el 0,16%, lo que significa que Outersloth firma casi nueve veces más proyectos de los que recibe en proporción al total de pitches. El criterio de selección, según sus propias palabras, sigue siendo en gran parte cuestión de "vibes", lo que es una forma de decir que no tienen una hoja de cálculo que decida qué entra y qué no.
+Su tasa de firma es del 1,4%, cifra que en contexto es muy relevante: la tasa media de publishers del sector ronda el 0,16%, lo que significa que Outersloth firma casi nueve veces más proyectos de los que recibe en proporción al total de pitches. El criterio de selección, según sus propias palabras, sigue siendo en gran parte cuestión de "vibes", una forma de decir que no dependen de una hoja de cálculo para decidir.
 
 Los cuatro juegos de Outersloth que ya han salido en Steam tienen todos valoraciones positivas. El más vendido hasta ahora es Mars First Logistics, una simulación de transporte espacial de Shape Shop. No son éxitos masivos, pero están ahí y están funcionando, que era el objetivo.
 

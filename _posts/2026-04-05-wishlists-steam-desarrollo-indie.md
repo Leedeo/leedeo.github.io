@@ -29,9 +29,7 @@ faq:
     answer: "La clave está en comunicar bien tu juego desde el principio. Un tráiler efectivo que muestre claramente qué hace especial a tu juego, una página de Steam que venda una idea y no solo acumule visitas, y una comunidad que espere tu lanzamiento activamente. Todo eso convierte una wishlist en intención real de compra."
 comments: true
 ---
-Hay una mentira muy cómoda rondando el desarrollo indie.
-
-No es una mentira total, de esas fáciles de desmontar. Es peor: es una de esas *medias verdades* que suenan razonables, que todo el mundo repite y que, precisamente por eso, terminan haciendo daño.
+Hay una mentira muy cómoda rondando el desarrollo indie. No es una mentira fácil de desmontar, sino una media verdad que, al repetirse como dogma, termina siendo destructiva.
 
 La frase la habrás escuchado mil veces:
 

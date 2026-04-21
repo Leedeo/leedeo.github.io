@@ -30,11 +30,9 @@ faq:
     answer: "Sengodai es un spin-off del universo de Katana Dragon. Comparte estética voxel art, música, ambientación y los gokai. Amplía la franquicia desde otro género en lugar de hacer una secuela directa."
 comments: true
 ---
-Hay géneros con los que uno conecta al instante, y luego están los juegos de cartas. Ese terreno donde mucha gente ve estrategia, sinergias y decisiones inteligentes, y yo veo números, iconos, palabras sueltas y un cerebro que decide apagarse sin dar explicaciones.
+Hay géneros con los que uno conecta al instante y luego están los de cartas. Donde muchos ven estrategia y sinergias, yo veo números y un cerebro que decide apagarse.
 
-No es postureo ni rechazo voluntario: simplemente me pasa. Me siento delante de un deck builder, intento entenderlo con toda la buena intención del mundo, y a los pocos minutos estoy preguntándome qué demonios está ocurriendo en pantalla.
-
-Por eso acercarme a [Sengodai](https://store.steampowered.com/app/4090730/) tenía algo de experimento y algo de suicidio controlado. Lo desarrolla **Tsunoa Games**, un estudio con sede en **Alicante, España**, creadores de [Katana Dragon](https://store.steampowered.com/app/3303010/), un RPG con estética voxel art hecho en [Godot](https://godotengine.org/) que ya destacaba por su personalidad visual. Son además un estudio amigo de Leedeo, así que lo mínimo que puedo hacer es ser honesto: no voy a fingir que este género es lo mío.
+No es rechazo voluntario: simplemente me siento ante un deck builder e intento entenderlo, pero a los pocos minutos me pierdo en la pantalla. Por eso acercarme a [Sengodai](https://store.steampowered.com/app/4090730/) fue un experimento. Lo desarrolla **Tsunoa Games** (Alicante), amigos de Leedeo, así que seré honesto: no soy un experto en el género.
 
 {% include youtube-embed.html id="6JZ90bDNc60" title="Sengodai: Cartas, Dolor y una Partida Más" %}
 

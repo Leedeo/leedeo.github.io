@@ -31,15 +31,9 @@ faq:
 comments: true
 ---
 
-Hay una pregunta que se hace mucha gente cuando descubre un juego indie que le parte el corazón emocionalmente, que le hace llorar a las tres de la madrugada o que le deja pensando durante días:
+Muchos se preguntan cómo una sola persona puede crear un juego que le rompa el corazón emocionalmente. La respuesta suele ser: **RPG Maker**.
 
-*¿Cómo lo hizo una sola persona?*
-
-En muchos casos, la respuesta tiene nombre y apellido: **RPG Maker**.
-
-No es el motor más potente del mercado. No compite con Unreal Engine en espectáculo visual. Tampoco intenta hacerlo. Lo que hace RPG Maker, y lo que lleva haciendo desde 1988, es algo más difícil de replicar que los gráficos fotorrealistas: **bajar la barrera de entrada hasta el suelo** para que quien tenga una historia que contar pueda contarla, aunque no sepa programar.
-
-Y las historias que han salido de ahí son, en algunos casos, de las más importantes que ha dado el medio.
+No es el motor más potente ni compite en gráficos con Unreal Engine. Pero desde 1988 logra algo más difícil que el fotorrealismo: bajar la barrera de entrada al suelo para que cualquiera pueda contar su historia sin saber programar. Las obras que han salido de ahí son, en algunos casos, hitos del medio.
 
 {% include youtube-embed.html id="4m00z6Vo1Nc" title="Historia de RPG Maker: El motor de Omori y To The Moon" %}
 

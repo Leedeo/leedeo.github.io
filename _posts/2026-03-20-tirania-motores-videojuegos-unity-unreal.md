@@ -26,13 +26,11 @@ faq:
 comments: true
 ---
 
-Hay una pregunta que incomoda a mucha gente en el mundo del desarrollo de videojuegos, y precisamente por eso merece hacerse:
+Hay una pregunta incómoda que merece hacerse:
 
 **¿Sabes hacer videojuegos, o sabes usar Unity?**
 
-No es lo mismo. Nunca lo ha sido. Pero la industria, las comunidades, los canales de YouTube y los cursos online llevan años tratando ambas cosas como si fueran sinónimos. Y esa confusión tiene consecuencias reales.
-
-Porque cuando toda tu experiencia, todo tu conocimiento y todo tu flujo de trabajo dependen de una sola herramienta que no controlas, que pertenece a una empresa privada y que puede cambiar sus condiciones cuando quiera, no eres un desarrollador independiente. Eres un inquilino. Y los inquilinos están siempre a merced del propietario.
+No es lo mismo. Pero la industria y los cursos online han tratado ambos conceptos como sinónimos, y esa confusión tiene consecuencias. Cuando tu carrera depende de una herramienta privada que no controlas, no eres independiente: eres un inquilino a merced del propietario.
 
 ## El día que Unity recordó quién manda
 

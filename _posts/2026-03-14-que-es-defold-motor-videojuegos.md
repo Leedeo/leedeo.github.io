@@ -26,13 +26,13 @@ faq:
 comments: true
 ---
 
-Cuando se habla de motores de videojuegos, los nombres que aparecen siempre son los mismos: Unity, Unreal Engine y, más recientemente, Godot. Pero existe otro motor que lleva años funcionando en silencio, que es completamente gratuito, que no cobra regalías y que está detrás de juegos con millones de jugadores en todo el mundo. Se llama **[Defold](https://defold.com/)** y, por alguna razón, casi nadie habla de él. Al menos no en español.
+Al hablar de motores de videojuegos, los nombres suelen ser los mismos: Unity, Unreal y Godot. Pero existe una alternativa que funciona en silencio, es gratuita, no cobra regalías y está tras juegos con millones de usuarios. Se llama **[Defold](https://defold.com/)** y, curiosamente, casi nadie habla de él en español.
 
 ## Qué es Defold
 
-Para quien no esté familiarizado con el término, un motor de videojuegos es el programa que proporciona las herramientas necesarias para crear un juego: mover personajes, mostrar gráficos, reproducir sonidos, gestionar colisiones entre objetos... Todo lo que hace que un videojuego funcione como tal.
+Para quien no lo sepa, un motor de videojuegos es la infraestructura que proporciona las herramientas para mover personajes, gestionar gráficos y sonidos; todo lo que hace que el juego funcione como tal.
 
-Si todavía no tienes del todo claro qué base tecnológica o motor de videojuegos escoger para dar tus primeros pasos en esta industria, te recomiendo hacer una pequeña pausa y ver esta guía fundamental que preparé en el canal sobre **por dónde debes empezar** para no frustrarte en el intento:
+Si no tienes claro qué motor escoger para empezar, te recomiendo ver esta guía fundamental sobre **por dónde debes empezar** para no frustrarte:
 
 {% include youtube-embed.html id="3ifj5q95qdk" title="¿Por dónde empezar a crear Videojuegos?" %}
 

@@ -28,7 +28,7 @@ comments: true
 
 El debate sobre la digitalización en las aulas ha dado un giro definitivo. Ya no discutimos si la tecnología debe estar presente, sino cómo utilizarla para que no sea un simple sustituto del papel, sino un **catalizador de habilidades cognitivas**. Mientras los medios generalistas observan el fenómeno desde la superficie, en el sector del desarrollo entiendo que me encuentro ante la mayor herramienta de contextualización de la historia.
 
-En pleno 2026, la integración de los videojuegos en Secundaria no es una \"innovación opcional\"; es una respuesta técnica a la necesidad de fomentar el **pensamiento sistémico** en un entorno realista y desafiante. Entender cómo se construyen estas herramientas es el primer paso para dominar este nuevo lenguaje. En el siguiente vídeo te explico por dónde empezar a crearlos desde cero:
+En pleno 2026, la integración de los videojuegos en Secundaria no es una "innovación opcional"; es una respuesta técnica a la necesidad de fomentar el **pensamiento sistémico** en un entorno realista. Entender cómo se construyen estas herramientas es el primer paso para dominar este nuevo lenguaje. En el siguiente vídeo te explico por dónde empezar a crearlos desde cero:
 
 {% include youtube-embed.html id="3ifj5q95qdk" title="¿Por dónde empezar a crear Videojuegos?" %}
 

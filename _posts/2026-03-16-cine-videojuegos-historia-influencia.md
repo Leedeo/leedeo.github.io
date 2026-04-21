@@ -26,9 +26,9 @@ faq:
 comments: true
 ---
 
-Hay una idea que durante décadas se repitió como si fuera una verdad absoluta: los videojuegos y el cine son mundos separados. El cine era arte, cultura, espectáculo. Los videojuegos eran entretenimiento infantil, algo menor. Esa separación, si es que alguna vez fue real, dejó de existir hace mucho tiempo.
+Durante décadas se ha mantenido la idea de que cine y videojuegos son mundos aparte: el cine como pilar de la cultura y los juegos como entretenimiento infantil. Esa separación hace tiempo que dejó de tener sentido.
 
-Lo que ha ocurrido entre estas dos industrias durante las últimas tres décadas es una historia de influencia cruzada que ha cambiado la forma en que se hacen tanto películas como videojuegos. Los juegos quisieron parecerse al cine. Lo consiguieron. Y entonces, el cine empezó a usar las herramientas que los videojuegos habían creado para lograrlo.
+Lo que ha ocurrido durante las últimas tres décadas es una historia de influencia cruzada que ha transformado ambas industrias. Los juegos quisieron parecerse al cine y, cuando lo consiguieron, el cine empezó a usar las herramientas creadas por los videojuegos para revolucionar su propia producción.
 
 Esta es esa historia.
 

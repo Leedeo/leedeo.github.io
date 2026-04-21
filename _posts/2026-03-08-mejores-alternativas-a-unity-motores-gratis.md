@@ -28,7 +28,7 @@ comments: true
 
 El desarrollo de videojuegos no debería ser una relación de codependencia tóxica con una empresa. Muchos desarrolladores indie se sienten atrapados en motores privativos por miedo al cambio o por la falsa creencia de que fuera de los \"gigantes\" de la industria no existen herramientas profesionales. 
 
-Sin embargo, el panorama actual para la **creación de videojuegos** es más rico que nunca. Existen motores que no solo igualan en potencia a las opciones comerciales, sino que ofrecen modelos de licencia mucho más amigables. Algunos te devuelven la **propiedad absoluta de tu tecnología** gracias al código abierto, mientras que otros ofrecen potencia AAA de forma gratuita hasta que alcances el éxito comercial.
+Sin embargo, el panorama actual para la **creación de videojuegos** es más rico que nunca. Existen motores que igualan en potencia a las opciones comerciales y ofrecen modelos de licencia más amigables. Algunos te devuelven la **propiedad absoluta de tu tecnología** gracias al código abierto, mientras que otros ofrecen potencia AAA de forma gratuita hasta alcanzar el éxito comercial.
 
 En el siguiente vídeo analizo a fondo las **mejores alternativas a Unity**, presentando opciones tanto gratuitas con regalías amigables como motores 100% de código abierto para que elijas el ideal según las necesidades de tu videojuego:
 

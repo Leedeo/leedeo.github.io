@@ -26,11 +26,9 @@ faq:
     answer: "Se utiliza la 'regla de las reseñas': multiplicar el número de reseñas públicas por un factor de entre 30 y 50. Es una aproximación estándar en la industria para medir el éxito comercial."
 comments: true
 ---
-A marzo de 2026, esa frase ya no es una opinión discutible. Es una afirmación desactualizada.
+A marzo de 2026, decir que Godot es solo para amateurs es una afirmación desactualizada.
 
-[Godot Engine](https://godotengine.org/) no ha sustituido a Unity ni a Unreal. No es necesario exagerar para reconocer lo que sí ha pasado: ya hay juegos creados con Godot que han vendido millones de copias, generado millones de dólares y llegado a audiencias masivas. Lo que ocurre es que mucha gente sigue hablando del motor como si estuviéramos en 2018.
-
-Este artículo no es un listado decorativo. Es un repaso con datos, estimaciones y contexto de los títulos que han demostrado que Godot ya juega en otra liga.
+No se trata de sustituir a Unity o Unreal, sino de reconocer la realidad: ya hay juegos creados con Godot con millones de ventas. Este artículo es un repaso con datos y estimaciones de los títulos que demuestran que el motor ya juega en otra liga.
 
 ## Sobre las cifras: qué sabemos y qué estimamos
 

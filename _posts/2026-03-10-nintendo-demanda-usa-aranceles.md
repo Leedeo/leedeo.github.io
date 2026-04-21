@@ -26,11 +26,9 @@ faq:
 comments: true
 ---
 
-Nintendo of America ha presentado una demanda ante el Tribunal de Comercio Internacional de Estados Unidos para reclamar la devolución de los aranceles que pagó el año pasado, con intereses incluidos. La demanda acusa a varios organismos del gobierno federal de haber recaudado más de **200.000 millones de dólares** en aranceles sobre importaciones procedentes de prácticamente todos los países del mundo, calificando esas medidas como ilegales.
+Nintendo of America ha presentado una demanda ante el Tribunal de Comercio Internacional de Estados Unidos para reclamar la devolución de los aranceles pagados el año pasado, intereses incluidos. La demanda acusa a diversos organismos federales de recaudar **200.000 millones de dólares** de forma ilegal.
 
-Los organismos demandados incluyen al Departamento del Tesoro, el Departamento de Seguridad Nacional, la Oficina del Representante de Comercio de Estados Unidos, la Agencia de Aduanas y Protección Fronteriza, y el Departamento de Comercio. En otras palabras, Nintendo no va contra una agencia concreta, sino contra todo el aparato gubernamental que participó en la imposición y gestión de esas medidas.
-
-Nintendo no está sola en esto. Según informó PC Gamer, más de 1.000 empresas han presentado demandas similares, entre ellas FedEx y Costco. Que compañías de sectores tan distintos coincidan en la misma acción legal dice bastante sobre el alcance del impacto que tuvieron estos aranceles en la economía real.
+La acción legal apunta a todo el aparato gubernamental, incluyendo el Departamento del Tesoro y la Agencia de Aduanas. Nintendo no está sola: más de 1.000 empresas como FedEx y Costco han presentado reclamaciones similares, lo que refleja el alcance real del impacto económico.
 
 El contexto legal es relevante para entender por qué estas demandas tienen posibilidades de prosperar. El mes pasado, el Tribunal Supremo de Estados Unidos anuló la mayor parte de los aranceles globales que había impuesto la administración Trump. Como respuesta, Trump estableció un nuevo arancel del 10% amparándose en una ley prácticamente sin precedentes llamada *Section 122*, que nunca había sido utilizada para algo de esta escala. La legalidad de esa maniobra también está siendo cuestionada.
 

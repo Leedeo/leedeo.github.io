@@ -29,7 +29,7 @@ comments: true
 ---
 Cada día miles de personas se preguntan cómo entrar en el mundo del desarrollo de videojuegos. La respuesta rápida que suele dar internet es "bájate un motor y aprende a programar". Pero si buscas crear algo con alma, algo que realmente funcione y no se quede en un proyecto olvidado en una carpeta, esa respuesta se queda corta. Muy corta.
 
-Esta guía no es otro listado genérico de consejos. Es una reflexión técnica y metodológica sobre lo que de verdad importa cuando empiezas desde cero.
+Esta guía no es otro listado genérico de consejos vacíos. Es una reflexión técnica y metodológica sobre lo que de verdad importa cuando decides empezar desde cero absoluto.
 
 ---
 

@@ -26,9 +26,9 @@ faq:
 comments: true
 ---
 
-Piensa en los últimos cinco juegos que compraste. ¿Cuántos terminaste?
+De los últimos cinco juegos que has comprado, ¿cuántos has terminado?
 
-Si la respuesta honesta es "uno" o "ninguno", no estás solo. De hecho, estás en una mayoría silenciosa que la industria lleva décadas intentando entender y, en algunos casos, explotar. Porque no terminar los videojuegos no es un hábito nuevo ni un síntoma de que los jugadores actuales tienen menos paciencia que los de antes. Es un fenómeno complejo que tiene que ver con la psicología, la economía, el diseño de los propios juegos y un mercado que ha crecido hasta volverse, para muchos, genuinamente inmanejable.
+Si la respuesta es "uno" o "ninguno", no estás solo: formas parte de una mayoría silenciosa que la industria lleva décadas intentando entender. Porque no terminar los videojuegos no es falta de paciencia; es un fenómeno complejo que mezcla psicología, economía y un diseño de juegos que se ha vuelto inmanejable.
 
 Vamos por partes.
 

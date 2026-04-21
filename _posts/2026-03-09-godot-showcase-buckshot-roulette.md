@@ -28,7 +28,7 @@ faq:
 comments: true
 ---
 
-En esta nueva entrega analizando títulos del escenario indie, compartimos la reciente publicación del **Godot Showcase**, donde la fundación ha entrevistado directamente a **Mike Klubnika**, quien nos cuenta su experiencia desarrollando el masivo éxito indie de 2024 *Buckshot Roulette*, así como su proyecto más reciente, *s.p.l.i.t*.
+En esta nueva entrega analizando títulos de la escena indie, compartimos la reciente publicación del **Godot Showcase**, donde la fundación ha entrevistado directamente a **Mike Klubnika**, quien nos cuenta su experiencia desarrollando el gran éxito de 2024 *Buckshot Roulette*, así como su proyecto más reciente, *s.p.l.i.t*.
 
 Mike es el más reciente patrocinador Corporate Platinum del Godot Development Fund. Gracias a desarrolladores como él que devuelven a la comunidad parte de su éxito, el motor sigue creciendo para todos. Pero antes de leer su historia y cómo logró todo esto usando herramientas accesibles, si tú también quieres empezar a crear juegos y aprender a usar Godot Engine desde cero, te comparto la primera clase de mi curso gratuito:
 

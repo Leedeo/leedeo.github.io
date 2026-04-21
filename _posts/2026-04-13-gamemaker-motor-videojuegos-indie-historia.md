@@ -31,13 +31,9 @@ faq:
 comments: true
 ---
 
-Hay una **idea equivocada** que circula desde hace años en el desarrollo de videojuegos: que las herramientas sencillas solo sirven para proyectos sencillos.
+Circula la idea equivocada de que las herramientas simples solo sirven para proyectos mediocres. **GameMaker desmiente esa idea** desde 1999.
 
-**GameMaker desmiente esa idea** desde 1999. Y lo ha hecho repetidamente, con juegos que han marcado generaciones enteras.
-
-No es el motor más potente. No es el más usado en estudios AAA. No aparece en las ofertas de trabajo de grandes empresas. Pero si preguntas en la escena indie qué herramienta ha dado más libertad creativa a desarrolladores con presupuesto cero y ganas infinitas, GameMaker está siempre en la conversación.
-
-Y con razón.
+No es el motor más potente ni el más usado en estudios AAA, pero es la herramienta que más libertad ha dado a desarrolladores con presupuesto cero y ganas infinitas. Si preguntas en la escena indie, GameMaker está siempre en el centro de la conversación.
 
 {% include youtube-embed.html id="CkoZNKxxEVs" title="Historia de GameMaker: El motor de Undertale y Hotline Miami" %}
 

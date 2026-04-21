@@ -26,9 +26,9 @@ faq:
 comments: true
 ---
 
-Parece una pregunta sencilla. Cinco palabras: ¿qué es un juego indie? Debería tener una respuesta clara. Y durante un tiempo la tuvo. Pero la industria del videojuego ha crecido tanto, se ha vuelto tan compleja y ha generado tantos modelos de negocio distintos que hoy esa pregunta se ha convertido en un terreno pantanoso donde nadie se pone de acuerdo.
+Parece una pregunta con respuesta fácil, y durante un tiempo la tuvo. Pero el crecimiento de la industria y la complejidad de los modelos de negocio han convertido este concepto en un terreno pantanoso donde es difícil ponerse de acuerdo.
 
-Porque cuando un juego desarrollado por una filial de una de las corporaciones más grandes de Corea del Sur gana el premio a Mejor Juego Independiente del año, algo no encaja. Y cuando estudios con decenas de empleados, financiación de múltiples empresas, sedes oficiales y actores reconocidos se presentan al mundo bajo la bandera "indie", la palabra empieza a perder significado.
+Porque cuando un título desarrollado por una filial de una de las corporaciones más grandes de Corea del Sur gana el premio a Mejor Juego Independiente, algo no encaja. Cuando estudios con decenas de empleados y presupuestos millonarios se presentan como "indie", la etiqueta comienza a perder su propósito original.
 
 Para entender mejor esta tensión entre la escala del proyecto y la realidad del mercado, es fundamental ver este vídeo de mi canal, **Leedeo Station**, donde desgloso precisamente qué separa hoy a un juego independiente de un triple A y por qué la línea es cada vez más borrosa:
 

@@ -27,13 +27,13 @@ faq:
 comments: true
 ---
 
-Después de haber usado Unity durante cuatro años, puedo decir sin miedo que es un motor increíble. Fue mi puerta de entrada al desarrollo \"moderno\" tras años de pausa desde mi adolescencia con RPG Maker. Pero las herramientas no son solo líneas de código; también son las empresas que las gestionan y las decisiones que toman.
+Después de haber usado Unity durante cuatro años, puedo decir sin miedo que es un motor increíble. Fue mi puerta de entrada al desarrollo "moderno" tras años de pausa desde mi adolescencia con RPG Maker. Pero las herramientas no son solo líneas de código; también son las empresas que las gestionan y las decisiones que toman.
 
-Y las decisiones de Unity Technologies en los últimos años han sido, objetivamente, muy malas para quienes confían en él.
+Y las decisiones de Unity Technologies en los últimos años han sido, objetivamente, malas para quienes confían en él.
 
 ## El colapso de reputación de Unity en 2023
 
-En septiembre de 2023, Unity anunció cambios retroactivos en su modelo de precios. La nueva estructura imponía un \"Runtime Fee\": una tarifa a pagar **por cada instalación del juego** una vez superado un umbral de ingresos y descargas. El problema crítico era que esta tarifa se aplicaría también a **juegos ya publicados**, cuyas condiciones de licencia habían sido firmadas bajo reglas completamente diferentes.
+En septiembre de 2023, Unity anunció cambios retroactivos en su modelo de precios. La nueva estructura imponía un "Runtime Fee": una tarifa a pagar **por cada instalación del juego** una vez superado un umbral de ingresos y descargas. El problema crítico era que esta tarifa se aplicaría también a **juegos ya publicados**, cuyas condiciones de licencia habían sido firmadas bajo reglas completamente diferentes.
 
 Las consecuencias fueron inmediatas:
 
@@ -43,21 +43,21 @@ Las consecuencias fueron inmediatas:
 
 Este episodio no es anecdótico. Ilustra un riesgo estructural real: cuando tu motor está gestionado por una empresa cotizada en bolsa con inversores que exigen crecimiento de ingresos, tus intereses como desarrollador están sistemáticamente por debajo de los intereses de los accionistas.
 
-## La mentira del \"trabajo asegurado\"
+## La mentira del "trabajo asegurado"
 
-Muchos recomiendan Unity (o Unreal) usando el \"comodín\" del empleo: *\"Aprende esto porque hay más trabajo\"*. Vamos a ser realistas sobre esto.
+Muchos recomiendan Unity (o Unreal) usando el "comodín" del empleo: *"Aprende esto porque hay más trabajo"*. Vamos a ser realistas sobre esto.
 
-**El sector del videojuego no está para tirar cohetes.** La industria atraviesa una época de despidos masivos y estudios cerrando: Microsoft Gaming, EA, Sony Interactive Entertainment, Riot Games, Epic Games... todos han recortado plantillas significativamente entre 2023 y 2025. Hablar de \"trabajo asegurado\" en esta industria es, en el mejor de los casos, optimismo exagerado.
+**El sector del videojuego no está para tirar cohetes.** La industria atraviesa una época de despidos masivos y estudios cerrando: Microsoft Gaming, EA, Sony Interactive Entertainment, Riot Games, Epic Games... todos han recortado plantillas significativamente entre 2023 y 2025. Hablar de "trabajo asegurado" en esta industria es, en el mejor de los casos, optimismo exagerado.
 
 **Lo que importa para conseguir trabajo en un estudio:**
 
 1. **Portfolio de proyectos terminados.** Un estudio te va a pedir que les muestres qué has construido, no qué motor conoces. Si tienes un juego publicado en Steam o itch.io, eso vale infinitamente más que saber usar cualquier motor sin proyectos que demostrarlo.
 2. **Capacidad de aprender herramientas nuevas.** Un programador sólido que conoce bien los conceptos (física, comportamiento de entidades, gestión de estados) aprende cualquier motor en semanas. Los estudios lo saben.
-3. **Habilidades técnicas transferibles.** Patrones de diseño, estructuras de datos, debugging, control de versiones con Git. Estas habilidades son mucho más valoradas que \"saber Unity específicamente\".
+3. **Habilidades técnicas transferibles.** Patrones de diseño, estructuras de datos, debugging, control de versiones con Git. Estas habilidades son mucho más valoradas que "saber Unity específicamente".
 
 ## ¿Es Godot el mejor motor del mundo? No.
 
-No estoy aquí para convencerte de que te unas a un \"club\". Godot no es perfecto. Si necesitas construir algo con capacidades gráficas de película de cinemática fotorrealista, Unreal sigue siendo la mejor herramienta disponible. Si ya tienes un proyecto grande en Unity con decenas de miles de líneas de código y activos específicos, migrar tiene costes reales.
+No estoy aquí para convencerte de que te unas a un "club". Godot no es perfecto. Si necesitas construir algo con capacidades gráficas de película de cinemática fotorrealista, Unreal sigue siendo la mejor herramienta disponible. Si ya tienes un proyecto grande en Unity con decenas de miles de líneas de código y activos específicos, migrar tiene costes reales.
 
 Pero Godot tiene algo que Unity nunca podrá ofrecerte: **libertad total sin asteriscos**.
 

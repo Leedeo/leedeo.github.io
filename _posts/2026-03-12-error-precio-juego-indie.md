@@ -26,9 +26,9 @@ faq:
 comments: true
 ---
 
-Hay una conversación que Chris Charla, director del programa ID@Xbox de Microsoft y alguien que lleva más de una década trabajando con cientos de desarrolladores independientes, repite casi cada vez que habla con estudios indie: la mayoría infravalora su propio trabajo. No un poco. Bastante.
+Chris Charla, director de ID@Xbox y veterano de la industria, suele repetir una idea fundamental en sus charlas con estudios indie: la mayoría infravalora su propio trabajo. No un poco; bastante.
 
-Es un problema que parece tonto hasta que lo piensas desde dentro. Has pasado meses o años creando un juego, conoces cada bug que has corregido, cada mecánica que has rediseñado tres veces, cada noche que te quedaste hasta tarde depurando algo que no funcionaba. Cuando llega el momento de poner un precio, todo ese conocimiento íntimo de las costuras del proyecto juega en tu contra. Ves los defectos, no el valor. Y el resultado, casi invariablemente, es un precio demasiado bajo.
+Parece un problema menor hasta que se analiza desde dentro. Tras meses o años de desarrollo, conociendo cada fallo corregido y cada mecánica rediseñada, ese conocimiento íntimo juega en tu contra. Ves los defectos, no el valor real. Y el resultado es, casi siempre, un precio demasiado bajo.
 
 Pero antes de que te obsesiones con el precio final, hay un paso previo fundamental: asegurarte de que tu juego llegue a existir y tenga una base sólida. Es muy fácil infravalorar tu propio trabajo cuando has pasado por un desarrollo caótico y lleno de estrés. Si estás dando tus primeros pasos y quieres evitar los errores de principiante que te llevan a dudar de ti mismo meses después, por aquí es por donde deberías empezar:
 

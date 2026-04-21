@@ -47,7 +47,7 @@ Godot es un motor de desarrollo de videojuegos de código abierto, gratuito y co
 
 No es una promesa de marketing. Es una garantía legal.
 
-El motor lleva en desarrollo desde 2014, pero su crecimiento se ha disparado en los últimos dos años. Parte de ese crecimiento llegó de golpe en 2023, cuando Unity anunció su polémica Runtime Fee, una política que planteaba cobrar a los desarrolladores por cada instalación de sus juegos. La reacción del sector fue inmediata y masiva: miles de desarrolladores empezaron a buscar alternativas, y Godot fue el destino más frecuente. La Godot Foundation confirmó que la adopción del motor creció de forma extraordinaria durante ese periodo.
+El motor lleva en desarrollo desde 2014, pero su crecimiento se disparó en los últimos dos años. Parte de ese éxito llegó en 2023, cuando Unity anunció su polémica Runtime Fee, una política que planteaba cobrar por instalación. La reacción de la industria fue inmediata: miles de desarrolladores buscaron alternativas, y Godot fue el destino más frecuente. La Godot Foundation confirmó un aumento extraordinario en la adopción durante ese periodo.
 
 Pero reducir el éxito de Godot a la crisis de Unity sería injusto. El motor lleva años mejorando de forma consistente, y Godot 4 supuso una reescritura profunda del motor que lo puso a un nivel técnico que antes no tenía. Hoy en día, estudios y desarrolladores independientes de todo el mundo lo están usando para proyectos reales que llegan al mercado.
 

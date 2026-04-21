@@ -31,7 +31,7 @@ Slay the Spire 2 entró en Early Access el 5 de marzo en Steam y en menos de una
 
 Para poner esos números en contexto: el Slay the Spire original tardó desde su lanzamiento en Early Access en 2017 hasta marzo de 2019, es decir, casi dos años, en superar el millón y medio de unidades vendidas en Steam. La secuela ha igualado prácticamente esa cifra en días, aunque es cierto que el primero ya estableció una base de jugadores enorme que la secuela hereda directamente.
 
-Lo que también se ha mantenido constante es la distribución geográfica de los jugadores. Alrededor del 43% de los compradores están en China, con Asia representando en total más de la mitad del mercado, un 51%. Norteamérica supone aproximadamente un 25% y Europa un 19%. El patrón es casi idéntico al del primer juego, lo que sugiere que la franquicia tiene una fidelidad geográfica muy sólida y que el mercado chino de juegos indie en PC sigue siendo considerablemente más relevante de lo que muchas veces se asume en los análisis occidentales.
+Lo que también se ha mantenido constante es la distribución geográfica de los jugadores. Alrededor del 43% de los compradores están en China, con Asia representando en total más de la mitad del mercado, un 51%. Norteamérica supone aproximadamente un 25% y Europa un 19%. El patrón, casi idéntico al del primer juego, sugiere que la franquicia tiene una fidelidad geográfica sólida y que el mercado chino indie sigue siendo mucho más relevante de lo que a veces se asume.
 
 ## El cambio a Godot, y por qué importa
 

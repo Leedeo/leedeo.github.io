@@ -28,7 +28,7 @@ comments: true
 ---
 El panorama del desarrollo indie ha cambiado radicalmente en los últimos dos años. Ya no basta con que un motor sea "potente"; ahora se busca estabilidad, soberanía sobre el trabajo personal y, sobre todo, una herramienta que no se convierta en un socio inesperado que quiera llevarse una parte de las ventas.
 
-En pleno 2026, con Godot 4.6 en producción y la 4.7 en betas activas, el motor ha demostrado que puede aguantar el peso de proyectos comerciales serios. Pero más allá de la versión, las razones para elegirlo van mucho más allá del simple "es gratis".
+En pleno 2026, con Godot 4.6 en producción y la 4.7 en betas activas, el motor ha demostrado su solvencia en proyectos comerciales serios. Pero más allá de la versión, las razones para elegirlo van mucho más allá de la gratuidad.
 
 ---
 

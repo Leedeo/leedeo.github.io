@@ -44,8 +44,8 @@ La pregunta es legítima. Unity y Unreal Engine son herramientas de industria us
 
 ### Razones filosóficas
 
-- Es **100% software libre** bajo licencia MIT. Ninguna empresa puede cambiar sus condiciones de licencia de forma retroactiva como ocurrió con Unity en 2023, cuando changes de pricing generaron pánico masivo en el ecosistema indie.
-- No hay comisiones sobre ventas, nunca, independientemente del éxito comercial del juego.
+- Es **100% software libre** bajo licencia MIT. Ninguna empresa puede cambiar sus condiciones de forma retroactiva como ocurrió con Unity en 2023, cuando los cambios en los precios generaron pánico en el ecosistema indie.
+- No hay comisiones sobre ventas, nunca, independientemente del éxito comercial.
 - El roadmap es público. Sabes exactamente qué está en desarrollo y puedes contribuir al motor si tienes el nivel.
 
 ## Los conceptos que necesitas entender antes de tu primera sesión

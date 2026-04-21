@@ -23,15 +23,9 @@ faq:
     answer: "Se habla de ellos porque la industria está ajustando presupuestos tras los costes desorbitados de los AAA. Las empresas buscan reducir riesgos haciendo juegos más baratos y rentables, y utilizan la etiqueta 'AA' como una narrativa de marketing para vender esa reducción de costes como una ventaja creativa."
 comments: true
 ---
-Cada cierto tiempo, la industria del videojuego se inventa una etiqueta nueva para explicar algo que ya existía, pero envuelto en un lenguaje más bonito. No porque haga falta entender mejor la realidad, sino porque hace falta **venderla mejor**.
+La industria del videojuego suele inventar etiquetas para vender lo mismo con nombres más atractivos. Una de ellas es el **"doble A"** (AA).
 
-En los últimos años, una de esas etiquetas es **"doble A"** o **"AA"**.
-
-La idea suena muy razonable: no todo son indies pequeños hechos por una o dos personas, ni tampoco superproducciones de cientos de millones de dólares. Entre ambos extremos, nos dicen, hay una categoría intermedia: los juegos doble A. Más modestos, más creativos, más centrados, más sostenibles. Casi heroicos. Casi los salvadores de la industria.
-
-Y yo no compro esa historia.
-
-No porque no existan juegos de presupuesto medio. Claro que existen. No porque no haya estudios grandes haciendo proyectos más baratos. También. Lo que no compro es la necesidad de **romantizarlo como si fuera una categoría real con identidad propia**, cuando en la práctica muchas veces no es más que una operación de marketing para empaquetar mejor lo que ya estaba pasando.
+La narrativa suena bien: juegos medianos que salvan la creatividad frente a los excesos del AAA. Pero no compro esa historia. No compro la romantización del "doble A": no es una categoría real, sino una operación de marketing para empaquetar presupuestos ajustados.
 
 Mi opinión es clara: **el doble A no existe**.
 

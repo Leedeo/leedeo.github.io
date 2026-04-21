@@ -28,7 +28,7 @@ comments: true
 
 La industria del videojuego genera más dinero que el cine y la música juntos. En 2023 superó los 196.000 millones de dólares a nivel global, y las previsiones apuntan a que rozará los 257.000 millones en 2028. Con esos números encima de la mesa, uno asumiría que las grandes compañías nadan en beneficios. La realidad, sin embargo, es bastante más complicada que eso.
 
-Los estudios venden más que nunca, pero los márgenes de beneficio se están estrechando. El problema no es la demanda, que claramente existe, sino lo que cuesta satisfacerla.
+Los estudios venden más que nunca, pero los márgenes se estrechan. El problema no es la demanda, sino lo que cuesta satisfacerla en un mercado saturado.
 
 Antes de desglosar los presupuestos y la crisis del modelo AAA, es fundamental entender cómo esta presión afecta a quienes hacen los juegos. Si te planteas entrar en esta industria con la esperanza de un \"trabajo seguro\", te recomiendo ver este análisis sobre la realidad laboral del sector antes de continuar la lectura:
 
@@ -40,7 +40,7 @@ Producir un título AAA en 2025 puede superar con facilidad los cientos de millo
 
 Gracias a los documentos que salieron a la luz durante el juicio por la adquisición de Activision Blizzard por parte de Microsoft, sabemos que *Call of Duty: Black Ops Cold War* costó más de 700 millones de dólares. Vendió 30 millones de copias. Un éxito comercial indudable, pero con esos números de inversión, el margen no es tan holgado como parece. En el mismo proceso judicial, un error de Sony filtró que *The Last of Us Part II* costó 220 millones y *Spider-Man 2* rozó los 300 millones.
 
-¿Por qué cuesta tanto? Hay varios factores que se han ido acumulando durante la última década. El primero, y probablemente el más evidente, es la escala técnica. Desarrollar gráficos con nivel de realismo casi cinematográfico no es solo cuestión de tener buenos artistas: requiere pipelines de producción enormes, motores gráficos que hay que adaptar o construir desde cero, y equipos especializados en áreas que antes ni existían, como el renderizado de pelo en tiempo real, la captura de movimiento facial o la iluminación global dinámica.
+¿Por qué cuesta tanto? Hay factores que se han acumulado durante la última década. El primero es la escala técnica. Desarrollar gráficos con nivel de realismo cinematográfico requiere pipelines de producción enormes, motores específicos y equipos especializados en áreas complejas.
 
 A eso se le suma que los juegos ya no se \"terminan\" en el lanzamiento. El soporte continuo, las actualizaciones de contenido, el mantenimiento de servidores online y la gestión de comunidades son costes permanentes que se extienden años después de que el juego salga al mercado. Un estudio que lanza un juego hoy sabe que va a seguir invirtiendo en él durante años, independientemente de si el retorno de esa inversión está garantizado.
 

@@ -20,13 +20,13 @@ faq:
 comments: true
 ---
 
-Si sientes que tu ordenador va lento, se bloquea con frecuencia o tarda una eternidad en arrancar, es natural buscar "optimizadores de PC". El problema es que en este mercado conviven herramientas técnicamente sólidas con software prácticamente inútil o, peor, con programas que instalan más basura de la que eliminan.
+Si sientes que tu ordenador va lento, se bloquea o tarda demasiado en arrancar, es natural buscar "optimizadores de PC". El problema es que en este mercado conviven herramientas técnicamente sólidas con software inútil o, peor, con programas que instalan más basura de la que eliminan.
 
 Esta guía sigue un principio claro: **si no podemos explicar técnicamente por qué una herramienta es útil, no la recomendamos**.
 
 ## Primero lo primero: ¿Qué causa que Windows vaya lento?
 
-Antes de lanzarte a instalar nada, conviene entender las causas reales del rendimiento degradado, porque no todas las tienen solución en un "optimizador":
+Antes de instalar nada, conviene entender las causas reales del rendimiento degradado, porque no todas tienen solución mediante un optimizador:
 
 **Causas que SÍ puede mejorar un optimizador:**
 

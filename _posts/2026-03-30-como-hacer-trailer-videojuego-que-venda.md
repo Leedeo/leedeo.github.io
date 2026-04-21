@@ -25,11 +25,9 @@ faq:
     answer: "Un tráiler efectivo debe mostrar una propuesta visual clara, gameplay real, el gancho o mecánica diferencial del juego y transmitir el tono correcto del proyecto."
 comments: true
 ---
-Hay un error bastante común entre quienes desarrollan un videojuego y llegan al momento de enseñarlo al mundo: pensar que cualquier video sirve. Un montaje rápido, música épica, unas cuantas capturas, el logo al final y listo. Ya hay tráiler.
+Un error común en el desarrollo indie es creer que cualquier vídeo sirve como tráiler: un montaje rápido, música épica y el logo al final.
 
-No. No lo hay.
-
-Un tráiler de videojuego no está para “tener algo que subir a redes”. Está para cumplir una función muy concreta: **hacer que alguien se detenga, mire y quiera saber más**. Y eso, en un mercado donde cada día salen decenas de juegos nuevos, no es un detalle menor. Es la diferencia entre que tu juego empiece a moverse o quede enterrado bajo una montaña de lanzamientos invisibles.
+No es así. Un tráiler tiene una función crítica: **hacer que el jugador se detenga y quiera saber más**. En un mercado saturado con decenas de lanzamientos diarios, es la diferencia entre ganar tracción o quedar enterrado bajo una montaña de juegos invisibles.
 
 {% include youtube-embed.html id="xFT4UGVw610" title="El secreto para que tu juego no sea ignorado: Tráilers que venden" %}
 

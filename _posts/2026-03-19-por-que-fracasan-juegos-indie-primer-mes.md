@@ -26,9 +26,9 @@ faq:
 comments: true
 ---
 
-Hay una estadística que circula por la industria del videojuego y que nadie con experiencia en el sector discute: **la inmensa mayoría de los juegos indie fracasan**. Las cifras exactas varían según la fuente y los criterios que se usen para definir "fracaso", pero las estimaciones más citadas sitúan la tasa de fracaso comercial entre el **85% y el 95%**.
+Es una realidad cruda en la industria: **la inmensa mayoría de los juegos indie fracasan**. Aunque las cifras varían según la fuente y el criterio de "fracaso", la tasa de fracaso comercial suele situarse entre el 85% y el 95%.
 
-No es una exageración. No es pesimismo. Es lo que ocurre cuando se cruzan los datos de lanzamientos en plataformas como [Steam](https://store.steampowered.com/) con las cifras de ventas reales.
+No es pesimismo; es el resultado de cruzar los lanzamientos en plataformas como [Steam](https://store.steampowered.com/) con sus ventas reales.
 
 En 2024, se publicaron en Steam más de **16.000 juegos**. La gran mayoría no llegó a las 1.000 copias vendidas. Una parte significativa no llegó a las 100. Y un porcentaje nada despreciable no vendió prácticamente nada. Cero reseñas, cero visibilidad, cero ingresos. Como si el juego no existiera.
 

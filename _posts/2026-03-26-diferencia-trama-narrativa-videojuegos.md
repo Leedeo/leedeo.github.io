@@ -25,13 +25,11 @@ faq:
     answer: "A diferencia del cine o la literatura, en los videojuegos la narrativa se construye también a través de las mecánicas, la exploración y la convivencia jugable con los personajes, convirtiendo al jugador en parte activa del relato."
 comments: true
 ---
-Hay dos palabras que se usan constantemente cuando se habla de videojuegos, cine, series o incluso anime, y que sin embargo muchísima gente mezcla como si fueran sinónimos: **trama** y **narrativa**.
+A menudo confundimos **trama** y **narrativa** como si fueran lo mismo.
 
-No son lo mismo.
+No es una distinción menor: entender su diferencia cambia radicalmente cómo analizamos y diseñamos una historia. Explica por qué hay obras que funcionan "sin que pase nada" y otras que, llenas de explosiones y giros, se sienten vacías.
 
-Puede parecer una distinción pequeña, incluso un detalle de esos que a simple vista no importan demasiado, pero en realidad entender la diferencia cambia por completo la forma de analizar una historia. También ayuda a detectar por qué algunas obras funcionan aunque "pase poca cosa", y por qué otras, a pesar de tener giros, muertes, traiciones y explosiones, se sienten vacías.
-
-El tema ha vuelto a salir a raíz de una reflexión muy interesante publicada en [Game Developer](https://www.gamedeveloper.com/production/dispatch-developer-adhoc-says-don-t-confuse-your-plot-for-narrative), donde el equipo de **[Dispatch](https://store.steampowered.com/app/2592160/)**, el nuevo juego narrativo de **AdHoc Studio**, insiste en algo que debería ser bastante obvio pero rara vez se dice con claridad: **no hay que confundir la trama con la narrativa**.
+El equipo de **Dispatch** (AdHoc Studio) recordaba recientemente en [Game Developer](https://www.gamedeveloper.com/production/dispatch-developer-adhoc-says-don-t-confuse-your-plot-for-narrative) una obviedad que solemos olvidar: la trama no es la narrativa.
 
 Y tienen razón. Entender esta diferencia no solo es un ejercicio intelectual, sino el primer paso real para cualquiera que quiera diseñar sus propios mundos. De hecho, antes de lanzarse a escribir un guion o picar líneas de código en un motor, lo más importante es asentar estas bases fundamentales.
 

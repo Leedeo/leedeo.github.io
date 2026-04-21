@@ -81,7 +81,7 @@ Las diferencias clave:
 - **Las señales** (`signal`) son un concepto nativo de GDScript sin equivalente directo en Python estándar. Son fundamentales para el patrón de diseño del motor.
 - GDScript 2.0 (Godot 4) introduce **tipado estático opcional**: puedes escribir `var speed = 200` (dinámico) o `var speed: int = 200` (estático), lo que permite mezclar velocidad de prototipado con rigor de código de producción.
 
-## Misconceptions: lo que GDScript no es
+## Mitos sobre GDScript: lo que no es
 
 - **No es un lenguaje de juguete:** GDScript gestiona juegos comerciales publicados en Steam, Epic Games Store y consolas. Su sistema de tipos (cuando se usa) es comparable en rigor a otros lenguajes de producción.
 - **No te atrapa en Godot para siempre:** Los conceptos que aprendes (orientación a objetos, variables, funciones, herencia, señales) son transferibles a cualquier otro lenguaje. La lógica de programación es universal; la sintaxis cambia.

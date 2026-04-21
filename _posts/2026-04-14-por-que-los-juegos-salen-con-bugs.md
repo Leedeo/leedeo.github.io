@@ -31,11 +31,9 @@ faq:
 comments: true
 ---
 
-Hay una queja que se repite como un mantra cada vez que sale un juego importante con problemas técnicos:
+Cada lanzamiento con problemas técnicos reaviva un mantra: **"Antes esto no pasaba"**. Es una queja comprensible, pero basada en una distorsión de la realidad.
 
-> Antes esto no pasaba. Antes los juegos salían bien.
-
-Y entiendo perfectamente de dónde viene esa frustración. Pagar por un título completo y encontrarte con errores que impiden disfrutarlo es una experiencia horrible. Nadie debería tener que aguantar eso después de pasar por caja. Pero la idea de que «antes los juegos eran perfectos» es, sencillamente, **una distorsión de la realidad**.
+La idea de que los juegos antiguos eran perfectos es falsa. Los fallos siempre han estado ahí; lo que ha cambiado es nuestra herramienta para gestionarlos. Antes, un bug era una sentencia de muerte para el stock físico; hoy, es el pretexto para un parche de día uno.
 
 Entender por qué ocurren estos fallos requiere mirar más allá del código. Como explico en el vídeo a continuación, el desarrollo indie no es solo "hacer un juego", sino una carrera de fondo llena de desafíos, falta de recursos y problemas de planificación que, inevitablemente, acaban reflejándose en el producto final.
 

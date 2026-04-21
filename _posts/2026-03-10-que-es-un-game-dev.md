@@ -46,7 +46,7 @@ Un videojuego moderno es el resultado de la colaboración de perfiles muy distin
 Es quien escribe el código que hace que el juego funcione. Dentro de la programación hay subespecialidades: programadores de gameplay (las mecánicas con las que el jugador interactúa), de motor gráfico (lo que se renderiza en pantalla), de inteligencia artificial (cómo se comportan los enemigos), de redes (todo lo relacionado con el multijugador online) y de herramientas (los programas internos que usa el propio equipo para crear el juego).
 
 ### Diseñador de juegos (Game Designer)
-Define cómo funciona el juego. Las reglas, las mecánicas, el flujo de la partida, la dificultad, los sistemas de progresión. Es quien se pregunta "¿cómo debería siente jugar a esto?" y trabaja para que la respuesta sea satisfactoria. No hay que confundirlo con el diseñador gráfico, que trabaja en el aspecto visual.
+Define cómo funciona el juego. Las reglas, las mecánicas, el flujo de la partida, la dificultad, los sistemas de progresión. Es quien se pregunta "¿cómo debería sentirse jugar a esto?" y trabaja para que la respuesta sea satisfactoria. No hay que confundirlo con el diseñador gráfico, que trabaja en el aspecto visual.
 
 ### Artista
 Es responsable de todo lo que el jugador ve. Hay artistas conceptuales, que definen el estilo visual en las primeras fases del desarrollo. Modeladores 3D, que construyen los personajes, objetos y escenarios. Animadores, que dan movimiento a esos modelos. Artistas de UI, que diseñan los menús e interfaces. Y artistas de efectos especiales (VFX), que crean explosiones, magia, partículas y todo aquello que añade espectacularidad visual.
@@ -85,9 +85,9 @@ Ninguno de los dos modelos es objetivamente mejor. Son formas distintas de hacer
 
 Esta es probablemente la pregunta que más le importa a quien está leyendo esto, así que merece una respuesta honesta.
 
-No hay un único camino. Hay personas que estudian ingeniería informática o diseño de videojuegos en la universidad y entran en la industria por esa vía. Hay personas que aprenden de forma autodidacta, hacen sus propios proyectos y terminan consiguiendo trabajo o publicando sus juegos de forma independiente. Y hay personas que combinan ambas cosas.
+No hay un único camino. Hay personas que estudian ingeniería informática o diseño de videojuegos en la universidad y entran en la industria por esa vía. Hay personas que aprenden de forma autodidacta, hacen sus propios proyectos y terminan consiguiendo trabajo o publicando sus juegos de forma independiente.
 
-Lo que sí es común a casi todos los que se dedican a esto es que en algún punto tuvieron que aprender a usar un motor de videojuegos. Un motor es el software que proporciona las herramientas necesarias para crear un juego: renderizado gráfico, físicas, manejo de audio, gestión de escenas, exportación a distintas plataformas. Sin un motor, crear un videojuego desde cero implicaría construir toda esa infraestructura tú mismo, que es algo que prácticamente nadie hace.
+Casi todos los que se dedican a esto han tenido que aprender a usar un motor de videojuegos en algún punto. Un motor es el software que proporciona las herramientas necesarias para crear un juego: renderizado gráfico, físicas, manejo de audio, gestión de escenas, exportación a distintas plataformas. Sin un motor, crear un videojuego desde cero implicaría construir toda esa infraestructura tú mismo, que es algo que prácticamente nadie hace.
 
 Los motores más utilizados hoy son Unity, Unreal Engine y Godot. Los dos primeros son los dominantes en la industria profesional. El tercero es el que ha crecido más rápido en los últimos dos años, especialmente entre desarrolladores independientes, y es el que yo recomendaría a alguien que empieza desde cero por una razón bastante concreta: es gratuito, de código abierto, y no tiene ninguna letra pequeña que te pueda sorprender más adelante.
 

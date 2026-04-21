@@ -24,7 +24,7 @@ Uno de los errores más frustrantes para cualquier usuario de Windows es ejecuta
 
 > *"Windows Resource Protection found corrupt files but was unable to fix some of them"*
 
-Muchos tutoriales en internet se quedan en la superficie, mostrando solo cómo ejecutar `sfc /scannow` sin explicar **por qué falla** y, lo más importante, qué hacer cuando falla. Esta guía cubre el proceso técnico completo, paso a paso y en el orden correcto.
+Muchos tutoriales se quedan en la superficie, mostrando cómo ejecutar `sfc /scannow` sin explicar por qué falla y qué hacer cuando ocurre. Esta guía cubre el proceso técnico completo en el orden correcto.
 
 ## Entendiendo el problema: la jerarquía de las herramientas de reparación
 
@@ -42,23 +42,17 @@ Windows tiene dos herramientas nativas de reparación que trabajan en niveles di
 
 Abre el Símbolo del sistema (`CMD`) con privilegios de administrador. Puedes hacerlo buscando \"cmd\" en el menú de inicio, haciendo clic derecho y seleccionando *\"Ejecutar como administrador\"*.
 
-### Paso 1: Verificar el estado de la imagen
+### Paso 1: Escaneo y Reparación de la imagen
 
-```batch
-DISM /Online /Cleanup-Image /CheckHealth
-```
-
-Este comando solo comprueba si hay marcas de corrupción ya detectadas, no lanza un análisis completo. Es instantáneo y te da un estado rápido del sistema.
-
-### Paso 2: Escaneo completo de la imagen
+Para asegurar que la base del sistema esté sana antes de tocar archivos individuales, ejecutamos el análisis de la imagen del sistema. Aunque existen comprobaciones rápidas, lo más efectivo es realizar el escaneo profundo:
 
 ```batch
 DISM /Online /Cleanup-Image /ScanHealth
 ```
 
-Este proceso puede tardar varios minutos. Realiza un análisis profundo del almacén de componentes para detectar inconsistencias aunque no hayan sido marcadas.
+Este proceso puede tardar varios minutos dependiendo de la velocidad de tu disco. Realiza un análisis exhaustivo del almacén de componentes para detectar inconsistencias. Una vez terminado, procedemos a la restauración:
 
-### Paso 3: Reparación de la imagen (el paso clave)
+### Paso 2: Reparación de la imagen (RestoreHealth)
 
 ```batch
 DISM /Online /Cleanup-Image /RestoreHealth

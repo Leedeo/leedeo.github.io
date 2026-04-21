@@ -31,13 +31,9 @@ faq:
 comments: true
 ---
 
-El debate sobre la hipersexualización de personajes femeninos en videojuegos lleva años repitiéndose en los mismos términos, con los mismos argumentos y llegando siempre a los mismos "no-acuerdos".
+El debate sobre la hipersexualización en videojuegos suele girar en bucle sobre los mismos argumentos. No se trata de moralina, sino de entender el lenguaje visual de la fantasía.
 
-En el canal hablo de esto en vídeo, y si no lo has visto todavía, te lo dejo aquí abajo porque lo que cuento allí y lo que vas a leer aquí se complementan perfectamente.
-
-{% include youtube-embed.html id="C9NSkTlcJbE" title="Personajes Femeninos Hipersexualizados: ¿Problema Real o Fantasía mal entendida?" %}
-
-Lo que quiero hacer en este artículo es añadir contexto histórico, más ejemplos y reflexiones que en un vídeo a veces no tienen el espacio que merecen.
+En el vídeo del canal profundizo en esto, pero en este artículo aporto el contexto histórico y los ejemplos que, por tiempo, no caben en pantalla.
 
 ## La fantasía idealizada no es un invento del videojuego
 

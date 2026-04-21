@@ -25,13 +25,9 @@ faq:
     answer: "Depende del proyecto: Godot para indies 2D/3D ligeros y soberanía total, Unity para móviles y versatilidad, o Unreal Engine para potencia visual extrema y proyectos AAA."
 comments: true
 ---
-Si buscas en Google cosas como **“etapas del desarrollo de videojuegos”**, **“proceso de creación de un videojuego”** o **“cómo se desarrolla un videojuego”**, te salen muchos artículos que explican lo básico... pero muchos están desactualizados, escritos desde una visión demasiado académica o directamente desconectados de cómo trabaja hoy la industria.
+La mayoría de guías online sobre las etapas del desarrollo de videojuegos están desactualizadas o son demasiado académicas. Estamos en 2026, no en 2018: las herramientas han cambiado, los motores han evolucionado y la IA ya es parte del pipeline.
 
-Y claro, eso se nota.
-
-Porque estamos en **2026**, no en 2018. Las herramientas han cambiado, los motores más usados son otros, la producción independiente ya no funciona igual, y la inteligencia artificial ha entrado en escena para automatizar tareas que hace unos años todavía se hacían completamente a mano. Negarlo a estas alturas es perder el tiempo.
-
-Así que vamos a poner orden. Sin lenguaje inflado, sin listas de “mejores herramientas” que parecen sacadas de una presentación vieja, y aterrizando la idea a la realidad actual.
+Vamos a poner orden aterrizando el proceso a la realidad técnica actual, sin lenguaje inflado.
 
 ## Qué es el desarrollo de videojuegos
 
