@@ -14,7 +14,7 @@ categories:
 video:
   id: "NWosjlLorEU"
   title: "Por qué aprender Unity o Unreal no te dará trabajo"
-  description: "Análisis honesto sobre la realidad del trabajo en la industria del videojuego: costes, rentabilidad y las expectativas que nadie te cuenta."
+  description: "Análisis sobre el trabajo en la industria del videojuego: costes, rentabilidad y expectativas del sector."
   upload_date: "2024-11-12"
   duration: "PT9M41S"
 faq:

@@ -5,7 +5,7 @@ date: "2026-04-01 14:41:00"
 
 thumbnail: "/assets/img/posts/sengodai-analisis-deck-builder-godot.webp"
 title: "Sengodai: Cartas, Dolor y una Partida Más"
-description: "Análisis de Sengodai, el deck builder roguelike de Tsunoa Games hecho en Godot 4. Un spin-off del universo de Katana Dragon que apuesta por la estrategia de cartas con voxel art y un diseño honesto pero exigente."
+description: "Análisis de Sengodai, el deck builder roguelike de Tsunoa Games hecho en Godot 4. Un spin-off del universo de Katana Dragon con estrategia de cartas, voxel art y un diseño exigente."
 excerpt: "Sengodai de Tsunoa Games toma el universo de Katana Dragon y lo lleva al género de cartas. Un deck builder roguelike exigente, visualmente cuidado y con un ciclo de una partida más que engancha."
 
 categories:
