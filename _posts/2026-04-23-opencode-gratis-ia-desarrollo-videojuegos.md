@@ -1,7 +1,7 @@
 ---
 layout: "post"
 author: "javo"
-date: "2026-04-23 15:25:00 +0100"
+date: "2026-04-23 15:25:00"
 
 thumbnail: "/assets/img/posts/opencode-gratis-ia-desarrollo-videojuegos.webp"
 title: "OpenCode gratis para programar con IA: qué es y por qué puede ayudarte en un proyecto real"

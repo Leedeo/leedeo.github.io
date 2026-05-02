@@ -1,7 +1,7 @@
 ---
 layout: "post"
 author: "javo"
-date: "2026-04-14 10:33:00 +0200"
+date: "2026-04-14 10:33:00"
 
 thumbnail: "/assets/img/posts/bugs-lanzamiento-videojuegos-historia.webp"
 title: "Por qué los juegos salen con bugs el día de lanzamiento (y por qué antes tampoco era diferente)"
