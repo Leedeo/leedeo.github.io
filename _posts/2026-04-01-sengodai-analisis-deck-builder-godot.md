@@ -32,7 +32,7 @@ comments: true
 ---
 Hay géneros con los que uno conecta al instante y luego están los de cartas. Donde muchos ven estrategia y sinergias, yo veo números y un cerebro que decide apagarse.
 
-No es rechazo voluntario: simplemente me siento ante un deck builder e intento entenderlo, pero a los pocos minutos me pierdo en la pantalla. Por eso acercarme a [Sengodai](https://store.steampowered.com/app/4090730/) fue un experimento. Lo desarrolla **Tsunoa Games** (Alicante), amigos de Leedeo, así que seré honesto: no soy un experto en el género.
+No es rechazo voluntario: simplemente me siento ante un deck builder e intento entenderlo, pero a los pocos minutos me pierdo en la pantalla. Por eso acercarme a [Sengodai](https://store.steampowered.com/app/4090730/) fue un experimento. Lo desarrolla **Tsunoa Games** (Alicante), amigos de Leedeo, así que aclaro de entrada que no soy un experto en el género.
 
 {% include youtube-embed.html id="6JZ90bDNc60" title="Sengodai: Cartas, Dolor y una Partida Más" %}
 
@@ -64,7 +64,7 @@ Ese ciclo termina picando. Para qué negarlo. No soy fan del género, no me voy 
 
 También me parece destacable que Tsunoa Games haya decidido salir de su zona de confort. Katana Dragon era un RPG. Sengodai toma parte de ese universo, pero se mueve a un género completamente distinto. Habla de una voluntad de experimentar, de no quedarse haciendo siempre el mismo juego con distinta capa de pintura.
 
-Desde el primer combate deja claro que no va a perdonarte. Prefiero un juego que me diga de frente "aquí hay que aprender" antes que uno que me engañe haciéndome creer que lo estoy haciendo bien cuando solo sobrevivo por inercia. Y Sengodai es honesto en eso.
+Desde el primer combate deja claro que no va a perdonarte. Prefiero un juego que me diga de frente "aquí hay que aprender" antes que uno que me engañe haciéndome creer que lo estoy haciendo bien cuando solo sobrevive por inercia. Y Sengodai no oculta eso.
 
 ## Veredicto
 

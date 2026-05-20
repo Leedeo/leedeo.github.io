@@ -66,7 +66,7 @@ El resultado práctico de eso es que el jugador medio de Steam jugó a cuatro t�
 
 Y aquí viene el detalle más revelador: de esos 19.000 lanzamientos, alrededor del 80% son lo que Steam denomina "juegos limitados", es decir, títulos que no han alcanzado el umbral mínimo de ventas y jugadores para desbloquear las funciones básicas de la plataforma como logros o tarjetas de intercambio. Dicho de otra manera, el 80% de los juegos publicados en Steam en 2024 pasaron prácticamente desapercibidos.
 
-Lo paradójico es que esta avalancha de opciones no hace que la gente juegue más ni termine más juegos. Hace exactamente lo contrario. Los psicólogos lo llaman la paradoja de la elección: cuando hay demasiadas opciones, el proceso de elegir se vuelve más costoso, la satisfacción con la elección final disminuye, y el arrepentimiento potencial aumenta. El efecto práctico en los videojuegos es que mucha gente termina scrolleando su biblioteca durante veinte minutos y cerrando el ordenador sin haber jugado a nada.
+Lo paradójico es que esta avalancha de opciones no hace que la gente juegue más ni termine más juegos. Hace exactamente lo contrario. Los psicólogos lo llaman la paradoja de la elección: cuando hay demasiadas opciones, el proceso de elegir se vuelve más costoso, la satisfacción con la elección final disminuye, y el arrepentimiento potencial aumenta. El efecto práctico en los videojuegos es que mucha gente termina scrolleando su biblioteca durante veinte minutos y cerrando la computadora sin haber jugado a nada.
 
 ## El backlog: el gran problema que nos hemos creado solos
 

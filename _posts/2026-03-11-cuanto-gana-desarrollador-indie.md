@@ -30,7 +30,7 @@ comments: true
 
 Si estás pensando en hacer un videojuego y publicarlo, te habrás preguntado lo mismo que casi todo el mundo antes de dar el salto: ¿cuánto dinero puedo ganar con esto?
 
-La respuesta honesta es que depende de factores que nadie controla al cien por cien. Pero eso no significa que no haya datos concretos. Los hay, y son bastante más reveladores de lo que la mayoría admite.
+La realidad es que depende de factores que nadie controla al cien por cien. Pero eso no significa que no haya datos concretos. Los hay, y son bastante más reveladores de lo que la mayoría admite.
 
 Pero antes de marearte con números, estadísticas y porcentajes de conversión de plataformas, hay una verdad innegable: las cifras de ventas dan absolutamente igual si primero no aprendes a terminar y publicar tu juego sin perder la cabeza en el intento. Si es tu primera vez buscando **crear un juego**, esto es, de lejos, lo más importante que vas a ver hoy para arrancar con el pie derecho:
 

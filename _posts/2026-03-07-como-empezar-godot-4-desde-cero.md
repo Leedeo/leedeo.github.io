@@ -79,7 +79,7 @@ Olvídate de los tutoriales de \"haz un shooter en 10 minutos\". Eso te deja con
 
 La documentación oficial de Godot [docs.godotengine.org](https://docs.godotengine.org) es, sin exageración, una de las mejores documentaciones técnicas del ecosistema open source. Está disponible en español y cubre desde conceptos básicos hasta APIs de bajo nivel.
 
-Para ver la lógica aplicada en tiempo real desde el primer vídeo de mi formación:
+Para ver la lógica aplicada en tiempo real desde el primer video de mi formación:
 
 {% include youtube-embed.html id="L3pFEk1HPCQ" title="Curso Godot 4 desde cero [01] Cómo Instalar y Configurar" %}
 

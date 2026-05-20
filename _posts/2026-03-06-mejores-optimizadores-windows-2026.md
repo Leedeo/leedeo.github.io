@@ -20,7 +20,7 @@ faq:
 comments: true
 ---
 
-Si sientes que tu ordenador va lento, se bloquea o tarda demasiado en arrancar, es natural buscar "optimizadores de PC". El problema es que en este mercado conviven herramientas técnicamente sólidas con software inútil o, peor, con programas que instalan más basura de la que eliminan.
+Si sientes que tu computadora va lento, se bloquea o tarda demasiado en arrancar, es natural buscar "optimizadores de PC". El problema es que en este mercado conviven herramientas técnicamente sólidas con software inútil o, peor, con programas que instalan más basura de la que eliminan.
 
 Esta guía sigue un principio claro: **si no podemos explicar técnicamente por qué una herramienta es útil, no la recomendamos**.
 

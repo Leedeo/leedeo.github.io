@@ -86,7 +86,7 @@ Hay algunas características que explican por qué tanta gente ha adoptado Godot
 
 ### Es ligero
 
-Mientras que instalar Unreal Engine puede suponer descargar decenas de gigabytes, y Unity también ocupa varios gigas, Godot pesa **menos de 100 megabytes**. Funciona en ordenadores modestos sin ningún problema.
+Mientras que instalar Unreal Engine puede suponer descargar decenas de gigabytes, y Unity también ocupa varios gigas, Godot pesa **menos de 100 megabytes**. Funciona en computadoras modestas sin ningún problema.
 
 ### Es accesible para aprender
 

@@ -90,7 +90,7 @@ Para quien busque un motor orientado a juegos 2D, ya sea un juego de plataformas
 
 Durante mucho tiempo, Defold fue un motor exclusivamente orientado al 2D. Eso ha cambiado. A día de hoy, Defold **soporta proyectos en 3D**, y los resultados que se están viendo son cuanto menos interesantes.
 
-No es el motor más potente en este apartado, y sería deshonesto pretender que compita con Unreal Engine en escenas fotorrealistas. Pero para proyectos 3D que no necesitan lo último en efectos visuales, o para juegos que combinan elementos 2D y 3D, Defold se ha convertido en una opción viable que no existía hace unos años.
+No es el motor más potente en este apartado, y sería poco realista pretender que compita con Unreal Engine en escenas fotorrealistas. Pero para proyectos 3D que no necesitan lo último en efectos visuales, o para juegos que combinan elementos 2D y 3D, Defold se ha convertido en una opción viable que no existía hace unos años.
 
 Lo más destacable es la dirección que lleva: el soporte 3D mejora con cada actualización, y las muestras que el equipo de desarrollo ha ido compartiendo dejan ver que este apartado se lo toman en serio. No es una función decorativa puesta ahí para rellenar una lista de características. Es una apuesta real que avanza con cada versión.
 
@@ -146,14 +146,14 @@ La propia Defold Foundation mantiene una **[página de proyectos destacados](htt
 
 ## ¿Es Defold una buena elección?
 
-Depende de lo que se busque. Y esta es la respuesta más honesta posible.
+Depende de lo que se busque. Y esta es la respuesta más realista.
 
 **Defold es una elección difícil de superar si:**
 
 - El objetivo es crear un juego **2D** de cualquier género.
 - Se busca un motor para **juegos móviles** o **juegos de navegador**.
 - Se quiere un motor **gratuito sin condiciones ni regalías**.
-- Se necesita un motor **ligero** que no exija un ordenador potente.
+- Se necesita un motor **ligero** que no exija una computadora potente.
 - Se busca generar juegos con un **tamaño de archivo mínimo**.
 - Se valora la **estabilidad** de un proyecto que no va a cambiar sus condiciones económicas de la noche a la mañana.
 

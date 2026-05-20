@@ -18,7 +18,7 @@ video:
   duration: "PT5M2S"
 faq:
   - question: "¿Cómo influyó el cine en los videojuegos clásicos?"
-    answer: "Desde los 80, los juegos adoptaron arquetipos narrativos del cine. Con la llegada del CD-ROM en los 90, se integraron escenas de vídeo real (FMV), música orquestal y doblajes profesionales, buscando una experiencia cinematográfica."
+    answer: "Desde los 80, los juegos adoptaron arquetipos narrativos del cine. Con la llegada del CD-ROM en los 90, se integraron escenas de video real (FMV), música orquestal y doblajes profesionales, buscando una experiencia cinematográfica."
   - question: "¿Qué es la producción virtual con Unreal Engine?"
     answer: "Es una técnica que usa motores de videojuegos para proyectar escenarios 3D en tiempo real sobre pantallas LED gigantes durante el rodaje. Esto permite que los actores vean el entorno y que la iluminación sea natural, como se vio en The Mandalorian."
   - question: "¿Por qué algunos efectos digitales modernos parecen peores que los antiguos?"
@@ -34,7 +34,7 @@ Esta es esa historia.
 
 ## Contexto: La escala de la industria (Indie vs AAA)
 
-Antes de sumergirnos en la evolución técnica, es fundamental entender en qué punto se encuentra la industria hoy. El cine y los videojuegos no solo comparten talento, sino también presupuestos astronómicos. En este vídeo de mi canal secundario, **Leedeo Station**, analizo precisamente esa brecha entre los proyectos independientes y las superproducciones que hoy miran de tú a tú a Hollywood:
+Antes de sumergirnos en la evolución técnica, es fundamental entender en qué punto se encuentra la industria hoy. El cine y los videojuegos no solo comparten talento, sino también presupuestos astronómicos. En este video de mi canal secundario, **Leedeo Station**, analizo precisamente esa brecha entre los proyectos independientes y las superproducciones que hoy miran de tú a tú a Hollywood:
 
 {% include youtube-embed.html id="0h_F-gHSeM0" title="Juegos Indie vs AAA: La verdadera diferencia" %}
 
@@ -54,9 +54,9 @@ El salto del cartucho al **CD-ROM** a principios de los años 90 lo cambió todo
 
 Un cartucho de Super Nintendo podía almacenar entre 1 y 6 megabytes de datos. Un CD-ROM tenía capacidad para **650 megabytes**. De repente, los desarrolladores pasaron de trabajar en un espacio diminuto a tener un almacén enorme donde meter contenido. Y lo primero que hicieron con ese espacio fue mirar hacia el cine.
 
-### Las escenas de vídeo pregrabado
+### Las escenas de video pregrabado
 
-La primera oleada fue la de los juegos con **escenas de vídeo real** (conocidos como juegos FMV, por *Full Motion Video*). La idea era sencilla: si ahora podemos meter vídeo en un juego, ¿por qué no grabamos escenas con actores reales, como en una película?
+La primera oleada fue la de los juegos con **escenas de video real** (conocidos como juegos FMV, por *Full Motion Video*). La idea era sencilla: si ahora podemos meter video en un juego, ¿por qué no grabamos escenas con actores reales, como en una película?
 
 **Night Trap** (1992) fue uno de los más conocidos. Era básicamente una película de terror interactiva donde el jugador vigilaba cámaras de seguridad y activaba trampas. Hoy se recuerda más por la polémica que generó (fue uno de los juegos que motivaron la creación del sistema de clasificación por edades en Estados Unidos) que por su calidad, pero representaba esa ambición de fusionar cine y videojuego.
 
@@ -64,7 +64,7 @@ El caso más notable fue **Wing Commander III: Heart of the Tiger** (1994). Su p
 
 ### Música orquestal y doblaje profesional
 
-El CD no solo trajo vídeo. Trajo **audio de calidad**. Por primera vez, los juegos podían incluir música grabada con instrumentos reales, bandas sonoras orquestales que no tenían nada que envidiar a las de muchas películas. Y trajo también el **doblaje profesional**: personajes que hablaban con voces humanas reales, con actores interpretando diálogos escritos por guionistas.
+El CD no solo trajo video. Trajo **audio de calidad**. Por primera vez, los juegos podían incluir música grabada con instrumentos reales, bandas sonoras orquestales que no tenían nada que envidiar a las de muchas películas. Y trajo también el **doblaje profesional**: personajes que hablaban con voces humanas reales, con actores interpretando diálogos escritos por guionistas.
 
 La serie **Command & Conquer** (1995 en adelante) es un buen ejemplo de esta época. Sus escenas intermedias estaban grabadas con actores reales en decorados de estudio, con una producción que imitaba conscientemente el estilo de las películas bélicas y de ciencia ficción de la época. Eran pequeñas películas insertadas entre las misiones del juego.
 
@@ -149,7 +149,7 @@ Durante décadas, la influencia fue en una sola dirección: el cine influía en 
 
 Unreal Engine fue diseñado para crear videojuegos. Ese era su propósito original y durante años fue exclusivamente eso: la tecnología detrás de sagas como *Unreal Tournament*, *Gears of War*, *Fortnite* y cientos de otros títulos. Es uno de los motores más potentes y versátiles de la industria del videojuego.
 
-Pero sus capacidades gráficas en tiempo real llamaron la atención de la industria cinematográfica. ¿Qué significa \"en tiempo real\"? Significa que Unreal Engine puede generar gráficos de alta calidad **al instante**, sin necesidad de esperar horas o días a que un ordenador procese cada fotograma, que es como funcionan los sistemas de renderizado tradicionales del cine.
+Pero sus capacidades gráficas en tiempo real llamaron la atención de la industria cinematográfica. ¿Qué significa \"en tiempo real\"? Significa que Unreal Engine puede generar gráficos de alta calidad **al instante**, sin necesidad de esperar horas o días a que una computadora procese cada fotograma, que es como funcionan los sistemas de renderizado tradicionales del cine.
 
 Esta característica abrió una posibilidad enorme: usar un motor de videojuegos como herramienta de producción cinematográfica.
 
@@ -188,11 +188,11 @@ Pensemos en **Jurassic Park** (1993). Steven Spielberg combinó dinosaurios anim
 
 Pensemos en **El Señor de los Anillos** (2001-2003). Peter Jackson combinó maquetas físicas enormes y detalladas, maquillaje protésico, miles de extras reales y efectos digitales donde eran estrictamente necesarios. El trabajo de Weta Workshop y Weta Digital fue meticuloso, artesanal. Y el resultado se mantiene extraordinariamente bien con el paso del tiempo.
 
-Ahora comparemos eso con algunas producciones recientes donde todo el entorno, todos los personajes secundarios y prácticamente cada elemento del plano son generados por ordenador. El resultado, a veces, es una imagen que se siente artificial, plana, sin el peso y la presencia que tienen las cosas reales.
+Ahora comparemos eso con algunas producciones recientes donde todo el entorno, todos los personajes secundarios y prácticamente cada elemento del plano son generados por computadora. El resultado, a veces, es una imagen que se siente artificial, plana, sin el peso y la presencia que tienen las cosas reales.
 
 ### ¿Por qué ocurre esto?
 
-La respuesta no es que la tecnología actual sea peor. Es obviamente mejor. Los ordenadores de hoy son incomparablemente más potentes que los de 1993 o 2003. Las herramientas de software son más capaces que nunca. El problema está en **cómo se usan** esas herramientas y en las **condiciones** bajo las que trabajan quienes las manejan.
+La respuesta no es que la tecnología actual sea peor. Es obviamente mejor. Las computadoras de hoy son incomparablemente más potentes que los de 1993 o 2003. Las herramientas de software son más capaces que nunca. El problema está en **cómo se usan** esas herramientas y en las **condiciones** bajo las que trabajan quienes las manejan.
 
 - **Primer factor: volumen de trabajo.** Una película de los años 90 podía tener 50 o 100 planos con efectos digitales. Una película de superhéroes actual puede tener **2.000 o más**. Cada uno de esos planos necesita trabajo de artistas cualificados. Cuando multiplicas el número de planos pero no multiplicas proporcionalmente el presupuesto ni el tiempo, la calidad individual de cada plano se resiente.
 - **Segundo factor: plazos de producción.** Los estudios de efectos visuales han denunciado públicamente en múltiples ocasiones las condiciones bajo las que trabajan. Plazos imposibles, cambios de última hora por parte de los directores, presupuestos que no se corresponden con la cantidad de trabajo solicitado. Artistas altamente cualificados trabajando jornadas agotadoras durante meses para entregar miles de planos a tiempo. En esas condiciones, la calidad se sacrifica porque no queda otra opción.

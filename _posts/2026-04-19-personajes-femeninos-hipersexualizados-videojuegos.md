@@ -33,7 +33,7 @@ comments: true
 
 El debate sobre la hipersexualización en videojuegos suele girar en bucle sobre los mismos argumentos. No se trata de moralina, sino de entender el lenguaje visual de la fantasía.
 
-En el vídeo del canal profundizo en esto, pero en este artículo aporto el contexto histórico y los ejemplos que, por tiempo, no caben en pantalla.
+En el video del canal profundizo en esto, pero en este artículo aporto el contexto histórico y los ejemplos que, por tiempo, no caben en pantalla.
 
 ## La fantasía idealizada no es un invento del videojuego
 

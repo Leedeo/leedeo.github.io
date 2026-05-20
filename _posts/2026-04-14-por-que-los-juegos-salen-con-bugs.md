@@ -25,7 +25,7 @@ faq:
   - question: "¿Es el Early Access una excusa para vender juegos incompletos?"
     answer: "No necesariamente. El Early Access es un modelo de financiación que permite a estudios independientes sobrevivir mientras pulen el juego con feedback real. Juegos como Hades o Baldur's Gate 3 demuestran que, bien gestionado, es una herramienta excelente para alcanzar la excelencia técnica."
   - question: "¿Es suficiente con tener una buena idea para triunfar como indie?"
-    answer: "No. Como detallo en el vídeo, el mercado está saturado y una idea genial es solo el principio. El éxito real requiere un plan realista que incluya marketing, gestión de recursos y, sobre todo, mucha persistencia para superar los años de desarrollo que exige un proyecto comercial."
+    answer: "No. Como detallo en el video, el mercado está saturado y una idea genial es solo el principio. El éxito real requiere un plan realista que incluya marketing, gestión de recursos y, sobre todo, mucha persistencia para superar los años de desarrollo que exige un proyecto comercial."
   - question: "¿Por qué el testeo interno no detecta todos los fallos?"
     answer: "Porque es una cuestión de escala. Lo que un equipo de 50 testers tarda meses en probar, millones de jugadores lo ejecutan en la primera hora de lanzamiento. Es matemáticamente imposible replicar en un laboratorio la diversidad de situaciones que ocurren en el mundo real."
 comments: true
@@ -35,13 +35,13 @@ Cada lanzamiento con problemas técnicos reaviva un mantra: **"Antes esto no pas
 
 La idea de que los juegos antiguos eran perfectos es falsa. Los fallos siempre han estado ahí; lo que ha cambiado es nuestra herramienta para gestionarlos. Antes, un bug era una sentencia de muerte para el stock físico; hoy, es el pretexto para un parche de día uno.
 
-Entender por qué ocurren estos fallos requiere mirar más allá del código. Como explico en el vídeo a continuación, el desarrollo indie no es solo "hacer un juego", sino una carrera de fondo llena de desafíos, falta de recursos y problemas de planificación que, inevitablemente, acaban reflejándose en el producto final.
+Entender por qué ocurren estos fallos requiere mirar más allá del código. Como explico en el video a continuación, el desarrollo indie no es solo "hacer un juego", sino una carrera de fondo llena de desafíos, falta de recursos y problemas de planificación que, inevitablemente, acaban reflejándose en el producto final.
 
 {% include youtube-embed.html id="tZK-9twXUhY" title="La cruda realidad de ser Desarrollador Indie: Lo que nadie te dice" %}
 
 Por eso, muchas veces lo que el usuario indignado percibe como "pereza" del estudio en el día de lanzamiento es, en realidad, el agotamiento de un pequeño equipo que lleva años luchando contra limitaciones técnicas, financieras y de tiempo. Cuando entiendes esto, la perspectiva sobre los errores de desarrollo cambia por completo.
 
-Y para entender cómo hemos llegado a este punto de normalizar el parche, vale la pena echar la vista atrás de forma honesta.
+Y para entender mejor el panorama completo, vale la pena echar la vista atrás con perspectiva.
 
 ## Los juegos siempre tuvieron bugs. Siempre.
 

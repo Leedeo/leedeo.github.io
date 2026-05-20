@@ -90,7 +90,7 @@ Las razones son comprensibles: GIMP es un proyecto de software libre desarrollad
 
 Todo eso es cierto. Pero también es cierto que treinta años es mucho tiempo, y que durante esas tres décadas hubo usuarios que necesitaban esa función para su trabajo diario y no la tuvieron. Reconocer las limitaciones de un proyecto no impide señalar sus carencias.
 
-## Seamos honestos: un gran paso, no la meta
+## Seamos realistas: un gran paso, no la meta
 
 GIMP 3.2 con edición no destructiva es, sin duda, la actualización más importante que el programa ha recibido en años. Posiblemente en décadas. Cierra una brecha que era difícil de justificar y hace que el programa sea una herramienta mucho más competente para trabajo real.
 

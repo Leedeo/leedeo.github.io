@@ -64,9 +64,9 @@ Porque lo que ocurre cuando alguien publica un juego sin ningún esfuerzo de mar
 
 No hace falta contratar una agencia. No hace falta gastar miles de dólares. El marketing de un juego indie empieza mucho antes del lanzamiento y, en su forma más básica, consiste en hacer tres cosas:
 
-- **1. Mostrar el juego mientras se desarrolla.** Publicar avances en redes sociales, compartir capturas, grabar pequeños vídeos del desarrollo, contar qué se está haciendo y por qué. Construir una audiencia antes de tener un producto a la venta. El día del lanzamiento es demasiado tarde para empezar a hablar del juego.
+- **1. Mostrar el juego mientras se desarrolla.** Publicar avances en redes sociales, compartir capturas, grabar pequeños videos del desarrollo, contar qué se está haciendo y por qué. Construir una audiencia antes de tener un producto a la venta. El día del lanzamiento es demasiado tarde para empezar a hablar del juego.
 - **2. Construir una página de Steam cuanto antes.** Steam permite crear la página del juego mucho antes de que esté terminado. Cada persona que añade el juego a su lista de deseados es una persona que va a recibir una notificación el día del lanzamiento. Un juego que llega al día de lanzamiento con 50 wishlists tiene un problema. Un juego que llega con 10.000 tiene una oportunidad.
-- **3. Contactar con creadores de contenido.** Streamers, youtubers, periodistas de medios especializados. Enviar copias del juego a personas que puedan mostrarlo a una audiencia. No todos van a responder, y no todos los que respondan van a cubrir el juego. Pero los que lo hagan pueden generar más visibilidad en un vídeo de 20 minutos que toda la publicidad pagada del mundo.
+- **3. Contactar con creadores de contenido.** Streamers, youtubers, periodistas de medios especializados. Enviar copias del juego a personas que puedan mostrarlo a una audiencia. No todos van a responder, y no todos los que respondan van a cubrir el juego. Pero los que lo hagan pueden generar más visibilidad en un video de 20 minutos que toda la publicidad pagada del mundo.
 
 Nada de esto cuesta dinero. Cuesta **tiempo y esfuerzo**. Y esa es precisamente la barrera que muchos desarrolladores no están dispuestos a cruzar.
 
@@ -169,13 +169,13 @@ Nada de esto garantiza el éxito. Pero no hacer ninguna de estas cosas casi gara
 
 ## La pregunta incómoda
 
-Antes de publicar un juego, todo desarrollador debería hacerse una pregunta y responderse con honestidad:
+Antes de publicar un juego, todo desarrollador debería hacerse una pregunta y responder con total realismo:
 
 *\"Si yo no fuera el creador de este juego, ¿lo compraría?\"*
 
 No si le darías una oportunidad porque conoces al desarrollador. No si lo jugarías si te lo regalaran. **¿Lo comprarías?** ¿Sacarías la tarjeta, pagarías 10 o 15 euros y lo elegirías por encima de los otros 40 juegos que se publican ese mismo día?
 
-Si la respuesta honesta es no, el juego no está listo para venderse. Puede estar listo como proyecto personal, como ejercicio de aprendizaje, como prototipo. Pero no como producto comercial. Y no pasa nada. No todos los juegos tienen que venderse.
+Si la respuesta sincera es no, el juego no está listo para venderse. Puede estar listo como proyecto personal, como ejercicio de aprendizaje, como prototipo. Pero no como producto comercial. Y no pasa nada. No todos los juegos tienen que venderse.
 
 Pero si la intención es venderlo, hay que tratarlo como lo que es: un producto que va a competir en un mercado. Y en un mercado, la calidad del producto y la capacidad de hacerlo visible son igualmente importantes.
 

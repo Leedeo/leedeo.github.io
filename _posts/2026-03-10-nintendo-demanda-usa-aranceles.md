@@ -42,7 +42,7 @@ Nintendo logró mantener ese precio, pero no sin esfuerzo ni sin advertencias. F
 
 Esa declaración es más significativa de lo que parece. Nintendo no dijo "los aranceles no nos afectan", dijo "de momento los absorbemos porque el lanzamiento es demasiado importante como para arriesgarlo". Es una posición defensiva, no una posición de fuerza.
 
-<p class="text-slate-400 italic mb-6 text-center max-w-2xl mx-auto">"Mientras los gigantes corporativos luchan contra las políticas globales, la realidad del sector y el desarrollo de videojuegos está cambiando. De hecho, sobre esta 'otra realidad' hablo en profundidad en este vídeo:"</p>
+<p class="text-slate-400 italic mb-6 text-center max-w-2xl mx-auto">"Mientras los gigantes corporativos luchan contra las políticas globales, la realidad del sector y el desarrollo de videojuegos está cambiando. De hecho, sobre esta 'otra realidad' hablo en profundidad en este video:"</p>
 
 {% include youtube-embed.html id="NWosjlLorEU" title="Por qué aprender Unity o Unreal no te dará trabajo" %}
 

@@ -30,7 +30,7 @@ El desarrollo de videojuegos no debería ser una relación de codependencia tóx
 
 Sin embargo, el panorama actual para la **creación de videojuegos** es más rico que nunca. Existen motores que igualan en potencia a las opciones comerciales y ofrecen modelos de licencia más amigables. Algunos te devuelven la **propiedad absoluta de tu tecnología** gracias al código abierto, mientras que otros ofrecen potencia AAA de forma gratuita hasta alcanzar el éxito comercial.
 
-En el siguiente vídeo analizo a fondo las **mejores alternativas a Unity**, presentando opciones tanto gratuitas con regalías amigables como motores 100% de código abierto para que elijas el ideal según las necesidades de tu videojuego:
+En el siguiente video analizo a fondo las **mejores alternativas a Unity**, presentando opciones tanto gratuitas con regalías amigables como motores 100% de código abierto para que elijas el ideal según las necesidades de tu videojuego:
 
 {% include youtube-embed.html id="WzSrFVa36Lg" title="Top 9 Motores de Videojuegos Gratis" %}
 
@@ -81,7 +81,7 @@ Hay proyectos que trascienden la utilidad técnica buscando una estética muy co
 
 La respuesta es simple: **la herramienta con la que te sientas más cómodo y en flujo constante**. Como desarrollador independiente, no le rindes cuentas a nadie. Instala, prueba distintos programas y quédate con el motor de videojuegos que te permita centrarte en lo importante: diseñar experiencias divertidas. 
 
-Si te decides por el camino abierto de **Godot Engine**, la curva de aprendizaje se acelerará si tienes el acompañamiento adecuado. Te invito a empezar con mi formación orientada a novatos para comprender por qué la comunidad está creciendo tanto. Descubre tu mismo por qué Godot me apasiona en el primer vídeo de mi curso:
+Si te decides por el camino abierto de **Godot Engine**, la curva de aprendizaje se acelerará si tienes el acompañamiento adecuado. Te invito a empezar con mi formación orientada a novatos para comprender por qué la comunidad está creciendo tanto. Descubre tú mismo por qué Godot me apasiona en el primer video de mi curso:
 
 {% include youtube-embed.html id="3ifj5q95qdk" title="¿Por dónde empezar a crear Videojuegos?" %}
 

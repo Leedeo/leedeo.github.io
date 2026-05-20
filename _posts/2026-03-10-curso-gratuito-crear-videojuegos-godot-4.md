@@ -39,7 +39,7 @@ He preparado una guía completa, gratuita y en español para aprender Godot 4 de
   </a>
 </div>
 
-Si el vídeo te ha convencido y quieres acceder al curso completo, lo tienes disponible aquí abajo. Pero si todavía tienes dudas sobre si Godot es el motor adecuado para ti, sigue leyendo porque tiene sentido explicarlo.
+Si el video te ha convencido y quieres acceder al curso completo, lo tienes disponible aquí abajo. Pero si todavía tienes dudas sobre si Godot es el motor adecuado para ti, sigue leyendo porque tiene sentido explicarlo.
 
 ## ¿Qué es Godot Engine y por qué está creciendo tan rápido?
 

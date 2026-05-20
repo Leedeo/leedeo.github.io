@@ -28,7 +28,7 @@ comments: true
 
 En el [artículo anterior](/blog/ia-desarrollo-videojuegos-creatividad/) hablamos de la IA como herramienta creativa: de cómo la cámara o el tractor generaron resistencias similares. Todo eso se mantiene.
 
-Pero hay otra cara de la moneda que merece un análisis propio por sus implicaciones y porque ignorarla sería deshonesto.
+Pero hay otra cara de la moneda que merece un análisis propio por sus implicaciones y que no podemos ignorar si queremos ver el panorama completo.
 
 La palabra que más se repite cuando se habla de IA y creación es **"democratización"**. La idea suena bien: ahora cualquier persona puede crear un videojuego sin saber programar, sin saber dibujar, sin saber componer música. Tres instrucciones a una IA, unos cuantos clics y el resultado es algo que se parece a un juego. Las barreras de entrada han desaparecido. El desarrollo de videojuegos se ha democratizado.
 
@@ -112,7 +112,7 @@ Pensemos en lo que hizo grande a [Red Dead Redemption 2](https://store.steampowe
 
 Esos detalles no estaban ahí porque un algoritmo los generara. Estaban ahí porque personas con oficio, con sensibilidad y con tiempo suficiente los pensaron, los implementaron y los pulieron. ¿Puede una IA generar árboles, nieve y conversaciones? Sí. ¿Va a generar *esos* árboles, *esa* nieve, *esas* conversaciones? Lo que sabemos hasta ahora sugiere que los resultados serán funcionales pero genéricos. Correctos pero sin alma.
 
-Si las grandes empresas usan la IA para gastar menos en lugar de para hacer algo mejor, el resultado va a ser el mismo que ya se vio en la industria del cine con los efectos visuales generados por ordenador: producciones que cuestan menos de producir, que siguen vendiéndose al mismo precio y que ofrecen una experiencia inferior. Más margen para el accionista, menos valor para el jugador.
+Si las grandes empresas usan la IA para gastar menos en lugar de para hacer algo mejor, el resultado va a ser el mismo que ya se vio en la industria del cine con los efectos visuales generados por computadora: producciones que cuestan menos de producir, que siguen vendiéndose al mismo precio y que ofrecen una experiencia inferior. Más margen para el accionista, menos valor para el jugador.
 
 ## La saturación del mercado: el problema de fondo
 

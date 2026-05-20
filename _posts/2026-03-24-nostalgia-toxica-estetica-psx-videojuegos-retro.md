@@ -34,7 +34,7 @@ La **estética PSX** ya no es una rareza en el desarrollo indie; es casi un subg
 
 Antes de entrar en la estética PSX, conviene partir de una idea básica: **lo retro nunca se acaba**. Solo se desplaza.
 
-Para una persona que creció en los años 80, lo retro suele ser la NES, la Master System, los microordenadores o los arcades. Para alguien que fue niño en los 90, lo retro puede ser Super Nintendo, Mega Drive, PlayStation o Nintendo 64. Para una generación más joven, lo retro empieza a ser incluso GameCube, PlayStation 2 o Nintendo DS. Lo que hoy es actual, mañana será viejo para otra generación.
+Para una persona que creció en los años 80, lo retro suele ser la NES, la Master System, las microcomputadoras o los arcades. Para alguien que fue niño en los 90, lo retro puede ser Super Nintendo, Mega Drive, PlayStation o Nintendo 64. Para una generación más joven, lo retro empieza a ser incluso GameCube, PlayStation 2 o Nintendo DS. Lo que hoy es actual, mañana será viejo para otra generación.
 
 Por eso, hablar de una "burbuja retro" tiene sentido solo hasta cierto punto. Lo retro no es una moda cerrada con fecha de caducidad: es una rueda. Siempre habrá una generación nueva mirando hacia atrás con cariño y queriendo rescatar la estética de "su" infancia. Lo que cambia no es el fenómeno, sino el punto del calendario al que estamos mirando.
 

@@ -33,7 +33,7 @@ El equipo de **Dispatch** (AdHoc Studio) recordaba recientemente en [Game Develo
 
 Y tienen razón. Entender esta diferencia no solo es un ejercicio intelectual, sino el primer paso real para cualquiera que quiera diseñar sus propios mundos. De hecho, antes de lanzarse a escribir un guion o picar líneas de código en un motor, lo más importante es asentar estas bases fundamentales.
 
-Si estás en ese punto en el que te estás preguntando precisamente cómo dar tus primeros pasos reales en esta industria, este vídeo te ayudará a poner el foco en lo que de verdad importa antes de abrir cualquier herramienta:
+Si estás en ese punto en el que te estás preguntando precisamente cómo dar tus primeros pasos reales en esta industria, este video te ayudará a poner el foco en lo que de verdad importa antes de abrir cualquier herramienta:
 
 {% include youtube-embed.html id="3ifj5q95qdk" title="¿Por dónde empezar a crear Videojuegos?" %}
 

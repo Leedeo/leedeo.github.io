@@ -106,7 +106,7 @@ Y eso le ha pasado a muchísima más gente de la que parece.
 
 Y este es uno de esos momentos donde el discurso habitual empieza a hacer agua. Porque el consejo de *"consigue 10.000 wishlists"* suena práctico, pero es demasiado bruto. Es como decirle a alguien que necesita *"más gasolina"* sin preguntarse si lo que tiene delante es un coche o un horno.
 
-Y si te preguntas cómo lograr que esa wishlist signifique algo más que un clic distraído, la respuesta pasa por saber comunicar tu juego. No basta con que exista: tiene que entrar por los ojos, generar curiosidad real y dejar claro qué lo hace especial. Justo de eso hablo en este vídeo de mi canal, donde desgloso qué hace que un tráiler funcione y qué lo condena al scroll infinito:
+Y si te preguntas cómo lograr que esa wishlist signifique algo más que un clic distraído, la respuesta pasa por saber comunicar tu juego. No basta con que exista: tiene que entrar por los ojos, generar curiosidad real y dejar claro qué lo hace especial. Justo de eso hablo en este video de mi canal, donde desgloso qué hace que un tráiler funcione y qué lo condena al scroll infinito:
 
 {% include youtube-embed.html id="xFT4UGVw610" title="El secreto para que tu juego no sea ignorado: Tráilers que venden" %}
 

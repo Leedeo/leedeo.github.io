@@ -83,7 +83,7 @@ Ninguno de los dos modelos es objetivamente mejor. Son formas distintas de hacer
 
 ## ¿Cómo se convierte alguien en game dev?
 
-Esta es probablemente la pregunta que más le importa a quien está leyendo esto, así que merece una respuesta honesta.
+Esta es probablemente la pregunta que más le importa a quien está leyendo esto, así que merece una respuesta directa.
 
 No hay un único camino. Hay personas que estudian ingeniería informática o diseño de videojuegos en la universidad y entran en la industria por esa vía. Hay personas que aprenden de forma autodidacta, hacen sus propios proyectos y terminan consiguiendo trabajo o publicando sus juegos de forma independiente.
 
@@ -91,11 +91,11 @@ Casi todos los que se dedican a esto han tenido que aprender a usar un motor de 
 
 Los motores más utilizados hoy son Unity, Unreal Engine y Godot. Los dos primeros son los dominantes en la industria profesional. El tercero es el que ha crecido más rápido en los últimos dos años, especialmente entre desarrolladores independientes, y es el que yo recomendaría a alguien que empieza desde cero por una razón bastante concreta: es gratuito, de código abierto, y no tiene ninguna letra pequeña que te pueda sorprender más adelante.
 
-Si quieres entender exactamente qué pasos dar para empezar, en el siguiente vídeo lo explico con más detalle:
+Si quieres entender exactamente qué pasos dar para empezar, en el siguiente video lo explico con más detalle:
 
 {% include youtube-embed.html id="3ifj5q95qdk" title="¿Por dónde empezar a crear Videojuegos?" %}
 
-Si después de ver el vídeo quieres dar el siguiente paso y aprender a crear videojuegos con Godot desde cero, tienes mi curso gratuito disponible aquí abajo.
+Si después de ver el video quieres dar el siguiente paso y aprender a crear videojuegos con Godot desde cero, tienes mi curso gratuito disponible aquí abajo.
 
 ## ¿Por qué Godot es una buena puerta de entrada al game dev?
 

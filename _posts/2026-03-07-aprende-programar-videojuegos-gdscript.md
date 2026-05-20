@@ -99,7 +99,7 @@ El flujo ideal para tu primera semana:
 
 En esa sesión habrás programado física, input del usuario y movimiento de personaje. Con herramientas de propósito general, ese mismo objetivo llevaría días de configuración.
 
-Para ver este proceso en vídeo desde el primer momento:
+Para ver este proceso en video desde el primer momento:
 
 {% include youtube-embed.html id="x9N1gw2qWEQ" title="Curso Godot 4 desde cero [04] Aprende a programar con GDScript" %}
 

@@ -63,11 +63,11 @@ Con el "AA", en cambio, lo que se está intentando clasificar no es una naturale
 
 No es una categoría de fondo. Es una categoría cosmética.
 
-Y para entender mejor por qué la línea entre indie y AAA sí tiene una lógica clara, mientras que el "doble A" no la tiene, puedes ver este vídeo de mi canal donde desgloso exactamente qué separa a un juego independiente de una superproducción y por qué esa frontera, aunque se esté volviendo borrosa, sigue teniendo sentido:
+Y para entender mejor por qué la línea entre indie y AAA sí tiene una lógica clara, mientras que el "doble A" no la tiene, puedes ver este video de mi canal donde desgloso exactamente qué separa a un juego independiente de una superproducción y por qué esa frontera, aunque se esté volviendo borrosa, sigue teniendo sentido:
 
 {% include youtube-embed.html id="0h_F-gHSeM0" title="Juegos Indie vs AAA: La verdadera diferencia" %}
 
-En el vídeo explico con detalle cómo funciona el presupuesto, la distribución y la libertad creativa en cada modelo. Y si lo ves, te va a quedar todavía más claro por qué meter una supuesta categoría intermedia en medio de todo esto no hace más que confundir.
+En el video explico con detalle cómo funciona el presupuesto, la distribución y la libertad creativa en cada modelo. Y si lo ves, te va a quedar todavía más claro por qué meter una supuesta categoría intermedia en medio de todo esto no hace más que confundir.
 
 ## La gran mentira: que el doble A está "salvando" la industria
 

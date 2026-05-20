@@ -71,7 +71,7 @@ Esta es la herramienta más enfocada en una métrica concreta: **reducir el tiem
 
 ### 4. Leedeo Cleaner: Portátil, transparente y a fondo
 
-Desarrollamos **Leedeo Cleaner** para cubrir una necesidad muy específica: ser la herramienta que llevas en un USB y ejecutas en *cualquier* ordenador sin instalarlo, sin dejar rastro y con acceso a las operaciones de reparación más potentes que ofrece Windows de forma nativa.
+Desarrollamos **Leedeo Cleaner** para cubrir una necesidad muy específica: ser la herramienta que llevas en un USB y ejecutas en *cualquier* computadora sin instalarlo, sin dejar rastro y con acceso a las operaciones de reparación más potentes que ofrece Windows de forma nativa.
 
 A diferencia de los anteriores, Leedeo Cleaner no se limita a cachés y temporales superficiales. Utiliza las herramientas propias de Microsoft (`SFC` y `DISM`) para **verificar y reparar la integridad de los archivos del sistema operativo**. Esto lo pone en una categoría diferente: no es solo un "limpiador", es una herramienta de mantenimiento correctivo.
 

@@ -13,12 +13,12 @@ categories:
 video:
   id: "4RWE829ygVo"
   title: "Las MEJORES herramientas GRATIS para Crear Videojuegos en 2026"
-  description: "Recorrido completo por las mejores herramientas gratuitas para desarrollo de videojuegos: motores, arte 2D y 3D, audio, edición de vídeo y organización de proyectos."
+  description: "Recorrido completo por las mejores herramientas gratuitas para desarrollo de videojuegos: motores, arte 2D y 3D, audio, edición de video y organización de proyectos."
   upload_date: "2026-05-10"
   duration: "PT12M39S"
 faq:
   - question: "¿Qué programas gratis necesito para hacer un videojuego?"
-    answer: "Depende del área: Godot o GameMaker para motor, Blender para 3D, Krita para arte 2D, Audacity para audio, DaVinci Resolve para vídeo y Trello para organización. Todas son gratuitas."
+    answer: "Depende del área: Godot o GameMaker para motor, Blender para 3D, Krita para arte 2D, Audacity para audio, DaVinci Resolve para video y Trello para organización. Todas son gratuitas."
   - question: "¿Blender es gratis para usar en videojuegos?"
     answer: "Sí, Blender es completamente gratuito y de código abierto. Se usa profesionalmente para modelado 3D, animación y creación de assets para videojuegos."
   - question: "¿Qué herramientas de arte digital son gratis para videojuegos?"
@@ -48,7 +48,7 @@ Por eso, más que hacer otra lista genérica de "motores para crear videojuegos"
 
 {% include youtube-embed.html id="4RWE829ygVo" title="Las MEJORES herramientas GRATIS para Crear Videojuegos en 2026" %}
 
-Y sí, el vídeo del canal entra en detalle práctico sobre todo esto, así que lo dejo por aquí porque complementa perfectamente el artículo.
+Y sí, el video del canal entra en detalle práctico sobre todo esto, así que lo dejo por aquí porque complementa perfectamente el artículo.
 
 ## El motor no hace el juego por ti
 
@@ -110,7 +110,7 @@ Mueren porque nadie supo enseñar el juego al mundo.
 
 Puedes hacer algo increíble y aun así fracasar si nadie sabe que existe. Y eso es algo que mucha gente descubre demasiado tarde, cuando lleva dos años desarrollando y se da cuenta de que no tiene ni idea de cómo presentar lo que hizo.
 
-> *Por eso aprender edición de vídeo, marketing básico y comunicación ya no es opcional para muchos desarrolladores independientes.*
+> *Por eso aprender edición de video, marketing básico y comunicación ya no es opcional para muchos desarrolladores independientes.*
 
 No porque tengan que convertirse en influencers, sino porque necesitan saber mostrar su trabajo de forma mínimamente atractiva.
 
@@ -138,7 +138,7 @@ Las herramientas importan. Claro que importan. Pero ninguna sustituye la constan
 
 ## Entonces, ¿qué debería aprender alguien que empieza?
 
-La respuesta honesta es: **un poco de todo**.
+La realidad es: **un poco de todo**.
 
 No necesitas ser experto en todas las áreas. Pero sí entender qué papel juega cada una dentro del proceso. Porque hacer videojuegos no es aprender un motor y ya. Es aprender a conectar muchas disciplinas distintas para construir una experiencia completa.
 

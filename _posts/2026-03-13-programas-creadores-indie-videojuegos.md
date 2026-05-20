@@ -38,7 +38,7 @@ Para entender cómo encaja la creación de contenido con la fase inicial de tu d
 
 ## Qué es exactamente un programa de creadores
 
-Un programa de creadores es una relación continuada entre un estudio o publisher y un grupo de creadores de contenido, estructurada de forma que beneficie a ambas partes más allá de un intercambio transaccional puntual. En lugar de pagar a alguien para que haga un vídeo y ya, se construye una comunidad de creadores que tienen acceso preferente a información, builds anticipadas, contacto directo con el equipo de desarrollo y, en algunos casos, la posibilidad de influir en el propio desarrollo del juego.
+Un programa de creadores es una relación continuada entre un estudio o publisher y un grupo de creadores de contenido, estructurada de forma que beneficie a ambas partes más allá de un intercambio transaccional puntual. En lugar de pagar a alguien para que haga un video y ya, se construye una comunidad de creadores que tienen acceso preferente a información, builds anticipadas, contacto directo con el equipo de desarrollo y, en algunos casos, la posibilidad de influir en el propio desarrollo del juego.
 
 La diferencia con una campaña de patrocinio estándar es de fondo, no solo de forma. En un patrocinio, el creador recibe dinero a cambio de contenido. En un programa de creadores bien estructurado, el creador recibe valor de otra naturaleza: acceso, visibilidad dentro de una comunidad, herramientas para crecer su propia audiencia, y una relación con el estudio que el dinero no siempre compra. El resultado, cuando funciona, es contenido más auténtico y más duradero.
 
@@ -76,7 +76,7 @@ El otro error que se repite es confundir \"programa de creadores\" con \"lista d
 
 El modelo descrito en los análisis de Gamesight está pensado principalmente para juegos con servicio continuo y equipos con recursos para gestionar estos programas de forma profesional. Para un indie que está desarrollando su primer o segundo juego, la versión aplicable es considerablemente más humilde, pero los principios son los mismos.
 
-Identificar quién está creando contenido sobre juegos similares al tuyo antes de lanzar. Contactarles de forma directa y honesta: no un email de marketing genérico, sino un mensaje real que demuestre que has visto su contenido y que sabes por qué encaja. Ofrecerles acceso anticipado a cambio de feedback genuino, no de cobertura garantizada. Y mantener esa relación aunque no genere contenido inmediato, porque los creadores que confían en un estudio tienden a volver cuando el juego sale.
+Identificar quién está creando contenido sobre juegos similares al tuyo antes de lanzar. Contactarles de forma directa y personalizada: no un email de marketing genérico, sino un mensaje real que demuestre que has visto su contenido y que sabes por qué encaja. Ofrecerles acceso anticipado a cambio de feedback genuino, no de cobertura garantizada. Y mantener esa relación aunque no genere contenido inmediato, porque los creadores que confían en un estudio tienden a volver cuando el juego sale.
 
 No necesitas veinte millones de dólares en *Earned Media Value* para que esto valga la pena. Necesitas que tres o cuatro creadores con comunidades pequeñas pero relevantes confíen en tu juego lo suficiente como para mostrárselo a su audiencia con entusiasmo real. Eso, en el mercado actual donde hay casi 19.000 juegos lanzados en Steam al año, puede ser la diferencia entre que tu juego sea descubierto o no.
 

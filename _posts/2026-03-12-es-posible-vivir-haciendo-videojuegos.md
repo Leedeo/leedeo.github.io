@@ -98,11 +98,11 @@ El movimiento de sindicalización en la industria, que ha crecido notablemente d
 
 ## La respuesta que sí tiene sentido dar
 
-¿Es posible vivir de los videojuegos en 2026? Sí. Pero exige ser honesto sobre en qué punto de partida estás.
+¿Es posible vivir de los videojuegos en 2026? Sí. Pero exige tener claridad sobre el punto de partida real.
 
 Si tienes experiencia demostrable, un portafolio sólido y disposición a competir en un mercado laboral que acaba de salir de su peor crisis en décadas, el empleo en la industria es un camino real aunque complicado. Si tienes habilidades técnicas o artísticas específicas y capacidad para vender y gestionar clientes, el freelance puede funcionar como complemento o como puente. Y si tienes paciencia para construir de manera incremental, sin depender de que el primer juego sea un éxito, el modelo indie tiene ejemplos reales de personas que han conseguido hacer que funcione.
 
-Lo que no tiene ningún sentido es esperar resultados de cualquiera de estos caminos sin la combinación de habilidad, persistencia y una evaluación honesta del mercado en el que se está intentando operar.
+Lo que no tiene ningún sentido es esperar resultados de cualquiera de estos caminos sin la combinación de habilidad, persistencia y una evaluación realista del mercado en el que se está intentando operar.
 
 El sector del videojuego es enorme y seguirá creciendo. Pero enorme no significa fácil. Significa competitivo.
 

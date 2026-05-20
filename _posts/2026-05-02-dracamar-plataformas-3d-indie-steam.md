@@ -62,7 +62,7 @@ Y ahí está una de las razones por las que vale la pena seguirles la pista a pr
 
 ## Por qué merece atención
 
-Si te interesan los juegos que salen de la ruta habitual, puedes echar un vistazo también a su [página oficial](https://dracamar.cat/index.html?lang=es). Y si quieres ver la parte más cercana a la experiencia de juego, el vídeo enlazado más arriba completa muy bien este contexto.
+Si te interesan los juegos que salen de la ruta habitual, puedes echar un vistazo también a su [página oficial](https://dracamar.cat/index.html?lang=es). Y si quieres ver la parte más cercana a la experiencia de juego, el video enlazado más arriba completa muy bien este contexto.
 
 **A veces no hace falta reinventar el género para merecer atención. A veces basta con hacer las cosas con identidad propia.**
 

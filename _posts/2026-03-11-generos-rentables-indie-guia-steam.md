@@ -28,7 +28,7 @@ comments: true
 
 Si estás pensando en crear tu primer juego, o el próximo después de uno que no funcionó como esperabas, seguro que te has preguntado: ¿qué tipo de juego tiene más posibilidades de éxito?
 
-La respuesta honesta es que no hay garantías. Pero los datos cuentan una historia clara sobre las oportunidades reales y sobre dónde se sigue perdiendo tiempo en géneros que el mercado ya rechaza.
+La realidad es que no hay garantías. Pero los datos cuentan una historia clara sobre las oportunidades reales y sobre dónde se sigue perdiendo tiempo en géneros que el mercado ya rechaza.
 
 De hecho, antes de sumergirnos en los números duros y los porcentajes de Steam, si este es tu primer intento en el mundo del desarrollo, quizás tu mayor barrera no sea el género, sino saber cómo dar los primeros pasos sin abrumarte. Si estás en ese punto exacto del camino, este es el lugar correcto por donde empezar:
 

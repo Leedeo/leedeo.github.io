@@ -190,7 +190,7 @@ Antes de que te bloquees aprendiendo una herramienta gigante por miedo a equivoc
 
 {% include youtube-embed.html id="NWosjlLorEU" title="Por qué aprender Unity o Unreal no te dará trabajo" %}
 
-Lo que cuentan estos números de Brotato o Buckshot Roulette, sumados a la realidad de la contratación que menciono en el vídeo, es bastante claro.
+Lo que cuentan estos números de Brotato o Buckshot Roulette, sumados a la realidad de la contratación que menciono en el video, es bastante claro.
 
 No estamos hablando de un motor donde "algún día" habrá éxitos. Los éxitos ya están aquí. Llevan años aquí. Y cada vez que aparece uno nuevo, la lista de argumentos en contra de Godot se hace un poco más corta.
 

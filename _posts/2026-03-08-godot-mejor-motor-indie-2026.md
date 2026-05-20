@@ -98,7 +98,7 @@ Si quieres ver cómo se traduce toda esta teoría en un flujo de trabajo real co
 
 ## ¿Qué limitaciones tiene Godot en 2026?
 
-La honestidad es parte del análisis técnico. Godot en 2026 tiene áreas donde aún no compite de igual a igual con Unreal Engine o Unity:
+Un análisis técnico riguroso requiere ver ambas caras de la moneda. Godot en 2026 tiene áreas donde aún no compite de igual a igual con Unreal Engine o Unity:
 
 *   **Gráficos AAA de alto presupuesto:** La pipeline de renderizado de Godot es excelente para proyectos indie y mid-budget, pero para el nivel de fotorrealismo de un AAA de 300 millones de presupuesto, Unreal sigue siendo la herramienta reina.
 *   **Consolas:** El soporte nativo para consolas (PS5, Xbox) no está disponible en la versión pública. Existen proveedores de terceros que ofrecen ports de consola, pero hay que contratar el servicio.

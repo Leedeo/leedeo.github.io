@@ -175,7 +175,7 @@ Si alguien utiliza herramientas de IA para generar los gráficos, la música, lo
 
 Llamar a esa persona \"director\" no es descabellado. Es, de hecho, bastante preciso. Y la habilidad necesaria para hacerlo bien es real, considerable y digna de reconocimiento, aunque sea una habilidad diferente a la de alguien que programa, dibuja o compone a mano.
 
-No todo el que use IA va a producir algo bueno, exactamente igual que no todo el que tiene una cámara es fotógrafo y no todo el que tiene un ordenador con Blender va a hacer una película nominada al Oscar. La herramienta no garantiza el resultado. Lo que determina el resultado es la capacidad de la persona que la usa.
+No todo el que use IA va a producir algo bueno, exactamente igual que no todo el que tiene una cámara es fotógrafo y no todo el que tiene una computadora con Blender va a hacer una película nominada al Oscar. La herramienta no garantiza el resultado. Lo que determina el resultado es la capacidad de la persona que la usa.
 
 ## Lo que de verdad debería preocupar
 

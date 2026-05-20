@@ -25,7 +25,7 @@ faq:
     answer: "Un tráiler efectivo debe mostrar una propuesta visual clara, gameplay real, el gancho o mecánica diferencial del juego y transmitir el tono correcto del proyecto."
 comments: true
 ---
-Un error común en el desarrollo indie es creer que cualquier vídeo sirve como tráiler: un montaje rápido, música épica y el logo al final.
+Un error común en el desarrollo indie es creer que cualquier video sirve como tráiler: un montaje rápido, música épica y el logo al final.
 
 No es así. Un tráiler tiene una función crítica: **hacer que el jugador se detenga y quiera saber más**. En un mercado saturado con decenas de lanzamientos diarios, es la diferencia entre ganar tracción o quedar enterrado bajo una montaña de juegos invisibles.
 
@@ -208,7 +208,7 @@ Todo el mundo dice que quiere un tráiler original. Muy pocos hacen el esfuerzo 
 
 Montajes con música épica genérica, frases vacías del tipo *“una aventura inolvidable”*, logos que aparecen envueltos en humo, pantallas llenas de texto porque el juego no se explica solo... está todo tan visto que ya no impresiona a nadie.
 
-Ser original no significa hacer algo raro por hacer. Significa encontrar la forma más honesta y efectiva de mostrar lo que hace especial a tu juego.
+Ser original no significa hacer algo raro por hacer. Significa encontrar la forma más clara y efectiva de mostrar lo que hace especial a tu juego.
 
 Y si tu juego no parece especial en el tráiler, el espectador va a asumir que no lo es.
 

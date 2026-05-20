@@ -30,7 +30,7 @@ Parece una pregunta con respuesta fácil, y durante un tiempo la tuvo. Pero el c
 
 Porque cuando un título desarrollado por una filial de una de las corporaciones más grandes de Corea del Sur gana el premio a Mejor Juego Independiente, algo no encaja. Cuando estudios con decenas de empleados y presupuestos millonarios se presentan como "indie", la etiqueta comienza a perder su propósito original.
 
-Para entender mejor esta tensión entre la escala del proyecto y la realidad del mercado, es fundamental ver este vídeo de mi canal, **Leedeo Station**, donde desgloso precisamente qué separa hoy a un juego independiente de un triple A y por qué la línea es cada vez más borrosa:
+Para entender mejor esta tensión entre la escala del proyecto y la realidad del mercado, es fundamental ver este video de mi canal, **Leedeo Station**, donde desgloso precisamente qué separa hoy a un juego independiente de un triple A y por qué la línea es cada vez más borrosa:
 
 {% include youtube-embed.html id="0h_F-gHSeM0" title="Juegos Indie vs AAA: La verdadera diferencia" %}
 
