@@ -1,10 +1,22 @@
-# Jekyll - Archivos generados
+# Jekyll - Archivos generados (se crean solos, no se suben)
 _site/
 .jekyll-cache/
 .jekyll-metadata
+.sass-cache/
 
-# Dependencias
+# Dependencias (se crean solas al instalar, no se suben)
 node_modules/
+vendor/
+.bundle/
+
+# Registros de errores
+npm-debug.log*
+yarn-error.log*
+*.log
+
+# Secretos - NUNCA se suben (contraseñas, claves, tokens)
+.env
+.env.*
 
 # Herramientas locales (NO se suben)
 _herramientas/
@@ -16,3 +28,4 @@ build-tailwind.sh
 # Archivos del sistema
 .DS_Store
 Thumbs.db
+desktop.ini
